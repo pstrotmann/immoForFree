@@ -1,7 +1,7 @@
 package org.strotmann.immos
 
 class Betriebskostenabrechnung implements Comparable{
-	//als nächstes zu realisieren
+	//als nächstes zu realisieren, nach Prüfung, was bereits läuft
 	Mietvertrag mietvertrag
 	
 	static belongsTo = [immoabrechnung:Immoabrechnung ]
