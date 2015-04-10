@@ -1,0 +1,42 @@
+package org.strotmann.immos
+
+import org.springframework.dao.DataIntegrityViolationException
+
+class RechnungController {
+
+    def scaffold = true
+	
+	def list(Integer max) {
+		params.max = Math.min(max ?: 100, 1000)
+		[rechnungInstanceList: Rechnung.getRechnungen(), rechnungInstanceTotal: Rechnung.count()]
+	}
+    
+    def create() {
+		flash.rolle1 = flash.rolle
+		flash.partner1 = flash.partner
+		def partnerrolleInstance = new Partnerrolle(rolle:flash.rolle, partner:flash.partner)
+        [rechnungInstance: new Rechnung(params)]
+    }
+
+    def save() {
+        def rechnungInstance = new Rechnung(params)
+		if (flash.partner1)
+		rechnungInstance.rechnungssteller = new Partnerrolle(rolle:flash.rolle1, partner:flash.partner1).save(flush: true)
+		if (params.partner) {
+			def partnerInstance = Partner.get(params.partner.id)
+			rechnungInstance.rechnungssteller = new Partnerrolle(rolle:"Rechnungssteller", partner:partnerInstance).save(flush: true)
+		}
+		
+        if (!rechnungInstance.save(flush: true)) {
+            render(view: "create", model: [rechnungInstance: rechnungInstance])
+            return
+        }
+		
+		def partnerrolleInstance = Partnerrolle.get(rechnungInstance.rechnungssteller.id)
+		partnerrolleInstance.rechnung = rechnungInstance
+		partnerrolleInstance.save(flush: true)
+
+        flash.message = message(code: 'default.created.message', args: [message(code: 'rechnung.label', default: 'Rechnung'), rechnungInstance.id])
+        redirect(action: "show", id: rechnungInstance.id)
+    }
+}

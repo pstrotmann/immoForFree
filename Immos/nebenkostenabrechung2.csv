@@ -1,0 +1,19 @@
+Betriebskostenabrechnung ;2013;Monat:01-12
+Südring  160 , 45711  Datteln,2013,vom:07.05.14
+Mieter:;Kaypak
+Kostenart;Gesamtbetrag;Umlagebetrag;Umlageschlüssel;Formel;Betrag
+Grundsteuer;910,46;910,46;qm;40,15/321,76;113,61
+Müllabfuhr;737,90;737,90;Personen;1/11;67,08
+Entwässerung;1.349,76;1.349,76;Personen;1/10;116,23
+Entwässerung Fläche;187,68;187,68;qm;40,15/321,76;23,42
+Straßenreinigung;51,36;51,36;qm;40,15/321,76;6,41
+Strom allgemein;173,48;173,48;qm;40,15/321,76;14,09
+Gebäudeversicherung;797,06;797,06;qm;40,15/321,76;99,46
+Haftpflichtversicherung;78,32;78,32;qm;40,15/321,76;9,77
+Wasser;870,72;870,72;Personen;1/10;74,98
+Schornsteinfeger;229,49;229,49;qm;40,15/321,76;28,64
+Dachrinnenreinigung;125,40;125,40;qm;40,15/321,76;15,65
+Heizungswartung;252,28;252,28;Haushalt;1/4;63,07
+;;;Summe;;632,41
+;;;gezahlte Pauschale;12*70,00 ;840,00
+;;;Ihr Guthaben:;;207,59

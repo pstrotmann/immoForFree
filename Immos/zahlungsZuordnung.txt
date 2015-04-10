@@ -1,0 +1,1078 @@
+==============================Am Gulloh  49 , 44339  Dortmund ==== 04.01.15 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.04.2014 Darl.-Leistung  855278200  Fuer 01.01.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E    -1567,50
+ 01.04.2014 Darl.-Leistung  855276054  Fuer 01.01.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E     -787,50
+ 01.07.2014 Darl.-Leistung 855278200 Fuer 01.04.2014 - 30.06.2014Zinsen  PETER STROTMANN UND GABRIEL E    -1560,00
+ 01.10.2014 Darl.-Leistung 855278200 Fuer 01.07.2014 - 30.09.2014Zinsen  PETER STROTMANN UND GABRIEL E    -1552,50
+ 01.01.2015 Darl.-Leistung 855278200 F�r 01.10.2014 - 30.12.2014Zinsen 4 PETER STROTMANN UND GABRIEL E    -1545,00
+                                                                                             Summe Kredit -7012,50
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 22.01.2014 DO, AM GULLOH 49, Rechnung 7001541879, Faelligkeit 17.01.201 DEW21 Netz GmbH                     -6,79
+ 03.02.2014 DO, AM GULLOH 49                                             DEW21 Netz GmbH                   -388,76
+ 17.02.2014 Grundsteuer B 2014 AM GULLOH 049Strassenreinigung 2014 AM GU Stadt Dortmund NKF                -369,93
+ 26.02.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 26.03.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 01.04.2014 SACH VSNR S51216759 01.04.2014 EUR 125,02                    Westfaelische Provinzial          -125,02
+ 25.04.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 28.04.2014 Muellabfuhr 2014 AM GULLOH 049                               Stadt Dortmund NKF                 -18,71
+ 13.05.2014 Kd.Nr: 1984-0137 Re-Nr:2014-0062 v.19.2.14       DATUM 13.05 Crystal Clear Glasreinigung Sa    -180,00
+ 15.05.2014 Zahlungsavis 552001673758                                    Stadt Dortmund NKF                -426,08
+ 26.05.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 13.06.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortm.En.-u.Wasservers.           -487,00
+ 25.06.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 30.06.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortm.En.-u.Wasservers.           -114,00
+ 01.07.2014 R26796017-D01890134 INCL. 20,12 MWST VTR. 02009807 ABSCHLAGS ExtraEnergie GmbH                 -126,00
+ 25.07.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 25.07.2014 VK 310461773 ,DO, AM GULLOH 49, Rechnung 7001447139, Faellig Dortm.En.-u.Wasservers.           -296,94
+ 30.07.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortm.En.-u.Wasservers.           -114,00
+ 01.08.2014 R27466348-D01890134 INCL. 20,12 MWST VTR. 02009807 ABSCHLAGS EXTRAENERGIE GMBH                 -126,00
+ 15.08.2014 Zahlungsavis 552001815043                                    Stadt Dortmund NKF                -426,08
+ 20.08.2014 reNr 2014-0231 v. 2.6.14 Glasreinigung Am Gulloh 49 DATUM 20 Crystal Clear Glasreinigung       -190,00
+ 27.08.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 01.09.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortm.En.-u.Wasservers.           -114,00
+ 01.09.2014 R28643572-D01890134 INCL 20,12 MWST VTR 02009807 ABSCHLAGSZA EXTRAENERGIE GMBH                 -126,00
+ 01.09.2014 SACH VSNR S50760187 01.09.2014 EUR 917,53                    Westfaelische Provinzial          -917,53
+ 10.09.2014 SACH VSNR S51490875 02.09.2014 EUR 284,46                    Westfaelische Provinzial          -284,46
+ 25.09.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, DEW21 Netz GmbH                    183,00
+ 30.09.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortm.En.-u.Wasservers.           -114,00
+ 01.10.2014 R29524291-D01890134 INCL 20,12 MWST VTR 02009807 ABSCHLAGSZA EXTRAENERGIE GMBH                 -126,00
+ 27.10.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, Dortmunder Netz GmbH               183,00
+ 28.10.2014 ReNr: 544/14/2319 V.25.10.2014 DATUM 28.10.2014, 18.48 UHR 1 Lange Schornsteinfeger             -27,12
+ 30.10.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortm.En.-u.Wasservers.           -114,00
+ 03.11.2014 R30507144-D01890134 INCL 20,12 MWST VTR 02009807 ABSCHLAGSZA EXTRAENERGIE GMBH                 -126,00
+ 17.11.2014 Zahlungsavis 552001952952                                    Stadt Dortmund NKF                -426,08
+ 26.11.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, Dortmunder Netz GmbH               183,00
+ 01.12.2014 R31083822-D01890134 INCL 20,12 MWST VTR 02009807 ABSCHLAGSZA EXTRAENERGIE GMBH                 -126,00
+ 01.12.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortmunder Energie- und Wasser    -114,00
+ 22.12.2014 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30200664281, Dortmunder Netz GmbH               183,00
+ 30.12.2014 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 3080026350 Dortmunder Energie- und Wasser    -114,00
+ 02.01.2015 R32173296-D01890134 INCL 20,12 MWST VTR 02009807 ABSCHLAGSZA EXTRAENERGIE GMBH                 -126,00
+                                                                                  Summe nicht umlagefähig -4237,50
+
+                                                                                  Summe 44339Am Gulloh49 -11250,00
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 04.01.15 ========================
+------------------------------Kredit------------------------------------------------------------------------------
+ 05.02.2014 WUSTENROT BANK AG 01/14 2071008242 412,8901/14 2076596886 42 PETER STROTMANN                   -412,89
+ 03.03.2014 WUSTENROT BANK AG 02/14 2076596886 425,7402/14 2073032698 61 PETER STROTMANN                   -412,89
+ 01.04.2014 WUSTENROT BANK AG 03/14 2080198356 573,6703/14 2071008242 41 PETER STROTMANN                   -412,89
+ 02.05.2014 WUSTENROT BANK AG 04/14 2073032698 612,6904/14 2071008242 41 PETER STROTMANN                   -412,89
+ 02.06.2014 WUSTENROT BANK AG 05/14 2076596886 425,7405/14 2071008242 41 PETER STROTMANN                   -412,89
+ 30.06.2014 per 30.06.14 Antrag 6402896952 Objekt 44339 Dortmund Lindenh Wohnraumfoerderung               -3862,83
+ 01.07.2014 WUSTENROT BANK AG 06/14 2080198356 573,6706/14 2071008242 41 PETER STROTMANN                   -412,89
+ 01.08.2014 WUSTENROT BANK AG 07/14 2080198356 573,6707/14 2071008242 41 PETER STROTMANN                   -412,89
+ 01.09.2014 WUSTENROT BANK AG 08/14 2080198356 573,6708/14 2071008242 41 PETER STROTMANN                   -412,89
+ 01.10.2014 WUSTENROT BANK AG 09/14 2071008242 412,8909/14 2073032698 61 PETER STROTMANN                   -412,89
+ 04.11.2014 WUSTENROT BANK AG 10/14 2071008242 412,8910/14 2080198356 57 PETER STROTMANN                   -412,89
+ 01.12.2014 WUSTENROT BANK AG 11/14 2080198356 645,4311/14 2071008242 41 PETER STROTMANN                   -412,89
+ 02.01.2015 WUSTENROT BANK AG 12/14 2076596886 425,7412/14 2073032698 61 PETER STROTMANN                   -412,89
+ 02.01.2015 per 02.01.15 Antrag 6402896952 Objekt 44339 Dortmund, Linden NRW.BANK                         -3862,83
+                                                                                            Summe Kredit -12680,34
+------------------------------Miete-------------------------------------------------------------------------------
+ 30.12.2013 MIETE KARAKAYA                                               SIBEL KARAKAYA                     485,00
+ 02.01.2014 MIETE INKL. NEBENKOSTEN                                      SERTAN BARAN UND MEHTAP BARAN      500,00
+ 02.01.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 03.01.2014 MIETE JANUAR 2014.                                           KRZEMIEN EUGENIUSZ                 463,39
+ 08.01.2014 LINDENHORSTERSTR 236 AKSAKAL MIETE                           AKSAKAL OEZTEKIN                   694,52
+ 15.01.2014 MIETE                                                        ELKE WICKE                         346,00
+ 16.01.2014 MIETE                                                        Sunay Sumer                        720,00
+ 31.01.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 31.01.2014 Miete Januar 2014                                            Treibmann, Rene Thorsten           720,00
+ 03.02.2014 MIETE0214                                                    EUGENIUSZ KRZEMIEN                 463,39
+ 03.02.2014 MIETE                                                        ELKE WICKE                         346,00
+ 03.02.2014 MIETE INKL. NEBENKOSTEN                                      SERTAN BARAN UND MEHTAP BARAN      500,00
+ 03.02.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 06.02.2014 Miete lindenhossterstr 236 aksakal                           Aksakal Oztekin                    694,52
+ 18.02.2014 MIETE                                                        Sunay Sumer                        720,00
+ 28.02.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 28.02.2014 Miete Februar 2014                                           Treibmann, Rene Thorsten           720,00
+ 03.03.2014 MIETE INKL. NEBENKOSTEN                                      SERTAN BARAN UND MEHTAP BARAN      500,00
+ 03.03.2014 MIETE                                                        ELKE WICKE                         346,00
+ 03.03.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 04.03.2014 MIETE MAERZ2014                                              EUGENIUSZ KRZEMIEN                 463,39
+ 07.03.2014 Miete lindenhorster 236 aksakal                              Aksakal Oztekin                    694,52
+ 18.03.2014 MIETE                                                        Sunay Sumer                        720,00
+ 31.03.2014 Miete Maerz 2014                                             Treibmann, Rene Thorsten           720,00
+ 31.03.2014 BETRIEBSKOSTENERSTATTUNG 2013                    DATUM 29.03 CZERNY,HALINA                     -152,31
+ 31.03.2014 HK/NK 2013            DATUM 29.03.2014, 19.59 UHR1.TAN 74155 Suemer                             -93,51
+ 31.03.2014 HK/NK 2013 ERSTATTUNG DATUM 29.03.2014, 19.58 UHR1.TAN 57507 BARAN                             -111,57
+ 31.03.2014 ERSTATTUNG HEIZ U. NEBENKOS 2013                 DATUM 29.03 WICKE, ELKE                       -236,11
+ 31.03.2014 HK/NK 2013            DATUM 29.03.2014, 19.55 UHR1.TAN 47589 Karakaya                           -28,72
+ 31.03.2014 HK/NK 2013            DATUM 29.03.2014, 19.52 UHR1.TAN 55622 Krzemien                           -94,71
+ 01.04.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 01.04.2014 MIETE                                                        ELKE WICKE                         346,00
+ 01.04.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 01.04.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 02.04.2014 MIETE APRIL2014                                              EUGENIUSZ KRZEMIEN                 463,39
+ 02.04.2014 Aksakal Betriebskosten - und Heizk.                          Mehmet Aksakal                     136,77
+ 04.04.2014 Miete lindenhorster 236aksakal                               Aksakal Oztekin                    694,52
+ 16.04.2014 MIETE                                                        Sunay Sumer                        720,00
+ 30.04.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 30.04.2014 Miete April 2014                                             Treibmann, Rene Thorsten           750,00
+ 02.05.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 02.05.2014 MIETE                                                        ELKE WICKE                         346,00
+ 02.05.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 05.05.2014 MIETE MAT 2014                                               EUGENIUSZ KRZEMIEN                 463,39
+ 13.05.2014 07 Miete lindenhorster 236aksakal                            Aksakal Oztekin                    694,52
+ 16.05.2014 MIETE                                                        Sunay Sumer                        720,00
+ 30.05.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 02.06.2014 MIETE                                                        ELKE WICKE                         346,00
+ 02.06.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 02.06.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 03.06.2014 MIETE JUNI 2014                                              EUGENIUSZ KRZEMIEN                 463,39
+ 06.06.2014 Miete lindenhorster 236aksakal                               Aksakal Oztekin                    694,52
+ 11.06.2014 Miete Treibmann 82015574331/1700048331605                    Bundesagentur fuer Arbeit-Serv    1440,00
+ 17.06.2014 MIETE                                                        Sunay Sumer                        720,00
+ 01.07.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 01.07.2014 RIETE JULI 2014.                                             EUGENIUSZ KRZEMIEN                 463,39
+ 01.07.2014 Miete Treibmann 96015724797/1700048331605                    Bundesagentur fuer Arbeit-Serv     720,00
+ 01.07.2014 MIETE                                                        ELKE WICKE                         346,00
+ 01.07.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 01.07.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 08.07.2014 Miete lindenhorster 236 aksakaljuli                          Aksakal Oztekin                    694,52
+ 16.07.2014 MIETE                                                        Sunay Sumer                        720,00
+ 31.07.2014 Miete Treibmann 80016160545/1700048331605                    Bundesagentur fuer Arbeit-Serv     720,00
+ 01.08.2014 MIETE                                                        ELKE WICKE                         346,00
+ 01.08.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 01.08.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 01.08.2014 MIETE KARAKAYA                                               Karakaya, Sibel                    485,00
+ 04.08.2014 MIETE AUG 14                                                 EUGENIUSZ KRZEMIEN                 463,39
+ 05.08.2014 Miete lindenhorster 236 August 14aksakal                     Aksakal Oztekin                    694,52
+ 18.08.2014 MIETE                                                        Sunay Sumer                        720,00
+ 29.08.2014 Miete Treibmann 80016445303/1700048331605                    Bundesagentur fuer Arbeit-Serv     720,00
+ 01.09.2014 MIETE                                                        ELKE WICKE                         346,00
+ 01.09.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 01.09.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 03.09.2014 MIETE SEPTEMBER 2014                                         EUGENIUSZ KRZEMIEN                 463,39
+ 05.09.2014 Miete lindenhorster 236 Septemberaksakal                     Aksakal Oztekin                    694,52
+ 16.09.2014 MIETE                                                        Sunay Sumer                        720,00
+ 30.09.2014 Miete Treibmann 08015780282/1700048331605                    Bundesagentur fuer Arbeit-Serv     720,00
+ 01.10.2014 MIETE                                                        ELKE WICKE                         346,00
+ 01.10.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 01.10.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 02.10.2014 MIETE NOVEMBER14                                             EUGENIUSZ KRZEMIEN                 463,39
+ 03.10.2014 Miete lindenhorster 236 Oktoberaksakal                       Aksakal Oztekin                    694,52
+ 08.10.14 Miete bar:Wohnung,2.OG-li                                    Karakaya                           650,00
+ 16.10.2014 MIETE                                                        Sunay Sumer                        720,00
+ 30.10.2014 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 7801 Bundesagentur fuer Arbeit-Serv     720,00
+ 03.11.2014 MIETE NOVEMBER 2014'                                         EUGENIUSZ KRZEMIEN                 463,39
+ 03.11.2014 MIETE                                                        ELKE WICKE                         346,00
+ 03.11.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 03.11.2014 MIETE                                                        HALINA CZERNY                      466,00
+ 05.11.2014 Miete lindenhorster 236 novemberaksakal                      Aksakal Oztekin                    694,52
+ 06.11.14 Miete bar:Wohnung,2.OG-li                                    Karakaya                           500,00
+ 18.11.2014 MIETE                                                        Sunay Sumer                        720,00
+ 28.11.2014 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 2201 Bundesagentur fuer Arbeit-Serv     720,00
+ 01.12.2014 MIETE                                                        Elke Wicke                         346,00
+ 01.12.2014 MIETE INKL. NEBENKOSTEN                                      Sertan Baran und Mehtap Baran      500,00
+ 01.12.2014 MIETE                                                        Halina Czerny                      466,00
+ 02.12.2014 MIETE DEZEMBER 2014                                          Eugeniusz Krzemien                 463,39
+ 02.12.2014 Miete lindenhorster 236 Dezemberaksakal                      Aksakal Oztekin                    694,52
+ 06.12.14 Miete bar:Wohnung,2.OG-li                                    Karakaya                           790,00
+ 16.12.2014 MIETE                                                        Sunay Sumer                        720,00
+                                                                                              Summe Miete 52188,76
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 09.01.2014 RE-262-09012014            LINDENHORSTER 236          ROHRVE NAUJOKAT AUSBAUSERVICE           -1106,11
+ 22.01.2014 RE 015-2014, V. 20.1.2014 LINDENHORST,  Sprechanlage         HACHENEUER ELEKTROTECHNIK         -609,16
+ 04.02.2014 AUSZAHLUNG HEIZUNGSRUECKLAG                                  PAWLOWSKI MANFRED                  878,31
+ 09.05.2014 RE.NR. 405859327 VOM 7.5.14 LINDENHORSTER 236    DATUM 09.05 BRUNATA EVING                      -98,06
+ 16.06.2014 Kd 11270, Re 11400337 v.13.6.14 Lindenhorst Suemer, Rollade  Fellner, Glasbau                  -121,98
+ 30.06.2014 KD.NR 10067 R005067 v.18.6.2014 Lindenhorst, Baran Waschmasc LEIDAG, WOLFGANG                  -103,58
+ 01.07.2014 R301382 DO Lindenhorster 236, Baran, Terassentuer DATUM 01.0 Volmer Service GmbH               -450,83
+ 21.07.2014 KD.NR 10067 R005077 v.19.7.2014 Lindenhorst, Krzmien Grohe I LEIDAG, WOLFGANG                   -90,68
+ 02.09.2014 Kdnr 19138 ReNr 10861 v.2.9.14 DATUM 02.09.2014, 16.51 UHR 1 Dollex Dichtungen e.K.             -50,22
+ 29.09.2014 KD.NR 10067 R005120 v.27.9.2014 Lindenhorster 236, Wohnung e LEIDAG, WOLFGANG                  -652,72
+ 13.10.2014 KD.NR 10067 R005138 v.13.10.2014 Lindenhorster 236, Wohnung  LEIDAG, WOLFGANG                  -192,90
+ 28.10.2014 RECHNUNG 22526 V.19.10.2014 AUFTRAG HW-22624 Lindenhorster 2 GREBE, ANDREAS, FLIESEN           -152,56
+ 28.10.2014 RECHNUNG 22525 V.19.10.2014 AUFTRAG HW-22623 Lindenhorster 2 GREBE, ANDREAS, FLIESEN           -232,88
+ 12.12.2014 RE 1412402233 Ihre Kundennr. 12809097                        Immobilien Scout GmbH             -119,93
+                                                                                  Summe nicht umlagefähig -3103,30
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL         -1170,98
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL          -133,17
+ 10.01.2014 RE.NR. 405702021 VOM 3.1.14 LINDENHORSTER 236    DATUM 10.01 BRUNATA EVING                      -12,26
+ 10.01.2014 RE.NR. 405702020 VOM 3.1.14 LINDENHORSTER 236    DATUM 10.01 BRUNATA EVING                      -29,63
+ 15.01.2014 VERGUETUNG                         GARTENPFLEGE 85 EURO      KRZEMIEN,EUGENIUSZ                -125,00
+ 17.01.2014 RE.NR. 405751811 VOM 9.1.14 LINDENHORSTER 236    DATUM 17.01 BRUNATA EVING                      -12,26
+ 22.01.2014 VK 312577678DO, LINDENHORSTER STR. 236                       Dortm.En.-u.Wasservers.             40,07
+ 30.01.2014 DO, LINDENHORSTER STR. 236, Abschlagsrechnung 30900233542, F Dortm.En.-u.Wasservers.           -167,00
+ 17.02.2014 VERGUETUNG                         GARTENPFLEGE 85 EURO      KRZEMIEN,EUGENIUSZ                -125,00
+ 17.02.2014 Muellabfuhr 2014 LINDENHORSTER STRGrundsteuer B 2014 LINDENH Stadt Dortmund NKF               -1420,52
+ 20.02.2014 Miete Heizkostenverteiler Lindenhorst 2013       DATUM 20.02 PAWLOWSKI                          -83,90
+ 07.03.2014 VK 304488984DO, LINDENHORSTER STR. 236                       Dortm.En.-u.Wasservers.             29,00
+ 13.03.2014 RE.NR.9971112 VOM 11.3.14 LINDENHORSTER 236      DATUM 13.03 BRUNATA EVING                     -351,42
+ 17.03.2014 VERGUETUNG                         GARTENPFLEGE 85 EURO      KRZEMIEN,EUGENIUSZ                -125,00
+ 19.03.2014 DO, LINDENHORSTER STR. 236, Rechnung 5004833559, Faelligkeit Dortm.En.-u.Wasservers.          -1097,73
+ 21.03.2014 DO, LINDENHORSTER STR. 236, Rechnung 5004834307, Faelligkeit Dortm.En.-u.Wasservers.           -126,27
+ 31.03.2014 DO, LINDENHORSTER STR. 236, Abschlagsrechnung 46400001689, F Dortm.En.-u.Wasservers.           -165,00
+ 01.04.2014 R23298472-D01890148 INCL.  93,88 MWST VTR. 02009821   ABSCHL EXTRAENERGIE GMBH                 -588,00
+ 15.04.2014 VERGUETUNG                         GARTENPFLEGE 85 EURO      KRZEMIEN,EUGENIUSZ                -125,00
+ 16.04.2014 RE.NR. 405843356 VOM 14.4.14 LINDENHORSTER 236   DATUM 16.04 BRUNATA EVING                      -12,97
+ 30.04.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 02.05.2014 R25000845-D01890148 INCL.  41,51 MWST VTR. 02009821   ABSCHL EXTRAENERGIE GMBH                 -260,00
+ 15.05.2014 Grundsteuer B 2014 LINDENHORSTER STStrassenreinigung 2014 LI Stadt Dortmund NKF               -1420,51
+ 15.05.2014 VERGUETUNG                         GARTENPFLEGE 85 EURO      KRZEMIEN,EUGENIUSZ                -125,00
+ 30.05.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 30.05.2014 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.            -70,00
+ 02.06.2014 R25906680-D01890148 INCL. 41,51 MWST VTR. 02009821 ABSCHLAGS ExtraEnergie GmbH                 -260,00
+ 16.06.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.06.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 01.07.2014 R26800874-D01890148 INCL. 41,51 MWST VTR. 02009821 ABSCHLAGS EXTRAENERGIE GMBH                 -260,00
+ 15.07.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.07.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 01.08.2014 R27203208-D01890148 INCL. 41,51 MWST VTR. 02009821 ABSCHLAGS ExtraEnergie GmbH                 -260,00
+ 15.08.2014 Abwasserveranlagung 2014 LINDENHORSStrassenreinigung 2014 LI Stadt Dortmund NKF               -1420,51
+ 15.08.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 01.09.2014 R28424556-D01890148 INCL 41,51 MWST VTR 02009821 ABSCHLAGSZA EXTRAENERGIE GMBH                 -260,00
+ 01.09.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 01.09.2014 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.            -70,00
+ 15.09.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 29.09.2014 KD.NR 10067 R005121 v.27.9.2014 Lindenhorster 236 Reinigung  LEIDAG, WOLFGANG                  -140,06
+ 30.09.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 01.10.2014 R28964952-D01890148 INCL 41,51 MWST VTR 02009821 ABSCHLAGSZA EXTRAENERGIE GMBH                 -260,00
+ 15.10.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.10.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortm.En.-u.Wasservers.           -165,00
+ 03.11.2014 R30361458-D01890148 INCL 41,51 MWST VTR 02009821 ABSCHLAGSZA EXTRAENERGIE GMBH                 -260,00
+ 17.11.2014 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund NKF               -1420,51
+ 17.11.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 01.12.2014 HAFTPFLICHT VSNR H33245694 01.12.2014 EUR 144,85             Westfaelische Provinzial          -144,85
+ 01.12.2014 SACH VSNR S900456420 01.12.2014 EUR 1.302,87                 Westfaelische Provinzial         -1302,87
+ 01.12.2014 R31213705-D01890148 INCL 41,51 MWST VTR 02009821 ABSCHLAGSZA ExtraEnergie GmbH                 -260,00
+ 01.12.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -165,00
+ 01.12.2014 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -70,00
+ 15.12.2014 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.12.2014 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -165,00
+ 02.01.2015 R32147240-D01890148 INCL 41,51 MWST VTR 02009821 ABSCHLAGSZA EXTRAENERGIE GMBH                 -260,00
+                                                                                       Summe umlagefähig -16686,35
+
+                                                                      Summe 44339Lindenhorster Strasse236 19718,77
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 04.01.15 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 22.01.2014 Sondertilgung 5% 2. Tranche                      DATUM 22.01 Strotmann, Peter u Gabriele      -2618,25
+ 22.01.2014 Sondertilgung 5% von urspruenglicher Darlehnssumme  1.Tranch Strotmann, Peter u Gabriele      -5000,00
+ 01.02.2014 Darl.-Leistung  556075212  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -794,00
+ 01.03.2014 Darl.-Leistung  556075212  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -794,00
+ 01.04.2014 Darl.-Leistung  556075212  Fuer 01.03.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E     -794,00
+ 01.05.2014 Darl.-Leistung  556075212  Fuer 01.04.2014 - 30.04.2014Zinse PETER STROTMANN UND GABRIEL E     -794,00
+ 01.06.2014 Darl.-Leistung  556075212  Fuer 01.05.2014 - 30.05.2014Zinse PETER STROTMANN UND GABRIEL E     -794,00
+ 30.06.2014 per 30.06.14 Antrag 6403042481 Objekt 44536 Lunen Lorenzstr. Wohnraumfoerderung               -3046,09
+ 01.07.2014 Darl.-Leistung 556075212 Fuer 01.06.2014 - 30.06.2014Zinsen  PETER STROTMANN UND GABRIEL E     -794,00
+ 01.08.2014 Darl.-Leistung 556075212 Fuer 01.07.2014 - 30.07.2014Zinsen  PETER STROTMANN UND GABRIEL E     -794,00
+ 01.09.2014 Darl.-Leistung 556075212 Fuer 01.08.2014 - 30.08.2014Zinsen  PETER STROTMANN UND GABRIEL E     -794,00
+ 01.10.2014 Darl.-Leistung 556075212 Fuer 01.09.2014 - 30.09.2014Zinsen  PETER STROTMANN UND GABRIEL E     -794,00
+ 01.11.2014 Darl.-Leistung 556075212 Fuer 01.10.2014 - 30.10.2014Zinsen  PETER STROTMANN UND GABRIEL E     -794,00
+ 01.12.2014 Darl.-Leistung 556075212 Fuer 01.11.2014 - 30.11.2014Zinsen  PETER STROTMANN UND GABRIEL E     -794,00
+ 01.01.2015 Darl.-Leistung 556075212 F�r 01.12.2014 - 30.12.2014Zinsen 4 PETER STROTMANN UND GABRIEL E     -794,00
+ 02.01.2015 per 02.01.15 Antrag 6403042481 Objekt 44536 Lunen, Lorenzstr NRW.BANK                         -3046,09
+                                                                                            Summe Kredit -23238,43
+------------------------------Miete-------------------------------------------------------------------------------
+ 02.01.2014 MIETE LORENZSTR.5                                            SCHIER, STEFANIE                   455,00
+ 02.01.2014 MIETE                                                        YUEKSEL, SEMRA                     559,00
+ 02.01.2014 MIETE DG LINKS LORENZSTR. 5                                  BALBIERZ, FRANZ JOSEF              681,60
+ 02.01.2014 MIETE UND NK                                                 NURHAYAT KAYA                      607,00
+ 02.01.2014 MIETE LORENZSTR 5                                            SILKE HEYER                        563,00
+ 03.01.2014 MIETE                                                        GROFE, RENATE                      430,00
+ 21.01.2014 Nachzahlung fuer Januar                                      FRANZ JOSEF BALBIERZ                 8,40
+ 03.02.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 03.02.2014 MIETE                                                        YUEKSEL, SEMRA                     559,00
+ 03.02.2014 MIETE DG LINKS LORENZSTR. 5                                  BALBIERZ, FRANZ JOSEF              690,00
+ 03.02.2014 MIETE UND NK                                                 NURHAYAT KAYA                      607,00
+ 03.02.2014 MIETE LORENZSTR 5                                            SILKE HEYER                        563,00
+ 04.02.2014 Miete                                                        Grofe, Renate                      430,00
+ 03.03.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 03.03.2014 MIETE                                                        YUEKSEL, SEMRA                     559,00
+ 03.03.2014 MIETE DG LINKS LORENZSTR. 5                                  BALBIERZ, FRANZ JOSEF              690,00
+ 03.03.2014 MIETE UND NK                                                 NURHAYAT KAYA                      607,00
+ 03.03.2014 MIETE LORENZSTR 5                                            SILKE HEYER                        563,00
+ 04.03.2014 Miete                                                        Grofe, Renate                      430,00
+ 01.04.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 01.04.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 01.04.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 01.04.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 01.04.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 02.04.2014 Miete                                                        Grofe, Renate                      430,00
+ 02.05.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 02.05.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 02.05.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 02.05.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 02.05.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 05.05.2014 Miete                                                        Grofe, Renate                      430,00
+ 02.06.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 02.06.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 02.06.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 02.06.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 02.06.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 03.06.2014 Miete                                                        Grofe, Renate                      430,00
+ 17.06.2014 heiz- und nebenkostenabrechnung 2013 DATUM 17.06.2014, 09.44 Kaya                              -169,53
+ 17.06.2014 HK U.NK ERSTATTATTUNG 2013 DATUM 17.06.2014, 09.41 UHR 1. TA YUEKSEL, SEMRA                     -65,98
+ 17.06.2014 heiz- u betriebskostenerstattung 2013 DATUM 17.06.2014, 09.3 Heyer                             -137,04
+ 23.06.2014 Nachz. Betriebs-u.HeizkostenStefanie Schier, Lorenzstr       Schier, Karin                       54,16
+ 01.07.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 01.07.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 01.07.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 01.07.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 01.07.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 02.07.2014 Miete                                                        Grofe, Renate                      430,00
+ 03.07.2014 MIETE NACHZAHLUNG                                            GROFE RENATE                        67,65
+ 23.07.2014 Betiiebs-und Heizkosten Nachzahlung                          FRANZ JOSEF BALBIERZ               111,10
+ 01.08.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 01.08.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 01.08.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 01.08.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 01.08.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 04.08.2014 Miete                                                        Grofe, Renate                      430,00
+ 01.09.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 01.09.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 01.09.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 01.09.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 01.09.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 02.09.2014 Miete                                                        Grofe, Renate                      430,00
+ 01.10.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 01.10.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 01.10.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 01.10.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 01.10.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 02.10.2014 Miete                                                        Grofe, Renate                      430,00
+ 03.11.2014 MIETE                                                        Yueksel, Semra                     559,00
+ 03.11.2014 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
+ 03.11.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 03.11.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 03.11.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 04.11.2014 Miete                                                        Grofe, Renate                      430,00
+ 01.12.2014 MIETE                                                        Semra Yueksel                      559,00
+ 01.12.2014 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               690,00
+ 01.12.2014 miete und NK                                                 Nurhayat Kaya                      607,00
+ 01.12.2014 Miete Lorenzstr.5                                            Schier, Stefanie                   455,00
+ 01.12.2014 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 02.12.2014 Miete                                                        Grofe, Renate                      430,00
+                                                                                              Summe Miete 39508,36
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 10.02.2014 35009208554653 03550051 06.02.2014 920855465 LORENZSTR 5,545 ISTA DEUTSCHLAND GMBH MS           -57,89
+ 19.03.2014 ReNr 20071,14056,14057 v.17.3.14                 DATUM 19.03 SuS Steuerberatung                 -35,70
+ 04.04.2014 ReNr 20071,14089 v.2.4.14                        DATUM 04.04 SuS Steuerberatung                 -17,85
+ 02.05.2014 3509213111621 0355005129.04.2014 921311162 LORENZSTR 5,54536 ISTA DEUTSCHLAND GMBH MS           -57,89
+ 05.05.2014 ReNr 20071,14179 v.1.5.14                        DATUM 03.05 SuS Steuerberatung                 -17,85
+ 02.06.2014 ReNr 20071,14208 v.31.05.14                      DATUM 02.06 SuS Steuerberatung                 -17,85
+ 07.07.2014 ReNr 20071,14262 v.5.7.14 DATUM 07.07.2014, 09.50 UHR 1. TAN SuS Steuerberatung                 -17,85
+ 01.09.2014 ReNr 20071,14352-14353 v.30.8.14 DATUM 01.09.2014, 10.09 UHR SuS Steuerberatung                 -35,70
+ 10.09.2014 toom27.08.2014 DATUM 10.09.2014, 11.43 UHR 1. TAN 191064     Balbierz                           -17,98
+ 13.10.2014 ReNr 20071,14442 v.10.10.14 fuer S u S Korrektur, da irrtuem Strotmann                          -17,85
+ 29.10.2014 lasur + schleifpapier fuer dachfenster DATUM 29.10.2014, 11. BALBIERZ                           -29,99
+ 04.11.2014 ReNr 20071,14502 v.29.10.14 DATUM 04.11.2014, 11.20 UHR 1. T SuS Steuerberatung                 -17,85
+ 17.11.2014 Auftrag:0101446028 KdNr:12130 ReNr:59681 v. 14.11.14 Rollade Vestaport                         -210,59
+ 15.12.2014 ReNr 20071,14502 v.13.12.14 DATUM 15.12.2014, 10.51 UHR1.TAN SuS Steuerberatung                 -17,85
+ 29.12.2014 ReNr 20071,14614 v.27.12.14 DATUM 29.12.2014, 11.46 UHR1.TAN SuS Steuerberatung                 -17,85
+                                                                                   Summe nicht umlagefähig -588,54
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 12-1758319-39 Wohngebaeud                                    Wuerttembergische Versicherung   -1250,92
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL          -116,99
+ 03.01.2014 R20669969-D01318791 INCL.  35,61 MWST VTR. 01320618   ABSCHL EXTRAENERGIE GMBH                 -223,00
+ 06.01.2014 3500411403810 041140381 69-467-1049/9 03550051 LORENZSTR 5,5 ISTA DEUTSCHLAND GMBH MS          -322,32
+ 06.01.2014 ZAHLBELEG 004017495199     SACH VSNR S900456429       31.12. WESTFAELISCHE PROVINZIAL          -955,69
+ 09.01.2014 3500588268330 058826833    69-467-1049/9 03550051     LORENZ ISTA DEUTSCHLAND GMBH MS          -807,11
+ 09.01.2014 WOHNGEBAEUDE - - -                                           WURTTEMBERGISCHE VERS. AG         1250,92
+ 15.01.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 29.01.2014 Z5004609413   OB-33448242  23,87                      BEITRA KNAPPSCHAFT-BAHN-SEE               -23,87
+ 31.01.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH             -80,89
+ 03.02.2014 Rechnung Januar 2014                                         Unitymedia NRW GmbH              -1123,92
+ 11.02.2014 3500589132989 058913298 69-467-0256/9 03550051 LORENZSTR 5,5 ISTA DEUTSCHLAND GMBH Essen        -77,87
+ 17.02.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 17.02.2014 600122004608 849 0000 00003 3 GRUNDBESITZABGABEN             Stadt Luenen                      -471,32
+ 17.02.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 19.02.2014 ENTWAESSERUNG BESCHEIDNUMMER 11410793 /60913 417,85          Stadtbetrieb Abwasserbeseitigu    -417,85
+ 26.02.2014 Z5336831017   OB-33448242  23,87                      BEITRA KNAPPSCHAFT-BAHN-SEE               -23,87
+ 04.03.2014 R22307331-D01889169 INCL.  38,00 MWST VTR. 02008843   ABSCHL EXTRAENERGIE GMBH                 -238,00
+ 17.03.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 17.03.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 27.03.2014 2752160439 OB-33448242 EUR 23,87 BEITRAG 0314 - 0314         Knappschaft-Bahn-See               -23,87
+ 01.04.2014 R23299152-D01889169 INCL.  38,00 MWST VTR. 02008843   ABSCHL EXTRAENERGIE GMBH                 -238,00
+ 15.04.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 15.04.2014 R24162494-D01318791 INCL.  -13,82 MWST VTR. 01320618  ABRECH EXTRAENERGIE GMBH                   86,54
+ 15.04.2014 ReNr:1599.000/14/00747 v.11.4.14 Lorenzstr.5, Brambauer      Langenbach, Schornsteinfeger      -102,53
+ 15.04.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 23.04.2014 ReNr 20141327452 Hausmeister Brambauer           DATUM 23.04 VBG Hamburg                        -48,03
+ 29.04.2014 2004401957 OB-33448242 EUR 23,87 BEITRAG 0414 - 0414         Knappschaft-Bahn-See               -23,87
+ 02.05.2014 R24981332-D01889169 INCL. 38,00 MWST VTR. 02008843 ABSCHLAGS EXTRAENERGIE GMBH                 -238,00
+ 12.05.2014 Rechnung Aral, 6.5.14 Benzin Rasenmaeher Balbierz DATUM 10.0 BALBIERZ                           -31,40
+ 15.05.2014 600122004608 849 0000 00003 4 GRUNDBESITZABGABEN             Stadt Luenen                      -471,32
+ 15.05.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 15.05.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 19.05.2014 ENTWAESSERUNG BESCHEIDNUMMER 11410793 /60913 417,85          Stadtbetrieb Abwasserbeseitigu    -417,85
+ 27.05.2014 9876507178 OB-33448242 EUR 23,87 BEITRAG 0514 - 0514         Knappschaft-Bahn-See               -23,87
+ 02.06.2014 R25886668-D01889169 INCL. 38,00 MWST VTR. 02008843 ABSCHLAGS ExtraEnergie GmbH                 -238,00
+ 16.06.2014 3500643307474 064330747 69-467-1049/9 03550051 LORENZSTR 5,5 ISTA DEUTSCHLAND GMBH MS           -84,44
+ 16.06.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 16.06.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 18.06.2014 3500590311271 059031127 69-467-1049/9 03550051 LORENZSTR 5,5 ISTA DEUTSCHLAND GMBH MS           -78,18
+ 26.06.2014 7170642267 OB-33448242 EUR 23,87 BEITRAG 0614 - 0614         Knappschaft-Bahn-See               -23,87
+ 02.07.2014 R26157889-D01889169 INCL. 38,00 MWST VTR. 02008843 ABSCHLAGS EXTRAENERGIE GMBH                 -238,00
+ 15.07.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 15.07.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 29.07.2014 3669234251 OB-33448242 EUR 23,87 BEITRAG 0714 - 0714         Knappschaft-Bahn-See               -23,87
+ 01.08.2014 R27562120-D01889169 INCL. 38,00 MWST VTR. 02008843 ABSCHLAGS ExtraEnergie GmbH                 -238,00
+ 15.08.2014 ENTWAESSERUNG BESCHEIDNUMMER 11410793 /60913 417,85          Stadtbetrieb Abwasserbeseitigu    -417,85
+ 15.08.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 15.08.2014 600122004608 849 0000 00003 5 GRUNDBESITZABGABEN             Stadt Luenen                      -471,32
+ 15.08.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 27.08.2014 7669253934 OB-33448242 EUR 23,87 BEITRAG 0814 - 0814         Knappschaft-Bahn-See               -23,87
+ 01.09.2014 R28548122-D01889169 INCL 38,00 MWST VTR 02008843 ABSCHLAGSZA EXTRAENERGIE GMBH                 -238,00
+ 15.09.2014 Vertragskonto 1361052133,Lorenzstr. 5,44536 Luenen,Abschlag  Stadtwerke Luenen GmbH            -112,00
+ 15.09.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 26.09.2014 2627322588 OB-33448242 EUR 23,87 BEITRAG 0914 - 0914         Knappschaft-Bahn-See               -23,87
+ 01.10.2014 R29151046-D01889169 INCL 38,00 MWST VTR 02008843 ABSCHLAGSZA EXTRAENERGIE GMBH                 -238,00
+ 15.10.2014 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -112,00
+ 15.10.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 29.10.2014 2129039588 OB-33448242 EUR 23,87 BEITRAG 1014 - 1014         Knappschaft-Bahn-See               -23,87
+ 03.11.2014 R30084333-D01889169 INCL 38,00 MWST VTR 02008843 ABSCHLAGSZA EXTRAENERGIE GMBH                 -238,00
+ 17.11.2014 600122004608 849 0000 00003 6 GRUNDBESITZABGABEN             Stadt Luenen                      -471,35
+ 17.11.2014 ENTWAESSERUNG BESCHEIDNUMMER 11410793 /60913 417,84          Stadtbetrieb Abwasserbeseitigu    -417,84
+ 17.11.2014 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -112,00
+ 17.11.2014 HAUSMEISTERVERGUETUNG                                        JOHANA BALBIERZ                    -77,00
+ 26.11.2014 8503081391 OB-33448242 EUR 23,87 BEITRAG 1114 - 1114         Knappschaft-Bahn-See               -23,87
+ 01.12.2014 HAFTPFLICHT VSNR H33245702 01.12.2014 EUR 127,23             Westfaelische Provinzial          -127,23
+ 01.12.2014 SACH VSNR S900456429 01.12.2014 EUR 1.063,38                 Westfaelische Provinzial         -1063,38
+ 01.12.2014 R30731826-D01889169 INCL 38,00 MWST VTR 02008843 ABSCHLAGSZA ExtraEnergie GmbH                 -238,00
+ 08.12.2014 3500415234536 041523453 69-467-0256/9 03550051 Lorenzstr 5,  ISTA DEUTSCHLAND GMBH Essen       -125,28
+ 08.12.2014 3500415237303 041523730 69-467-1149/9 03550051 Lorenzstr 5,  ISTA DEUTSCHLAND GMBH Essen       -352,79
+ 15.12.2014 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -112,00
+ 15.12.2014 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -77,00
+ 29.12.2014 8627583714 OB-33448242 EUR 23,87 BEITRAG 1214 - 1214         Knappschaft-Bahn-See               -23,87
+ 02.01.2015 R31599210-D01889169 INCL 38,00 MWST VTR 02008843 ABSCHLAGSZA EXTRAENERGIE GMBH                 -238,00
+                                                                                       Summe umlagefähig -14251,65
+
+                                                                                 Summe 44536Lorenzstrasse5 1429,74
+==============================Südring  160 , 45711  Datteln ==== 04.01.15 =======================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 05.02.2014 WUSTENROT BANK AG 01/14 2071008242 412,8901/14 2076596886 42 PETER STROTMANN                   -573,67
+ 03.03.2014 WUSTENROT BANK AG 02/14 2076596886 425,7402/14 2073032698 61 PETER STROTMANN                   -573,67
+ 01.04.2014 WUSTENROT BANK AG 03/14 2080198356 573,6703/14 2071008242 41 PETER STROTMANN                   -573,67
+ 02.05.2014 WUSTENROT BANK AG 04/14 2073032698 612,6904/14 2071008242 41 PETER STROTMANN                   -573,67
+ 02.06.2014 WUSTENROT BANK AG 05/14 2076596886 425,7405/14 2071008242 41 PETER STROTMANN                   -573,67
+ 01.07.2014 WUSTENROT BANK AG 06/14 2080198356 573,6706/14 2071008242 41 PETER STROTMANN                   -573,67
+ 01.08.2014 WUSTENROT BANK AG 07/14 2080198356 573,6707/14 2071008242 41 PETER STROTMANN                   -573,67
+ 01.09.2014 WUSTENROT BANK AG 08/14 2080198356 573,6708/14 2071008242 41 PETER STROTMANN                   -573,67
+ 01.10.2014 WUSTENROT BANK AG 09/14 2071008242 412,8909/14 2073032698 61 PETER STROTMANN                   -573,00
+ 04.11.2014 WUSTENROT BANK AG 10/14 2071008242 412,8910/14 2080198356 57 PETER STROTMANN                   -573,67
+ 01.12.2014 WUSTENROT BANK AG 11/14 2080198356 645,4311/14 2071008242 41 PETER STROTMANN                   -645,43
+                                                                                             Summe Kredit -6381,46
+------------------------------Miete-------------------------------------------------------------------------------
+ 29.11.2013 GARAGE--JANUAR                                               MARTHA AMONEIT                      30,00
+ 30.12.2013 GARAGE--FEBRUA                                               MARTHA AMONEIT                      30,00
+ 30.12.2013 MIETE                                                        CEMILE KAYPAK                      260,00
+ 02.01.2014 MIETE                                                        RENATE WANZKE                      350,00
+ 02.01.2014 MIETE GARAGE WANZKE                                          RENATE WANZKE                       30,00
+ 06.01.2014 WOHNGELD FAMILIE KAYPAK                                      ALI KAYPAK                         680,00
+ 31.01.2014 garage--maerz                                                MARTHA AMONEIT                      30,00
+ 31.01.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               551,54
+ 31.01.2014 MIETE                                                        CEMILE KAYPAK                      260,00
+ 03.02.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      70,00
+ 03.02.2014 MIETE                                                        RENATE WANZKE                      350,00
+ 03.02.2014 MIETE GARAGE WANZKE                                          RENATE WANZKE                       30,00
+ 06.02.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 25.02.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      35,00
+ 27.02.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 28.02.2014 garage--april                                                MARTHA AMONEIT                      30,00
+ 28.02.2014 MIETE                                                        CEMILE KAYPAK                      260,00
+ 03.03.2014 MIETE                                                        RENATE WANZKE                      350,00
+ 03.03.2014 MIETE GARAGE WANZKE                                          RENATE WANZKE                       30,00
+ 05.03.2014 07 Wohngeld Familie Kaypak                                   Ali Kaypak                         680,00
+ 24.03.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      35,00
+ 31.03.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 31.03.2014 garage--mai                                                  MARTHA AMONEIT                      30,00
+ 31.03.2014 Miete                                                        Cemile Kaypak                      260,00
+ 01.04.2014 MIETE                                                        Renate Wanzke                      350,00
+ 01.04.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 08.04.2014 07 07 Wohngeld FamilieKaypak                                 Ali Kaypak                         680,00
+ 14.04.2014 Pacht 04/14-03/14 - Datteln, Suedring 160                    ComAW GmbH                         125,00
+ 29.04.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 30.04.2014 garage--juni                                                 MARTHA AMONEIT                      30,00
+ 30.04.2014 Miete                                                        Cemile Kaypak                      260,00
+ 02.05.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 02.05.2014 MIETE                                                        Renate Wanzke                      350,00
+ 06.05.2014 07 07 07 Wohngeld FamilieKaypak                              Ali Kaypak                         680,00
+ 20.05.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      70,00
+ 29.05.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 30.05.2014 garage-juli                                                  MARTHA AMONEIT                      30,00
+ 30.05.2014 Miete                                                        Cemile Kaypak                      260,00
+ 02.06.2014 MIETE                                                        Renate Wanzke                      350,00
+ 02.06.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 09.06.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 24.06.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      35,00
+ 30.06.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 30.06.2014 garage--august                                               MARTHA AMONEIT                      30,00
+ 30.06.2014 Miete                                                        Cemile Kaypak                      260,00
+ 01.07.2014 MIETE                                                        Renate Wanzke                      350,00
+ 01.07.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 04.07.2014 PACHT 7/14-9/14,                                             ComAW GmbH                         125,00
+ 07.07.2014 Erstattung 2013 DATUM 06.07.2014, 12.59 UHR 1. TAN 846415    Kaypak, Ali                       -417,00
+ 07.07.2014 Erstattung Nebenkosten 2013 DATUM 06.07.2014, 12.58 UHR 1. T Kaypak, Cemile                    -200,04
+ 07.07.2014 RUECKERSTATTUNG 2013 DATUM 06.07.2014, 12.56 UHR 1. TAN 8168 WANZKE, RENATE                     -50,34
+ 08.07.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 30.07.2014 garage--september                                            MARTHA AMONEIT                      30,00
+ 31.07.2014 Miete                                                        Cemile Kaypak                      260,00
+ 01.08.2014 MIETE                                                        Renate Wanzke                      350,00
+ 01.08.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 08.08.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 21.08.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      35,00
+ 29.08.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               651,29
+ 29.08.2014 Miete                                                        Cemile Kaypak                      260,00
+ 01.09.2014 garage---oktober                                             MARTHA AMONEIT                      30,00
+ 01.09.2014 MIETE                                                        Renate Wanzke                      350,00
+ 01.09.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 09.09.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 30.09.2014 garage---november                                            MARTHA AMONEIT                      30,00
+ 30.09.2014 Miete                                                        Cemile Kaypak                      260,00
+ 30.09.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 01.10.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 01.10.2014 MIETE                                                        Renate Wanzke                      350,00
+ 03.10.2014 PACHT 10/14-12/14,                                           ComAW GmbH                         125,00
+ 08.10.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 17.10.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      35,00
+ 30.10.2014 garage--dezember                                             MARTHA AMONEIT                      30,00
+ 31.10.2014 Miete                                                        Cemile Kaypak                      260,00
+ 31.10.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 03.11.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 03.11.2014 MIETE                                                        Renate Wanzke                      350,00
+ 10.11.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 21.11.2014 Garage S dring DattelnHasenbein, Castroper 41,45711 DattelnM Andy Hasenbein                      35,00
+ 28.11.2014 Miete                                                        Cemile Kaypak                      260,00
+ 01.12.2014 MIETE                                                        Renate Wanzke                      350,00
+ 01.12.2014 Miete Garage Wanzke                                          Renate Wanzke                       30,00
+ 03.12.2014 Wohngeld Familie Kaypak                                      Ali Kaypak                         680,00
+ 05.12.2014 Miete Bajrami-Imping                                         Kreis Recklinghausen               705,00
+ 30.12.2014 Miete Garage Hasenbein                                       Hasenbein, Christine                35,00
+                                                                                              Summe Miete 23135,45
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 18.02.2014 KD.NR 10067 R005002 v.17.2.14 Datteln Wasserzaehler          LEIDAG, WOLFGANG                  -331,18
+ 03.03.2014 3509209458940 03550051 24.02.2014 920945894 Suedring 160, 45 ISTA DEUTSCHLAND GMBH MS           -57,89
+ 17.06.2014 KD.NR 10067 R005065 v.16.6.14 Datteln Erneuerung Gasleitung  LEIDAG, WOLFGANG                 -3110,17
+ 07.07.2014 Re:14/0543 Treppnhaus Suedring 160 Datteln 2. Tranche DATUM  hph malermeister                 -2471,49
+ 07.07.2014 Kd: 1100876 Re: 14/0543 Treppenhausrenovierung Datteln 1. Tr hph malermeister                 -5000,00
+ 21.07.2014 KD.NR 10067 R005078 v.19.7.2014 Suedring 160 3xzapfhahnzaehl LEIDAG, WOLFGANG                  -235,98
+ 25.08.2014 KdNr 12130 ReNr 59237 v.22.8.14 DATUM 23.08.2014, 10.36 UHR  Vestaport                         -167,54
+ 13.10.2014 KD.NR 10067 R005139 v.13.10.2014 Suedring 160, DG li Kaypak  LEIDAG, WOLFGANG                  -110,61
+ 05.11.2014 Aktenzeichen 3421/14BN20N Strotmann/Bruch Vollzugsgebuehr DA Boegershausen, Notar              -199,33
+ 05.12.2014 Auftrag:0101449003 KdNr:12130 ReNr:59748 v.28.11.14 Rolladen Vestaport                          -42,47
+                                                                                 Summe nicht umlagefähig -11726,66
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 23.01.2014 B13422264345Vertragskonto 1365004813                         Stadtwerke Luenen GmbH              31,95
+ 11.02.2014 VK 20217517 Abschlag 45711-Suedring 160                      GELSENWASSER AG                   -161,00
+ 17.02.2014 TX120013837XT Grundbesitzabgaben                             Stadt Datteln                     -855,88
+ 17.02.2014 Vertragskonto 1365004813,Abschlag - 02.2014                  Stadtwerke Luenen GmbH             -12,00
+ 03.03.2014 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE      -90,00
+ 17.03.2014 Vertragskonto 1365004813,Abschlag - 03.2014                  Stadtwerke Luenen GmbH             -12,00
+ 31.03.2014 KD.NR 10067 R005028 v.29.3.2014 Suedring 160,Datteln Wartung LEIDAG, WOLFGANG                  -126,14
+ 10.04.2014 VK 20217517 Abschlag 45711-Suedring 160                      GELSENWASSER AG                   -161,00
+ 15.04.2014 Vertragskonto 1365004813,Abschlag - 04.2014                  Stadtwerke Luenen GmbH             -12,00
+ 15.05.2014 Vertragskonto 1365004813,Abschlag - 05.2014                  Stadtwerke Luenen GmbH             -12,00
+ 15.05.2014 TX120013837XT Grundbesitzabgaben                             Stadt Datteln                     -855,88
+ 10.06.2014 VK 20217517 Abschlag 45711-Suedring 160                      GELSENWASSER AG                   -161,00
+ 16.06.2014 Vertragskonto 1365004813,Abschlag - 06.2014                  Stadtwerke Luenen GmbH             -12,00
+ 30.06.2014 3500590317294 059031729 76-435-4924/1 03550051 Suedring 160, ISTA DEUTSCHLAND GMBH Datteln      -84,16
+ 15.07.2014 Vertragskonto 1365004813,Abschlag - 07.2014                  Stadtwerke Luenen GmbH             -12,00
+ 11.08.2014 VK 20217517 Abschlag 45711-Suedring 160                      GELSENWASSER AG                   -161,00
+ 15.08.2014 TX120013837XT Grundbesitzabgaben                             Stadt Datteln                     -855,88
+ 15.08.2014 Vertragskonto 1365004813,Abschlag - 08.2014                  Stadtwerke Luenen GmbH             -12,00
+ 19.08.2014 KD.NR 10067 R005095 v.18.8.2014 Suedring 160 Reinigung u Fun LEIDAG, WOLFGANG                   -88,06
+ 22.08.2014 RENR.1940.000/14/01371 Schornsteinfegerarbeiten 2014 DATUM 2 ORTMANN,SCHORNSTEINFEGER          -206,08
+ 15.09.2014 Vertragskonto 1365004813,Abschlag - 09.2014                  Stadtwerke Luenen GmbH             -12,00
+ 13.10.2014 VK 20217517 Abschlag 45711-Suedring 160                      GELSENWASSER AG                   -161,00
+ 15.10.2014 Vertragskonto 1365004813 ,Abschlag - 10.2014                 Stadtwerke Luenen GmbH             -12,00
+ 29.10.2014 WOHNGEB. - - -                                               WURTTEMBERGISCHE VERS. AG           66,42
+ 10.11.2014 VK 20217517 Sonstige Gutschrift 45711-Suedring 160           GELSENWASSER AG                      6,39
+ 17.11.2014 Vertragskonto 1365004813 ,Abschlag - 11.2014                 Stadtwerke Luenen GmbH             -12,00
+ 17.11.2014 TX120013837XT Grundbesitzabgaben                             Stadt Datteln                     -855,86
+ 08.12.2014 3500415467279 041546727 76-435-4924/1 03550051 Suedring 160, ISTA DEUTSCHLAND GMBH Essen       -164,49
+ 11.12.2014 VK 20217517 Abschlag 45711-Suedring 160                      Gelsenwasser AG                   -163,00
+ 15.12.2014 Vertragskonto 1365004813 ,Abschlag - 12.2014                 Stadtwerke Luenen GmbH             -12,00
+                                                                                        Summe umlagefähig -5177,67
+
+                                                                                     Summe 45711Südring160 -150,34
+==============================Heinrichstraße  44 , 59077  Hamm ==== 04.01.15 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2014 Darl.-Leistung  556067856  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -675,00
+ 01.02.2014 Darl.-Leistung  556067864  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -258,00
+ 01.03.2014 Darl.-Leistung  556067856  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -675,00
+ 01.03.2014 Darl.-Leistung  556067864  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -258,00
+ 01.04.2014 Darl.-Leistung  556067856  Fuer 01.03.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E     -675,00
+ 01.04.2014 Darl.-Leistung  556067864  Fuer 01.03.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E     -258,00
+ 01.05.2014 Darl.-Leistung  556067864  Fuer 01.04.2014 - 30.04.2014Zinse PETER STROTMANN UND GABRIEL E     -258,00
+ 01.05.2014 Darl.-Leistung  556067856  Fuer 01.04.2014 - 30.04.2014Zinse PETER STROTMANN UND GABRIEL E     -675,00
+ 01.06.2014 Darl.-Leistung  556067864  Fuer 01.05.2014 - 30.05.2014Zinse PETER STROTMANN UND GABRIEL E     -258,00
+ 01.06.2014 Darl.-Leistung  556067856  Fuer 01.05.2014 - 30.05.2014Zinse PETER STROTMANN UND GABRIEL E     -675,00
+ 30.06.2014 per 30.06.14 Antrag 6403029926 Objekt 59077 Hamm Heinrichstr Wohnraumfoerderung                -759,69
+ 01.07.2014 Darl.-Leistung 556067864 Fuer 01.06.2014 - 30.06.2014Zinsen  PETER STROTMANN UND GABRIEL E     -258,00
+ 01.07.2014 Darl.-Leistung 556067856 Fuer 01.06.2014 - 30.06.2014Zinsen  PETER STROTMANN UND GABRIEL E     -675,00
+ 01.08.2014 Darl.-Leistung 556067864 Fuer 01.07.2014 - 30.07.2014Zinsen  PETER STROTMANN UND GABRIEL E     -258,00
+ 01.08.2014 Darl.-Leistung 556067856 Fuer 01.07.2014 - 30.07.2014Zinsen  PETER STROTMANN UND GABRIEL E     -675,00
+ 01.09.2014 Darl.-Leistung 556067864 Fuer 01.08.2014 - 30.08.2014Zinsen  PETER STROTMANN UND GABRIEL E     -258,00
+ 01.09.2014 Darl.-Leistung 556067856 Fuer 01.08.2014 - 30.08.2014Zinsen  PETER STROTMANN UND GABRIEL E     -675,00
+ 01.10.2014 Darl.-Leistung 556067864 Fuer 01.09.2014 - 30.09.2014Zinsen  PETER STROTMANN UND GABRIEL E     -258,00
+ 01.10.2014 Darl.-Leistung 556067856 Fuer 01.09.2014 - 30.09.2014Zinsen  PETER STROTMANN UND GABRIEL E     -675,00
+ 01.11.2014 Darl.-Leistung 556067864 Fuer 01.10.2014 - 30.10.2014Zinsen  PETER STROTMANN UND GABRIEL E     -258,00
+ 01.11.2014 Darl.-Leistung 556067856 Fuer 01.10.2014 - 30.10.2014Zinsen  PETER STROTMANN UND GABRIEL E     -675,00
+ 01.12.2014 Darl.-Leistung 556067864 Fuer 01.11.2014 - 30.11.2014Zinsen  PETER STROTMANN UND GABRIEL E     -258,00
+ 01.12.2014 Darl.-Leistung 556067856 Fuer 01.11.2014 - 30.11.2014Zinsen  PETER STROTMANN UND GABRIEL E     -675,00
+ 01.01.2015 Darl.-Leistung 556067864 F�r 01.12.2014 - 30.12.2014Zinsen 1 PETER STROTMANN UND GABRIEL E     -258,00
+ 01.01.2015 Darl.-Leistung 556067856 F�r 01.12.2014 - 30.12.2014Zinsen 4 PETER STROTMANN UND GABRIEL E     -675,00
+ 02.01.2015 per 02.01.15 Antrag 6403029926 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -759,69
+                                                                                            Summe Kredit -12715,38
+------------------------------Miete-------------------------------------------------------------------------------
+ 27.12.2013 L01.14/2-202-0-28-81-2560-5 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    679,00
+ 30.01.2014 L02.14/2-202-0-28-81-2560-5 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    679,00
+ 27.02.2014 L03.14/2-202-0-28-81-2560-5 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    679,00
+ 31.03.2014 L04.14/2-202-0-28-81-2560-5 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    715,00
+ 29.04.2014 L05.14/2-202-0-28-81-2560-5 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 28.05.2014 L06.14/2-202-0-28-01-2620-3 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 30.06.2014 L07.14/2-202-0-28-01-2620-3 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 31.07.2014 L08.14/2-202-0-28-01-2620-3 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 29.08.2014 L09.14/2-202-0-28-01-2620-3 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 30.09.2014 L10.14/2-202-0-28-01-2620-3 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 30.10.2014 L11.14/2-202-0-28-81-2300-9 MIETE SZLEFARSKI FUER SZLEFARSKI STADTKASSE HAMM                    691,00
+ 28.11.2014 L12.14/2-202-0-28-81-2300-9 MIETE SZLEFARSKI FUER SZLEFARSKI Stadt Hamm                         691,00
+                                                                                               Summe Miete 8280,00
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL           -40,38
+ 09.01.2014 3500588278044 058827804    69470-1140/3 35550051      HEINRI ISTA DEUTSCHLAND GMBH ESSEN        -26,57
+ 24.01.2014 ANTEIL Unity Media HAMM HEINRICHSTR.44/46        DATUM 24.01 HINNERWISCH                       -144,12
+ 17.02.2014 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm NKF                    -109,15
+ 15.05.2014 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -109,15
+ 04.07.2014 SACH VSNR S900515813 01.07.2014 EUR 227,96                   Westfaelische Provinzial          -227,96
+ 15.08.2014 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -109,15
+ 24.09.2014 ReNr 141271, KdNr 22487 v. 22.09.2009 Wartung, Heinrichstr 4 Bahne Heizung                     -182,88
+ 17.11.2014 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -109,20
+ 01.12.2014 HAFTPFLICHT VSNR H33245587 01.12.2014 EUR 43,91              Westfaelische Provinzial           -43,91
+ 08.12.2014 3500415247135 041524713 69-470-1140/0 03550051 Heinrichstr.4 ISTA DEUTSCHLAND GMBH Essen        -68,92
+                                                                                        Summe umlagefähig -1171,39
+
+                                                                              Summe 59077Heinrichstraße44 -5606,77
+==============================Heinrichstraße  46 , 59077  Hamm ==== 04.01.15 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 30.06.2014 per 30.06.14 Antrag 6403029934 Objekt 59077 Hamm Heinrichstr Wohnraumfoerderung                -759,69
+ 02.01.2015 per 02.01.15 Antrag 6403029934 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -759,69
+                                                                                             Summe Kredit -1519,38
+------------------------------Miete-------------------------------------------------------------------------------
+ 15.01.2014 MIETE                                                        WILLI UND BIRGIT PARTU             680,91
+ 17.02.2014 MIETE                                                        WILLI UND BIRGIT PARTU             680,91
+ 17.03.2014 MIETE                                                        WILLI UND BIRGIT PARTU             680,91
+ 15.04.2014 Miete                                                        Willi und Birgit Partu             680,91
+ 16.04.2014 Mieterueckstaende                                            WILLI UND BIRGIT PARTU              32,25
+ 15.05.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 16.06.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 15.07.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 15.08.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 15.09.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 15.10.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 17.11.2014 Miete                                                        Willi und Birgit Partu             693,00
+ 15.12.2014 Miete                                                        Willi und Birgit Partu             693,00
+                                                                                               Summe Miete 8299,89
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL           -40,38
+ 24.01.2014 ANTEIL Unity Media HAMM HEINRICHSTR.44/46        DATUM 24.01 HINNERWISCH                       -144,12
+ 17.02.2014 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm NKF                    -120,46
+ 15.05.2014 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -120,46
+ 02.06.2014 3500589885559 058988555 69-470-1142/0 03550051   DATUM 01.06 ISTA DEUTSCHLAND GMBH Essen        -22,38
+ 04.07.2014 SACH VSNR S900515810 01.07.2014 EUR 227,96                   Westfaelische Provinzial          -227,96
+ 15.08.2014 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -120,46
+ 24.09.2014 ReNr 141272, KdNr 22487 v. 22.09.2009 Wartung, Heinrichstr 4 Bahne Heizung                     -163,60
+ 17.11.2014 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -120,49
+ 01.12.2014 HAFTPFLICHT VSNR H33245561 01.12.2014 EUR 43,91              Westfaelische Provinzial           -43,91
+ 08.12.2014 3500415247143 041524715 69-470-1142/0 03550051 Heinrichstr.4 ISTA DEUTSCHLAND GMBH Essen        -45,61
+                                                                                        Summe umlagefähig -1169,83
+
+                                                                               Summe 59077Heinrichstraße46 5610,68
+==============================Wasserkurler Straße  34 b, 59174  Kamen ==== 04.01.15 =============================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2014 Darl.-Leistung  556083762  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -394,13
+ 01.02.2014 Darl.-Leistung  855023040  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -102,33
+ 03.02.2014 5% Sondertilgung 2. Tranche                      DATUM 03.02 Strotmann Peter u Gabriele       -1391,15
+ 03.02.2014 5% Sondertilgung 1. Tranche                      DATUM 03.02 Sparkasse Dortmund               -5000,00
+ 03.02.2014 5% Sondertilgung      DATUM 03.02.2014, 10.46 UHR1.TAN 14137 Strotmann Peter u Gabriele       -1500,00
+ 01.03.2014 Darl.-Leistung  556083762  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -394,13
+ 01.03.2014 Darl.-Leistung  855023040  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -102,33
+ 13.03.2014 N-28/14-MS strotmann-Miletic                     DATUM 13.03 Notariat Straeter                 -195,81
+ 17.03.2014 RESTKAUFPREIS WASSERKURLER STR. /ERST VBDODE33XXX/GEB SHA/RE KTO6490657300/MILETIC            68110,74
+ 03.04.2014 X700552473751X Kreditloeschung Wasserkurl         DATUM 03.0 Oberjustizkasse Hamm              -226,00
+ 03.04.2014 ABLOESUNG DARLEHEN 855276054INKL. ZINSEN UND VORFaeLLIGKEITS PETER STROTMANN UND GABRIELE S -105904,42
+ 03.04.2014 UMBUCHUNG ABLOESEBETRAG     FUER DARLEHEN 855276054          GABRIELE STROTMANN              105904,42
+                                                                                             Summe Kredit 58804,86
+------------------------------Miete-------------------------------------------------------------------------------
+ 03.01.2014 MIETE JANUAR 2014                                            MILETIC GUIDO                      960,00
+ 03.02.2014 MIETE FEBRUAR 2014                                           Miletic, Guido                     960,00
+ 22.04.2014 Endabrechnung 2013                                           Guido Miletic                      424,79
+                                                                                               Summe Miete 2344,79
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 29.01.2014 RENR.11025072, V.20.1.2014 KDNR.12911 Wasserkurler 34b,59174 BROCKHAUS GMBH SANITaeR           -201,46
+ 06.08.2014 Re v. 10.7.2014 69-470-1141/1 3550051 Wasserkurler 34b, Kame ISTA DEUTSCHLAND GMBH Essen       -377,38
+                                                                                   Summe nicht umlagefähig -578,84
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL           -41,36
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL          -289,82
+ 09.01.2014 3500588278052 058827805    69-470-1141/1 35550051     WASSER ISTA DEUTSCHLAND GMBH ESSEN        -30,37
+ 31.01.2014 KDNR.7497223021 RGN 9024073JANUAR 2014                       UNITYMEDIA NRW GMBH               -208,35
+ 17.02.2014 2003970 Grundbesitzabgaben Grundbesitzabgaben 2014           Stadt Kamen                       -301,96
+ 07.03.2014 HAFTPFLICHT VSNR H33245686 31.12.2013 EUR 5,66-              Westfaelische Provinzial             5,66
+                                                                                         Summe umlagefähig -866,20
+
+                                                                         Summe 59174Wasserkurler Straße34 59704,61
+==============================Haferkamp  1 , 59192  Bergkamen ==== 04.01.15 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2014 Darl.-Leistung  855276038  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -504,00
+ 01.03.2014 Darl.-Leistung  855276038  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -504,00
+ 01.04.2014 Darl.-Leistung  855276038  Fuer 01.03.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E     -504,00
+ 01.05.2014 Darl.-Leistung  855276038  Fuer 01.04.2014 - 30.04.2014Zinse PETER STROTMANN UND GABRIEL E     -504,00
+ 01.06.2014 Darl.-Leistung  855276038  Fuer 01.05.2014 - 30.05.2014Zinse PETER STROTMANN UND GABRIEL E     -504,00
+ 30.06.2014 per 30.06.14 Antrag 6403355537 Objekt 59192 Bergkamen Haferk Wohnraumfoerderung                -694,84
+ 01.07.2014 Darl.-Leistung 855276038 Fuer 01.06.2014 - 30.06.2014Zinsen  PETER STROTMANN UND GABRIEL E     -504,00
+ 17.07.2014 Sondertilgung, 5% v. Ursprung DATUM 16.07.2014, 19.41 UHR 1. Strotmann                        -3806,05
+ 01.08.2014 Darl.-Leistung 855276038 Fuer 01.07.2014 - 30.07.2014Zinsen  PETER STROTMANN UND GABRIEL E     -504,00
+ 01.09.2014 Darl.-Leistung 855276038 Fuer 01.08.2014 - 30.08.2014Zinsen  PETER STROTMANN UND GABRIEL E     -504,00
+ 01.10.2014 Darl.-Leistung 855276038 Fuer 01.09.2014 - 30.09.2014Zinsen  PETER STROTMANN UND GABRIEL E     -504,00
+ 01.11.2014 Darl.-Leistung 855276038 Fuer 01.10.2014 - 30.10.2014Zinsen  PETER STROTMANN UND GABRIEL E     -504,00
+ 01.12.2014 Darl.-Leistung 855276038 Fuer 01.11.2014 - 30.11.2014Zinsen  PETER STROTMANN UND GABRIEL E     -504,00
+ 01.01.2015 Darl.-Leistung 855276038 F�r 01.12.2014 - 30.12.2014Zinsen 2 PETER STROTMANN UND GABRIEL E     -504,00
+ 02.01.2015 per 02.01.15 Antrag 6403355537 Objekt 59192 Bergkamen, Hafer NRW.BANK                          -694,84
+                                                                                            Summe Kredit -11243,73
+------------------------------Miete-------------------------------------------------------------------------------
+ 02.01.2014 MIETE                                                        DIMITRI UND SVETLANA DIENER        678,47
+ 03.02.2014 MIETE                                                        DIMITRI UND SVETLANA DIENER        695,00
+ 07.02.2014 nachzahlung jan.                                             DIMITRI UND SVETLANA DIENER         16,53
+ 03.03.2014 MIETE                                                        DIMITRI UND SVETLANA DIENER        695,00
+ 01.04.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 14.04.2014                                                              DIMITRI UND SVETLANA DIENER         11,31
+ 02.05.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 02.06.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 01.07.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 01.08.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 01.09.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 01.10.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 03.11.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+ 01.12.2014 Miete                                                        Dimitri und Svetlana Diener        695,00
+                                                                                               Summe Miete 8351,31
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL          -251,64
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL           -40,38
+ 09.01.2014 3500588278036 058827803    69470-1139/0 35550051      HAFERK ISTA DEUTSCHLAND GMBH ESSEN        -30,37
+ 17.02.2014 01009000295902000 JHV GBA 2014 Entwaess 15.02.14 160,69 Entw Stadt Bergkamen                   -282,18
+ 15.05.2014 01009000295902000 JHV GBA 2014 Entwaess 15.05.14 160,69 Entw Stadt Bergkamen                   -282,18
+ 15.08.2014 01009000295902000 JHV GBA 2014 Entwaess 15.08.14 160,69 Entw Stadt Bergkamen                   -282,18
+ 25.09.2014 ReNr 141273, KdNr 22487 v. 22.09.2009 Wartung, Haferkamp 1 F Bahne Heizung                     -143,45
+ 17.11.2014 01009000295902000 JHV GBA 2014 Entwaess 15.11.14 160,69 0100 Stadt Bergkamen                   -282,18
+ 01.12.2014 HAFTPFLICHT VSNR H33245645 01.12.2014 EUR 43,91              Westfaelische Provinzial           -43,91
+ 01.12.2014 SACH VSNR S900456396 01.12.2014 EUR 279,99                   Westfaelische Provinzial          -279,99
+ 08.12.2014 3500415247127 041524712 69-470-1139/0 03550051 Haferkamp 1,5 ISTA DEUTSCHLAND GMBH Essen        -68,92
+                                                                                        Summe umlagefähig -1987,38
+
+                                                                                    Summe 59192Haferkamp1 -4879,80
+==============================Haferkamp  3 , 59192  Bergkamen ==== 04.01.15 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2014 Darl.-Leistung  855276046  Fuer 01.01.2014 - 30.01.2014Zinse PETER STROTMANN UND GABRIEL E     -538,90
+ 01.03.2014 Darl.-Leistung  855276046  Fuer 01.02.2014 - 28.02.2014Zinse PETER STROTMANN UND GABRIEL E     -538,90
+ 01.04.2014 Darl.-Leistung  855276046  Fuer 01.03.2014 - 30.03.2014Zinse PETER STROTMANN UND GABRIEL E     -538,90
+ 01.05.2014 Darl.-Leistung  855276046  Fuer 01.04.2014 - 30.04.2014Zinse PETER STROTMANN UND GABRIEL E     -538,90
+ 01.06.2014 Darl.-Leistung  855276046  Fuer 01.05.2014 - 30.05.2014Zinse PETER STROTMANN UND GABRIEL E     -538,90
+ 30.06.2014 per 30.06.14 Antrag 6403372516 Objekt 59192 Bergkamen Haferk Wohnraumfoerderung                -694,84
+ 01.07.2014 Darl.-Leistung 855276046 Fuer 01.06.2014 - 30.06.2014Zinsen  PETER STROTMANN UND GABRIEL E     -538,90
+ 17.07.2014 Sondertilgung, 5% v. Ursprung DATUM 16.07.2014, 19.44 UHR 1. Strotmann                        -4264,77
+ 01.08.2014 Darl.-Leistung 855276046 Fuer 01.07.2014 - 30.07.2014Zinsen  PETER STROTMANN UND GABRIEL E     -538,90
+ 01.09.2014 Darl.-Leistung 855276046 Fuer 01.08.2014 - 30.08.2014Zinsen  PETER STROTMANN UND GABRIEL E     -538,90
+ 01.10.2014 Darl.-Leistung 855276046 Fuer 01.09.2014 - 30.09.2014Zinsen  PETER STROTMANN UND GABRIEL E     -538,90
+ 01.11.2014 Darl.-Leistung 855276046 Fuer 01.10.2014 - 30.10.2014Zinsen  PETER STROTMANN UND GABRIEL E     -538,90
+ 01.12.2014 Darl.-Leistung 855276046 Fuer 01.11.2014 - 30.11.2014Zinsen  PETER STROTMANN UND GABRIEL E     -538,90
+ 01.01.2015 Darl.-Leistung 855276046 F�r 01.12.2014 - 30.12.2014Zinsen 2 PETER STROTMANN UND GABRIEL E     -538,90
+ 02.01.2015 per 02.01.15 Antrag 6403372516 Objekt 59192 Bergkamen, Hafer NRW.BANK                          -694,84
+                                                                                            Summe Kredit -12121,25
+------------------------------Miete-------------------------------------------------------------------------------
+ 02.01.2014 MIETE 01.14                HAFERKAMP 3 BERGKAMEN             BRZOZA, MIROSLAW WIKTOR            710,00
+ 31.01.2014 MIETE 02.14                HAFERKAMP 3 BERGKAMEN             BRZOZA, MIROSLAW WIKTOR            710,00
+ 28.02.2014 Miete 03.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 21.03.2014 Nachzahlung 2013 Haferkamp 3 Bergkamen                       Miroslaw Wiktor Brzoza              46,91
+ 01.04.2014 Miete 04.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 30.04.2014 Miete 05.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 30.05.2014 Miete 06.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 01.07.2014 Miete 07.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 31.07.2014 Miete 08.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 01.09.2014 Miete 09.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 30.09.2014 Miete 10.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 31.10.2014 Miete 11.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+ 01.12.2014 Miete 12.14 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
+                                                                                               Summe Miete 8566,91
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL          -251,64
+ 02.01.2014 ZAHLBELEG 005014981961     EINE ZAHLUNGSAUFSTELLUNG GEHT IHN WESTFAELISCHE PROVINZIAL           -40,38
+ 09.01.2014 3500588278028 0588227802   69470-1138/1 35550051      HAFERK ISTA DEUTSCHLAND GMBH ESSEN        -30,37
+ 17.02.2014 01009000295902000 JHV GBA 2014 Entwaess 15.02.14 160,69 Entw Stadt Bergkamen                   -300,33
+ 15.05.2014 01009000295902000 JHV GBA 2014 Entwaess 15.05.14 160,69 Entw Stadt Bergkamen                   -300,33
+ 15.08.2014 01009000295902000 JHV GBA 2014 Entwaess 15.08.14 160,69 Entw Stadt Bergkamen                   -300,33
+ 25.09.2014 ReNr 141274, KdNr 22487 v. 22.09.2009 Wartung, Haferkamp 3 F Bahne Heizung                     -163,13
+ 17.11.2014 01009000295902000 JHV GBA 2014 Entwaess 15.11.14 160,69 0100 Stadt Bergkamen                   -300,33
+ 01.12.2014 HAFTPFLICHT VSNR H33245660 01.12.2014 EUR 43,91              Westfaelische Provinzial           -43,91
+ 01.12.2014 SACH VSNR S900456404 01.12.2014 EUR 279,99                   Westfaelische Provinzial          -279,99
+ 08.12.2014 3500415247119 041524711 69-470-1139/0 03550051 Haferkamp 3,5 ISTA DEUTSCHLAND GMBH Essen        -68,92
+                                                                                        Summe umlagefähig -2079,66
+
+                                                                                    Summe 59192Haferkamp3 -5634,00
+==============================Am Westendorp  12 , 59399  Olfen ==== 04.01.15 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 05.02.2014 WUSTENROT BANK AG 01/14 2071008242 412,8901/14 2076596886 42 PETER STROTMANN                   -612,69
+ 03.03.2014 WUSTENROT BANK AG 02/14 2076596886 425,7402/14 2073032698 61 PETER STROTMANN                   -612,69
+ 01.04.2014 WUSTENROT BANK AG 03/14 2080198356 573,6703/14 2071008242 41 PETER STROTMANN                   -612,69
+ 02.05.2014 WUSTENROT BANK AG 04/14 2073032698 612,6904/14 2071008242 41 PETER STROTMANN                   -612,69
+ 02.06.2014 WUSTENROT BANK AG 05/14 2076596886 425,7405/14 2071008242 41 PETER STROTMANN                   -612,69
+ 01.07.2014 WUSTENROT BANK AG 06/14 2080198356 573,6706/14 2071008242 41 PETER STROTMANN                   -612,00
+ 01.08.2014 WUSTENROT BANK AG 07/14 2080198356 573,6707/14 2071008242 41 PETER STROTMANN                   -612,00
+ 01.09.2014 WUSTENROT BANK AG 08/14 2080198356 573,6708/14 2071008242 41 PETER STROTMANN                   -612,00
+ 01.10.2014 WUSTENROT BANK AG 09/14 2071008242 412,8909/14 2073032698 61 PETER STROTMANN                   -612,69
+ 04.11.2014 WUSTENROT BANK AG 10/14 2071008242 412,8910/14 2080198356 57 PETER STROTMANN                   -612,00
+ 01.12.2014 WUSTENROT BANK AG 11/14 2080198356 645,4311/14 2071008242 41 PETER STROTMANN                   -612,00
+ 02.01.2015 WUSTENROT BANK AG 12/14 2076596886 425,7412/14 2073032698 61 PETER STROTMANN                   -612,00
+                                                                                             Summe Kredit -7348,14
+------------------------------Miete-------------------------------------------------------------------------------
+ 02.01.2014 MIETE                                                        ROSENTHAL, DIETER U. CORN.         690,00
+ 03.01.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 03.01.2014 MIETE                                                        PRIGGE                             720,00
+ 03.02.2014 MIETE                                                        ROSENTHAL, DIETER U. CORN.         690,00
+ 03.02.2014 MIETE                                                        PRIGGE                             720,00
+ 04.02.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 13.02.2014 RUECKERSTATTUNG 2013   DATUM 13.02.2014, 16.39 UHR1.TAN 2255 ROSENTHAL                          -35,72
+ 19.02.2014 NACHZAHLUNG 2013 LUDWIG OLFEN                                LUDWIG, THOMAS                     123,05
+ 27.02.2014 nachzahlung                                                  HEINZ PRIGGE                       429,88
+ 03.03.2014 MIETE                                                        ROSENTHAL, DIETER U. CORN.         690,00
+ 03.03.2014 MIETE                                                        PRIGGE                             760,00
+ 04.03.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.04.2014 Miete                                                        Rosenthal, Dieter u. Corn.         690,00
+ 01.04.2014 Miete                                                        Prigge                             760,00
+ 02.04.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 02.05.2014 Miete                                                        Rosenthal, Dieter u. Corn.         690,00
+ 02.05.2014 Miete                                                        Prigge                             760,00
+ 05.05.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 02.06.2014 Miete                                                        Rosenthal, Dieter u. Corn.         690,00
+ 02.06.2014 Miete                                                        Prigge                             760,00
+ 03.06.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.07.2014 Miete                                                        Rosenthal, Dieter u. Corn.         690,00
+ 01.07.2014 Miete                                                        Prigge                             760,00
+ 02.07.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.08.2014 Miete                                                        Rosenthal, Dieter u. Corn.         690,00
+ 01.08.2014 Miete                                                        Prigge                             760,00
+ 04.08.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.09.2014 Miete                                                        Prigge                             760,00
+ 02.09.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 04.09.2014 miete september                                              KLAUS-DIETER ROSENTHAL             690,00
+ 01.10.2014 Miete                                                        Prigge                             760,00
+ 01.10.2014 Miete                                                        Rosenthal, Dieter u. Corn.         690,00
+ 02.10.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 03.11.2014 Miete                                                        Prigge                             760,00
+ 04.11.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.12.2014 mietanteil dezember                                          Klaus-Dieter Rosenthal             500,00
+ 01.12.2014 Miete                                                        Helga Prigge                       760,00
+ 02.12.2014 MIETE UND NK                                                 Thomas Ludwig                      545,00
+                                                                                              Summe Miete 23497,21
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 22.04.2014 KDNR 10486 RENR 140487 AM WESTENDORP 12,OLFEN    DATUM 19.04 BUDDE, HEIZUNG                    -288,69
+ 11.06.2014 35009215068927 03550051 06.06.2014 921506892 Am Westendorp 1 ISTA Olfen                         -57,89
+ 12.06.2014 KdNr14915,RE20140926 v 11.6.2014 AmWestendorp 12, 59399 Olf  Thesing Elektro                    -13,84
+ 03.07.2014 KdNr14915,RE20141041 v 1.7.2014 AmWestendorp 12, 59399 Olf L Thesing Elektro                   -145,48
+ 13.10.2014 KDNR 10486 RENR 141327 AM WESTENDORP 12,OLFEN Thermostat Whn BUDDE, HEIZUNG                     -33,56
+                                                                                   Summe nicht umlagefähig -539,46
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2014 350041687898 04168789 76-471-0211/0 03550051 3.12.2013  Am W ISTA Olfen                        -361,77
+ 09.01.2014 3500588539577 058853957    76-471-1577/7 03550051     AM WES ISTA OLFEN                         -78,90
+ 10.01.2014 068502951723 VK 20217523AbschlagEUR 119,00                   GELSENWASSER AG                   -119,00
+ 13.01.2014 BEITRAG F. 735/006365-L-25 GEWAESSERSCHADEN-HAFTPFL.         HUK-COBURG-ALLGEMEINE VERS.        -25,00
+ 13.01.2014 BEITRAG F. 735/006365-L-22 ALLG. HAFTPFLICHT-VERS.           HUK-COBURG-ALLGEMEINE VERS.        -65,00
+ 23.01.2014 B13422264346Vertragskonto 1365004814                         Stadtwerke Luenen GmbH               3,04
+ 29.01.2014 KDNR 10486 RENR 140058,ProjNr 105814 AM WESTENDORP 12,OLFEN  BUDDE, HEIZUNG                    -121,98
+ 12.02.2014 350064161212865 064161286 76-471-0211/0 03550051  Am Westend ISTA Olfen                         -42,52
+ 17.02.2014 Vertragskonto 1365004814,Abschlag - 02.2014                  Stadtwerke Luenen GmbH             -28,00
+ 20.02.2014 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -310,48
+ 13.03.2014 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -119,00
+ 17.03.2014 Vertragskonto 1365004814,Abschlag - 03.2014                  Stadtwerke Luenen GmbH             -28,00
+ 18.03.2014 439/14/342 AM WESTENDORP 12 JAHRESRECHNUNG 2014  DATUM 18.03 BERTELSBECK, SCHORNSTEINFEG        -61,42
+ 15.04.2014 Vertragskonto 1365004814,Abschlag - 04.2014                  Stadtwerke Luenen GmbH             -28,00
+ 12.05.2014 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -119,00
+ 15.05.2014 Vertragskonto 1365004814,Abschlag - 05.2014                  Stadtwerke Luenen GmbH             -28,00
+ 15.05.2014 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -390,04
+ 16.06.2014 Vertragskonto 1365004814,Abschlag - 06.2014                  Stadtwerke Luenen GmbH             -28,00
+ 08.07.2014 3500590577807 59057780 76-471-0211/0 03550051 Am Westendorp  ISTA Olfen                         -74,55
+ 11.07.2014 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -119,00
+ 15.07.2014 Vertragskonto 1365004814,Abschlag - 07.2014                  Stadtwerke Luenen GmbH             -28,00
+ 15.08.2014 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -390,04
+ 15.08.2014 Vertragskonto 1365004814,Abschlag - 08.2014                  Stadtwerke Luenen GmbH             -28,00
+ 10.09.2014 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -119,00
+ 12.09.2014 Heizoel 4001 l, 67,30/100l Rechnungsnummer 7323496 Kundennum mobene                           -3204,28
+ 15.09.2014 Vertragskonto 1365004814,Abschlag - 09.2014                  Stadtwerke Luenen GmbH             -28,00
+ 07.10.2014 VK 20217523 Sonstige Gutschrift 59399-Am Westendorp 12       GELSENWASSER AG                     21,47
+ 15.10.2014 Vertragskonto 1365004814 ,Abschlag - 10.2014                 Stadtwerke Luenen GmbH             -28,00
+ 10.11.2014 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -123,00
+ 17.11.2014 Vertragskonto 1365004814 ,Abschlag - 11.2014                 Stadtwerke Luenen GmbH             -28,00
+ 17.11.2014 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -390,02
+ 01.12.2014 VS 95088031 11.2014-11.2015                                  LVM Landw.Versicherungsverein     -647,92
+ 08.12.2014 3500415524377 041552437 76-471-0211/0 03550051 Am Westendorp ISTA DEUTSCHLAND GMBH Essen       -386,24
+ 08.12.2014 3500415527513 041552751 76-471-1577/703550051 Am Westendorp  ISTA DEUTSCHLAND GMBH Essen       -133,76
+ 15.12.2014 Vertragskonto 1365004814 ,Abschlag - 12.2014                 Stadtwerke Luenen GmbH             -28,00
+                                                                                        Summe umlagefähig -7685,41
+
+                                                                                Summe 59399Am Westendorp12 7924,20
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 04.01.15 =============================
+------------------------------Kredit------------------------------------------------------------------------------
+ 05.02.2014 WUSTENROT BANK AG 01/14 2071008242 412,8901/14 2076596886 42 PETER STROTMANN                   -425,74
+ 03.03.2014 WUSTENROT BANK AG 02/14 2076596886 425,7402/14 2073032698 61 PETER STROTMANN                   -425,74
+ 01.04.2014 WUSTENROT BANK AG 03/14 2080198356 573,6703/14 2071008242 41 PETER STROTMANN                   -425,74
+ 02.05.2014 WUSTENROT BANK AG 04/14 2073032698 612,6904/14 2071008242 41 PETER STROTMANN                   -425,74
+ 02.06.2014 WUSTENROT BANK AG 05/14 2076596886 425,7405/14 2071008242 41 PETER STROTMANN                   -425,74
+ 01.07.2014 WUSTENROT BANK AG 06/14 2080198356 573,6706/14 2071008242 41 PETER STROTMANN                   -425,74
+ 01.08.2014 WUSTENROT BANK AG 07/14 2080198356 573,6707/14 2071008242 41 PETER STROTMANN                   -425,74
+ 01.09.2014 WUSTENROT BANK AG 08/14 2080198356 573,6708/14 2071008242 41 PETER STROTMANN                   -425,74
+ 01.10.2014 WUSTENROT BANK AG 09/14 2071008242 412,8909/14 2073032698 61 PETER STROTMANN                   -425,74
+ 01.12.2014 WUSTENROT BANK AG 11/14 2080198356 645,4311/14 2071008242 41 PETER STROTMANN                   -425,74
+ 02.01.2015 WUSTENROT BANK AG 12/14 2076596886 425,7412/14 2073032698 61 PETER STROTMANN                   -425,74
+                                                                                             Summe Kredit -4683,14
+------------------------------Miete-------------------------------------------------------------------------------
+ 30.12.2013 MIETE + NEBENKOSTEN                                          MISCHKE, MANFRED                   529,00
+ 02.01.2014 MIETE                                                        KRaeMER-KERSTING, CHRISTINE        470,00
+ 02.01.2014 MIETE + NEBENKOSTEN                                          HESSEL, WERNER                     500,00
+ 02.01.2014 MIETE VOSS SAARBRUECKERWEG24                                 JENS VOSS                          805,00
+ 03.01.2014 MIETE SAARBRUECKERWEG 24 MAIDA / HEINE                       BENJAMIN MAIDA                     775,00
+ 28.01.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 03.02.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 03.02.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.02.2014 MIETE VOSS SAARBRUECKERWEG24                                 JENS VOSS                          805,00
+ 03.02.2014 MIETE SAARBRUECKERWEG 24 MAIDA / HEINE                       BENJAMIN MAIDA                     775,00
+ 28.02.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 03.03.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 03.03.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.03.2014 MIETE VOSS SAARBRUECKERWEG24                                 JENS VOSS                          805,00
+ 03.03.2014 MIETE SAARBRUECKERWEG 24 MAIDA / HEINE                       BENJAMIN MAIDA                     775,00
+ 28.03.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.04.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.04.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 01.04.2014 MIETE VOss SAARBRUECKERWEG24                                 Jens Voss                          805,00
+ 03.04.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 28.04.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 02.05.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 02.05.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 02.05.2014 MIETE VOss SAARBRUECKERWEG24                                 Jens Voss                          805,00
+ 05.05.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 28.05.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 02.06.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 02.06.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 02.06.2014 MIETE VOss SAARBRUECKERWEG24                                 Jens Voss                          805,00
+ 03.06.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 30.06.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.07.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 01.07.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.07.2014 MIETE VOss SAARBRUECKERWEG24                                 Jens Voss                          805,00
+ 03.07.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 07.07.2014 Heiz-u Nebenkostenerstattung 2013/14 DATUM 06.07.2014, 11.31 Maida                             -294,98
+ 07.07.2014 ERSTATTUNG HK/NK 2013/14 DATUM 06.07.2014, 11.11 UHR 1. TAN  HESSEL, WERNER                     -24,89
+ 07.07.2014 Heiz u Nebenkostenabrechnung 2013/14 DATUM 06.07.2014, 11.08 MISCHKE, MANFRED                  -231,76
+ 07.07.2014 Heiz- u Nebenkostenerstattung 2013/14 DATUM 06.07.2014, 11.0 Voss                              -409,19
+ 28.07.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.08.2014 MIETE VOss SAARBRUECKERWEG24                                 Jens Voss                          805,00
+ 01.08.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.08.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 04.08.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 11.08.2014 NACHZHLG NK ABR 2013                                         KRAMER-KERSTING CHRISTINE           11,43
+ 19.08.2014 Nebenkosten                                                  Wortmann, Mathias                   21,83
+ 25.08.2014 Miete Voss Saarbruecker Weg 24                               Voss, Jens                         805,00
+ 28.08.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.09.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.09.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.09.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 22.09.2014 Miete Voss Saarbruecker Weg 24                               Voss, Jens                         805,00
+ 29.09.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.10.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.10.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 06.10.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 27.10.2014 Miete Voss Saarbrueckerweg 24 Holzwickede                    Voss, Jens                         805,00
+ 28.10.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 03.11.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 03.11.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.11.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 17.11.2014 MIETE VOss SAARBRUECKERWEG24                                 Jens Voss                          805,00
+ 28.11.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.12.2014 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.12.2014 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.12.2014 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+                                                                                              Summe Miete 36020,44
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 14.01.2014 RE-264-14012014 Saarbrueckerweg 24, Holzwickede Tueren       Naujokat Ausbauservice            -405,00
+ 01.02.2014 Entgeltabrechnung          siehe Anlage                                                         -31,45
+ 07.02.2014 RE-271-07022014 Saarbrueckerweg, Holzwickede Schloss Hausein Naujokat Ausbauservice            -225,98
+ 10.02.2014 Mandatsreferenz:168240 Strotmann,Peter                       Haus Grund Dortmund e. V.         -108,00
+ 18.02.2014 KD.NR 10067 R005003 v.17.2.2014 Holzwickede Wasserzaehler    LEIDAG, WOLFGANG                  -153,36
+ 28.02.2014 Entgeltabrechnung          siehe Anlage                                                         -24,70
+ 10.03.2014 RE-279-09032014 Saarbruecker Weg 24 Tueren         DATUM 09. Naujokat Ausbauservice            -261,80
+ 01.04.2014 Entgeltabrechnung          siehe Anlage                                                         -22,20
+ 01.05.2014 Entgeltabrechnung          siehe Anlage                                                         -21,90
+ 01.06.2014 Entgeltabrechnung          siehe Anlage                                                         -20,45
+ 01.07.2014 Entgeltabrechnung siehe Anlage                                                                  -23,45
+ 01.08.2014 Entgeltabrechnung siehe Anlage                                                                  -23,20
+ 19.08.2014 KD.NR 10067 R005089 v.18.8.2014 Saarbrueckerweg Rueckspuelfi LEIDAG, WOLFGANG                  -384,25
+ 30.08.2014 Entgeltabrechnung siehe Anlage                                                                  -21,20
+ 01.10.2014 Entgeltabrechnung siehe Anlage                                                                  -20,70
+ 01.11.2014 Entgeltabrechnung siehe Anlage                                                                  -18,95
+ 29.11.2014 Entgeltabrechnung siehe Anlage                                                                  -19,20
+ 01.12.2014 RE 14RE0984077 V.13.11.14 EUR 29,95 ./. SK 0,00              BUHL DATA SERVICE GMBH             -29,95
+ 30.12.2014 Entgeltabrechnung siehe Anlage                                                                  -22,45
+                                                                                  Summe nicht umlagefähig -1838,19
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 03.01.2014 R20669972-D01318791 INCL.  32,89 MWST VTR. 01320613   ABSCHL EXTRAENERGIE GMBH                 -206,00
+ 28.01.2014 322501613483 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -43,91
+ 30.01.2014 2945 ERST. GUTSCHRIFT WASSE-57.90/2945, SAARBRUECKER WE      GEMEINDE HOLZWICKEDE                57,90
+ 03.02.2014 Rechnung Januar 2014                                         Unitymedia NRW GmbH                -82,60
+ 17.02.2014 63720/70 GRUNDBESITZABGABEN SAARBRUECKER WEG 24,             Gemeinde Holzwickede              -848,89
+ 28.02.2014 Rg. Feb. 2014 KDNR06008098240 VERTR-NR6000776327             Unitymedia NRW GmbH                -82,60
+ 28.02.2014 320006688881 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 03.03.2014 WASSER 01.03.2014 2945     190.00/2945, SAARBRUECKER WE      GEMEINDE HOLZWICKEDE              -190,00
+ 03.03.2014 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE     -115,00
+ 04.03.2014 R22307333-D01889169 INCL.  34,33 MWST VTR. 02008840   ABSCHL EXTRAENERGIE GMBH                 -215,00
+ 28.03.2014 325001682389 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 31.03.2014 Rechnung Mrz. 2014 KDNR06008098240 VERTR-NR6000776327        Unitymedia NRW GmbH                -82,60
+ 01.04.2014 R23299154-D01889169 INCL.  34,33 MWST VTR. 02008840   ABSCHL EXTRAENERGIE GMBH                 -215,00
+ 24.04.2014 R24162580-D01318791 INCL.  38,68 MWST VTR. 01320613   ABRECH EXTRAENERGIE GMBH                 -242,25
+ 28.04.2014 327501885803 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.04.2014 Rechnung April 2014 KDNR06008098240 VERTR-NR6000776327       Unitymedia NRW GmbH                -82,60
+ 02.05.2014 R24981329-D01889169 INCL.  34,33 MWST VTR. 02008840   ABSCHL EXTRAENERGIE GMBH                 -215,00
+ 15.05.2014 63720/70 GRUNDBESITZABGABEN SAARBRUECKER WEG 24              Gemeinde Holzwickede              -848,89
+ 28.05.2014 320006759145 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.05.2014 Rechnung Mai 2014 KDNR06008098240 VERTR-NR6000776327         Unitymedia NRW GmbH                -82,60
+ 02.06.2014 R25886665-D01889169 INCL. 34,33 MWST VTR. 02008840 ABSCHLAGS ExtraEnergie GmbH                 -215,00
+ 04.06.2014 2945 Wasserabschlag 01.06.2190.00/2945, Saarbruecker We      Gemeinde Holzwickede              -190,00
+ 06.06.2014 LiNr 3360369 ReNr 405875784 Saarbrueckerweg 24 Messkapsel S- BRUNATA WaeRMEMESSER GESELL.       -14,82
+ 06.06.2014 LiNr 3360369 ReNr 405875785 Saarbrueckerweg 24 Messkapsel S- BRUNATA WaeRMEMESSER GESELL.       -68,78
+ 06.06.2014 LiNr 3360369 ReNr 405875786 Saarbrueckerweg 24 Elektronische BRUNATA WaeRMEMESSER GESELL.       -96,39
+ 30.06.2014 327501944316 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.06.2014 Rechnung Juni 2014 KDNR06008098240 VERTR-NR6000776327        Unitymedia NRW GmbH                -82,60
+ 01.07.2014 R26392973-D01889169 INCL. 34,33 MWST VTR. 02008840 ABSCHLAGS EXTRAENERGIE GMBH                 -215,00
+ 04.07.2014 SACH VSNR S900515819 01.07.2014 EUR 753,13                   Westfaelische Provinzial          -753,13
+ 07.07.2014 RE.NR. 9036007 v.2.7.14 LiegNr 3360369 Saarbruecker Weg 24 D BRUNATA WaeRMEMESSER GESELL.      -352,78
+ 28.07.2014 327501996467 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 31.07.2014 Rechnung Juli 2014 KDNR06008098240 VERTR-NR6000776327        Unitymedia NRW GmbH                -82,60
+ 01.08.2014 R27212163-D01889169 INCL. 34,33 MWST VTR. 02008840 ABSCHLAGS ExtraEnergie GmbH                 -215,00
+ 15.08.2014 63720/70 GRUNDBESITZABG. SAARBRUECKER WEG 24                 Gemeinde Holzwickede              -848,89
+ 19.08.2014 RE.NR.J-14-02315 KdNr 1928-000 Saarbruecker Weg DATUM 19.08. FLEISCHHAUER,SCHORNSTEINFEG        -46,85
+ 19.08.2014 KD.NR 10067 R005090 v.18.8.2014 Saarbrueckerweg Reinigung u  LEIDAG, WOLFGANG                  -166,60
+ 19.08.2014 RE.NR.J-14-02316 Saarbrueckerweg, Holzwickede Schornsteinfeg FLEISCHHAUER,SCHORNSTEINFEG        -50,86
+ 28.08.2014 320006841735 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 29.08.2014 Rechnung August 2014 KDNR06008098240 VERTR-NR6000776327      Unitymedia NRW GmbH                -82,60
+ 01.09.2014 2945 Wasserabschlag 01.09.2190.00/2945, Saarbruecker We      Gemeinde Holzwickede              -190,00
+ 01.09.2014 R28634878-D01889169 INCL 34,33 MWST VTR 02008840 ABSCHLAGSZA EXTRAENERGIE GMBH                 -215,00
+ 29.09.2014 327502045263 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.09.2014 Rechnung September 2014 KDNR06008098240 VERTR-NR6000776327   Unitymedia NRW GmbH                -82,60
+ 01.10.2014 R29502913-D01889169 INCL 34,33 MWST VTR 02008840 ABSCHLAGSZA EXTRAENERGIE GMBH                 -215,00
+ 28.10.2014 320006885838 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 31.10.2014 Rechnung Oktober 2014 KDNR06008098240 VERTR-NR6000776327     Unitymedia NRW GmbH                -82,60
+ 03.11.2014 R30042746-D01889169 INCL 34,33 MWST VTR 02008840 ABSCHLAGSZA EXTRAENERGIE GMBH                 -215,00
+ 12.11.2014 ReNr 14198 v. 10.11.2014 Saarbruecker Weg 24, Holzwickede Gr Dahlke, Galabau                   -748,51
+ 17.11.2014 63720/70 GRUNDBESITZABGAB. SAARBRUECKER WEG 24               Gemeinde Holzwickede              -848,85
+ 28.11.2014 Rechnung November 2014 KDNR06008098240 VERTR-NR6000776327    Unitymedia NRW GmbH                -82,60
+ 28.11.2014 320006936135 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 01.12.2014 2945 Wasserabschlag 01.12.2190.00/2945, Saarbruecker We      Gemeinde Holzwickede              -190,00
+ 01.12.2014 R30722462-D01889169 INCL 34,33 MWST VTR 02008840 ABSCHLAGSZA ExtraEnergie GmbH                 -215,00
+ 29.12.2014 322501848714 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.12.2014 Rechnung Dezember 2014 KDNR06008098240 VERTR-NR6000776327    Unitymedia NRW GmbH                -82,60
+ 02.01.2015 R31935864-D01889169 INCL 34,33 MWST VTR 02008840 ABSCHLAGSZA EXTRAENERGIE GMBH                 -215,00
+                                                                                       Summe umlagefähig -10568,70
+
+                                                                              Summe 59439Saarbrückerweg24 18930,41
+                                                                                             GesamtSumme 85797,50

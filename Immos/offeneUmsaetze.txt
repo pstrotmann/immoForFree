@@ -1,0 +1,86 @@
+02.01.2014     Sparrate  223441955 SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+06.01.2014  SB AUTOMATEN - EINZAHLUNG  DATUM  2014.01.06 10.1 MUENZ.22                         11,84
+13.01.2014            PS-LOS 11141987 - 11141988 DAUERAUFTRAG DA-NR 0833915     D   2   0     -12,00
+16.01.2014  SF-NUMMER:  0710000581     SCHRANKFACHMIETE LASTS Geb. f. Schrankfaecher          -26,00
+16.01.2014  SF-NUMMER:  0220000032     SCHRANKFACHMIETE LASTS Geb. f. Schrankfaecher          -26,00
+21.01.2014                            Umschichtung GUTSCHRIFT Gabriele Strotmann             5000,00
+24.01.2014                            Umschichtung GUTSCHRIFT Gabriele Strotmann             2000,00
+31.01.2014                            Umschichtung GUTSCHRIFT Gabriele Strotmann             2000,00
+03.02.2014     Sparrate  223441955 SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+04.02.2014                       Deckung Versorger GUTSCHRIFT Peter Strotmann                3000,00
+04.02.2014                   Deckung Sondertilgung GUTSCHRIFT Peter Strotmann                2500,00
+05.02.2014  ENTGELT GELDKARTE KU HBCI AUTOM.KARTENENTGELTBUCH SPARKASSE DORTMUND               -2,50
+05.02.2014  ENTGELT GELDKARTE KU HBCI AUTOM.KARTENENTGELTBUCH SPARKASSE DORTMUND               -2,50
+05.02.2014  Botenkarte                 KARTE       1484       SPARKASSE DORTMUND               -2,50
+05.02.2014                              Geld parken UEBERTRAG Strotmann, Gabriele           -8000,00
+12.02.2014            PS-LOS 11141987 - 11141988 DAUERAUFTRAG DA-NR 0833915     D   4   0     -12,00
+17.02.2014                             Kontodeckung UEBERTRAG Strotmann, Gabriele            2000,00
+17.02.2014           PS GEW. 11141988 UEBERWEISUNGSGUTSCHRIFT AUSSPIELUNG VOM 17.02.2014        2,50
+19.02.2014                             Kontodeckung UEBERTRAG Strotmann, Gabriele            1000,00
+03.03.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele           -8000,00
+03.03.2014                         EIGENLEISTUNG DAUERAUFTRAG PETER STROTMANN                 -60,00
+03.03.2014     Sparrate  223441955 SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+07.03.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele           -2000,00
+12.03.2014            PS-LOS 11141987 - 11141988 DAUERAUFTRAG DA-NR 0833915     D   6   0     -12,00
+17.03.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele          -65000,00
+17.03.2014           PS GEW. 11141987 UEBERWEISUNGSGUTSCHRIFT AUSSPIELUNG VOM 17.03.2014        2,50
+26.03.2014                                          BAR KASSE                               -1000,00
+01.04.2014                            Kredittilgung UEBERTRAG Strotmann, Gabriele          -30000,00
+01.04.2014                         Kreditabloesung GUTSCHRIFT Gabriele Strotmann            10000,00
+01.04.2014                         Kreditabloesung GUTSCHRIFT Gabriele Strotmann             2000,00
+01.04.2014                         Kreditabloesung GUTSCHRIFT Gabriele Strotmann            10000,00
+01.04.2014          Deckung KredittilgungAm Gulloh GUTSCHRIFT Peter Strotmann                5000,00
+01.04.2014  Abrechnung 31.03.2014      siehe Anlage ABSCHLUSS                                   0,00
+01.04.2014     Sparrate  223441955 SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+04.04.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele           -4000,00
+11.04.2014            PS-LOS 11141987 - 11141988 DAUERAUFTRAG DA-NR 0833915     D   8   0     -12,00
+02.05.2014     Sparrate  223441955 SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+05.05.2014                                festlegen UEBERTRAG Strotmann, Gabriele           -9000,00
+08.05.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele           -3000,00
+13.05.2014            PS-LOS 11141987 - 11141988 DAUERAUFTRAG DA-NR 0833915     D  10   0     -12,00
+16.05.2014           PS GEW. 11141987 UEBERWEISUNGSGUTSCHRIFT AUSSPIELUNG VOM 16.05.2014        2,50
+02.06.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele          -14000,00
+02.06.2014                               Geldanlage UEBERTRAG Strotmann, Gabriele            7000,00
+02.06.2014     Sparrate  223441955 SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+12.06.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0   1     -12,00
+12.06.2014 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF PS-DA-VERFAHREN                  57,60
+17.06.2014          PS GEW. 11141987  UEBERWEISUNGSGUTSCHRIFT AUSSPIELUNG VOM 17.06.2014        2,50
+30.06.2014            UEberziehungszinsenvermidung  UEBERTRAG Strotmann, Gabriele            2000,00
+30.06.2014           UEberziehungszinsenvermeidung  UEBERTRAG Strotmann, Gabriele           10000,00
+01.07.2014      Abrechnung 30.06.2014 siehe Anlage  ABSCHLUSS                                   0,00
+01.07.2014     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+07.07.2014                            Kontodeckung  UEBERTRAG Strotmann, Gabriele            1000,00
+11.07.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   2   1     -12,00
+16.07.2014          PS GEW. 11141988  UEBERWEISUNGSGUTSCHRIFT AUSSPIELUNG VOM 16.07.2014        2,50
+17.07.2014                     Kreditsondertilgung  UEBERTRAG Strotmann, Gabriele            6500,00
+01.08.2014     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+04.08.2014                    paar mickrige zinsen  UEBERTRAG Strotmann, Gabriele           -7500,00
+13.08.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   4   1     -12,00
+14.08.2014                            Kontodeckung  UEBERTRAG Strotmann, Gabriele            4000,00
+01.09.2014     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+11.09.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   6   1     -12,00
+01.10.2014      Abrechnung 30.09.2014 siehe Anlage  ABSCHLUSS                                   0,00
+01.10.2014     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+07.10.2014 KONTODECKUNG steuern DATUM 07.10.2014, 09.44 UHR 1 STROTMANN,PETER                -925,00
+13.10.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   8   1     -12,00
+03.11.2014     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+03.11.2014 Riester DATUM 01.11.2014, 13.26 UHR 1. TAN 754936  Peter Strotmann               -1986,00
+03.11.2014 RUECKBUCHUNG DES ZUVIEL UEBERWIESENEN BETRAGS FUER PETER STROTMANN                  80,00
+03.11.2014                              STORNOBUCHUNG  STORNO PETER STROTMANN                 -80,00
+04.11.2014                              Geldanlage  UEBERTRAG GABRIELE STROTMANN           -10000,00
+05.11.2014 RUECKBUCHUNG DES ZUVIEL UEBERWIESENER BETRAGS FUER VERWAHR                         100,00
+13.11.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D  10   1     -12,00
+17.11.2014 Kontoausgleich zur UEberziehungszinsenverhinderung Gabriele Strotmann              200,00
+01.12.2014     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+10.12.2014                              Geldanlage  UEBERTRAG GABRIELE STROTMANN            -2500,00
+10.12.2014           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0   2     -12,00
+10.12.2014 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND               57,60
+15.12.2014          PS GEW. 11141987  UEBERWEISUNGSGUTSCHRIFT SPARKASSE DORTMUND                2,50
+16.12.2014 Geldanlage DATUM 16.12.2014, 13.23 UHR1.TAN 372782 Peter Strotmann               -5000,00
+16.12.2014 VertragNr 300004752 DATUM 16.12.2014, 13.17 UHR1.T CosmosDirect                  -5000,00
+16.12.2014                       zur Weiterleitung  UEBERTRAG GABRIELE STROTMANN             8400,00
+30.12.2014            �berziehungszinsenvermeidung  UEBERTRAG GABRIELE STROTMANN            12000,00
+30.12.2014      Abrechnung 29.12.2014 siehe Anlage  ABSCHLUSS                                   0,00
+02.01.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+05.01.15 Kontodeckung Sondertilgungen DXPM3HFBKET  GUTSCHRI Strotmann, Peter              10000,00
+05.01.15                       f�r Sondertilgung  UEBERTRAG GABRIELE STROTMANN             2000,00

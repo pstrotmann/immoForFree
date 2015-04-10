@@ -1,0 +1,19 @@
+Betriebskostenabrechnung ;2013;Monat:01-12
+Südring  160 , 45711  Datteln,2013,vom:07.05.14
+Mieter:;Bajrami-Imping
+Kostenart;Gesamtbetrag;Umlagebetrag;Umlageschlüssel;Formel;Betrag
+Grundsteuer;910,46;910,46;qm;111,75/321,76;316,21
+Müllabfuhr;737,90;737,90;Personen;5/11;335,41
+Entwässerung;1.349,76;1.349,76;Personen;5/10;581,15
+Entwässerung Fläche;187,68;187,68;qm;111,75/321,76;65,18
+Straßenreinigung;51,36;51,36;qm;111,75/321,76;17,84
+Strom allgemein;173,48;173,48;qm;111,75/321,76;39,22
+Gebäudeversicherung;797,06;797,06;qm;111,75/321,76;276,83
+Haftpflichtversicherung;78,32;78,32;qm;111,75/321,76;27,20
+Wasser;870,72;870,72;Personen;5/10;374,90
+Schornsteinfeger;229,49;229,49;qm;111,75/321,76;79,70
+Dachrinnenreinigung;125,40;125,40;qm;111,75/321,76;43,55
+Heizungswartung;252,28;252,28;Haushalt;1/4;63,07
+;;;Summe;;2.220,26
+;;;gezahlte Pauschale;12*250,00 ;3.000,00
+;;;Ihr Guthaben:;;779,74
