@@ -6,8 +6,10 @@ import grails.util.Holders
 class Partnerrolle implements Comparable {
 	
 	String rolle
-	//mit der Belegung dieses Strings gibt es noch ein Problem
-	//manchmal nicht belegt, nicht nachstellbar
+	/*
+	mit der Belegung dieses Strings gibt es noch ein Problem
+	manchmal nicht belegt, nicht nachstellbar
+	*/
 	
 	Mietvertrag mietvertrag
 	Kredit kredit
