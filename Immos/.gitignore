@@ -1,7 +1,6 @@
 *.iws
 *Db.properties
 *Db.script
-*Db.*.*
 .settings
 stacktrace.log
 /*.zip
