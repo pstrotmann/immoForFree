@@ -1,7 +1,7 @@
 package org.strotmann.immos
 
 class Adresse {
-	
+	/* */
 	int postleitzahl
 	String ort
 	
