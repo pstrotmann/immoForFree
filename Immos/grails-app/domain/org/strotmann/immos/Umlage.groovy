@@ -18,7 +18,7 @@ class Umlage implements Comparable {
 	static hasMany = [umlageanteile:Umlageanteil]
 	
 	static constraints = {
-		kostenart(inList: kostenarten)
+		kostenart()
 		umlageschluessel(inList: umlageschluessels)
 		betrag()
 		umlageanteile(nullable:true)
@@ -36,7 +36,10 @@ class Umlage implements Comparable {
 	}
 	
 	static List getKostenarten () {
-		Holders.config.kostenart
+		//Holders.config.kostenart
+		List koList = []
+		Kostenart.findAll ("from Kostenart").each {koList<<it.bezeichnung}
+		koList.sort()
 	}
 	
 	int getSortpos() {

@@ -13,7 +13,7 @@ class Umlageanteil implements Comparable{
 	static belongsTo = [umlage:Umlage]
 	
 	static constraints = {
-		kostenart(inList: Umlage.kostenarten)
+		kostenart()
 		umlageschluessel(inList: Umlage.umlageschluessels<<"Zähler")
 		betrag()
 	}

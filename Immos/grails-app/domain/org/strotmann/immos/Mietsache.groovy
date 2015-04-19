@@ -19,7 +19,7 @@ class Mietsache implements Comparable{
 		art()
 		wohnflaeche (nullable:true)
 		aufteilung (nullable:true)
-		anzRauchmelder(nullable:true)
+		anzRauchmelder()
 	}
 		
 	int compareTo(obj) {

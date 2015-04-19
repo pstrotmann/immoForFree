@@ -7,7 +7,7 @@
 		<g:message code="umlage.kostenart.label" default="Kostenart" />
 		
 	</label>
-	<g:select name="kostenart" from="${umlageInstance.constraints.kostenart.inList}" value="${umlageInstance?.kostenart}" valueMessagePrefix="umlage.kostenart" noSelection="['': '']"/>
+	<g:select name="kostenart" from="${Umlage.kostenarten}" value="${umlageInstance?.kostenart}" valueMessagePrefix="umlage.kostenart" noSelection="['': '']"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: umlageInstance, field: 'umlageschluessel', 'error')} ">

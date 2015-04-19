@@ -44,7 +44,7 @@ class Immobilie {
 		kredite()
 		dienstleistungsvertraege()
 		rechnungen()
-		anzRauchmelder(nullable:true)
+		anzRauchmelder()
 	}
 	
 	static transients = ['prozentAbschreibung', 'anschaffungspreisDM', 'grundstueckspreisDM', 

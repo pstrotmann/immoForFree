@@ -9,4 +9,8 @@ class Kostenart {
 		bezeichnung()
 		kommunal(nullable:true)
     }
+	
+	String toString() {
+		"${bezeichnung} ${kommunal:'kommunale Kostenart'}"
+	}
 }
