@@ -34,6 +34,14 @@
 	<g:textField name="aufteilung" value="${mietsacheInstance?.aufteilung}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: mietsacheInstance, field: 'anzRauchmelder', 'error')} required">
+	<label for="anzRauchmelder">
+		<g:message code="mietsache.anzRauchmelder.label" default="Anzahl Rauchmelder" />
+		
+	</label>
+	<g:field name="anzRauchmelder" type="number" value="${mietsacheInstance.anzRauchmelder}" required=""/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: mietsacheInstance, field: 'zwischenzaehlers', 'error')} ">
 	<label for="zwischenzaehlers">
 		<g:message code="mietsache.zwischenzaehlers.label" default="Zwischenzähler" />

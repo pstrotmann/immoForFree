@@ -151,6 +151,15 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${immobilieInstance?.anzRauchmelder}">
+				<li class="fieldcontain">
+					<span id="anzRauchmelder-label" class="property-label"><g:message code="immobilie.anzRauchmelder.label" default="Anzahl Rauchmelder" /></span>
+					
+						<span class="property-value" aria-labelledby="anzRauchmelder-label"><g:formatNumber number="${immobilieInstance?.anzRauchmelder}"/></span>
+					
+				</li>
+				</g:if>
+				
 				<g:if test="${immobilieInstance?.zaehlers}">
 				<li class="fieldcontain">
 					<span id="zaehlers-label" class="property-label"><g:message code="immobilie.zaehlers.label" default="Zähler" /></span>

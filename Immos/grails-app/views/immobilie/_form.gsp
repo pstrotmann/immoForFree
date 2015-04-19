@@ -107,6 +107,14 @@
 
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'anzRauchmelder', 'error')} required">
+	<label for="anzRauchmelder">
+		<g:message code="immobilie.anzRauchmelder.label" default="Anzahl Rauchmelder" />
+		
+	</label>
+	<g:field name="anzRauchmelder" type="number" value="${immobilieInstance.anzRauchmelder}" required=""/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'zaehlers', 'error')} ">
 	<label for="zaehlers">
 		<g:message code="immobilie.zaehlers.label" default="Zähler" />

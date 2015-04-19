@@ -90,6 +90,15 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${mietsacheInstance?.anzRauchmelder}">
+				<li class="fieldcontain">
+					<span id="anzRauchmelder-label" class="property-label"><g:message code="mietsache.anzRauchmelder.label" default="Anzahl Rauchmelder" /></span>
+					
+						<span class="property-value" aria-labelledby="anzRauchmelder-label"><g:formatNumber number="${mietsacheInstance?.anzRauchmelder}"/></span>
+					
+				</li>
+				</g:if>
+				
 				<li class="fieldcontain">
 					<span id="notizen-label" class="property-label"><g:message code="mietsache.notizen.label" default="Notizen" /></span>
 					
