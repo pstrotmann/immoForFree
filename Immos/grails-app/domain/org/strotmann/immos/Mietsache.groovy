@@ -8,6 +8,7 @@ class Mietsache implements Comparable{
 	String art // (Mietsachen)art
 	BigDecimal wohnflaeche
 	String aufteilung
+	int anzRauchmelder
 	
 	static belongsTo = [immobilie:Immobilie]
 	
@@ -18,6 +19,7 @@ class Mietsache implements Comparable{
 		art()
 		wohnflaeche (nullable:true)
 		aufteilung (nullable:true)
+		anzRauchmelder(nullable:true)
 	}
 		
 	int compareTo(obj) {

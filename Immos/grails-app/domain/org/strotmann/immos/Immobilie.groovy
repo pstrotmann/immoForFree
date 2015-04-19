@@ -14,6 +14,7 @@ class Immobilie {
 	boolean erhoehteAbschreibung	
 	boolean sozialerWohnungsbau
 	String grundbuch
+	int anzRauchmelder
 	
 	Hausadresse hausadresse
 	
@@ -43,7 +44,7 @@ class Immobilie {
 		kredite()
 		dienstleistungsvertraege()
 		rechnungen()
-		einheitswerte()
+		anzRauchmelder(nullable:true)
 	}
 	
 	static transients = ['prozentAbschreibung', 'anschaffungspreisDM', 'grundstueckspreisDM', 

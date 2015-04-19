@@ -122,8 +122,10 @@ dienstleistungsart=['Hausmeister','Strom','Gas','Wasser','Abwasser','Ablesung/Ab
 domname=[' ','Dienstleistungsvertrag','Immobilie','Kredit','Mietsache','Mietvertrag','Organisation','Person','Rechnung']
 kommunikationsart=['Festnetz','Handy','Fax','eMail','Homepage']
 kommunal=['Grundsteuer','Müllabfuhr','Müllabfuhr Bio','Entwässerung','Entwässerung Fläche','Straßenreinigung']
-kostenart=['Grundsteuer','Müllabfuhr','Müllabfuhr Bio','Entwässerung','Entwässerung Fläche','Straßenreinigung','Kabelfernsehen','Strom allgemein',
-		   'Gebäudeversicherung','Haftpflichtversicherung','Wasser','Schornsteinfeger','Dachrinnenreinigung',
+kostenart=['Grundsteuer','Müllabfuhr','Müllabfuhr Bio','Entwässerung','Entwässerung Fläche','Straßenreinigung',
+			'Kabelfernsehen','Strom allgemein','Grundstückspflege',
+		   'Gebäudeversicherung','Haftpflichtversicherung','Wasser','Schornsteinfeger',
+		   'Dachrinnenreinigung','Hauswart','Rauchmelder Treppenhaus','Rauchmelder Wohnung',
 		   'Heizungswartung','Strom Trockner','Rauchmelder','Dienstleistungen','2% Umlageausfallwagnis']
 mietsachenart=['Wohnung','Reihenendhaus','Reihenmittelhaus','Doppelhaushälfte','Garage','Stellplatz',
 			   'Ladenlokal','Büro','Lager','Gaststätte','Eisdiele','Werbefläche']
