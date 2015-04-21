@@ -24,6 +24,11 @@ class Rechnung implements Comparable{
 	BigDecimal skonto //bruttoBetrag * skontoSatz / 100
 	
 	boolean umlagefaehig
+	Date umlageVon
+	Date umlageBis
+	String umlageKostenart
+	String umlageSchluessel
+	Mietsache umlageAuf
 	
 	SortedSet zahlungen
 	static hasMany = [zahlungen:Zahlung]
@@ -41,6 +46,12 @@ class Rechnung implements Comparable{
 		skonto(nullable:true)
 		kundennummer(nullable:true)
 		auftragsnummer(nullable:true)
+		umlagefaehig(nullable:true)
+		umlageVon(nullable:true)
+		umlageBis(nullable:true)
+		umlageKostenart(nullable:true)
+		umlageSchluessel(nullable:true)
+		umlageAuf(nullable:true)
     }
 	
 	int compareTo(obj) {
