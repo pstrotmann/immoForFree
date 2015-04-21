@@ -26,6 +26,10 @@ class Bankumsatz {
 	String info	
 	
 	static hasMany = [zahlungen:Zahlung]
+	
+	static mapping = {
+		valutadatum column: 'Valutadatum', index: 'Valutadatum_Idx'
+	}
 
     static constraints = {
 		 auftragskonto()
