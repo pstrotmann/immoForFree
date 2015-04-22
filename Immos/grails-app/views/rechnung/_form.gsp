@@ -129,6 +129,13 @@
 	<g:checkBox name="umlagefaehig" value="${rechnungInstance?.umlagefaehig}" />
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'umlageinfo', 'error')} ">
+	<label for="umlageinfo">
+		<g:message code="rechnung.umlageinfo.label" default="Umlageinfo" />
+	</label>
+	<g:link controller="umlageinfo" action="create" params="['rechnung.id': rechnungInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'umlageinfo.label', default: 'Umlageinfo')])}</g:link>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'notizen', 'error')} ">
 	<label for="notizen">
 		<g:message code="rechnung.notizen.label" default="Notizen" />

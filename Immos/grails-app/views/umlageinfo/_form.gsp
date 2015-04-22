@@ -1,6 +1,14 @@
 <%@ page import="org.strotmann.immos.Umlageinfo" %>
+<%@ page import="org.strotmann.immos.Umlage" %>
 
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
+	<label for="rechnung">
+		<g:message code="umlageinfo.rechnung.label" default="Rechnung" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" required="" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
 
+</div>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'von', 'error')} required">
 	<label for="von">
@@ -25,7 +33,7 @@
 		<g:message code="umlageinfo.kostenart.label" default="Kostenart" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="kostenart" required="" value="${umlageinfoInstance?.kostenart}"/>
+	<g:select name="kostenart" from="${Umlage.kostenarten}" value="${umlageinfoInstance?.kostenart}" valueMessagePrefix="umlageinfo.kostenart" noSelection="['': '']"/>
 
 </div>
 

@@ -20,7 +20,8 @@ class UmlageinfoController {
     }
 
     def create() {
-        respond new Umlageinfo(params)
+		flash.rechnung = Rechnung.get(params.rechnung.id)
+		respond new Umlageinfo(params)
     }
 
     @Transactional
