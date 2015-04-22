@@ -36,7 +36,6 @@ class Umlage implements Comparable {
 	}
 	
 	static List getKostenarten () {
-		//Holders.config.kostenart
 		List koList = []
 		Kostenart.findAll ("from Kostenart").each {koList<<it.bezeichnung}
 		koList.sort()
