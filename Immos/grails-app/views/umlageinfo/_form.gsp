@@ -15,7 +15,7 @@
 		<g:message code="umlageinfo.von.label" default="Von" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="von" precision="day"  value="${umlageinfoInstance?.von}"  />
+	<g:datePicker name="von" precision="day"  value="${Umlageinfo.anfangVorjahr}"  />
 
 </div>
 
@@ -24,7 +24,7 @@
 		<g:message code="umlageinfo.bis.label" default="Bis" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="bis" precision="day"  value="${umlageinfoInstance?.bis}"  />
+	<g:datePicker name="bis" precision="day"  value="${Umlageinfo.endeVorjahr}"  />
 
 </div>
 

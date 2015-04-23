@@ -35,4 +35,20 @@ class Umlageinfo {
 		List u = Holders.config.umlageschluessel
 		return u
 	}
+	
+	static Date getAnfangVorjahr () {
+		def Calendar cal = Calendar.getInstance();
+		cal.setTime(new Date())
+		int vorjahr = cal.get(Calendar.YEAR) - 1
+		cal.set(vorjahr,Calendar.JANUARY,1)
+		cal.getTime()
+	}
+	
+	static Date getEndeVorjahr () {
+		def Calendar cal = Calendar.getInstance();
+		cal.setTime(new Date())
+		int vorjahr = cal.get(Calendar.YEAR) - 1
+		cal.set(vorjahr,Calendar.DECEMBER,31)
+		cal.getTime()
+	}
 }
