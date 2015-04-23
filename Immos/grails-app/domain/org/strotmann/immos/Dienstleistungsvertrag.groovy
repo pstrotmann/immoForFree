@@ -86,4 +86,9 @@ class Dienstleistungsvertrag implements Comparable{
 	static List getDienstleistungsvertraege () {
 		Dienstleistungsvertrag.findAll("from Dienstleistungsvertrag order by dienstleister.partner.name")
 	}
+	
+	static List dienstleistungsvertraegeZuImmo (Rechnung rechnung) {
+		String suchString = "from Dienstleistungsvertrag as dv where dv.immobilie.id = ${rechnung.immobilie.id} "
+		Dienstleistungsvertrag.findAll(suchString)
+	}
 }

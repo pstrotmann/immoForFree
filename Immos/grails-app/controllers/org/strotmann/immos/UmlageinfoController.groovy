@@ -26,7 +26,7 @@ class UmlageinfoController {
 
     @Transactional
     def save(Umlageinfo umlageinfoInstance) {
-        if (umlageinfoInstance == null) {
+		if (umlageinfoInstance == null) {
             notFound()
             return
         }
@@ -36,7 +36,10 @@ class UmlageinfoController {
             return
         }
 
-        umlageinfoInstance.save flush:true
+		def rechnungInstance = umlageinfoInstance.rechnung
+		rechnungInstance.umlageinfo = umlageinfoInstance
+		rechnungInstance.save() 
+		umlageinfoInstance.save flush:true
 
         request.withFormat {
             form multipartForm {
@@ -48,6 +51,7 @@ class UmlageinfoController {
     }
 
     def edit(Umlageinfo umlageinfoInstance) {
+		flash.rechnung = umlageinfoInstance.rechnung
         respond umlageinfoInstance
     }
 
@@ -63,7 +67,10 @@ class UmlageinfoController {
             return
         }
 
-        umlageinfoInstance.save flush:true
+		def rechnungInstance = umlageinfoInstance.rechnung
+		rechnungInstance.umlageinfo = umlageinfoInstance
+		rechnungInstance.save flush:true
+		umlageinfoInstance.save flush:true
 
         request.withFormat {
             form multipartForm {

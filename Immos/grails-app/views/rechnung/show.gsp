@@ -163,6 +163,17 @@
 					
 				</li>
 				
+				<g:if test="${rechnungInstance?.umlageinfo}">
+				<li class="fieldcontain">
+					<span id="umlageinfo-label" class="property-label"><g:message code="rechnung.umlageinfo.label" default="Umlageinfo" /></span>
+					
+						<g:each in="${rechnungInstance.umlageinfo}" var="u">
+						<span class="property-value" aria-labelledby="umlageinfo-label"><g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+				
 				<g:if test="${rechnungInstance?.zahlungen}">
 				<li class="fieldcontain">
 					<span id="zahlungen-label" class="property-label"><g:message code="rechnung.zahlungen.label" default="Zahlungen" /></span>

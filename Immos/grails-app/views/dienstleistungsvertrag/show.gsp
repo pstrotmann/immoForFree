@@ -129,15 +129,13 @@
 				</li>
 				</g:if>
 				
-				<g:if test="${!dienstleistungsvertragInstance?.umlagefaehig}">
 				<li class="fieldcontain">
 					<span id="umlagefaehig-label" class="property-label"><g:message code="rechnung.umlagefaehig.label" default="Umlagefähig" /></span>
 					
-						<span class="property-value" aria-labelledby="umlagefaehig-label"><g:formatBoolean boolean="${dienstleistungsvertragInstance?.umlagefaehig}" false="Nein"/></span>
+						<span class="property-value" aria-labelledby="umlagefaehig-label"><g:formatBoolean boolean="${dienstleistungsvertragInstance?.umlagefaehig}" false="Nein" true="ja"/></span>
 					
 				</li>
-				</g:if>
-			
+				
 				<g:if test="${dienstleistungsvertragInstance?.vertragsstaende}">
 				<li class="fieldcontain">
 					<span id="vertragsstaende-label" class="property-label"><g:message code="dienstleistungsvertrag.vertragsstaende.label" default="Vertragsstaende" /></span>

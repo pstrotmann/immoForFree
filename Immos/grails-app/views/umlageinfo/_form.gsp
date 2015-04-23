@@ -1,13 +1,16 @@
 <%@ page import="org.strotmann.immos.Umlageinfo" %>
 <%@ page import="org.strotmann.immos.Umlage" %>
+<%@ page import="org.strotmann.immos.Dienstleistungsvertrag" %>
+<%@ page import="org.strotmann.immos.Mietsache" %>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
 	<label for="rechnung">
 		<g:message code="umlageinfo.rechnung.label" default="Rechnung" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" required="" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
-
+	<g:if test="${flash.rechnung}">
+		<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" required="" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
+	</g:if>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'von', 'error')} required">
@@ -51,7 +54,7 @@
 		<g:message code="umlageinfo.umlageAuf.label" default="Umlage Auf" />
 		
 	</label>
-	<g:select id="umlageAuf" name="umlageAuf.id" from="${org.strotmann.immos.Mietsache.list()}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
 
 </div>
 
@@ -60,16 +63,8 @@
 		<g:message code="umlageinfo.teilbescheidVon.label" default="Teilbescheid Von" />
 		
 	</label>
-	<g:select id="teilbescheidVon" name="teilbescheidVon.id" from="${org.strotmann.immos.Dienstleistungsvertrag.list()}" optionKey="id" value="${umlageinfoInstance?.teilbescheidVon?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="teilbescheidVon" name="teilbescheidVon.id" from="${Dienstleistungsvertrag.dienstleistungsvertraegeZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.teilbescheidVon?.id}" class="many-to-one" noSelection="['null': '']"/>
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
-	<label for="rechnung">
-		<g:message code="umlageinfo.rechnung.label" default="Rechnung" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:select id="rechnung" name="rechnung.id" from="${org.strotmann.immos.Rechnung.list()}" optionKey="id" required="" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
-
-</div>
 

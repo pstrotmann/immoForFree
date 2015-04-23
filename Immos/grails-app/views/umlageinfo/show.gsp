@@ -23,11 +23,18 @@
 			</g:if>
 			<ol class="property-list umlageinfo">
 			
+				<g:if test="${umlageinfoInstance?.rechnung}">
+				<li class="fieldcontain">
+					<span id="rechnung-label" class="property-label"><g:message code="umlageinfo.rechnung.label" default="Rechnung" /></span>
+					<span class="property-value" aria-labelledby="rechnung-label"><g:link controller="rechnung" action="show" id="${umlageinfoInstance?.rechnung.id}">${umlageinfoInstance?.rechnung.reLang}</g:link></span>
+				</li>
+				</g:if>
+				
 				<g:if test="${umlageinfoInstance?.von}">
 				<li class="fieldcontain">
 					<span id="von-label" class="property-label"><g:message code="umlageinfo.von.label" default="Von" /></span>
 					
-						<span class="property-value" aria-labelledby="von-label"><g:formatDate date="${umlageinfoInstance?.von}" /></span>
+						<span class="property-value" aria-labelledby="von-label"><g:formatDate date="${umlageinfoInstance?.von}" format="dd.MM.yyyy" /></span>
 					
 				</li>
 				</g:if>
@@ -36,7 +43,7 @@
 				<li class="fieldcontain">
 					<span id="bis-label" class="property-label"><g:message code="umlageinfo.bis.label" default="Bis" /></span>
 					
-						<span class="property-value" aria-labelledby="bis-label"><g:formatDate date="${umlageinfoInstance?.bis}" /></span>
+						<span class="property-value" aria-labelledby="bis-label"><g:formatDate date="${umlageinfoInstance?.bis}" format="dd.MM.yyyy" /></span>
 					
 				</li>
 				</g:if>
@@ -73,15 +80,6 @@
 					<span id="teilbescheidVon-label" class="property-label"><g:message code="umlageinfo.teilbescheidVon.label" default="Teilbescheid Von" /></span>
 					
 						<span class="property-value" aria-labelledby="teilbescheidVon-label"><g:link controller="dienstleistungsvertrag" action="show" id="${umlageinfoInstance?.teilbescheidVon?.id}">${umlageinfoInstance?.teilbescheidVon?.encodeAsHTML()}</g:link></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${umlageinfoInstance?.rechnung}">
-				<li class="fieldcontain">
-					<span id="rechnung-label" class="property-label"><g:message code="umlageinfo.rechnung.label" default="Rechnung" /></span>
-					
-						<span class="property-value" aria-labelledby="rechnung-label"><g:link controller="rechnung" action="show" id="${umlageinfoInstance?.rechnung?.id}">${umlageinfoInstance?.rechnung?.encodeAsHTML()}</g:link></span>
 					
 				</li>
 				</g:if>

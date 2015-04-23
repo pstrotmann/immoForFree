@@ -42,9 +42,9 @@
 				<g:each in="${umlageinfoInstanceList}" status="i" var="umlageinfoInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${umlageinfoInstance.id}">${fieldValue(bean: umlageinfoInstance, field: "von")}</g:link></td>
+						<td><g:link action="show" id="${umlageinfoInstance.id}"><g:formatDate date="${umlageinfoInstance.von}" format="dd.MM.yyyy"/></g:link></td>
 					
-						<td><g:formatDate date="${umlageinfoInstance.bis}" /></td>
+						<td><g:formatDate date="${umlageinfoInstance.bis}" format="dd.MM.yyyy"/></td>
 					
 						<td>${fieldValue(bean: umlageinfoInstance, field: "kostenart")}</td>
 					

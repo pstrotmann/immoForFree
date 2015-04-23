@@ -13,9 +13,10 @@ class Umlageinfo {
 	Mietsache umlageAuf
 	Dienstleistungsvertrag teilbescheidVon
 	
-	static belongsTo = [rechnung:Rechnung]
+	Rechnung rechnung
 	
 	static constraints = {
+		rechnung()
 		von()
 		bis()
 		kostenart()
