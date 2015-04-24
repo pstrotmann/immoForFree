@@ -43,12 +43,22 @@ class Partnerrolle implements Comparable {
 	
 	int compareTo(obj) {
 		if (rechnung)
-			if(rechnung.rechnungsdatum.compareTo(obj.rechnung.rechnungsdatum) == 0)
-				return rechnung.rechnungsnummer.compareTo(obj.rechnung.rechnungsnummer)
+			if (obj.rechnung)
+				//rechnung rechnung
+				if(rechnung.rechnungsdatum.compareTo(obj.rechnung.rechnungsdatum) == 0)
+					return rechnung.rechnungsnummer.compareTo(obj.rechnung.rechnungsnummer)
+				else
+					return rechnung.rechnungsdatum.compareTo(obj.rechnung.rechnungsdatum)
 			else
-				return rechnung.rechnungsdatum.compareTo(obj.rechnung.rechnungsdatum)
+				//rechnung any
+				return 1
 		else
-			return id.compareTo(obj.id)
+			if (obj.rechnung)
+				// any rechnung
+				return -1
+			else
+				// any any
+				return id.compareTo(obj.id)
 	}
 	
 	String toString() {	
