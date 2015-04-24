@@ -130,10 +130,17 @@
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'umlageinfo', 'error')} ">
-	<label for="umlageinfo">
-		<g:message code="rechnung.umlageinfo.label" default="Umlageinfo" />
-	</label>
-	<g:link controller="umlageinfo" action="create" params="['rechnung.id': rechnungInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'umlageinfo.label', default: 'Umlageinfo')])}</g:link>
+<label for="umlageinfo">
+	<g:message code="rechnung.umlageinfo.label" default="Umlageinfo" />
+</label>
+<g:if test="${rechnungInstance?.umlageinfo}">
+	<g:each in="${rechnungInstance.umlageinfo}" var="u">
+		<g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link>
+	</g:each>
+</g:if>
+<g:elseif test="${!rechnungInstance?.umlageinfo}">
+	<g:link controller="umlageinfo" action="create" params="['rechnung.id': rechnungInstance?.id]"><g:message code="rechnung.anlegen.label" default="Anlegen" /></g:link>
+</g:elseif>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'notizen', 'error')} ">
