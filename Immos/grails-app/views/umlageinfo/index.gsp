@@ -24,17 +24,15 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="von" title="${message(code: 'umlageinfo.von.label', default: 'Von')}" />
-					
-						<g:sortableColumn property="bis" title="${message(code: 'umlageinfo.bis.label', default: 'Bis')}" />
-					
 						<g:sortableColumn property="kostenart" title="${message(code: 'umlageinfo.kostenart.label', default: 'Kostenart')}" />
 					
 						<g:sortableColumn property="umlageschluessel" title="${message(code: 'umlageinfo.umlageschluessel.label', default: 'Umlageschluessel')}" />
 					
-						<th><g:message code="umlageinfo.umlageAuf.label" default="Umlage Auf" /></th>
+						<g:sortableColumn property="von" title="${message(code: 'umlageinfo.von.label', default: 'Von')}" />
 					
-						<th><g:message code="umlageinfo.teilbescheidVon.label" default="Teilbescheid Von" /></th>
+						<g:sortableColumn property="bis" title="${message(code: 'umlageinfo.bis.label', default: 'Bis')}" />
+					
+						<th><div align = right><g:message code="umlageinfo.betrag.label" default="Betrag" /></div></th>
 					
 					</tr>
 				</thead>
@@ -42,17 +40,15 @@
 				<g:each in="${umlageinfoInstanceList}" status="i" var="umlageinfoInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${umlageinfoInstance.id}"><g:formatDate date="${umlageinfoInstance.von}" format="dd.MM.yyyy"/></g:link></td>
-					
-						<td><g:formatDate date="${umlageinfoInstance.bis}" format="dd.MM.yyyy"/></td>
-					
-						<td>${fieldValue(bean: umlageinfoInstance, field: "kostenart")}</td>
+						<td><g:link action="show" id="${umlageinfoInstance.id}">${fieldValue(bean: umlageinfoInstance, field: "kostenart")}</g:link></td>
 					
 						<td>${fieldValue(bean: umlageinfoInstance, field: "umlageschluessel")}</td>
+						
+						<td><g:formatDate date="${umlageinfoInstance.von}" format="dd.MM.yyyy"/></td>
+						
+						<td><g:formatDate date="${umlageinfoInstance.bis}" format="dd.MM.yyyy"/></td>
 					
-						<td>${fieldValue(bean: umlageinfoInstance, field: "umlageAuf")}</td>
-					
-						<td>${fieldValue(bean: umlageinfoInstance, field: "teilbescheidVon")}</td>
+						<td><div align = right><g:formatNumber number="${umlageinfoInstance.rechnung.betrag}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 					
 					</tr>
 				</g:each>
