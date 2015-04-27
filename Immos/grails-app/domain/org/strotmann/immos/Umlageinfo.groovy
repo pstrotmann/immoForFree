@@ -2,6 +2,7 @@ package org.strotmann.immos
 
 import java.util.Date;
 import java.util.List;
+
 import grails.util.Holders
 
 class Umlageinfo {
@@ -10,6 +11,8 @@ class Umlageinfo {
 	Date bis
 	String kostenart
 	String umlageschluessel
+	BigDecimal verbrauch
+	String einheit
 	Mietsache umlageAuf
 	Dienstleistungsvertrag teilbescheidVon
 	
@@ -21,6 +24,8 @@ class Umlageinfo {
 		bis()
 		kostenart()
 		umlageschluessel(inList: umlageschluessels)
+		verbrauch(nullable:true)
+		einheit(nullable:true)
 		umlageAuf(nullable:true)
 		teilbescheidVon(nullable:true)
     }
@@ -35,6 +40,11 @@ class Umlageinfo {
 	static List getUmlageschluessels () {
 		List u = Holders.config.umlageschluessel
 		return u
+	}
+	
+	static List getEinheiten () {
+		List e = Holders.config.zaehlereinheit
+		return e
 	}
 	
 	static Date getAnfangVorjahr () {

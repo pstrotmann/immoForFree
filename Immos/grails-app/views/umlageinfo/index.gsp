@@ -31,6 +31,10 @@
 						<g:sortableColumn property="von" title="${message(code: 'umlageinfo.von.label', default: 'Von')}" />
 					
 						<g:sortableColumn property="bis" title="${message(code: 'umlageinfo.bis.label', default: 'Bis')}" />
+						
+						<g:sortableColumn property="verbrauch" title="${message(code: 'umlageinfo.verbrauch.label', default: 'Verbrauch')}" />
+						
+						<g:sortableColumn property="einheit" title="${message(code: 'umlageinfo.einheit.label', default: 'Einheit')}" />
 					
 						<th><div align = right><g:message code="umlageinfo.betrag.label" default="Betrag" /></div></th>
 					
@@ -47,6 +51,10 @@
 						<td><g:formatDate date="${umlageinfoInstance.von}" format="dd.MM.yyyy"/></td>
 						
 						<td><g:formatDate date="${umlageinfoInstance.bis}" format="dd.MM.yyyy"/></td>
+						
+						<td>${fieldValue(bean: umlageinfoInstance, field: "verbrauch")}</td>
+						
+						<td>${fieldValue(bean: umlageinfoInstance, field: "einheit")}</td>
 					
 						<td><div align = right><g:formatNumber number="${umlageinfoInstance.rechnung.betrag}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 					
@@ -54,9 +62,6 @@
 				</g:each>
 				</tbody>
 			</table>
-			<div class="pagination">
-				<g:paginate total="${umlageinfoInstanceCount ?: 0}" />
-			</div>
 		</div>
 	</body>
 </html>

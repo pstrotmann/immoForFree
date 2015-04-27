@@ -204,6 +204,13 @@
 				</li>
 				</g:if>
 				
+				<li class="fieldcontain">
+					<span id="umlageinfo-label" class="property-label"><g:message code="immobilie.umlageinfo.label" default="Umlageinfo" /></span>
+					
+						<span class="property-value" aria-labelledby="umlageinfo-label"><g:link controller="umlageinfo" action="index" >2014</g:link></span>
+						
+				</li>
+				
 				<g:if test="${immobilieInstance?.immoabrechnungen}">
 				<li class="fieldcontain">
 					<span id="immoabrechnungen-label" class="property-label"><g:message code="immobilie.immoabrechnungen.label" default="Immoabrechnungen" /></span>

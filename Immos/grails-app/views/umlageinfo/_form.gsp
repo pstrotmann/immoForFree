@@ -49,6 +49,22 @@
 
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'verbrauch', 'error')} ">
+	<label for="verbrauch">
+		<g:message code="umlageinfo.verbrauch.label" default="Verbrauch" />
+		
+	</label>
+	<g:field name="verbrauch" value="${fieldValue(bean: umlageinfoInstance, field: 'verbrauch')}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'einheit', 'error')} ">
+	<label for="einheit">
+		<g:message code="umlageinfo.einheit.label" default="Einheit" />
+		
+	</label>
+	<g:select name="einheit" from="${Umlageinfo.einheiten}" value="${umlageinfoInstance?.einheit}" valueMessagePrefix="umlageinfo.einheit" noSelection="['': '']"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'umlageAuf', 'error')} ">
 	<label for="umlageAuf">
 		<g:message code="umlageinfo.umlageAuf.label" default="Umlage Auf" />

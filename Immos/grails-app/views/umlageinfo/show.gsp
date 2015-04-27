@@ -65,6 +65,24 @@
 					
 				</li>
 				</g:if>
+				
+				<g:if test="${umlageinfoInstance?.verbrauch}">
+				<li class="fieldcontain">
+					<span id="verbrauch-label" class="property-label"><g:message code="umlageinfo.verbrauch.label" default="Verbrauch" /></span>
+					
+						<span class="property-value" aria-labelledby="verbrauch-label"><g:fieldValue bean="${umlageinfoInstance}" field="verbrauch"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${umlageinfoInstance?.einheit}">
+				<li class="fieldcontain">
+					<span id="einheit-label" class="property-label"><g:message code="umlageinfo.einheit.label" default="Einheit" /></span>
+					
+						<span class="property-value" aria-labelledby="einheit-label"><g:fieldValue bean="${umlageinfoInstance}" field="einheit"/></span>
+					
+				</li>
+				</g:if>
 			
 				<g:if test="${umlageinfoInstance?.umlageAuf}">
 				<li class="fieldcontain">
