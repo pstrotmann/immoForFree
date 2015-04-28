@@ -134,7 +134,7 @@ rechtsform=['Personengemeinschaft','Eigentümergemeinschaft','Körperschaft des 
 rolle=[Mieter:'mietvertrag',Mietzahler:'partnerrolle',Kreditgeber:'kredit',Dienstleister:'dienstleistungsvertrag',
 	   Ansprechpartner:'partnerrolle',Rechnungssteller:'rechnung']
 umlageschluessel=['qm','Personen','Haushalt','gesetzliche Umlage','stck']
-zaehlereinheit=['cbm','kwh','stck']
+zaehlereinheit=['cbm','kwh','stck','qm']
 zaehlertyp = ['Gas','Strom','Wasser']
 zahlweise = [12:'monatlich',6:'zweimonatlich',4:'vierteljährlich',2:'halbjährlich',1:'jährlich']
 //IP-Adressen von Webservices

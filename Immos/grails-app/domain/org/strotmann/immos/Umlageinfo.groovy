@@ -7,6 +7,7 @@ import grails.util.Holders
 
 class Umlageinfo {
 
+	String art
 	Date von
 	Date bis
 	String kostenart
@@ -20,6 +21,7 @@ class Umlageinfo {
 	
 	static constraints = {
 		rechnung()
+		art(inList:["nk", "hk"])
 		von()
 		bis()
 		kostenart()

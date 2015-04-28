@@ -13,6 +13,14 @@
 	</g:if>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'art', 'error')} ">
+	<label for="art">
+		<g:message code="umlageinfo.art.label" default="Art" />
+		
+	</label>
+	<g:select name="art" from="${umlageinfoInstance.constraints.art.inList}" value="${umlageinfoInstance?.art}" valueMessagePrefix="umlageinfo.art" noSelection="['': '']"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'von', 'error')} required">
 	<label for="von">
 		<g:message code="umlageinfo.von.label" default="Von" />

@@ -25,6 +25,8 @@
 					<tr>
 					
 						<g:sortableColumn property="kostenart" title="${message(code: 'umlageinfo.kostenart.label', default: 'Kostenart')}" />
+						
+						<g:sortableColumn property="art" title="${message(code: 'umlageinfo.art.label', default: 'Art')}" />
 					
 						<g:sortableColumn property="umlageschluessel" title="${message(code: 'umlageinfo.umlageschluessel.label', default: 'Umlageschluessel')}" />
 					
@@ -46,6 +48,8 @@
 					
 						<td><g:link action="show" id="${umlageinfoInstance.id}">${fieldValue(bean: umlageinfoInstance, field: "kostenart")}</g:link></td>
 					
+						<td>${fieldValue(bean: umlageinfoInstance, field: "art")}</td>
+						
 						<td>${fieldValue(bean: umlageinfoInstance, field: "umlageschluessel")}</td>
 						
 						<td><g:formatDate date="${umlageinfoInstance.von}" format="dd.MM.yyyy"/></td>

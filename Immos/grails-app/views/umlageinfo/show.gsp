@@ -30,12 +30,17 @@
 				</li>
 				</g:if>
 				
+				<li class="fieldcontain">
+					<span id="von-label" class="property-label"><g:message code="umlageinfo.art.label" default="Art" /></span>
+					
+						<span class="property-value" aria-labelledby="art-label"><g:fieldValue bean="${umlageinfoInstance}" field="art"/></span>
+				</li>
+				
 				<g:if test="${umlageinfoInstance?.von}">
 				<li class="fieldcontain">
 					<span id="von-label" class="property-label"><g:message code="umlageinfo.von.label" default="Von" /></span>
 					
 						<span class="property-value" aria-labelledby="von-label"><g:formatDate date="${umlageinfoInstance?.von}" format="dd.MM.yyyy" /></span>
-					
 				</li>
 				</g:if>
 			
