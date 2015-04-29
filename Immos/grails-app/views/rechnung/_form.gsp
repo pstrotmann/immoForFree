@@ -30,7 +30,7 @@
 		<g:message code="rechnung.rechnungsdatum.label" default="Rechnungsdatum" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="rechnungsdatum" precision="day"  value="${rechnungInstance?.rechnungsdatum}"  />
+	<g:datePicker name="rechnungsdatum" precision="day"  value="${rechnungInstance?.rechnungsdatum}" years="${2010..2020}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'betrag', 'error')} required">

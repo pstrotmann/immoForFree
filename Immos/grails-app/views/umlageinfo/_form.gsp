@@ -26,7 +26,7 @@
 		<g:message code="umlageinfo.von.label" default="Von" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="von" precision="day"  value="${Umlageinfo.anfangVorjahr}"  />
+	<g:datePicker name="von" precision="day"  value="${Umlageinfo.anfangVorjahr}" years="${2010..2020}" />
 
 </div>
 

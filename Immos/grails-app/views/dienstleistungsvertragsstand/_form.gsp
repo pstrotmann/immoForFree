@@ -7,7 +7,7 @@
 		<g:message code="dienstleistungsvertragsstand.gueltigAb.label" default="Gueltig Ab" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="gueltigAb" precision="day"  value="${dienstleistungsvertragsstandInstance?.gueltigAb}"  />
+	<g:datePicker name="gueltigAb" precision="day"  value="${dienstleistungsvertragsstandInstance?.gueltigAb}" years="${2010..2020}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: dienstleistungsvertragsstandInstance, field: 'pauschale', 'error')} required">
