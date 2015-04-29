@@ -11,8 +11,8 @@ class UmlageinfoController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 100, 1000)
-        respond Umlageinfo.list(params), model:[umlageinfoInstanceCount: Umlageinfo.count()]
+		params.max = Math.min(max ?: 100, 1000)
+		respond Umlageinfo.list(params), model:[umlageinfoInstanceCount: Umlageinfo.count()]
     }
 
     def show(Umlageinfo umlageinfoInstance) {

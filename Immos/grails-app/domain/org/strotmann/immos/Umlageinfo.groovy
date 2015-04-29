@@ -64,4 +64,11 @@ class Umlageinfo {
 		cal.set(vorjahr,Calendar.DECEMBER,31)
 		cal.getTime()
 	}
+	
+	static List infoZuArt (String art) {
+		if (art)
+			Umlageinfo.findAllByArt (art)
+		else
+			Umlageinfo.findAll()
+	}
 }
