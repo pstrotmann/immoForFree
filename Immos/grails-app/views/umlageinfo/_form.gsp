@@ -3,15 +3,24 @@
 <%@ page import="org.strotmann.immos.Dienstleistungsvertrag" %>
 <%@ page import="org.strotmann.immos.Mietsache" %>
 
+<g:if test="${flash.rechnung}">
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
 	<label for="rechnung">
 		<g:message code="umlageinfo.rechnung.label" default="Rechnung" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:if test="${flash.rechnung}">
 		<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" required="" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
-	</g:if>
 </div>
+</g:if>
+<g:if test="${flash.dienstleistungsvertrag}">
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'dienstleistungsvertrag', 'error')} required">
+	<label for="dienstleistungsvertrag">
+		<g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" />
+		<span class="required-indicator">*</span>
+	</label>
+		<g:select id="dienstleistungsvertrag" name="dienstleistungsvertrag.id" from="${flash.dienstleistungsvertrag}" optionKey="id" required="" value="${umlageinfoInstance?.dienstleistungsvertrag?.id}" class="many-to-one"/>
+</div>
+</g:if>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'art', 'error')} ">
 	<label for="art">
@@ -78,17 +87,14 @@
 		<g:message code="umlageinfo.umlageAuf.label" default="Umlage Auf" />
 		
 	</label>
+	<g:if test="${flash.rechnung}">
 	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
-
+	</g:if>
+	<g:if test="${flash.dienstleistungsvertrag}">
+	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.dienstleistungsvertrag)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
+	</g:if>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'dienstleistungsvertrag', 'error')} ">
-	<label for="dienstleistungsvertrag">
-		<g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" />
-		
-	</label>
-	<g:select id="dienstleistungsvertrag" name="dienstleistungsvertrag.id" from="${Dienstleistungsvertrag.dienstleistungsvertraegeZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.dienstleistungsvertrag?.id}" class="many-to-one" noSelection="['null': '']"/>
 
-</div>
 
 

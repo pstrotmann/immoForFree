@@ -104,6 +104,20 @@
 	<g:checkBox name="umlagefaehig" value="${dienstleistungsvertragInstance?.umlagefaehig}" />
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: dienstleistungsvertragInstance, field: 'umlageinfo', 'error')} ">
+<label for="umlageinfo">
+	<g:message code="dienstleistungsvertrag.umlageinfo.label" default="Umlageinfo" />
+</label>
+<ul class="one-to-many">
+	<g:each in="${dienstleistungsvertragInstance.umlageinfos}" var="u">
+		<li><g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link></li>
+	</g:each>
+<li class="add">
+<g:link controller="umlageinfo" action="create" params="['dienstleistungsvertrag.id': dienstleistungsvertragInstance?.id]"><g:message code="dienstleistungsvertrag.anlegen.label" default="Anlegen" /></g:link>
+</li>
+</ul>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: dienstleistungsvertragInstance, field: 'vertragsstaende', 'error')} ">
 	<label for="vertragsstaende">
 		<g:message code="dienstleistungsvertrag.vertragsstaende.label" default="Vertragsstaende" />

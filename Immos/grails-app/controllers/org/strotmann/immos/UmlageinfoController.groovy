@@ -20,7 +20,10 @@ class UmlageinfoController {
     }
 
     def create() {
-		flash.rechnung = Rechnung.get(params.rechnung.id)
+		if (params.rechnung)
+			flash.rechnung = Rechnung.get(params.rechnung.id)
+		if (params.dienstleistungsvertrag)
+			flash.dienstleistungsvertrag = Dienstleistungsvertrag.get(params.dienstleistungsvertrag.id)
 		respond new Umlageinfo(params)
     }
 
