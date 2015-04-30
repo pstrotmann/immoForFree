@@ -46,6 +46,18 @@ class Umlageinfo {
 			"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel}"
 	}
 	
+	BigDecimal getAbrBetrag() {
+		rechnung?rechnung.betrag:abrBetrag
+	}
+	
+	Date getAbrDatum() {
+		rechnung?rechnung.rechnungsdatum:abrDatum
+	}
+	
+	String getAbrGegenstand() {
+		rechnung?rechnung.rechnungsgegenstand:abrGegenstand
+	}
+	
 	static List getUmlageschluessels () {
 		List u = Holders.config.umlageschluessel
 		return u

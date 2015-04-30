@@ -60,7 +60,7 @@
 						
 						<td>${fieldValue(bean: umlageinfoInstance, field: "einheit")}</td>
 					
-						<td><div align = right><g:formatNumber number="${umlageinfoInstance.rechnung.betrag}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${umlageinfoInstance.abrBetrag}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 					
 					</tr>
 				</g:each>
