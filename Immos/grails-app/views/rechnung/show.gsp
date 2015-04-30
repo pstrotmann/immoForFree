@@ -163,11 +163,11 @@
 					
 				</li>
 				
-				<g:if test="${rechnungInstance?.umlageinfo}">
+				<g:if test="${rechnungInstance?.umlageinfos}">
 				<li class="fieldcontain">
 					<span id="umlageinfo-label" class="property-label"><g:message code="rechnung.umlageinfo.label" default="Umlageinfo" /></span>
 					
-						<g:each in="${rechnungInstance.umlageinfo}" var="u">
+						<g:each in="${rechnungInstance.umlageinfos}" var="u">
 						<span class="property-value" aria-labelledby="umlageinfo-label"><g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link></span>
 						</g:each>
 					

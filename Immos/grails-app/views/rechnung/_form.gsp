@@ -133,12 +133,12 @@
 <label for="umlageinfo">
 	<g:message code="rechnung.umlageinfo.label" default="Umlageinfo" />
 </label>
-<g:if test="${rechnungInstance?.umlageinfo}">
-	<g:each in="${rechnungInstance.umlageinfo}" var="u">
+<g:if test="${rechnungInstance?.umlageinfos}">
+	<g:each in="${rechnungInstance.umlageinfos}" var="u">
 		<g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link>
 	</g:each>
 </g:if>
-<g:elseif test="${!rechnungInstance?.umlageinfo}">
+<g:elseif test="${!rechnungInstance?.umlageinfos}">
 	<g:link controller="umlageinfo" action="create" params="['rechnung.id': rechnungInstance?.id]"><g:message code="rechnung.anlegen.label" default="Anlegen" /></g:link>
 </g:elseif>
 </div>

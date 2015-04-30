@@ -24,7 +24,6 @@ class Rechnung implements Comparable{
 	BigDecimal skonto //bruttoBetrag * skontoSatz / 100
 	
 	boolean umlagefaehig
-	Umlageinfo umlageinfo
 	
 	SortedSet zahlungen
 	static hasMany = [zahlungen:Zahlung]
@@ -43,8 +42,7 @@ class Rechnung implements Comparable{
 		kundennummer(nullable:true)
 		auftragsnummer(nullable:true)
 		umlagefaehig(nullable:true)
-		umlageinfo(nullable:true)
-    }
+	}
 	
 	int compareTo(obj) {
 		if (rechnungsdatum.compareTo(obj.rechnungsdatum) < 0)
@@ -71,8 +69,13 @@ class Rechnung implements Comparable{
 		"${rechnungsdatum.getDateString()}$btr"
 	}
 	
+	List <Umlageinfo> getUmlageinfos() {
+		String s = "from Umlageinfo as u where u.rechnung.id = ${this.id} "
+		Umlageinfo.findAll (s)
+	}
+	
 	static List getFreeList () {
-		return(Rechnung.findAll("from Rechnung as r order by r.rechnungsdatum"))
+		Rechnung.findAll("from Rechnung as r order by r.rechnungsdatum")
 	}
 	
 	static List getRechnungen () {

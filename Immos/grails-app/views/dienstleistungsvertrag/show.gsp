@@ -146,6 +146,17 @@
 					
 				</li>
 				</g:if>
+				
+				<g:if test="${dienstleistungsvertragInstance?.umlageinfos}">
+				<li class="fieldcontain">
+					<span id="umlageinfo-label" class="property-label"><g:message code="dienstleistungsvertrag.umlageinfo.label" default="Umlageinfo" /></span>
+					
+						<g:each in="${dienstleistungsvertragInstance.umlageinfos}" var="u">
+						<span class="property-value" aria-labelledby="umlageinfo-label"><g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
 			
 				<g:if test="${dienstleistungsvertragInstance?.zahlungen}">
 				<li class="fieldcontain">

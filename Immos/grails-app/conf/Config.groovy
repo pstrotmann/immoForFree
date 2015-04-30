@@ -119,7 +119,7 @@ log4j.main = {
 dienstleistungsart=['Hausmeister','Strom','Gas','Wasser','Abwasser','Ablesung/Abrechnung','Versicherung',
 					'Kommunikation','Gärtner','Kommunaldienste','Interessenvertretung',
 					'Rauchmelder','Photovoltaik','Sozialversicherung','Steuerberatung','Entgeltabrechnung']
-domname=[' ','Dienstleistungsvertrag','Immobilie','Kredit','Mietsache','Mietvertrag','Organisation','Person','Rechnung']
+domname=[' ','Dienstleistungsvertrag','Immobilie','Kredit','Mietsache','Mietvertrag','Organisation','Person','Rechnung','Umlageinfo']
 kommunikationsart=['Festnetz','Handy','Fax','eMail','Homepage']
 kommunal=['Grundsteuer','Müllabfuhr','Müllabfuhr Bio','Entwässerung','Entwässerung Fläche','Straßenreinigung']
 kostenart=['Grundsteuer','Müllabfuhr','Müllabfuhr Bio','Entwässerung','Entwässerung Fläche','Straßenreinigung',

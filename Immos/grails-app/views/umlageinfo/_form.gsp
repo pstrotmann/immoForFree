@@ -82,12 +82,12 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'teilbescheidVon', 'error')} ">
-	<label for="teilbescheidVon">
-		<g:message code="umlageinfo.teilbescheidVon.label" default="Teilbescheid Von" />
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'dienstleistungsvertrag', 'error')} ">
+	<label for="dienstleistungsvertrag">
+		<g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" />
 		
 	</label>
-	<g:select id="teilbescheidVon" name="teilbescheidVon.id" from="${Dienstleistungsvertrag.dienstleistungsvertraegeZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.teilbescheidVon?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="dienstleistungsvertrag" name="dienstleistungsvertrag.id" from="${Dienstleistungsvertrag.dienstleistungsvertraegeZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.dienstleistungsvertrag?.id}" class="many-to-one" noSelection="['null': '']"/>
 
 </div>
 

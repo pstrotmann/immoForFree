@@ -63,6 +63,7 @@ class Notiz {
 				case "Organisation" : l = Organisation.findAll("from Organisation as x order by x.name") ; break
 				case "Person" : l = Person.findAll("from Person as x order by x.name") ; break
 				case "Rechnung" : l = Rechnung.findAll("from Rechnung as x order by x.rechnungsdatum") ; break
+				case "Umlageinfo" : l = Umlageinfo.findAll("from Umlageinfo as x order by x.id") ; break
 			}
 			l.each {item -> refList << "${domName}.id:${item.id} ${item.toString()}"}
 		}
@@ -83,6 +84,8 @@ class Notiz {
 			l.each {item -> refList << "Person.id:${item.id} ${item.toString()}"}
 			l = Rechnung.findAll("from Rechnung as i order by i.rechnungsdatum")
 			l.each {item -> refList << "Rechnung.id:${item.id} ${item.toString()}"}
+			l = Umlageinfo.findAll("from Umlageinfo as i order by i.id")
+			l.each {item -> refList << "Umlageinfo.id:${item.id} ${item.toString()}"}
 			
 		}
 		refList

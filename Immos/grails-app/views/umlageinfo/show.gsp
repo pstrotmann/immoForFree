@@ -98,14 +98,44 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${umlageinfoInstance?.teilbescheidVon}">
+				<g:if test="${umlageinfoInstance?.dienstleistungsvertrag}">
 				<li class="fieldcontain">
-					<span id="teilbescheidVon-label" class="property-label"><g:message code="umlageinfo.teilbescheidVon.label" default="Teilbescheid Von" /></span>
+					<span id="dienstleistungsvertrag-label" class="property-label"><g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" /></span>
 					
-						<span class="property-value" aria-labelledby="teilbescheidVon-label"><g:link controller="dienstleistungsvertrag" action="show" id="${umlageinfoInstance?.teilbescheidVon?.id}">${umlageinfoInstance?.teilbescheidVon?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="dienstleistungsvertrag-label"><g:link controller="dienstleistungsvertrag" action="show" id="${umlageinfoInstance?.dienstleistungsvertrag?.id}">${umlageinfoInstance?.dienstleistungsvertrag?.encodeAsHTML()}</g:link></span>
 					
 				</li>
 				</g:if>
+				
+				<g:if test="${umlageinfoInstance?.abrDatum}">
+				<li class="fieldcontain">
+					<span id="abrDatum-label" class="property-label"><g:message code="umlageinfo.abrDatum.label" default="Abrechnungsdatum" /></span>
+					<span class="property-value" aria-labelledby="abrDatum-label"><g:formatDate date="${umlageinfoInstance?.abrDatum}" format="dd.MM.yyyy" /></span>
+				</li>
+				</g:if>
+				
+				<g:if test="${umlageinfoInstance?.abrBetrag}">
+				<li class="fieldcontain">
+					<span id="abrBetrag-label" class="property-label"><g:message code="umlageinfo.abrBetrag.label" default="Abrechnungbetrag" /></span>
+					<span class="property-value" aria-labelledby="abrBetrag-label"><g:fieldValue bean="${umlageinfoInstance}" field="abrBetrag"/></span>
+				</li>
+				</g:if>
+				
+				<g:if test="${umlageinfoInstance?.abrGegenstand}">
+				<li class="fieldcontain">
+					<span id="abrGegenstand-label" class="property-label"><g:message code="umlageinfo.abrGegenstand.label" default="Abrechnungsgegenstand" /></span>
+					<span class="property-value" aria-labelledby="abrGegenstand-label"><g:fieldValue bean="${umlageinfoInstance}" field="abrGegenstand"/></span>
+				</li>
+				</g:if>
+				
+				<li class="fieldcontain">
+					<span id="notizen-label" class="property-label"><g:message code="umlageinfo.notizen.label" default="Notizen" /></span>
+					
+						<g:each in="${org.strotmann.immos.Notiz.getNotizen('Umlageinfo',umlageinfoInstance.id)}" var="n">
+						<span class="property-value" aria-labelledby="notizen-label"><g:link controller="notiz" action="show" id="${n.id}">${n}</g:link></span>
+						</g:each>
+					
+				</li>
 			
 			</ol>
 			<g:form url="[resource:umlageinfoInstance, action:'delete']" method="DELETE">

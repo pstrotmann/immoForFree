@@ -36,9 +36,6 @@ class UmlageinfoController {
             return
         }
 
-		def rechnungInstance = umlageinfoInstance.rechnung
-		rechnungInstance.umlageinfo = umlageinfoInstance
-		rechnungInstance.save() 
 		umlageinfoInstance.save flush:true
 
         request.withFormat {
@@ -67,9 +64,6 @@ class UmlageinfoController {
             return
         }
 
-		def rechnungInstance = umlageinfoInstance.rechnung
-		rechnungInstance.umlageinfo = umlageinfoInstance
-		rechnungInstance.save flush:true
 		umlageinfoInstance.save flush:true
 
         request.withFormat {

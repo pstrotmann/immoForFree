@@ -8,6 +8,7 @@ import grails.util.Holders
 class Umlageinfo {
 
 	String art
+	
 	Date von
 	Date bis
 	String kostenart
@@ -15,8 +16,11 @@ class Umlageinfo {
 	BigDecimal verbrauch
 	String einheit
 	Mietsache umlageAuf
-	Dienstleistungsvertrag teilbescheidVon
 	
+	Dienstleistungsvertrag dienstleistungsvertrag
+	Date abrDatum //Abrechnungsdatum des Dienstleistungsvertrages
+	BigDecimal abrBetrag //Abrechnungsbetrag des Dienstleistungsvertrages
+	String abrGegenstand //des Dienstleistungsvertrages
 	Rechnung rechnung
 	
 	static constraints = {
@@ -29,14 +33,17 @@ class Umlageinfo {
 		verbrauch(nullable:true)
 		einheit(nullable:true)
 		umlageAuf(nullable:true)
-		teilbescheidVon(nullable:true)
+		dienstleistungsvertrag(nullable:true)
+		abrDatum(nullable:true)
+		abrBetrag(nullable:true)
+		abrGegenstand(nullable:true)
     }
 	
 	String toString() {
 		if(rechnung)
 			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel}"
 		else
-			""
+			"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel}"
 	}
 	
 	static List getUmlageschluessels () {
