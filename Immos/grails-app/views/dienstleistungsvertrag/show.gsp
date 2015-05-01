@@ -150,14 +150,26 @@
 				<g:if test="${dienstleistungsvertragInstance?.umlageinfos}">
 				<li class="fieldcontain">
 					<span id="umlageinfo-label" class="property-label"><g:message code="dienstleistungsvertrag.umlageinfo.label" default="Umlageinfo" /></span>
-					
-						<g:each in="${dienstleistungsvertragInstance.umlageinfos}" var="u">
-						<span class="property-value" aria-labelledby="umlageinfo-label"><g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link></span>
-						</g:each>
-					
+					<g:each in="${dienstleistungsvertragInstance.umlageinfos}" var="u">
+						<span class="property-value" aria-labelledby="umlageinfo-label">
+						<g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link>
+						</span>
+					</g:each>
 				</li>
 				</g:if>
-			
+				
+				<li class="fieldcontain">
+					<g:if test="${dienstleistungsvertragInstance?.umlageinfos}">
+						<span id="umlageinfo-label" class="property-label"><g:message code="dienstleistungsvertrag.umlageinfo.label" default="" /></span>
+					</g:if>
+					<g:else>
+						<span id="umlageinfo-label" class="property-label"><g:message code="dienstleistungsvertrag.umlageinfo.label" default="Umlageinfo" /></span>
+					</g:else>
+					<span class="property-value" aria-labelledby="umlageinfo-label">
+						<g:link controller="umlageinfo" action="create" params="['dienstleistungsvertrag.id': dienstleistungsvertragInstance?.id]"><g:message code="dienstleistungsvertrag.anlegen.label" default="Anlegen" /></g:link>
+					</span>
+				</li>
+				
 				<g:if test="${dienstleistungsvertragInstance?.zahlungen}">
 				<li class="fieldcontain">
 					<span id="zahlungen-label" class="property-label"><g:message code="dienstleistungsvertrag.zahlungen.label" default="Zahlungen" /></span>

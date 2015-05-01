@@ -2,6 +2,7 @@
 <%@ page import="org.strotmann.immos.Umlage" %>
 <%@ page import="org.strotmann.immos.Dienstleistungsvertrag" %>
 <%@ page import="org.strotmann.immos.Mietsache" %>
+<%@ page import="org.strotmann.immos.Rechnung" %>
 
 <g:if test="${flash.rechnung}">
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
@@ -11,14 +12,28 @@
 		<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
 </div>
 </g:if>
-<g:if test="${flash.dienstleistungsvertrag}">
+<g:elseif test="${flash.dienstleistungsvertrag}">
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'dienstleistungsvertrag', 'error')} required">
 	<label for="dienstleistungsvertrag">
 		<g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" />
 	</label>
 		<g:select id="dienstleistungsvertrag" name="dienstleistungsvertrag.id" from="${flash.dienstleistungsvertrag}" optionKey="id" required="" value="${umlageinfoInstance?.dienstleistungsvertrag?.id}" class="many-to-one"/>
 </div>
-</g:if>
+</g:elseif>
+<g:else>
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')}">
+	<label for="rechnung">
+		<g:message code="umlageinfo.rechnung.label" default="Rechnung" />
+	</label>
+		<g:select id="rechnung" name="rechnung.id" from="${Rechnung.rechnungen}" optionKey="id" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one" noSelection="['': '']"/>
+</div>
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'dienstleistungsvertrag', 'error')}">
+	<label for="dienstleistungsvertrag">
+		<g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" />
+	</label>
+		<g:select id="dienstleistungsvertrag" name="dienstleistungsvertrag.id" from="${Dienstleistungsvertrag.dienstleistungsvertraege}" optionKey="id" value="${umlageinfoInstance?.dienstleistungsvertrag?.id}" class="many-to-one" noSelection="['': '']"/>
+</div>
+</g:else>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'art', 'error')} ">
 	<label for="art">
