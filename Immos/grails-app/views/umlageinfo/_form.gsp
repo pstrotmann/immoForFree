@@ -7,16 +7,14 @@
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
 	<label for="rechnung">
 		<g:message code="umlageinfo.rechnung.label" default="Rechnung" />
-		<span class="required-indicator">*</span>
 	</label>
-		<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" required="" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
+		<g:select id="rechnung" name="rechnung.id" from="${flash.rechnung}" optionKey="id" value="${umlageinfoInstance?.rechnung?.id}" class="many-to-one"/>
 </div>
 </g:if>
 <g:if test="${flash.dienstleistungsvertrag}">
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'dienstleistungsvertrag', 'error')} required">
 	<label for="dienstleistungsvertrag">
 		<g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" />
-		<span class="required-indicator">*</span>
 	</label>
 		<g:select id="dienstleistungsvertrag" name="dienstleistungsvertrag.id" from="${flash.dienstleistungsvertrag}" optionKey="id" required="" value="${umlageinfoInstance?.dienstleistungsvertrag?.id}" class="many-to-one"/>
 </div>
@@ -35,7 +33,7 @@
 		<g:message code="umlageinfo.von.label" default="Von" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="von" precision="day"  value="${Umlageinfo.anfangVorjahr}" years="${2010..2020}" />
+	<g:datePicker name="von" precision="day"  value="${umlageinfoInstance?umlageinfoInstance.von:Umlageinfo.anfangVorjahr}" years="${2010..2020}" />
 
 </div>
 
@@ -44,7 +42,7 @@
 		<g:message code="umlageinfo.bis.label" default="Bis" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="bis" precision="day"  value="${Umlageinfo.endeVorjahr}"  />
+	<g:datePicker name="bis" precision="day"  value="${umlageinfoInstance?umlageinfoInstance.bis:Umlageinfo.anfangVorjahr}" years="${2010..2020}"  />
 
 </div>
 
@@ -71,7 +69,7 @@
 		<g:message code="umlageinfo.verbrauch.label" default="Verbrauch" />
 		
 	</label>
-	<g:field name="verbrauch" value="${fieldValue(bean: umlageinfoInstance, field: 'verbrauch')}"/>
+	<g:field name="verbrauch" value="${fieldValue(bean: umlageinfoInstance, field: 'verbrauch')}" type="number"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'einheit', 'error')} ">
@@ -93,6 +91,30 @@
 	<g:if test="${flash.dienstleistungsvertrag}">
 	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.dienstleistungsvertrag)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
 	</g:if>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'abrDatum', 'error')} ">
+	<label for="abrDatum">
+		<g:message code="umlageinfo.abrDatum" default="Abrechnungsdatum" />
+	</label>
+	<g:datePicker name="abrDatum" value="${umlageinfoInstance?.abrDatum}" precision="day" years="${2010..2020}" />
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'abrBetrag', 'error')} ">
+	<label for="abrBetrag">
+		<g:message code="umlageinfo.abrBetrag" default="Abrechnungsbetrag" />
+	</label>
+	<g:field name="abrBetrag" value="${fieldValue(bean: umlageinfoInstance, field: 'abrBetrag')}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'abrGegenstand', 'error')} ">
+	<label for="abrGegenstand">
+		<g:message code="umlageinfo.abrGegenstand" default="Abrechnungsgegenstand" />
+	</label>
+	<g:textField name="abrGegenstand" maxlength="50"  value="${umlageinfoInstance?.abrGegenstand}"/>
+
 </div>
 
 

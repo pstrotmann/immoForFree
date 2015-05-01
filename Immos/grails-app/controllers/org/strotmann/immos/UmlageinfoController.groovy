@@ -52,6 +52,7 @@ class UmlageinfoController {
 
     def edit(Umlageinfo umlageinfoInstance) {
 		flash.rechnung = umlageinfoInstance.rechnung
+		flash.dienstleistungsvertrag = umlageinfoInstance.dienstleistungsvertrag
         respond umlageinfoInstance
     }
 

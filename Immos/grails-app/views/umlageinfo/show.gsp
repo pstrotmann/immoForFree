@@ -30,6 +30,13 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${umlageinfoInstance?.dienstleistungsvertrag}">
+				<li class="fieldcontain">
+					<span id="dienstleistungsvertrag-label" class="property-label"><g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" /></span>
+					<span class="property-value" aria-labelledby="dienstleistungsvertrag-label"><g:link controller="dienstleistungsvertrag" action="show" id="${umlageinfoInstance?.dienstleistungsvertrag?.id}">${umlageinfoInstance?.dienstleistungsvertrag?.encodeAsHTML()}</g:link></span>
+				</li>
+				</g:if>
+				
 				<li class="fieldcontain">
 					<span id="von-label" class="property-label"><g:message code="umlageinfo.art.label" default="Art" /></span>
 					
@@ -98,15 +105,6 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${umlageinfoInstance?.dienstleistungsvertrag}">
-				<li class="fieldcontain">
-					<span id="dienstleistungsvertrag-label" class="property-label"><g:message code="umlageinfo.dienstleistungsvertrag.label" default="Dienstleistungsvertrag" /></span>
-					
-						<span class="property-value" aria-labelledby="dienstleistungsvertrag-label"><g:link controller="dienstleistungsvertrag" action="show" id="${umlageinfoInstance?.dienstleistungsvertrag?.id}">${umlageinfoInstance?.dienstleistungsvertrag?.encodeAsHTML()}</g:link></span>
-					
-				</li>
-				</g:if>
-				
 				<g:if test="${umlageinfoInstance?.abrDatum}">
 				<li class="fieldcontain">
 					<span id="abrDatum-label" class="property-label"><g:message code="umlageinfo.abrDatum.label" default="Abrechnungsdatum" /></span>

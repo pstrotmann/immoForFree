@@ -24,7 +24,7 @@ class Umlageinfo {
 	Rechnung rechnung
 	
 	static constraints = {
-		rechnung()
+		rechnung(nullable:true)
 		art(inList:["nk", "hk"])
 		von()
 		bis()
@@ -43,7 +43,9 @@ class Umlageinfo {
 		if(rechnung)
 			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel}"
 		else
-			"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel}"
+			if(dienstleistungsvertrag)
+				"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel}"
+				else ""
 	}
 	
 	BigDecimal getAbrBetrag() {
