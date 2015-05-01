@@ -33,8 +33,7 @@
 		<g:message code="umlageinfo.von.label" default="Von" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="von" precision="day"  value="${umlageinfoInstance?umlageinfoInstance.von:Umlageinfo.anfangVorjahr}" years="${2010..2020}" />
-
+	<g:datePicker name="von" precision="day"  value="${umlageinfoInstance.von?:Umlageinfo.anfangVorjahr}" years="${2010..2020}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'bis', 'error')} required">
@@ -42,7 +41,7 @@
 		<g:message code="umlageinfo.bis.label" default="Bis" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="bis" precision="day"  value="${umlageinfoInstance?umlageinfoInstance.bis:Umlageinfo.anfangVorjahr}" years="${2010..2020}"  />
+	<g:datePicker name="bis" precision="day"  value="${umlageinfoInstance.bis?:Umlageinfo.endeVorjahr}" years="${2010..2020}"  />
 
 </div>
 
