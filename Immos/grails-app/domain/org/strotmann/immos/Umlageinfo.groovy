@@ -41,10 +41,10 @@ class Umlageinfo {
 	
 	String toString() {
 		if(rechnung)
-			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel}"
+			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel},${von},${bis},${abrBetrag}"
 		else
 			if(dienstleistungsvertrag)
-				"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel}"
+				"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel},${von},${bis},${abrBetrag}"
 				else ""
 	}
 	
@@ -58,6 +58,13 @@ class Umlageinfo {
 	
 	String getAbrGegenstand() {
 		rechnung?rechnung.rechnungsgegenstand:abrGegenstand
+	}
+	
+	Immobilie getImmobilie() {
+		if (rechnung)
+			rechnung.immobilie
+		else
+			dienstleistungsvertrag.immobilie
 	}
 	
 	static List getUmlageschluessels () {

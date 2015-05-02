@@ -1,6 +1,8 @@
 package org.strotmann.immos
 
 import java.io.BufferedWriter;
+import java.util.Date;
+
 import grails.util.Holders
 
 class Immoabrechnung implements Comparable {
@@ -201,4 +203,33 @@ class Immoabrechnung implements Comparable {
 			sOut.writeLine(b.abrechnungsbrief(jahr))
 		}
 	}
+	
+	void erzeugeUmlagen() {
+		List <Umlage> uList = []
+		List <Umlageinfo> uiList = Umlageinfo.findAll("from Umlageinfo as u where u.art = 'nk' ")
+		uiList.each {Umlageinfo it ->
+			if (it.immobilie == this.immobilie && (jahr(it.von) == jahr || jahr(it.bis) == jahr)) {
+				println it
+			}
+		}
+	}
+	
+	Date getAnfangAbrJahr () {
+		def Calendar cal = Calendar.getInstance()
+		cal.set(jahr,Calendar.JANUARY,1)
+		cal.getTime()
+	}
+	Date getEndeAbrJahr () {
+		def Calendar cal = Calendar.getInstance()
+		cal.set(jahr,Calendar.DECEMBER,31)
+		cal.getTime()
+	}
+	int jahr(Date d){
+		def Calendar cal = Calendar.getInstance()
+		cal.setTime(d)
+		cal.get(cal.YEAR)
+	}
+	
+	
+	
 }
