@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.util.Date;
 
 import grails.util.Holders
+import groovy.time.Duration
 
 class Immoabrechnung implements Comparable {
 	
@@ -208,20 +209,35 @@ class Immoabrechnung implements Comparable {
 		List <Umlage> uList = []
 		List <Umlageinfo> uiList = Umlageinfo.findAll("from Umlageinfo as u where u.art = 'nk' ")
 		uiList.each {Umlageinfo it ->
-			if (it.immobilie == this.immobilie && (jahr(it.von) == jahr || jahr(it.bis) == jahr)) {
-				println it
+			if (it.immobilie.id == this.immobilie.id && (jahr(it.von) == jahr || jahr(it.bis) == jahr)) {
+				Umlage u = uList.find {item -> item.kostenart == it.kostenart }
+				if (u)
+					u.betrag += betragTage(it)
+				else
+				 {
+					u = new Umlage()
+					uList << u
+					u.immoabrechnung = this
+					u.art = 1
+					u.kostenart = it.kostenart
+					u.umlageschluessel = it.umlageschluessel
+					u.betrag = betragTage(it)
+				}
 			}
+		}
+		uList.each {Umlage it ->
+			it.save flush:true
 		}
 	}
 	
 	Date getAnfangAbrJahr () {
 		def Calendar cal = Calendar.getInstance()
-		cal.set(jahr,Calendar.JANUARY,1)
+		cal.set(jahr,Calendar.JANUARY,1,0,0,0)
 		cal.getTime()
 	}
 	Date getEndeAbrJahr () {
 		def Calendar cal = Calendar.getInstance()
-		cal.set(jahr,Calendar.DECEMBER,31)
+		cal.set(jahr,Calendar.DECEMBER,31,0,0,0)
 		cal.getTime()
 	}
 	int jahr(Date d){
@@ -229,7 +245,37 @@ class Immoabrechnung implements Comparable {
 		cal.setTime(d)
 		cal.get(cal.YEAR)
 	}
+	boolean gleichesDatum(Date d1, Date d2) {
+		def Calendar cal1 = Calendar.getInstance()
+		cal1.setTime(d1)
+		def Calendar cal2 = Calendar.getInstance()
+		cal2.setTime(d2)
+		if (cal1.get(cal1.YEAR) == cal2.get(cal2.YEAR) && cal1.get(cal1.MONTH) == cal2.get(cal2.MONTH) && cal1.get(cal1.DAY_OF_MONTH) == cal2.get(cal2.DAY_OF_MONTH))
+		   return true
+		else
+		   return false
+	}
 	
+	int diffDatum (Date d1, Date d2) {
+		use (groovy.time.TimeCategory) {
+			def d = d1 - d2
+			d.days
+		}
+	}
 	
-	
+	BigDecimal betragTage (Umlageinfo ui) {
+		if (gleichesDatum(ui.von,anfangAbrJahr) && gleichesDatum(ui.bis,endeAbrJahr))
+			return ui.abrBetrag
+		else {
+			int tageJ
+			if (jahr(ui.von) == jahr(endeAbrJahr)) 
+				tageJ = diffDatum (endeAbrJahr, ui.von)
+			if (jahr(ui.bis) == jahr(anfangAbrJahr)) 
+				tageJ = diffDatum (ui.bis,anfangAbrJahr)
+			
+			int tageEx = diffDatum (ui.bis, ui.von) - tageJ
+			return ui.abrBetrag - (ui.abrBetrag * tageEx) / 365 
+		}
+			
+	}
 }

@@ -42,12 +42,9 @@ class ImmoabrechnungController {
 	}
 	
 	def umlCreate() {
-		println params
-		println "Umlagen werden aus Umlageinfos erzeugt"
 		def id = params.id
 		def immoabrechnungInstance = Immoabrechnung.get(id)
 		immoabrechnungInstance.erzeugeUmlagen()
-		println "Umlagen wurden aus Umlageinfos erzeugt"
 		redirect(action: "show", id: id)
 	}
 }
