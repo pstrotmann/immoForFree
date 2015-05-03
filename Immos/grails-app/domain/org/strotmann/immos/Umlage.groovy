@@ -27,7 +27,7 @@ class Umlage implements Comparable {
     }
 	
 	int compareTo(obj) {
-		sortpos.compareTo(obj.sortpos)
+		id.compareTo(obj.id)
 	}
 	
 	static List getUmlageschluessels () {
@@ -39,16 +39,6 @@ class Umlage implements Comparable {
 		List koList = []
 		Kostenart.findAll ("from Kostenart").each {koList<<it.bezeichnung}
 		koList.sort()
-	}
-	
-	int getSortpos() {
-		def int i = 0
-		def int retI = 0
-		kostenarten.each {String koart ->
-			i++
-			if (koart == kostenart) retI = i
-			}
-		retI
 	}
 	
 	String toString() {
@@ -117,5 +107,9 @@ class Umlage implements Comparable {
 		def Calendar c = Calendar.getInstance();
 		c.setTime(d)
 		c.get(Calendar.YEAR)
+	}
+	
+	boolean getKommunal() {
+		Kostenart.findByBezeichnung(kostenart).kommunal
 	}
 }

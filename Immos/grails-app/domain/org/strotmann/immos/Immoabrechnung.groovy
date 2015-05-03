@@ -225,7 +225,9 @@ class Immoabrechnung implements Comparable {
 				}
 			}
 		}
-		uList.each {Umlage it ->
+		uList.sort {a,b ->
+			!a.kommunal <=> !b.kommunal ?: a.kostenart <=> b.kostenart 
+		}.each {Umlage it ->
 			it.save flush:true
 		}
 	}

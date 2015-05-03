@@ -49,7 +49,7 @@ class Umlageinfo {
 	}
 	
 	BigDecimal getAbrBetrag() {
-		rechnung?rechnung.betrag:abrBetrag
+		abrBetrag?:rechnung?rechnung.betrag:0
 	}
 	
 	Date getAbrDatum() {
