@@ -13,7 +13,7 @@ class Immoabrechnung implements Comparable {
 
     static belongsTo = [immobilie:Immobilie]
 	
-	SortedSet umlagen
+	SortedSet umlagen, betriebskostenabrechnungen
 	static hasMany = [umlagen:Umlage, betriebskostenabrechnungen:Betriebskostenabrechnung]
      
     static constraints = {
@@ -35,7 +35,7 @@ class Immoabrechnung implements Comparable {
 	
 	void abrechnenNebko () {
 		def BigDecimal wF = immobilie.wohnflaeche
-		def BigDecimal anzP = immobilie.anzahlPersonen
+		def BigDecimal anzP = 0
 		def BigDecimal anzHH = immobilie.anzahlHaushalte
 		def Map koartMap = koartAbschlaege
 		Umlage umlageausfallwagnis = null
@@ -55,7 +55,12 @@ class Immoabrechnung implements Comparable {
 		
 		def List <Mietvertrag> mvList = Mietvertrag.findAll("from Mietvertrag as mv where mv.mietsache.immobilie = ${immobilie.id}")
 		mvList.each {mv ->
+			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return}
+			anzP += mv.anzahlPersonen
+		}
+		mvList.each {mv ->
 			if (mv.anzahlPersonen == 0) {return}
+			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return}
 			def Nebenkostenabrechnung nebenkostenabrechnung 
 			def Betriebskostenabrechnung betriebskostenabrechnung
 			mv.betriebskostenabrechnungen.each {Betriebskostenabrechnung ba ->
@@ -247,16 +252,6 @@ class Immoabrechnung implements Comparable {
 		cal.setTime(d)
 		cal.get(cal.YEAR)
 	}
-	boolean gleichesDatum(Date d1, Date d2) {
-		def Calendar cal1 = Calendar.getInstance()
-		cal1.setTime(d1)
-		def Calendar cal2 = Calendar.getInstance()
-		cal2.setTime(d2)
-		if (cal1.get(cal1.YEAR) == cal2.get(cal2.YEAR) && cal1.get(cal1.MONTH) == cal2.get(cal2.MONTH) && cal1.get(cal1.DAY_OF_MONTH) == cal2.get(cal2.DAY_OF_MONTH))
-		   return true
-		else
-		   return false
-	}
 	
 	int diffDatum (Date d1, Date d2) {
 		use (groovy.time.TimeCategory) {
@@ -265,8 +260,27 @@ class Immoabrechnung implements Comparable {
 		}
 	}
 	
+	boolean gleich (Date d1, Date d2) {
+		use (groovy.time.TimeCategory) {
+			def d = d1 - d2
+			d.days == 0
+		}
+	}
+	boolean groesser (Date d1, Date d2) {
+		use (groovy.time.TimeCategory) {
+			def d = d1 - d2
+			d.days > 0
+		}
+	}
+	boolean kleiner (Date d1, Date d2) {
+		use (groovy.time.TimeCategory) {
+			def d = d1 - d2
+			d.days < 0
+		}
+	}
+	
 	BigDecimal betragTage (Umlageinfo ui) {
-		if (gleichesDatum(ui.von,anfangAbrJahr) && gleichesDatum(ui.bis,endeAbrJahr))
+		if (gleich(ui.von,anfangAbrJahr) && gleich(ui.bis,endeAbrJahr))
 			return ui.abrBetrag
 		else {
 			int tageJ
