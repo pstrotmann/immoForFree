@@ -98,7 +98,6 @@ class Bank {
 	}
 	
 	static int getBankId (int blz) {
-		println blz
 		def RestBuilder rest = new RestBuilder()
 		RestResponse resp
 		resp = rest.get("${Holders.config.bicService}/bankIdentCode/get?blz=${blz}")
