@@ -138,9 +138,9 @@
 		<g:link controller="umlageinfo" action="show" id="${u.id}">${u?.encodeAsHTML()}</g:link>
 	</g:each>
 </g:if>
-<g:elseif test="${!rechnungInstance?.umlageinfos}">
+<g:else>
 	<g:link controller="umlageinfo" action="create" params="['rechnung.id': rechnungInstance?.id]"><g:message code="rechnung.anlegen.label" default="Anlegen" /></g:link>
-</g:elseif>
+</g:else>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'notizen', 'error')} ">

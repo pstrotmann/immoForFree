@@ -70,8 +70,11 @@ class Rechnung implements Comparable{
 	}
 	
 	List <Umlageinfo> getUmlageinfos() {
-		String s = "from Umlageinfo as u where u.rechnung.id = ${this.id} "
-		Umlageinfo.findAll (s)
+		if (this.id) { 
+			String s = "from Umlageinfo as u where u.rechnung.id = ${this.id} "
+			Umlageinfo.findAll (s)
+		}
+		else []
 	}
 	
 	static List getFreeList () {
