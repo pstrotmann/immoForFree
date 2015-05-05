@@ -37,6 +37,7 @@ class Immoabrechnung implements Comparable {
 		def BigDecimal wF = immobilie.wohnflaeche
 		def BigDecimal anzP = 0
 		def BigDecimal anzHH = immobilie.anzahlHaushalte
+		def int anzRauchWhgn = 0
 		def Map koartMap = koartAbschlaege
 		Umlage umlageausfallwagnis = null
 		if (immobilie.sozialerWohnungsbau) {
@@ -55,8 +56,9 @@ class Immoabrechnung implements Comparable {
 		
 		def List <Mietvertrag> mvList = Mietvertrag.findAll("from Mietvertrag as mv where mv.mietsache.immobilie = ${immobilie.id}")
 		mvList.each {mv ->
-			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return}
+			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return} 
 			anzP += mv.anzahlPersonen
+			anzRauchWhgn += mv.mietsache.anzRauchmelder?:0
 		}
 		mvList.each {mv ->
 			if (mv.anzahlPersonen == 0) {return}
@@ -113,6 +115,8 @@ class Immoabrechnung implements Comparable {
 					umlageanteil.betrag = (u.betrag - btrKorr) * (mv.anzahlPersonen / (anzP - persKorr))
 				if (u.umlageschluessel.equals("Haushalt"))
 					umlageanteil.betrag = u.betrag / anzHH
+				if (u.umlageschluessel.equals("stck"))
+					umlageanteil.betrag = u.betrag * ((mv.mietsache.anzRauchmelder?:0) / anzRauchWhgn) 
 				
 				if (umlageanteil.betrag) {
 					nebkoSum += umlageanteil.betrag
