@@ -148,6 +148,12 @@ class Immobilie {
 		zzList
 	}
 	
+	List <Umlageinfo> getUmlageinfos () {
+		List <Umlageinfo> uiList = []
+		Umlageinfo.findAll ("from Umlageinfo").each {if (this.id == it.immobilie.id) uiList << it}
+		uiList
+	}
+	
 	Map <String, BigDecimal[]> getTeilsummen () {
 		Map tSum = [:]
 		def Calendar cal = Calendar.getInstance();

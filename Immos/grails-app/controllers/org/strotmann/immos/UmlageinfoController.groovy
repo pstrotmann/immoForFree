@@ -12,7 +12,7 @@ class UmlageinfoController {
 
     def index(Integer max) {
 		params.max = Math.min(max ?: 100, 1000)
-		respond Umlageinfo.list(params), model:[umlageinfoInstanceCount: Umlageinfo.count()]
+		respond model:[umlageinfoInstanceCount: Umlageinfo.count()]
     }
 
     def show(Umlageinfo umlageinfoInstance) {

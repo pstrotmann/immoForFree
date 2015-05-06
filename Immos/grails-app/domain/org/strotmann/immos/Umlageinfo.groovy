@@ -93,10 +93,13 @@ class Umlageinfo {
 		cal.getTime()
 	}
 	
-	static List infoZuArt (String art) {
+	static List infoZuImmoUndArt (String immoId, String art) {
+		int iId = new Integer (immoId)
+		List <Umlageinfo> uiList = []
 		if (art)
-			Umlageinfo.findAllByArt (art)
+			Umlageinfo.findAllByArt (art).each {if (iId == it.immobilie.id) uiList << it}
 		else
-			Umlageinfo.findAll()
+			Umlageinfo.findAll().each {if (iId == it.immobilie.id) uiList << it}
+			
 	}
 }

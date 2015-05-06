@@ -43,7 +43,7 @@
 					</tr>
 				</thead>
 				<tbody>
-				<g:each in="${Umlageinfo.infoZuArt(params.art)}" status="i" var="umlageinfoInstance">
+				<g:each in="${Umlageinfo.infoZuImmoUndArt(params.immoId,params.art)}" status="i" var="umlageinfoInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${umlageinfoInstance.id}">${fieldValue(bean: umlageinfoInstance, field: "kostenart")}</g:link></td>
