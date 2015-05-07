@@ -207,9 +207,11 @@
 				<g:if test="${immobilieInstance?.umlageinfos}">
 				<li class="fieldcontain">
 					<span id="umlageinfo-label" class="property-label"><g:message code="immobilie.umlageinfo.label" default="Umlageinfo" /></span>
-					
 						<span class="property-value" aria-labelledby="umlageinfo-label">
-							<g:link uri="/umlageinfo/index?art=nk&immoId=${immobilieInstance?.id}">nk</g:link>
+							<g:link uri="/umlageinfo/index?art=nk&immoId=${immobilieInstance?.id}">Nebenkosten</g:link>
+						</span>
+						<span class="property-value" aria-labelledby="umlageinfo-label">
+							<g:link uri="/umlageinfo/index?art=hk&immoId=${immobilieInstance?.id}">Heizkosten</g:link>
 						</span>
 				</li>
 				</g:if>

@@ -6,8 +6,7 @@ class Betriebskostenabrechnung implements Comparable{
 	
 	static belongsTo = [immoabrechnung:Immoabrechnung ]
 	
-	static hasMany = [nebenkostenabrechnungen:Nebenkostenabrechnung, heizkostenabrechnungen:Heizkostenabrechnung,
-		betriebskostenabrechnungsbriefe : Betriebskostenabrechnungsbrief ]
+	static hasMany = [betriebskostenabrechnungsbriefe : Betriebskostenabrechnungsbrief ]
 		
     static constraints = {
     }
@@ -19,6 +18,18 @@ class Betriebskostenabrechnung implements Comparable{
 	String toString() {
 		"${mietvertrag?.mietsache?.mietsacheKurz}"
 		}
+	
+	Nebenkostenabrechnung getNebenkostenabrechnung() {
+		Nebenkostenabrechnung nAbr
+		Nebenkostenabrechnung.findAll("from Nebenkostenabrechnung").each{if(it.betriebskostenabrechnung.id == this.id) nAbr = it}
+		nAbr
+	}
+	
+	Heizkostenabrechnung getHeizkostenabrechnung() {
+		Heizkostenabrechnung hAbr
+		Heizkostenabrechnung.findAll("from Heizkostenabrechnung").each{if(it.betriebskostenabrechnung.id == this.id) hAbr = it}
+		hAbr
+	}
 	
 	String abrechnungsbrief (int jahr) {
 		def Betriebskostenabrechnungsbrief brief = new Betriebskostenabrechnungsbrief()

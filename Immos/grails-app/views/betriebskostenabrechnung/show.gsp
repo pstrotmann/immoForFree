@@ -23,17 +23,7 @@
 			</g:if>
 			<ol class="property-list betriebskostenabrechnung">
 			
-				<g:if test="${betriebskostenabrechnungInstance?.heizkostenabrechnungen}">
-				<li class="fieldcontain">
-					<span id="heizkostenabrechnungen-label" class="property-label"><g:message code="betriebskostenabrechnung.heizkostenabrechnungen.label" default="Heizkostenabrechnungen" /></span>
-					
-						<g:each in="${betriebskostenabrechnungInstance.heizkostenabrechnungen}" var="h">
-						<span class="property-value" aria-labelledby="heizkostenabrechnungen-label"><g:link controller="heizkostenabrechnung" action="show" id="${h.id}">${h?.encodeAsHTML()}</g:link></span>
-						</g:each>
-					
-				</li>
-				</g:if>
-			
+				
 				<g:if test="${betriebskostenabrechnungInstance?.immoabrechnung}">
 				<li class="fieldcontain">
 					<span id="immoabrechnung-label" class="property-label"><g:message code="betriebskostenabrechnung.immoabrechnung.label" default="Immoabrechnung" /></span>
@@ -52,14 +42,21 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${betriebskostenabrechnungInstance?.nebenkostenabrechnungen}">
+				<g:if test="${betriebskostenabrechnungInstance?.nebenkostenabrechnung}">
 				<li class="fieldcontain">
 					<span id="nebenkostenabrechnungen-label" class="property-label"><g:message code="betriebskostenabrechnung.nebenkostenabrechnungen.label" default="Nebenkostenabrechnung" /></span>
 					
-						<g:each in="${betriebskostenabrechnungInstance.nebenkostenabrechnungen}" var="n">
-						<span class="property-value" aria-labelledby="nebenkostenabrechnungen-label"><g:link controller="nebenkostenabrechnung" action="show" id="${n.id}">${n?.encodeAsHTML()}</g:link></span>
-						</g:each>
+						<span class="property-value" aria-labelledby="nebenkostenabrechnungen-label"><g:link controller="nebenkostenabrechnung" action="show" id="${betriebskostenabrechnungInstance?.nebenkostenabrechnung.id}">${betriebskostenabrechnungInstance?.nebenkostenabrechnung?.encodeAsHTML()}</g:link></span>
+						
+				</li>
+				</g:if>
+				
+				<g:if test="${betriebskostenabrechnungInstance?.heizkostenabrechnung}">
+				<li class="fieldcontain">
+					<span id="heizkostenabrechnungen-label" class="property-label"><g:message code="betriebskostenabrechnung.heizkostenabrechnungen.label" default="Heizkostenabrechnung" /></span>
 					
+						<span class="property-value" aria-labelledby="heizkostenabrechnungen-label"><g:link controller="heizkostenabrechnung" action="show" id="${betriebskostenabrechnungInstance?.heizkostenabrechnung.id}">${betriebskostenabrechnungInstance?.heizkostenabrechnung?.encodeAsHTML()}</g:link></span>
+						
 				</li>
 				</g:if>
 				

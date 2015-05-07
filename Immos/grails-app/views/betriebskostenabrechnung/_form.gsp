@@ -2,23 +2,7 @@
 
 
 
-<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungInstance, field: 'heizkostenabrechnungen', 'error')} ">
-	<label for="heizkostenabrechnungen">
-		<g:message code="betriebskostenabrechnung.heizkostenabrechnungen.label" default="Heizkostenabrechnungen" />
-		
-	</label>
-	
-<ul class="one-to-many">
-<g:each in="${betriebskostenabrechnungInstance?.heizkostenabrechnungen?}" var="h">
-    <li><g:link controller="heizkostenabrechnung" action="show" id="${h.id}">${h?.encodeAsHTML()}</g:link></li>
-</g:each>
-<li class="add">
-<g:link controller="heizkostenabrechnung" action="create" params="['betriebskostenabrechnung.id': betriebskostenabrechnungInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'heizkostenabrechnung.label', default: 'Heizkostenabrechnung')])}</g:link>
-</li>
-</ul>
 
-
-</div>
 
 <div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungInstance, field: 'immoabrechnung', 'error')} required">
 	<label for="immoabrechnung">
@@ -40,17 +24,37 @@
 
 <div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungInstance, field: 'nebenkostenabrechnungen', 'error')} ">
 	<label for="nebenkostenabrechnungen">
-		<g:message code="betriebskostenabrechnung.nebenkostenabrechnungen.label" default="Nebenkostenabrechnungen" />
+		<g:message code="betriebskostenabrechnung.nebenkostenabrechnungen.label" default="Nebenkostenabrechnung" />
 		
 	</label>
 	
 <ul class="one-to-many">
-<g:each in="${betriebskostenabrechnungInstance?.nebenkostenabrechnungen?}" var="n">
-    <li><g:link controller="nebenkostenabrechnung" action="show" id="${n.id}">${n?.encodeAsHTML()}</g:link></li>
-</g:each>
+<g:if test="${betriebskostenabrechnungInstance?.nebenkostenabrechnung}">
+	<li><g:link controller="nebenkostenabrechnung" action="show" id="${betriebskostenabrechnungInstance?.nebenkostenabrechnung.id}">${betriebskostenabrechnungInstance?.nebenkostenabrechnung?.encodeAsHTML()}</g:link></li>
+</g:if>
+<g:else>
 <li class="add">
 <g:link controller="nebenkostenabrechnung" action="create" params="['betriebskostenabrechnung.id': betriebskostenabrechnungInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'nebenkostenabrechnung.label', default: 'Nebenkostenabrechnung')])}</g:link>
 </li>
+</g:else>
+</ul>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungInstance, field: 'heizkostenabrechnungen', 'error')} ">
+	<label for="heizkostenabrechnungen">
+		<g:message code="betriebskostenabrechnung.heizkostenabrechnungen.label" default="Heizkostenabrechnung" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:if test="${betriebskostenabrechnungInstance?.heizkostenabrechnung}">
+	<li><g:link controller="heizkostenabrechnung" action="show" id="${betriebskostenabrechnungInstance?.heizkostenabrechnung.id}">${betriebskostenabrechnungInstance?.heizkostenabrechnung?.encodeAsHTML()}</g:link></li>
+</g:if>
+<g:else>
+<li class="add">
+<g:link controller="heizkostenabrechnung" action="create" params="['betriebskostenabrechnung.id': betriebskostenabrechnungInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'heizkostenabrechnung.label', default: 'Heizkostenabrechnung')])}</g:link>
+</li>
+</g:else>
 </ul>
 
 

@@ -39,20 +39,6 @@ class Immoabrechnung implements Comparable {
 		def BigDecimal anzHH = immobilie.anzahlHaushalte
 		def int anzRauchWhgn = 0
 		def Map koartMap = koartAbschlaege
-		Umlage umlageausfallwagnis = null
-		if (immobilie.sozialerWohnungsbau) {
-			if (umlagen.last().kostenart == '2% Umlageausfallwagnis'){
-				umlageausfallwagnis = umlagen.last()
-				umlageausfallwagnis.betrag = 0
-			}
-			else {
-				umlageausfallwagnis = new Umlage()
-				umlageausfallwagnis.kostenart = '2% Umlageausfallwagnis'
-				umlageausfallwagnis.umlageschluessel = 'gesetzliche Umlage'
-				umlageausfallwagnis.betrag = 0
-				umlageausfallwagnis.immoabrechnung = this
-			}
-		}
 		
 		def List <Mietvertrag> mvList = Mietvertrag.findAll("from Mietvertrag as mv where mv.mietsache.immobilie = ${immobilie.id}")
 		mvList.each {mv ->
@@ -92,8 +78,6 @@ class Immoabrechnung implements Comparable {
 					if (ua.kostenart == u.kostenart)
 						umlageanteil = ua
 				}
-				if (u.kostenart == '2% Umlageausfallwagnis') ausW = umlageanteil					
-				if (ausW) {return}
 				
 				if (umlageanteil && umlageanteil.umlageschluessel == "Zähler")
 					 {nebkoSum += umlageanteil.betrag
@@ -123,28 +107,6 @@ class Immoabrechnung implements Comparable {
 					umlageanteil.save()
 				}
 				
-			}
-			
-			//Umlageausfallwagnis
-			if (mv.mietsache.immobilie.sozialerWohnungsbau) {
-				if (!ausW) ausW = new Umlageanteil()
-				ausW.kostenart = '2% Umlageausfallwagnis'
-				ausW.umlageschluessel = 'gesetzliche Umlage'
-				ausW.betrag = nebkoSum * 0.02
-				ausW.nebenkostenabrechnung = nebenkostenabrechnung
-				ausW.umlage = umlageausfallwagnis
-				umlageausfallwagnis.betrag += ausW.betrag
-				
-				if (!umlageausfallwagnis.save(flush: true)) {
-				    umlageausfallwagnis.errors.each {
-				        println it
-				    }
-				}
-				if (!ausW.save(flush: true)) {
-					ausW.errors.each {
-						println it
-					}
-				}
 			}
 			
 			def OffenerPosten offenerPosten

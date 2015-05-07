@@ -94,12 +94,14 @@ class Umlageinfo {
 	}
 	
 	static List infoZuImmoUndArt (String immoId, String art) {
-		int iId = new Integer (immoId)
 		List <Umlageinfo> uiList = []
-		if (art)
-			Umlageinfo.findAllByArt (art).each {if (iId == it.immobilie.id) uiList << it}
-		else
-			Umlageinfo.findAll().each {if (iId == it.immobilie.id) uiList << it}
-			
+		if (immoId) {
+			int iId = new Integer (immoId)
+			if (art)
+				Umlageinfo.findAllByArt (art).each {if (iId == it.immobilie.id) uiList << it}
+			else
+				Umlageinfo.findAll().each {if (iId == it.immobilie.id) uiList << it}
+		}
+		else Umlageinfo.findAll()
 	}
 }
