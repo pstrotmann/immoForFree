@@ -20,15 +20,13 @@ class Betriebskostenabrechnung implements Comparable{
 		}
 	
 	Nebenkostenabrechnung getNebenkostenabrechnung() {
-		Nebenkostenabrechnung nAbr
-		Nebenkostenabrechnung.findAll("from Nebenkostenabrechnung").each{if(it.betriebskostenabrechnung.id == this.id) nAbr = it}
-		nAbr
+		String s = "from Nebenkostenabrechnung as nAbr where nAbr.betriebskostenabrechnung.id = ${this.id}"
+		Nebenkostenabrechnung.find(s)
 	}
 	
 	Heizkostenabrechnung getHeizkostenabrechnung() {
-		Heizkostenabrechnung hAbr
-		Heizkostenabrechnung.findAll("from Heizkostenabrechnung").each{if(it.betriebskostenabrechnung.id == this.id) hAbr = it}
-		hAbr
+		String s = "from Heizkostenabrechnung as hAbr where hAbr.betriebskostenabrechnung.id = ${this.id}"
+		Heizkostenabrechnung.find(s)
 	}
 	
 	String abrechnungsbrief (int jahr) {
