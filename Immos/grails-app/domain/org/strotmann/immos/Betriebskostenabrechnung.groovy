@@ -29,6 +29,25 @@ class Betriebskostenabrechnung implements Comparable{
 		Heizkostenabrechnung.find(s)
 	}
 	
+	BigDecimal getNebenkosten() {
+		nebenkostenabrechnung?.betrag?:0
+	}
+	
+	BigDecimal getHeizkosten() {
+		heizkostenabrechnung?.betrag?:0
+	}
+	
+	BigDecimal getUmlageausfallwagnis() {
+		if (immoabrechnung.immobilie.sozialerWohnungsbau)
+			(nebenkosten + heizkosten) * 0.02
+		else
+			0
+	}
+	
+	BigDecimal getBetriebskosten() {
+		nebenkosten + heizkosten+ umlageausfallwagnis
+	}
+	
 	String abrechnungsbrief (int jahr) {
 		def Betriebskostenabrechnungsbrief brief = new Betriebskostenabrechnungsbrief()
 		brief.betriebskostenabrechnung = this

@@ -70,6 +70,26 @@
 					
 				</li>
 				</g:if>
+				
+				<li class="fieldcontain">
+					<span id="betrag-label" class="property-label"><g:message code="nebenkosten.betrag.label" default="Nebenkosten" /></span>
+					<span class="property-value" aria-labelledby="betrag-label"><g:formatNumber number="${betriebskostenabrechnungInstance.nebenkosten}" type="number" minFractionDigits="2" format="#,##0.00"/></span>
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="betrag-label" class="property-label"><g:message code="heizkosten.betrag.label" default="Heizkosten" /></span>
+					<span class="property-value" aria-labelledby="betrag-label"><g:formatNumber number="${betriebskostenabrechnungInstance.heizkosten}" type="number" minFractionDigits="2" format="#,##0.00"/></span>
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="betrag-label" class="property-label"><g:message code="umlageausfallwagnis.betrag.label" default="2% Umlageausfallwagnis" /></span>
+					<span class="property-value" aria-labelledby="betrag-label"><g:formatNumber number="${betriebskostenabrechnungInstance.umlageausfallwagnis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="betrag-label" class="property-label"><g:message code="betriebskosten.betrag.label" default="Betriebskosten" /></span>
+					<span class="property-value" aria-labelledby="betrag-label"><g:formatNumber number="${betriebskostenabrechnungInstance.betriebskosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>
+				</li>
 			
 			</ol>
 			<g:form url="[resource:betriebskostenabrechnungInstance, action:'delete']" method="DELETE">

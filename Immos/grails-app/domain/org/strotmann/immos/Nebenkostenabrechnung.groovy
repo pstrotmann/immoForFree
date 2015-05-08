@@ -32,6 +32,10 @@ class Nebenkostenabrechnung implements Comparable {
 		summe
 	}
 	
+	BigDecimal getBetrag() {
+		summeUmlageanteile
+	}
+	
 	BigDecimal getGezahlteNebenkosten () {
 		betriebskostenabrechnung.mietvertrag.getGezahlteNebenkosten (betriebskostenabrechnung.immoabrechnung.jahr)
 	}
