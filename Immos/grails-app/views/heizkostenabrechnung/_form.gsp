@@ -1,5 +1,5 @@
 <%@ page import="org.strotmann.immos.Heizkostenabrechnung" %>
-
+<%@ page import="org.strotmann.immos.Umlageinfo" %>
 
 
 <div class="fieldcontain ${hasErrors(bean: heizkostenabrechnungInstance, field: 'von', 'error')} required">
@@ -7,7 +7,7 @@
 		<g:message code="heizkostenabrechnung.von.label" default="Von" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="von" precision="day"  value="${heizkostenabrechnungInstance?.von}"  />
+	<g:datePicker name="von" precision="day"  value="${heizkostenabrechnungInstance.von?:Umlageinfo.anfangVorjahr}" years="${2010..2020}" />
 
 </div>
 
@@ -16,7 +16,7 @@
 		<g:message code="heizkostenabrechnung.bis.label" default="Bis" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="bis" precision="day"  value="${heizkostenabrechnungInstance?.bis}"  />
+	<g:datePicker name="bis" precision="day"  value="${heizkostenabrechnungInstance.bis?:Umlageinfo.endeVorjahr}" years="${2010..2020}"  />
 
 </div>
 
