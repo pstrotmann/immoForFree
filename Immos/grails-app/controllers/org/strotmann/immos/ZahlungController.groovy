@@ -11,8 +11,11 @@ class ZahlungController {
     }
 
     def list(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        [zahlungInstanceList: Zahlung.list(params), zahlungInstanceTotal: Zahlung.count()]
+        params.max = Math.min(max ?: 1000, 1000)
+		if (params.immoId)
+			[zahlungInstanceList: Zahlung.umlagefaehigZuImmo(params.immoId), zahlungInstanceTotal: Zahlung.count()]
+		else
+        	[zahlungInstanceList: Zahlung.list(params)]
     }
 
     def create() {

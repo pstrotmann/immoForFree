@@ -38,6 +38,22 @@ class Zahlung implements Comparable{
 		buchungsjahr(nullable:true)
 	}
 	
+	Immobilie getImmobilie() {
+		if(mietvertrag) return mietvertrag.mietsache.immobilie 
+		if(kredit) return kredit.verwendung
+		if(dienstleistungsvertrag) return dienstleistungsvertrag.immobilie
+		if(rechnung) return rechnung.immobilie
+	}
+	
+	Boolean getUmlagefaehig () {
+		if (mietvertrag || kredit) false
+		else
+			if (dienstleistungsvertrag) dienstleistungsvertrag.umlagefaehig
+			else
+				if (rechnung) rechnung.umlagefaehig
+	}
+	
+	
 	int compareTo(obj) {
 		if (datum.compareTo(obj.datum) < 0)
 			return -1
@@ -59,6 +75,16 @@ class Zahlung implements Comparable{
 		def nbsp = "\u2007"
 		def btr =betrag.toString().replace('.',',').padLeft(10,nbsp)
 		"${this.datum.getDateString()}$btr"
+	}
+	
+	static List <Zahlung> umlagefaehigZuImmo (String iId) {
+		int immoId = new Integer (iId)
+		List <Zahlung> zList = []
+		String s = "from Zahlung as z where (z.rechnung is not null or z.dienstleistungsvertrag is not null)"
+		Zahlung.findAll(s).each { 
+			if(it.immobilie.id == immoId && it.umlagefaehig) zList << it
+		}
+		zList.sort{a,b ->a.rechnung <=> b.rechnung ?: a.datum <=> b.datum}
 	}
 	
 	static List getZahlweiseNum() {

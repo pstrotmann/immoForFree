@@ -58,9 +58,7 @@
 				</g:each>
 				</tbody>
 			</table>
-			<div class="pagination">
-				<g:paginate total="${zahlungInstanceTotal}" />
-			</div>
+			
 		</div>
 	</body>
 </html>
