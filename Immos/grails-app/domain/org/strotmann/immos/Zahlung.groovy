@@ -84,7 +84,7 @@ class Zahlung implements Comparable{
 		Zahlung.findAll(s).each { 
 			if(it.immobilie.id == immoId && it.umlagefaehig) zList << it
 		}
-		zList.sort{a,b ->a.rechnung <=> b.rechnung ?: a.datum <=> b.datum}
+		zList.sort{a,b ->a.rechnung <=> b.rechnung ?: a.dienstleistungsvertrag?.id <=> b.dienstleistungsvertrag?.id ?: a.datum <=> b.datum}
 	}
 	
 	static List getZahlweiseNum() {
