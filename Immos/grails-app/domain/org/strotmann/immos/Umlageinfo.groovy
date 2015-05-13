@@ -41,10 +41,10 @@ class Umlageinfo {
 	
 	String toString() {
 		if(rechnung)
-			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel},${von},${bis},${abrBetrag}"
+			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel},${kurz(von)}-${kurz(bis)},${abrBetrag}"
 		else
 			if(dienstleistungsvertrag)
-				"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel},${von},${bis},${abrBetrag}"
+				"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel},${kurz(von)}-${kurz(bis)},${abrBetrag}"
 				else ""
 	}
 	
@@ -67,6 +67,12 @@ class Umlageinfo {
 			dienstleistungsvertrag.immobilie
 	}
 	
+	String kurz (Date d) {
+		def Calendar cal = Calendar.getInstance();
+		d?cal.setTime(d):cal.setTime(new Date())
+		"${cal.get(Calendar.DAY_OF_MONTH)}.${cal.get(Calendar.MONTH)+1}.${cal.get(Calendar.YEAR)}"
+	}
+	
 	static List getUmlageschluessels () {
 		List u = Holders.config.umlageschluessel
 		return u
@@ -76,7 +82,7 @@ class Umlageinfo {
 		List e = Holders.config.zaehlereinheit
 		return e
 	}
-	
+		
 	static Date getAnfangVorjahr () {
 		def Calendar cal = Calendar.getInstance();
 		cal.setTime(new Date())
@@ -102,6 +108,7 @@ class Umlageinfo {
 			else
 				Umlageinfo.findAll().each {if (iId == it.immobilie.id) uiList << it}
 		}
-		else Umlageinfo.findAll()
+		else Umlageinfo.findAll().each {uiList << it}
+	uiList
 	}
 }

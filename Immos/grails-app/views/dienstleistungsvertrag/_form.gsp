@@ -61,7 +61,7 @@
 		<g:message code="dienstleistungsvertrag.vertragsbeginn.label" default="Vertragsbeginn" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="vertragsbeginn" precision="day" years="${2013..2023}" value="${dienstleistungsvertragInstance?.vertragsbeginn}"  />
+	<g:datePicker name="vertragsbeginn" precision="day" years="${2010..2023}" value="${dienstleistungsvertragInstance?.vertragsbeginn}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: dienstleistungsvertragInstance, field: 'vertragsende', 'error')} ">
