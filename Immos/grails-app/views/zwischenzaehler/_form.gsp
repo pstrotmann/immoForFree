@@ -15,7 +15,7 @@
 		<g:message code="zwischenzaehler.mietsache.label" default="Mietsache" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="mietsache" name="mietsache.id" from="${org.strotmann.immos.Mietsache.list()}" optionKey="id" required="" value="${zwischenzaehlerInstance?.mietsache?.id}" class="many-to-one"/>
+	<g:select id="mietsache" name="mietsache.id" from="${org.strotmann.immos.Mietsache.mietsachenZuImmo (flash.zaehler.immobilie.id)}" optionKey="id" required="" value="${zwischenzaehlerInstance?.mietsache?.id}" class="many-to-one"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: zwischenzaehlerInstance, field: 'stattZaehler', 'error')} ">
@@ -31,7 +31,7 @@
 		<g:message code="zwischenzaehler.zaehler.label" default="Zähler" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="zaehler" name="zaehler.id" from="${org.strotmann.immos.Zaehler.list()}" optionKey="id" required="" value="${zwischenzaehlerInstance?.zaehler?.id}" class="many-to-one"/>
+	<g:select id="zaehler" name="zaehler.id" from="${flash.zaehler}" optionKey="id" required="" value="${zwischenzaehlerInstance?.zaehler?.id}" class="many-to-one"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: zwischenzaehlerInstance, field: 'zwischenzaehlerstaende', 'error')} ">

@@ -1,13 +1,12 @@
 <%@ page import="org.strotmann.immos.Zwischenzaehlerstand" %>
-
-
+<%@ page import="org.strotmann.immos.Umlageinfo" %>
 
 <div class="fieldcontain ${hasErrors(bean: zwischenzaehlerstandInstance, field: 'ablesedatum', 'error')} required">
 	<label for="ablesedatum">
 		<g:message code="zwischenzaehlerstand.ablesedatum.label" default="Ablesedatum" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="ablesedatum" precision="day"  value="${zwischenzaehlerstandInstance?.ablesedatum}"  />
+	<g:datePicker name="ablesedatum" precision="day"  value="${zwischenzaehlerstandInstance?.ablesedatum?:Umlageinfo.endeVorjahr}" years="${2011..2025}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: zwischenzaehlerstandInstance, field: 'wert', 'error')} required">

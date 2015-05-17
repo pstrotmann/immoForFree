@@ -55,13 +55,8 @@ class Mietsache implements Comparable{
 		mvStand.anzahlPersonen
 	}
 	
-	static List mietsachenZuImmo (Rechnung rechnung) {
-		String suchString = "from Mietsache as ms where ms.immobilie.id = ${rechnung.immobilie.id} "
-		Mietsache.findAll(suchString)
-	}
-	
-	static List mietsachenZuImmo (Dienstleistungsvertrag dienstleistungsvertrag) {
-		String suchString = "from Mietsache as ms where ms.immobilie.id = ${dienstleistungsvertrag.immobilie.id} "
+	static List mietsachenZuImmo (long immoId) {
+		String suchString = "from Mietsache as ms where ms.immobilie.id = ${immoId} "
 		Mietsache.findAll(suchString)
 	}
 }

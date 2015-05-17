@@ -3,6 +3,7 @@
 <%@ page import="org.strotmann.immos.Dienstleistungsvertrag" %>
 <%@ page import="org.strotmann.immos.Mietsache" %>
 <%@ page import="org.strotmann.immos.Rechnung" %>
+<%@ page import="org.strotmann.immos.Immobilie" %>
 
 <g:if test="${flash.rechnung}">
 <div class="fieldcontain ${hasErrors(bean: umlageinfoInstance, field: 'rechnung', 'error')} required">
@@ -100,10 +101,10 @@
 		
 	</label>
 	<g:if test="${flash.rechnung}">
-	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.rechnung)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.rechnung.immobilie.id)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
 	</g:if>
 	<g:if test="${flash.dienstleistungsvertrag}">
-	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.dienstleistungsvertrag)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="umlageAuf" name="umlageAuf.id" from="${Mietsache.mietsachenZuImmo(flash.dienstleistungsvertrag.immobilie.id)}" optionKey="id" value="${umlageinfoInstance?.umlageAuf?.id}" class="many-to-one" noSelection="['null': '']"/>
 	</g:if>
 </div>
 

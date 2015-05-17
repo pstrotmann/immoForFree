@@ -6,7 +6,19 @@ class ZwischenzaehlerstandController {
 
     def scaffold = true
 
-    def show(Long id) {
+	def create() {
+		flash.zwischenzaehler = Zwischenzaehler.get(params.zwischenzaehler.id)
+		respond new Zwischenzaehlerstand(params)
+	}
+	
+	def edit(Long id) {
+		def zwischenzaehlerstandInstance = Zwischenzaehlerstand.get(id)
+		flash.zwischenzaehlerstand = zwischenzaehlerstandInstance
+		flash.zwischenzaehler = zwischenzaehlerstandInstance.zz
+		[zwischenzaehlerstandInstance: zwischenzaehlerstandInstance]
+	}
+	
+	def show(Long id) {
         def zwischenzaehlerstandInstance = Zwischenzaehlerstand.get(id)
 		flash.zwischenzaehler = zwischenzaehlerstandInstance.zz
         if (!zwischenzaehlerstandInstance) {
