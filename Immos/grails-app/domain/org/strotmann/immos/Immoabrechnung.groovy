@@ -177,6 +177,8 @@ class Immoabrechnung implements Comparable {
 	}
 	
 	void erzeugeUmlagen() {
+		String s = "from Umlage as u where u.immoabrechnung.id = ${id}"
+		Umlage.deleteAll(Umlage.findAll(s))
 		List <Umlage> uList = []
 		List <Umlageinfo> uiList = Umlageinfo.findAll("from Umlageinfo as u where u.art = 'nk' ")
 		uiList.each {Umlageinfo it ->
