@@ -21,7 +21,7 @@ class Kommunikation {
 					case "Handy":
 						return wert ==~ /[0]\d{3,6}[-]\d{3,10}/
 					case "eMail":
-						return wert ==~ /[A-Za-zäöüß0-9\-\.]+[@][A-Za-zäöüß0-9\-\.]+[.][A-Za-z]{1,4}/
+						return wert ==~ /[A-Za-zäöüß0-9\-\.]+[@][A-Za-zäöüß0-9\-\.]+[.][A-Za-z]{1,5}/
 					case "Homepage":
 						return wert ==~ /[w]{3,3}[.][A-Za-z0-9\-\.]+/
 					default: return false

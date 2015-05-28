@@ -195,6 +195,7 @@ class Immoabrechnung implements Comparable {
 					u.kostenart = it.kostenart
 					u.umlageschluessel = it.umlageschluessel
 					u.betrag = betragTage(it)
+					u.zaehler = findeZaehler (it.kostenart)
 				}
 			}
 		}
@@ -203,6 +204,19 @@ class Immoabrechnung implements Comparable {
 		}.each {Umlage it ->
 			it.save flush:true
 		}
+	}
+	
+	Zaehler findeZaehler(String kostenart) {
+		Zaehler z = null
+		this.immobilie.zaehlers.each {
+			if (it.zaehlertyp == 'Wasser' && (kostenart == 'Entwässerung' || kostenart == 'Wasser'))
+				z = it
+			if (it.zaehlertyp == 'Strom' && (kostenart == 'Strom allgemein'))
+				z = it
+			if (it.zaehlertyp == 'Gas' && (kostenart == 'Gas'))
+				z = it
+		}
+		z
 	}
 	
 	Date getAnfangAbrJahr () {

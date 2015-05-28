@@ -6,6 +6,17 @@ class ZaehlerstandController {
     
 	def scaffold = true
 	
+	def create() {
+		flash.zaehler = Zaehler.get(params.zaehler.id)
+		respond new Zaehlerstand(params)
+	}
+	
+	def edit(Long id) {
+		def zaehlerstandInstance = Zaehlerstand.get(id)
+		flash.zaehlerstand = zaehlerstandInstance
+		[zaehlerstandInstance: zaehlerstandInstance]
+	}
+	
 	def show(Long id) {
         def zaehlerstandInstance = Zaehlerstand.get(id)
 		flash.zaehler = zaehlerstandInstance.z

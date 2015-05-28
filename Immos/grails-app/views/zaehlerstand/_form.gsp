@@ -7,7 +7,7 @@
 		<g:message code="zaehlerstand.ablesedatum.label" default="Ablesedatum" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="ablesedatum" precision="day"  value="${zaehlerstandInstance?.ablesedatum}"  />
+	<g:datePicker name="ablesedatum" precision="day"  value="${zaehlerstandInstance?.ablesedatum}" years="${2011..2025}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: zaehlerstandInstance, field: 'wert', 'error')} required">
