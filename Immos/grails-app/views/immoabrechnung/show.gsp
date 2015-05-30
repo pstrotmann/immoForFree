@@ -89,6 +89,7 @@
 										<td><div align = right><g:formatNumber number="${u.betragOhneZZ}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 										<td>${fieldValue(bean: u, field: "umlageschluessel")}</td>
 										<td><div align = right><g:formatNumber number="${u.ZVerbrauch}" type="number" /> <g:fieldValue bean="${u}" field="zaehler.zaehlereinheit"/></div></td>
+										<td><div align = right><g:formatNumber number="${u.zzVerbrauch}" type="number" /> <g:fieldValue bean="${u}" field="zaehler.zaehlereinheit"/></div></td>
 									</tr>
 								</g:each>
 							</tbody>

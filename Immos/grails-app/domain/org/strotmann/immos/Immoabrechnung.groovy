@@ -38,6 +38,7 @@ class Immoabrechnung implements Comparable {
 		def BigDecimal anzP = 0
 		def BigDecimal anzHH = immobilie.anzahlHaushalte
 		def int anzRauchWhgn = 0
+		def int anzWzWhgn = 0
 		def Map koartMap = koartAbschlaege
 		
 		def List <Mietvertrag> mvList = Mietvertrag.findAll("from Mietvertrag as mv where mv.mietsache.immobilie = ${immobilie.id}")
@@ -45,17 +46,19 @@ class Immoabrechnung implements Comparable {
 			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return} 
 			anzP += mv.anzahlPersonen
 			anzRauchWhgn += mv.mietsache.anzRauchmelder?:0
+			anzWzWhgn += mv.mietsache.anzWasserzaehler?:0
 		}
 		mvList.each {mv ->
 			if (mv.anzahlPersonen == 0) {return}
 			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return}
 			def Nebenkostenabrechnung nebenkostenabrechnung 
 			def Betriebskostenabrechnung betriebskostenabrechnung
-			mv.betriebskostenabrechnungen.each {Betriebskostenabrechnung ba ->
-				if (ba.immoabrechnung.id == id)
-					betriebskostenabrechnung = ba
-				if (ba.nebenkostenabrechnungen)
-					nebenkostenabrechnung = Nebenkostenabrechnung.get(ba.nebenkostenabrechnungen[0].id)
+			mv.betriebskostenabrechnungen.each {Betriebskostenabrechnung it ->
+				if (it.immoabrechnung.id == id) {
+					betriebskostenabrechnung = it
+					if (it.nebenkostenabrechnung)
+						nebenkostenabrechnung = it.nebenkostenabrechnung
+				}
 			}
 			if (!betriebskostenabrechnung) {
 				betriebskostenabrechnung = new Betriebskostenabrechnung()
@@ -93,22 +96,27 @@ class Immoabrechnung implements Comparable {
 				def BigDecimal btrKorr = koartMap."${u.kostenart}"?koartMap."${u.kostenart}"[2]:0
 				def BigDecimal wfKorr = koartMap."${u.kostenart}"?koartMap."${u.kostenart}"[0]:0
 				def int persKorr = koartMap."${u.kostenart}"?koartMap."${u.kostenart}"[1]:0
+				if (u.umlageschluessel.equals("Zaehler"))
+					umlageanteil.betrag = u.betrag  * (mv.mietsache.wasserverbrauch(jahr) / (u.zzVerbrauch))
 				if (u.umlageschluessel.equals("qm")) 
 					umlageanteil.betrag = (u.betrag - btrKorr) * (mv.mietsache.wohnflaeche / (wF - wfKorr))
 				if (u.umlageschluessel.equals("Personen"))
 					umlageanteil.betrag = (u.betrag - btrKorr) * (mv.anzahlPersonen / (anzP - persKorr))
 				if (u.umlageschluessel.equals("Haushalt"))
 					umlageanteil.betrag = u.betrag / anzHH
-				if (u.umlageschluessel.equals("stck"))
-					umlageanteil.betrag = u.betrag * ((mv.mietsache.anzRauchmelder?:0) / anzRauchWhgn) 
-				
+				if (u.umlageschluessel.equals("stck")) {
+					if (u.kostenart == 'Rauchmelder Wohnung')
+						umlageanteil.betrag = u.betrag * ((mv.mietsache.anzRauchmelder?:0) / anzRauchWhgn) 
+					if (u.kostenart == 'Mietwasseruhr')
+						umlageanteil.betrag = u.betrag * ((mv.mietsache.anzWasserzaehler?:0) / anzWzWhgn)
+				}
 				if (umlageanteil.betrag) {
 					nebkoSum += umlageanteil.betrag
 					umlageanteil.save()
 				}
 				
 			}
-			
+			/*
 			def OffenerPosten offenerPosten
 			mv.mietforderungen.each {OffenerPosten op ->
 				if (op.grund.contains("Nebenkostenabrechnung ${jahr.toString()}"))
@@ -123,6 +131,7 @@ class Immoabrechnung implements Comparable {
 			offenerPosten.betrag = mv.getGezahlteNebenkosten(jahr) - nebkoSum
 			offenerPosten.grund = "Nebenkostenabrechnung ${jahr.toString()}"
 			offenerPosten.mietvertrag = mv
+			*/
 			//offenerPosten.save()
 		}
 	}

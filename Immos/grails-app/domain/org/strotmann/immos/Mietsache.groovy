@@ -1,5 +1,6 @@
 package org.strotmann.immos
 
+import java.util.Date;
 import java.util.List;
 
 class Mietsache implements Comparable{
@@ -53,6 +54,42 @@ class Mietsache implements Comparable{
 		Mietvertrag mv = Mietvertrag.find("from Mietvertrag as mv where mv.mietsache = ${id} and mv.mietende = null")
 		Mietvertragsstand mvStand = mv.vertragsstaende.first()
 		mvStand.anzahlPersonen
+	}
+	
+	BigDecimal wasserverbrauch (int kj) {
+		BigDecimal zV = 0
+		if (anzWasserzaehler == 0)
+			 return 0
+		Zwischenzaehlerstand z1st
+		Zwischenzaehlerstand z2nd
+		def i = 0
+		zwischenzaehlers.each {Zwischenzaehler zz -> 
+			if (zz.zaehler.zaehlertyp == 'Wasser') {
+				zz.zwischenzaehlerstaende.each {Zwischenzaehlerstand zStand ->
+					if (jahr(zStand.ablesedatum) > kj) {return}
+					i++
+					if (i == 1) z1st = zStand
+					if (i == 2) z2nd = zStand
+				}
+			}
+		}
+		zV += (z1st?z1st.wert:0) - (z2nd?z2nd.wert:0) 
+		zV
+	}
+	
+	int getAnzWasserzaehler () {
+		def int anz = 0
+		zwischenzaehlers.each {
+			if (it.zaehler.zaehlertyp == 'Wasser')
+				anz++
+		}
+		anz
+	}
+	
+	int jahr (Date d) {
+		def Calendar c = Calendar.getInstance();
+		c.setTime(d)
+		c.get(Calendar.YEAR)
 	}
 	
 	static List mietsachenZuImmo (long immoId) {
