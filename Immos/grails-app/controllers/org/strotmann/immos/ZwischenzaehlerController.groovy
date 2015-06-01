@@ -7,7 +7,7 @@ class ZwischenzaehlerController {
     def scaffold = true
 	
 	def create() {
-		flash.zaehler = Zaehler.get(params.zaehler.id)
+		flash.immobilie = Immobilie.get(params.immobilie.id)
 		respond new Zwischenzaehler(params)
 	}
 	

@@ -62,9 +62,9 @@ class Mietsache implements Comparable{
 			 return 0
 		Zwischenzaehlerstand z1st
 		Zwischenzaehlerstand z2nd
-		def i = 0
 		zwischenzaehlers.each {Zwischenzaehler zz -> 
 			if (zz.zaehler.zaehlertyp == 'Wasser') {
+				def i = 0
 				zz.zwischenzaehlerstaende.each {Zwischenzaehlerstand zStand ->
 					if (jahr(zStand.ablesedatum) > kj) {return}
 					i++
@@ -72,8 +72,8 @@ class Mietsache implements Comparable{
 					if (i == 2) z2nd = zStand
 				}
 			}
-		}
-		zV += (z1st?z1st.wert:0) - (z2nd?z2nd.wert:0) 
+			zV += (z1st?z1st.wert:0) - (z2nd?z2nd.wert:0)
+			}
 		zV
 	}
 	

@@ -53,6 +53,7 @@ class Immoabrechnung implements Comparable {
 			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return}
 			def Nebenkostenabrechnung nebenkostenabrechnung 
 			def Betriebskostenabrechnung betriebskostenabrechnung
+			def BigDecimal msWasserverbrauch = mv.mietsache.wasserverbrauch(jahr)
 			mv.betriebskostenabrechnungen.each {Betriebskostenabrechnung it ->
 				if (it.immoabrechnung.id == id) {
 					betriebskostenabrechnung = it
@@ -71,7 +72,6 @@ class Immoabrechnung implements Comparable {
 				nebenkostenabrechnung.betriebskostenabrechnung = betriebskostenabrechnung
 				nebenkostenabrechnung.save()				
 			}
-			
 			def BigDecimal nebkoSum = 0
 			def Umlageanteil ausW = null
 			umlagen.each {Umlage u ->
@@ -81,11 +81,11 @@ class Immoabrechnung implements Comparable {
 					if (ua.kostenart == u.kostenart)
 						umlageanteil = ua
 				}
-				
+				/*
 				if (umlageanteil && umlageanteil.umlageschluessel == "Zähler")
 					 {nebkoSum += umlageanteil.betrag
 						 return}
-				
+				*/
 				if (!umlageanteil)
 					umlageanteil = new Umlageanteil()
 					
@@ -97,7 +97,7 @@ class Immoabrechnung implements Comparable {
 				def BigDecimal wfKorr = koartMap."${u.kostenart}"?koartMap."${u.kostenart}"[0]:0
 				def int persKorr = koartMap."${u.kostenart}"?koartMap."${u.kostenart}"[1]:0
 				if (u.umlageschluessel.equals("Zaehler"))
-					umlageanteil.betrag = u.betrag  * (mv.mietsache.wasserverbrauch(jahr) / (u.zzVerbrauch))
+					umlageanteil.betrag = u.betrag  * (msWasserverbrauch / (u.zzVerbrauch))
 				if (u.umlageschluessel.equals("qm")) 
 					umlageanteil.betrag = (u.betrag - btrKorr) * (mv.mietsache.wohnflaeche / (wF - wfKorr))
 				if (u.umlageschluessel.equals("Personen"))
@@ -112,8 +112,8 @@ class Immoabrechnung implements Comparable {
 				}
 				if (umlageanteil.betrag) {
 					nebkoSum += umlageanteil.betrag
-					umlageanteil.save()
-				}
+					umlageanteil.save(flush:true)
+				} 
 				
 			}
 			/*

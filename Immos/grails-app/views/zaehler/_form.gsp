@@ -62,7 +62,7 @@
     <li><g:link controller="zwischenzaehler" action="show" id="${z.id}">${z?.encodeAsHTML()}</g:link></li>
 </g:each>
 <li class="add">
-<g:link controller="zwischenzaehler" action="create" params="['zaehler.id': zaehlerInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'zwischenzaehler.label', default: 'Zwischenzähler')])}</g:link>
+<g:link controller="zwischenzaehler" action="create" params="['zaehler.id': zaehlerInstance?.id,'immobilie.id':zaehlerInstance?.immobilie.id]">${message(code: 'default.add.label', args: [message(code: 'zwischenzaehler.label', default: 'Zwischenzähler')])}</g:link>
 </li>
 </ul>
 

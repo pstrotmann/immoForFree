@@ -50,7 +50,7 @@
 	
 <ul class="one-to-many">
 <g:each in="${mietsacheInstance?.zwischenzaehlers?}" var="z">
-    <li><g:link controller="zaehler" action="show" id="${z.id}">${z?.encodeAsHTML()}</g:link></li>
+    <li><g:link controller="zwischenzaehler" action="show" id="${z.id}">${z?.encodeAsHTML()}</g:link></li>
 </g:each>
 <li class="add">
 <g:link controller="zwischenzaehler" action="create" params="['mietsache.id': mietsacheInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'zwischenzaehler.label', default: 'Zwischenzähler')])}</g:link>
