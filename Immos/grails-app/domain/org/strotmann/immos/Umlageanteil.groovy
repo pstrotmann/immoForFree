@@ -19,7 +19,7 @@ class Umlageanteil implements Comparable{
 	}
 	
 	int compareTo(obj) {
-		sortpos.compareTo(obj.sortpos)
+		umlage.id.compareTo(obj.umlage.id)
 	}
 	
 	String toString() {
