@@ -270,6 +270,16 @@ class Immoabrechnung implements Comparable {
 		}
 	}
 	
+	int getAnzWzW () {
+		int anz = 0
+		def List <Mietvertrag> mvList = Mietvertrag.findAll("from Mietvertrag as mv where mv.mietsache.immobilie = ${immobilie.id}")
+		mvList.each {mv ->
+			if (groesser(mv.mietbeginn, endeAbrJahr) || (mv.mietende && kleiner (mv.mietende, anfangAbrJahr))) {return}
+			anz += mv.mietsache.anzWasserzaehler?:0
+		}
+		anz
+	}
+	
 	BigDecimal betragTage (Umlageinfo ui) {
 		if (gleich(ui.von,anfangAbrJahr) && gleich(ui.bis,endeAbrJahr))
 			return ui.abrBetrag

@@ -97,6 +97,28 @@ class Umlage implements Comparable {
 		zV
 	}
 	
+	String getMenge() {
+		def m = ''
+		switch (umlageschluessel) {
+			case "qm":
+				m = immoabrechnung.immobilie.wohnflaeche
+				break
+			case "Personen":
+				m = immoabrechnung.immobilie.anzahlPersonen
+				break
+			case "Haushalt":
+				m = immoabrechnung.immobilie.anzahlHaushalte
+				break
+			case "stck":
+				m = immoabrechnung.anzWzW
+				break
+			case "Zaehler":
+				m = zzVerbrauch
+				break
+			}
+		m.toString().replace('.',',').replace(',00', '')
+	}
+	
 	List <Zaehler> getZaehlers () {
 		List zList = []		
 		Zaehler.findAll ("from Zaehler as z where z.immobilie = ${this.immoabrechnung.immobilie.id}").each {zList << it}

@@ -53,41 +53,34 @@ class Umlageanteil implements Comparable{
 		umBtr
 	}
 	
-	String getFormel() {
+	String getEinheit() {
+		umlage.zaehler?umlage.zaehler.zaehlereinheit:''
+	}
+	
+	String getMenge() {
+		umlage.menge
+	}
+	
+	String getAnteil() {
 		def String fo = ""
 		def Map koartAb = nebenkostenabrechnung.betriebskostenabrechnung.immoabrechnung.koartAbschlaege
 		if (umlageschluessel.equals("qm")) {
-			def BigDecimal wfImmo
-			wfImmo = nebenkostenabrechnung.betriebskostenabrechnung.immoabrechnung.immobilie.wohnflaeche
 			def BigDecimal wfMiet
 			wfMiet = nebenkostenabrechnung.betriebskostenabrechnung.mietvertrag.mietsache.wohnflaeche
-			def abWf = koartAb."${kostenart}"?koartAb."${kostenart}"[0]:0
-			fo = (wfMiet.toString()+'/'+(wfImmo - abWf).toString()).replace('.',',')
+			fo = wfMiet.toString().replace('.',',').replace(',00', '')
 		}
 		if (umlageschluessel.equals("Personen")) {
-			def int persImmo
-			persImmo = nebenkostenabrechnung.betriebskostenabrechnung.immoabrechnung.immobilie.anzahlPersonen
 			def BigDecimal persMiet
 			persMiet = nebenkostenabrechnung.betriebskostenabrechnung.mietvertrag.anzahlPersonen
-			def abPers = koartAb."${kostenart}"?koartAb."${kostenart}"[1]:0
-			fo = persMiet.toString()+'/'+(persImmo - abPers).toString()
+			fo = persMiet.toString()
 		
 		}
 		if (umlageschluessel.equals("Haushalt")) {
-			def int immoHH
-			immoHH = nebenkostenabrechnung.betriebskostenabrechnung.immoabrechnung.immobilie.anzahlHaushalte
-			fo = "1/"+immoHH.toString()
+			fo = "1"
 		}
-		if (umlageschluessel.equals("Zähler") && umlage.zaehler) {
+		if (umlageschluessel.equals("Zaehler") && umlage.zaehler) {
 			def Zaehler z = umlage.zaehler
 			def int i = 0
-			def BigDecimal zWert = 0
-			z.zaehlerstaende.each {Zaehlerstand zSt ->
-				i++
-				if (i == 1) zWert += zSt.wert
-				if (i == 2) zWert -= zSt.wert
-				if (i >  2) {return}
-			}
 			def String zzStr = ''
 			z.zwischenzaehlers.each {Zwischenzaehler zz ->
 				if (nebenkostenabrechnung.betriebskostenabrechnung.mietvertrag.mietsache.id == zz.mietsache.id) {
@@ -99,13 +92,18 @@ class Umlageanteil implements Comparable{
 						if (i == 2) zzWert -= zzSt.wert
 						if (i >  2) {return}
 					}
-					zzStr += '+'+zzWert.toString().replace('.',',').replace(',000', '')
+					zzStr += '+'+zzWert.toString().replace('.',',').replace(',00', '')
 				}
 			}
 			zzStr = zzStr.substring(1)
-			if (zzStr.contains('+')) zzStr = '('+zzStr+')'
-			fo = zzStr+"/"+zWert.toString().replace('.',',').replace(',000', '')
+			fo = zzStr
 		}
+		
+		if (umlageschluessel.equals("stck")) {
+			String anzW = nebenkostenabrechnung.betriebskostenabrechnung.mietvertrag.mietsache.anzWasserzaehler.toString()
+			fo = anzW
+		}
+		
 		fo
 	}
 }

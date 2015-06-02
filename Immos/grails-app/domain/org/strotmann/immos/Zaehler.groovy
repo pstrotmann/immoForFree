@@ -33,6 +33,10 @@ class Zaehler {
 		Zwischenzaehler.findAll("from Zwischenzaehler as zz where zz.zaehler = ${id}")	
 	}
 	
+	int  getAnzZwischenzaehler() {
+		Zwischenzaehler.findAll("from Zwischenzaehler as zz where zz.zaehler = ${id}").size()
+	}
+	
 	static List getZaehlertypen () {
 		Holders.config.zaehlertyp
 	}
