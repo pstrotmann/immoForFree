@@ -60,7 +60,7 @@ class DruckController {
 		//je Nebenkostenabrechnung 1 sheet
 		def int sheetNum = 1
 		immoabrechnung.betriebskostenabrechnungen.each {Betriebskostenabrechnung b ->
-			Nebenkostenabrechnung n  = b.nebenkostenabrechnungen[0]
+			Nebenkostenabrechnung n  = b.nebenkostenabrechnung
 			def nOut = csvFile ("nebenkostenabrechung${sheetNum}")
 			n.erzeugeCsv(nOut)
 			nOut.close()

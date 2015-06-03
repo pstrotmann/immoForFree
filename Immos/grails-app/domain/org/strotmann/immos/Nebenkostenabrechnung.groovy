@@ -65,7 +65,7 @@ class Nebenkostenabrechnung implements Comparable {
 		nOut.writeLine("Mieter:;${betriebskostenabrechnung.mietvertrag.mieter.partner.name}")
 		nOut.writeLine("Kostenart;Gesamtbetrag;Umlagebetrag;Umlageschlüssel;Formel;Betrag")
 		umlageanteile.each {Umlageanteil ua ->
-			nOut.writeLine("${ua.kostenart};${rB(ua.gesamtbetrag)};${rB(ua.umlagebetrag)};${ua.umlageschluessel};${ua.formel};${rB(ua.betrag)}")			
+			nOut.writeLine("${ua.kostenart};${rB(ua.gesamtbetrag)};${rB(ua.umlagebetrag)};${ua.umlageschluessel};${ua.anteil};${rB(ua.betrag)}")			
 		}
 		nOut.writeLine(";;;Summe;;${rB(summeUmlageanteile)}")
 		nOut.writeLine(";;;gezahlte Pauschale;${formelNebenkosten};${rB(gezahlteNebenkosten)}")

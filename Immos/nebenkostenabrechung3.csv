@@ -1,19 +1,18 @@
-Betriebskostenabrechnung ;2013;Monat:01-12
-Südring  160 , 45711  Datteln,2013,vom:07.05.14
-Mieter:;Wanzke
+Betriebskostenabrechnung ;2014;Monat:01-12
+Saarbrückerweg  24 , 59439  Holzwickede,2014,vom:17.05.15
+Mieter:;Hessel
 Kostenart;Gesamtbetrag;Umlagebetrag;Umlageschlüssel;Formel;Betrag
-Grundsteuer;910,46;910,46;qm;58,11/321,76;316,21
-Müllabfuhr;737,90;737,90;Personen;1/11;268,33
-Entwässerung;1.349,76;1.349,76;Personen;1/10;464,92
-Entwässerung Fläche;187,68;187,68;qm;58,11/321,76;65,18
-Straßenreinigung;51,36;51,36;qm;58,11/321,76;17,84
-Strom allgemein;173,48;173,48;qm;58,11/321,76;39,22
-Gebäudeversicherung;797,06;797,06;qm;58,11/321,76;276,83
-Haftpflichtversicherung;78,32;78,32;qm;58,11/321,76;27,20
-Wasser;870,72;870,72;Personen;1/10;299,92
-Schornsteinfeger;229,49;229,49;qm;58,11/321,76;79,70
-Dachrinnenreinigung;125,40;125,40;qm;58,11/321,76;43,55
-Heizungswartung;252,28;252,28;Haushalt;1/4;63,07
-;;;Summe;;1.961,97
-;;;gezahlte Pauschale;12*80,00 ;960,00
-;;;Nachzuzahlen:;;-1.001,97
+Entwässerung;1.104,00;1.104,00;Zaehler;29,988+5,845;124,49
+Entwässerung Fläche;263,94;263,94;qm;60;41,03
+Grundsteuer;1.126,38;1.126,38;qm;60;175,08
+Müllabfuhr;794,64;794,64;Personen;1;79,46
+Müllabfuhr Bio;107,52;107,52;Personen;1;10,75
+Gebäudeversicherung;753,86;753,86;qm;60;117,18
+Grundstückspflege;748,51;748,51;qm;60;116,35
+Haftpflichtversicherung;115,00;115,00;qm;60;17,88
+Kabelfernsehen;991,20;991,20;Haushalt;1;198,24
+Mietwasseruhr;189,20;189,20;stck;2;34,40
+Wasser;753,00;753,00;Zaehler;29,988+5,845;84,91
+;;;Summe;;999,77
+;;;gezahlte Pauschale;1*75,00 ;75,00
+;;;Nachzuzahlen:;;-924,77

@@ -59,7 +59,7 @@ class Betriebskostenabrechnung implements Comparable{
 		def String briefAnrede1
 		def String anredeName
 		def String briefAnrede2
-		def BigDecimal nebSaldo = nebenkostenabrechnungen.empty?0:nebenkostenabrechnungen[0].saldo
+		def BigDecimal nebSaldo = nebenkostenabrechnung?0:nebenkostenabrechnung.saldo
 		
 		if (p instanceof Person) {
 			def Person pers = p
