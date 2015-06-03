@@ -3,6 +3,17 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="layout" content="main"/>
+	<script>
+		<!ENTITY szlig "ß">
+		<!ENTITY auml "ä">
+		<!ENTITY Auml "Ä">
+		<!ENTITY uuml "ü">
+		<!ENTITY Uuml "Ü">
+		<!ENTITY ouml "ö">
+		<!ENTITY Ouml "Ö">
+		<!ENTITY szlig "ß">
+		<!ENTITY nbsp " ">
+	</script>
 	<style>
 		@page {
 		    /*size: 8.5in 11.65in;   width height */

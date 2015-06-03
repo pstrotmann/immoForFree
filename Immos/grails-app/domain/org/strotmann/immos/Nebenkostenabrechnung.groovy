@@ -63,13 +63,13 @@ class Nebenkostenabrechnung implements Comparable {
 		nOut.writeLine("Betriebskostenabrechnung ;${betriebskostenabrechnung.immoabrechnung.jahr};Monat:${abrechnungszeitraum}")
 		nOut.writeLine("${betriebskostenabrechnung.immoabrechnung}")
 		nOut.writeLine("Mieter:;${betriebskostenabrechnung.mietvertrag.mieter.partner.name}")
-		nOut.writeLine("Kostenart;Gesamtbetrag;Umlagebetrag;Umlageschlüssel;Formel;Betrag")
+		nOut.writeLine("Kostenart;UmlSchl;Ges €;x (Anteil;/ MengeGes) =;€")
 		umlageanteile.each {Umlageanteil ua ->
-			nOut.writeLine("${ua.kostenart};${rB(ua.gesamtbetrag)};${rB(ua.umlagebetrag)};${ua.umlageschluessel};${ua.anteil};${rB(ua.betrag)}")			
+			nOut.writeLine("${ua.kostenart};${ua.umlageschluessel} ${ua.einheit};${rB(ua.umlage.betrag)};${ua.anteil};${ua.menge};${rB(ua.betrag)}")			
 		}
-		nOut.writeLine(";;;Summe;;${rB(summeUmlageanteile)}")
-		nOut.writeLine(";;;gezahlte Pauschale;${formelNebenkosten};${rB(gezahlteNebenkosten)}")
-		nOut.writeLine(";;;${saldokommentar};;${rB(saldo)}")
+		nOut.writeLine(";;;;Summe;${rB(summeUmlageanteile)}")
+		//nOut.writeLine(";;;gezahlte Pauschale;${formelNebenkosten};${rB(gezahlteNebenkosten)}")
+		//nOut.writeLine(";;;${saldokommentar};;${rB(saldo)}")
 	}
 	
 	String rB (BigDecimal w) {
