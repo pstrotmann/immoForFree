@@ -3,6 +3,9 @@
     <!ENTITY auml "ä">
     <!ENTITY ouml "ö">
     <!ENTITY uuml "ü">
+    <!ENTITY Auml "Ä">
+    <!ENTITY Ouml "Ö">
+    <!ENTITY Uuml "Ü">
     <!ENTITY szlig "ß">
 ]>
 <html>

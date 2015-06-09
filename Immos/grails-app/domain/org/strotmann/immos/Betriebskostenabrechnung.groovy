@@ -91,15 +91,15 @@ class Betriebskostenabrechnung implements Comparable{
 		def String anrede = "${briefAnrede1};${anredeName};${briefAnrede2}"
 		def String bankdaten
 		def Bankverbindung bank
-		if (p.bankverbindung.empty)
+		if (p.einzelverbindung)
 			if (!mietvertrag.zahlerList.empty) {
 				def Partner mietzahler = mietvertrag.zahlerList[0]
 				bank = null
 			}
 			else
-				bank = null
+				bank = p.einzelverbindung
 		else
-			bank = p.bankverbindung.first()
+			bank = null
 		if (bank)
 			bankdaten = "${bank.ktoNr};${bank.blz};${bank.nameUndAdresse};${p};ja"
 		else

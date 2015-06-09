@@ -10,8 +10,8 @@ class Partner implements Comparable {
 	
 	SortedSet partnerrolle
 	static hasMany = [kommunikation:Kommunikation,
-						bankverbindung:Bankverbindung,
-						partnerrolle:Partnerrolle]
+					 partnerrolle:Partnerrolle,
+					 bankverbindung:Bankverbindung]
 	
 	static mapping = {
 		tablePerHierarchy false
@@ -26,5 +26,27 @@ class Partner implements Comparable {
 	
 	int compareTo(obj) {
 		name.compareTo(obj.name)
+	}
+	
+	Bankverbindung getEinzelverbindung () {
+		Bankverbindung bv = null
+		this.bankverbindung.each {
+			bv = it
+		}
+		if (!bv)
+			if (this instanceof Organisation && this.rechtsform == 'Personengemeinschaft')
+				bv = bankverbindungPerson
+		bv
+	}
+	
+	Bankverbindung getBankverbindungPerson () {
+		Bankverbindung bv = null
+		String s = "from Partnerrolle as paro where paro.organisation.id = ${this.id} and paro.rolle ='Ansprechpartner' "
+		List <Partnerrolle> aspaRollen = Partnerrolle.findAll (s)
+		aspaRollen.each {Partnerrolle it ->
+			if(it.partner.einzelverbindung)
+				bv = it.partner.einzelverbindung
+		}
+		bv
 	}
 }
