@@ -4,7 +4,11 @@ import org.apache.poi.xssf.usermodel.XSSFCell
 import org.apache.poi.xssf.usermodel.XSSFRow
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import org.apache.poi.xssf.usermodel.XSSFSheet
+import org.apache.poi.hssf.usermodel.HSSFCell
+import org.apache.poi.hssf.usermodel.HSSFCellStyle
 import org.apache.poi.poifs.filesystem.POIFSFileSystem
+import org.apache.poi.ss.usermodel.Cell
+import org.apache.poi.ss.usermodel.CellStyle
 
 class DruckController {
 	
@@ -40,6 +44,9 @@ class DruckController {
 	def serienbriefe () {
 		//XSSFWorkbook für Serienbriefparamater und Anlagen
 		XSSFWorkbook workBook = new XSSFWorkbook();
+		CellStyle cellStyle = workBook.createCellStyle()
+		short halign = CellStyle.ALIGN_RIGHT
+		cellStyle.setAlignment(halign)
 		
 		//Bestimmung der Serienbriefparameter 1 Überschrift und je Serienbrief eine Zeile
 		def sOut = csvFile ("serienbriefparameter")
@@ -52,7 +59,8 @@ class DruckController {
 			def String[] str = line.split(";")
 			XSSFRow currentRow=sheet0.createRow(rowNum)
 			for(int i=0;i<str.length;i++){
-				currentRow.createCell(i).setCellValue(str[i]);
+				Cell c = currentRow.createCell(i)
+				c.setCellValue(str[i])
 			}
 			rowNum++
 		}
@@ -67,12 +75,9 @@ class DruckController {
 			String sheetName = b.mietvertrag.mieter.partner.name
 			if (b.mietvertrag.mieter.partner instanceof Person) sheetName += ','+((Person)b.mietvertrag.mieter.partner).vorname
 			XSSFSheet sheet = workBook.createSheet(sheetName)
-			for (i in 0..2) {
+			for (i in 0..5) {
 				sheet.setColumnWidth(i, 5000)
 			}
-			sheet.setColumnWidth(3, 5540)
-			sheet.setColumnWidth(4, 7077)
-			sheet.setColumnWidth(5, 4544)
 			rowNum = 0
 			new File("nebenkostenabrechung${sheetNum}.csv").eachLine {String line ->
 				def String[] str = line.split(";")
@@ -80,7 +85,10 @@ class DruckController {
 				def short h = 420
 				currentRow.setHeight(h)
 				for(int i=0;i<str.length;i++){
-					currentRow.createCell(i).setCellValue(str[i]);
+					Cell c = currentRow.createCell(i)
+					if (i > 0)
+						c.setCellStyle(cellStyle)
+					c.setCellValue(str[i])
 				}
 				rowNum++
 			}
