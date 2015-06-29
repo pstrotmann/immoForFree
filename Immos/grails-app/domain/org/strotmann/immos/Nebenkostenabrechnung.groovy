@@ -56,6 +56,8 @@ class Nebenkostenabrechnung implements Comparable {
 	}
 	
 	BigDecimal getSaldo () {
+		BigDecimal n = gezahlteNebenkosten
+		BigDecimal u = summeUmlageanteile
 		gezahlteNebenkosten - summeUmlageanteile
 	}
 	

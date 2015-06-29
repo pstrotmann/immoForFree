@@ -127,8 +127,46 @@ class Mietvertrag implements Comparable {
 		list << "${(vonMon+1).toString().padLeft(2,'0')}-${(bisMon+1).toString().padLeft(2,'0')}"
 	}
 	
+	BigDecimal getHeiko (int jahr) {
+		def BigDecimal gezahltePauschale = 0
+		def String abrZeitraum = ''
+		def int vonMon = 0
+		def int bisMon = 11
+		def Calendar mvsAnf = Calendar.getInstance();
+		def Calendar mvsEnd = Calendar.getInstance();
+		vertragsstaende.each {Mietvertragsstand mvs ->
+			def int anfMon = 0
+			def int endMon = 0
+			mvsAnf.setTime(mvs.gueltigAb)
+			if (mvsAnf.get(Calendar.YEAR) == jahr) {
+				anfMon = mvsAnf.get(Calendar.MONTH)
+				if (mvs.is(vertragsstaende.last())) {
+					if (mietende) {
+						mvsEnd.setTime(mietende)
+						endMon = mvsEnd.get(Calendar.MONTH)
+					}
+					else
+						endMon = 11
+				}
+				else {
+					Mietvertragsstand mLast = vertragsstaende.tailSet(mvs).last()
+					mvsEnd.setTime(mLast.gueltigAb)
+					endMon = mvsEnd.get(Calendar.MONTH)
+				}
+				gezahltePauschale += (endMon - anfMon + 1) * mvs.heizkostenpauschale
+			}
+			vonMon = (anfMon < vonMon ? anfMon : vonMon)
+			bisMon = (endMon > bisMon ? endMon : bisMon)
+		}
+		gezahltePauschale
+	}
+	
 	BigDecimal getGezahlteNebenkosten (int jahr) {
 		getNebko(jahr)[0]
+	}
+	
+	BigDecimal getGezahlteHeizkosten (int jahr) {
+		getHeiko(jahr)
 	}
 	
 	String getFormelNebenkosten (int jahr) {

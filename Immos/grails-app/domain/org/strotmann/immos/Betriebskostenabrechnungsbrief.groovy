@@ -11,6 +11,13 @@ class Betriebskostenabrechnungsbrief {
 	String anredeName
 	String briefAnrede2
 	String jahr
+	
+	BigDecimal nebenkosten
+	BigDecimal heizkosten
+	BigDecimal nebenkostenvorauszahlung
+	BigDecimal heizkostenvorauszahlung
+	BigDecimal saldo
+	
 	String erstattung
 	String kto
 	String blz
@@ -30,6 +37,11 @@ class Betriebskostenabrechnungsbrief {
 		 anredeName()
 		 briefAnrede2()
 		 jahr()
+		 nebenkosten()
+		 heizkosten()
+		 nebenkostenvorauszahlung()
+		 heizkostenvorauszahlung()
+		 saldo()
 		 erstattung()
 		 kto()
 		 blz()

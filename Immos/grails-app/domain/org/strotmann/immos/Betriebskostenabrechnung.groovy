@@ -59,7 +59,6 @@ class Betriebskostenabrechnung implements Comparable{
 		def String briefAnrede1
 		def String anredeName
 		def String briefAnrede2
-		def BigDecimal nebSaldo = nebenkostenabrechnung?0:nebenkostenabrechnung.saldo
 		
 		if (p instanceof Person) {
 			def Person pers = p
@@ -105,36 +104,46 @@ class Betriebskostenabrechnung implements Comparable{
 		else
 			bankdaten = ";;;;nein"
 			
-			brief.briefDatum = new Date().getDateString()
-			brief.adressAnrede = adressAnrede
-			brief.adressName = adressName
-			brief.strHnr = strHnr
-			brief.plzOrt = plzOrt
-			brief.briefAnrede1 = briefAnrede1
-			brief.anredeName = anredeName
-			brief.briefAnrede2 = briefAnrede2
-			brief.jahr = jahr 
-			brief.erstattung = nebSaldo.toString().replace('.',',')
-			if (bank) {
-				brief.kto = bank.ktoNr
-				brief.blz = bank.blz
-				brief.bankname = bank.nameUndAdresse
-				brief.kontoinhaber = p
-				brief.mitKonto = 'ja'
+		brief.briefDatum = new Date().getDateString()
+		brief.adressAnrede = adressAnrede
+		brief.adressName = adressName
+		brief.strHnr = strHnr
+		brief.plzOrt = plzOrt
+		brief.briefAnrede1 = briefAnrede1
+		brief.anredeName = anredeName
+		brief.briefAnrede2 = briefAnrede2
+		brief.jahr = jahr 
+		
+		Nebenkostenabrechnung n = nebenkostenabrechnung
+		Heizkostenabrechnung h = heizkostenabrechnung
+		def BigDecimal nebSaldo = n?n.saldo:0
+		brief.erstattung = nebSaldo.toString().replace('.',',')
+		brief.nebenkosten = n.betrag
+		brief.nebenkostenvorauszahlung = n.gezahlteNebenkosten
+		brief.heizkosten = h.betrag
+		brief.heizkostenvorauszahlung = h.gezahlteHeizkosten
+		brief.saldo = - brief.nebenkosten + brief.nebenkostenvorauszahlung - brief.heizkosten + brief.heizkostenvorauszahlung
+		
+		if (bank) {
+			brief.kto = bank.ktoNr
+			brief.blz = bank.blz
+			brief.bankname = bank.nameUndAdresse
+			brief.kontoinhaber = p
+			brief.mitKonto = 'ja'
+		}
+		else {
+			brief.kto = ''
+			brief.blz = ''
+			brief.bankname = ''
+			brief.kontoinhaber = ''
+			brief.mitKonto = 'nein'
+		}
+		
+		if (!brief.save(flush: true)) {
+			brief.errors.each {
+				println it
 			}
-			else {
-				brief.kto = ''
-				brief.blz = ''
-				brief.bankname = ''
-				brief.kontoinhaber = ''
-				brief.mitKonto = 'nein'
-			}
-			
-			if (!brief.save(flush: true)) {
-				brief.errors.each {
-					println it
-				}
-			}
+		}
 			
 		"${new Date().getDateString()};${adresse};${anrede};${jahr};${nebSaldo.toString().replace('.',',')};${bankdaten}"
 	}

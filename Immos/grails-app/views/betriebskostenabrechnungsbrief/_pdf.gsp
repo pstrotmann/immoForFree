@@ -16,7 +16,7 @@
 		@page {
 		    /*size: 8.5in 11.65in;   width height */
 		    size: 210mm 297mm;  /* width height */
-		    margin: 0.25in;
+		    margin: 0.75in;
 		}
 		body{
 			font-family: "Times New Roman",Georgia,Serif;
@@ -71,16 +71,40 @@
 		<p>${form?.briefAnrede1} ${form?.anredeName},</p>
 		<p></p><p></p>
 		<p>als Anlage senden wir ${form?.briefAnrede2} die Betriebskostenabrechnung für das Jahr ${form?.jahr}.</p>
-		<p>Ihre Erstatung beträgt ${form?.erstattung}€</p>
-		<p>
-			<g:if test="${form?.mitKonto == 'ja'}">
-     			Wir überweisen auf:
-     			<p>${form?.kto},${form?.blz}</p> 
-			</g:if>
-			<g:else>
-     			Bitte geben Sie Ihre Bankverbindung an.
-			</g:else>
-		</p>		
+		
+		<table>
+			<tr>
+				<td>Nebenkostenvorauszahlung</td><td>${form?.nebenkostenvorauszahlung}</td>
+			</tr>
+			<tr>
+				<td>Heizkostenvorauszahlung</td><td>${form?.heizkostenvorauszahlung}</td>
+			</tr>
+			<tr>
+				<td>Nebenkosten</td><td>${form?.nebenkosten}</td>
+			</tr>
+			<tr>
+				<td>Heizkosten</td><td>${form?.heizkosten}</td>
+			</tr>
+			<tr>
+				<td>Saldo</td><td>${form?.saldo}</td>
+			</tr>
+		</table>
+		
+		<g:if test="${form?.saldo > 0}">
+			<p>Ihre Erstatung beträgt ${form?.erstattung} €</p>
+			<p>
+				<g:if test="${form?.mitKonto == 'ja'}">
+	     			Wir überweisen auf:
+	     			<p>${form?.kto},${form?.blz}</p> 
+				</g:if>
+				<g:else>
+	     			Bitte geben Sie Ihre Bankverbindung an.
+				</g:else>
+			</p>
+		</g:if>	
+		<g:else>
+			<p>Bitte überweisen Sie ${form?.saldo} € auf IBAN DE03440501990492037907</p>
+		</g:else>	
 	</div>
 </body>
 </html>

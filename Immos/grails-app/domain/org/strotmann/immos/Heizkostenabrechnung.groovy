@@ -21,6 +21,11 @@ class Heizkostenabrechnung {
 		bis()
 		betrag()
     }
+	
+	BigDecimal getGezahlteHeizkosten () {
+		betriebskostenabrechnung.mietvertrag.getGezahlteHeizkosten (betriebskostenabrechnung.immoabrechnung.jahr)
+	}
+	
 	String toString() {
 		"${betriebskostenabrechnung.mietvertrag} für:${betriebskostenabrechnung.immoabrechnung.jahr}"
 	}
