@@ -5,8 +5,6 @@ class Betriebskostenabrechnung implements Comparable{
 	Mietvertrag mietvertrag
 	
 	static belongsTo = [immoabrechnung:Immoabrechnung ]
-	
-	static hasMany = [betriebskostenabrechnungsbriefe : Betriebskostenabrechnungsbrief ]
 		
     static constraints = {
     }
@@ -29,6 +27,11 @@ class Betriebskostenabrechnung implements Comparable{
 		Heizkostenabrechnung.find(s)
 	}
 	
+	Betriebskostenabrechnungsbrief getBetriebskostenabrechnungsbrief() {
+		String s = "from Betriebskostenabrechnungsbrief as brAbr where brAbr.betriebskostenabrechnung.id = ${this.id}"
+		Betriebskostenabrechnungsbrief.find(s)
+	}
+	
 	BigDecimal getNebenkosten() {
 		nebenkostenabrechnung?.betrag?:0
 	}
@@ -48,8 +51,9 @@ class Betriebskostenabrechnung implements Comparable{
 		nebenkosten + heizkosten+ umlageausfallwagnis
 	}
 	
-	String abrechnungsbrief (int jahr) {
-		def Betriebskostenabrechnungsbrief brief = new Betriebskostenabrechnungsbrief()
+	String abrechnungsbrief () {
+		int jahr = immoabrechnung.jahr
+		def Betriebskostenabrechnungsbrief brief = betriebskostenabrechnungsbrief?:new Betriebskostenabrechnungsbrief()
 		brief.betriebskostenabrechnung = this
 		def Partner p = mietvertrag.mieter.partner
 		def String adressAnrede
@@ -117,7 +121,6 @@ class Betriebskostenabrechnung implements Comparable{
 		Nebenkostenabrechnung n = nebenkostenabrechnung
 		Heizkostenabrechnung h = heizkostenabrechnung
 		def BigDecimal nebSaldo = n?n.saldo:0
-		brief.erstattung = nebSaldo.toString().replace('.',',')
 		brief.nebenkosten = n.betrag
 		brief.nebenkostenvorauszahlung = n.gezahlteNebenkosten
 		brief.heizkosten = h.betrag

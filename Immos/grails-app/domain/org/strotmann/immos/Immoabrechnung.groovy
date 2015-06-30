@@ -181,7 +181,7 @@ class Immoabrechnung implements Comparable {
 	void erzeugeCsv(BufferedWriter sOut) {
 		sOut.writeLine("briefDatum;adressAnrede;adressName;strHnr;plzOrt;briefAnrede1;anredeName;briefAnrede2;jahr;erstattung;kto;blz;bankname;kontoinhaber;mitKonto")
 		betriebskostenabrechnungen.each {Betriebskostenabrechnung b ->
-			sOut.writeLine(b.abrechnungsbrief(jahr))
+			sOut.writeLine(b.abrechnungsbrief())
 		}
 	}
 	

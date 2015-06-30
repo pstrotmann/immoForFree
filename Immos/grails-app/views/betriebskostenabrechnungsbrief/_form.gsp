@@ -83,12 +83,48 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'erstattung', 'error')} required">
-	<label for="erstattung">
-		<g:message code="betriebskostenabrechnungsbrief.erstattung.label" default="Erstattung" />
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'nebenkostenvorauszahlung', 'error')} required">
+	<label for="nebenkostenvorauszahlung">
+		<g:message code="betriebskostenabrechnungsbrief.nebenkostenvorauszahlung.label" default="Nebenkostenvorauszahlung" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="erstattung" required="" value="${betriebskostenabrechnungsbriefInstance?.erstattung}"/>
+	<g:textField name="nebenkostenvorauszahlung" required="" value="${betriebskostenabrechnungsbriefInstance?.nebenkostenvorauszahlung}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'nebenkosten', 'error')} required">
+	<label for="nebenkosten">
+		<g:message code="betriebskostenabrechnungsbrief.nebenkosten.label" default="Nebenkosten" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="nebenkosten" required="" value="${betriebskostenabrechnungsbriefInstance?.nebenkosten}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'heizkostenvorauszahlung', 'error')} required">
+	<label for="heizkostenvorauszahlung">
+		<g:message code="betriebskostenabrechnungsbrief.heizkostenvorauszahlung.label" default="Heizkostenvorauszahlung" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="heizkostenvorauszahlung" required="" value="${betriebskostenabrechnungsbriefInstance?.heizkostenvorauszahlung}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'heizkosten', 'error')} required">
+	<label for="heizkosten">
+		<g:message code="betriebskostenabrechnungsbrief.heizkosten.label" default="Heizkosten" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="heizkosten" required="" value="${betriebskostenabrechnungsbriefInstance?.heizkosten}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'saldo', 'error')} required">
+	<label for="saldo">
+		<g:message code="betriebskostenabrechnungsbrief.saldo.label" default="Saldo" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="saldo" required="" value="${betriebskostenabrechnungsbriefInstance?.saldo}"/>
 
 </div>
 

@@ -60,14 +60,12 @@
 				</li>
 				</g:if>
 				
-				<g:if test="${betriebskostenabrechnungInstance?.betriebskostenabrechnungsbriefe}">
+				<g:if test="${betriebskostenabrechnungInstance?.betriebskostenabrechnungsbrief}">
 				<li class="fieldcontain">
-					<span id="betriebskostenabrechnungsbriefe-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.nebenkostenabrechnungen.label" default="Abrechnungsbrief" /></span>
+					<span id="betriebskostenabrechnungsbrief-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.nebenkostenabrechnungen.label" default="Abrechnungsbrief" /></span>
 					
-						<g:each in="${betriebskostenabrechnungInstance.betriebskostenabrechnungsbriefe}" var="b">
-						<span class="property-value" aria-labelledby="betriebskostenabrechnungsbriefe-label"><g:link controller="betriebskostenabrechnungsbrief" action="show" id="${b.id}">${b?.encodeAsHTML()}</g:link></span>
-						</g:each>
-					
+						<span class="property-value" aria-labelledby="betriebskostenabrechnungsbrief-label"><g:link controller="betriebskostenabrechnungsbrief" action="show" id="${betriebskostenabrechnungInstance?.betriebskostenabrechnungsbrief.id}">${betriebskostenabrechnungInstance?.betriebskostenabrechnungsbrief?.encodeAsHTML()}</g:link></span>
+						
 				</li>
 				</g:if>
 				

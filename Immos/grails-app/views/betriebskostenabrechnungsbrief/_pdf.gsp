@@ -74,24 +74,24 @@
 		
 		<table>
 			<tr>
-				<td>Nebenkostenvorauszahlung</td><td>${form?.nebenkostenvorauszahlung}</td>
+				<td>Nebenkostenvorauszahlung</td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenvorauszahlung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 			</tr>
 			<tr>
-				<td>Heizkostenvorauszahlung</td><td>${form?.heizkostenvorauszahlung}</td>
+				<td>Heizkostenvorauszahlung</td><td><div align = "right"><g:formatNumber number="${form?.heizkostenvorauszahlung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 			</tr>
 			<tr>
-				<td>Nebenkosten</td><td>${form?.nebenkosten}</td>
+				<td>Nebenkosten</td><td><div align = "right"><g:formatNumber number="${form?.nebenkosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 			</tr>
 			<tr>
-				<td>Heizkosten</td><td>${form?.heizkosten}</td>
+				<td>Heizkosten</td><td><div align = "right"><g:formatNumber number="${form?.heizkosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 			</tr>
 			<tr>
-				<td>Saldo</td><td>${form?.saldo}</td>
+				<td>Saldo</td><td><div align = "right"><g:formatNumber number="${form?.saldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 			</tr>
 		</table>
 		
 		<g:if test="${form?.saldo > 0}">
-			<p>Ihre Erstatung beträgt ${form?.erstattung} €</p>
+			<p>Ihre Erstatung beträgt ${form?.saldo} €</p>
 			<p>
 				<g:if test="${form?.mitKonto == 'ja'}">
 	     			Wir überweisen auf:
@@ -103,7 +103,7 @@
 			</p>
 		</g:if>	
 		<g:else>
-			<p>Bitte überweisen Sie ${form?.saldo} € auf IBAN DE03440501990492037907</p>
+			<p>Bitte überweisen Sie ${form?.saldo.abs()} € auf IBAN DE03440501990492037907</p>
 		</g:else>	
 	</div>
 </body>

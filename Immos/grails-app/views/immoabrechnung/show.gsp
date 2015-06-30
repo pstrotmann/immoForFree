@@ -17,7 +17,7 @@
 				<li><g:link class="list" action="abrechnenNebko" params="[id:immoabrechnungInstance?.id]"><g:message code="default.nebko.label"  /></g:link></li>
 				<li>
 				<g:link class="list" controller="druck" action="serienbriefe" params="[id:immoabrechnungInstance?.id]">
-					<g:message code="default.excel.label"/>
+					<g:message code="default.anschreiben.label"/>
 				</g:link>
 				</li>
 			</ul>

@@ -18,14 +18,13 @@ class Betriebskostenabrechnungsbrief {
 	BigDecimal heizkostenvorauszahlung
 	BigDecimal saldo
 	
-	String erstattung
 	String kto
 	String blz
 	String bankname
 	String kontoinhaber
 	String mitKonto
 	
-	static belongsTo = [betriebskostenabrechnung:Betriebskostenabrechnung ]
+	Betriebskostenabrechnung betriebskostenabrechnung 
 	
 	static constraints = {
 		 briefDatum()
@@ -42,7 +41,6 @@ class Betriebskostenabrechnungsbrief {
 		 nebenkostenvorauszahlung()
 		 heizkostenvorauszahlung()
 		 saldo()
-		 erstattung()
 		 kto()
 		 blz()
 		 bankname()

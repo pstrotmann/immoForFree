@@ -25,7 +25,7 @@ class Mietvertragsstand implements Comparable{
 	}
 	
 	int compareTo(obj) {    	
-    	return (gueltigAb.compareTo(obj.gueltigAb) * -1)
+    	return (gueltigAb.compareTo(obj.gueltigAb))
 	}
 	
 	static transients = ['stand','bruttomiete','bruttoAufbereitet','vstandKurz']

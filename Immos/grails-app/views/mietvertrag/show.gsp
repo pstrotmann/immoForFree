@@ -162,6 +162,15 @@
 				</li>
 				</g:if>
 				
+				<li class="fieldcontain">
+					<span id="hPausch-label" class="property-label"><g:message code="mietvertrag.hPausch.label" default="HK Pauschale VJ" /></span>
+					
+						<span class="property-value" aria-labelledby="hPausch-label">
+						<g:formatNumber number="${mietvertragInstance.getHeiko(2014)}" type="number" minFractionDigits="2" format="#,##0.00"/>
+						
+						</span>
+				</li>	
+				
 				<g:if test="${mietvertragInstance?.betriebskostenabrechnungen}">
 				<li class="fieldcontain">
 					<span id="betriebskostenabrechnungen-label" class="property-label"><g:message code="mietvertrag.betriebskostenabrechnungen.label" default="Betriebskostenabrechnungen" /></span>

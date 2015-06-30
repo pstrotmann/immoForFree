@@ -157,11 +157,47 @@
 				</li>
 				</g:if>
 								
-				<g:if test="${betriebskostenabrechnungsbriefInstance?.erstattung}">
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.saldo}">
 				<li class="fieldcontain">
-					<span id="erstattung-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.erstattung.label" default="Erstattung" /></span>
+					<span id="saldo-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.saldo.label" default="Saldo" /></span>
 					
-						<span class="property-value" aria-labelledby="erstattung-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="erstattung"/></span>
+						<span class="property-value" aria-labelledby="saldo-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="saldo"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.nebenkostenvorauszahlung}">
+				<li class="fieldcontain">
+					<span id="nebenkostenvorauszahlung-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.nebenkostenvorauszahlung.label" default="Nebenkostenvorauszahlung" /></span>
+					
+						<span class="property-value" aria-labelledby="nebenkostenvorauszahlung-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="nebenkostenvorauszahlung"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.heizkostenvorauszahlung}">
+				<li class="fieldcontain">
+					<span id="heizkostenvorauszahlung-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.heizkostenvorauszahlung.label" default="Heizkostenvorauszahlung" /></span>
+					
+						<span class="property-value" aria-labelledby="heizkostenvorauszahlung-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="heizkostenvorauszahlung"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.nebenkosten}">
+				<li class="fieldcontain">
+					<span id="nebenkosten-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.nebenkosten.label" default="Nebenkosten" /></span>
+					
+						<span class="property-value" aria-labelledby="nebenkosten-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="nebenkosten"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.heizkosten}">
+				<li class="fieldcontain">
+					<span id="heizkosten-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.heizkosten.label" default="Heizkosten" /></span>
+					
+						<span class="property-value" aria-labelledby="heizkosten-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="heizkosten"/></span>
 					
 				</li>
 				</g:if>
