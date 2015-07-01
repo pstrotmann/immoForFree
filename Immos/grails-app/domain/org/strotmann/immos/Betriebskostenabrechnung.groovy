@@ -119,6 +119,8 @@ class Betriebskostenabrechnung implements Comparable{
 		brief.nebenkosten = n.betrag
 		brief.nebenkostenvorauszahlung = n.gezahlteNebenkosten
 		brief.heizkosten = h.betrag
+		brief.heizVon = h.von.getDateString()
+		brief.heizBis = h.bis.getDateString()
 		brief.heizkostenvorauszahlung = h.gezahlteHeizkosten
 		brief.saldo = - brief.nebenkosten + brief.nebenkostenvorauszahlung - brief.heizkosten + brief.heizkostenvorauszahlung
 		

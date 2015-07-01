@@ -68,7 +68,7 @@
 		</table>
 		<p><br></br><br></br></p>
 		<p>${form?.briefAnrede1} ${form?.anredeName},</p>
-		<p>als Anlagen senden wir ${form?.briefAnrede2} Ihre Heiz- und Nebenkostenabrechnungen für das Jahr ${form?.jahr}.</p>
+		<p>als Anlagen senden wir ${form?.briefAnrede2} Ihre Heizkostenabrechnung für den Zeitraum ${form?.heizVon}-${form?.heizBis} und Ihre Nebenkostenabrechnung für das Jahr ${form?.jahr}.</p>
 		<p>Unter Berücksichtigung Ihrer Vorauszahlungen ergibt das folgende Betriebskostenabrechnung:</p>
 		
 		<table>

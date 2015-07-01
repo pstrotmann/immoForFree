@@ -200,6 +200,18 @@
 						<span class="property-value" aria-labelledby="heizkosten-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="heizkosten"/></span>
 					
 				</li>
+				<li class="fieldcontain">
+					<span id="heizVon-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.heizVon.label" default="Heizkosten von" /></span>
+					
+						<span class="property-value" aria-labelledby="heizVon-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="heizVon"/></span>
+					
+				</li>
+				<li class="fieldcontain">
+					<span id="heizBis-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.heizBis.label" default="Heizkosten bis" /></span>
+					
+						<span class="property-value" aria-labelledby="heizBis-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="heizBis"/></span>
+					
+				</li>
 				</g:if>
 				
 				<g:if test="${betriebskostenabrechnungsbriefInstance?.mitKonto}">

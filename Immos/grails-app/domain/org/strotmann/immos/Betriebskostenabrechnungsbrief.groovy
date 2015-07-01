@@ -14,6 +14,8 @@ class Betriebskostenabrechnungsbrief {
 	
 	BigDecimal nebenkosten
 	BigDecimal heizkosten
+	String heizVon
+	String heizBis
 	BigDecimal nebenkostenvorauszahlung
 	BigDecimal heizkostenvorauszahlung
 	BigDecimal saldo
@@ -39,6 +41,8 @@ class Betriebskostenabrechnungsbrief {
 		 jahr()
 		 nebenkosten()
 		 heizkosten()
+		 heizVon()
+		 heizBis()
 		 nebenkostenvorauszahlung()
 		 heizkostenvorauszahlung()
 		 saldo()
