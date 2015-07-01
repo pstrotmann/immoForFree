@@ -56,6 +56,8 @@ class Betriebskostenabrechnung implements Comparable{
 		def Betriebskostenabrechnungsbrief brief = betriebskostenabrechnungsbrief?:new Betriebskostenabrechnungsbrief()
 		brief.betriebskostenabrechnung = this
 		def Partner p = mietvertrag.mieter.partner
+		def String pString = p
+		def List pList = pString.split(' ',2)
 		def String adressAnrede
 		def String adressName
 		def String strHnr
@@ -64,20 +66,13 @@ class Betriebskostenabrechnung implements Comparable{
 		def String anredeName
 		def String briefAnrede2
 		
-		if (p instanceof Person) {
-			def Person pers = p
-			adressAnrede = (pers.geschlecht == 'm'?"Herr":"Frau" )
-			adressName = pers.vorname+' '+pers.name
-			if (pers.persoenlicheAnrede) {
-				briefAnrede1 = "Hallo"
-				briefAnrede2 = "Dir"
-				anredeName = pers.vorname
-			}
-			else {
-				briefAnrede1 = (pers.geschlecht == 'm'?"Sehr geehrter Herr":"Sehr geehrte Frau" )
-				briefAnrede2 = "Ihnen"
-				anredeName = pers.name
-			}
+		if (pList[0] in ['Herr', 'Frau']) {
+			adressAnrede = pString.split(' ')[0]
+			adressName = pList[1]
+			
+			briefAnrede1 = (pList[0] == 'Herr'?"Sehr geehrter Herr":"Sehr geehrte Frau" )
+			briefAnrede2 = "Ihnen"
+			anredeName = p.name
 		}
 		else {
 			adressAnrede = "Familie"
