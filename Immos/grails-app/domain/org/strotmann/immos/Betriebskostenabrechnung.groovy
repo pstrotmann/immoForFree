@@ -123,6 +123,7 @@ class Betriebskostenabrechnung implements Comparable{
 		brief.saldo = - brief.nebenkosten + brief.nebenkostenvorauszahlung - brief.heizkosten + brief.heizkostenvorauszahlung
 		
 		if (bank) {
+			brief.iban = bank.iban
 			brief.kto = bank.ktoNr
 			brief.blz = bank.blz
 			brief.bankname = bank.nameUndAdresse
@@ -130,6 +131,7 @@ class Betriebskostenabrechnung implements Comparable{
 			brief.mitKonto = 'ja'
 		}
 		else {
+			brief.iban = ''
 			brief.kto = ''
 			brief.blz = ''
 			brief.bankname = ''

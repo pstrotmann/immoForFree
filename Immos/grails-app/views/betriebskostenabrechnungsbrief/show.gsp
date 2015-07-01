@@ -211,6 +211,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.kontoinhaber}">
+				<li class="fieldcontain">
+					<span id="kontoinhaber-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.kontoinhaber.label" default="Kontoinhaber" /></span>
+					
+						<span class="property-value" aria-labelledby="kontoinhaber-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="kontoinhaber"/></span>
+					
+				</li>
+				</g:if>
+				
 				<g:if test="${betriebskostenabrechnungsbriefInstance?.bankname}">
 				<li class="fieldcontain">
 					<span id="bankname-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.bankname.label" default="Bankname" /></span>
@@ -238,11 +247,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${betriebskostenabrechnungsbriefInstance?.kontoinhaber}">
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.iban}">
 				<li class="fieldcontain">
-					<span id="kontoinhaber-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.kontoinhaber.label" default="Kontoinhaber" /></span>
+					<span id="iban-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.iban.label" default="IBAN" /></span>
 					
-						<span class="property-value" aria-labelledby="kontoinhaber-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="kontoinhaber"/></span>
+						<span class="property-value" aria-labelledby="iban-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="iban"/></span>
 					
 				</li>
 				</g:if>
