@@ -80,7 +80,8 @@ class Mietsache implements Comparable{
 	int getAnzWasserzaehler () {
 		def int anz = 0
 		zwischenzaehlers.each {
-			if (it.zaehler.zaehlertyp == 'Wasser')
+			if (it.zaehler.zaehlertyp == 'Wasser' && 
+				!it.zaehlernummer.endsWith('2'))
 				anz++
 		}
 		anz
