@@ -3,7 +3,7 @@ package org.strotmann.immos
 import java.util.List;
 import java.util.SortedSet;
 
-class Zwischenzaehler {
+class Zwischenzaehler implements Comparable{
 
     String zaehlernummer
 	boolean stattZaehler
@@ -18,6 +18,10 @@ class Zwischenzaehler {
 	static constraints = {
 		zaehlernummer(nullable:true)
 		stattZaehler(nullable:true)
+	}
+	
+	int compareTo(obj) {
+		zaehlernummer.compareTo(obj.zaehlernummer) 
 	}
 	
 	String toString () {

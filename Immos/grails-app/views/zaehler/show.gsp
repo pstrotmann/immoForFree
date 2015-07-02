@@ -70,11 +70,11 @@
 				</li>
 				</g:if>
 				
-				<g:if test="${zaehlerInstance?.zwischenzaehler}">
+				<g:if test="${zaehlerInstance?.zwischenzaehlers}">
 				<li class="fieldcontain">
 					<span id="zwischenzaehler-label" class="property-label"><g:message code="zaehler.zwischenzaehler.label" default="Zwischenzähler" /></span>
 					
-						<g:each in="${zaehlerInstance.zwischenzaehler}" var="z">
+						<g:each in="${zaehlerInstance.zwischenzaehlers}" var="z">
 						<span class="property-value" aria-labelledby="zwischenzaehler-label"><g:link controller="zwischenzaehler" action="show" id="${z.id}">${z?.encodeAsHTML()}</g:link></span>
 						</g:each>
 					

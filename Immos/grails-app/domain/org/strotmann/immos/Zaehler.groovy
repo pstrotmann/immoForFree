@@ -13,6 +13,7 @@ class Zaehler {
 	static belongsTo = [immobilie:Immobilie]
 	
 	SortedSet zaehlerstaende
+	SortedSet zwischenzaehlers
 	static hasMany = [zaehlerstaende:Zaehlerstand, zwischenzaehlers:Zwischenzaehler]
 	
 	static constraints = {
