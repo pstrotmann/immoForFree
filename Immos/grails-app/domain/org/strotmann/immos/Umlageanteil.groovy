@@ -82,6 +82,7 @@ class Umlageanteil implements Comparable{
 			def Zaehler z = umlage.zaehler
 			def int i = 0
 			def String zzStr = ''
+			def BigDecimal zzSum = 0
 			z.zwischenzaehlers.each {Zwischenzaehler zz ->
 				if (nebenkostenabrechnung.betriebskostenabrechnung.mietvertrag.mietsache.id == zz.mietsache.id) {
 					i = 0
@@ -92,11 +93,13 @@ class Umlageanteil implements Comparable{
 						if (i == 2) zzWert -= zzSt.wert
 						if (i >  2) {return}
 					}
+					zzSum += zzWert
 					zzStr += '+'+zzWert.toString().replace('.',',').replace(',00', '')
 				}
 			}
-			zzStr = zzStr.substring(1)
-			fo = zzStr
+			//zzStr = zzStr.substring(1)
+			//fo = zzStr
+			fo = zzSum.toString().replace('.',',').replace(',00', '')
 		}
 		
 		if (umlageschluessel.equals("stck")) {

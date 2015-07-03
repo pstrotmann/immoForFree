@@ -62,29 +62,34 @@ class Nebenkostenabrechnung implements Comparable {
 	}
 	
 	void erzeugeCsv(BufferedWriter nOut) {
-		nOut.writeLine("Betriebskostenabrechnung ;${betriebskostenabrechnung.immoabrechnung.jahr};Monat:${abrechnungszeitraum}")
-		nOut.writeLine("${betriebskostenabrechnung.immoabrechnung}")
+		nOut.writeLine("Nebenkostenabrechnung ;${betriebskostenabrechnung.immoabrechnung.jahr};Monat:${abrechnungszeitraum}")
+		nOut.writeLine("${betriebskostenabrechnung.mietvertrag.mietsache}")
 		nOut.writeLine("Mieter:;${betriebskostenabrechnung.mietvertrag.mieter.partner.name}")
 		nOut.writeLine("Kostenart;UmlSchl;Ges €;x (Anteil;/ MengeGes) =;€")
 		umlageanteile.each {Umlageanteil ua ->
-			nOut.writeLine("${ua.kostenart};${ua.umlageschluessel} ${ua.einheit};${rB(ua.umlage.betrag)};${ua.anteil};${ua.menge};${rB(ua.betrag)}")			
+			nOut.writeLine("${ua.kostenart};${ua.umlageschluessel} ${ua.einheit};${rB2(ua.umlage.betrag)};${ua.anteil};${ua.menge};${rB2(ua.betrag)}")			
 		}
-		nOut.writeLine(";;;;Summe;${rB(summeUmlageanteile)}")
+		nOut.writeLine(";;;;Summe;${rB2(summeUmlageanteile)}")
 		nOut.writeLine(";;;;;")
-		nOut.writeLine("Zwischenzähler;Stand Neu; - Alt;Verbrauch;;")
+		nOut.writeLine("Zwischenzähler;Stand Neu; - Alt;= Verbrauch;;")
 		BigDecimal sumVerbrauch = 0
 		betriebskostenabrechnung.mietvertrag.mietsache.zwischenzaehlers.each {Zwischenzaehler zz ->
 			BigDecimal [] NeuAlt = zz.standNeuAlt
-			nOut.writeLine("${zz.zaehlernummer};${NeuAlt[0]};${NeuAlt[1]};${NeuAlt[0]-NeuAlt[1]};;")
+			nOut.writeLine("${zz.zaehlernummer};${rB3(NeuAlt[0])};${rB3(NeuAlt[1])};${rB3(NeuAlt[0]-NeuAlt[1])};;")
 			sumVerbrauch += (NeuAlt[0]-NeuAlt[1])
 		}
-		nOut.writeLine("Summe;;;${sumVerbrauch};;")
+		nOut.writeLine(";;Summe;${rB3(sumVerbrauch)};;")
 		//nOut.writeLine(";;;gezahlte Pauschale;${formelNebenkosten};${rB(gezahlteNebenkosten)}")
 		//nOut.writeLine(";;;${saldokommentar};;${rB(saldo)}")
 	}
 	
-	String rB (BigDecimal w) {
+	String rB2 (BigDecimal w) {
 		DecimalFormat df = new DecimalFormat("###,##0.00")
+		df.format(w)
+	}
+	
+	String rB3 (BigDecimal w) {
+		DecimalFormat df = new DecimalFormat("###,##0.000")
 		df.format(w)
 	}
 	

@@ -9,6 +9,8 @@ import org.apache.poi.hssf.usermodel.HSSFCellStyle
 import org.apache.poi.poifs.filesystem.POIFSFileSystem
 import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.CellStyle
+import org.apache.poi.ss.usermodel.Font
+import org.apache.poi.ss.usermodel.IndexedColors
 
 class DruckController {
 	
@@ -44,9 +46,18 @@ class DruckController {
 	def serienbriefe () {
 		//XSSFWorkbook für Serienbriefparamater und Anlagen
 		XSSFWorkbook workBook = new XSSFWorkbook();
+		
 		CellStyle cellStyle = workBook.createCellStyle()
 		short halign = CellStyle.ALIGN_RIGHT
 		cellStyle.setAlignment(halign)
+		
+		CellStyle fatStyle = workBook.createCellStyle()
+		fatStyle.setAlignment(halign)
+		Font fatFont = workBook.createFont()
+		short s = 5
+		fatFont.setBoldweight(s)
+		fatFont.setItalic(true)
+		fatStyle.setFont(fatFont)
 		
 		//Bestimmung der Serienbriefparameter 1 Überschrift und je Serienbrief eine Zeile
 		def sOut = csvFile ("serienbriefparameter")
@@ -58,8 +69,11 @@ class DruckController {
 		new File("serienbriefparameter.csv").eachLine {String line ->
 			def String[] str = line.split(";")
 			XSSFRow currentRow=sheet0.createRow(rowNum)
+			
 			for(int i=0;i<str.length;i++){
+				
 				Cell c = currentRow.createCell(i)
+				
 				c.setCellValue(str[i])
 			}
 			rowNum++
@@ -75,8 +89,10 @@ class DruckController {
 			String sheetName = b.mietvertrag.mieter.partner.name
 			if (b.mietvertrag.mieter.partner instanceof Person) sheetName += ','+((Person)b.mietvertrag.mieter.partner).vorname
 			XSSFSheet sheet = workBook.createSheet(sheetName)
-			for (i in 0..5) {
-				sheet.setColumnWidth(i, 5000)
+			
+			sheet.setColumnWidth(0, 5000)
+			for (i in 1..5) {
+				sheet.setColumnWidth(i, 4000)
 			}
 			rowNum = 0
 			new File("nebenkostenabrechung${sheetNum}.csv").eachLine {String line ->
@@ -84,10 +100,17 @@ class DruckController {
 				XSSFRow currentRow = sheet.createRow(rowNum)
 				def short h = 420
 				currentRow.setHeight(h)
+				Boolean summenZeile = false
+				
 				for(int i=0;i<str.length;i++){
+					if (str[i] == 'Summe')
+						summenZeile = true
 					Cell c = currentRow.createCell(i)
 					if (i > 0)
 						c.setCellStyle(cellStyle)
+					if (summenZeile)
+						c.setCellStyle(fatStyle)
+										
 					c.setCellValue(str[i])
 				}
 				rowNum++

@@ -1,8 +1,8 @@
-Betriebskostenabrechnung ;2014;Monat:01-12
-Saarbrückerweg  24 , 59439  Holzwickede,2014,vom:17.05.15
+Nebenkostenabrechnung ;2014;Monat:01-12
+Saarbrückerweg  24 , 59439  Holzwickede,Wohnung,1.OG-re
 Mieter:;Krämer-Kersting
 Kostenart;UmlSchl;Ges €;x (Anteil;/ MengeGes) =;€
-Entwässerung;Zaehler cbm;1.104,00;32,585+11,047;317,767;151,59
+Entwässerung;Zaehler cbm;1.104,00;43,632;317,767;151,59
 Entwässerung Fläche;qm ;263,94;58;386;39,66
 Grundsteuer;qm ;1.126,38;58;386;169,25
 Müllabfuhr;Personen ;794,64;1;13;79,46
@@ -12,10 +12,10 @@ Grundstückspflege;qm ;748,51;58;386;112,47
 Haftpflichtversicherung;qm ;115,00;58;386;17,28
 Kabelfernsehen;Haushalt ;991,20;1;5;198,24
 Mietwasseruhr;stck ;189,20;2;11;34,40
-Wasser;Zaehler cbm;753,00;32,585+11,047;317,767;103,39
+Wasser;Zaehler cbm;753,00;43,632;317,767;103,39
 ;;;;Summe;1.029,76
 ;;;;;
-Zwischenzähler;Stand Neu; - Alt;Verbrauch;;
-OgRe Bad;129.823;97.238;32.585;;
-OgRe WaschKü;20.387;9.340;11.047;;
-Summe;;;43.632;;
+Zwischenzähler;Stand Neu; - Alt;= Verbrauch;;
+OgRe Bad;129,823;97,238;32,585;;
+OgRe WaschKü;20,387;9,340;11,047;;
+;;Summe;43,632;;
