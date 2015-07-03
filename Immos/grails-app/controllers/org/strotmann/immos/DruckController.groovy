@@ -47,17 +47,19 @@ class DruckController {
 		//XSSFWorkbook für Serienbriefparamater und Anlagen
 		XSSFWorkbook workBook = new XSSFWorkbook();
 		
-		CellStyle cellStyle = workBook.createCellStyle()
-		short halign = CellStyle.ALIGN_RIGHT
-		cellStyle.setAlignment(halign)
-		
-		CellStyle fatStyle = workBook.createCellStyle()
-		fatStyle.setAlignment(halign)
 		Font fatFont = workBook.createFont()
-		short s = 5
-		fatFont.setBoldweight(s)
-		fatFont.setItalic(true)
-		fatStyle.setFont(fatFont)
+		fatFont.setBoldweight(Font.BOLDWEIGHT_BOLD)
+		
+		CellStyle horStyle = workBook.createCellStyle()
+		horStyle.setAlignment(CellStyle.ALIGN_RIGHT)
+		
+		CellStyle fatLeftStyle = workBook.createCellStyle()
+		fatLeftStyle.setAlignment(CellStyle.ALIGN_LEFT)
+		fatLeftStyle.setFont(fatFont)
+		
+		CellStyle fatRightStyle = workBook.createCellStyle()
+		fatRightStyle.setAlignment(CellStyle.ALIGN_RIGHT)
+		fatRightStyle.setFont(fatFont)
 		
 		//Bestimmung der Serienbriefparameter 1 Überschrift und je Serienbrief eine Zeile
 		def sOut = csvFile ("serienbriefparameter")
@@ -90,7 +92,7 @@ class DruckController {
 			if (b.mietvertrag.mieter.partner instanceof Person) sheetName += ','+((Person)b.mietvertrag.mieter.partner).vorname
 			XSSFSheet sheet = workBook.createSheet(sheetName)
 			
-			sheet.setColumnWidth(0, 5000)
+			sheet.setColumnWidth(0, 5500)
 			for (i in 1..5) {
 				sheet.setColumnWidth(i, 4000)
 			}
@@ -107,9 +109,11 @@ class DruckController {
 						summenZeile = true
 					Cell c = currentRow.createCell(i)
 					if (i > 0)
-						c.setCellStyle(cellStyle)
+						c.setCellStyle(horStyle)
 					if (summenZeile)
-						c.setCellStyle(fatStyle)
+						c.setCellStyle(fatRightStyle)
+					if (rowNum == 0 && i == 0)
+						c.setCellStyle(fatRightStyle)
 										
 					c.setCellValue(str[i])
 				}
