@@ -14,3 +14,8 @@ Kabelfernsehen;Haushalt ;991,20;1;5;198,24
 Mietwasseruhr;stck ;189,20;2;11;34,40
 Wasser;Zaehler cbm;753,00;49,672+13,590;317,767;149,91
 ;;;;Summe;1.250,29
+;;;;;
+Zwischenzähler;Stand Neu; - Alt;Verbrauch;;
+EgLi Bad;366.858;317.186;49.672;;
+EgLi WaschKü;29.161;15.571;13.590;;
+Summe;;;63.262;;

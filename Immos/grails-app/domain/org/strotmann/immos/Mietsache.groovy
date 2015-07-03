@@ -2,6 +2,7 @@ package org.strotmann.immos
 
 import java.util.Date;
 import java.util.List;
+import java.util.SortedSet;
 
 class Mietsache implements Comparable{
 	
@@ -13,6 +14,7 @@ class Mietsache implements Comparable{
 	
 	static belongsTo = [immobilie:Immobilie]
 	
+	SortedSet zwischenzaehlers
 	static hasMany = [zwischenzaehlers:Zwischenzaehler]
 	
 	static constraints = {		

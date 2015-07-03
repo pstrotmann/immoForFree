@@ -101,12 +101,6 @@
 	     				<td>bei</td><td>${form?.bankname}</td> 
 	     			</tr>
 	     			<tr>
-	     				<td>Bankleitzahl</td><td>${form?.blz}</td> 
-	     			</tr>
-	     			<tr>
-	     				<td>Konto</td><td>${form?.kto}</td> 
-	     			</tr>
-	     			<tr>
 	     				<td>IBAN</td><td>${form?.iban}</td> 
 	     			</tr>
 	     			</table>
@@ -124,12 +118,6 @@
 	     			</tr>
 	     			<tr>
 	     				<td>bei</td><td>Sparkasse Dortmund</td> 
-	     			</tr>
-	     			<tr>
-	     				<td>Bankleitzahl</td><td>440 501 99</td> 
-	     			</tr>
-	     			<tr>
-	     				<td>Konto</td><td>492 037 907</td> 
 	     			</tr>
 	     			<tr>
 	     				<td>IBAN</td><td>DE03 4405 0199 0492 0379 07</td> 

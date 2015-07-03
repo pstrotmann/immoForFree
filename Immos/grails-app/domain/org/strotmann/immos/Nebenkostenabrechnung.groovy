@@ -70,6 +70,15 @@ class Nebenkostenabrechnung implements Comparable {
 			nOut.writeLine("${ua.kostenart};${ua.umlageschluessel} ${ua.einheit};${rB(ua.umlage.betrag)};${ua.anteil};${ua.menge};${rB(ua.betrag)}")			
 		}
 		nOut.writeLine(";;;;Summe;${rB(summeUmlageanteile)}")
+		nOut.writeLine(";;;;;")
+		nOut.writeLine("Zwischenzähler;Stand Neu; - Alt;Verbrauch;;")
+		BigDecimal sumVerbrauch = 0
+		betriebskostenabrechnung.mietvertrag.mietsache.zwischenzaehlers.each {Zwischenzaehler zz ->
+			BigDecimal [] NeuAlt = zz.standNeuAlt
+			nOut.writeLine("${zz.zaehlernummer};${NeuAlt[0]};${NeuAlt[1]};${NeuAlt[0]-NeuAlt[1]};;")
+			sumVerbrauch += (NeuAlt[0]-NeuAlt[1])
+		}
+		nOut.writeLine("Summe;;;${sumVerbrauch};;")
 		//nOut.writeLine(";;;gezahlte Pauschale;${formelNebenkosten};${rB(gezahlteNebenkosten)}")
 		//nOut.writeLine(";;;${saldokommentar};;${rB(saldo)}")
 	}
