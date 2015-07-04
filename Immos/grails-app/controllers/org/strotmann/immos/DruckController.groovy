@@ -91,10 +91,11 @@ class DruckController {
 			String sheetName = b.mietvertrag.mieter.partner.name
 			if (b.mietvertrag.mieter.partner instanceof Person) sheetName += ','+((Person)b.mietvertrag.mieter.partner).vorname
 			XSSFSheet sheet = workBook.createSheet(sheetName)
+			sheet.getPrintSetup().setLandscape(true) //Querformat
 			
 			sheet.setColumnWidth(0, 5500)
 			for (i in 1..5) {
-				sheet.setColumnWidth(i, 4000)
+				sheet.setColumnWidth(i, 3500)
 			}
 			rowNum = 0
 			new File("nebenkostenabrechung${sheetNum}.csv").eachLine {String line ->
@@ -108,13 +109,11 @@ class DruckController {
 					if (str[i] == 'Summe')
 						summenZeile = true
 					Cell c = currentRow.createCell(i)
-					if (i > 0)
+					if (i > 1)
 						c.setCellStyle(horStyle)
 					if (summenZeile)
 						c.setCellStyle(fatRightStyle)
-					if (rowNum == 0 && i == 0)
-						c.setCellStyle(fatRightStyle)
-										
+															
 					c.setCellValue(str[i])
 				}
 				rowNum++
