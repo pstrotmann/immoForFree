@@ -73,6 +73,63 @@ class Betriebskostenabrechnungsbrief {
 		d
 	}
 	
+	Date getNaechsterErster () {
+		def Calendar cal = Calendar.getInstance()
+		cal.setTime(new Date())
+		Date d = cal.getTime()
+		use (groovy.time.TimeCategory) {
+			d = d + 1.month
+			cal.setTime(d)
+			cal.set(Calendar.DAY_OF_MONTH, 1)
+			d = cal.getTime()
+		}
+		d
+	}
+	
+	Double getHkErhoehung () {
+		Double erh = 
+		((heizkosten - heizkostenvorauszahlung) / 12)
+		erh.round()
+	}
+	
+	Double getNkErhoehung () {
+		Double erh =
+		((nebenkosten - nebenkostenvorauszahlung) / 12)
+		erh.round()
+	}
+	
+	Boolean getBruttomietErhoehung () {
+		def Double erhoehung =
+		hkErhoehung + nkErhoehung
+		return (erhoehung >= 10)
+	}
+	
+	Double getBruttomietErhoehungBetrag () {
+		def Double erhoehung =
+		hkErhoehung + nkErhoehung
+	}
+	
+	Mietvertragsstand getMietvertragsstand () {
+		betriebskostenabrechnung.mietvertrag.vertragsstaende.last()
+	}
+	
+	BigDecimal getGrundmiete() {
+		mietvertragsstand.grundmiete
+	}
+	
+	BigDecimal getNebenkostenNeu() {
+		mietvertragsstand.nebenkostenpauschale + nkErhoehung
+	}
+	
+	BigDecimal getHeizkostenNeu() {
+		mietvertragsstand.heizkostenpauschale + hkErhoehung
+	}
+	
+	BigDecimal getBruttomieteNeu() {
+		mietvertragsstand.bruttomiete + hkErhoehung + nkErhoehung
+	}
+	
+	
 	String toString() {
 		"vom:${briefDatum},an:${adressAnrede} ${adressName},${strHnr},${plzOrt}"
 	}
