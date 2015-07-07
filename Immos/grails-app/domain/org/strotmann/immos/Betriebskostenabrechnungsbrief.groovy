@@ -54,6 +54,25 @@ class Betriebskostenabrechnungsbrief {
 		 mitKonto()
     }
 	
+	Date getZahlungsziel() {
+		def Calendar cal = Calendar.getInstance()
+		cal.setTime(new Date())
+		Date d = cal.getTime()
+		use (groovy.time.TimeCategory) {
+			d = d + 16.days
+			cal.setTime(d)
+			switch (cal.get(Calendar.DAY_OF_WEEK)) {
+				case cal.SATURDAY:
+				d = d + 2.days
+				break
+				case cal.SUNDAY:
+				d = d + 1.days
+				break
+			}
+		}
+		d
+	}
+	
 	String toString() {
 		"vom:${briefDatum},an:${adressAnrede} ${adressName},${strHnr},${plzOrt}"
 	}

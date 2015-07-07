@@ -48,8 +48,9 @@ class DruckController {
 		XSSFWorkbook workBook = new XSSFWorkbook();
 		
 		Font fatFont = workBook.createFont()
+		fatFont.setFontHeightInPoints((short) 8)
 		fatFont.setBoldweight(Font.BOLDWEIGHT_BOLD)
-		
+						
 		CellStyle horStyle = workBook.createCellStyle()
 		horStyle.setAlignment(CellStyle.ALIGN_RIGHT)
 		
@@ -109,6 +110,7 @@ class DruckController {
 					if (str[i] == 'Summe')
 						summenZeile = true
 					Cell c = currentRow.createCell(i)
+					
 					if (i > 1)
 						c.setCellStyle(horStyle)
 					if (summenZeile)

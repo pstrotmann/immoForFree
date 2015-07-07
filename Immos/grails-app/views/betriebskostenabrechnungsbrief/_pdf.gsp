@@ -111,7 +111,7 @@
 			</p>
 		</g:if>	
 		<g:else>
-			<p>Bitte überweisen Sie <g:formatNumber number= "${form?.saldo.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € an:</p>
+			<p>Bitte überweisen Sie <g:formatNumber number= "${form?.saldo.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € bis zum <g:formatDate format="dd.MM.yyyy" date="${form?.zahlungsziel}"/> an:</p>
 			<table>
 	     			<tr>
 	     				<td>Kontoinhaber</td><td>Gabriele und Peter Strotmann</td> 
