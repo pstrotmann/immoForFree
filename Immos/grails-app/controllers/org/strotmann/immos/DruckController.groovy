@@ -66,6 +66,7 @@ class DruckController {
 		def sOut = csvFile ("serienbriefparameter")
 		def Immoabrechnung immoabrechnung = Immoabrechnung.get(params.id)
 		immoabrechnung.erzeugeCsv(sOut);
+		immoabrechnung.erzeugeOp();
 		sOut.close()
 		XSSFSheet sheet0 = workBook.createSheet("Serienbriefparameter")
 		def int rowNum = 0

@@ -116,23 +116,6 @@ class Immoabrechnung implements Comparable {
 				} 
 				
 			}
-			/*
-			def OffenerPosten offenerPosten
-			mv.mietforderungen.each {OffenerPosten op ->
-				if (op.grund.contains("Nebenkostenabrechnung ${jahr.toString()}"))
-					offenerPosten = op
-			}
-			if(!offenerPosten)
-				offenerPosten = new OffenerPosten()
-			Calendar cal = Calendar.getInstance()
-			cal.setTime(datum)
-			cal.add(Calendar.DATE,14)
-			offenerPosten.faelligkeit = cal.getTime()
-			offenerPosten.betrag = mv.getGezahlteNebenkosten(jahr) - nebkoSum
-			offenerPosten.grund = "Nebenkostenabrechnung ${jahr.toString()}"
-			offenerPosten.mietvertrag = mv
-			*/
-			//offenerPosten.save()
 		}
 	}
 	
@@ -182,6 +165,31 @@ class Immoabrechnung implements Comparable {
 		sOut.writeLine("briefDatum;adressAnrede;adressName;strHnr;plzOrt;briefAnrede1;anredeName;briefAnrede2;jahr;erstattung;kto;blz;bankname;kontoinhaber;mitKonto")
 		betriebskostenabrechnungen.each {Betriebskostenabrechnung b ->
 			sOut.writeLine(b.abrechnungsbrief())
+		}
+	}
+	
+	void erzeugeOp() {
+		betriebskostenabrechnungen.each {Betriebskostenabrechnung b ->
+			def OffenerPosten offenerPosten
+			b.mietvertrag.mietforderungen.each {OffenerPosten op ->
+				if (op.grund.contains("Betriebskostenabrechnung ${jahr.toString()}"))
+					offenerPosten = op
+			}
+			if(!offenerPosten)
+				offenerPosten = new OffenerPosten()
+				
+			Calendar cal = Calendar.getInstance()
+			cal.setTime(new Date())
+			cal.add(Calendar.DATE,14)
+			offenerPosten.faelligkeit = cal.getTime()
+			offenerPosten.betrag = b.betriebskostenabrechnungsbrief.saldo
+			offenerPosten.grund = "Betriebskostenabrechnung ${jahr.toString()}"
+			offenerPosten.mietvertrag = b.mietvertrag
+			if (!offenerPosten.save(flush: true)) {
+				b.errors.each {
+					println it
+				}
+			}
 		}
 	}
 	
