@@ -141,10 +141,10 @@
 						<td>    </td><td>Grundmiete</td><td></td><td><div align = "right"><g:formatNumber number="${form?.grundmiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 					</tr>
 					<tr>
-						<td>    </td><td>Heizkosten</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+						<td>    </td><td>Heizkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 					</tr>
 					<tr>
-						<td>    </td><td>Nebenkosten</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+						<td>    </td><td>Nebenkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 					</tr>
 					<tr>
 						<td>    </td><td>Bruttomiete</td><td></td><td><div align = "right"><b><g:formatNumber number="${form?.bruttomieteNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</b></div></td>

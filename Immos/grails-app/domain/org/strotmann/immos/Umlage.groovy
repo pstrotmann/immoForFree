@@ -109,7 +109,7 @@ class Umlage implements Comparable {
 			case "Haushalt":
 				m = immoabrechnung.immobilie.anzahlHaushalte
 				break
-			case "stck":
+			case "Stück":
 				m = immoabrechnung.anzWzW
 				break
 			case "Zaehler":

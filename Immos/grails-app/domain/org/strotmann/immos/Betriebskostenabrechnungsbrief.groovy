@@ -78,7 +78,11 @@ class Betriebskostenabrechnungsbrief {
 		cal.setTime(new Date())
 		Date d = cal.getTime()
 		use (groovy.time.TimeCategory) {
-			d = d + 1.month
+			println "cal.get(Calendar.DAY_OF_MONTH)=${cal.get(Calendar.DAY_OF_MONTH)}"
+			if (cal.get(Calendar.DAY_OF_MONTH) < 15)
+				d = d + 1.month
+			else
+				d = d + 2.month
 			cal.setTime(d)
 			cal.set(Calendar.DAY_OF_MONTH, 1)
 			d = cal.getTime()

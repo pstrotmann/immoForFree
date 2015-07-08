@@ -102,7 +102,7 @@ class Umlageanteil implements Comparable{
 			fo = zzSum.toString().replace('.',',').replace(',00', '')
 		}
 		
-		if (umlageschluessel.equals("stck")) {
+		if (umlageschluessel.equals("Stück")) {
 			String anzW = nebenkostenabrechnung.betriebskostenabrechnung.mietvertrag.mietsache.anzWasserzaehler.toString()
 			fo = anzW
 		}

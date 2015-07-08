@@ -104,7 +104,7 @@ class Immoabrechnung implements Comparable {
 					umlageanteil.betrag = (u.betrag - btrKorr) * (mv.anzahlPersonen / (anzP - persKorr))
 				if (u.umlageschluessel.equals("Haushalt"))
 					umlageanteil.betrag = u.betrag / anzHH
-				if (u.umlageschluessel.equals("stck")) {
+				if (u.umlageschluessel.equals("Stück")) {
 					if (u.kostenart == 'Rauchmelder Wohnung')
 						umlageanteil.betrag = u.betrag * ((mv.mietsache.anzRauchmelder?:0) / anzRauchWhgn) 
 					if (u.kostenart == 'Mietwasseruhr')
