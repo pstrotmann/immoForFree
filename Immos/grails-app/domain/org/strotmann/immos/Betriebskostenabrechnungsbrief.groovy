@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import java.text.SimpleDateFormat
+
 class Betriebskostenabrechnungsbrief {
 
 	String briefDatum
@@ -56,7 +58,7 @@ class Betriebskostenabrechnungsbrief {
 	
 	Date getZahlungsziel() {
 		def Calendar cal = Calendar.getInstance()
-		cal.setTime(new Date())
+		cal.setTime(stringToDate(briefDatum))
 		Date d = cal.getTime()
 		use (groovy.time.TimeCategory) {
 			d = d + 16.days
@@ -75,7 +77,7 @@ class Betriebskostenabrechnungsbrief {
 	
 	Date getNaechsterErster () {
 		def Calendar cal = Calendar.getInstance()
-		cal.setTime(new Date())
+		cal.setTime(stringToDate(briefDatum))
 		Date d = cal.getTime()
 		use (groovy.time.TimeCategory) {
 			println "cal.get(Calendar.DAY_OF_MONTH)=${cal.get(Calendar.DAY_OF_MONTH)}"
@@ -136,5 +138,10 @@ class Betriebskostenabrechnungsbrief {
 	
 	String toString() {
 		"vom:${briefDatum},an:${adressAnrede} ${adressName},${strHnr},${plzOrt}"
+	}
+	
+	Date stringToDate (String s) {
+		SimpleDateFormat formatter = new SimpleDateFormat("dd.MM.yy")
+		formatter.parse(s)
 	}
 }
