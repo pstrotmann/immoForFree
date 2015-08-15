@@ -104,7 +104,7 @@ class Immoabrechnung implements Comparable {
 					umlageanteil.betrag = (u.betrag - btrKorr) * (mv.anzahlPersonen / (anzP - persKorr))
 				if (u.umlageschluessel.equals("Haushalt"))
 					umlageanteil.betrag = u.betrag / anzHH
-				if (u.umlageschluessel.equals("Stück")) {
+				if (u.umlageschluessel.equals("stck")) {
 					if (u.kostenart == 'Rauchmelder Wohnung')
 						umlageanteil.betrag = u.betrag * ((mv.mietsache.anzRauchmelder?:0) / anzRauchWhgn) 
 					if (u.kostenart == 'Mietwasseruhr')
@@ -199,12 +199,15 @@ class Immoabrechnung implements Comparable {
 		List <Umlage> uList = []
 		List <Umlageinfo> uiList = Umlageinfo.findAll("from Umlageinfo as u where u.art = 'nk' ")
 		uiList.each {Umlageinfo it ->
+			
 			if (it.immobilie.id == this.immobilie.id && (jahr(it.von) == jahr || jahr(it.bis) == jahr)) {
+				
 				Umlage u = uList.find {item -> item.kostenart == it.kostenart }
 				if (u)
 					u.betrag += betragTage(it)
 				else
 				 {
+					 println it
 					u = new Umlage()
 					uList << u
 					u.immoabrechnung = this
@@ -219,7 +222,10 @@ class Immoabrechnung implements Comparable {
 		uList.sort {a,b ->
 			!a.kommunal <=> !b.kommunal ?: a.kostenart <=> b.kostenart 
 		}.each {Umlage it ->
-			it.save flush:true
+			if(!it.save( flush:true))
+				it.errors.each {e ->
+					println e
+				}
 		}
 	}
 	

@@ -97,7 +97,8 @@ class Immobilie {
 		this.mietsachen.each {Mietsache ms ->
 			if (ms.wohnflaeche)
 				ms.mietvertraege.each {Mietvertrag mv ->
-					anzP += mv.anzahlPersonen
+					if (!mv.mietende || mv.mietende > new Date())
+						anzP += mv.anzahlPersonen
 				}
 		}
 		anzP
