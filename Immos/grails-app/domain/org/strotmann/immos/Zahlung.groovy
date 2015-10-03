@@ -97,7 +97,8 @@ class Zahlung implements Comparable{
 	
 	static void printZuordnungen (PrintWriter zOut) {
 		List zListPlus = []
-		List <Zahlung> zList = Zahlung.findAll("from Zahlung where buchungsjahr = 2014")
+		String s = "from Zahlung as z where (z.buchungsjahr = 0 or z.buchungsjahr = 2015) and z.bankumsatz is not null"
+		List <Zahlung> zList = Zahlung.findAll(s)
 		zList.each {z ->
 			def Immobilie immobilie
 			def String kategorie
