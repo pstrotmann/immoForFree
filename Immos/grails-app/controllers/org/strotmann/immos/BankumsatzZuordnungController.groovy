@@ -83,9 +83,11 @@ class BankumsatzZuordnungController {
 				def dvReferenz = dv.referenz?:'_'
 				def dvVertragsnummer = dv.vertragsnummer?:'_'
 				def dvKundennummer = dv.kundennummer?:'_'
+				def dvVertragsnummer0 = dvVertragsnummer.toUpperCase().split('-')[0]
 				if (
-					(bUms.beguenstigterZahlungspflichtiger.toUpperCase().contains(dvVertragsnummer.toUpperCase().split('-')[0])
-					 && !bUms.verwendungszweck.toUpperCase().contains('MIETE'))
+					(bUms.beguenstigterZahlungspflichtiger.toUpperCase().contains(dvVertragsnummer0)
+					 && !bUms.verwendungszweck.toUpperCase().contains('MIETE')
+					 && dvVertragsnummer0.length() > 2)
 				 || bUms.verwendungszweck.contains(dvVertragsnummer)
 				 || bUms.mandatsreferenz.contains(dvVertragsnummer)
 				 || bUms.mandatsreferenz.contains(dvReferenz)
