@@ -63,7 +63,7 @@
 		<g:message code="mietvertrag.zahlweise.label" default="Zahlweise" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select name="zahlweise" from="${mietvertragInstance.constraints.zahlweise.inList}" valueMessagePrefix="zahlweise.category" />
+	<g:select name="zahlweise" from="${mietvertragInstance.constraints.zahlweise.inList}" value="${mietvertragInstance?.zahlweise}" valueMessagePrefix="zahlweise.category" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragInstance, field: 'tuerschluessel', 'error')} ">
