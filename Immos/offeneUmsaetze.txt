@@ -84,3 +84,65 @@
 02.01.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
 05.01.15 Kontodeckung Sondertilgungen DXPM3HFBKET  GUTSCHRI Strotmann, Peter              10000,00
 05.01.15                       f�r Sondertilgung  UEBERTRAG GABRIELE STROTMANN             2000,00
+16.01.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0   2     -12,00
+16.01.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+16.01.15 SF-NUMMER: 0710000581 SCHRANKFACHMIETE NETTO-BETRA GEB. F. SCHRANKFaeCHER          -26,00
+16.01.15 SF-NUMMER: 0220000032 SCHRANKFACHMIETE NETTO-BETRA GEB. F. SCHRANKFaeCHER          -26,00
+30.01.15               Kontodeckung DXOP2GA55HI  GUTSCHRIFT Strotmann, Peter               3000,00
+02.02.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+02.02.15                              Geldanlage  UEBERTRAG GABRIELE STROTMANN            -8000,00
+03.02.15 ENTGELT GELDKARTE KU HBCI KARTE 4140001012  AUTOM. SPARKASSE DORTMUND               -2,50
+03.02.15 ENTGELT GELDKARTE KU HBCI KARTE 4140001011  AUTOM. SPARKASSE DORTMUND               -2,50
+03.02.15 Botenkarte KARTE 1484 GABRIELE STROTMANN  AUTOM.KA SPARKASSE DORTMUND               -2,50
+12.02.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0   4     -12,00
+12.02.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+16.02.15      �berziehungszinsenwuchervermeidung  UEBERTRAG GABRIELE STROTMANN             2000,00
+27.02.15                            Kontodeckung  UEBERTRAG GABRIELE STROTMANN             2000,00
+02.03.15                        Eigenleistung  DAUERAUFTRAG Peter Strotmann                 -60,00
+02.03.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+03.03.15                           Konto�bertrag  UEBERTRAG GABRIELE STROTMANN             8000,00
+03.03.15                                  Parken  UEBERTRAG GABRIELE STROTMANN            -8000,00
+04.03.15                                  Parken  UEBERTRAG GABRIELE STROTMANN            -9000,00
+04.03.15                                        SCHECK E.V.                                  48,49
+13.03.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0   6     -12,00
+13.03.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+17.03.15          PS GEW. 11141987  UEBERWEISUNGSGUTSCHRIFT SPARKASSE DORTMUND                2,50
+30.03.15    Deckung Rechnung Sander Dachterrasse  UEBERTRAG GABRIELE STROTMANN             8920,00
+30.03.15        �berziehungswucherzinsvermeidung  UEBERTRAG GABRIELE STROTMANN             4100,00
+31.03.15                           Umschichtung  GUTSCHRIFT Gabriele Strotmann             3000,00
+01.04.15                         verzinst parken  UEBERTRAG GABRIELE STROTMANN            -9000,00
+01.04.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+01.04.15      Abrechnung 31.03.2015 siehe Anlage  ABSCHLUSS                                   0,00
+15.04.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0   8     -12,00
+15.04.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+04.05.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+08.05.15                              Geldanlage  UEBERTRAG GABRIELE STROTMANN            -5000,00
+15.05.15                   Wucherdispovermeidung  UEBERTRAG GABRIELE STROTMANN             2000,00
+15.05.15             Wucherdispozinsenvermeidung  UEBERTRAG GABRIELE STROTMANN             2000,00
+15.05.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0  10     -12,00
+15.05.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+01.06.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+02.06.15                               korrektur  UEBERTRAG GABRIELE STROTMANN           -10000,00
+02.06.15                              Geldanlage  UEBERTRAG GABRIELE STROTMANN             5000,00
+02.06.15    G34885499-D01889169 -30,08 MWST MAI  GUTSCHRIFT EXTRAENERGIE GMBH               188,41
+12.06.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+22.06.15                              Geldanlage  UEBERTRAG GABRIELE STROTMANN            -3000,00
+30.06.15     �berziehuungszinsenwuchervermeidung  UEBERTRAG GABRIELE STROTMANN            12000,00
+01.07.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+01.07.15      Abrechnung 30.06.2015 siehe Anlage  ABSCHLUSS                                   0,00
+03.07.15                              Geldanlage  UEBERTRAG GABRIELE STROTMANN            -6000,00
+14.07.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0  14     -12,00
+14.07.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+03.08.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+03.08.15                              Geldanlage  UEBERTRAG GABRIELE STROTMANN            -5000,00
+13.08.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0  16     -12,00
+13.08.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+17.08.15 zur Sicherheit nochmal: Wucherdispovermeidung  UEB GABRIELE STROTMANN             1000,00
+17.08.15                   Dispowuchervermeidung  UEBERTRAG GABRIELE STROTMANN             2500,00
+01.09.15                                  anlage  UEBERTRAG GABRIELE STROTMANN            -5500,00
+01.09.15     Sparrate 223441955  SONSTIGE BELASTUNGSBUCHUNG Gabriele Strotmann             -102,26
+02.09.15                                  Anlage  UEBERTRAG GABRIELE STROTMANN            -1500,00
+03.09.15           Geldanlage trotz Mickerzinsen  UEBERTRAG GABRIELE STROTMANN            -1500,00
+11.09.15           PS-LOS 11141987 - 11141988  DAUERAUFTRAG DA-NR 0833915     D   0  18     -12,00
+11.09.15 PS-LOS 11141987 - 11141988  UEBERWEISUNGSGUTSCHRIF SPARKASSE DORTMUND                9,60
+16.09.15 SPARLOTTERIE - IHR GEWINN F�R LOS-NR. 11141987  UE SPARKASSE DORTMUND                2,50
