@@ -6,50 +6,7 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'betriebskostenabrechnungsbrief.label', default: 'Betriebskostenabrechnungsbrief')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
-		<style>
-		a.cupid-blue {
-		  background-color: #d7e5f5;
-		  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d7e5f5), color-stop(100%, #cbe0f5));
-		  background-image: -webkit-linear-gradient(top, #d7e5f5, #cbe0f5);
-		  background-image: -moz-linear-gradient(top, #d7e5f5, #cbe0f5);
-		  background-image: -ms-linear-gradient(top, #d7e5f5, #cbe0f5);
-		  background-image: -o-linear-gradient(top, #d7e5f5, #cbe0f5);
-		  background-image: linear-gradient(top, #d7e5f5, #cbe0f5);
-		  border-top: 1px solid #abbbcc;
-		  border-left: 1px solid #a7b6c7;
-		  border-bottom: 1px solid #a1afbf;
-		  border-right: 1px solid #a7b6c7;
-		  border-radius: 12px;
-		  -webkit-box-shadow: inset 0 1px 0 0 white;
-		  box-shadow: inset 0 1px 0 0 white;
-		  text-decoration: none;
-		  color: #1a3e66;
-		  font: normal 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-		  padding: 6px 10px 7px 10px;
-		  text-align: center;
-		  text-shadow: 0 1px 1px #fff;
-		  width: 150px; }
-		a.cupid-blue:hover {
-		    background-color: #ccd9e8;
-		    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccd9e8), color-stop(100%, #c1d4e8));
-		    background-image: -webkit-linear-gradient(top, #ccd9e8, #c1d4e8);
-		    background-image: -moz-linear-gradient(top, #ccd9e8, #c1d4e8);
-		    background-image: -ms-linear-gradient(top, #ccd9e8, #c1d4e8);
-		    background-image: -o-linear-gradient(top, #ccd9e8, #c1d4e8);
-		    background-image: linear-gradient(top, #ccd9e8, #c1d4e8);
-		    border-top: 1px solid #a1afbf;
-		    border-left: 1px solid #9caaba;
-		    border-bottom: 1px solid #96a3b3;
-		    border-right: 1px solid #9caaba;
-		    -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2;
-		    box-shadow: inset 0 1px 0 0 #f2f2f2;
-		    color: #163659;
-		    cursor: pointer; }
-		a.cupid-blue:active {
-		    border: 1px solid #8c98a7;
-		    -webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
-		    box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee; }
-		</style>
+		
 	</head>
 	<body>
 		<a href="#show-betriebskostenabrechnungsbrief" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -192,7 +149,7 @@
 					
 				</li>
 				</g:if>
-				
+												
 				<g:if test="${betriebskostenabrechnungsbriefInstance?.heizkosten}">
 				<li class="fieldcontain">
 					<span id="heizkosten-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.heizkosten.label" default="Heizkosten" /></span>
@@ -200,6 +157,7 @@
 						<span class="property-value" aria-labelledby="heizkosten-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="heizkosten"/></span>
 					
 				</li>
+								
 				<li class="fieldcontain">
 					<span id="heizVon-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.heizVon.label" default="Heizkosten von" /></span>
 					
@@ -214,6 +172,15 @@
 				</li>
 				</g:if>
 							
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.umlageausfallwagnis}">
+				<li class="fieldcontain">
+					<span id="umlageausfallwagnis-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.umlageausfallwagnis.label" default="2% Umlageausfallwagnis" /></span>
+					
+						<span class="property-value" aria-labelledby="umlageausfallwagnis-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="umlageausfallwagnis"/></span>
+					
+				</li>
+				</g:if>
+				
 				<g:if test="${betriebskostenabrechnungsbriefInstance?.kontoinhaber}">
 				<li class="fieldcontain">
 					<span id="kontoinhaber-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.kontoinhaber.label" default="Kontoinhaber" /></span>
@@ -247,7 +214,7 @@
 				<fieldset class="buttons">
 					<g:link class="edit" action="edit" resource="${betriebskostenabrechnungsbriefInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
 					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
-					<a id="pdf-link" class="cupid-blue" href="#pdf-link" onClick="javascript:window.open('<g:createLink action="renderFormPDF" id="${betriebskostenabrechnungsbriefInstance?.id}"/>','_blank','width=1000, height=1200')">Drucken</a>
+					<a id="pdf-link" class="print" href="#pdf-link" onClick="javascript:window.open('<g:createLink action="renderFormPDF" id="${betriebskostenabrechnungsbriefInstance?.id}"/>','_blank','width=1000, height=1200')">Drucken</a>
 				</fieldset>
 			</g:form>
 		</div>

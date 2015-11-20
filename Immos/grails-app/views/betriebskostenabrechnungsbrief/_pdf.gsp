@@ -68,24 +68,38 @@
 		</table>
 		<p><br></br><br></br></p>
 		<p>${form?.briefAnrede1} ${form?.anredeName},</p>
-		<p>
-		als Anlagen senden wir ${form?.briefAnrede2} Ihre Heizkostenabrechnung für den Zeitraum ${form?.heizVon}-${form?.heizBis} und Ihre Nebenkostenabrechnung für das Jahr ${form?.jahr}.
-		Unter Berücksichtigung Ihrer Vorauszahlungen ergibt das folgende Betriebskostenabrechnung:
-		</p>
-		
+		<g:if test="${form?.heizkosten > 0}">
+			<p>
+			als Anlagen senden wir ${form?.briefAnrede2} Ihre Heizkostenabrechnung für den Zeitraum ${form?.heizVon}-${form?.heizBis} und Ihre Nebenkostenabrechnung für das Jahr ${form?.jahr}.
+			Unter Berücksichtigung Ihrer Vorauszahlungen ergibt das folgende Betriebskostenabrechnung:
+			</p>
+		</g:if>
+		<g:else>
+			<p>
+			als Anlagen senden wir ${form?.briefAnrede2} Ihre Nebenkostenabrechnung für das Jahr ${form?.jahr}.
+			Unter Berücksichtigung Ihrer Vorauszahlungen ergibt das folgenden Saldo:
+			</p>
+		</g:else>
 		<table>
 			<tr>
-				<td>    </td><td>Nebenkosten</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+				<td>    </td><td>Nebenkosten(-)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 			</tr>
 			<tr>
-				<td>    </td><td> - vorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenvorauszahlung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+				<td>    </td><td>Vorauszahlung(+)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenvorauszahlung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 			</tr>
-			<tr>
-				<td>    </td><td>Heizkosten</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
-			</tr>
-			<tr>
-				<td>    </td><td> - vorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenvorauszahlung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
-			</tr>
+			<g:if test="${form?.heizkosten > 0}">
+				<tr>
+					<td>    </td><td>Heizkosten(-)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkosten}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+				</tr>
+				<tr>
+					<td>    </td><td>Vorauszahlung(+)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenvorauszahlung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+				</tr>
+			</g:if>
+			<g:if test="${form?.umlageausfallwagnis > 0}">
+				<tr>
+					<td>    </td><td>2% Umlageausfallwagnis(-)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.umlageausfallwagnis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+				</tr>
+			</g:if>
 			<tr>
 				<td>    </td><td>Saldo</td><td></td><td><div align = "right"><b><g:formatNumber number="${form?.saldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</b></div></td>
 			</tr>

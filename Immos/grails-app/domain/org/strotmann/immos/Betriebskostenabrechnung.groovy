@@ -114,15 +114,26 @@ class Betriebskostenabrechnung implements Comparable{
 		brief.jahr = jahr 
 		
 		Nebenkostenabrechnung n = nebenkostenabrechnung
-		Heizkostenabrechnung h = heizkostenabrechnung
+		
 		def BigDecimal nebSaldo = n?n.saldo:0
 		brief.nebenkosten = n.betrag
 		brief.nebenkostenvorauszahlung = n.gezahlteNebenkosten
-		brief.heizkosten = h.betrag
-		brief.heizVon = h.von.getDateString()
-		brief.heizBis = h.bis.getDateString()
-		brief.heizkostenvorauszahlung = h.gezahlteHeizkosten
-		brief.saldo = - brief.nebenkosten + brief.nebenkostenvorauszahlung - brief.heizkosten + brief.heizkostenvorauszahlung
+		
+		if (heizkostenabrechnung) {
+			Heizkostenabrechnung h = heizkostenabrechnung
+			brief.heizkosten = h.betrag
+			brief.heizVon = h.von.getDateString()
+			brief.heizBis = h.bis.getDateString()
+			brief.heizkostenvorauszahlung = h.gezahlteHeizkosten
+		}
+		else {
+			brief.heizkosten = 0
+			brief.heizVon = ""
+			brief.heizBis = ""
+			brief.heizkostenvorauszahlung = 0
+		}
+		brief.umlageausfallwagnis = this.umlageausfallwagnis
+		brief.saldo = - brief.nebenkosten + brief.nebenkostenvorauszahlung - brief.heizkosten + brief.heizkostenvorauszahlung - brief.umlageausfallwagnis
 		
 		if (bank) {
 			brief.iban = bank.iban

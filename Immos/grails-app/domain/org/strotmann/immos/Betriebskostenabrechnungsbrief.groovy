@@ -16,6 +16,7 @@ class Betriebskostenabrechnungsbrief {
 	
 	BigDecimal nebenkosten
 	BigDecimal heizkosten
+	BigDecimal umlageausfallwagnis
 	String heizVon
 	String heizBis
 	BigDecimal nebenkostenvorauszahlung
@@ -43,6 +44,7 @@ class Betriebskostenabrechnungsbrief {
 		 jahr()
 		 nebenkosten()
 		 heizkosten()
+		 umlageausfallwagnis(nullable:true)
 		 heizVon()
 		 heizBis()
 		 nebenkostenvorauszahlung()

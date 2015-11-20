@@ -114,7 +114,7 @@ class Mietvertrag implements Comparable {
 				else {
 					Mietvertragsstand mLast = vertragsstaende.tailSet(mvs).last()
 					mvsEnd.setTime(mLast.gueltigAb)
-					endMon = mvsEnd.get(Calendar.MONTH)
+					endMon = mvsEnd.get(Calendar.MONTH) - 1
 				}
 				gezahltePauschale += (endMon - anfMon + 1) * mvs.nebenkostenpauschale
 				formel += "${endMon - anfMon + 1}*${mvs.nebenkostenpauschale} ".replace('.',',')

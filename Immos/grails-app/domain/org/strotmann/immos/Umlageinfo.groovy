@@ -41,10 +41,10 @@ class Umlageinfo {
 	
 	String toString() {
 		if(rechnung)
-			"${umlageAuf?:rechnung.immobilie},${kostenart},${umlageschluessel},${kurz(von)}-${kurz(bis)},${abrBetrag}"
+			"${umlageAuf?:""}${abrBetrag},${kostenart},${umlageschluessel},${kurz(von)}-${kurz(bis)}"
 		else
 			if(dienstleistungsvertrag)
-				"${umlageAuf?:dienstleistungsvertrag.immobilie},${kostenart},${umlageschluessel},${kurz(von)}-${kurz(bis)},${abrBetrag}"
+				"${umlageAuf?:""}${abrBetrag},${kostenart},${umlageschluessel},${kurz(von)}-${kurz(bis)}"
 				else ""
 	}
 	

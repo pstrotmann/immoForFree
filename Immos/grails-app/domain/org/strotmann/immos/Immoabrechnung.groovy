@@ -207,7 +207,6 @@ class Immoabrechnung implements Comparable {
 					u.betrag += betragTage(it)
 				else
 				 {
-					 println it
 					u = new Umlage()
 					uList << u
 					u.immoabrechnung = this
