@@ -62,27 +62,9 @@ class DruckController {
 		fatRightStyle.setAlignment(CellStyle.ALIGN_RIGHT)
 		fatRightStyle.setFont(fatFont)
 		
-		//Bestimmung der Serienbriefparameter 1 Überschrift und je Serienbrief eine Zeile
-		def sOut = csvFile ("serienbriefparameter")
 		def Immoabrechnung immoabrechnung = Immoabrechnung.get(params.id)
-		immoabrechnung.erzeugeCsv(sOut);
 		immoabrechnung.erzeugeOp();
-		sOut.close()
-		XSSFSheet sheet0 = workBook.createSheet("Serienbriefparameter")
-		def int rowNum = 0
-		new File("serienbriefparameter.csv").eachLine {String line ->
-			def String[] str = line.split(";")
-			XSSFRow currentRow=sheet0.createRow(rowNum)
-			
-			for(int i=0;i<str.length;i++){
 				
-				Cell c = currentRow.createCell(i)
-				
-				c.setCellValue(str[i])
-			}
-			rowNum++
-		}
-		
 		//je Nebenkostenabrechnung 1 sheet
 		def int sheetNum = 1
 		immoabrechnung.betriebskostenabrechnungen.each {Betriebskostenabrechnung b ->
@@ -99,7 +81,7 @@ class DruckController {
 			for (i in 1..5) {
 				sheet.setColumnWidth(i, 3500)
 			}
-			rowNum = 0
+			def int rowNum = 0
 			new File("nebenkostenabrechung${sheetNum}.csv").eachLine {String line ->
 				def String[] str = line.split(";")
 				XSSFRow currentRow = sheet.createRow(rowNum)

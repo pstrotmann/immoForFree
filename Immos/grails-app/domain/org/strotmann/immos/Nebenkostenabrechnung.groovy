@@ -71,16 +71,17 @@ class Nebenkostenabrechnung implements Comparable {
 		}
 		nOut.writeLine(";;;;Summe;${rB2(summeUmlageanteile)}")
 		nOut.writeLine(";;;;;")
-		nOut.writeLine("Zwischenzähler;Stand Neu; - Alt;= Verbrauch;;")
-		BigDecimal sumVerbrauch = 0
-		betriebskostenabrechnung.mietvertrag.mietsache.zwischenzaehlers.each {Zwischenzaehler zz ->
+		
+		if (!betriebskostenabrechnung.mietvertrag.mietsache.zwischenzaehlers.empty) {
+			nOut.writeLine("Zwischenzähler;Stand Neu; - Alt;= Verbrauch;;")
+			BigDecimal sumVerbrauch = 0
+			betriebskostenabrechnung.mietvertrag.mietsache.zwischenzaehlers.each {Zwischenzaehler zz ->
 			BigDecimal [] NeuAlt = zz.standNeuAlt
 			nOut.writeLine("${zz.zaehlernummer};${rB3(NeuAlt[0])};${rB3(NeuAlt[1])};${rB3(NeuAlt[0]-NeuAlt[1])};;")
 			sumVerbrauch += (NeuAlt[0]-NeuAlt[1])
+			}
+			nOut.writeLine(";;Summe;${rB3(sumVerbrauch)};;")
 		}
-		nOut.writeLine(";;Summe;${rB3(sumVerbrauch)};;")
-		//nOut.writeLine(";;;gezahlte Pauschale;${formelNebenkosten};${rB(gezahlteNebenkosten)}")
-		//nOut.writeLine(";;;${saldokommentar};;${rB(saldo)}")
 	}
 	
 	String rB2 (BigDecimal w) {
