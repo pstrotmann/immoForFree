@@ -95,14 +95,29 @@ class Betriebskostenabrechnungsbrief {
 	
 	Double getHkErhoehung () {
 		Double erh = 
-		((heizkosten - heizkostenvorauszahlung) / 12)
+		((heizkosten + umlAnteil(heizkosten) - heizkostenvorauszahlung) / restMonate)
 		erh.round()
 	}
 	
 	Double getNkErhoehung () {
 		Double erh =
-		((nebenkosten - nebenkostenvorauszahlung) / 12)
+		((nebenkosten + umlAnteil(nebenkosten) - nebenkostenvorauszahlung) / restMonate)
 		erh.round()
+	}
+	
+	private Double umlAnteil (BigDecimal kosten) {
+		umlageausfallwagnis * (kosten/(heizkosten + nebenkosten))
+	}
+	
+	private Integer getRestMonate () {
+		
+		def Calendar nxt_01 = Calendar.getInstance()
+		nxt_01.setTime(naechsterErster)
+		
+		if (nxt_01.get(Calendar.YEAR) > jahr.toInteger()) 
+			12 - nxt_01.get(Calendar.MONTH)
+		else
+			12 
 	}
 	
 	Boolean getBruttomietErhoehung () {

@@ -154,9 +154,11 @@
 	     			<tr>
 						<td>    </td><td>Grundmiete</td><td></td><td><div align = "right"><g:formatNumber number="${form?.grundmiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 					</tr>
-					<tr>
-						<td>    </td><td>Heizkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
-					</tr>
+					<g:if test="${form?.heizkosten > 0}">
+						<tr>
+							<td>    </td><td>Heizkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+						</tr>
+					</g:if>
 					<tr>
 						<td>    </td><td>Nebenkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 					</tr>
