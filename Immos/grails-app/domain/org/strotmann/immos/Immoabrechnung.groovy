@@ -81,11 +81,7 @@ class Immoabrechnung implements Comparable {
 					if (ua.kostenart == u.kostenart)
 						umlageanteil = ua
 				}
-				/*
-				if (umlageanteil && umlageanteil.umlageschluessel == "Zähler")
-					 {nebkoSum += umlageanteil.betrag
-						 return}
-				*/
+				
 				if (!umlageanteil)
 					umlageanteil = new Umlageanteil()
 					
@@ -157,8 +153,8 @@ class Immoabrechnung implements Comparable {
 	}
 	
 	boolean isKommunal(String koart) {
-		List l = Holders.config.kommunal
-		l.contains(koart)
+		Kostenart ka = Kostenart.find ("from Kostenart as ka where '${koart}' = ka.bezeichnung")
+		ka.kommunal
 	}
 	
 	void erzeugeCsv(BufferedWriter sOut) {
