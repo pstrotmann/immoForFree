@@ -1,15 +1,15 @@
 Nebenkostenabrechnung ;2015;Monat:01-12
-Haferkamp  1 , 59192  Bergkamen,Doppelhaushälfte,li,EG,DG
-Mieter:;Diener
+Haferkamp  3 , 59192  Bergkamen,Doppelhaushälfte,re,EG,DG
+Mieter:;Brzoza
 Kostenart;UmlSchl;Ges €;x (Anteil;/ MengeGes) =;€
-Entwässerung;Haushalt ;608,82;1;1;608,82
 Entwässerung Fläche;Haushalt ;168,96;1;1;168,96
+Entwässerung Verbrauch;Haushalt ;784,02;1;1;784,02
 Grundsteuer;Haushalt ;318,85;1;1;318,85
-Müllabfuhr;Haushalt ;236,40;1;1;236,40
+Müllabfuhr;Haushalt ;118,20;1;1;118,20
 Müllabfuhr Bio;Haushalt ;53,70;1;1;53,70
 Gebäudeversicherung;Haushalt ;280,00;1;1;280,00
 Haftpflichtversicherung;Haushalt ;43,91;1;1;43,91
-Heizungswartung;Haushalt ;122,68;1;1;122,68
+Heizungswartung;Haushalt ;121,46;1;1;121,46
 Rauchmelder;Haushalt ;30,37;1;1;30,37
-;;;;Summe;1.863,69
+;;;;Summe;1.919,47
 ;;;;;

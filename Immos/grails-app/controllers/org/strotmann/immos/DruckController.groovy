@@ -62,8 +62,11 @@ class DruckController {
 		fatRightStyle.setAlignment(CellStyle.ALIGN_RIGHT)
 		fatRightStyle.setFont(fatFont)
 		
+		def sOut = csvFile ("serienbriefe")
 		def Immoabrechnung immoabrechnung = Immoabrechnung.get(params.id)
-		immoabrechnung.erzeugeOp();
+		immoabrechnung.erzeugeCsv(sOut)
+		immoabrechnung.erzeugeOp()
+		sOut.close()
 				
 		//je Nebenkostenabrechnung 1 sheet
 		def int sheetNum = 1
