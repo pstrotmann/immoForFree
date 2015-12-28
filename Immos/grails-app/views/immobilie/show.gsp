@@ -142,11 +142,22 @@
 				
 				<g:if test="${flash.teilsummen}">
 				<li class="fieldcontain">
-					<span id="teilsummen-label" class="property-label"><g:message code="immobilie.teilsummen.label" default="Teilsummen" /></span>
+					<span id="teilsummen-label" class="property-label"><g:message code="immobilie.teilsummen.label" default="[Nettomiete,Umlage]/Jahr" /></span>
 					
 						<g:each in="${flash.teilsummen}" var="t">
 						<span class="property-value" aria-labelledby="teilsummen-label"><g:message message="${t}" /></span>
 						</g:each>
+				</li>
+				<li class="fieldcontain">
+					<span id="jahresnettomiete-label" class="property-label"><g:message code="immobilie.jahresnettomiete.label" default="Jahresnettomiete" /></span>
+					
+						<span class="property-value" aria-labelledby="jahresnettomiete-label"><g:fieldValue bean="${immobilieInstance}" field="jahresnettomiete"/></span>
+					
+				</li>
+				<li class="fieldcontain">
+					<span id="jahresumlage-label" class="property-label"><g:message code="immobilie.jahresumlage.label" default="Jahresumlage" /></span>
+					
+						<span class="property-value" aria-labelledby="jahresumlage-label"><g:fieldValue bean="${immobilieInstance}" field="jahresumlage"/></span>
 					
 				</li>
 				</g:if>

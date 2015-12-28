@@ -29,7 +29,9 @@
 					
 						<g:sortableColumn property="eigentumAb" title="${message(code: 'immobilie.eigentumAb.label', default: 'Eigentum Ab')}" />
 					
-						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Anschaffungspreis" /></div></th>
+						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="Jahresnettomiete" /></div></th>
+						
+						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Preis" /></div></th>
 						
 						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>
 					
@@ -44,6 +46,8 @@
 						<td><g:formatNumber number="${immobilieInstance.baujahr.encodeAsHTML()}"/></td>
 					
 						<td><g:formatDate date="${immobilieInstance.eigentumAb}" format="dd.MM.yyyy"/></td>
+						
+						<td><div align = right><g:formatNumber number="${immobilieInstance.jahresnettomiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
 						<td><div align = right><g:formatNumber number="${immobilieInstance.anschaffungspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
@@ -60,6 +64,8 @@
 					
 						<td><div align = right><g:message code="immobilie.summe.label" default="Summen" /></div></td>
 					
+						<td><div align = right><g:formatNumber number="${Immobilie.jahresnettomietsumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
 						<td><div align = right><g:formatNumber number="${Immobilie.anschaffungssumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${Immobilie.summeRestschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>

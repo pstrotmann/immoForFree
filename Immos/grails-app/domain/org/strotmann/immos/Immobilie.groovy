@@ -207,4 +207,28 @@ class Immobilie {
 		tSum
 	}
 	
+	BigDecimal getJahresnettomiete() {
+		def BigDecimal netto = 0
+		teilsummen.each {
+			netto += it.value[0]
+		}
+		netto
+	}
+	
+	static BigDecimal getJahresnettomietsumme () {
+		def BigDecimal summe = 0
+		getImmobilien().each {Immobilie immo ->
+			summe += immo.jahresnettomiete
+		}
+		summe
+	}
+	
+	BigDecimal getJahresumlage() {
+		def BigDecimal umlage = 0
+		teilsummen.each {
+			umlage += it.value[1]
+		}
+		umlage
+	}
+	
 }
