@@ -48,6 +48,10 @@ class Kredit implements Comparable{
 		summe
 	}
 	
+	Kreditstand getAktKreditstand() {
+		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
+		ksList.empty?null:ksList[0]
+	}
 	
 	String getZahlweiseKlar() {
 		Holders.config.zahlweise[zahlweise]

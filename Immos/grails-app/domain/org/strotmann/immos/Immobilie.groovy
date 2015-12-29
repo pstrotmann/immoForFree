@@ -231,4 +231,21 @@ class Immobilie {
 		umlage
 	}
 	
+	BigDecimal getAnnuitaet() {
+		def BigDecimal betrag = 0
+		Kredit.findAll ("from Kredit as kr where kr.verwendung = ${id}").each {Kredit kr ->
+			if (kr.aktKreditstand) 
+				betrag += kr.aktKreditstand.mtlAnnuitaet * kr.zahlweise
+		}
+		betrag
+	}
+	
+	static BigDecimal getAnnuitaetensumme () {
+		def BigDecimal summe = 0
+		getImmobilien().each {Immobilie immo ->
+			summe += immo.annuitaet
+		}
+		summe
+	}
+	
 }

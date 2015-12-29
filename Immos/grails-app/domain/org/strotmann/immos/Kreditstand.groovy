@@ -38,4 +38,14 @@ class Kreditstand implements Comparable {
 	String toString() {
 		"ab:${laufzeitAb.getDateString()},bis:${laufzeitBis.getDateString()},€${kreditsumme}"
 	}
+	
+	BigDecimal getMtlAnnuitaet() {
+		if (annuitaet) 
+			return annuitaet
+		BigDecimal betrag = 0
+		if(zinsbetrag) betrag += zinsbetrag
+		if(tilgungsbetrag) betrag += tilgungsbetrag
+		if(verwKostenbetrag) betrag += verwKostenbetrag
+		betrag
+	}
 }

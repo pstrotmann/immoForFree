@@ -27,9 +27,11 @@
 						
 						<g:sortableColumn property="baujahr" title="${message(code: 'immobilie.baujahr.label', default: 'Baujahr')}" />
 					
-						<g:sortableColumn property="eigentumAb" title="${message(code: 'immobilie.eigentumAb.label', default: 'Eigentum Ab')}" />
+						<g:sortableColumn property="eigentumAb" title="${message(code: 'immobilie.eigentumAb.label', default: 'Besitz Ab')}" />
 					
 						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="Jahresnettomiete" /></div></th>
+						
+						<th><div align = right><g:message code="immobilie.annuitaet.label" default="Annuität" /></div></th>
 						
 						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Preis" /></div></th>
 						
@@ -49,6 +51,8 @@
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstance.jahresnettomiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
+						<td><div align = right><g:formatNumber number="${immobilieInstance.annuitaet}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
 						<td><div align = right><g:formatNumber number="${immobilieInstance.anschaffungspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstance.restschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
@@ -65,6 +69,8 @@
 						<td><div align = right><g:message code="immobilie.summe.label" default="Summen" /></div></td>
 					
 						<td><div align = right><g:formatNumber number="${Immobilie.jahresnettomietsumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${Immobilie.annuitaetensumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${Immobilie.anschaffungssumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
