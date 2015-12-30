@@ -1,15 +1,15 @@
 Nebenkostenabrechnung ;2015;Monat:01-12
-Haferkamp  3 , 59192  Bergkamen,Doppelhaushälfte,re,EG,DG
-Mieter:;Brzoza
+Heinrichstraße  46 , 59077  Hamm,Reihenmittelhaus,
+Mieter:;Partu
 Kostenart;UmlSchl;Ges €;x (Anteil;/ MengeGes) =;€
-Entwässerung Fläche;Haushalt ;168,96;1;1;168,96
-Entwässerung Verbrauch;Haushalt ;784,02;1;1;784,02
-Grundsteuer;Haushalt ;318,85;1;1;318,85
-Müllabfuhr;Haushalt ;118,20;1;1;118,20
-Müllabfuhr Bio;Haushalt ;53,70;1;1;53,70
-Gebäudeversicherung;Haushalt ;280,00;1;1;280,00
-Haftpflichtversicherung;Haushalt ;43,91;1;1;43,91
-Heizungswartung;Haushalt ;121,46;1;1;121,46
-Rauchmelder;Haushalt ;30,37;1;1;30,37
-;;;;Summe;1.919,47
+Entwässerung;Haushalt ;84,00;1;1;84,00
+Grundsteuer;Haushalt ;301,50;1;1;301,50
+Müllabfuhr;Haushalt ;147,62;1;1;147,62
+Gebäudeversicherung;Haushalt ;231,95;1;1;231,95
+Haftpflichtversicherung;Haushalt ;46,10;1;1;46,10
+Heizungswartung;Haushalt ;163,60;1;1;163,60
+Kabelfernsehen;Haushalt ;146,28;1;1;146,28
+Rauchmelder;Haushalt ;111,45;1;1;111,45
+Schornsteinfeger;Haushalt ;64,55;1;1;64,55
+;;;;Summe;1.297,05
 ;;;;;

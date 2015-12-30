@@ -1,9 +1,10 @@
-==============================Am Gulloh  49 , 44339  Dortmund ==== 08.10.15 =====================================
+==============================Am Gulloh  49 , 44339  Dortmund ==== 30.12.15 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.04.2015 Darl.-Leistung 855278200 F�r 01.01.2015 - 30.03.2015Zinsen 3 PETER STROTMANN UND GABRIEL E    -1537,50
  01.07.2015 Darl.-Leistung 855278200 F�r 01.04.2015 - 30.06.2015Zinsen 3 PETER STROTMANN UND GABRIEL E    -1530,00
  01.10.2015 Darl.-Leistung 855278200 F�r 01.07.2015 - 30.09.2015Zinsen 2 PETER STROTMANN UND GABRIEL E    -1522,50
-                                                                                             Summe Kredit -4590,00
+ 01.01.2016 Darl.-Leistung 855278200 F�r 01.10.2015 - 30.12.2015 Zinsen  SPARKASSE DORTMUND               -1515,00
+                                                                                             Summe Kredit -6105,00
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  12.01.2015 VK 602502009DO, AM GULLOH 49, Rechnung 7001674581, Faelligke Dortmunder Netz GmbH               102,74
  15.01.2015 VK 602502068 ,DO, AM GULLOH 49, Rechnung 7001674582, Faellig Dortmunder Netz GmbH                -6,79
@@ -44,15 +45,26 @@
  01.09.2015 Hausratversicherung S51490875 Am Gulloh 49 44339 Dortmund 01 Westfaelische Provinzial          -358,27
  25.09.2015 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30800114811, Dortmunder Netz GmbH               159,00
  30.09.2015 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650004999 Dortmunder Energie- und Wasser    -146,00
-                                                                                  Summe nicht umlagefähig -5329,21
+ 27.10.2015 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30800114811, Dortmunder Netz GmbH               159,00
+ 29.10.2015 ReNr: 544/15/2326 V.26.10.2014 DATUM 29.10.2015, 14.53 UHR1. Lange Schornsteinfeger             -29,61
+ 30.10.2015 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650004999 Dortmunder Energie- und Wasser    -146,00
+ 16.11.2015 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -687,73
+ 25.11.2015 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30800114811, Dortmunder Netz GmbH               159,00
+ 30.11.2015 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650004999 Dortmunder Energie- und Wasser    -146,00
+ 01.12.2015 KD.NR 10067 R005365 v.28.11.2015 Saarbr�ckerWeg 24, Wartung  LEIDAG, WOLFGANG                  -202,66
+ 23.12.2015 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30800114811, Dortmunder Netz GmbH               159,00
+ 30.12.2015 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650004999 Dortmunder Energie- und Wasser    -146,00
+                                                                                  Summe nicht umlagefähig -6210,21
 ------------------------------umlagefähig-------------------------------------------------------------------------
  31.07.2015 779.339.295-1 ABS. 07/15 Am Gulloh 49, Dortmund              MAINGAU ENERGIE GMBH              -101,00
  31.08.2015 779.339.295-1 ABS. 08/15 Am Gulloh 49, Dortmund              MAINGAU ENERGIE GMBH              -101,00
  30.09.2015 779.339.295-1 ABS. 09/15 Am Gulloh 49, Dortmund              MAINGAU ENERGIE GMBH              -101,00
-                                                                                         Summe umlagefähig -303,00
+ 02.11.2015 779.339.295-1 ABS. 10/15 Am Gulloh 49, Dortmund              MAINGAU ENERGIE GMBH              -101,00
+ 01.12.2015 779.339.295-1 ABS. 11/15 Am Gulloh 49, Dortmund              MAINGAU ENERGIE GMBH              -101,00
+                                                                                         Summe umlagefähig -505,00
 
-                                                                                  Summe 44339Am Gulloh49 -10222,21
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 08.10.15 ========================
+                                                                                  Summe 44339Am Gulloh49 -12820,21
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 30.12.15 ========================
 ------------------------------Kredit------------------------------------------------------------------------------
  02.02.2015 WUSTENROT BANK AG 01/15 2071008242 412,8901/15 2073032698 61 PETER STROTMANN                   -412,89
  02.03.2015 WUSTENROT BANK AG 02/15 2071008242 412,8902/15 2073032698 61 PETER STROTMANN                   -412,89
@@ -64,7 +76,9 @@
  03.08.2015 WUSTENROT BANK AG 07/15 2073032698 612,6907/15 2071008242 41 PETER STROTMANN                   -412,00
  01.09.2015 WUSTENROT BANK AG 08/15 2073032698 612,6908/15 2071008242 41 PETER STROTMANN                   -412,00
  01.10.2015 WUSTENROT BANK AG 09/15 2073032698 612,6909/15 2076596886 42 PETER STROTMANN                   -412,89
-                                                                                             Summe Kredit -7576,17
+ 02.11.2015 WUSTENROT BANK AG 10/15 2071008242 412,8910/15 2073032698 61 PETER STROTMANN                   -412,89
+ 01.12.2015 WUSTENROT BANK AG 11/15 2071008242 412,8911/15 2073032698 61 PETER STROTMANN                   -412,89
+                                                                                             Summe Kredit -8401,95
 ------------------------------Miete-------------------------------------------------------------------------------
  30.12.2014 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 5401 Bundesagentur fuer Arbeit-Serv     720,00
  02.01.2015 MIETE                                                        ELKE WICKE                         346,00
@@ -137,7 +151,23 @@
  01.10.2015 MIETE                                                        HALINA CZERNY                      466,00
  02.10.2015 MIETE OKTOBER 2015                                           EUGENIUSZ KRZEMIEN                 463,39
  08.10.2015 Miete lindenhorster 236 aksakal                              Aksakal Oztekin                    694,52
-                                                                                              Summe Miete 34602,69
+ 16.10.2015 MIETE                                                        Sunay Sumer                        720,00
+ 02.11.2015 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 3202 Bundesagentur fuer Arbeit-Serv     720,00
+ 02.11.2015 MIETE                                                        ELKE WICKE                         346,00
+ 02.11.2015 MIETE                                                        HALINA CZERNY                      466,00
+ 04.11.2015 Miete lindenhorster 236 aksakal                              Aksakal Oztekin                    694,52
+ 05.11.2015 MIETE 11.15                                                  EUGENIUSZ KRZEMIEN                 463,39
+ 13.11.2015 miete kuzay                                                  Kudret Ahmet Kuzay                 508,27
+ 17.11.2015 MIETE                                                        Sunay Sumer                        720,00
+ 30.11.2015 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 5202 Bundesagentur fuer Arbeit          720,00
+ 01.12.2015 Karakaya miete                                               Sibel Karakaya                     480,00
+ 01.12.2015 MIETE                                                        ELKE WICKE                         346,00
+ 01.12.2015 MIETE                                                        HALINA CZERNY                      466,00
+ 02.12.2015 Miete lindenhorster 236 aksakal                              Aksakal Oztekin                    694,52
+ 02.12.2015 Miete                                                        Kudret Ahmet Kuzay                 508,27
+ 02.12.2015 MIETE DEZEMBER 2015                                          EUGENIUSZ KRZEMIEN                 463,39
+ 16.12.2015 MIETE                                                        Sunay Sumer                        720,00
+                                                                                              Summe Miete 43639,05
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  23.02.2015 SACH VSNR S900456420 SCHADEN 1404731648 Erstattung Re.Fa. hp Westfaelische Provinzial           614,35
  23.02.2015 Trocknung Lindenhorster 236 Schadennummer-Provi: 14-04731648 HPH Herrmann                      -551,95
@@ -152,7 +182,9 @@
  05.05.2015 RE-359-04052015 Lindenhorster 236 T�ren, dg re DATUM 05.05.2 Naujokat Ausbauservice            -573,52
  13.05.2015 RENR.1500600/65007 V.13.5.15 STROTMANN./.Wicke DO LINDENHORS HAUS UND GRUND                     -59,50
  29.05.2015 Vorschussrechnung Nr 1500388 Strotmann./.Wicke DATUM 29.05.2 Moenig & Collegen                 -730,50
-                                                                                 Summe nicht umlagefähig -12173,83
+ 29.10.2015 Verg�tungsberechnung Nr 1500770 Strotmann./.WickeDATUM 28.10 Moenig & Collegen                 -526,22
+ 04.11.2015 250 Js 1671/15 A Akteneinsicht Tarkan Atak DATUM 04.11.2015, Staatsanwaltschaft Dortmund        -12,00
+                                                                                 Summe nicht umlagefähig -12712,05
 ------------------------------umlagefähig-------------------------------------------------------------------------
  09.01.2015 RE.NR. 406019911 LiegNr:5300769 VOM 3.1.15 LINDENHORSTER 236 BRUNATA EVING                      -12,26
  09.01.2015 RE.NR. 406017025 LiegNr:5300769 VOM 3.1.15 LINDENHORSTER 236 BRUNATA EVING                      -31,06
@@ -202,10 +234,26 @@
  22.09.2015 296.001/115/01089-296.001 Lindenhorster 236 Jahresrechnung 2 Kahlert, Schornsteinfeger          -57,44
  30.09.2015 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -162,00
  30.09.2015 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
-                                                                                       Summe umlagefähig -10771,44
+ 15.10.2015 BEL 230601328000 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieverso              -271,00
+ 15.10.2015 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.10.2015 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -162,00
+ 30.10.2015 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+ 16.11.2015 BEL 230201117302 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieversorgung GmbH    -271,00
+ 16.11.2015 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1480,16
+ 16.11.2015 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.11.2015 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -162,00
+ 30.11.2015 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+ 01.12.2015 Haus- und Grundbesitzer-Haftpflicht H33245694 44339 Dortmund Westfaelische Provinzial          -152,09
+ 01.12.2015 Gebaeudeversicherung S900456420 Lindenhorster Str. 236 44339 Westfaelische Provinzial         -1325,83
+ 15.12.2015 BEL 230000873374 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieversorgung GmbH    -271,00
+ 15.12.2015 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 28.12.2015 KD.NR 10067 R005390 v.23.12.2015 Lindenhorster 236 Heizungsw LEIDAG, WOLFGANG                  -128,40
+ 30.12.2015 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -162,00
+ 30.12.2015 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+                                                                                       Summe umlagefähig -15624,92
 
-                                                                       Summe 44339Lindenhorster Strasse236 4081,25
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 08.10.15 =====================================
+                                                                       Summe 44339Lindenhorster Strasse236 6900,13
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 30.12.15 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  05.01.2015 Sondertilgung 5% 2. Tranche Brambauer DATUM 03.01.2015, 14.5 Strotmann                        -2618,25
  05.01.2015 Sondertilgung, 5% v. Ursprung, 1.tranche brambauer DATUM 03. Strotmann                        -5000,00
@@ -219,7 +267,10 @@
  01.08.2015 Darl.-Leistung 556075212 F�r 01.07.2015 - 30.07.2015Zinsen 3 PETER STROTMANN UND GABRIEL E     -794,00
  01.09.2015 Darl.-Leistung 556075212 F�r 01.08.2015 - 30.08.2015Zinsen 3 PETER STROTMANN UND GABRIEL E     -794,00
  01.10.2015 Darl.-Leistung 556075212 F�r 01.09.2015 - 30.09.2015Zinsen 3 PETER STROTMANN UND GABRIEL E     -794,00
-                                                                                            Summe Kredit -17927,50
+ 01.11.2015 Darl.-Leistung 556075212 F�r 01.10.2015 - 30.10.2015 Zinsen  SPARKASSE DORTMUND                -794,00
+ 01.12.2015 Darl.-Leistung 556075212 F�r 01.11.2015 - 30.11.2015 Zinsen  SPARKASSE DORTMUND                -794,00
+ 01.01.2016 Darl.-Leistung 556075212 F�r 01.12.2015 - 30.12.2015 Zinsen  SPARKASSE DORTMUND                -794,00
+                                                                                            Summe Kredit -20309,50
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2015 MIETE                                                        Yueksel, Semra                     559,00
  02.01.2015 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              690,00
@@ -284,14 +335,25 @@
  01.09.2015 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
  02.09.2015 Miete Rest August 2015 Miete September 2015                  PATRICK HANKE                      825,00
  02.09.2015 Miete                                                        Grofe, Renate                      451,50
- 01.10.2015 Hornbach 29.9.2015 DATUM 01.10.2015, 12.57 UHR1.TAN 413905   Balbierz                           -10,00
  01.10.2015 Miete Lorenzstr.5                                            Schier, Stefanie                   466,00
  01.10.2015 MIETE                                                        Semra Sezgin                       559,00
  01.10.2015 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              709,00
  01.10.2015 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
  02.10.2015 Miete                                                        Grofe, Renate                      451,50
  06.10.2015 Miete Lorenzstra�e 5                                         PATRICK HANKE                      624,60
-                                                                                              Summe Miete 32883,50
+ 02.11.2015 MIETE                                                        Semra Sezgin                       559,00
+ 02.11.2015 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              709,00
+ 02.11.2015 Miete Lorenzstr.5                                            Schier, Stefanie                   466,00
+ 02.11.2015 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 03.11.2015 Miete                                                        Grofe, Renate                      451,50
+ 04.11.2015 miete lorenzstr 5                                            PATRICK HANKE                      625,00
+ 01.12.2015 Miete Lorenzstr.5                                            Schier, Stefanie                   466,00
+ 01.12.2015 MIETE DG LINKS LORENZSTR. 5                                  Balbierz, Franz Josef              709,00
+ 01.12.2015 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 01.12.2015 MIETE                                                        Semra Sezgin                       559,00
+ 01.12.2015 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
+ 02.12.2015 Miete                                                        Grofe, Renate                      451,50
+                                                                                              Summe Miete 39640,50
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  26.02.2015 ReNr 20071,15073 v.24.2.15 DATUM 26.02.2015, 11.50 UHR1.TAN  SuS Steuerberatung                 -17,85
  26.02.2015 ReNr 20071,15072 v.24.2.15 DATUM 26.02.2015, 11.49 UHR1.TAN  SuS Steuerberatung                 -17,85
@@ -303,7 +365,11 @@
  03.08.2015 ReNr 20071,15406 v.29.7.15 DATUM 01.08.2015, 10.59 UHR1.TAN  SuS Steuerberatung                 -17,85
  01.09.2015 ReNr 20071,15462 v.29.8.15 DATUM 01.09.2015, 10.49 UHR1.TAN  SuS Steuerberatung                 -17,85
  06.10.2015 ReNr 20071,15517 v.2.10.15 DATUM 06.10.2015, 15.13 UHR1.TAN  SuS Steuerberatung                 -17,85
-                                                                                   Summe nicht umlagefähig -220,58
+ 27.10.2015 KD.NR 10067 R005337 v.24.10.2015 Lorenz 5, dg li, Balbierz R LEIDAG, WOLFGANG                   -93,06
+ 03.11.2015 ReNr 20071,15573 v.31.10.15 DATUM 03.11.2015, 11.13 UHR1.TAN SuS Steuerberatung                 -17,85
+ 07.12.2015 ReNr 20071,15666 v.2.12.15 DATUM 05.12.2015, 11.00 UHR1.TAN  SuS Steuerberatung                 -17,85
+ 28.12.2015 RENR 20151455 Reparatur Heizungsanlage Lorenzstr.5 DATUM 28. Faulstich Haustechnik             -489,92
+                                                                                   Summe nicht umlagefähig -839,26
 ------------------------------umlagefähig-------------------------------------------------------------------------
  08.01.2015 3500593451659 059345165 69-467-1049/9 03550051 LORENZSTR 5,5 ISTA Luenen                       -879,73
  08.01.2015 3500593449246 059344924 69-467-0256/9 03550051 LORENZSTR 5,5 ISTA Luenen                        -99,94
@@ -335,7 +401,6 @@
  01.06.2015 600122004608 GRUNDBESITZABGABEN                              Stadt Luenen Stadtkasse           -150,92
  01.06.2015 R36455383-D01889169 INCL 38,00 MWST VTR 02008843 ABSCHLAGSZA EXTRAENERGIE GMBH                 -238,00
  02.06.2015 G34885499-D01889169 -30,08 MWST MAI                          EXTRAENERGIE GMBH                  188,41
- 12.06.2015 PS-LOS 11141987 - 11141988                                   DA-NR 0833915     D   0  12        -12,00
  15.06.2015 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -103,00
  15.06.2015 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -85,00
  26.06.2015 6503285835 OB-33448242 EUR 26,43 BEITRAG 0615 - 0615         Knappschaft-Bahn-See               -26,43
@@ -355,10 +420,32 @@
  25.09.2015 1599.000/15/01471 v.24.09.2015 Lorenzstr.5, Brambauer DATUM  Langenbach, Schornsteinfeger       -40,65
  28.09.2015 4669608491 OB-33448242 EUR 26,74 BEITRAG 0915 - 0915         Knappschaft-Bahn-See               -26,74
  01.10.2015 R39122682-D01889169INCL.38,00MWSTVTR.02008843ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -238,00
-                                                                                        Summe umlagefähig -8565,81
+ 01.10.2015 Hornbach 29.9.2015 DATUM 01.10.2015, 12.57 UHR1.TAN 413905   Balbierz                           -10,00
+ 15.10.2015 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -103,00
+ 15.10.2015 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -85,00
+ 28.10.2015 6005119282 OB-33448242 EUR 26,74 BEITRAG 1015 - 1015         Knappschaft-Bahn-See               -26,74
+ 02.11.2015 R39723330-D01889169INCL.38,00MWSTVTR.02008843ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -238,00
+ 13.11.2015 3509243981593 3550051 11.11.2015 924398159 Legionellencheck  ISTA DEUTSCHLAND GMBH Essen       -305,29
+ 16.11.2015 ENTWAESSERUNG BESCHEIDNUMMER 11512207 /60913 420,29          Stadtbetrieb Abwasserbeseitigu    -420,29
+ 16.11.2015 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -103,00
+ 16.11.2015 600122004608 GRUNDBESITZABGABEN                              Stadt Luenen Stadtkasse           -550,07
+ 16.11.2015 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -85,00
+ 26.11.2015 2752678065 OB-33448242 EUR 26,74 BEITRAG 1115 - 1115         Knappschaft-Bahn-See               -26,74
+ 01.12.2015 R40866153-D01889169INCL.38,00MWSTVTR.02008843ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -238,00
+ 01.12.2015 Haus- und Grundbesitzer-Haftpflicht H33245702 44536 Luenen,  Westfaelische Provinzial          -133,60
+ 01.12.2015 Gebaeudeversicherung S900456429 Lorenzstr. 5 44536 Luenen 01 Westfaelische Provinzial         -1082,11
+ 04.12.2015 3500419124421 041912442 69-467-0256/9 03550051 Lorenzstr.5,  ISTA DEUTSCHLAND GMBH Essen         -3,00
+ 04.12.2015 3500419127274 041912727 69-467-1049/9 03550051 Lorenzstr. 5, ISTA DEUTSCHLAND GMBH Essen       -366,89
+ 04.12.2015 3500419124421 04192442 69-467-0256/9 03550051 Lorenzstr. 5,  ISTA DEUTSCHLAND GMBH Essen       -126,76
+ 09.12.2015 RENR 20151308 Wartung Heizungsanlage Lorenzstr.5 DATUM 09.12 Faulstich Haustechnik             -230,00
+ 15.12.2015 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -103,00
+ 15.12.2015 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -85,00
+ 17.12.2015 3500596834050 059683405 69-467-1049/9 03550051 Lorenzstr.5,  ISTA DEUTSCHLAND GMBH Essen        -33,37
+ 28.12.2015 9752739347 OB-33448242 EUR 26,74 BEITRAG 1215 - 1215         Knappschaft-Bahn-See               -26,74
+                                                                                       Summe umlagefähig -12935,41
 
-                                                                                 Summe 44536Lorenzstrasse5 6169,61
-==============================Südring  160 , 45711  Datteln ==== 08.10.15 =======================================
+                                                                                 Summe 44536Lorenzstrasse5 5556,33
+==============================Südring  160 , 45711  Datteln ==== 30.12.15 =======================================
 ------------------------------Miete-------------------------------------------------------------------------------
  03.12.2014 garage--januar                                               Martha Amoneit                      30,00
  30.01.2015 Erstattung Nebenkosten 2014 DATUM 30.01.2015, 17.42 UHR1.TAN Kaypak, Cemile                    -106,65
@@ -380,7 +467,7 @@
                                                                                          Summe umlagefähig -183,06
 
                                                                                     Summe 45711Südring160 -2577,94
-==============================Heinrichstraße  44 , 59077  Hamm ==== 08.10.15 ====================================
+==============================Heinrichstraße  44 , 59077  Hamm ==== 30.12.15 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2015 Darl.-Leistung 556067864 F�r 01.01.2015 - 30.01.2015Zinsen 1 PETER STROTMANN UND GABRIEL E     -258,00
  01.02.2015 Darl.-Leistung 556067856 F�r 01.01.2015 - 30.01.2015Zinsen 4 PETER STROTMANN UND GABRIEL E     -675,00
@@ -401,7 +488,13 @@
  01.09.2015 Darl.-Leistung 556067856 F�r 01.08.2015 - 30.08.2015Zinsen 4 PETER STROTMANN UND GABRIEL E     -675,00
  01.10.2015 Darl.-Leistung 556067864 F�r 01.09.2015 - 30.09.2015Zinsen 1 PETER STROTMANN UND GABRIEL E     -258,00
  01.10.2015 Darl.-Leistung 556067856 F�r 01.09.2015 - 30.09.2015Zinsen 4 PETER STROTMANN UND GABRIEL E     -675,00
-                                                                                             Summe Kredit -9189,12
+ 10.10.2015 Abl�sung 556067856                                           Peter Strotmann und Gabriele    -85186,52
+ 10.10.2015 Darl.-Leistung 556067864 F�r 01.10.2015 - 10.10.2015Darl.-Le PETER STROTMANN UND GABRIEL E      -52,37
+ 10.10.2015 Darl.-Leistung 556067856 F�r 01.10.2015 - 10.10.2015Darl.-Le PETER STROTMANN UND GABRIEL E     -133,42
+ 01.11.2015 Darl.-Leistung 855369559 F�r 12.10.2015 - 30.10.2015 Zinsen  SPARKASSE DORTMUND                -250,00
+ 01.12.2015 Darl.-Leistung 855369559 F�r 01.11.2015 - 30.11.2015 Zinsen  SPARKASSE DORTMUND                -250,00
+ 01.01.2016 Darl.-Leistung 855369559 F�r 01.12.2015 - 30.12.2015 Zinsen  SPARKASSE DORTMUND                -250,00
+                                                                                            Summe Kredit -95311,43
 ------------------------------Miete-------------------------------------------------------------------------------
  29.12.2014 L01.15/2-202-0-28-81-2300-9 MIETE SZLEFARSKI FUER SZLEFARSKI Stadt Hamm                         691,00
  29.01.2015 L02.15/2-202-0-28-81-2300-9 MIETE SZLEFARSKI FUER SZLEFARSKI Kommunales JobCenter Hamm A.oe     691,00
@@ -415,14 +508,21 @@
  31.08.2015 L09.15/2-202-0-28-81-2300-9 MIETE SZLEFARSKI FUER SZLEFARSKI Kommunales JobCenter Hamm A.oe     344,25
  25.09.2015 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  500,00
  30.09.2015 L10.15/2-202-0-28-81-2300-9 MIETE SZLEFARSKI FUER SZLEFARSKI Kommunales JobCenter Hamm A.oe     344,25
-                                                                                               Summe Miete 6387,93
+ 12.10.2015 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  600,68
+ 12.11.2015 Miete Szlefarski NOVEMBER                                    TOMASZ SZLEFARSKI                  700,00
+ 09.12.2015 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  500,00
+                                                                                               Summe Miete 8188,61
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  21.07.2015 Rechnung Nr:1501187 L�schung Hamm DATUM 21.07.2015, 09.58 UH Doering und Grosser Notariat      -254,72
  29.07.2015 Kassenzeichen: X701683013745X L�schung Kredite Hamm Heinrich Justizkasse NRW                   -219,00
  04.09.2015 SACH VSNR S900515813 SCHADEN 1501798701 Rechnung Fa. Neumann Westfaelische Provinzial          3364,32
  07.09.2015 ReNr:15081004 Heinrichstrasse 44, 59077 Hamm 1,11 eu einbeha Neumann Malermeister             -2000,00
  07.09.2015 ReNr:15081004 Heinrichstrasse 46, 59077 Hamm 1,11 eu einbeha Neumann Malermeister             -1363,21
-                                                                                   Summe nicht umlagefähig -472,61
+ 19.10.2015 SACH VSNR S900515810 SCHADEN 1501693610 ZAHLBELEG 0035247574 Westfaelische Provinzial          2071,72
+ 19.10.2015 RN:2015/0671, Schadennummer-Provi:15-01693610-83-5820RDB, He HPH Herrmann                     -1801,31
+ 26.10.2015 ReNr 151431, KdNr 22487 v. 22.10.2015 Reparatur, Heinrichstr Bahne Heizung                     -433,58
+ 30.10.2015 SACH VSNR S900515813 SCHADEN 1501798701 ZAHLBELEG 0090132703 Westfaelische Provinzial           228,83
+                                                                                   Summe nicht umlagefähig -406,95
 ------------------------------umlagefähig-------------------------------------------------------------------------
  08.01.2015 3500593461716 059346171 69-470-1140/3 03550051 Heinrichstr 4 ISTA hamm                          -30,37
  29.01.2015 ANTEIL unity Media 2015 HAMM HEINRICHSTR.44/46 ReNr: 1477296 HINNERWISCH                       -146,28
@@ -431,10 +531,14 @@
  01.07.2015 Gebaeudeversicherung S900515813 Heinrichstr. 44 59077 Hamm 0 Westfaelische Provinzial          -231,95
  17.08.2015 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -121,97
  31.08.2015 1467/15/1397 HEINRICHSTR 44 Schornsteinfegerarbeiten 2015 DA BAUCH, SCHORNSTEINFEGER            -64,55
-                                                                                         Summe umlagefähig -839,06
+ 26.10.2015 ReNr 151404, KdNr 22487 v. 21.10.2015 Wartung, Heinrichstr 4 Bahne Heizung                     -177,55
+ 16.11.2015 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -122,02
+ 01.12.2015 Haus- und Grundbesitzer-Haftpflicht H33245587 59077 Hamm, He Westfaelische Provinzial           -46,10
+ 04.12.2015 3500419137330 041913733 69-470-1140/3 03550051 Heinrichstr.4 ISTA DEUTSCHLAND GMBH Essen        -71,48
+                                                                                        Summe umlagefähig -1256,21
 
-                                                                              Summe 59077Heinrichstraße44 -4112,86
-==============================Heinrichstraße  46 , 59077  Hamm ==== 08.10.15 ====================================
+                                                                             Summe 59077Heinrichstraße44 -88785,98
+==============================Heinrichstraße  46 , 59077  Hamm ==== 30.12.15 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  30.06.2015 per 30.06.15 Antrag 6403029934 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
                                                                                               Summe Kredit -792,12
@@ -448,10 +552,15 @@
  21.07.2015 Miete Juli 2015                                              Willi und Birgit Partu             703,00
  24.08.2015 Miete August 2015                                            Willi und Birgit Partu             703,00
  21.09.2015 Miete September 2015                                         Willi und Birgit Partu             703,00
-                                                                                               Summe Miete 6307,00
+ 30.10.2015 Miete Oktober 2015                                           Willi und Birgit Partu             703,00
+ 01.12.2015 Miete November 2015                                          Willi und Birgit Partu             703,00
+                                                                                               Summe Miete 7713,00
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  13.05.2015 ReNr 150627, KdNr 22487 v. 30.4.2015 Notdiensteinsatz Wasser Bahne Heizung                     -916,41
-                                                                                   Summe nicht umlagefähig -916,41
+ 26.10.2015 VorRENR.1500757 V.21.10.2015 STROTMANN./.Partu Heinrichstr.4 HAUS UND GRUND                   -1501,02
+ 03.11.2015 ReNr 151517, KdNr 22487 v. 30.10.2015 Reparatur, Heinrichstr Bahne Heizung                     -190,02
+ 12.11.2015 RENR.1501360/65091 V.11.11.15 STROTMANN./.Partu DATUM 12.11. HAUS UND GRUND                     -62,71
+                                                                                  Summe nicht umlagefähig -2670,16
 ------------------------------umlagefähig-------------------------------------------------------------------------
  08.01.2015 3500593461724 059346172 69-470-1142/0 03550051 Heinrichstr 4 ISTA hamm                          -34,16
  29.01.2015 unity Media 2015 HAMM HEINRICHSTR.46 ReNr: 147729662-46 DATU HINNERWISCH                       -146,28
@@ -460,10 +569,14 @@
  01.07.2015 Gebaeudeversicherung S900515810 Heinrichstr. 46 59077 Hamm 0 Westfaelische Provinzial          -231,95
  17.08.2015 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -133,27
  31.08.2015 1466/15/1396 HEINRICHSTR 46 Schornsteinfegerarbeiten 2015 DA BAUCH, SCHORNSTEINFEGER            -64,55
-                                                                                         Summe umlagefähig -876,75
+ 26.10.2015 ReNr 151403, KdNr 22487 v. 21.10.2015 Wartung, Heinrichstr 4 Bahne Heizung                     -158,27
+ 16.11.2015 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -133,31
+ 01.12.2015 Haus- und Grundbesitzer-Haftpflicht H33245561 59077 Hamm, He Westfaelische Provinzial           -46,10
+ 04.12.2015 3500419137348 041913734 69-470-1142/0 03550051 Heinrichstr.4 ISTA DEUTSCHLAND GMBH Essen        -77,29
+                                                                                        Summe umlagefähig -1291,72
 
-                                                                               Summe 59077Heinrichstraße46 3721,72
-==============================Haferkamp  1 , 59192  Bergkamen ==== 08.10.15 =====================================
+                                                                               Summe 59077Heinrichstraße46 2959,00
+==============================Haferkamp  1 , 59192  Bergkamen ==== 30.12.15 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  05.01.2015 Sondertilgung, 5% v. Ursprung, Haferkamp 1 DATUM 05.01.2015, Strotmann                        -3806,05
  01.02.2015 Darl.-Leistung 855276038 F�r 01.01.2015 - 30.01.2015Zinsen 1 PETER STROTMANN UND GABRIEL E     -504,00
@@ -476,7 +589,10 @@
  01.08.2015 Darl.-Leistung 855276038 F�r 01.07.2015 - 30.07.2015Zinsen 1 PETER STROTMANN UND GABRIEL E     -504,00
  01.09.2015 Darl.-Leistung 855276038 F�r 01.08.2015 - 30.08.2015Zinsen 1 PETER STROTMANN UND GABRIEL E     -504,00
  01.10.2015 Darl.-Leistung 855276038 F�r 01.09.2015 - 30.09.2015Zinsen 1 PETER STROTMANN UND GABRIEL E     -504,00
-                                                                                             Summe Kredit -9036,89
+ 01.11.2015 Darl.-Leistung 855276038 F�r 01.10.2015 - 30.10.2015 Zinsen  SPARKASSE DORTMUND                -504,31
+ 01.12.2015 Darl.-Leistung 855276038 F�r 01.11.2015 - 30.11.2015 Zinsen  SPARKASSE DORTMUND                -503,69
+ 01.01.2016 Darl.-Leistung 855276038 F�r 01.12.2015 - 30.12.2015 Zinsen  SPARKASSE DORTMUND                -504,00
+                                                                                            Summe Kredit -10548,89
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2015 Miete                                                        Dimitri und Svetlana Diener        695,00
  30.01.2015 nachzahlung nebenkosten                                      Dimitri und Svetlana Diener         49,80
@@ -489,17 +605,24 @@
  03.08.2015 Miete                                                        Dimitri und Svetlana Diener        707,00
  01.09.2015 Miete                                                        Dimitri und Svetlana Diener        707,00
  01.10.2015 Miete                                                        Dimitri und Svetlana Diener        707,00
-                                                                                               Summe Miete 7095,80
+ 02.11.2015 Miete                                                        Dimitri und Svetlana Diener        707,00
+ 01.12.2015 Miete                                                        Dimitri und Svetlana Diener        707,00
+                                                                                               Summe Miete 8509,80
 ------------------------------umlagefähig-------------------------------------------------------------------------
  08.01.2015 3500593461708 059346170 69-470-1139/0 03550051 Haferkamp 1,  ISTA bergkamen                     -30,37
  16.02.2015 01009000295902000 JHV GBA 2015 Entwaess 15.02.15 194,45 Entw Stadt Bergkamen                   -282,18
  15.05.2015 01009000295902000 JHV GBA 2015 Entwaess 15.05.15 194,45 Entw Stadt Bergkamen                   -282,18
  17.08.2015 01009000295902000 JHV GBA 2015 Entwaess 15.08.15 194,45 Entw Stadt Bergkamen                   -282,18
  24.09.2015 ReNr 151125, KdNr 22487 v. 18.09.2015 Wartung, Haferkamp 1 F Bahne Heizung                     -122,68
-                                                                                         Summe umlagefähig -999,59
+ 16.11.2015 01009000295902000 JHV GBA 2015 Entwaess 15.11.15 194,43 Entw Stadt Bergkamen                   -282,18
+ 01.12.2015 Haus- und Grundbesitzer-Haftpflicht H33245645 59192 Bergkame Westfaelische Provinzial           -46,10
+ 01.12.2015 Gebaeudeversicherung S900456396 Haferkamp 1 59192 Bergkamen  Westfaelische Provinzial          -284,95
+ 04.12.2015 3500419137321 041913732 69-470-1139/0 03550051 Haferkamp 1,5 ISTA DEUTSCHLAND GMBH Essen        -71,48
+ 09.12.2015 RE 3401/15/539 V.4.12.2015 HAFERKAMP 1 59192 BERGKAMEN DATUM BORN, SCHORNSTEINFEGER             -40,42
+                                                                                        Summe umlagefähig -1724,72
 
-                                                                                    Summe 59192Haferkamp1 -2940,68
-==============================Haferkamp  3 , 59192  Bergkamen ==== 08.10.15 =====================================
+                                                                                    Summe 59192Haferkamp1 -3763,81
+==============================Haferkamp  3 , 59192  Bergkamen ==== 30.12.15 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  06.01.2015 Sondertilgung, 5% v. Ursprung Haferkamp 3 DATUM 06.01.2015,  Strotmann                        -4264,77
  01.02.2015 Darl.-Leistung 855276046 F�r 01.01.2015 - 30.01.2015Zinsen 2 PETER STROTMANN UND GABRIEL E     -538,90
@@ -512,7 +635,10 @@
  01.08.2015 Darl.-Leistung 855276046 F�r 01.07.2015 - 30.07.2015Zinsen 2 PETER STROTMANN UND GABRIEL E     -538,90
  01.09.2015 Darl.-Leistung 855276046 F�r 01.08.2015 - 30.08.2015Zinsen 2 PETER STROTMANN UND GABRIEL E     -538,90
  01.10.2015 Darl.-Leistung 855276046 F�r 01.09.2015 - 30.09.2015Zinsen 2 PETER STROTMANN UND GABRIEL E     -538,90
-                                                                                             Summe Kredit -9809,71
+ 01.11.2015 Darl.-Leistung 855276046 F�r 01.10.2015 - 30.10.2015 Zinsen  SPARKASSE DORTMUND                -538,79
+ 01.12.2015 Darl.-Leistung 855276046 F�r 01.11.2015 - 30.11.2015 Zinsen  SPARKASSE DORTMUND                -539,01
+ 01.01.2016 Darl.-Leistung 855276046 F�r 01.12.2015 - 30.12.2015 Zinsen  SPARKASSE DORTMUND                -538,90
+                                                                                            Summe Kredit -11426,41
 ------------------------------Miete-------------------------------------------------------------------------------
  29.12.2014 Miete 01.15 Haferkamp 3 Bergkamen                            Miroslaw Wiktor Brzoza             710,00
  27.01.2015 Nachzahlung 2014                                             Miroslaw Wiktor Brzoza Sabina       29,57
@@ -525,17 +651,24 @@
  29.07.2015 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     720,00
  31.08.2015 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     720,00
  29.09.2015 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     720,00
-                                                                                               Summe Miete 7209,57
+ 29.10.2015 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     720,00
+ 01.12.2015 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     720,00
+                                                                                               Summe Miete 8649,57
 ------------------------------umlagefähig-------------------------------------------------------------------------
  08.01.2015 3500593461693 059346169 69-470-1138/1 03550051 Haferkamp 1,  ISTA bergkamen                     -30,37
  16.02.2015 01009000295902000 JHV GBA 2015 Entwaess 15.02.15 194,45 Entw Stadt Bergkamen                   -300,33
  15.05.2015 01009000295902000 JHV GBA 2015 Entwaess 15.05.15 194,45 Entw Stadt Bergkamen                   -300,33
  17.08.2015 01009000295902000 JHV GBA 2015 Entwaess 15.08.15 194,45 Entw Stadt Bergkamen                   -300,33
  24.09.2015 ReNr 151126, KdNr 22487 v. 18.09.2015 Wartung, Haferkamp 3 F Bahne Heizung                     -121,46
-                                                                                        Summe umlagefähig -1052,82
+ 16.11.2015 01009000295902000 JHV GBA 2015 Entwaess 15.11.15 194,43 Entw Stadt Bergkamen                   -300,33
+ 01.12.2015 Haus- und Grundbesitzer-Haftpflicht H33245660 59192 Bergkame Westfaelische Provinzial           -46,10
+ 01.12.2015 Gebaeudeversicherung S900456404 Haferkamp 3 59192 Bergkamen  Westfaelische Provinzial          -284,95
+ 04.12.2015 3500419137313 041913371 69-470-1138/1 03550051 Haferkamp 3,  ISTA DEUTSCHLAND GMBH Essen        -71,48
+ 09.12.2015 RE 3402/15/540 V.4.12.2015 HAFERKAMP 3 59192 BERGKAMEN DATUM BORN, SCHORNSTEINFEGER             -40,42
+                                                                                        Summe umlagefähig -1796,10
 
-                                                                                    Summe 59192Haferkamp3 -3652,96
-==============================Am Westendorp  12 , 59399  Olfen ==== 08.10.15 ====================================
+                                                                                    Summe 59192Haferkamp3 -4572,94
+==============================Am Westendorp  12 , 59399  Olfen ==== 30.12.15 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  02.02.2015 WUSTENROT BANK AG 01/15 2071008242 412,8901/15 2073032698 61 PETER STROTMANN                   -612,00
  02.03.2015 WUSTENROT BANK AG 02/15 2071008242 412,8902/15 2073032698 61 PETER STROTMANN                   -612,00
@@ -546,7 +679,9 @@
  03.08.2015 WUSTENROT BANK AG 07/15 2073032698 612,6907/15 2071008242 41 PETER STROTMANN                   -612,69
  01.09.2015 WUSTENROT BANK AG 08/15 2073032698 612,6908/15 2071008242 41 PETER STROTMANN                   -612,69
  01.10.2015 WUSTENROT BANK AG 09/15 2073032698 612,6909/15 2076596886 42 PETER STROTMANN                   -612,69
-                                                                                             Summe Kredit -5510,76
+ 02.11.2015 WUSTENROT BANK AG 10/15 2071008242 412,8910/15 2073032698 61 PETER STROTMANN                   -612,00
+ 01.12.2015 WUSTENROT BANK AG 11/15 2071008242 412,8911/15 2073032698 61 PETER STROTMANN                   -612,00
+                                                                                             Summe Kredit -6734,76
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2015 Miete                                                        Helga Prigge                       760,00
  05.01.2015 MIETE UND NK                                                 Thomas Ludwig                      545,00
@@ -585,10 +720,18 @@
  01.10.2015 Miete                                                        Helga Prigge                       700,00
  02.10.2015 MIETE UND NK                                                 Thomas Ludwig                      545,00
  05.10.2015 miete Oktober                                                Klaus-Dieter Rosenthal             690,00
-                                                                                              Summe Miete 19167,03
+ 30.10.2015 kundennummer 14915                                           Klaus-Dieter Rosenthal             100,00
+ 02.11.2015 Miete                                                        Helga Prigge                       700,00
+ 03.11.2015 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 03.11.2015 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.12.2015 Miete                                                        Helga Prigge                       700,00
+ 02.12.2015 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 07.12.2015 nachzahlung                                                  Klaus-Dieter Rosenthal             300,00
+                                                                                              Summe Miete 22747,03
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  20.04.2015 KDNR 10486 RENR 150411 AM WESTENDORP 12,OLFEN(eg Prigge) Hei BUDDE, HEIZUNG                    -226,99
-                                                                                   Summe nicht umlagefähig -226,99
+ 04.11.2015 KDNR 10486 RENR 151352 AM WESTENDORP 12,OLFEN,Rosenthal DATU BUDDE, HEIZUNG                     -71,28
+                                                                                   Summe nicht umlagefähig -298,27
 ------------------------------umlagefähig-------------------------------------------------------------------------
  08.01.2015 3500593734488 059373448 76-471-0211/0 03550051 Am Westendorp ISTA olfen                         -74,55
  08.01.2015 3500593737204 59373720 76-471-1577/7 03550051 Am Westendorp  ISTA olfen                         -78,90
@@ -614,10 +757,18 @@
  10.09.2015 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -123,00
  15.09.2015 Vertragskonto 1365004814 ,Abschlag - 09.2015                 Stadtwerke Luenen GmbH             -25,00
  06.10.2015 VK 20217523 Sonstige Gutschrift 59399-Am Westendorp 12       GELSENWASSER AG                     87,44
-                                                                                        Summe umlagefähig -2394,14
+ 15.10.2015 Vertragskonto 1365004814 ,Abschlag - 10.2015                 Stadtwerke Luenen GmbH             -25,00
+ 02.11.2015 KdNr:5056892 ReNr:7881950 v.23.10.2015 50 Eu W�rmekontostart Mobene                           -1968,93
+ 11.11.2015 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -106,00
+ 16.11.2015 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -397,67
+ 16.11.2015 Vertragskonto 1365004814 ,Abschlag - 11.2015                 Stadtwerke Luenen GmbH             -25,00
+ 01.12.2015 VS 95088031 11.2015-11.2016                                  LVM Landw.Versicherungsverein     -659,62
+ 04.12.2015 3500419424975 041942497 76-471-0211/0 03550051 Am Westendorp ISTA DEUTSCHLAND GMBH Essen       -475,01
+ 15.12.2015 Vertragskonto 1365004814 ,Abschlag - 12.2015                 Stadtwerke Luenen GmbH             -25,00
+                                                                                        Summe umlagefähig -6076,37
 
-                                                                               Summe 59399Am Westendorp12 11035,14
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 08.10.15 =============================
+                                                                                Summe 59399Am Westendorp12 9637,63
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 30.12.15 =============================
 ------------------------------Kredit------------------------------------------------------------------------------
  02.02.2015 WUSTENROT BANK AG 01/15 2071008242 412,8901/15 2073032698 61 PETER STROTMANN                   -425,74
  02.03.2015 WUSTENROT BANK AG 02/15 2071008242 412,8902/15 2073032698 61 PETER STROTMANN                   -425,74
@@ -628,7 +779,9 @@
  03.08.2015 WUSTENROT BANK AG 07/15 2073032698 612,6907/15 2071008242 41 PETER STROTMANN                   -425,74
  01.09.2015 WUSTENROT BANK AG 08/15 2073032698 612,6908/15 2071008242 41 PETER STROTMANN                   -425,74
  01.10.2015 WUSTENROT BANK AG 09/15 2073032698 612,6909/15 2076596886 42 PETER STROTMANN                   -425,00
-                                                                                             Summe Kredit -3830,92
+ 02.11.2015 WUSTENROT BANK AG 10/15 2071008242 412,8910/15 2073032698 61 PETER STROTMANN                   -425,74
+ 01.12.2015 WUSTENROT BANK AG 11/15 2071008242 412,8911/15 2073032698 61 PETER STROTMANN                   -425,74
+                                                                                             Summe Kredit -4682,40
 ------------------------------Miete-------------------------------------------------------------------------------
  17.12.2014 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          805,00
  29.12.2014 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
@@ -685,7 +838,18 @@
  01.10.2015 Miete                                                        Kramer-Kersting, Christine         470,00
  01.10.2015 Miete + Nebenkosten                                          Hessel, Werner                     500,00
  05.10.2015 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
-                                                                                              Summe Miete 30723,33
+ 19.10.2015 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          805,00
+ 28.10.2015 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 02.11.2015 Miete                                                        Kramer-Kersting, Christine         470,00
+ 02.11.2015 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.11.2015 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 17.11.2015 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          805,00
+ 30.11.2015 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
+ 01.12.2015 Miete                                                        Kramer-Kersting, Christine         470,00
+ 01.12.2015 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+ 03.12.2015 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
+ 17.12.2015 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          805,00
+                                                                                              Summe Miete 37686,33
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  15.01.2015 R301718 Holzwickede Haust�r DATUM 15.01.2015, 10.26 UHR1.TAN Volmer Service GmbH               -523,24
  28.01.2015 KD.NR 10067 R005207 v.26.1.2015 Saarbr�ckerWeg 24, Wohnung d LEIDAG, WOLFGANG                   -94,22
@@ -705,7 +869,13 @@
  16.09.2015 RE-NR 3210-15 KDNR 52 V.15.9.15 SAARBR�CKERW.24 HOLZWICKEDE  PAGA BAU U SICHERHEITSTECH.       -327,25
  16.09.2015 KD.NR 10067 R005318 v.11.9.2015 Saarbr�ckerWeg 24, Wohnung e LEIDAG, WOLFGANG                  -671,09
  01.10.2015 Entgeltabrechnung siehe Anlage                                                                  -19,45
-                                                                                  Summe nicht umlagefähig -3502,68
+ 01.11.2015 Entgeltabrechnung siehe Anlage                                                                  -21,35
+ 25.11.2015 RE-NR 4055-15 KDNR 52 V.24.11.15 SAARBR�CKERW.24 HOLZWICKEDE PAGA BAU U SICHERHEITSTECH.        -86,67
+ 01.12.2015 KD.NR 10067 R005367 v.28.11.2015 Saarbr�ckerWeg 24, Mieter H LEIDAG, WOLFGANG                  -137,90
+ 01.12.2015 Entgeltabrechnung siehe Anlage                                                                  -19,70
+ 01.12.2015 RE 15RE1026421 V.12.11.15 EUR 29,95 ./. SK 0,00              BUHL DATA SERVICE GMBH             -29,95
+ 30.12.2015 Entgeltabrechnung siehe Anlage                                                                  -23,15
+                                                                                  Summe nicht umlagefähig -3821,40
 ------------------------------umlagefähig-------------------------------------------------------------------------
  19.01.2015 RE.NR. 406108876 v.15.1.15 LiegNr 3360369 Saarbr�cker Weg 24 BRUNATA WaeRMEMESSER GESELL.       -71,28
  23.01.2015 2945 Guthaben Wasserabrg. 2-7.00/2945, Saarbruecker Weg      Gemeinde Holzwickede                 7,00
@@ -750,7 +920,19 @@
  28.09.2015 322502085577 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
  30.09.2015 Rechnung September 2015 KDNR06008098240 VERTR-NR6000776327   Unitymedia NRW GmbH                -84,65
  02.10.2015 R39435556-D01889169INCL.37,36MWSTVTR.02008840ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -234,00
-                                                                                        Summe umlagefähig -7499,35
+ 28.10.2015 320007168502 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.10.2015 Rechnung Oktober 2015 KDNR06008098240 VERTR-NR6000776327     Unitymedia NRW GmbH                -84,65
+ 02.11.2015 R40047403-D01889169INCL.37,36MWSTVTR.02008840ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -234,00
+ 16.11.2015 63720/70/1 GRUNDBESITZABG. SAARBRUECKER WEG 24               Gemeinde Holzwickede              -819,94
+ 30.11.2015 325002124093 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.11.2015 Rechnung November 2015 KDNR06008098240 VERTR-NR6000776327    Unitymedia NRW GmbH                -84,65
+ 01.12.2015 R40732929-D01889169INCL.37,36MWSTVTR.02008840ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -234,00
+ 01.12.2015 2945 Wasserabschlag 01.12.2188.00/2945, Saarbruecker We      Gemeinde Holzwickede              -188,00
+ 01.12.2015 KD.NR 10067 R005366 v.28.11.2015 Am Gulloh 49 Wartung 36,06  LEIDAG, WOLFGANG                  -166,60
+ 23.12.2015 RE.NR.J-15-03281 / 20.12.2015 KdNr. 1928-000 DATUM 23.12.201 FLEISCHHAUER,SCHORNSTEINFEG        -56,18
+ 28.12.2015 320007221364 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -19,00
+ 30.12.2015 Rechnung Dezember 2015 KDNR06008098240 VERTR-NR6000776327    Unitymedia NRW GmbH                -84,65
+                                                                                        Summe umlagefähig -9509,02
 
-                                                                              Summe 59439Saarbrückerweg24 15890,38
-                                                                                             GesamtSumme 17391,45
+                                                                              Summe 59439Saarbrückerweg24 19673,51
+                                                                                            GesamtSumme -67794,28
