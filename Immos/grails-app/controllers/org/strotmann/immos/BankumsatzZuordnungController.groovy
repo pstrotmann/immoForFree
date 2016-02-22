@@ -5,13 +5,13 @@ class BankumsatzZuordnungController {
     def index() {
 		def int anzZahlung = 0
 		def int anzBankums = 0
-		def Date vor90Tagen
+		def Date vor60Tagen
 		use (groovy.time.TimeCategory) {
-			vor90Tagen = new Date() - 90.days
+			vor60Tagen = new Date() - 60.days
 		}
 		Bankumsatz.findAll("from Bankumsatz as b where substring(verwendungszweck,1,6) <> 'PS-LOS' and not exists (from Zahlung as z where z.bankumsatz = b.id)").each {bUms->
 			anzBankums++
-			List <Rechnung> rList = Rechnung.findAllByRechnungsdatumGreaterThan (vor90Tagen)
+			List <Rechnung> rList = Rechnung.findAllByRechnungsdatumGreaterThan (vor60Tagen)
 			rList.each {re ->
 				def reRechnungsnummer = re.rechnungsnummer?:'_'
 				def reRechnungsgegenstand = re.rechnungsgegenstand?:'_'
