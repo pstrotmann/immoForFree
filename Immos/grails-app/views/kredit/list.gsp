@@ -38,6 +38,7 @@
 				</thead>
 				<tbody>
 				<g:each in="${kreditInstanceList}" status="i" var="kreditInstance">
+					<g:if test="${kreditInstance.kreditsaldo > 0}">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${kreditInstance.id}">${fieldValue(bean: kreditInstance, field: "kreditgeber.partner.name")}</g:link></td>
@@ -51,6 +52,7 @@
 						<td>${fieldValue(bean: kreditInstance, field: "zahlweiseKlar")}</td>
 					
 					</tr>
+					</g:if>
 				</g:each>
 				</tbody>
 				<tfoot>

@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import grails.transaction.Transactional;
+
 import org.springframework.dao.DataIntegrityViolationException
 
 class RechnungController {
@@ -39,4 +41,32 @@ class RechnungController {
         flash.message = message(code: 'default.created.message', args: [message(code: 'rechnung.label', default: 'Rechnung'), rechnungInstance.id])
         redirect(action: "show", id: rechnungInstance.id)
     }
+	
+	def delete(Rechnung rechnungInstance) {
+		
+		if (rechnungInstance == null) {
+			notFound()
+			return
+		}
+
+		def partnerrolleInstance = Partnerrolle.get(rechnungInstance.rechnungssteller.id)
+		partnerrolleInstance.rechnung = null
+		if(partnerrolleInstance.save())
+			partnerrolleInstance.delete()
+		else
+			partnerrolleInstance.errors.each {
+				println it
+			}
+		
+		rechnungInstance.delete flush:true
+
+		request.withFormat {
+			form multipartForm {
+				flash.message = message(code: 'default.deleted.message', args: [message(code: 'Rechnung.label', default: 'Rechnung'), rechnungInstance.id])
+				redirect action:"index", method:"GET"
+			}
+			'*'{ render status: NO_CONTENT }
+		}
+	}
+	
 }
