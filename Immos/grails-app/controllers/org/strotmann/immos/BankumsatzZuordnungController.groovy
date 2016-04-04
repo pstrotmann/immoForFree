@@ -96,6 +96,7 @@ class BankumsatzZuordnungController {
 				 || bUms.mandatsreferenz.contains(dvVertragsnummer)
 				 || bUms.mandatsreferenz.contains(dvReferenz)
 				 || bUms.kundenreferenz.contains(dvKundennummer)
+				 || bUms.kundenreferenz.contains(dvVertragsnummer)
 					)
 					{
 					def Zahlung zahlung = new Zahlung()
