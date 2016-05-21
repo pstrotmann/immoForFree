@@ -2,7 +2,7 @@ package org.strotmann.immos
 
 import java.io.PrintWriter;
 import org.apache.commons.lang.*
-
+import static java.util.Calendar.*
 
 class Mietvertrag implements Comparable {
 	
@@ -159,6 +159,61 @@ class Mietvertrag implements Comparable {
 			bisMon = (endMon > bisMon ? endMon : bisMon)
 		}
 		gezahltePauschale
+	}
+	
+	List <BigDecimal> bkVj () {
+		
+		List <BigDecimal> bk =[0,0]
+		Calendar heute = Calendar.getInstance()
+		int vj = heute.get(Calendar.YEAR) - 1
+		List l = []
+		vertragsstaende.each {l << it}
+		Mietvertragsstand vsFolge = null
+		l.reverse().each {Mietvertragsstand vs ->
+			Calendar calVon = vs.gueltigAb.toCalendar()
+			Calendar calBis
+			if (vsFolge) {
+				use (groovy.time.TimeCategory) {
+					Date d = (vsFolge.gueltigAb - 1.months)
+					calBis = d.toCalendar()
+				}
+			}
+			else
+				if (mietende)
+					calBis = mietende.toCalendar()
+				else {
+					def d = new Date()
+					calBis = d.toCalendar()
+					if (calVon > calBis)
+						calBis = calVon
+				}
+			
+			vsFolge = vs
+			if(vj >= calVon.get(Calendar.YEAR) && vj <= calBis.get(Calendar.YEAR)) {
+				
+				if (calVon.get(Calendar.YEAR) < vj) {
+					calVon[YEAR] = vj
+					calVon[MONTH] = 0
+				}
+				
+				if (calBis.get(Calendar.YEAR) > vj) {
+					calBis[YEAR] = vj
+					calBis[MONTH] = 11
+				}
+				
+				bk[0] += vs.nebenkostenpauschale * (calBis.get(Calendar.MONTH) - calVon.get(Calendar.MONTH) + 1)
+				bk[1] += vs.heizkostenpauschale  * (calBis.get(Calendar.MONTH) - calVon.get(Calendar.MONTH) + 1)
+			}
+		}
+		bk
+	}
+	
+	BigDecimal getNebkoVj () {
+		bkVj()[0]
+	}
+	
+	BigDecimal getHeikoVj () {
+		bkVj()[1]
 	}
 	
 	BigDecimal getGezahlteNebenkosten (int jahr) {

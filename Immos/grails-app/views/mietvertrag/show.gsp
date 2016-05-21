@@ -126,6 +126,20 @@
 						</g:if>
 						</span>
 				</li>
+				
+				<li class="fieldcontain">
+					<span id="vorausNK-label" class="property-label"><g:message code="mietvertrag.vorausNK.label" default="VorauszahlungNK VJ" /></span>
+					<span class="property-value" aria-labelledby="vorausNK-label">
+						<g:formatNumber number="${mietvertragInstance.nebkoVj}" type="number" minFractionDigits="2" format="#,##0.00"/>
+					</span>
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="vorausHK-label" class="property-label"><g:message code="mietvertrag.vorausHK.label" default="VorauszahlungHK VJ" /></span>
+					<span class="property-value" aria-labelledby="vorausHK-label">
+						<g:formatNumber number="${mietvertragInstance.heikoVj}" type="number" minFractionDigits="2" format="#,##0.00"/>
+					</span>
+				</li>
 			
 				<g:if test="${mietvertragInstance?.vertragsstaende}">
 				<li class="fieldcontain">
