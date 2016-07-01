@@ -34,15 +34,15 @@
 						
 						<g:sortableColumn property="zahlweise" title="${message(code: 'kredit.zahlweise.label', default: 'Zahlweise')}" />
 					
-						<th><g:message code="kredit.aktProz.label" default="akt. %" /></th>
+						<th><g:message code="kredit.aktProz.label" default="Zins %" /></th>
 						
 						<th><g:message code="kredit.festBis.label" default="fest bis" /></th>
 						
 						<th><g:message code="kredit.mtlRate.label" default="mtl Rate" /></th>
 						
-						<th><g:message code="kredit.zins.label" default="Zins" /></th>
+						<th><g:message code="kredit.zins.label" default="Zinsen" /></th>
 						
-						<th><g:message code="kredit.zins.label" default="Tilgung" /></th>
+						<th><g:message code="kredit.tilg.label" default="Tilgung" /></th>
 					
 					</tr>
 				</thead>
