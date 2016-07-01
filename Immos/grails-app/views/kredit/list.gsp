@@ -39,6 +39,10 @@
 						<th><g:message code="kredit.festBis.label" default="fest bis" /></th>
 						
 						<th><g:message code="kredit.mtlRate.label" default="mtl Rate" /></th>
+						
+						<th><g:message code="kredit.zins.label" default="Zins" /></th>
+						
+						<th><g:message code="kredit.zins.label" default="Tilgung" /></th>
 					
 					</tr>
 				</thead>
@@ -63,6 +67,9 @@
 						
 						<td><div align = right><g:formatNumber number="${kreditInstance.mtlRate}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
+						<td><div align = right><g:formatNumber number="${kreditInstance.mtlZins}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${kreditInstance.mtlTilg}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					</tr>
 					</g:if>
 				</g:each>
@@ -73,7 +80,7 @@
 					
 						<td></td>
 					
-						<td><div align = right><g:message code="kredit.summe.label" default="Summe" /></div></td>
+						<td><div align = right><g:message code="kredit.summe.label" default="Summen:" /></div></td>
 					
 						<td><div align = right><g:formatNumber number="${Kredit.kreditsumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
@@ -84,6 +91,10 @@
 						<td></td>
 						
 						<td><div align = right><g:formatNumber number="${Kredit.mtlSumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${Kredit.sumZins}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${Kredit.sumTilg}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</tfoot>
