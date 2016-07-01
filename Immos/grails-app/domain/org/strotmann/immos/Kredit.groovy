@@ -48,6 +48,14 @@ class Kredit implements Comparable{
 		summe
 	}
 	
+	static BigDecimal getMtlSumme() {
+		BigDecimal summe = 0
+		Kredit.findAll("from Kredit").each {
+			Kredit k -> summe += k.mtlRate
+		}
+		summe
+	}
+	
 	Kreditstand getAktKreditstand() {
 		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
 		ksList.empty?null:ksList[0]
@@ -75,5 +83,35 @@ class Kredit implements Comparable{
 		}
 		
 		saldo
+	}
+	
+	BigDecimal getMtlRate() {
+		def BigDecimal rate = 0
+		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
+		
+		ksList.each {ks ->
+			
+			if (this.zahlweise == 12)
+			 	rate += ks.annuitaet
+			else
+				rate += ks.annuitaet / 6
+		}
+						
+		rate
+	}
+	
+	BigDecimal getAktProz() {
+		def BigDecimal proz = 0
+		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
+		Kreditstand ks = ksList.first()
+		if (ks)
+			if(ks.zinssatz)
+				proz = ks.zinssatz
+			else {
+				BigDecimal z = ks.zinsbetrag?:0 
+				BigDecimal v = ks.verwKostenbetrag?:0
+				proz = ((z + v) / ks.bewilligt) * 100
+			}
+		proz
 	}
 }

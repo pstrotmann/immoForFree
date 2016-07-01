@@ -28,11 +28,15 @@
 					
 						<th><g:message code="kredit.verwendung.label" default="Verwendung" /></th>
 					
-						<g:sortableColumn property="vertragsnummer" title="${message(code: 'kredit.vertragsnummer.label', default: 'Vertragsnummer')}" />
+						<g:sortableColumn property="vertragsnummer" title="${message(code: 'kredit.vertragsnummer.label', default: 'VertragsNr')}" />
 					
 						<th><div align = right><g:message code="kredit.kreditsaldo.label" default="Saldo" /></div></th>
 						
 						<g:sortableColumn property="zahlweise" title="${message(code: 'kredit.zahlweise.label', default: 'Zahlweise')}" />
+					
+						<th><g:message code="kredit.aktProz.label" default="akt. %" /></th>
+						
+						<th><g:message code="kredit.mtlRate.label" default="mtl Rate" /></th>
 					
 					</tr>
 				</thead>
@@ -50,6 +54,10 @@
 						<td><div align = right><g:formatNumber number="${kreditInstance.kreditsaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
 						<td>${fieldValue(bean: kreditInstance, field: "zahlweiseKlar")}</td>
+						
+						<td><div align = center><g:formatNumber number="${kreditInstance.aktProz}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${kreditInstance.mtlRate}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
 					</tr>
 					</g:if>
@@ -66,6 +74,10 @@
 						<td><div align = right><g:formatNumber number="${Kredit.kreditsumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
+						
+						<td></td>
+						
+						<td><div align = right><g:formatNumber number="${Kredit.mtlSumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</tfoot>
