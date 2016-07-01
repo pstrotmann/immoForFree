@@ -114,4 +114,15 @@ class Kredit implements Comparable{
 			}
 		proz
 	}
+	
+	Date getFestBis() {
+		def Date bis = null
+		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
+		Kreditstand ks = ksList.first()
+		if (ks)
+			if(ks.laufzeitBis && ks.zinssatz)
+				bis = ks.laufzeitBis
+			
+		bis
+	}
 }

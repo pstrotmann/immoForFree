@@ -36,6 +36,8 @@
 					
 						<th><g:message code="kredit.aktProz.label" default="akt. %" /></th>
 						
+						<th><g:message code="kredit.festBis.label" default="fest bis" /></th>
+						
 						<th><g:message code="kredit.mtlRate.label" default="mtl Rate" /></th>
 					
 					</tr>
@@ -56,6 +58,8 @@
 						<td>${fieldValue(bean: kreditInstance, field: "zahlweiseKlar")}</td>
 						
 						<td><div align = center><g:formatNumber number="${kreditInstance.aktProz}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+											
+						<td><div align = right><g:formatDate date="${kreditInstance?.festBis}" format="dd.MM.yyyy"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${kreditInstance.mtlRate}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
@@ -72,6 +76,8 @@
 						<td><div align = right><g:message code="kredit.summe.label" default="Summe" /></div></td>
 					
 						<td><div align = right><g:formatNumber number="${Kredit.kreditsumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td></td>
 						
 						<td></td>
 						
