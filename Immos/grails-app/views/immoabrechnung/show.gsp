@@ -116,7 +116,7 @@
 				</g:if>
 			
 			</ol>
-			<g:form>
+			<g:form url="[resource:immoabrechnungInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">
 					<g:hiddenField name="id" value="${immoabrechnungInstance?.id}" />
 					<g:link class="edit" action="edit" id="${immoabrechnungInstance?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>

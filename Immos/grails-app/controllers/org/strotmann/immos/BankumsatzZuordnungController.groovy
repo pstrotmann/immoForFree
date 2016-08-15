@@ -9,7 +9,7 @@ class BankumsatzZuordnungController {
 		use (groovy.time.TimeCategory) {
 			vor60Tagen = new Date() - 60.days
 		}
-		Bankumsatz.findAll("from Bankumsatz as b where substring(verwendungszweck,1,6) <> 'PS-LOS' and not exists (from Zahlung as z where z.bankumsatz = b.id)").each {bUms->
+		Bankumsatz.zeitraumUms.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Rechnung> rList = Rechnung.findAllByRechnungsdatumGreaterThan (vor60Tagen)
 			rList.each {re ->
@@ -31,7 +31,7 @@ class BankumsatzZuordnungController {
 		
 		anzZahlung = 0
 		anzBankums = 0		
-		Bankumsatz.findAll("from Bankumsatz as b where substring(verwendungszweck,1,6) <> 'PS-LOS' and not exists (from Zahlung as z where z.bankumsatz = b.id)").each {bUms->
+		Bankumsatz.zeitraumUms.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Zahlung> zListe = []
 			List <Mietvertrag> mList = Mietvertrag.findAll ("from Mietvertrag")
@@ -80,7 +80,7 @@ class BankumsatzZuordnungController {
 			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
 		}
 		//der Rest
-		Bankumsatz.findAll("from Bankumsatz as b where substring(verwendungszweck,1,6) <> 'PS-LOS' and not exists (from Zahlung as z where z.bankumsatz = b.id)").each {bUms->
+		Bankumsatz.zeitraumUms.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAll ("from Dienstleistungsvertrag")
 			dList.each {dv ->
@@ -133,7 +133,7 @@ class BankumsatzZuordnungController {
 			}
 		}
 		//Behandlung Wfa und Sparkasse Do
-		Bankumsatz.findAll("from Bankumsatz as b where not exists (from Zahlung as z where z.bankumsatz = b.id)").each {bUms->
+		Bankumsatz.zeitraumUms.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Kredit> kList = Kredit.findAll ("from Kredit")
 			kList.each {kr ->

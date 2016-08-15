@@ -69,6 +69,24 @@ class Bankumsatz {
 		bu
 	}
 	
+	static List getZeitraumUms () {
+		def Calendar ago = Calendar.getInstance()
+		def Calendar umsDat = Calendar.getInstance()
+		List <Bankumsatz> bu = []
+		String s = "from Bankumsatz as b where substring(verwendungszweck,1,6) <> 'PS-LOS' and substring(verwendungszweck,1,8) <> 'Sparrate' and not exists (from Zahlung as z where z.bankumsatz = b.id)"
+		Bankumsatz.findAll(s).each {Bankumsatz bUms ->
+			if (bUms.valutadatum.size() == 8 ) {
+				umsDat.setTime(new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum))
+				use (groovy.time.TimeCategory) {
+					ago.setTime(new Date() - 3.months)
+				}
+				if (umsDat > ago)
+					bu << bUms
+			}
+		}
+		bu
+	}
+	
 	static List getZugeordneteUmsaetze () {
 		Bankumsatz.findAll("from Bankumsatz as b where exists (from Zahlung as z where z.bankumsatz = b.id) order by b.beguenstigterZahlungspflichtiger")
 	}
