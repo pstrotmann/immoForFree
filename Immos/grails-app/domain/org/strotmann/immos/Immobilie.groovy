@@ -126,7 +126,8 @@ class Immobilie {
 	String toString() {"${this.hausadresse}"}
 	
 	static List getImmobilien () {
-		Immobilie.findAll("from Immobilie as im where im.eigentumBis = null order by im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer")
+		//Immobilie.findAll("from Immobilie as im where im.eigentumBis = null order by im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer")
+		Immobilie.findAll("from Immobilie as im order by im.eigentumBis, im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer")
 	}
 	
 	static BigDecimal getAnschaffungssumme () {

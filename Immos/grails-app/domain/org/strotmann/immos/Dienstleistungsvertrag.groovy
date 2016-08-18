@@ -89,7 +89,7 @@ class Dienstleistungsvertrag implements Comparable{
 	}
 	
 	static List getDienstleistungsvertraege () {
-		Dienstleistungsvertrag.findAll("from Dienstleistungsvertrag order by dienstleister.partner.name")
+		Dienstleistungsvertrag.findAll("from Dienstleistungsvertrag as d where d.vertragsende = null order by dienstleister.partner.name")
 	}
 	
 	static List dienstleistungsvertraegeZuImmo (Rechnung rechnung) {
