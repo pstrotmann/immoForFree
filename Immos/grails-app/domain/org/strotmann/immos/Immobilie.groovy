@@ -126,8 +126,16 @@ class Immobilie {
 	String toString() {"${this.hausadresse}"}
 	
 	static List getImmobilien () {
-		//Immobilie.findAll("from Immobilie as im where im.eigentumBis = null order by im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer")
-		Immobilie.findAll("from Immobilie as im order by im.eigentumBis, im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer")
+		List <Immobilie> immos = []
+		def Calendar ago = Calendar.getInstance()
+		use (groovy.time.TimeCategory) {
+			ago.setTime(new Date() - 1.years)
+		}
+		Immobilie.findAll("from Immobilie as im order by im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer").each {Immobilie immo ->
+			if (immo.eigentumBis == null || immo.eigentumBis > ago.getTime())
+			immos << immo
+		}
+		immos		
 	}
 	
 	static BigDecimal getAnschaffungssumme () {
