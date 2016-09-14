@@ -86,7 +86,7 @@ class Kredit implements Comparable{
 		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
 		ksList.each {ks ->
 			 saldo += ks.kreditsumme
-			 saldo += ((ks.kreditsumme * (ks.zinssatz ?: 0)) / 100) * ((new Date().minus(ks.laufzeitAb)/360))
+			 saldo += ((ks.kreditsumme * (ks.zinssatz ?: 0)) / 100) * ((new Date().minus(ks.laufzeitAb)/365))
 			 saldo += (ks.zinsbetrag?:0) + (ks.verwKostenbetrag?:0)
 		 }
 		
