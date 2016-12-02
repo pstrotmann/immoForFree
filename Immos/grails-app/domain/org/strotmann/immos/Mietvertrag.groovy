@@ -277,7 +277,7 @@ class Mietvertrag implements Comparable {
 			def int forderungsperioden = 0
 			def Map tage =[12:30, 4:90] 
 			if (vStand.is(mvsList.last()))
-				forderungsperioden = lastVstandEnde.minus(ab)/tage[zahlweise] + 0.5 // Aufrunden
+				forderungsperioden = lastVstandEnde.minus(ab)/tage[zahlweise]  // nicht Aufrunden
 			else
 				forderungsperioden = mvsList[i+1].gueltigAb.minus(ab)/tage[zahlweise] + 0.5 // Aufrunden
 			sumVstand += forderungsperioden * vStand.bruttomiete
