@@ -1,84 +1,49 @@
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 24.01.16 ========================
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 02.01.17 ========================
 ------------------------------Miete-------------------------------------------------------------------------------
- 30.12.2015 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 6202 Bundesagentur fur Arbeit-Servi     720,00
- 04.01.2016 Miete                                                        Kudret Ahmet Kuzay                 508,27
- 04.01.2016 MIETE                                                        Elke Wicke                         346,00
- 04.01.2016 MIETE                                                        Halina Czerny                      466,00
- 05.01.2016 Miete lindenhorster 236. Januar 16 aksakal                   Aksakal Oztekin                    694,52
- 06.01.2016 MIETE JANUAR 2016                                            EUGENIUSZ KRZEMIEN                 463,39
-                                                                                               Summe Miete 3198,18
+ 30.12.2016 L01.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 30.12.2016 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 0602 Bundesagentur fur Arbeit-Servi     760,00
+ 02.01.2017 MIETE                                                        Halina Czerny                      466,00
+ 02.01.2017 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+                                                                                               Summe Miete 2134,27
 
-                                                                       Summe 44339Lindenhorster Strasse236 3198,18
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 24.01.16 =====================================
+                                                                       Summe 44339Lindenhorster Strasse236 2134,27
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 02.01.17 =====================================
 ------------------------------Miete-------------------------------------------------------------------------------
- 04.01.2016 Miete Lorenzstr.5                                            Schier, Stefanie                   466,00
- 04.01.2016 MIETE                                                        Semra Sezgin                       559,00
- 04.01.2016 miete lorenzstr 5                                            Patrick Hanke                      625,00
- 04.01.2016 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 04.01.2016 MIETE LORENZSTR 5                                            Silke Heyer                        563,00
- 05.01.2016 Miete                                                        Grofe, Renate                      451,50
-                                                                                               Summe Miete 3373,50
-------------------------------umlagefähig-------------------------------------------------------------------------
- 04.01.2016 R41561940-D01889169INCL.38,00MWSTVTR.02008843ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -238,00
- 08.01.2016 3500598754845 059875484 69-467-1049/9 03550051 Lorenzstr.5,  ISTA DEUTSCHLAND GMBH Essen       -939,99
- 08.01.2016 3500598752337 059875233 69-467-0256/9 03550051 Lorenzstr.5,  ISTA DEUTSCHLAND GMBH Essen       -105,20
-                                                                                        Summe umlagefähig -1283,19
+ 02.01.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 02.01.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 02.01.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 02.01.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 02.01.2017 MIETE                                                        Semra Sezgin                       589,00
+                                                                                               Summe Miete 3022,00
 
-                                                                                 Summe 44536Lorenzstrasse5 2090,31
-==============================Heinrichstraße  44 , 59077  Hamm ==== 24.01.16 ====================================
-------------------------------umlagefähig-------------------------------------------------------------------------
- 01.12.2015 ANTEIL unity Media 2016 HAMM HEINRICHSTR.44 ReNr: 6000763020 HINNERWISCH                       -148,44
- 08.01.2016 3500598764734 059876473 69-470-1140/3 03550051 Heinrichstr.  ISTA DEUTSCHLAND GMBH Essen        -30,37
-                                                                                         Summe umlagefähig -178,81
-
-                                                                               Summe 59077Heinrichstraße44 -178,81
-==============================Heinrichstraße  46 , 59077  Hamm ==== 24.01.16 ====================================
-------------------------------umlagefähig-------------------------------------------------------------------------
- 01.12.2015 ANTEIL unity Media 16 HEINRICHSTR.46, Hamm ReNr: 6000763020- HINNERWISCH                       -148,44
- 08.01.2016 3500598764742 059876474 69-470-1142/0 03550051 Heinrichstr.  ISTA DEUTSCHLAND GMBH Essen        -34,16
-                                                                                         Summe umlagefähig -182,60
-
-                                                                               Summe 59077Heinrichstraße46 -182,60
-==============================Haferkamp  1 , 59192  Bergkamen ==== 24.01.16 =====================================
+                                                                                 Summe 44536Lorenzstrasse5 3022,00
+==============================Haferkamp  1 , 59192  Bergkamen ==== 02.01.17 =====================================
 ------------------------------Miete-------------------------------------------------------------------------------
- 04.01.2016 Miete                                                        Dimitri und Svetlana Diener        707,00
-                                                                                                Summe Miete 707,00
-------------------------------umlagefähig-------------------------------------------------------------------------
- 08.01.2016 3500598764726 059876472 69-470-1139/0 03550051 Haferkamp 1,  ISTA DEUTSCHLAND GMBH Essen        -30,37
-                                                                                          Summe umlagefähig -30,37
+ 02.01.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+                                                                                                Summe Miete 745,00
 
-                                                                                      Summe 59192Haferkamp1 676,63
-==============================Haferkamp  3 , 59192  Bergkamen ==== 24.01.16 =====================================
+                                                                                      Summe 59192Haferkamp1 745,00
+==============================Haferkamp  3 , 59192  Bergkamen ==== 02.01.17 =====================================
 ------------------------------Miete-------------------------------------------------------------------------------
- 29.12.2015 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     720,00
-                                                                                                Summe Miete 720,00
-------------------------------umlagefähig-------------------------------------------------------------------------
- 08.01.2016 3500598764718 059876471 69-470-1138/1 03550051 Haferkamp 3,  ISTA DEUTSCHLAND GMBH Essen        -30,37
-                                                                                          Summe umlagefähig -30,37
+ 29.12.2016 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     760,00
+                                                                                                Summe Miete 760,00
 
-                                                                                      Summe 59192Haferkamp3 689,63
-==============================Am Westendorp  12 , 59399  Olfen ==== 24.01.16 ====================================
+                                                                                      Summe 59192Haferkamp3 760,00
+==============================Am Westendorp  12 , 59399  Olfen ==== 02.01.17 ====================================
 ------------------------------Miete-------------------------------------------------------------------------------
- 04.01.2016 Miete                                                        Klaus-Dieter Rosenthal             690,00
- 04.01.2016 Miete                                                        Helga Prigge                       700,00
- 05.01.2016 MIETE UND NK                                                 Thomas Ludwig                      545,00
-                                                                                               Summe Miete 1935,00
-------------------------------umlagefähig-------------------------------------------------------------------------
- 08.01.2016 3500599052472 059905247 76-471-0211/0 03550051 Am Westendorp ISTA DEUTSCHLAND GMBH Essen       -153,45
-                                                                                         Summe umlagefähig -153,45
+ 02.01.2017 Miete                                                        Helga Prigge                       670,00
+ 02.01.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+                                                                                               Summe Miete 1360,00
 
-                                                                                Summe 59399Am Westendorp12 1781,55
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 24.01.16 =============================
+                                                                                Summe 59399Am Westendorp12 1360,00
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 02.01.17 =============================
 ------------------------------Miete-------------------------------------------------------------------------------
- 17.12.2015 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          805,00
- 28.12.2015 Miete + Nebenkosten                                          Mischke, Manfred                   529,00
- 04.01.2016 MIETE SAARBRUECKERWEG 24 Maida / Heine                       Benjamin Maida                     775,00
- 04.01.2016 Miete                                                        Kramer-Kersting, Christine         470,00
- 04.01.2016 Miete + Nebenkosten                                          Hessel, Werner                     500,00
-                                                                                               Summe Miete 3079,00
-------------------------------umlagefähig-------------------------------------------------------------------------
- 04.01.2016 R41499060-D01889169INCL.37,36MWSTVTR.02008840ABSCHLAGSZAHLUN EXTRAENERGIEGMBH                  -234,00
-                                                                                         Summe umlagefähig -234,00
+ 19.12.2016 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 30.12.2016 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 02.01.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
+ 02.01.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 02.01.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida                     695,00
+                                                                                               Summe Miete 3114,00
 
-                                                                               Summe 59439Saarbrückerweg24 2845,00
-                                                                                             GesamtSumme 10919,89
+                                                                               Summe 59439Saarbrückerweg24 3114,00
+                                                                                             GesamtSumme 11135,27

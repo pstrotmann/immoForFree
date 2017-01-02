@@ -97,7 +97,7 @@ class Zahlung implements Comparable{
 	
 	static void printZuordnungen (PrintWriter zOut) {
 		List zListPlus = []
-		String s = "from Zahlung as z where (z.buchungsjahr = 0 or z.buchungsjahr = 2016) and z.bankumsatz is not null"
+		String s = "from Zahlung as z where (z.buchungsjahr = 0 or z.buchungsjahr = 2017) and z.bankumsatz is not null"
 		List <Zahlung> zList = Zahlung.findAll(s)
 		zList.each {z ->
 			def Immobilie immobilie
@@ -180,7 +180,7 @@ class Zahlung implements Comparable{
 			if (b) {
 				verw = StringUtils.rightPad(StringUtils.substring(StringUtils.trim(b.verwendungszweck),0,60),60,' ')
 				beZa = StringUtils.rightPad(StringUtils.substring(b.beguenstigterZahlungspflichtiger,0,30),30,' ')
-				valuta = b.valutadatum.replace('.14', '.2014').replace('.15', '.2015').replace('.16', '.2016')
+				valuta = b.valutadatum.replace('.15', '.2015').replace('.16', '.2016').replace('.17', '.2017')
 			}
 			String zBtr = StringUtils.leftPad(zBetrag.toString(),10,' ').replace('.',',')
 			zOut.println(' '+valuta+' '+verw+' '+beZa+' '+zBtr)
