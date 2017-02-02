@@ -34,7 +34,7 @@ class BankumsatzZuordnungController {
 		Bankumsatz.zeitraumUms.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Zahlung> zListe = []
-			List <Mietvertrag> mList = Mietvertrag.findAll ("from Mietvertrag")
+			List <Mietvertrag> mList = Mietvertrag.findAll ("from Mietvertrag as mv where mv.mietende is null")
 			mList.each {mv ->
 				if (checkBankumsatz (bUms, mv.mieter.partner) && !bUms.verwendungszweck.toUpperCase().contains('HAUSMEISTER'))
 					{def Zahlung zahlung = new Zahlung()
