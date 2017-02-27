@@ -69,15 +69,16 @@ class Bankumsatz {
 		bu
 	}
 	
-	static List getZeitraumUms () {
+	static List getZeitraumUms (long maxId) {
 		def Calendar ago = Calendar.getInstance()
 		use (groovy.time.TimeCategory) {
 			ago.setTime(new Date() - 3.months)
 		}
 		def Calendar umsDat = Calendar.getInstance()
 		List <Bankumsatz> bu = []
-		String s = "from Bankumsatz as b where substring(verwendungszweck,1,6) <> 'PS-LOS' and substring(verwendungszweck,1,8) <> 'Sparrate' and not exists (from Zahlung as z where z.bankumsatz = b.id)"
-		Bankumsatz.findAll(s).each {Bankumsatz bUms ->
+		String s = "from Bankumsatz as b where b.id > ? and substring(verwendungszweck,1,6) <> 'PS-LOS' and substring(verwendungszweck,1,8) <> 'Sparrate' and not exists (from Zahlung as z where z.bankumsatz = b.id)"
+		
+		Bankumsatz.findAll(s,[maxId]).each {Bankumsatz bUms ->
 			if (bUms.valutadatum.size() == 8 ) {
 				umsDat.setTime(new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum))
 				if (umsDat > ago)

@@ -9,7 +9,8 @@ class BankumsatzZuordnungController {
 		use (groovy.time.TimeCategory) {
 			vor60Tagen = new Date() - 60.days
 		}
-		def List umsaetze = Bankumsatz.zeitraumUms
+		def long maxId = Bankumsatz.executeQuery("select max(b.id) from Bankumsatz as b")[0] - 500
+		def List umsaetze = Bankumsatz.getZeitraumUms(maxId)
 		umsaetze.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Rechnung> rList = Rechnung.findAllByRechnungsdatumGreaterThan (vor60Tagen)
@@ -69,13 +70,13 @@ class BankumsatzZuordnungController {
 		anzZahlung = 0
 		anzBankums = 0
 		//Sammelinkasso Westfälische Provinzial ist hart codiert
-		Bankumsatz.findAll("from Bankumsatz as b where not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like '%ZAHLUNGSAUFSTELLUNG%' and b.beguenstigterZahlungspflichtiger = 'WESTFAELISCHE PROVINZIAL'").each {bUms->
+		Bankumsatz.findAll("from Bankumsatz as b where b.id > ? and not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like '%ZAHLUNGSAUFSTELLUNG%' and b.beguenstigterZahlungspflichtiger = 'WESTFAELISCHE PROVINZIAL'",[maxId]).each {bUms->
 			anzBankums++
 			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("ZAHLUNGSAUFSTELLUNG WESTFAELISCHE PROVINZIAL")
 			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
 		}
 		//Sammelinkasso Stadt Bergkamen ist hart codiert
-		Bankumsatz.findAll("from Bankumsatz as b where not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like '%01009000295902000%' and b.beguenstigterZahlungspflichtiger = 'Stadt Bergkamen'").each {bUms->
+		Bankumsatz.findAll("from Bankumsatz as b where b.id > ? and not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like '%01009000295902000%' and b.beguenstigterZahlungspflichtiger = 'Stadt Bergkamen'",[maxId]).each {bUms->
 			anzBankums++
 			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("01009000295902000")
 			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
@@ -115,7 +116,7 @@ class BankumsatzZuordnungController {
 		anzZahlung = 0
 		anzBankums = 0
 		//Sonderbehandlung Wüstenrot hart codiert
-		Bankumsatz.findAll("from Bankumsatz as b where not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like '%WUSTENROT BANK AG%'").each {bUms->
+		Bankumsatz.findAll("from Bankumsatz as b where b.id > ? and not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like '%WUSTENROT BANK AG%'",[maxId]).each {bUms->
 			anzBankums++
 			def String s = bUms.verwendungszweck+bUms.kundenreferenz+'00'
 			def String[] sTeil = s.split('/')
