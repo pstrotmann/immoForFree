@@ -30,6 +30,8 @@
 						
 						<g:sortableColumn property="mietbeginn" title="${message(code: 'mietvertrag.mietbeginn.label', default: 'Mietbeginn')}" />
 						
+						<th><div align = right><g:message code="mietvertrag.grundmiete.label" default="Grundmiete" /></div></th>
+						
 						<th><div align = right><g:message code="mietvertrag.bruttomiete.label" default="Bruttomiete" /></div></th>
 						
 						<th><div align = right><g:message code="mietvertrag.mietsaldo.label" default="Saldo" /></div></th>
@@ -46,6 +48,8 @@
 						
 						<td><g:formatDate date="${mietvertragInstance.mietbeginn}" format="dd.MM.yyyy" /></td>
 						
+						<td><div align = right><g:formatNumber number="${mietvertragInstance.grundmiete}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
+						
 						<td><div align = right><g:formatNumber number="${mietvertragInstance.bruttomiete}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right>
@@ -60,6 +64,22 @@
 					</tr>
 				</g:each>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+					
+						<td><div align = right><g:message code="Mietvertrag.summe.label" default="Summen:" /></div></td>
+					
+						<td></td>
+						
+						<td><div align = right><g:formatNumber number="${Mietvertrag.sumMtlGrund}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${Mietvertrag.sumMtlBrutto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><span style="color:red;"><g:formatNumber number="${Mietvertrag.sumSaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span></div></td>
+						
+					</tr>
+				</tfoot>
 			</table>
 			<div class="pagination">
 				<g:paginate total="${mietvertragInstanceTotal}" />

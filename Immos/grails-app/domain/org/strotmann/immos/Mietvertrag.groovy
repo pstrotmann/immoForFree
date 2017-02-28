@@ -82,6 +82,12 @@ class Mietvertrag implements Comparable {
 		mvs ? mvs.bruttomiete : 0
 	}
 	
+	BigDecimal getGrundmiete () {
+		def List mvsList = Mietvertragsstand.findAll("from Mietvertragsstand as mvs where mvs.mietvertrag = ${id} order by mvs.gueltigAb desc")
+		def Mietvertragsstand mvs = mvsList.empty ? null : mvsList.first()
+		mvs ? mvs.grundmiete : 0
+	}
+	
 	int getAnzahlPersonen() {
 		def Mietvertragsstand mvs = vertragsstaende.empty ? null : vertragsstaende.last()
 		def int anzP = mvs?mvs.anzahlPersonen:0 
@@ -300,6 +306,30 @@ class Mietvertrag implements Comparable {
 	
 	static List getMietvertraege () {
 		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null order by mieter.partner.name ")
+	}
+	
+	static BigDecimal getSumMtlGrund () {
+		def BigDecimal sum = 0
+		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null").each {Mietvertrag mv ->
+			sum += mv.grundmiete
+		}
+		sum
+	}
+	
+	static BigDecimal getSumMtlBrutto () {
+		def BigDecimal sum = 0
+		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null").each {Mietvertrag mv ->
+			sum += mv.bruttomiete
+		}
+		sum
+	}
+	
+	static BigDecimal getSumSaldo () {
+		def BigDecimal sum = 0
+		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null").each {Mietvertrag mv ->
+			sum += mv.mietsaldo
+		}
+		sum
 	}
 	
 	static void printMietjournal (PrintWriter mOut) {
