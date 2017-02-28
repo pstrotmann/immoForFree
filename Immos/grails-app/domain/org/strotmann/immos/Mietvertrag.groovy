@@ -85,7 +85,7 @@ class Mietvertrag implements Comparable {
 	BigDecimal getGrundmiete () {
 		def List mvsList = Mietvertragsstand.findAll("from Mietvertragsstand as mvs where mvs.mietvertrag = ${id} order by mvs.gueltigAb desc")
 		def Mietvertragsstand mvs = mvsList.empty ? null : mvsList.first()
-		mvs ? mvs.grundmiete : 0
+		mvs ? mvs.grundmiete + mvs.zusatzmiete : 0
 	}
 	
 	int getAnzahlPersonen() {
