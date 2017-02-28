@@ -5,6 +5,7 @@ class BankumsatzZuordnungController {
     def index() {
 		def int anzZahlung = 0
 		def int anzBankums = 0
+		def List loe =[]
 		def Date vor60Tagen
 		use (groovy.time.TimeCategory) {
 			vor60Tagen = new Date() - 60.days
@@ -26,13 +27,16 @@ class BankumsatzZuordnungController {
 					zahlung.rechnung = re
 					zahlung.save()
 					anzZahlung++
+					loe << bUms
 					}
 			}
 		}
+		umsaetze = umsaetze - loe
 		flash.message1 = "Zuordnung auf Rechnungen  : ${anzBankums} Bankumsätze gelesen, ${anzZahlung} Zahlungen geschrieben"
 		
 		anzZahlung = 0
-		anzBankums = 0		
+		anzBankums = 0
+		loe =[]
 		umsaetze.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Zahlung> zListe = []
@@ -54,6 +58,7 @@ class BankumsatzZuordnungController {
 			case 1 : /* Eindeutigkeit */
 					  zListe[0].save()
 					  anzZahlung++
+					  loe << bUms
 					  break
 					  
 			default : /* Mehrdeutigkeit */
@@ -61,10 +66,12 @@ class BankumsatzZuordnungController {
 						if (zahlung.mietvertrag.bruttomiete == zahlung.betrag || istOp (zahlung)) {
 							zahlung.save()
 							anzZahlung++
+							loe << bUms
 						}
 					}
 			}
 		}
+		umsaetze = umsaetze - loe
 		flash.message2 = "Zuordnung auf Mietverträge: ${anzBankums} Bankumsätze gelesen, ${anzZahlung} Zahlungen geschrieben"
 		
 		anzZahlung = 0
@@ -82,6 +89,7 @@ class BankumsatzZuordnungController {
 			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
 		}
 		//der Rest
+		loe =[]
 		umsaetze.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAll ("from Dienstleistungsvertrag")
@@ -108,9 +116,11 @@ class BankumsatzZuordnungController {
 					zahlung.dienstleistungsvertrag = dv
 					zahlung.save()
 					anzZahlung++
+					loe << bUms
 					}
 			}
 		}
+		umsaetze = umsaetze - loe
 		flash.message3 = "Zuordnung auf Dienstleistungsverträge: ${anzBankums} Bankumsätze gelesen, ${anzZahlung} Zahlungen geschrieben"
 		
 		anzZahlung = 0
@@ -135,6 +145,7 @@ class BankumsatzZuordnungController {
 			}
 		}
 		//Behandlung Wfa und Sparkasse Do
+		loe =[]
 		umsaetze.each {Bankumsatz bUms ->
 			anzBankums++
 			List <Kredit> kList = Kredit.findAll ("from Kredit")
@@ -150,9 +161,11 @@ class BankumsatzZuordnungController {
 					zahlung.kredit = kr
 					zahlung.save()
 					anzZahlung++
+					loe << bUms
 					}
 			}
 		}
+		umsaetze = umsaetze - loe
 		flash.message4 = "Zuordnung auf Kredite: ${anzBankums} Bankumsätze gelesen, ${anzZahlung} Zahlungen geschrieben"
 		
 		redirect(uri: "/")
