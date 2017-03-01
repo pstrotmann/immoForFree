@@ -40,36 +40,35 @@ class Kredit implements Comparable{
 		Kredit.findAll("from Kredit order by verwendung.hausadresse.ort, verwendung.hausadresse.strasse, verwendung.hausadresse.hausnummer")
 	}
 	
-	static BigDecimal getKreditsumme() {
-		BigDecimal summe = 0
-		Kredit.findAll("from Kredit").each {
-			Kredit k -> summe += k.kreditsaldo
+	static Map kreditsummen(String kreditgeber) {
+		Map summen = ['gesSaldo':[0,0,0,0],'mtlRate':[0,0,0,0],'mtlZins':[0,0,0,0],'mtlTilg':[0,0,0,0]]
+		Kredit.findAll("from Kredit").each {Kredit k ->
+			if (kreditgeber == "") {
+			 	summen.gesSaldo[0] += k.kreditsaldo
+				summen.mtlRate[0] += k.mtlRate
+				summen.mtlZins[0] += k.mtlZins
+				summen.mtlTilg[0] += k.mtlTilg
+			}
+			if (k.kreditgeber.partner.name == "Wfa") {
+				summen.gesSaldo[1] += k.kreditsaldo
+				summen.mtlRate[1] += k.mtlRate
+				summen.mtlZins[1] += k.mtlZins
+				summen.mtlTilg[1] += k.mtlTilg
+		    }
+			if (k.kreditgeber.partner.name == "Sparkasse Dortmund") {
+				summen.gesSaldo[2] += k.kreditsaldo
+				summen.mtlRate[2] += k.mtlRate
+				summen.mtlZins[2] += k.mtlZins
+				summen.mtlTilg[2] += k.mtlTilg
+		   }
+			if (k.kreditgeber.partner.name == "Wüstenrot Bank") {
+				summen.gesSaldo[3] += k.kreditsaldo
+				summen.mtlRate[3] += k.mtlRate
+				summen.mtlZins[3] += k.mtlZins
+				summen.mtlTilg[3] += k.mtlTilg
+		   }
 		}
-		summe
-	}
-	
-	static BigDecimal getMtlSumme() {
-		BigDecimal summe = 0
-		Kredit.findAll("from Kredit").each {
-			Kredit k -> summe += k.mtlRate
-		}
-		summe
-	}
-	
-	static BigDecimal getSumZins() {
-		BigDecimal summe = 0
-		Kredit.findAll("from Kredit").each {
-			Kredit k -> summe += k.mtlZins
-		}
-		summe
-	}
-	
-	static BigDecimal getSumTilg() {
-		BigDecimal summe = 0
-		Kredit.findAll("from Kredit").each {
-			Kredit k -> summe += k.mtlTilg
-		}
-		summe
+		summen
 	}
 	
 	Kreditstand getAktKreditstand() {
