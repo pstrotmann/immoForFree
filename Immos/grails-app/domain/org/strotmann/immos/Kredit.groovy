@@ -40,34 +40,49 @@ class Kredit implements Comparable{
 		Kredit.findAll("from Kredit order by verwendung.hausadresse.ort, verwendung.hausadresse.strasse, verwendung.hausadresse.hausnummer")
 	}
 	
-	static Map kreditsummen(String kreditgeber) {
-		Map summen = ['gesSaldo':[0,0,0,0],'mtlRate':[0,0,0,0],'mtlZins':[0,0,0,0],'mtlTilg':[0,0,0,0]]
+	static List getGesSummen() {
+		List summen = [0,0,0,0]
 		Kredit.findAll("from Kredit").each {Kredit k ->
-			if (kreditgeber == "") {
-			 	summen.gesSaldo[0] += k.kreditsaldo
+			summen[0] += k.kreditsaldo
+			summen[1] += k.mtlRate
+			summen[2] += k.mtlZins
+			summen[3] += k.mtlTilg
+		}
+		summen
+	}
+	
+	static Map kreditsummen(String kreditgeber) {
+		Map summen = ['gesSaldo':[0,0,0],'prozSaldo':[0,0,0],'mtlRate':[0,0,0],'mtlZins':[0,0,0],'mtlTilg':[0,0,0]]
+		List gesamt = gesSummen
+		Kredit.findAll("from Kredit").each {Kredit k ->
+			
+			if (k.kreditgeber.partner.name == "Wfa") {
+				summen.gesSaldo[0] += k.kreditsaldo
 				summen.mtlRate[0] += k.mtlRate
 				summen.mtlZins[0] += k.mtlZins
 				summen.mtlTilg[0] += k.mtlTilg
-			}
-			if (k.kreditgeber.partner.name == "Wfa") {
+		    }
+			if (k.kreditgeber.partner.name == "Sparkasse Dortmund") {
 				summen.gesSaldo[1] += k.kreditsaldo
 				summen.mtlRate[1] += k.mtlRate
 				summen.mtlZins[1] += k.mtlZins
 				summen.mtlTilg[1] += k.mtlTilg
-		    }
-			if (k.kreditgeber.partner.name == "Sparkasse Dortmund") {
+		   }
+			if (k.kreditgeber.partner.name == "Wüstenrot Bank") {
 				summen.gesSaldo[2] += k.kreditsaldo
 				summen.mtlRate[2] += k.mtlRate
 				summen.mtlZins[2] += k.mtlZins
 				summen.mtlTilg[2] += k.mtlTilg
 		   }
-			if (k.kreditgeber.partner.name == "Wüstenrot Bank") {
-				summen.gesSaldo[3] += k.kreditsaldo
-				summen.mtlRate[3] += k.mtlRate
-				summen.mtlZins[3] += k.mtlZins
-				summen.mtlTilg[3] += k.mtlTilg
-		   }
 		}
+		
+		if (kreditgeber == "Wfa")
+			summen.prozSaldo[0] = (summen.gesSaldo[0] / gesamt[0]) * 100
+		if (kreditgeber == "Sparkasse Dortmund")
+			summen.prozSaldo[1] = (summen.gesSaldo[1] / gesamt[0]) * 100
+		if (kreditgeber == "Wüstenrot Bank")
+			summen.prozSaldo[2] = (summen.gesSaldo[2] / gesamt[0]) * 100
+		
 		summen
 	}
 	
