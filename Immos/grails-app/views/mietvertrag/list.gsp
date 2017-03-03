@@ -39,25 +39,25 @@
 					</tr>
 				</thead>
 				<tbody>
-				<g:each in="${Mietvertrag.mietvertraege}" status="i" var="mietvertragInstance">
+				<g:each in="${mietvertragInstanceList.mietvertraege}" status="i" var="mietvertragInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${mietvertragInstance.id}">${fieldValue(bean: mietvertragInstance, field: "mieter.partner.name")}</g:link></td>
+						<td><g:link action="show" id="${mietvertragInstance[0].id}">${fieldValue(bean: mietvertragInstance[0], field: "mieter.partner.name")}</g:link></td>
 					
-						<td>${fieldValue(bean: mietvertragInstance, field: "mietsache")}</td>
+						<td>${fieldValue(bean: mietvertragInstance[0], field: "mietsache")}</td>
 						
-						<td><g:formatDate date="${mietvertragInstance.mietbeginn}" format="dd.MM.yyyy" /></td>
+						<td><g:formatDate date="${mietvertragInstance[0].mietbeginn}" format="dd.MM.yyyy" /></td>
 						
-						<td><div align = right><g:formatNumber number="${mietvertragInstance.grundmiete}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${mietvertragInstance[1]}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${mietvertragInstance.bruttomiete}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${mietvertragInstance[2]}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right>
-							<g:if test="${mietvertragInstance.mietsaldo < 0}">
-    							<span style="color:red;"><g:formatNumber number="${mietvertragInstance.mietsaldo}" type="number" minFractionDigits="2" format="#,##0.00"/></span>
+							<g:if test="${mietvertragInstance[3] < 0}">
+    							<span style="color:red;"><g:formatNumber number="${mietvertragInstance[3]}" type="number" minFractionDigits="2" format="#,##0.00"/></span>
 							</g:if>
-							<g:if test="${mietvertragInstance.mietsaldo > 0}">
-    							<g:formatNumber number="${mietvertragInstance.mietsaldo}" type="number" minFractionDigits="2" format="#,##0.00"/>
+							<g:if test="${mietvertragInstance[3] > 0}">
+    							<g:formatNumber number="${mietvertragInstance[3]}" type="number" minFractionDigits="2" format="#,##0.00"/>
 							</g:if>
 						</div></td>
 						
@@ -72,11 +72,11 @@
 					
 						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Mietvertrag.sumMtlGrund}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${mietvertragInstanceList.sumGrund}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Mietvertrag.sumMtlBrutto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${mietvertragInstanceList.sumBrutto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><span style="color:red;"><g:formatNumber number="${Mietvertrag.sumSaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span></div></td>
+						<td><div align = right><span style="color:red;"><g:formatNumber number="${mietvertragInstanceList.sumSaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span></div></td>
 						
 					</tr>
 				</tfoot>

@@ -304,6 +304,20 @@ class Mietvertrag implements Comparable {
 		oList.sort()
 	}
 	
+	static Map getMietvertraegeUndSummen () {
+		Map mvSum = ['mietvertraege':[],'sumGrund':0,'sumBrutto':0,'sumSaldo':0]
+		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null order by mieter.partner.name ").each {Mietvertrag mv ->
+			def BigDecimal mvGrund = mv.grundmiete
+			def BigDecimal mvBrutto = mv.bruttomiete
+			def BigDecimal mvSaldo = mv.mietsaldo
+			mvSum.mietvertraege << [mv,mvGrund,mvBrutto,mvSaldo]
+			mvSum.sumGrund += mvGrund
+			mvSum.sumBrutto += mvBrutto
+			mvSum.sumSaldo += mvSaldo
+		}
+		mvSum
+	}
+	
 	static List getMietvertraege () {
 		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null order by mieter.partner.name ")
 	}

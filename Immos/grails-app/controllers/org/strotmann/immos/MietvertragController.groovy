@@ -8,7 +8,7 @@ class MietvertragController {
 	
 	def list(Integer max) {
         params.max = Math.min(max ?: 100, 1000)
-        [mietvertragInstanceList: Mietvertrag.getMietvertraege(), mietvertragInstanceTotal: Mietvertrag.count()]
+        [mietvertragInstanceList: Mietvertrag.mietvertraegeUndSummen, mietvertragInstanceTotal: Mietvertrag.count()]
     }
     
     def create() {
