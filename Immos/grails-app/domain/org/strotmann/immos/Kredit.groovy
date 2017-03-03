@@ -40,51 +40,48 @@ class Kredit implements Comparable{
 		Kredit.findAll("from Kredit order by verwendung.hausadresse.ort, verwendung.hausadresse.strasse, verwendung.hausadresse.hausnummer")
 	}
 	
-	static List getGesSummen() {
-		List summen = [0,0,0,0]
-		Kredit.findAll("from Kredit").each {Kredit k ->
-			summen[0] += k.kreditsaldo
-			summen[1] += k.mtlRate
-			summen[2] += k.mtlZins
-			summen[3] += k.mtlTilg
+	static Map getKrediteUndSummen() {
+		Map krSum = ['kredite':[],'summen':[0,0,0,0],'sumProz':[0,0,0,0],'sumRate':[0,0,0,0],'sumZins':[0,0,0,0],'sumTilg':[0,0,0,0]]
+		String s = "from Kredit order by verwendung.hausadresse.ort, verwendung.hausadresse.strasse, verwendung.hausadresse.hausnummer"
+		Kredit.findAll(s).each {Kredit k ->
+			def BigDecimal kSaldo = k.kreditsaldo
+			def BigDecimal kAktProz = k.aktProz
+			def BigDecimal kMtlRate = k.mtlRate
+			def BigDecimal kMtlZins = k.getMtlZins(kSaldo,kAktProz)
+			def BigDecimal kMtlTilg = kMtlRate - kMtlZins
+			krSum.kredite << [k,kSaldo,kAktProz,kMtlRate,kMtlZins,kMtlTilg]
+			krSum.summen[0] += kSaldo
+			krSum.sumRate[0] += kMtlRate
+			krSum.sumZins[0] += kMtlZins
+			krSum.sumTilg[0] += kMtlTilg
+			if (k.kreditgeber.partner.name == "Wfa") {
+				krSum.summen[1] += kSaldo
+				krSum.sumRate[1] += kMtlRate
+				krSum.sumZins[1] += kMtlZins
+				krSum.sumTilg[1] += kMtlTilg
+			}
+			if (k.kreditgeber.partner.name == "Sparkasse Dortmund") {
+				krSum.summen[2] += kSaldo
+				krSum.sumRate[2] += kMtlRate
+				krSum.sumZins[2] += kMtlZins
+				krSum.sumTilg[2] += kMtlTilg
+			}
+			if (k.kreditgeber.partner.name == "Wüstenrot Bank") {
+				krSum.summen[3] += kSaldo
+				krSum.sumRate[3] += kMtlRate
+				krSum.sumZins[3] += kMtlZins
+				krSum.sumTilg[3] += kMtlTilg
+			}
 		}
-		summen
+		
+		krSum.sumProz[1] = (krSum.summen[1] / krSum.summen[0]) * 100
+		krSum.sumProz[2] = (krSum.summen[2] / krSum.summen[0]) * 100
+		krSum.sumProz[3] = (krSum.summen[3] / krSum.summen[0]) * 100
+		
+		krSum
 	}
 	
-	static Map kreditsummen(String kreditgeber) {
-		Map summen = ['gesSaldo':[0,0,0],'prozSaldo':[0,0,0],'mtlRate':[0,0,0],'mtlZins':[0,0,0],'mtlTilg':[0,0,0]]
-		List gesamt = gesSummen
-		Kredit.findAll("from Kredit").each {Kredit k ->
-			
-			if (k.kreditgeber.partner.name == "Wfa") {
-				summen.gesSaldo[0] += k.kreditsaldo
-				summen.mtlRate[0] += k.mtlRate
-				summen.mtlZins[0] += k.mtlZins
-				summen.mtlTilg[0] += k.mtlTilg
-		    }
-			if (k.kreditgeber.partner.name == "Sparkasse Dortmund") {
-				summen.gesSaldo[1] += k.kreditsaldo
-				summen.mtlRate[1] += k.mtlRate
-				summen.mtlZins[1] += k.mtlZins
-				summen.mtlTilg[1] += k.mtlTilg
-		   }
-			if (k.kreditgeber.partner.name == "Wüstenrot Bank") {
-				summen.gesSaldo[2] += k.kreditsaldo
-				summen.mtlRate[2] += k.mtlRate
-				summen.mtlZins[2] += k.mtlZins
-				summen.mtlTilg[2] += k.mtlTilg
-		   }
-		}
-		
-		if (kreditgeber == "Wfa")
-			summen.prozSaldo[0] = (summen.gesSaldo[0] / gesamt[0]) * 100
-		if (kreditgeber == "Sparkasse Dortmund")
-			summen.prozSaldo[1] = (summen.gesSaldo[1] / gesamt[0]) * 100
-		if (kreditgeber == "Wüstenrot Bank")
-			summen.prozSaldo[2] = (summen.gesSaldo[2] / gesamt[0]) * 100
-		
-		summen
-	}
+
 	
 	Kreditstand getAktKreditstand() {
 		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
@@ -130,15 +127,11 @@ class Kredit implements Comparable{
 		rate
 	}
 	
-	BigDecimal getMtlZins() {
-		BigDecimal zins = ((kreditsaldo * aktProz)/100) / 12 
+	BigDecimal getMtlZins(BigDecimal kSaldo, kAktProz) {
+		BigDecimal zins = ((kSaldo * aktProz)/100) / 12
 		zins
 	}
-	
-	BigDecimal getMtlTilg() {
-		BigDecimal tilg = mtlRate - mtlZins
-		tilg
-	}
+		
 	
 	BigDecimal getAktProz() {
 		def BigDecimal proz = 0

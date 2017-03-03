@@ -47,29 +47,29 @@
 					</tr>
 				</thead>
 				<tbody>
-				<g:each in="${kreditInstanceList}" status="i" var="kreditInstance">
-					<g:if test="${kreditInstance.kreditsaldo > 0}">
+				<g:each in="${kreditInstanceList.kredite}" status="i" var="kreditInstance">
+					<g:if test="${kreditInstance[1] > 0}">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${kreditInstance.id}">${fieldValue(bean: kreditInstance, field: "kreditgeber.partner.name")}</g:link></td>
+						<td><g:link action="show" id="${kreditInstance[0].id}">${fieldValue(bean: kreditInstance[0], field: "kreditgeber.partner.name")}</g:link></td>
 					
-						<td>${fieldValue(bean: kreditInstance, field: "verwendung")}</td>
+						<td>${fieldValue(bean: kreditInstance[0], field: "verwendung")}</td>
 										
-						<td>${fieldValue(bean: kreditInstance, field: "vertragsnummer")}</td>
+						<td>${fieldValue(bean: kreditInstance[0], field: "vertragsnummer")}</td>
 						
-						<td><div align = right><g:formatNumber number="${kreditInstance.kreditsaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstance[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
-						<td>${fieldValue(bean: kreditInstance, field: "zahlweiseKlar")}</td>
+						<td>${fieldValue(bean: kreditInstance[0], field: "zahlweiseKlar")}</td>
 						
-						<td><div align = center><g:formatNumber number="${kreditInstance.aktProz}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = center><g:formatNumber number="${kreditInstance[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 											
-						<td><div align = right><g:formatDate date="${kreditInstance?.festBis}" format="dd.MM.yyyy"/></div></td>
+						<td><div align = right><g:formatDate date="${kreditInstance[0]?.festBis}" format="dd.MM.yyyy"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${kreditInstance.mtlRate}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstance[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
-						<td><div align = right><g:formatNumber number="${kreditInstance.mtlZins}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstance[4]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${kreditInstance.mtlTilg}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstance[5]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					</tr>
 					</g:if>
 				</g:each>
@@ -82,7 +82,7 @@
 					
 						<td><div align = right><g:message code="kredit.summe.label" default="Summen:" /></div></td>
 					
-						<td><div align = right><g:formatNumber number="${Kredit.gesSummen[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.summen[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right>%</div></td>
 						
@@ -90,11 +90,11 @@
 						
 						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.gesSummen[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumRate[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.gesSummen[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumZins[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.gesSummen[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumTilg[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 					<tr>
@@ -104,19 +104,19 @@
 					
 						<td><div align = right><g:message code="kredit.summe.label" default="Wfa" /></div></td>
 					
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wfa").gesSaldo[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.summen[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wfa").prozSaldo[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
-						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumProz[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wfa").mtlRate[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wfa").mtlZins[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumRate[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wfa").mtlTilg[0]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumZins[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumTilg[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 					<tr>
@@ -126,20 +126,19 @@
 					
 						<td><div align = right><g:message code="kredit.summe.label" default="Sparkasse" /></div></td>
 					
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Sparkasse Dortmund").gesSaldo[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.summen[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Sparkasse Dortmund").prozSaldo[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
-						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumProz[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Sparkasse Dortmund").mtlRate[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Sparkasse Dortmund").mtlZins[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumRate[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Sparkasse Dortmund").mtlTilg[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumZins[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumTilg[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					</tr>
 					<tr>
 						<td></td>
@@ -148,20 +147,19 @@
 					
 						<td><div align = right><g:message code="kredit.summe.label" default="Wüstenrot" /></div></td>
 					
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wüstenrot Bank").gesSaldo[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.summen[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wüstenrot Bank").prozSaldo[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
-						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumProz[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wüstenrot Bank").mtlRate[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wüstenrot Bank").mtlZins[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumRate[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Kredit.kreditsummen("Wüstenrot Bank").mtlTilg[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumZins[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
+						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumTilg[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					</tr>
 				</tfoot>
 			</table>

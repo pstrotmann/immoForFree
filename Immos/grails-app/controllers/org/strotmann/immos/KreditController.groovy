@@ -8,7 +8,8 @@ class KreditController {
 	
 	def list(Integer max) {
 		params.max = Math.min(max ?: 100, 1000)
-		[kreditInstanceList: Kredit.getKredite(), kreditInstanceTotal: Kredit.count()]
+		//[kreditInstanceList: Kredit.kredite, kreditInstanceTotal: Kredit.count()]
+		[kreditInstanceList: Kredit.krediteUndSummen, kreditInstanceTotal: Kredit.count()]
 	}
     
     def create() {
