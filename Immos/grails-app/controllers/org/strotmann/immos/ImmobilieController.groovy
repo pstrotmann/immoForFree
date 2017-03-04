@@ -8,7 +8,7 @@ class ImmobilieController {
 	
 	def list(Integer max) {
 		params.max = Math.min(max ?: 100, 1000)
-		[immobilieInstanceList: Immobilie.getImmobilien(), immobilieInstanceTotal: Immobilie.count()]
+		[immobilieInstanceList: Immobilie.immobilienUndSummen, immobilieInstanceTotal: Immobilie.count()]
 	}
 	
 	def show(Long id) {

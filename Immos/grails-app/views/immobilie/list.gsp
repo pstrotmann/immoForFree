@@ -40,22 +40,22 @@
 					</tr>
 				</thead>
 				<tbody>
-				<g:each in="${immobilieInstanceList}" status="i" var="immobilieInstance">
+				<g:each in="${immobilieInstanceList.immobilien}" status="i" var="immobilieInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${immobilieInstance.id}">${fieldValue(bean: immobilieInstance, field: "hausadresse")}</g:link></td>
+						<td><g:link action="show" id="${immobilieInstance[0].id}">${fieldValue(bean: immobilieInstance[0], field: "hausadresse")}</g:link></td>
 					
-						<td><g:formatNumber number="${immobilieInstance.baujahr.encodeAsHTML()}"/></td>
+						<td><g:formatNumber number="${immobilieInstance[0].baujahr.encodeAsHTML()}"/></td>
 					
-						<td><g:formatDate date="${immobilieInstance.eigentumAb}" format="dd.MM.yyyy"/></td>
+						<td><g:formatDate date="${immobilieInstance[0].eigentumAb}" format="dd.MM.yyyy"/></td>
 						
-						<td><div align = right><g:formatNumber number="${immobilieInstance.jahresnettomiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstance[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
-						<td><div align = right><g:formatNumber number="${immobilieInstance.annuitaet}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstance[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${immobilieInstance.anschaffungspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstance[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${immobilieInstance.restschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstance[4]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</g:each>
@@ -68,13 +68,13 @@
 					
 						<td><div align = right><g:message code="immobilie.summe.label" default="Summen" /></div></td>
 					
-						<td><div align = right><g:formatNumber number="${Immobilie.jahresnettomietsumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumJahresnetto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Immobilie.annuitaetensumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumAnnuitaet}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Immobilie.anschaffungssumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumAnschaffung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${Immobilie.summeRestschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumRestschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</tfoot>

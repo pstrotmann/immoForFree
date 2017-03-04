@@ -257,4 +257,27 @@ class Immobilie {
 		summe
 	}
 	
+	static Map getImmobilienUndSummen() {
+		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0]
+		def Calendar ago = Calendar.getInstance()
+		use (groovy.time.TimeCategory) {
+			ago.setTime(new Date() - 1.years)
+		}
+		Immobilie.findAll("from Immobilie as im order by im.hausadresse.ort, im.hausadresse.strasse, im.hausadresse.hausnummer").
+		each {Immobilie immo -> 
+			if (immo.eigentumBis == null || immo.eigentumBis > ago.getTime()) {
+				def iJahresnetto = immo.jahresnettomiete
+				def iAnnuitaet = immo.annuitaet
+				def iAnschaffung = immo.anschaffungspreis
+				def iRestschuld = immo.restschuld
+				iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld]
+				iSum.sumJahresnetto += iJahresnetto
+				iSum.sumAnnuitaet += iAnnuitaet
+				iSum.sumAnschaffung += iAnschaffung
+				iSum.sumRestschuld += iRestschuld
+			}
+		}
+		iSum
+	} 
+	
 }
