@@ -351,7 +351,7 @@ class Mietvertrag implements Comparable {
 		List <Mietvertrag> mList = getMietvertraege ()
 		mList.each {Mietvertrag mv ->
 			
-			def BigDecimal forderung = sumVstand(mv.id, mv.mietende, mv.kaution, mv.zahlweise)
+			def BigDecimal forderung = sumVstand(mv.id, mv.mietende, mv.kaution, mv.zahlweise) * (-1)
 			def String fBtr = forderung.toString().padLeft(10).replace('.',',')
 			def String mName = mv.mieter.partner.name.padRight(32)
 			def Date von = [start2014,mv.mietbeginn].max()
@@ -377,7 +377,7 @@ class Mietvertrag implements Comparable {
 			}
 			mOut.println ()
 			
-			def BigDecimal saldo = sumZahlung + sumOffenerPosten - forderung 
+			def BigDecimal saldo = [sumZahlung,sumOffenerPosten,forderung].sum()
 			def String sBtr = saldo.toString().padLeft(10).replace('.',',')
 			
 			def filler = " ".padRight(29)
