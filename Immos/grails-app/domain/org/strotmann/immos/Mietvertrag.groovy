@@ -347,18 +347,20 @@ class Mietvertrag implements Comparable {
 	}
 	
 	static void printMietjournal (PrintWriter mOut) {
+		def Date start2014 = new GregorianCalendar(2014,Calendar.JANUARY,1).getTime().clearTime()
 		List <Mietvertrag> mList = getMietvertraege ()
 		mList.each {Mietvertrag mv ->
-			mOut.write('\f')
+			
 			def BigDecimal forderung = sumVstand(mv.id, mv.mietende, mv.kaution, mv.zahlweise)
 			def String fBtr = forderung.toString().padLeft(10).replace('.',',')
-			def String mName = mv.mieter.partner.name.padRight(19)
-			mOut.println("${mName} Mietforderung per   ${new Date().getDateString()}${fBtr}")
+			def String mName = mv.mieter.partner.name.padRight(32)
+			def Date von = [start2014,mv.mietbeginn].max()
+			mOut.println("${mName} Mietforderung   ${fBtr} Zeitraum ${von.getDateString()} bis ${new Date().getDateString()}")
 			
 			def BigDecimal sumOffenerPosten = 0
 			def List <OffenerPosten> opList = OffenerPosten.findAll("from OffenerPosten as op where op.mietvertrag = ${mv.id} order by op.faelligkeit")
 			opList.each {offenerPosten ->
-				mOut.println ("offener Posten vom   ${offenerPosten.toKurzString()}".padLeft(59)+"  "+offenerPosten.grund)
+				mOut.println ("offener Posten vom ${offenerPosten.toKurzString()}".padLeft(59)+" "+offenerPosten.grund.trim())
 				sumOffenerPosten += offenerPosten.betrag
 			}
 			
@@ -369,7 +371,7 @@ class Mietvertrag implements Comparable {
 				sumZahlung += zahlung.betrag
 				String s = "Zahlung am   ${zahlung}".padLeft(59)
 				if (zahlung.bankumsatz)
-					s = s+" "+zahlung.bankumsatz.verwendungszweck
+					s = s+" "+zahlung.bankumsatz.verwendungszweck.trim()
 				
 				mOut.println (StringUtils.substring(s,0,100))
 			}
@@ -380,7 +382,7 @@ class Mietvertrag implements Comparable {
 			
 			def filler = " ".padRight(29)
 			mOut.println("${filler}Saldo per   ${new Date().getDateString()}${sBtr}")
-			
+			mOut.write('\f')
 		}
 	}
 }
