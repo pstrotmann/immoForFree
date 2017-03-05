@@ -367,7 +367,10 @@ class Mietvertrag implements Comparable {
 			def List <Zahlung> zList = Zahlung.findAll("from Zahlung as z where z.mietvertrag = ${mv.id} order by z.datum")
 			zList.each {zahlung ->
 				sumZahlung += zahlung.betrag
-				String s = "Zahlung am   ${zahlung}".padLeft(59)+" "+zahlung.bankumsatz.verwendungszweck?:''	
+				String s = "Zahlung am   ${zahlung}".padLeft(59)
+				if (zahlung.bankumsatz)
+					s = s+" "+zahlung.bankumsatz.verwendungszweck
+				
 				mOut.println (StringUtils.substring(s,0,100))
 			}
 			mOut.println ()
