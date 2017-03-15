@@ -105,6 +105,7 @@ class BankumsatzZuordnungController {
 				 || bUms.verwendungszweck.contains(dvVertragsnummer)
 				 || bUms.mandatsreferenz.contains(dvVertragsnummer)
 				 || bUms.mandatsreferenz.contains(dvReferenz)
+				 || bUms.mandatsreferenz.contains(dvKundennummer)
 				 || bUms.kundenreferenz.contains(dvKundennummer)
 				 || bUms.kundenreferenz.contains(dvVertragsnummer)
 					)
