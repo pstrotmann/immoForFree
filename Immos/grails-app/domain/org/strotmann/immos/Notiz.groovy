@@ -17,7 +17,7 @@ class Notiz {
 	static constraints = {
     }
 	
-	String toString() {"${this.notiztext}"}
+	String toString() {"${this.anlagetermin?this.anlagetermin.getDateString():''} ${this.notiztext}"}
 	
 	long getRefId() {
 		referenz.split(":")[1].split(" ")[0].toLong()
