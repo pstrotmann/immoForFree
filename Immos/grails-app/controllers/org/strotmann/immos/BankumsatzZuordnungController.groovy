@@ -127,11 +127,11 @@ class BankumsatzZuordnungController {
 		anzZahlung = 0
 		anzBankums = 0
 		//Sonderbehandlung Wüstenrot hart codiert
-		bUmsSpez(maxId,"%WUSTENROT BANK AG%","PETER STROTMANN").each {bUms->
+		bUmsSpez(maxId,"%2076596886%","WUESTENROT BAUSPARKASSE AG").each {bUms->
 			anzBankums++
 			def String s = bUms.verwendungszweck+bUms.kundenreferenz+'00'
 			def String[] sTeil = s.split('/')
-			sTeil[1..sTeil.length - 1].each {t ->
+			sTeil[2..sTeil.length - 1].each {t ->
 				def String[] tTeil = t.split(' ')
 				def String vnr = tTeil[1]
 				Kredit kr = Kredit.findByVertragsnummer(vnr)
@@ -148,22 +148,24 @@ class BankumsatzZuordnungController {
 		//Behandlung Wfa und Sparkasse Do
 		loe =[]
 		umsaetze.each {Bankumsatz bUms ->
-			anzBankums++
-			List <Kredit> kList = Kredit.findAll ("from Kredit")
-			kList.each {kr ->
+			if (bUms.beguenstigterZahlungspflichtiger != "WUESTENROT BAUSPARKASSE AG") {
+				anzBankums++
+				List <Kredit> kList = Kredit.findAll ("from Kredit")
+				kList.each {kr ->
 				def krVertragsnummer = kr.vertragsnummer?:'_'
-				if (bUms.verwendungszweck.contains(krVertragsnummer)
-				  ||bUms.kontonummerIBAN.contains(krVertragsnummer))
-				{
-					def Zahlung zahlung = new Zahlung()
-					zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-					zahlung.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
-					zahlung.bankumsatz = bUms
-					zahlung.kredit = kr
-					zahlung.save()
-					anzZahlung++
-					loe << bUms
+					if (bUms.verwendungszweck.contains(krVertragsnummer)
+							||bUms.kontonummerIBAN.contains(krVertragsnummer))
+					{
+						def Zahlung zahlung = new Zahlung()
+						zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
+						zahlung.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
+						zahlung.bankumsatz = bUms
+						zahlung.kredit = kr
+						zahlung.save()
+						anzZahlung++
+						loe << bUms
 					}
+				}
 			}
 		}
 		umsaetze = umsaetze - loe
