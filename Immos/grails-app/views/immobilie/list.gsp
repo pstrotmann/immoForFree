@@ -36,6 +36,8 @@
 						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Preis" /></div></th>
 						
 						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>
+						
+						<th><div align = right><g:message code="immobilie.einheitswert.label" default="Einheitswert" /></div></th>
 					
 					</tr>
 				</thead>
@@ -57,6 +59,8 @@
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstance[4]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
+						<td><div align = right><g:formatNumber number="${immobilieInstance[0].einheitswert}" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
 					</tr>
 				</g:each>
 				</tbody>
@@ -75,6 +79,8 @@
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumAnschaffung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumRestschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumEinheitswert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</tfoot>

@@ -249,6 +249,16 @@ class Immobilie {
 		betrag
 	}
 	
+	BigDecimal getEinheitswert() {
+		def BigDecimal betrag = 0
+		if (einheitswerte) {
+			einheitswerte.each {Einheitswert e ->
+				betrag = e.wert
+			}
+		}
+		betrag
+	}
+	
 	static BigDecimal getAnnuitaetensumme () {
 		def BigDecimal summe = 0
 		getImmobilien().each {Immobilie immo ->
@@ -258,7 +268,7 @@ class Immobilie {
 	}
 	
 	static Map getImmobilienUndSummen() {
-		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0]
+		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0,'sumEinheitswert':0]
 		def Calendar ago = Calendar.getInstance()
 		use (groovy.time.TimeCategory) {
 			ago.setTime(new Date() - 1.years)
@@ -270,11 +280,13 @@ class Immobilie {
 				def iAnnuitaet = immo.annuitaet
 				def iAnschaffung = immo.anschaffungspreis
 				def iRestschuld = immo.restschuld
-				iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld]
+				def iEinheitswert = immo.einheitswert
+				iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert]
 				iSum.sumJahresnetto += iJahresnetto
 				iSum.sumAnnuitaet += iAnnuitaet
 				iSum.sumAnschaffung += iAnschaffung
 				iSum.sumRestschuld += iRestschuld
+				iSum.sumEinheitswert += iEinheitswert
 			}
 		}
 		iSum
