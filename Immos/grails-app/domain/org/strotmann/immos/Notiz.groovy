@@ -100,8 +100,9 @@ class Notiz {
 			return []
 		String r = "${domName}.id:${id.toString()} %"
 		def c = Notiz.createCriteria()
-		c.list {
+		List l = c.list {
 			ilike("referenz",  "${r}")
 		}
+		l.sort{Notiz n -> n.anlagetermin}
 	}
 }

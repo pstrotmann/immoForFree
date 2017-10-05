@@ -1,49 +1,538 @@
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 02.01.17 ========================
+==============================Am Gulloh  49 , 44339  Dortmund ==== 23.07.17 =====================================
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 26.01.2017 BEL 230601754385 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieverso              -106,00
+ 26.01.2017 BEL 230201388777 VK 2203895 44339, Am Gulloh 49 Brechten REC MONTANA Energieverso               -19,77
+ 30.01.2017 VK 602502009DO, AM GULLOH 49, Rechnung 4000265305, Faelligke Dortmunder Netz GmbH               118,35
+ 31.01.2017 VK 602502068 ,DO, AM GULLOH 49, Rechnung 5008442706, Faellig Dortmunder Netz GmbH               -13,71
+ 01.02.2017 VK 310461773 ,DO, AM GULLOH 49, Rechnung 6001763102, Faellig Dortmunder Energie- und Wasser     -31,11
+ 01.02.2017 019/20087108 ReNr 000881258 DATUM 01.02.2017, 12.38 UHR1.TAN Buergel                           -119,00
+ 13.02.2017 ReNr 58429, 3 �-auftr�ge DATUM 12.02.2017, 09.49 UHR1.TAN 06 Buergel                            -89,25
+ 15.02.2017 BEL 230601887989 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieversorgung GmbH    -106,00
+ 15.02.2017 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -745,88
+ 27.02.2017 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30700154178, Dortmunder Netz GmbH               192,00
+ 02.03.2017 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650013934 Dortmunder Energie- und Wasser    -178,00
+ 03.03.2017 ReNr 2016-402 Glasreinigung Am Gulloh 49 Kunden-Nr 1984-0087 Crystal Clear Glasreinigung       -300,00
+ 15.03.2017 BEL 230401366701 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieversorgung GmbH    -106,00
+ 27.03.2017 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30700154178, Dortmunder Netz GmbH               192,00
+ 30.03.2017 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650013934 Dortmunder Energie- und Wasser    -178,00
+ 03.04.2017 Sachversicherung S51216759 01.04.2017                        Westfaelische Provinzial          -134,28
+ 18.04.2017 BEL 230001666264 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieverso              -106,00
+ 26.04.2017 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30700154178, Dortmunder Netz GmbH               192,00
+ 02.05.2017 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650013934 Dortmunder Energie- und Wasser    -178,00
+ 15.05.2017 BEL 230401512399 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieversorgung GmbH    -106,00
+ 15.05.2017 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -745,86
+ 24.05.2017 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30700154178, Dortmunder Netz GmbH               192,00
+ 30.05.2017 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650013934 Dortmunder Energie- und Wasser    -178,00
+ 16.06.2017 BEL 230602040434 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieversorgung GmbH    -106,00
+ 27.06.2017 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30700154178, Dortmunder Netz GmbH               192,00
+ 30.06.2017 VK 310461773 ,DO, AM GULLOH 49, Abschlagsrechnung 4650013934 Dortmunder Energie- und Wasser    -178,00
+ 03.07.2017 Hausratversicherung S51490875 Am Gulloh 49 44339 Dortmund 01 Westfaelische Provinzial          -430,61
+ 03.07.2017 Gebaeudeversicherung S50760187 Am Gulloh 49 44339 Dortmund 0 Westfaelische Provinzial         -1189,76
+ 07.07.2017 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  BUERGEL DORTMUND DOENEKE GMBH       64,08
+                                                                                  Summe nicht umlagefähig -4202,80
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 27.02.2017 ReNr: 544/17/461 V.22.2.17 Am Gulloh 49, �berpr�fung DATUM 2 Lange Schornsteinfeger             -28,13
+ 30.05.2017 ReNr: 544/17/592 V.30.5.17 Am Gulloh 49, �berpr�fung DATUM 3 Lange Schornsteinfeger             -53,10
+                                                                                          Summe umlagefähig -81,23
+
+                                                                                   Summe 44339Am Gulloh49 -4284,03
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 23.07.17 ========================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2017 WUSTENROT BANK AG 01/17 2071008242 194,2301/17 2073032698 38 PETER STROTMANN                   -194,23
+ 01.03.2017 WUSTENROT BANK AG 02/17 2073032698 385,4002/17 2071008242 19 PETER STROTMANN                   -194,00
+ 03.04.2017 WUSTENROT BANK AG 03/17 2073032698 385,4003/17 2076596886 42 PETER STROTMANN                   -194,23
+ 02.05.2017 04/17 2076596886 04/17 2073032698 385,4004/17 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 01.06.2017 05/17 2076596886 05/17 2071008242 194,2305/17 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+ 30.06.2017 per 30.06.17 Antrag 6402896952 Objekt 44339 Dortmund, Linden NRW.BANK                         -3862,83
+ 04.07.2017 06/17 2076596886 06/17 2071008242 194,2306/17 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+                                                                                             Summe Kredit -5027,75
 ------------------------------Miete-------------------------------------------------------------------------------
  30.12.2016 L01.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
  30.12.2016 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 0602 Bundesagentur fur Arbeit-Servi     760,00
  02.01.2017 MIETE                                                        Halina Czerny                      466,00
  02.01.2017 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
-                                                                                               Summe Miete 2134,27
+ 03.01.2017 MIETE JANUAR 2017,                                           EUGENIUSZ KRZEMIEN                 463,39
+ 09.01.2017 Miete lindenhorster 236 aksakal                              Aksakal Oztekin                    694,52
+ 17.01.2017 MIETE                                                        Sunay Sumer                        720,00
+ 31.01.2017 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 3802 Bundesagentur fur Arbeit-Servi     677,86
+ 01.02.2017 L02.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 01.02.2017 MIETE                                                        Halina Czerny                      466,00
+ 02.02.2017 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.02.2017 MIETE FEBRUAR 2017                                           EUGENIUSZ KRZEMIEN                 463,39
+ 07.02.2017 Miete lindenhorsterstr 236. Februar 2017                     OEZTEKIN AKSAKAL                   694,52
+ 16.02.2017 MIETE                                                        Sunay Sumer                        720,00
+ 28.02.2017 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 3802 Bundesagentur fur Arbeit-Servi     677,86
+ 01.03.2017 L03.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 01.03.2017 MIETE                                                        Halina Czerny                      466,00
+ 02.03.2017 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.03.2017 MIETE FEBRUAR 2017,                                          EUGENIUSZ KRZEMIEN                 463,39
+ 07.03.2017 Miete lindenhorsterstr 236 maerz 2017                        OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 13.03.2017 BETRIEBSKOSTENERSTATTUNG 2016 DATUM 13.03.2017, 14.28 UHR1.T CZERNY,HALINA                      -69,33
+ 13.03.2017 HK/NK 2016 DATUM 13.03.2017, 14.26 UHR1.TAN 996595           Suemer                            -183,24
+ 13.03.2017 HK/NK 2016 DATUM 13.03.2017, 14.25 UHR1.TAN 707748           Krzemien                          -252,02
+ 13.03.2017 HK/NK ERSTATTUNG 2016DATUM 13.03.2017, 14.23 UHR1.TAN 590405 AKSAKAL, OEZTEKIN                 -304,43
+ 13.03.2017 HK/NK- Erstattung 2016DATUM 13.03.2017, 14.22 UHR1.TAN 86838 Kuzay                             -267,48
+ 14.03.2017 HK/NK- Erstattung 2016DATUM 14.03.2017, 08.34 UHR1.TAN 93600 Kuzay                             -267,48
+ 14.03.2017 RUECKUEBERWEISUNG Konto aufgeloest HK/NK- Erstattung 2016    Kuzay                              267,48
+ 16.03.2017 MIETE                                                        Sunay Sumer                        720,00
+ 31.03.2017 L04.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 31.03.2017 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 1002 Bundesagentur fur Arbeit-Servi     677,86
+ 03.04.2017 MIETE                                                        Halina Czerny                      466,00
+ 03.04.2017 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 04.04.2017 MIETE APRIL 2017                                             EUGENIUSZ KRZEMIEN                 463,39
+ 06.04.2017 Miete lindenhorsterstr 236. April 2017                       OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 19.04.2017 MIETE                                                        Sunay Sumer                        720,00
+ 27.04.2017 Miete lindenhorsterstr 236.Mai 2017                          OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 28.04.2017 L05.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 28.04.2017 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 7202 Bundesagentur fur Arbeit-Servi     677,86
+ 02.05.2017 MIETE                                                        Halina Czerny                      466,00
+ 03.05.2017 MIETE MAI 2017                                               EUGENIUSZ KRZEMIEN                 463,39
+ 16.05.2017 MIETE                                                        Sunay Sumer                        720,00
+ 31.05.2017 Miete Treibmann 33302//0002589 / 33302 Treibmann, Jenny 2002 Bundesagentur fur Arbeit-Servi     595,19
+ 01.06.2017 L06.17/3-000-0-37-21-0156-8 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 01.06.2017 MIETE                                                        Halina Czerny                      466,00
+ 06.06.2017 Miete lindenhorsterstr 236. Juni 2017                        OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 06.06.2017 MIETE JUNI 2017                                              EUGENIUSZ KRZEMIEN                 463,39
+ 12.06.2017 miete                                                        Kudret Ahmet Kuzay und             500,27
+ 16.06.2017 MIETE                                                        Sunay Sumer                        720,00
+ 30.06.2017 L07.17/3-000-0-35-31-0004-6 MIETE FAIZULLAH HABIBI F R HABIB Stadt Dortmund                     400,00
+ 03.07.2017 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 03.07.2017 MIETE                                                        Halina Czerny                      466,00
+ 04.07.2017 MIETE JULI 2017.                                             EUGENIUSZ KRZEMIEN                 463,39
+ 05.07.2017 Miete lindenhorsterstr 236. Juli 2017                        OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+                                                                                              Summe Miete 24519,12
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 11.01.2017 ReNr 003-2017 v. 10.1.2017 Lindenhorster 236, Sicherungen DG Hacheneuer                        -387,94
+ 17.01.2017 RE-NR 4816-16 KDNR 52 V.16.1.17 Lindenhorster 236 Aksakal, W PAGA BAU U SICHERHEITSTECH.       -293,63
+ 27.01.2017 ReNr 026-2017 v. 10.1.2017 Lindenhorster 236, Ventilator DG  Hacheneuer                        -346,53
+ 28.02.2017 KD.NR 10067 R005616 v.25.02.2017 Lindenhorster 236, 44339 Do LEIDAG, WOLFGANG                   -79,55
+ 02.03.2017 RE 050-2017, V. 28.2.2007 LINDENHORST, L�fter DATUM 02.03.20 HACHENEUER ELEKTROTECHNIK         -262,99
+ 20.04.2017 RENR.1700480/65532 V.18.4.17 STROTMANN./.Treibmann K�ndigung HAUS UND GRUND                     -59,50
+ 01.06.2017 471.578.047-1 ABS. 05/17 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -264,00
+ 28.06.2017 ReNr 151-2017 v. 27.6.2017 Lindenhorster 236, DG re DATUM 28 Hacheneuer                        -200,93
+ 03.07.2017 471.578.047-1 ABS. 06/17 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -264,00
+                                                                                  Summe nicht umlagefähig -2159,07
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 16.01.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 18.01.2017 RE.NR. 406849660v. 16.1.17 Lindenhorster 236,LiegNr 5300769  BRUNATA Metrona                    -46,59
+ 18.01.2017 RE.NR. 406845138 v. 15.1.17 Lindenhorster 236,LiegNr 5300769 BRUNATA Metrona                    -12,26
+ 18.01.2017 RE.NR. 406849662 v. 16.1.17 Lindenhorster 236,LiegNr 5300769 BRUNATA Metrona                   -102,64
+ 18.01.2017 RE.NR. 406849661 v. 16.1.17 Lindenhorster 236,LiegNr 5300769 BRUNATA Metrona                   -167,79
+ 18.01.2017 RE.NR. 406849659 v. 16.1.17 Lindenhorster 236,LiegNr 5300769 BRUNATA Metrona                    -12,26
+ 18.01.2017 031583385D 070 028 397 D Sonderleerung Lindenhorst DATUM 18. Stadtkasse Dortmund               -126,34
+ 25.01.2017 230001551964 BEL 230001551964 VK 2139587 44339, Lindenhorste MONTANA Energieverso              1258,27
+ 26.01.2017 BEL 230601754384 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieverso              -328,00
+ 30.01.2017 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -164,00
+ 30.01.2017 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -33,00
+ 15.02.2017 BEL 230601887988 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieversorgung GmbH    -328,00
+ 15.02.2017 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1407,94
+ 15.02.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 16.02.2017 RE.NR. 009369186 v. 14.2.17 Lindenhorster 236,KdNrNr 3433703 BRUNATA Metrona                   -135,36
+ 16.02.2017 RE.NR. 900066339 v. 15.2.17 Lindenhorster 236,KdNrNr 3433703 BRUNATA Metrona                   -431,02
+ 03.03.2017 VK 304488984DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser     164,39
+ 03.03.2017 VK 304488933DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser      19,26
+ 15.03.2017 BEL 230401366700 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieversorgung GmbH    -328,00
+ 15.03.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 29.03.2017 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                    -126,34
+ 29.03.2017 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                     126,34
+ 30.03.2017 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -144,00
+ 30.03.2017 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+ 18.04.2017 BEL 230001666263 VK 2139587 44339, Lindenhorster Str. 236 AB MONTANA Energieverso              -328,00
+ 18.04.2017 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                    -126,34
+ 18.04.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 02.05.2017 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+ 02.05.2017 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -144,00
+ 15.05.2017 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1534,31
+ 15.05.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.05.2017 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -144,00
+ 30.05.2017 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+ 31.05.2017 BEL 230601965404 VK 2139587 44339, Lindenhorster Str. 236 RE MONTANA Energieversorgung GmbH    -376,99
+ 16.06.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 30.06.2017 VK 304488933 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser     -31,00
+ 30.06.2017 VK 304488984 ,DO, LINDENHORSTER STR. 236, Abschlagsrechnung  Dortmunder Energie- und Wasser    -144,00
+                                                                                        Summe umlagefähig -5996,92
 
-                                                                       Summe 44339Lindenhorster Strasse236 2134,27
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 02.01.17 =====================================
+                                                                      Summe 44339Lindenhorster Strasse236 11335,38
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 23.07.17 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2017 Darl.-Leistung 855391880 F�r 01.01.2017 - 30.01.2017 Zinsen  SPARKASSE DORTMUND                -224,78
+ 01.03.2017 Darl.-Leistung 855391880 F�r 01.02.2017 - 28.02.2017 Zinsen  SPARKASSE DORTMUND                -224,78
+ 01.04.2017 Darl.-Leistung 855391880 F�r 01.03.2017 - 30.03.2017 Zinsen  SPARKASSE DORTMUND                -224,78
+ 01.05.2017 Darl.-Leistung 855391880 F�r 01.04.2017 - 30.04.2017 Zinsen  SPARKASSE DORTMUND                -224,78
+ 02.05.2017 Sondertilgung DATUM 02.05.2017, 09.44 UHR1.TAN 152672        Strotmann                         -797,36
+ 02.05.2017 Sondertilgung DATUM 02.05.2017, 09.41 UHR1.TAN 036883        Strotmann                        -2500,00
+ 01.06.2017 Darl.-Leistung 855391880 F�r 01.05.2017 - 30.05.2017 Zinsen  SPARKASSE DORTMUND                -224,78
+ 30.06.2017 per 30.06.17 Antrag 6403042481 Objekt 44536 Luenen, Lorenzst NRW.BANK                         -3163,25
+ 01.07.2017 Darl.-Leistung 855391880 F�r 01.06.2017 - 30.06.2017 Zinsen  SPARKASSE DORTMUND                -224,78
+                                                                                             Summe Kredit -7809,29
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
  02.01.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
  02.01.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
  02.01.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
  02.01.2017 MIETE                                                        Semra Sezgin                       589,00
-                                                                                               Summe Miete 3022,00
+ 03.01.2017 Miete                                                        Grofe, Renate                      471,50
+ 01.02.2017 MIETE                                                        Semra Sezgin                       589,00
+ 01.02.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 01.02.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.02.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.02.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 02.02.2017 Miete                                                        Grofe, Renate                      471,50
+ 01.03.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.03.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 01.03.2017 MIETE                                                        Semra Sezgin                       589,00
+ 01.03.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.03.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 02.03.2017 Miete                                                        Grofe, Renate                      471,50
+ 03.04.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 03.04.2017 MIETE                                                        Semra Sezgin                       589,00
+ 03.04.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 03.04.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 03.04.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 04.04.2017 Miete                                                        Grofe, Renate                      471,50
+ 02.05.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 02.05.2017 MIETE                                                        Semra Sezgin                       589,00
+ 02.05.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 02.05.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 02.05.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 03.05.2017 Miete                                                        Grofe, Renate                      471,50
+ 01.06.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 01.06.2017 MIETE                                                        Semra Sezgin                       589,00
+ 01.06.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.06.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.06.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 02.06.2017 Miete                                                        Grofe, Renate                      471,50
+ 03.07.2017 miete lorenzstr 5                                            Patrick Hanke                      625,00
+ 03.07.2017 MIETE                                                        Semra Sezgin                       589,00
+ 03.07.2017 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 03.07.2017 Miete Lorenzstr.5                                            Schier, Stefanie                   496,00
+ 03.07.2017 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 04.07.2017 Miete                                                        Grofe, Renate                      471,50
+                                                                                              Summe Miete 24454,50
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 20.01.2017 RECHNUNG VOM 13.01.2017 NBL NATURSTEINE BECKER GMBH, NR. 003 ANDREAS JUNGE UND BETTINA BLEC      84,75
+ 30.01.2017 KD.NR 10067 R005605 v.21.01.2017 Lorenzstr 5,L�nen Entw�sser LEIDAG, WOLFGANG                  -792,93
+ 13.02.2017 RE-NR 339-17 KDNR 52 V.7.2.17 Lorenzstr. 5 Sezgin, Rollade G PAGA BAU U SICHERHEITSTECH.        -89,25
+ 15.03.2017 eprimo sagt danke                                            eprimo GmbH                       -137,00
+ 03.04.2017 RENR 20170497,v.29.3.17 Abgasweg Heizungsanlage erneuert nac Faulstich Haustechnik            -1333,65
+ 03.04.2017 RENR 20170496,v.29.3.17 Reparatur Heizungsanlage, Codierstec Faulstich Haustechnik             -233,30
+ 18.04.2017 eprimo sagt danke                                            eprimo GmbH                       -137,00
+ 15.05.2017 eprimo sagt danke                                            eprimo GmbH                       -137,00
+ 16.06.2017 eprimo sagt danke                                            eprimo GmbH                       -137,00
+                                                                                  Summe nicht umlagefähig -2912,38
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2017 3500504134069 050413406 69-467-1049/9 03550051 LORENZSTR 5,5 ISTA Luenen                       -939,99
+ 06.01.2017 3500504130813 050413081 69-467-0256/9 03550051 LORENZSTR 5,5 ISTA Luenen                       -105,20
+ 16.01.2017 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
+ 27.01.2017 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Rechnu Stadtwerke Luenen GmbH            -196,58
+ 27.01.2017 3836055397 OB-33448242 EUR 30,66 BEITRAG 0117 - 0117         Knappschaft-Bahn-See               -30,66
+ 31.01.2017 Rechnung Januar 2017 KDNR06008091786 VERTR NR6000776051      Unitymedia NRW GmbH              -1210,32
+ 01.02.2017 874.432.610-1 ABS. 01/17 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -140,00
+ 15.02.2017 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -111,00
+ 15.02.2017 ENTWAESSERUNG BESCHEIDNUMMER 11711582 /60913 371,32          Stadtbetrieb Abwasserbeseitigu    -371,32
+ 15.02.2017 600122004608 ABFALLBESEITIGUNG 229,49/ GRUNDSTEUER B 318,60/ Stadt Luenen Stadtkasse           -548,09
+ 15.02.2017 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
+ 24.02.2017 4005588783 OB-33448242 EUR 30,66 BEITRAG 0217 - 0217         Knappschaft-Bahn-See               -30,66
+ 27.02.2017 1599.000/17/00857 lORENZSTRASSE 5, RE 2017, Kehrarbeiten DAT God, Bjoern                        -28,39
+ 27.02.2017 1599.000/17/00858 lORENZSTRASSE 5, RE 2017, Feuerst�ttenbesc God, Bjoern                        -54,61
+ 15.03.2017 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -111,00
+ 15.03.2017 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
+ 29.03.2017 0852459737 OB-33448242 EUR 30,66 BEITRAG 0317 - 0317         Knappschaft-Bahn-See               -30,66
+ 30.03.2017 874.432.610-1 Jahresabrechnung fuer 2017 RNr. LM2017/0003411 MAINGAU ENERGIE GMBH              -102,00
+ 06.04.2017 RENR 20170495,v.29.3.17 Wartung Heizungsanlage, Abzug 50 Eur Faulstich Haustechnik             -428,99
+ 18.04.2017 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -111,00
+ 18.04.2017 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
+ 20.04.2017 ReNr 20171605130 Hausmeister Brambauer DATUM 20.04.2017, 12. VBG Hamburg                        -49,18
+ 26.04.2017 8254591707 OB-33448242 EUR 30,66 BEITRAG 0417 - 0417         Knappschaft-Bahn-See               -30,66
+ 09.05.2017 3503850171 EINZUG BEITRAG                                    Knappschaft-Bahn-See                -3,85
+ 15.05.2017 ENTWAESSERUNG BESCHEIDNUMMER 11711582 /60913 371,33          Stadtbetrieb Abwasserbeseitigu    -371,33
+ 15.05.2017 600122004608 ABFALLBESEITIGUNG 229,49/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -548,08
+ 15.05.2017 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -111,00
+ 15.05.2017 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
+ 29.05.2017 9254690329 OB-33448242 EUR 30,66 BEITRAG 0517 - 0517         Knappschaft-Bahn-See               -30,66
+ 16.06.2017 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -111,00
+ 16.06.2017 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
+ 28.06.2017 0254799466 OB-33448242 EUR 30,66 BEITRAG 0617 - 0617         Knappschaft-Bahn-See               -30,66
+                                                                                        Summe umlagefähig -6424,89
 
-                                                                                 Summe 44536Lorenzstrasse5 3022,00
-==============================Haferkamp  1 , 59192  Bergkamen ==== 02.01.17 =====================================
+                                                                                 Summe 44536Lorenzstrasse5 7307,94
+==============================Heinrichstraße  44 , 59077  Hamm ==== 23.07.17 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2017 Darl.-Leistung 855369559 F�r 01.01.2017 - 30.01.2017 Zinsen  SPARKASSE DORTMUND                -250,00
+ 01.03.2017 Darl.-Leistung 855369559 F�r 01.02.2017 - 28.02.2017 Zinsen  SPARKASSE DORTMUND                -250,00
+ 01.04.2017 Darl.-Leistung 855369559 F�r 01.03.2017 - 30.03.2017 Zinsen  SPARKASSE DORTMUND                -250,00
+ 01.05.2017 Darl.-Leistung 855369559 F�r 01.04.2017 - 30.04.2017 Zinsen  SPARKASSE DORTMUND                -250,00
+ 01.06.2017 Darl.-Leistung 855369559 F�r 01.05.2017 - 30.05.2017 Zinsen  SPARKASSE DORTMUND                -250,00
+ 30.06.2017 per 30.06.17 Antrag 6403029926 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
+ 01.07.2017 Darl.-Leistung 855369559 F�r 01.06.2017 - 30.06.2017 Zinsen  SPARKASSE DORTMUND                -250,00
+ 10.07.2017 Sonder Tilgung DATUM 10.07.2017, 15.05 UHR1.TAN 310970       Strotmann                         -500,00
+ 10.07.2017 Sondertilgung DATUM 10.07.2017, 15.03 UHR1.TAN 418037        Strotmann                        -2500,00
+                                                                                             Summe Kredit -5292,12
+------------------------------Miete-------------------------------------------------------------------------------
+ 11.01.2017 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
+ 14.02.2017 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
+ 13.03.2017 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
+ 12.04.2017 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
+ 12.05.2017 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
+ 13.06.2017 miete szlerarski                                             Tomasz Szlefarski                  700,00
+ 12.07.2017 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  800,00
+                                                                                               Summe Miete 5000,00
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2017 3500504144158 050414415 69-470-1140/3 03550051 Heinrichstr.  ISTA DEUTSCHLAND GMBH Essen        -30,37
+ 31.01.2017 UnityMedia Hamm Heinrichstr 44,46 149103350 DATUM 31.01.2017 HABRE                             -301,20
+ 15.02.2017 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -123,77
+ 15.05.2017 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -123,77
+ 27.06.2017 1530/17/971 HEINRICHSTR 44 Schornsteinfegerarbeiten 2017 DAT BAUCH, SCHORNSTEINFEGER            -51,84
+ 03.07.2017 Gebaeudeversicherung S900515813 Heinrichstr. 44 59077 Hamm 0 Westfaelische Provinzial          -240,95
+                                                                                         Summe umlagefähig -871,90
+
+                                                                              Summe 59077Heinrichstraße44 -1164,02
+==============================Heinrichstraße  46 , 59077  Hamm ==== 23.07.17 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 30.06.2017 per 30.06.17 Antrag 6403029934 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
+                                                                                              Summe Kredit -792,12
+------------------------------Miete-------------------------------------------------------------------------------
+ 04.01.2017 Erstattung Nebenkosten 2016 DATUM 04.01.2017, 09.07 UHR1.TAN Aschmoneit, Sascha                 -64,96
+ 04.01.2017 Miete 01/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+ 02.02.2017 Miete 02/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+ 28.02.2017 Miete 03/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+ 03.04.2017 Miete 04/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+ 05.05.2017 Miete 05/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+ 05.06.2017 Miete 06/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+ 05.07.2017 Miete 07/17 Heinrichstr. 46                                  Sascha Romano Aschmoneit           720,00
+                                                                                               Summe Miete 4975,04
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 13.01.2017 ReNr 170009, KdNr 22487 v. 12.1.2017 Heizung Heinrichstr 46  Bahne Heizung                     -144,70
+ 13.02.2017 ReNr 170158, KdNr 22487 v. 7.2.2017 Heizung, Speicher Heinri Bahne Heizung                    -1857,97
+                                                                                  Summe nicht umlagefähig -2002,67
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2017 3500504144156 050414415 69-470-1142/0 03550051 Heinrichstr.  ISTA DEUTSCHLAND GMBH Essen        -34,16
+ 15.02.2017 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -135,02
+ 15.05.2017 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -135,02
+ 27.06.2017 1529/17/970 HEINRICHSTR 46 Schornsteinfegerarbeiten 2017 DAT BAUCH, SCHORNSTEINFEGER            -51,84
+ 03.07.2017 Gebaeudeversicherung S900515810 Heinrichstr. 46 59077 Hamm 0 Westfaelische Provinzial          -240,95
+                                                                                         Summe umlagefähig -596,99
+
+                                                                               Summe 59077Heinrichstraße46 1583,26
+==============================Haferkamp  1 , 59192  Bergkamen ==== 23.07.17 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 23.01.2017 sondertilgung DATUM 23.01.2017, 17.01 UHR1.TAN 140322        Strotmann                        -1306,05
+ 23.01.2017 Sondertilgung DATUM 23.01.2017, 16.56 UHR1.TAN 734225        Strotmann                        -2500,00
+ 01.02.2017 Darl.-Leistung 855276038 F�r 01.01.2017 - 30.01.2017 Zinsen  SPARKASSE DORTMUND                -504,00
+ 01.03.2017 Darl.-Leistung 855276038 F�r 01.02.2017 - 28.02.2017 Zinsen  SPARKASSE DORTMUND                -504,00
+ 01.04.2017 Darl.-Leistung 855276038 F�r 01.03.2017 - 30.03.2017 Zinsen  SPARKASSE DORTMUND                -504,00
+ 01.05.2017 Darl.-Leistung 855276038 F�r 01.04.2017 - 30.04.2017 Zinsen  SPARKASSE DORTMUND                -504,00
+ 01.06.2017 Darl.-Leistung 855276038 F�r 01.05.2017 - 30.05.2017 Zinsen  SPARKASSE DORTMUND                -504,00
+ 30.06.2017 per 30.06.17 Antrag 6403355537 Objekt 59192 Bergkamen, Hafer NRW.BANK                          -694,84
+ 01.07.2017 Darl.-Leistung 855276038 F�r 01.06.2017 - 30.06.2017 Zinsen  SPARKASSE DORTMUND                -504,00
+                                                                                             Summe Kredit -7524,89
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
-                                                                                                Summe Miete 745,00
+ 10.01.2017 betriebskostenabrechnung 2016 haferkamp 1, bergkamen         Dimitri und Svetlana Diener          2,34
+ 01.02.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+ 01.03.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+ 03.04.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+ 02.05.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+ 01.06.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+ 03.07.2017 Miete                                                        Dimitri und Svetlana Diener        745,00
+                                                                                               Summe Miete 5217,34
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2017 3500504144140 050414414 69-470-1139/0 03550051 Haferkamp 1,  ISTA bergkamen                     -30,37
+ 15.02.2017 01009000295902000 JHV GBA 2017 Entwaess 15.02.17 188,95 Entw Stadt Bergkamen                   -346,54
+ 16.05.2017 01009000295902000 JHV GBA 2017 Entwaess 15.05.17 206,49 Entw Stadt Bergkamen                   -358,65
+ 23.06.2017 KDNR 10486 RENR 170891,v.22.06.17 AM WESTENDORP 12,OLFEN,War BUDDE, HEIZUNG                    -110,08
+                                                                                         Summe umlagefähig -845,64
 
-                                                                                      Summe 59192Haferkamp1 745,00
-==============================Haferkamp  3 , 59192  Bergkamen ==== 02.01.17 =====================================
+                                                                                    Summe 59192Haferkamp1 -3153,19
+==============================Haferkamp  3 , 59192  Bergkamen ==== 23.07.17 =====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 25.01.2017 Sondertilgung 5% von urspr�nglicher Summe DATUM 25.01.2017,  Strotmann                        -1800,00
+ 25.01.2017 Sondertilgung 5% v.urspr�nglicher Kreditsumme (Teilbetrag) D Strotmann                        -2464,77
+ 01.02.2017 Darl.-Leistung 855276046 F�r 01.01.2017 - 30.01.2017 Zinsen  SPARKASSE DORTMUND                -538,90
+ 01.03.2017 Darl.-Leistung 855276046 F�r 01.02.2017 - 28.02.2017 Zinsen  SPARKASSE DORTMUND                -538,90
+ 01.04.2017 Darl.-Leistung 855276046 F�r 01.03.2017 - 30.03.2017 Zinsen  SPARKASSE DORTMUND                -538,90
+ 01.05.2017 Darl.-Leistung 855276046 F�r 01.04.2017 - 30.04.2017 Zinsen  SPARKASSE DORTMUND                -538,90
+ 01.06.2017 Darl.-Leistung 855276046 F�r 01.05.2017 - 30.05.2017 Zinsen  SPARKASSE DORTMUND                -538,90
+ 30.06.2017 per 30.06.17 Antrag 6403372516 Objekt 59192 Bergkamen, Hafer NRW.BANK                          -694,84
+ 01.07.2017 Darl.-Leistung 855276046 F�r 01.06.2017 - 30.06.2017 Zinsen  SPARKASSE DORTMUND                -538,90
+                                                                                             Summe Kredit -8193,01
 ------------------------------Miete-------------------------------------------------------------------------------
  29.12.2016 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     760,00
-                                                                                                Summe Miete 760,00
+ 03.01.2017 Betriebskostenerstattung 2016 DATUM 03.01.2017, 11.11 UHR1.T Brzoza                            -160,91
+ 31.01.2017 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     760,00
+ 01.03.2017 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     775,00
+ 28.03.2017 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     775,00
+ 28.04.2017 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     775,00
+ 29.05.2017 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     775,00
+ 28.06.2017 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     775,00
+                                                                                               Summe Miete 5234,09
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2017 3500504144131 050414413 69-470-1138/1 03550051 Haferkamp 3,  ISTA bergkamen                     -30,37
+ 15.02.2017 01009000295902000 JHV GBA 2017 Entwaess 15.02.17 188,95 Entw Stadt Bergkamen                   -362,74
+ 16.05.2017 01009000295902000 JHV GBA 2017 Entwaess 15.05.17 206,49 Entw Stadt Bergkamen                   -359,73
+                                                                                         Summe umlagefähig -752,84
 
-                                                                                      Summe 59192Haferkamp3 760,00
-==============================Am Westendorp  12 , 59399  Olfen ==== 02.01.17 ====================================
+                                                                                    Summe 59192Haferkamp3 -3711,76
+==============================Am Westendorp  12 , 59399  Olfen ==== 23.07.17 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2017 WUSTENROT BANK AG 01/17 2071008242 194,2301/17 2073032698 38 PETER STROTMANN                   -385,00
+ 01.03.2017 WUSTENROT BANK AG 02/17 2073032698 385,4002/17 2071008242 19 PETER STROTMANN                   -385,40
+ 03.04.2017 WUSTENROT BANK AG 03/17 2073032698 385,4003/17 2076596886 42 PETER STROTMANN                   -385,40
+ 02.05.2017 04/17 2076596886 04/17 2073032698 385,4004/17 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.06.2017 05/17 2076596886 05/17 2071008242 194,2305/17 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+ 04.07.2017 06/17 2076596886 06/17 2071008242 194,2306/17 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+                                                                                             Summe Kredit -2311,20
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2017 Miete                                                        Helga Prigge                       670,00
  02.01.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
-                                                                                               Summe Miete 1360,00
+ 03.01.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.02.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 01.02.2017 Miete                                                        Helga Prigge                       670,00
+ 02.02.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 13.02.2017 Erstattung HK/NK 2016, siehe Abrechnung v.13.2.2016 DATUM 13 LUDWIG,OLFEN                      -238,76
+ 13.02.2017 HK u NK R�ck 2016, siehe Abrechnung 13 .2.16 DATUM 13.02.201 Prigge                            -143,37
+ 28.02.2017 Nachzahlung 2016                                             Klaus-Dieter Rosenthal             135,12
+ 01.03.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 01.03.2017 Miete                                                        Helga Prigge                       670,00
+ 02.03.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 03.04.2017 Miete                                                        Helga Prigge                       670,00
+ 03.04.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 04.04.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 02.05.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 02.05.2017 Miete                                                        Helga Prigge                       670,00
+ 03.05.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 01.06.2017 Miete                                                        Helga Prigge                       670,00
+ 01.06.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 02.06.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+ 03.07.2017 Miete                                                        Klaus-Dieter Rosenthal             690,00
+ 03.07.2017 Miete                                                        Helga Prigge                       670,00
+ 04.07.2017 MIETE UND NK                                                 Thomas Ludwig                      545,00
+                                                                                              Summe Miete 13087,99
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 11.04.2017 KDNR 10486 RENR 170527,v.7.4.17 AM WESTENDORP 12,OLFEN,Rosen BUDDE, HEIZUNG                     -41,71
+                                                                                    Summe nicht umlagefähig -41,71
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2017 3500504453101 050445310 76-471-0211/0 03550051 Am Westendorp ISTA DEUTSCHLAND GMBH Essen       -153,45
+ 10.01.2017 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -100,00
+ 12.01.2017 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE      -68,25
+ 12.01.2017 HUK-COBURG-Allgemeine, GEWAESSERSCHADEN-HAFTPFL. 735/006365- HUK-COBURG UNTERNEHMENSGRUPPE      -25,00
+ 01.02.2017 B13422363259Vertragskonto 1365004814                         Stadtwerke Luenen GmbH               7,46
+ 13.02.2017 3500654692835 65469283 76-471-0211/0 03550051 Am Westendorp  ISTA DEUTSCHLAND GMBH Essen        -77,84
+ 15.02.2017 Vertragskonto 1365004814 ,Abschlag - 02.2017                 Stadtwerke Luenen GmbH             -24,00
+ 02.03.2017 RECHNR 592/17/216 V. 28.2.17 AM WESTENDORP 12. OLFEN DATUM 0 BERTELSBECK, SCHORNSTEINFEG        -54,68
+ 13.03.2017 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -100,00
+ 15.03.2017 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -265,94
+ 15.03.2017 Vertragskonto 1365004814 ,Abschlag - 03.2017                 Stadtwerke Luenen GmbH             -24,00
+ 18.04.2017 Vertragskonto 1365004814 ,Abschlag - 04.2017                 Stadtwerke Luenen GmbH             -24,00
+ 11.05.2017 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -100,00
+ 15.05.2017 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -365,82
+ 15.05.2017 Vertragskonto 1365004814 ,Abschlag - 05.2017                 Stadtwerke Luenen GmbH             -24,00
+ 16.06.2017 Vertragskonto 1365004814 ,Abschlag - 06.2017                 Stadtwerke Luenen GmbH             -24,00
+ 11.07.2017 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -100,00
+                                                                                        Summe umlagefähig -1523,52
 
-                                                                                Summe 59399Am Westendorp12 1360,00
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 02.01.17 =============================
+                                                                                Summe 59399Am Westendorp12 9211,56
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 23.07.17 =============================
+------------------------------Kredit------------------------------------------------------------------------------
+ 01.02.2017 WUSTENROT BANK AG 01/17 2071008242 194,2301/17 2073032698 38 PETER STROTMANN                   -425,74
+ 01.03.2017 WUSTENROT BANK AG 02/17 2073032698 385,4002/17 2071008242 19 PETER STROTMANN                   -425,74
+ 03.04.2017 WUSTENROT BANK AG 03/17 2073032698 385,4003/17 2076596886 42 PETER STROTMANN                   -425,00
+ 02.05.2017 04/17 2076596886 04/17 2073032698 385,4004/17 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 01.06.2017 05/17 2076596886 05/17 2071008242 194,2305/17 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+ 04.07.2017 06/17 2076596886 06/17 2071008242 194,2306/17 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+                                                                                             Summe Kredit -2553,70
 ------------------------------Miete-------------------------------------------------------------------------------
  19.12.2016 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
  30.12.2016 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
  02.01.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
  02.01.2017 Miete                                                        Kramer-Kersting, Christine         480,00
  02.01.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida                     695,00
-                                                                                               Summe Miete 3114,00
+ 17.01.2017 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 30.01.2017 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 01.02.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 01.02.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
+ 02.02.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
+ 17.02.2017 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 28.02.2017 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 01.03.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 01.03.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
+ 02.03.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
+ 17.03.2017 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 30.03.2017 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 03.04.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
+ 03.04.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 03.04.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
+ 18.04.2017 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 02.05.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
+ 02.05.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 02.05.2017 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 02.05.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
+ 17.05.2017 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 30.05.2017 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 01.06.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 01.06.2017 Miete + Nebenkosten                                          Hessel, Werner                     550,00
+ 02.06.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
+ 19.06.2017 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
+ 19.06.2017 Betriebskostenabrechnung 2016/17 v.18.6.17 DATUM 17.06.2017, Kraemer-Kersting                  -331,14
+ 19.06.2017 Betriebkostenabrechnung 2016/17 v.18.06.17 DATUM 17.06.2017, Voss                              -167,99
+ 19.06.2017 Heizkostenabrechnung 16/17 v.18.6.17 DATUM 17.06.2017, 17.47 Maida Benjamin                     -90,13
+ 19.06.2017 ERSTATTUNG HK/NK 2016/17 v.18.6.17 DATUM 17.06.2017, 17.41 U HESSEL, WERNER                    -922,93
+ 19.06.2017 Betriebskostenabrechnung 2016/17 v.18.06.17 DATUM 17.06.2017 MISCHKE, MANFRED                  -140,73
+ 29.06.2017 Nebenkostenabrechnung 01-04/2016 Saarbr�ckerweg 24/59439 Hol Anika Kathrin Heine                  9,00
+ 30.06.2017 Miete + Nebenkosten                                          Mischke, Manfred                   539,00
+ 03.07.2017 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
+ 03.07.2017 Miete                                                        Kramer-Kersting, Christine         480,00
+ 03.07.2017 Miete + Nebenkosten                                          Hessel, Werner                     500,00
+                                                                                              Summe Miete 20374,08
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 09.01.2017 6 Rauchmelder incl.Montage MAI001 DATUM 09.01.2017, 10.58 UH Maida Benjamin                     -90,00
+ 30.01.2017 KD.NR 10067 R005603 v.21.01.2017 Saarbr�ckerWeg 24, 59439 Ho LEIDAG, WOLFGANG                  -620,82
+ 01.02.2017 Entgeltabrechnung siehe Anlage                                                                  -28,70
+ 10.02.2017 M-Nr:168240 Strotmann,Peter                                  Haus + Grund - Haus-,Wohn- u.     -116,00
+ 28.02.2017 Entgeltabrechnung siehe Anlage                                                                  -20,45
+ 15.03.2017 eprimo sagt danke                                            eprimo GmbH                       -227,00
+ 22.03.2017 ReNr 40WHG17 DATUM 22.03.2017, 12.09 UHR1.TAN 018074         Werkhof                           -652,57
+ 22.03.2017 ReNr 40WHG17, Zaun Holzwickede, 1.Tranche (�-Limit) DATUM 22 Werkhof                          -2500,00
+ 22.03.2017 40WHG17 DATUM 22.03.2017, 12.27 UHR1.TAN 179909              Werkhof                            -40,00
+ 01.04.2017 Entgeltabrechnung siehe Anlage                                                                  -21,45
+ 18.04.2017 eprimo sagt danke                                            eprimo GmbH                       -227,00
+ 28.04.2017 Wespenbek�mpfung,Kr�mer- Kersting, Holzwickede DATUM 28.04.2 Preventa                          -154,70
+ 29.04.2017 Entgeltabrechnung siehe Anlage                                                                  -19,35
+ 15.05.2017 eprimo sagt danke                                            eprimo GmbH                       -227,00
+ 23.05.2017 ReNr 170502, Schimmelgutachten, Saarbr�ckerweg 24, 59439 Hol Decker, Ingenieurbuero            -595,00
+ 01.06.2017 Entgeltabrechnung siehe Anlage                                                                  -22,05
+ 01.06.2017 eprimo sagt Danke - VK:000043896951                          eprimo GmbH                        145,39
+ 19.06.2017 RENR.1820-17 KDNR 52 V.16.6.17 Saarbr�cker Weg 24, Holzw., D PAGA BAUTECHNIK                   -106,51
+ 22.06.2017 eprimo sagt danke                                            eprimo GmbH                       -188,00
+ 01.07.2017 Entgeltabrechnung siehe Anlage                                                                  -24,15
+                                                                                  Summe nicht umlagefähig -5735,36
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 30.01.2017 325002498981 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -34,83
+ 31.01.2017 Rechnung Januar 2017 KDNR06008098240 VERTR NR6000776327      Unitymedia NRW GmbH                -88,90
+ 01.02.2017 165.175.334-1 ABS. 01/17 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -146,00
+ 01.02.2017 2945 Guthaben Wassergeld 20-3.27/2945, Saarbruecker Weg      Gemeinde Holzwickede                 3,27
+ 15.02.2017 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -787,28
+ 28.02.2017 322502480805 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -15,00
+ 28.02.2017 Rechnung Februar 2017 KDNR06008098240 VERTR NR6000776327     Unitymedia NRW GmbH                -88,90
+ 01.03.2017 2945 Wasserabschlag 01.03.2185.00/2945, Saarbruecker We      Gemeinde Holzwickede              -185,00
+ 01.03.2017 Haus- und Grundbesitzer-Haftpflicht H900710399 Saarbruecker  Westfaelische Provinzial          -108,22
+ 28.03.2017 322502509746 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -15,00
+ 30.03.2017 165.175.334-1 Jahresabrechnung fuer 2017 RNr. LM2017/0002391 MAINGAU ENERGIE GMBH              -324,12
+ 31.03.2017 Rechnung Maerz 2017 KDNR06008098240 VERTR NR6000776327       Unitymedia NRW GmbH                -88,90
+ 28.04.2017 Rechnung April 2017 KDNR06008098240 VERTR NR6000776327       Unitymedia NRW GmbH                -88,90
+ 28.04.2017 325002597123 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -15,00
+ 15.05.2017 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -787,28
+ 29.05.2017 322502603578 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -15,00
+ 31.05.2017 Rechnung Mai 2017 KDNR06008098240 VERTR NR6000776327         Unitymedia NRW GmbH                -88,90
+ 01.06.2017 2945 Wasserabschlag 01.06.2185.00/2945, Saarbruecker We      Gemeinde Holzwickede              -185,00
+ 08.06.2017 LIEGNR 3360369 V RENR 406981119 V.1.6.17 SAARBR�CKERWEG, HOL BRUNATA, HUERTH                    -71,28
+ 08.06.2017 LIEGNR 3360369 V RENR 406981118 V.1.6.17 SAARBR�CKERWEG, HOL BRUNATA, HUERTH                    -96,39
+ 08.06.2017 LIEGNR 3360369 V RENR 406981117 V.1.6.17 SAARBR�CKERWEG, HOL BRUNATA, HUERTH                    -68,78
+ 19.06.2017 SAARBR�CKERWEG 24,Holzwickede RENR 9418208 V.14.06.17 Heizko BRUNATA, HUERTH                   -388,96
+ 28.06.2017 327502815912 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -15,00
+ 30.06.2017 Rechnung Juni 2017 KDNR06008098240 VERTR NR6000776327        Unitymedia NRW GmbH                -88,90
+ 03.07.2017 Gebaeudeversicherung S900515819 Saarbruecker Weg 24 59439 Ho Westfaelische Provinzial          -796,17
+                                                                                        Summe umlagefähig -4584,44
 
-                                                                               Summe 59439Saarbrückerweg24 3114,00
-                                                                                             GesamtSumme 11135,27
+                                                                               Summe 59439Saarbrückerweg24 7500,58
+                                                                                             GesamtSumme 24625,72
