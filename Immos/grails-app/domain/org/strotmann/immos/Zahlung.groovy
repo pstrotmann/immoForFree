@@ -180,7 +180,7 @@ class Zahlung implements Comparable{
 			if (b) {
 				verw = StringUtils.rightPad(StringUtils.substring(StringUtils.trim(b.verwendungszweck),0,60),60,' ')
 				beZa = StringUtils.rightPad(StringUtils.substring(b.beguenstigterZahlungspflichtiger,0,30),30,' ')
-				valuta = b.valutadatum.replace('.15', '.2015').replace('.16', '.2016').replace('.17', '.2017')
+				valuta = b.valutadatum.replace('.18', '.2018').replace('.16', '.2016').replace('.17', '.2017')
 			}
 			String zBtr = StringUtils.leftPad(zBetrag.toString(),10,' ').replace('.',',')
 			zOut.println(' '+valuta+' '+verw+' '+beZa+' '+zBtr)
