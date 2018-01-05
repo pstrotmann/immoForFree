@@ -143,7 +143,7 @@ class Kredit implements Comparable{
 			else {
 				BigDecimal z = ks.zinsbetrag?:0 
 				BigDecimal v = ks.verwKostenbetrag?:0
-				proz = ((z + v) / ks.bewilligt) * 100
+				proz = (((z + v) * zahlweise) / ks.kreditsumme) * 100
 			}
 		proz
 	}

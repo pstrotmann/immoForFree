@@ -1,4 +1,4 @@
-==============================Am Gulloh  49 , 44339  Dortmund ==== 31.12.17 =====================================
+==============================Am Gulloh  49 , 44339  Dortmund ==== 05.01.18 =====================================
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  26.01.2017 BEL 230601754385 VK 2203895 44339, Am Gulloh 49 Brechten ABS MONTANA Energieverso              -106,00
  26.01.2017 BEL 230201388777 VK 2203895 44339, Am Gulloh 49 Brechten REC MONTANA Energieverso               -19,77
@@ -63,7 +63,7 @@
                                                                                   Summe nicht umlagefähig -6647,96
 
                                                                                    Summe 44339Am Gulloh49 -6647,96
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 31.12.17 ========================
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 05.01.18 ========================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2017 WUSTENROT BANK AG 01/17 2071008242 194,2301/17 2073032698 38 PETER STROTMANN                   -194,23
  01.03.2017 WUSTENROT BANK AG 02/17 2073032698 385,4002/17 2071008242 19 PETER STROTMANN                   -194,00
@@ -186,7 +186,8 @@
  27.12.2017 Bestellung 133717 vom Montag, 25. Dezember 2017 DATUM 25.12. Rauchmeldershop                   -125,35
  28.12.2017 KdNr:281217-144915, BestNr:143517 Siedle HTS711-01W DATUM 28 Tandmore Versandhandel fuer Te     -91,09
  02.01.2018 ReNr 201703558 v.28.12.17 kdNr 31020 DATUM 30.12.2017, 10.58 Containerdienst Recycling Wagn    -274,59
-                                                                                  Summe nicht umlagefähig -6046,63
+ 04.01.2018 R005732 V.23.10.2017 KD.10067 Lindenhorster 236, 1. og li kr LEIDAG                            -208,92
+                                                                                  Summe nicht umlagefähig -6255,55
 ------------------------------umlagefähig-------------------------------------------------------------------------
  16.01.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
  18.01.2017 RE.NR. 406849660v. 16.1.17 Lindenhorster 236,LiegNr 5300769  BRUNATA Metrona                    -46,59
@@ -253,13 +254,10 @@
  01.12.2017 Haus- und Grundbesitzer-Haftpflicht H33245694 44339 Dortmund Westfaelische Provinzial          -152,09
  01.12.2017 Gebaeudeversicherung S900456420 Lindenhorster Str. 236 44339 Westfaelische Provinzial         -1377,28
  15.12.2017 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 02.01.2018 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -31,00
- 02.01.2018 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -144,00
- 02.01.2018 471.578.047-1 ABS. 12/17 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -264,00
-                                                                                       Summe umlagefähig -14566,92
+                                                                                       Summe umlagefähig -14127,92
 
-                                                                      Summe 44339Lindenhorster Strasse236 11329,99
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 31.12.17 =====================================
+                                                                      Summe 44339Lindenhorster Strasse236 11560,07
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 05.01.18 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2017 Darl.-Leistung 855391880 F�r 01.01.2017 - 30.01.2017 Zinsen  SPARKASSE DORTMUND                -224,78
  01.03.2017 Darl.-Leistung 855391880 F�r 01.02.2017 - 28.02.2017 Zinsen  SPARKASSE DORTMUND                -224,78
@@ -439,7 +437,7 @@
                                                                                        Summe umlagefähig -12794,40
 
                                                                                 Summe 44536Lorenzstrasse5 13815,58
-==============================Heinrichstraße  44 , 59077  Hamm ==== 31.12.17 ====================================
+==============================Heinrichstraße  44 , 59077  Hamm ==== 05.01.18 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2017 Darl.-Leistung 855369559 F�r 01.01.2017 - 30.01.2017 Zinsen  SPARKASSE DORTMUND                -250,00
  01.03.2017 Darl.-Leistung 855369559 F�r 01.02.2017 - 28.02.2017 Zinsen  SPARKASSE DORTMUND                -250,00
@@ -490,7 +488,7 @@
                                                                                         Summe umlagefähig -1433,56
 
                                                                               Summe 59077Heinrichstraße44 -1751,53
-==============================Heinrichstraße  46 , 59077  Hamm ==== 31.12.17 ====================================
+==============================Heinrichstraße  46 , 59077  Hamm ==== 05.01.18 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  30.06.2017 per 30.06.17 Antrag 6403029934 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
  02.01.2018 per 02.01.18 Antrag 6403029934 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
@@ -529,7 +527,7 @@
                                                                                         Summe umlagefähig -1234,57
 
                                                                                Summe 59077Heinrichstraße46 3753,56
-==============================Haferkamp  1 , 59192  Bergkamen ==== 31.12.17 =====================================
+==============================Haferkamp  1 , 59192  Bergkamen ==== 05.01.18 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  23.01.2017 sondertilgung DATUM 23.01.2017, 17.01 UHR1.TAN 140322        Strotmann                        -1306,05
  23.01.2017 Sondertilgung DATUM 23.01.2017, 16.56 UHR1.TAN 734225        Strotmann                        -2500,00
@@ -565,10 +563,11 @@
                                                                                                Summe Miete 8942,34
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  12.09.2017 ReNr 171175, KdNr 22487 v. 8.9.2017 Notdienst Heizung, Hafer Bahne Heizung                     -176,00
-                                                                                   Summe nicht umlagefähig -176,00
+ 05.01.2018 RENR 171908 V.31.12.2017 KDNR 22487 Haferkamp 1, Familie Die BAHNE, HEIZUNG                    -201,85
+                                                                                   Summe nicht umlagefähig -377,85
 ------------------------------umlagefähig-------------------------------------------------------------------------
  06.01.2017 3500504144140 050414414 69-470-1139/0 03550051 Haferkamp 1,  ISTA bergkamen                     -30,37
- 15.02.2017 01009000295902000 JHV GBA 2017 Entwaess 15.02.17 188,95 Entw Stadt Bergkamen                   -346,54
+ 15.02.2017 01009000295902000 JHV GBA 2017 Entwaess 15.02.17 188,95 Entw Stadt Bergkamen                   -341,11
  16.05.2017 01009000295902000 JHV GBA 2017 Entwaess 15.05.17 206,49 Entw Stadt Bergkamen                   -358,65
  15.08.2017 01009000295902000 JHV GBA 2017 Entwaess 15.08.17 206,49 Entw Stadt Bergkamen                   -358,65
  07.09.2017 ReNr 171159, KdNr 22487 v. 6.9.2017 Wartung Heizung, Haferka Bahne Heizung                     -105,67
@@ -576,10 +575,11 @@
  01.12.2017 Haus- und Grundbesitzer-Haftpflicht H33245645 59192 Bergkame Westfaelische Provinzial           -46,10
  01.12.2017 Gebaeudeversicherung S900456396 Haferkamp 1 59192 Bergkamen  Westfaelische Provinzial          -296,00
  20.12.2017 3500426518683 042651868 69-470-1139/0 03550051 Haferkamp 1,  ISTA bergkamen                     -78,75
-                                                                                        Summe umlagefähig -1979,38
+ 04.01.2018 RENR. 3401/17/457 DATUM 30.12.2017 HAFERKAMP 1 59192 BERGKAM BORN, SCHORNSTEINFEGER             -69,37
+                                                                                        Summe umlagefähig -2043,32
 
-                                                                                    Summe 59192Haferkamp1 -4456,77
-==============================Haferkamp  3 , 59192  Bergkamen ==== 31.12.17 =====================================
+                                                                                    Summe 59192Haferkamp1 -4722,56
+==============================Haferkamp  3 , 59192  Bergkamen ==== 05.01.18 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  25.01.2017 Sondertilgung 5% von urspr�nglicher Summe DATUM 25.01.2017,  Strotmann                        -1800,00
  25.01.2017 Sondertilgung 5% v.urspr�nglicher Kreditsumme (Teilbetrag) D Strotmann                        -2464,77
@@ -615,7 +615,7 @@
                                                                                                Summe Miete 9109,09
 ------------------------------umlagefähig-------------------------------------------------------------------------
  06.01.2017 3500504144131 050414413 69-470-1138/1 03550051 Haferkamp 3,  ISTA bergkamen                     -30,37
- 15.02.2017 01009000295902000 JHV GBA 2017 Entwaess 15.02.17 188,95 Entw Stadt Bergkamen                   -362,74
+ 15.02.2017 01009000295902000 JHV GBA 2017 Entwaess 15.02.17 188,95 Entw Stadt Bergkamen                   -337,99
  16.05.2017 01009000295902000 JHV GBA 2017 Entwaess 15.05.17 206,49 Entw Stadt Bergkamen                   -359,73
  15.08.2017 01009000295902000 JHV GBA 2017 Entwaess 15.08.17 206,49 Entw Stadt Bergkamen                   -359,73
  07.09.2017 ReNr 171160, KdNr 22487 v. 6.9.2017 Wartung Heizung, Haferka Bahne Heizung                     -125,34
@@ -623,10 +623,11 @@
  01.12.2017 Haus- und Grundbesitzer-Haftpflicht H33245660 59192 Bergkame Westfaelische Provinzial           -46,10
  01.12.2017 Gebaeudeversicherung S900456404 Haferkamp 3 59192 Bergkamen  Westfaelische Provinzial          -296,00
  20.12.2017 3500426518675 042651867 69-470-1138/0 03550051 Haferkamp 3,  ISTA bergkamen                     -78,75
-                                                                                        Summe umlagefähig -2018,49
+ 04.01.2018 RENR. 3402/17/458 DATUM 30.12.2017 HAFERKAMP 2 59192 BERGKAM BORN, SCHORNSTEINFEGER             -69,37
+                                                                                        Summe umlagefähig -2063,11
 
-                                                                                    Summe 59192Haferkamp3 -5030,65
-==============================Am Westendorp  12 , 59399  Olfen ==== 31.12.17 ====================================
+                                                                                    Summe 59192Haferkamp3 -5075,27
+==============================Am Westendorp  12 , 59399  Olfen ==== 05.01.18 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2017 WUSTENROT BANK AG 01/17 2071008242 194,2301/17 2073032698 38 PETER STROTMANN                   -385,00
  01.03.2017 WUSTENROT BANK AG 02/17 2073032698 385,4002/17 2071008242 19 PETER STROTMANN                   -385,40
@@ -725,7 +726,7 @@
                                                                                         Summe umlagefähig -5773,91
 
                                                                                 Summe 59399Am Westendorp12 9552,40
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 31.12.17 =============================
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 05.01.18 =============================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2017 WUSTENROT BANK AG 01/17 2071008242 194,2301/17 2073032698 38 PETER STROTMANN                   -425,74
  01.03.2017 WUSTENROT BANK AG 02/17 2073032698 385,4002/17 2071008242 19 PETER STROTMANN                   -425,74
@@ -894,4 +895,4 @@
                                                                                         Summe umlagefähig -9104,35
 
                                                                               Summe 59439Saarbrückerweg24 14456,23
-                                                                                             GesamtSumme 35020,85
+                                                                                             GesamtSumme 34940,52
