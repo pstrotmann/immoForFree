@@ -1,5 +1,6 @@
 package org.strotmann.immos
 
+import java.math.MathContext
 import java.util.List;
 import java.util.SortedSet;
 import grails.util.Holders
@@ -29,7 +30,7 @@ class Kredit implements Comparable{
 	}
 	
 	String toString() {
-		"${kreditgeber.partner.name},${vertragsnummer},${verwendung.hausadresse.ort}"
+		"${kreditgeber.partner.name},${vertragsnummer},${verwendung.hausadresse.ort}, Saldo: ${((Double)kreditsaldo).round(2)}"
 	}
 	
 	static List getKreditgeberList () {

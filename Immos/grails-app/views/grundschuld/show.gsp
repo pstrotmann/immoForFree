@@ -82,7 +82,9 @@
 					<span id="kredite-label" class="property-label"><g:message code="grundschuld.kredite.label" default="Kredite" /></span>
 					
 						<g:each in="${grundschuldInstance.kredite}" var="k">
-						<span class="property-value" aria-labelledby="kredite-label"><g:link controller="kredit" action="show" id="${k.id}">${k?.encodeAsHTML()}</g:link></span>
+						<g:if test="${k.kreditsaldo > 0}">
+							<span class="property-value" aria-labelledby="kredite-label"><g:link controller="kredit" action="show" id="${k.id}">${k?.encodeAsHTML()}</g:link></span>
+						</g:if>
 						</g:each>
 					
 				</li>
