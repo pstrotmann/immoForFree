@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import java.util.List;
+
 class Grundschuld implements Comparable {
 	
 	Date eintragAm
@@ -26,5 +28,9 @@ class Grundschuld implements Comparable {
 	
 	String toString() {
 		"${glaeubiger.name},${betrag}"
+	}
+	
+	static List getGrundschuldList () {
+		Grundschuld.findAll("from Grundschuld order by eintragAm")
 	}
 }
