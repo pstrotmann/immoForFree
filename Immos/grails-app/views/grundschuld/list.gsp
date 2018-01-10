@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Grundschuld" %>
+<%@ page import="org.strotmann.immos.Kredit" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -23,40 +24,54 @@
 			<table>
 				<thead>
 					<tr>
-					
-						<g:sortableColumn property="eintragAm" title="${message(code: 'grundschuld.eintragAm.label', default: 'Eintrag Am')}" />
-					
-						<g:sortableColumn property="loeschungAm" title="${message(code: 'grundschuld.loeschungAm.label', default: 'Loeschung Am')}" />
-					
-						<g:sortableColumn property="betrag" title="${message(code: 'grundschuld.betrag.label', default: 'Betrag')}" />
-					
-						<g:sortableColumn property="rang" title="${message(code: 'grundschuld.rang.label', default: 'Rang')}" />
-					
-						<th><g:message code="grundschuld.glaeubiger.label" default="Glaeubiger" /></th>
-					
 						<th><g:message code="grundschuld.immobilie.label" default="Immobilie" /></th>
+						
+						<th><g:message code="grundschuld.rang.label" default="Rang" /></th>
+						
+						<th><g:message code="grundschuld.glaeubiger.label" default="Gläubiger" /></th>
+						
+						<th><g:message code="grundschuld.eintragAm.label" default="eingetragen am" /></th>
 					
+						<th><div align = right><g:message code="grundschuld.grundschuld.label" default="Grundschuld" /></div></th>
+						
+						<th><div align = right><g:message code="grundschuld.saldo.label" default="Restschuld" /></div></th>
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${grundschuldInstanceList}" status="i" var="grundschuldInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${grundschuldInstance.id}"><g:formatDate date="${grundschuldInstance.eintragAm}" format="dd.MM.yyyy" /></g:link></td>
-					
-						<td><g:formatDate date="${grundschuldInstance.loeschungAm}" format="dd.MM.yyyy" /></td>
-					
-						<td>${fieldValue(bean: grundschuldInstance, field: "betrag")}</td>
-					
+						<td><g:link action="show" id="${grundschuldInstance.id}">${fieldValue(bean: grundschuldInstance, field: "immobilie")}</g:link></td>
+						
 						<td>${fieldValue(bean: grundschuldInstance, field: "rang")}</td>
-					
+						
 						<td>${fieldValue(bean: grundschuldInstance, field: "glaeubiger")}</td>
 					
-						<td>${fieldValue(bean: grundschuldInstance, field: "immobilie")}</td>
+						<td><g:formatDate date="${grundschuldInstance.eintragAm}" format="dd.MM.yyyy" /></td>
+						
+						<td><div align = right><g:formatNumber number="${grundschuldInstance.betrag}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
+						<td><div align = right><g:formatNumber number="${grundschuldInstance.saldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
 					</tr>
 				</g:each>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+					
+						<td></td>
+						
+						<td></td>
+					
+						<td><div align = right><g:message code="kredit.summe.label" default="Summen:" /></div></td>
+					
+						<td><div align = right><g:formatNumber number="${Grundschuld.grundschuldSumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+					
+						<td><div align = right><g:formatNumber number="${Kredit.saldoSumme}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+					
+					</tr>
+				</tfoot>
 			</table>
 			<div class="pagination">
 				<g:paginate total="${grundschuldInstanceTotal}" />

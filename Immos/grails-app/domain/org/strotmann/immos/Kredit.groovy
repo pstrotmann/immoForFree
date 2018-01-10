@@ -41,6 +41,14 @@ class Kredit implements Comparable{
 		Kredit.findAll("from Kredit order by verwendung.hausadresse.ort, verwendung.hausadresse.strasse, verwendung.hausadresse.hausnummer")
 	}
 	
+	static BigDecimal getSaldoSumme() {
+		BigDecimal s = 0
+		Kredit.findAll("from Kredit").each {Kredit k ->
+			s += k.kreditsaldo
+		}
+		s
+	}
+	
 	static Map getKrediteUndSummen() {
 		Map krSum = ['kredite':[],'summen':[0,0,0,0],'sumProz':[0,0,0,0],'sumRate':[0,0,0,0],'sumZins':[0,0,0,0],'sumTilg':[0,0,0,0]]
 		String s = "from Kredit order by verwendung.hausadresse.ort, verwendung.hausadresse.strasse, verwendung.hausadresse.hausnummer"

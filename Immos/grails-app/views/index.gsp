@@ -102,6 +102,7 @@
 					<h3>Immobiliendaten:</h3>
 					<ul>
 						<li class="controller"><g:link controller="immobilie" action="list">Immobilie</g:link></li>
+						<li class="controller"><g:link controller="grundschuld" action="list">Grundschuld</g:link></li>
 						<li class="controller"><g:link controller="mietvertrag" action="list">Mietvertrag</g:link></li>
 						<li class="controller"><g:link controller="druck" action="printMietjournal">Mietjournal drucken</g:link></li>
 						<li class="controller"><g:link controller="kredit" action="list">Kredit</g:link></li>

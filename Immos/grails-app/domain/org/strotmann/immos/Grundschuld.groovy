@@ -23,14 +23,38 @@ class Grundschuld implements Comparable {
     }
 	
 	int compareTo(obj) {
-		rang.compareTo(obj.rang)
+		
+		String plz = immobilie.hausadresse.postleitzahl
+		String oplz = obj.immobilie.hausadresse.postleitzahl
+		String str = immobilie.hausadresse.strasse
+		String ostr = obj.immobilie.hausadresse.strasse
+		String hnr = immobilie.hausadresse.hausnummer
+		String ohnr = obj.immobilie.hausadresse.hausnummer
+		
+		(plz+str+hnr+rang).compareTo(oplz+ostr+ohnr+obj.rang)
 	}
 	
 	String toString() {
 		"${glaeubiger.name},${betrag}"
 	}
 	
+	BigDecimal getSaldo() {
+		BigDecimal s = 0
+		kredite.each {Kredit k ->
+			s += k.kreditsaldo
+		}
+		s
+	}
+		
 	static List getGrundschuldList () {
-		Grundschuld.findAll("from Grundschuld order by eintragAm")
+		Grundschuld.findAll("from Grundschuld where loeschungAm is null").sort()
+	}
+	
+	static BigDecimal getGrundschuldSumme () {
+		BigDecimal s = 0
+		grundschuldList.each {Grundschuld  g -> 
+			s += g.betrag
+		}
+		s
 	}
 }
