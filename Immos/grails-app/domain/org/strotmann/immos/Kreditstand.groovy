@@ -32,7 +32,13 @@ class Kreditstand implements Comparable {
     }
 	
 	int compareTo(obj) {
-		id.compareTo(obj.id)
+		if (laufzeitAb.compareTo(obj.laufzeitAb) < 0)
+			return -1
+		else
+			if (laufzeitAb.compareTo(obj.laufzeitAb) > 0)
+				return 1
+			else
+				return id.compareTo(obj.id)
 	}
 	
 	String toString() {
