@@ -72,9 +72,19 @@ class Zahlung implements Comparable{
 	}
 	
 	String toString() {
+		
 		def nbsp = "\u2007"
 		def btr =betrag.toString().replace('.',',').padLeft(10,nbsp)
-		"${this.datum.getDateString()}${btr} ${bankumsatz?'':'manuell'} "
+		String s = "${this.datum.getDateString()}${btr}"
+		List <Notiz> notizen = Notiz.getNotizen('Zahlung',this.id)
+		if (bankumsatz)
+			s += ''
+		else
+			if (notizen.empty)
+				s += ' manuell'
+			else
+				s += ' manuell siehe Notiz'	
+				
 	}
 	
 	static List <Zahlung> umlagefaehigZuImmo (String iId) {
