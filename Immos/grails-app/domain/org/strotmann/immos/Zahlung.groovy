@@ -78,7 +78,7 @@ class Zahlung implements Comparable{
 		String s = "${this.datum.getDateString()}${btr}"
 		List <Notiz> notizen = Notiz.getNotizen('Zahlung',this.id)
 		if (bankumsatz)
-			s += ''
+			s += ' siehe Notiz'
 		else
 			if (notizen.empty)
 				s += ' manuell'
