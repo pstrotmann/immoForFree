@@ -126,6 +126,7 @@ class NotizController {
 			case "Organisation".toUpperCase() : return Organisation.get(domKey)
 			case "Person".toUpperCase() : return Person.get(domKey)
 			case "Rechnung".toUpperCase() : return Rechnung.get(domKey)
+			case "Zahlung".toUpperCase() : return Zahlung.get(domKey)
 		}
 	}
 }

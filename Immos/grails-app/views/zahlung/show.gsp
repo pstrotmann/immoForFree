@@ -94,6 +94,14 @@
 					
 				</li>
 				</g:if>
+				
+				<li class="fieldcontain">
+					<span id="notizen-label" class="property-label"><g:message code="zahlung.notizen.label" default="Notizen" /></span>
+					
+						<g:each in="${org.strotmann.immos.Notiz.getNotizen('Zahlung',zahlungInstance.id)}" var="n">
+						<span class="property-value" aria-labelledby="notizen-label"><g:link controller="notiz" action="show" id="${n.id}">${n}</g:link></span>
+						</g:each>
+				</li>
 			
 			</ol>
 			<g:form>

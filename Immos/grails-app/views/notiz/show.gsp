@@ -79,6 +79,9 @@
 							<g:if test="${notizInstance?.refDomIs('rechnung')}">
 								<g:link controller="Rechnung" action="show" id="${notizInstance.refId}">${notizInstance.referenz}</g:link>
 							</g:if>
+							<g:if test="${notizInstance?.refDomIs('zahlung')}">
+								<g:link controller="Zahlung" action="show" id="${notizInstance.refId}">${notizInstance.referenz}</g:link>
+							</g:if>
 						</span>
 					
 				</li>

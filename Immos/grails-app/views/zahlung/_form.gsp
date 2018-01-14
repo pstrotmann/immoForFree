@@ -66,3 +66,20 @@
 	<g:select id="bankumsatz" name="bankumsatz.id" from="${org.strotmann.immos.Bankumsatz.getUmsaetze()}" optionKey="id" value="${zahlungInstance?.bankumsatz?.id}" class="many-to-one" noSelection="['null': '']"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'notizen', 'error')} ">
+	<label for="notizen">
+		<g:message code="zahlung.notizen.label" default="Notizen" />
+		
+	</label>
+	
+<ul class="one-to-many">
+<g:each in="${org.strotmann.immos.Notiz.getNotizen('Zahlung',zahlungInstance.id)}" var="n">
+    <li><g:link controller="notiz" action="show" id="${n.id}">${n}</g:link></li>
+</g:each>
+<li class="add">
+<g:link controller="notiz" action="create" params="['zahlung.id': zahlungInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'notiz.label', default: 'Notiz')])}</g:link>
+</li>
+</ul>
+
+</div>
+
