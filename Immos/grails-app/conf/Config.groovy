@@ -118,7 +118,7 @@ log4j.main = {
 //Optionen für g:select
 dienstleistungsart=['Hausmeister','Strom','Gas','Wasser','Abwasser','Ablesung/Abrechnung','Versicherung',
 					'Kommunikation','Gärtner','Kommunaldienste','Interessenvertretung',
-					'Rauchmelder','Photovoltaik','Sozialversicherung','Steuerberatung','Entgeltabrechnung']
+					'Rauchmelder','Photovoltaik','Sozialversicherung','Steuerberatung','Entgeltabrechnung','Inkasso']
 domname=[' ','Dienstleistungsvertrag','Immobilie','Kredit','Mietsache','Mietvertrag','Organisation','Person','Rechnung','Umlageinfo','Zahlung']
 kommunikationsart=['Festnetz','Handy','Fax','eMail','Homepage']
 mietsachenart=['Wohnung','Reihenendhaus','Reihenmittelhaus','Doppelhaushälfte','Garage','Stellplatz',
