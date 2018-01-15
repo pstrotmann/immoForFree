@@ -77,10 +77,18 @@ class Zahlung implements Comparable{
 		def btr =betrag.toString().replace('.',',').padLeft(10,nbsp)
 		String s = "${this.datum.getDateString()}${btr}"
 		List <Notiz> notizen = Notiz.getNotizen('Zahlung',this.id)
+		
 		if (!bankumsatz)
 			s += ' manuell'
-		if (notizen.size() > 0)
-			s += ' siehe Notiz'	
+		if (notizen.size() > 0) {
+			String n = ''
+			notizen.each {
+				n += it.notiztext
+			}
+			
+			int l = n.length() < 60 ? n.length() : 60 
+			s += " ${n.substring(0,l)}"	
+		}
 		s		
 	}
 	
