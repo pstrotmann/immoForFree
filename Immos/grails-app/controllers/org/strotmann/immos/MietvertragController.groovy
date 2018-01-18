@@ -8,6 +8,7 @@ class MietvertragController {
 	
 	def list(Integer max) {
         params.max = Math.min(max ?: 100, 1000)
+		flash.sumSaldo = Mietvertrag.sumSaldo
         [mietvertragInstanceList: Mietvertrag.mietvertraegeUndSummen, mietvertragInstanceTotal: Mietvertrag.count()]
     }
     

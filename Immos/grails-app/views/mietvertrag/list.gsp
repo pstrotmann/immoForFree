@@ -76,14 +76,19 @@
 						
 						<td><div align = right><g:formatNumber number="${mietvertragInstanceList.sumBrutto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><span style="color:red;"><g:formatNumber number="${mietvertragInstanceList.sumSaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span></div></td>
+						<td><div align = right>
+							<g:if test="${flash.sumSaldo < 0}">
+								<span style="color:red;"><g:formatNumber number="${flash.sumSaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>
+							</g:if>
+							<g:if test="${flash.sumSaldo >= 0}">
+								<g:formatNumber number="${flash.sumSaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/>
+							</g:if>
+						</div></td>
 						
 					</tr>
 				</tfoot>
 			</table>
-			<div class="pagination">
-				<g:paginate total="${mietvertragInstanceTotal}" />
-			</div>
+
 		</div>
 	</body>
 </html>
