@@ -256,7 +256,7 @@ class Mietvertrag implements Comparable {
 	private static BigDecimal sumVstand(long id, Date mietende, BigDecimal kaution, int zahlweise) {
 		
 		def BigDecimal sumVstand = 0
-		String q = "from Mietvertragsstand as mvs where mvs.mietvertrag = ${id} and mvs.gueltigAb < current_date() order by mvs.gueltigAb"
+		String q = "from Mietvertragsstand as mvs where mvs.mietvertrag = ${id} and mvs.gueltigAb <= current_date() order by mvs.gueltigAb"
 		def List <Mietvertragsstand> mvsList = Mietvertragsstand.findAll(q)
 		if (mvsList.empty)
 			return 0
