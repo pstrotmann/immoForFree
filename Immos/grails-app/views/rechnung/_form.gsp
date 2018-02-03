@@ -33,76 +33,12 @@
 	<g:datePicker name="rechnungsdatum" precision="day"  value="${rechnungInstance?.rechnungsdatum}" years="${2010..2020}" />
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'betrag', 'error')} required">
-	<label for="betrag">
-		<g:message code="rechnung.betrag.label" default="Betrag" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:field name="betrag" value="${fieldValue(bean: rechnungInstance, field: 'betrag')}" required=""/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'bruttoBetrag', 'error')} ">
-	<label for="bruttoBetrag">
-		<g:message code="rechnung.bruttoBetrag.label" default="Brutto Betrag" />
+<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'rechnungsnummer', 'error')} ">
+	<label for="rechnungsnummer">
+		<g:message code="rechnung.rechnungsnummer.label" default="Rechnungsnummer" />
 		
 	</label>
-	<g:field name="bruttoBetrag" value="${fieldValue(bean: rechnungInstance, field: 'bruttoBetrag')}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'nettoBetrag', 'error')} ">
-	<label for="nettoBetrag">
-		<g:message code="rechnung.nettoBetrag.label" default="Netto Betrag" />
-		
-	</label>
-	<g:field name="nettoBetrag" value="${fieldValue(bean: rechnungInstance, field: 'nettoBetrag')}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'mehrwertsteuerSatz', 'error')} ">
-	<label for="mehrwertsteuerSatz">
-		<g:message code="rechnung.mehrwertsteuerSatz.label" default="Mehrwertsteuer Satz" />
-		
-	</label>
-	<g:field name="mehrwertsteuerSatz" value="${fieldValue(bean: rechnungInstance, field: 'mehrwertsteuerSatz')}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'mehrwertsteuer', 'error')} ">
-	<label for="mehrwertsteuer">
-		<g:message code="rechnung.mehrwertsteuer.label" default="Mehrwertsteuer" />
-		
-	</label>
-	<g:field name="mehrwertsteuer" value="${fieldValue(bean: rechnungInstance, field: 'mehrwertsteuer')}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'skontoSatz', 'error')} ">
-	<label for="skontoSatz">
-		<g:message code="rechnung.skontoSatz.label" default="Skonto Satz" />
-		
-	</label>
-	<g:field name="skontoSatz" value="${fieldValue(bean: rechnungInstance, field: 'skontoSatz')}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'skonto', 'error')} ">
-	<label for="skonto">
-		<g:message code="rechnung.skonto.label" default="Skonto" />
-		
-	</label>
-	<g:field name="skonto" value="${fieldValue(bean: rechnungInstance, field: 'skonto')}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'auftragsnummer', 'error')} ">
-	<label for="auftragsnummer">
-		<g:message code="rechnung.auftragsnummer.label" default="Auftragsnummer" />
-		
-	</label>
-	<g:textField name="auftragsnummer" value="${rechnungInstance?.auftragsnummer}"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'kundennummer', 'error')} ">
-	<label for="kundennummer">
-		<g:message code="rechnung.kundennummer.label" default="Kundennummer" />
-		
-	</label>
-	<g:textField name="kundennummer" value="${rechnungInstance?.kundennummer}"/>
+	<g:textField name="rechnungsnummer" value="${rechnungInstance?.rechnungsnummer}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'rechnungsgegenstand', 'error')} ">
@@ -113,12 +49,76 @@
 	<g:textField name="rechnungsgegenstand" value="${rechnungInstance?.rechnungsgegenstand}"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'rechnungsnummer', 'error')} ">
-	<label for="rechnungsnummer">
-		<g:message code="rechnung.rechnungsnummer.label" default="Rechnungsnummer" />
+<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'betrag', 'error')} required">
+	<label for="betrag">
+		<g:message code="rechnung.betrag.label" default="Betrag" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:field name="betrag" type="text" value="${fieldValue(bean: rechnungInstance, field: 'betrag')}" required=""/>
+</div>
+
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'bruttoBetrag', 'error')} ">--%>
+<%--	<label for="bruttoBetrag">--%>
+<%--		<g:message code="rechnung.bruttoBetrag.label" default="Brutto Betrag" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:field name="bruttoBetrag" value="${fieldValue(bean: rechnungInstance, field: 'bruttoBetrag')}"/>--%>
+<%--</div>--%>
+<%----%>
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'nettoBetrag', 'error')} ">--%>
+<%--	<label for="nettoBetrag">--%>
+<%--		<g:message code="rechnung.nettoBetrag.label" default="Netto Betrag" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:field name="nettoBetrag" value="${fieldValue(bean: rechnungInstance, field: 'nettoBetrag')}"/>--%>
+<%--</div>--%>
+<%----%>
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'mehrwertsteuerSatz', 'error')} ">--%>
+<%--	<label for="mehrwertsteuerSatz">--%>
+<%--		<g:message code="rechnung.mehrwertsteuerSatz.label" default="Mehrwertsteuer Satz" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:field name="mehrwertsteuerSatz" value="${fieldValue(bean: rechnungInstance, field: 'mehrwertsteuerSatz')}"/>--%>
+<%--</div>--%>
+<%----%>
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'mehrwertsteuer', 'error')} ">--%>
+<%--	<label for="mehrwertsteuer">--%>
+<%--		<g:message code="rechnung.mehrwertsteuer.label" default="Mehrwertsteuer" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:field name="mehrwertsteuer" value="${fieldValue(bean: rechnungInstance, field: 'mehrwertsteuer')}"/>--%>
+<%--</div>--%>
+<%----%>
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'skontoSatz', 'error')} ">--%>
+<%--	<label for="skontoSatz">--%>
+<%--		<g:message code="rechnung.skontoSatz.label" default="Skonto Satz" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:field name="skontoSatz" value="${fieldValue(bean: rechnungInstance, field: 'skontoSatz')}"/>--%>
+<%--</div>--%>
+<%----%>
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'skonto', 'error')} ">--%>
+<%--	<label for="skonto">--%>
+<%--		<g:message code="rechnung.skonto.label" default="Skonto" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:field name="skonto" value="${fieldValue(bean: rechnungInstance, field: 'skonto')}"/>--%>
+<%--</div>--%>
+<%----%>
+<%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'auftragsnummer', 'error')} ">--%>
+<%--	<label for="auftragsnummer">--%>
+<%--		<g:message code="rechnung.auftragsnummer.label" default="Auftragsnummer" />--%>
+<%--		--%>
+<%--	</label>--%>
+<%--	<g:textField name="auftragsnummer" value="${rechnungInstance?.auftragsnummer}"/>--%>
+<%--</div>--%>
+
+<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'kundennummer', 'error')} ">
+	<label for="kundennummer">
+		<g:message code="rechnung.kundennummer.label" default="Kundennummer" />
 		
 	</label>
-	<g:textField name="rechnungsnummer" value="${rechnungInstance?.rechnungsnummer}"/>
+	<g:textField name="kundennummer" value="${rechnungInstance?.kundennummer}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'umlagefaehig', 'error')} ">
