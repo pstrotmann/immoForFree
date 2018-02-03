@@ -5,7 +5,6 @@
 <div class="fieldcontain ${hasErrors(bean: bankverbindungInstance, field: 'iban', 'error')} ">
 	<label for="iban">
 		<g:message code="bankverbindung.iban.label" default="Iban" />
-		
 	</label>
 	<g:textField name="iban" value="${bankverbindungInstance?.iban}"/>
 </div>
@@ -13,7 +12,6 @@
 <div class="fieldcontain ${hasErrors(bean: bankverbindungInstance, field: 'iban', 'error')} ">
 	<label for="bic">
 		<g:message code="bankverbindung.bic.label" default="BIC" />
-		
 	</label>
 	<g:textField name="bic" value="${bankverbindungInstance?.bic}"/>
 </div>
