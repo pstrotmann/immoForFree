@@ -42,6 +42,34 @@ class RechnungController {
         redirect(action: "show", id: rechnungInstance.id)
     }
 	
+	@Transactional
+	def update(Rechnung rechnungInstance) {
+		if (rechnungInstance == null) {
+			notFound()
+			return
+		}
+
+		if (rechnungInstance.hasErrors()) {
+			respond rechnungInstance.errors, view:'edit'
+			return
+		}
+
+		Partnerrolle rechnungssteller = rechnungInstance.rechnungssteller
+		rechnungssteller.partner = Partner.get(params.partner.id)
+		rechnungssteller.save flush:true
+		
+		rechnungInstance.rechnungssteller = rechnungssteller
+		rechnungInstance.save flush:true
+
+		request.withFormat {
+			form multipartForm {
+				flash.message = message(code: 'default.updated.message', args: [message(code: 'Rechnung.label', default: 'Rechnung'), rechnungInstance.id])
+				redirect rechnungInstance
+			}
+			'*'{ respond rechnungInstance, [status: OK] }
+		}
+	}
+	
 	def delete(Rechnung rechnungInstance) {
 		
 		if (rechnungInstance == null) {

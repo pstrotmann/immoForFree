@@ -56,6 +56,24 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${rechnungInstance?.rechnungsnummer}">
+				<li class="fieldcontain">
+					<span id="rechnungsnummer-label" class="property-label"><g:message code="rechnung.rechnungsnummer.label" default="Rechnungsnummer" /></span>
+					
+						<span class="property-value" aria-labelledby="rechnungsnummer-label"><g:fieldValue bean="${rechnungInstance}" field="rechnungsnummer"/></span>
+					
+				</li>
+				</g:if>
+							
+				<g:if test="${rechnungInstance?.rechnungsgegenstand}">
+				<li class="fieldcontain">
+					<span id="rechnungsgegenstand-label" class="property-label"><g:message code="rechnung.rechnungsgegenstand.label" default="Rechnungsgegenstand" /></span>
+					
+						<span class="property-value" aria-labelledby="rechnungsgegenstand-label"><g:fieldValue bean="${rechnungInstance}" field="rechnungsgegenstand"/></span>
+					
+				</li>
+				</g:if>
+								
 				<g:if test="${rechnungInstance?.betrag}">
 				<li class="fieldcontain">
 					<span id="betrag-label" class="property-label"><g:message code="rechnung.betrag.label" default="Betrag" /></span>
@@ -136,26 +154,7 @@
 					
 				</li>
 				</g:if>
-			
-				<g:if test="${rechnungInstance?.rechnungsgegenstand}">
-				<li class="fieldcontain">
-					<span id="rechnungsgegenstand-label" class="property-label"><g:message code="rechnung.rechnungsgegenstand.label" default="Rechnungsgegenstand" /></span>
-					
-						<span class="property-value" aria-labelledby="rechnungsgegenstand-label"><g:fieldValue bean="${rechnungInstance}" field="rechnungsgegenstand"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${rechnungInstance?.rechnungsnummer}">
-				<li class="fieldcontain">
-					<span id="rechnungsnummer-label" class="property-label"><g:message code="rechnung.rechnungsnummer.label" default="Rechnungsnummer" /></span>
-					
-						<span class="property-value" aria-labelledby="rechnungsnummer-label"><g:fieldValue bean="${rechnungInstance}" field="rechnungsnummer"/></span>
-					
-				</li>
-				</g:if>
-			
-				
+										
 				<li class="fieldcontain">
 					<span id="umlagefaehig-label" class="property-label"><g:message code="rechnung.umlagefaehig.label" default="Umlagefähig" /></span>
 					
