@@ -7,7 +7,7 @@
 		<g:message code="bankumsatz.auftragskonto.label" default="Auftragskonto" />
 		
 	</label>
-	<g:textField name="auftragskonto" value="${bankumsatzInstance?.auftragskonto}"/>
+	<g:textField name="auftragskonto" style="width:100px" value="${bankumsatzInstance?.auftragskonto}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: bankumsatzInstance, field: 'buchungstag', 'error')} ">
@@ -15,7 +15,7 @@
 		<g:message code="bankumsatz.buchungstag.label" default="Buchungstag" />
 		
 	</label>
-	<g:textField name="buchungstag" value="${bankumsatzInstance?.buchungstag}"/>
+	<g:textField name="buchungstag" style="width:150px" value="${bankumsatzInstance?.buchungstag}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: bankumsatzInstance, field: 'valutadatum', 'error')} ">
@@ -23,7 +23,7 @@
 		<g:message code="bankumsatz.valutadatum.label" default="Valutadatum" />
 		
 	</label>
-	<g:textField name="valutadatum" value="${bankumsatzInstance?.valutadatum}"/>
+	<g:textField name="valutadatum" style="width:200px" value="${bankumsatzInstance?.valutadatum}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: bankumsatzInstance, field: 'buchungstext', 'error')} ">
@@ -31,7 +31,7 @@
 		<g:message code="bankumsatz.buchungstext.label" default="Buchungstext" />
 		
 	</label>
-	<g:textField name="buchungstext" value="${bankumsatzInstance?.buchungstext}"/>
+	<g:textField name="buchungstext" style="width:250px" value="${bankumsatzInstance?.buchungstext}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: bankumsatzInstance, field: 'verwendungszweck', 'error')} ">
