@@ -39,7 +39,7 @@
 		<g:message code="rechnung.rechnungsnummer.label" default="Rechnungsnummer" />
 		
 	</label>
-	<g:field name="rechnungsnummer" value="${rechnungInstance?.rechnungsnummer}"/>
+	<g:field name="rechnungsnummer" style="width:120px" type="text" value="${rechnungInstance?.rechnungsnummer}" required=""/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'rechnungsgegenstand', 'error')} ">
@@ -47,7 +47,7 @@
 		<g:message code="rechnung.rechnungsgegenstand.label" default="Rechnungsgegenstand" />
 		
 	</label>
-	<g:textField name="rechnungsgegenstand" value="${rechnungInstance?.rechnungsgegenstand}"/>
+	<g:textField name="rechnungsgegenstand" style="width:500px" value="${rechnungInstance?.rechnungsgegenstand}" required=""/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'betrag', 'error')} required">
@@ -55,7 +55,7 @@
 		<g:message code="rechnung.betrag.label" default="Betrag" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:field name="betrag" value="${fieldValue(bean: rechnungInstance, field: 'betrag')}" required=""/>
+	<g:field name="betrag" style="width:80px" type="text"  value="${fieldValue(bean: rechnungInstance, field: 'betrag')}" required=""/>
 </div>
 
 <%--<div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'bruttoBetrag', 'error')} ">--%>
@@ -119,7 +119,7 @@
 		<g:message code="rechnung.kundennummer.label" default="Kundennummer" />
 		
 	</label>
-	<g:field name="kundennummer" value="${rechnungInstance?.kundennummer}"/>
+	<g:field name="kundennummer" style="width:120px" type="text" value="${rechnungInstance?.kundennummer}"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: rechnungInstance, field: 'umlagefaehig', 'error')} ">
