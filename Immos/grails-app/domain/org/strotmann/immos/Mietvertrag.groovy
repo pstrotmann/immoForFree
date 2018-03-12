@@ -305,12 +305,14 @@ class Mietvertrag implements Comparable {
 	}
 	
 	static Map getMietvertraegeUndSummen () {
-		Map mvSum = ['mietvertraege':[],'sumGrund':0,'sumBrutto':0,'sumSaldo':0]
+		Map mvSum = ['mietvertraege':[],'sumKaution':0,'sumGrund':0,'sumBrutto':0,'sumSaldo':0]
 		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null order by mieter.partner.name ").each {Mietvertrag mv ->
 			def BigDecimal mvGrund = mv.grundmiete
 			def BigDecimal mvBrutto = mv.bruttomiete
 			def BigDecimal mvSaldo = mv.mietsaldo
+			def BigDecimal mvKaution = mv.kaution
 			mvSum.mietvertraege << [mv,mvGrund,mvBrutto,mvSaldo]
+			mvSum.sumKaution += mvKaution
 			mvSum.sumGrund += mvGrund
 			mvSum.sumBrutto += mvBrutto
 			mvSum.sumSaldo += mvSaldo

@@ -30,6 +30,8 @@
 						
 						<g:sortableColumn property="mietbeginn" title="${message(code: 'mietvertrag.mietbeginn.label', default: 'Mietbeginn')}" />
 						
+						<th><div align = right><g:message code="mietvertrag.kaution.label" default="Kaution" /></div></th>
+						
 						<th><div align = right><g:message code="mietvertrag.grundmiete.label" default="Grundmiete" /></div></th>
 						
 						<th><div align = right><g:message code="mietvertrag.bruttomiete.label" default="Bruttomiete" /></div></th>
@@ -47,6 +49,13 @@
 						<td>${fieldValue(bean: mietvertragInstance[0], field: "mietsache")}</td>
 						
 						<td><g:formatDate date="${mietvertragInstance[0].mietbeginn}" format="dd.MM.yyyy" /></td>
+						
+						<g:if test="${mietvertragInstance[0].kaution > 0}">
+							<td><div align = right><g:formatNumber number="${mietvertragInstance[0].kaution}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
+						</g:if>
+						<g:else>
+							<td></td>
+						</g:else>
 						
 						<td><div align = right><g:formatNumber number="${mietvertragInstance[1]}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 						
@@ -71,6 +80,8 @@
 						<td><div align = right><g:message code="Mietvertrag.summe.label" default="Summen:" /></div></td>
 					
 						<td></td>
+						
+						<td><div align = right><g:formatNumber number="${mietvertragInstanceList.sumKaution}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${mietvertragInstanceList.sumGrund}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
