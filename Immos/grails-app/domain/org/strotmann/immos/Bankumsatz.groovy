@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.util.List;
 import org.apache.commons.lang.*
+import org.strotmann.util.IBAN
 
 class Bankumsatz {
 	
@@ -52,6 +53,11 @@ class Bankumsatz {
     }
 	
 	String toString() {"${this.valutadatum},${this.betrag},${this.beguenstigterZahlungspflichtiger}"}
+	
+	String getIBAN () {
+		IBAN iban = new IBAN()
+		iban.ibanAufb(kontonummerIBAN)
+	} 
 	
 	static List getUmsaetze () {
 		Bankumsatz.findAll("from Bankumsatz as b order by b.beguenstigterZahlungspflichtiger, b.buchungstag")

@@ -135,7 +135,7 @@
 				<li class="fieldcontain">
 					<span id="kontonummerIBAN-label" class="property-label"><g:message code="bankumsatz.kontonummerIBAN.label" default="Kontonummer IBAN" /></span>
 					
-						<span class="property-value" aria-labelledby="kontonummerIBAN-label"><g:fieldValue bean="${bankumsatzInstance}" field="kontonummerIBAN"/></span>
+						<span class="property-value" aria-labelledby="kontonummerIBAN-label"><g:fieldValue bean="${bankumsatzInstance}" field="IBAN"/></span>
 					
 				</li>
 				</g:if>

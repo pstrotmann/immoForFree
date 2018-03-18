@@ -1,6 +1,7 @@
 package org.strotmann.immos
 
 import org.apache.commons.validator.routines.checkdigit.IBANCheckDigit
+import org.strotmann.util.IBAN
 
 class Bankverbindung {
 	
@@ -23,6 +24,11 @@ class Bankverbindung {
     }
 	
 	String toString() {"Iban: ${this.iban} BIC: ${this.getBIC()}"}
+	
+	String getIban () {
+		IBAN i = new IBAN()
+		i.ibanAufb(this.iban)
+	}
 	
 	static boolean checkIBAN (String iban) {
 		return new IBANCheckDigit().isValid(iban)
