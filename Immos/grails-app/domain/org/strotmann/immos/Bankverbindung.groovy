@@ -23,7 +23,7 @@ class Bankverbindung {
 			 )
     }
 	
-	String toString() {"Iban: ${this.iban} BIC: ${this.getBIC()}"}
+	String toString() {"Iban: ${IBAN.ibanForm(this.iban)} BIC: ${this.getBIC()}"}
 	
 	static boolean checkIBAN (String iban) {
 		return new IBANCheckDigit().isValid(iban)

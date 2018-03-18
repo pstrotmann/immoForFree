@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.util.List;
 import org.apache.commons.lang.*
-import org.strotmann.util.IBAN
 
 class Bankumsatz {
 	
