@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Bankverbindung" %>
+<%@ page import="org.strotmann.util.*" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -26,9 +27,7 @@
 				<g:if test="${bankverbindungInstance?.iban}">
 				<li class="fieldcontain">
 					<span id="iban-label" class="property-label"><g:message code="bankverbindung.iban.label" default="Iban" /></span>
-						<span class="property-value" aria-labelledby="iban-label">
-						<g:fieldValue bean="${bankverbindungInstance}" field="iban"/>
-					</span>	
+						<span class="property-value" aria-labelledby="iban-label">${IBAN.ibanForm(bankverbindungInstance.iban)}</span>	
 				</li>
 				<li class="fieldcontain">
 					<span id="bic-label" class="property-label"><g:message code="bankverbindung.bic.label" default="BIC" /></span>

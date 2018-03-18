@@ -54,11 +54,6 @@ class Bankumsatz {
 	
 	String toString() {"${this.valutadatum},${this.betrag},${this.beguenstigterZahlungspflichtiger}"}
 	
-	String getIBAN () {
-		IBAN iban = new IBAN()
-		iban.ibanAufb(kontonummerIBAN)
-	} 
-	
 	static List getUmsaetze () {
 		Bankumsatz.findAll("from Bankumsatz as b order by b.beguenstigterZahlungspflichtiger, b.buchungstag")
 	}

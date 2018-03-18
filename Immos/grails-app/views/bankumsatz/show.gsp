@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Bankumsatz" %>
+<%@ page import="org.strotmann.util.*" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -135,7 +136,7 @@
 				<li class="fieldcontain">
 					<span id="kontonummerIBAN-label" class="property-label"><g:message code="bankumsatz.kontonummerIBAN.label" default="Kontonummer IBAN" /></span>
 					
-						<span class="property-value" aria-labelledby="kontonummerIBAN-label"><g:fieldValue bean="${bankumsatzInstance}" field="IBAN"/></span>
+						<span class="property-value" aria-labelledby="kontonummerIBAN-label">${IBAN.ibanForm(bankumsatzInstance.kontonummerIBAN)}</span>
 					
 				</li>
 				</g:if>
