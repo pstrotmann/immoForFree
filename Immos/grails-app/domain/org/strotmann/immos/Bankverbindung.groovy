@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import java.util.List;
+
 import org.apache.commons.validator.routines.checkdigit.IBANCheckDigit
 import org.strotmann.util.IBAN
 
@@ -79,6 +81,10 @@ class Bankverbindung {
 	
 	Integer getBankId () {
 		Bank.getBankId(this.iban.substring(4,12).toInteger())
+	}
+	
+	static List <Bankverbindung> getBankverbindungen() {
+		Bankverbindung.findAll("from Bankverbindung ")
 	}
 	
 }

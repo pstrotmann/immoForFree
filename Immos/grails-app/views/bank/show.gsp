@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Bank" %>
+<%@ page import="org.strotmann.util.*" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -72,7 +73,7 @@
 			<span id="bankverbindung-label" class="property-label"><g:message code="bank.bankverbindung.label" default="Bankverbindungen" /></span>
 					
 			<g:each in="${bankInstance.bankverbindungen}" var="b">
-			<p><span class="property-value" aria-labelledby="bankverbindung-label"><g:link controller="bankverbindung" action="show" id="${b.id}">${b?.iban.encodeAsHTML()} ${b.partner.name}</g:link></span></p>
+			<p><span class="property-value" aria-labelledby="bankverbindung-label"><g:link controller="bankverbindung" action="show" id="${b.id}">${IBAN.ibanForm(b?.iban).encodeAsHTML()} ${b.partner.name}</g:link></span></p>
 			</g:each>
 			
 			</div>

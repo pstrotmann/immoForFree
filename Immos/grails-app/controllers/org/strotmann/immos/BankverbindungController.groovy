@@ -6,6 +6,11 @@ class BankverbindungController {
 	
 	def scaffold = true
 	
+	def list(Integer max) {
+		params.max = Math.min(max ?: 10, 100)
+		[bankverbindungInstanceList: Bankverbindung.getBankverbindungen(), bankverbindungInstanceTotal: Bank.count()]
+	}
+	
 	def show(Long id) {
 		def bankverbindungInstance = Bankverbindung.get(id)
 		flash.person = bankverbindungInstance.getPerson()

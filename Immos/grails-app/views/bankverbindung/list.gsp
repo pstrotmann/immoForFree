@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Bankverbindung" %>
+<%@ page import="org.strotmann.util.*" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -38,11 +39,11 @@
 				<g:each in="${bankverbindungInstanceList}" status="i" var="bankverbindungInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${bankverbindungInstance.id}">${fieldValue(bean: bankverbindungInstance, field: "iban")}</g:link></td>
+						<td><g:link action="show" id="${bankverbindungInstance.id}">${IBAN.ibanForm(bankverbindungInstance.iban)}</g:link></td>
 					
 						<td>${fieldValue(bean: bankverbindungInstance, field: "partner")}</td>
 						
-						<td>${fieldValue(bean: bankverbindungInstance, field: "bic")}</td>
+						<td>${fieldValue(bean: bankverbindungInstance, field: "BIC")}</td>
 						
 						<td>${fieldValue(bean: bankverbindungInstance, field: "nameUndAdresse")}</td>
 					
