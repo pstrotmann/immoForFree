@@ -6,18 +6,18 @@ class BankumsatzZuordnungController {
 		def int anzZahlung = 0
 		def int anzBankums = 0
 		def List loe =[]
-		def Date vor60Tagen
+		def Date vor120Tagen
 		use (groovy.time.TimeCategory) {
-			vor60Tagen = new Date() - 60.days
+			vor120Tagen = new Date() - 120.days
 		}
 		def long maxId = Bankumsatz.executeQuery("select max(b.id) from Bankumsatz as b")[0] - 250
 		def List umsaetze = Bankumsatz.getZeitraumUms(maxId)
 		umsaetze.each {Bankumsatz bUms ->
 			anzBankums++
-			List <Rechnung> rList = Rechnung.findAllByRechnungsdatumGreaterThan (vor60Tagen)
+			List <Rechnung> rList = Rechnung.findAllByRechnungsdatumGreaterThan (vor120Tagen)
 			rList.each {re ->
 				def reRechnungsnummer = re.rechnungsnummer?:'_'
-				def reRechnungsgegenstand = re.rechnungsgegenstand?:'_'
+				def reRechnungsgegenstand = re.rechnungsgegenstand?:'_'				
 				if (bUms.verwendungszweck.contains(reRechnungsnummer))
 					{
 					def Zahlung zahlung = new Zahlung()
