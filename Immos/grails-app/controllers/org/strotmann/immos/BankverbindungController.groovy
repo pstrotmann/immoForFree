@@ -1,5 +1,8 @@
 package org.strotmann.immos
 
+import grails.transaction.Transactional;
+import org.strotmann.util.IBAN
+
 import org.springframework.dao.DataIntegrityViolationException
 
 class BankverbindungController {
@@ -38,6 +41,56 @@ class BankverbindungController {
 			redirect(action: "list")
 			return
 		}
+		
+		bankverbindungInstance.iban = IBAN.ibanForm(bankverbindungInstance.iban)
 		[bankverbindungInstance: bankverbindungInstance]
+	}
+	
+	@Transactional
+	def save(Bankverbindung bankverbindungInstance) {
+		if (bankverbindungInstance == null) {
+			notFound()
+			return
+		}
+
+		if (bankverbindungInstance.hasErrors()) {
+			respond bankverbindungInstance.errors, view:'create'
+			return
+		}
+
+		bankverbindungInstance.iban = IBAN.ibanRein(bankverbindungInstance.iban)
+		bankverbindungInstance.save flush:true
+
+		request.withFormat {
+			form multipartForm {
+				flash.message = message(code: 'default.created.message', args: [message(code: 'bankverbindung.label', default: 'Bank'), bankverbindungInstance.id])
+				redirect bankverbindungInstance
+			}
+			'*' { respond bankverbindungInstance, [status: CREATED] }
+		}
+	}
+
+	@Transactional
+	def update(Bankverbindung bankverbindungInstance) {
+		if (bankverbindungInstance == null) {
+			notFound()
+			return
+		}
+
+		if (bankverbindungInstance.hasErrors()) {
+			respond bankverbindungInstance.errors, view:'edit'
+			return
+		}
+
+		bankverbindungInstance.iban = IBAN.ibanRein(bankverbindungInstance.iban)
+		bankverbindungInstance.save flush:true
+
+		request.withFormat {
+			form multipartForm {
+				flash.message = message(code: 'default.updated.message', args: [message(code: 'Bank.label', default: 'Bank'), bankverbindungInstance.id])
+				redirect bankverbindungInstance
+			}
+			'*'{ respond bankverbindungInstance, [status: OK] }
+		}
 	}
 }

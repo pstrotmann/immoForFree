@@ -17,7 +17,7 @@ class Bankverbindung {
 	}
 	
     static constraints = {
-		iban(size: 22..22,
+		iban(size: 22..27,
 			 validator: {String val -> if(!checkIBAN(val)) return "Fehler"}
 			 )
 		bic(size: 11..11,nullable:true,
@@ -28,7 +28,7 @@ class Bankverbindung {
 	String toString() {"Iban: ${IBAN.ibanForm(this.iban)} BIC: ${this.getBIC()}"}
 	
 	static boolean checkIBAN (String iban) {
-		return new IBANCheckDigit().isValid(iban)
+		return new IBANCheckDigit().isValid(IBAN.ibanRein(iban))
 	}
 	
 	static boolean checkBIC (String bic,iban) {
