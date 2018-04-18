@@ -84,8 +84,12 @@ class Dienstleistungsvertrag implements Comparable{
 	}
 	
 	List <Umlageinfo> getUmlageinfos() {
-		String s = "from Umlageinfo as u where u.dienstleistungsvertrag.id = ${this.id} "
-		Umlageinfo.findAll (s)
+		List l = []
+		if (this.id) {
+			String s = "from Umlageinfo as u where u.dienstleistungsvertrag.id = ${this.id} "
+			l = Umlageinfo.findAll (s)
+		}
+		l
 	}
 	
 	static List getDienstleistungsvertraege () {
