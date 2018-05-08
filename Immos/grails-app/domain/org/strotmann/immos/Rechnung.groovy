@@ -66,7 +66,7 @@ class Rechnung implements Comparable{
 	String toString() {
 		def nbsp = "\u2007"
 		def btr =betrag.toString().replace('.',',').padLeft(9,nbsp)
-		"${rechnungsdatum.getDateString()}$btr"
+		"${rechnungsdatum.getDateString()}$btr ${rechnungsgegenstand}"
 	}
 	
 	List <Umlageinfo> getUmlageinfos() {
