@@ -268,7 +268,14 @@ class Mietvertrag implements Comparable {
 		use (groovy.time.TimeCategory) {
 			d = d - 1.days
 		}
-		def Date lastVstandEnde = mietende?:d
+		def Date lastVstandEnde = null
+		if (mietende)
+			if (mietende.compareTo(d) >= 0)
+				lastVstandEnde = d
+			else
+				lastVstandEnde = mietende
+		else
+			lastVstandEnde = d
 		if (lastVstandEnde.compareTo(start2014) <= 0)
 			return 0
 		def int lastI = mvsList.size() - 1
@@ -306,7 +313,7 @@ class Mietvertrag implements Comparable {
 	
 	static Map getMietvertraegeUndSummen () {
 		Map mvSum = ['mietvertraege':[],'sumKaution':0,'sumGrund':0,'sumBrutto':0,'sumSaldo':0]
-		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null order by mieter.partner.name ").each {Mietvertrag mv ->
+		Mietvertrag.findAll("from Mietvertrag as mv where mv.mietende is null or mv.mietende >= current_date() order by mieter.partner.name ").each {Mietvertrag mv ->
 			def BigDecimal mvGrund = mv.grundmiete
 			def BigDecimal mvBrutto = mv.bruttomiete
 			def BigDecimal mvSaldo = mv.mietsaldo
