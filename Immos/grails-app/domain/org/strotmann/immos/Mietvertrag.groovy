@@ -269,11 +269,8 @@ class Mietvertrag implements Comparable {
 			d = d - 1.days
 		}
 		def Date lastVstandEnde = null
-		if (mietende)
-			if (mietende.compareTo(d) >= 0)
-				lastVstandEnde = d
-			else
-				lastVstandEnde = mietende
+		if (mietende && mietende.compareTo(d) <= 0)
+			lastVstandEnde = mietende
 		else
 			lastVstandEnde = d
 		if (lastVstandEnde.compareTo(start2014) <= 0)
