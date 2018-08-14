@@ -71,6 +71,13 @@ class Zahlung implements Comparable{
 		toString()+bText+','+nbsp+bZ
 	}
 	
+	String zPlusVerw() {
+		def nbsp = "\u2007"
+		def String bText = bankumsatz?nbsp+bankumsatz.buchungstext:''
+		def String bZ = bankumsatz?StringUtils.substring(bankumsatz.verwendungszweck,0,25):''
+		toString()+bText+','+nbsp+bZ
+	}
+	
 	String toString() {
 		
 		def nbsp = "\u2007"

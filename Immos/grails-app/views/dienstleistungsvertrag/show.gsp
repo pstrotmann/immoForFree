@@ -175,7 +175,9 @@
 					<span id="zahlungen-label" class="property-label"><g:message code="dienstleistungsvertrag.zahlungen.label" default="Zahlungen" /></span>
 					
 						<g:each in="${dienstleistungsvertragInstance.zahlungen}" var="z">
-						<span class="property-value" aria-labelledby="zahlungen-label"><g:link controller="zahlung" action="show" id="${z.id}">${z?.encodeAsHTML()}</g:link></span>
+						<span class="property-value" aria-labelledby="zahlungen-label">
+							<g:link controller="zahlung" action="show" id="${z.id}">${z?.zPlusVerw()}</g:link>
+						</span>
 						</g:each>
 					
 				</li>
