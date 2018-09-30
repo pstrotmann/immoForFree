@@ -48,7 +48,7 @@
 		<g:message code="person.geburtsdatum.label" default="Geburtsdatum" />
 		
 	</label>
-	<g:datePicker name="geburtsdatum" precision="day"  value="${personInstance?.geburtsdatum}" default="none" noSelection="['': '']" />
+	<g:datePicker name="geburtsdatum" precision="day" years="${new Date().getYear()+1800..new Date().getYear() + 1900}" value="${personInstance?.geburtsdatum}" default="none" noSelection="['': '']" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: personInstance, field: 'persoenlicheAnrede', 'error')} ">

@@ -15,6 +15,7 @@ class MietvertragController {
     def create() {
 		flash.rolle1 = flash.rolle
 		flash.partner1 = flash.partner
+		flash.create = "true"
 		def partnerrolleInstance = new Partnerrolle(rolle:flash.rolle, partner:flash.partner)
         [mietvertragInstance: new Mietvertrag(params)]
     }

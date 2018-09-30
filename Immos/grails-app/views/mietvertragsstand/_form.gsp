@@ -15,7 +15,7 @@
 		<g:message code="mietvertragsstand.gueltigAb.label" default="Gueltig Ab" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="gueltigAb" precision="day"  value="${mietvertragsstandInstance?.gueltigAb}"  />
+	<g:datePicker name="gueltigAb" precision="day" years="${new Date().getYear()+1895..new Date().getYear() + 1901}" value="${mietvertragsstandInstance?.gueltigAb}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragsstandInstance, field: 'grundmiete', 'error')} required">

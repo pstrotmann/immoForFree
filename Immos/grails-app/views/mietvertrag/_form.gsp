@@ -39,7 +39,12 @@
 		<g:message code="mietvertrag.mietbeginn.label" default="Mietbeginn" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:datePicker name="mietbeginn" precision="day"  value="${mietvertragInstance?.mietbeginn}"  />
+	<g:if test="${flash.create}">
+		<g:datePicker name="mietbeginn" precision="day" years="${new Date().getYear()+1899..new Date().getYear() + 1901}" value="${mietvertragInstance?.mietbeginn}"  />
+	</g:if>
+	<g:else>
+		<g:datePicker name="mietbeginn" precision="day" value="${mietvertragInstance?.mietbeginn}"  />
+	</g:else>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragInstance, field: 'mietende', 'error')} ">
@@ -47,7 +52,7 @@
 		<g:message code="mietvertrag.mietende.label" default="Mietende" />
 		
 	</label>
-	<g:datePicker name="mietende" precision="day"  value="${mietvertragInstance?.mietende}" default="none" noSelection="['': '']" />
+	<g:datePicker name="mietende" precision="day" years="${new Date().getYear()+1899..new Date().getYear() + 1901}" value="${mietvertragInstance?.mietende}" default="none" noSelection="['': '']" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragInstance, field: 'kaution', 'error')} ">
