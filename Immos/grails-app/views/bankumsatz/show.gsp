@@ -132,7 +132,7 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${bankumsatzInstance?.kontonummerIBAN}">
+				<g:if test="${bankumsatzInstance?.kontonummerIBAN && bankumsatzInstance?.kontonummerIBAN.size() > 10}">
 				<li class="fieldcontain">
 					<span id="kontonummerIBAN-label" class="property-label"><g:message code="bankumsatz.kontonummerIBAN.label" default="Kontonummer IBAN" /></span>
 					
