@@ -56,8 +56,16 @@ class Mietvertrag implements Comparable {
 			return ""
 	}
 	
+	String getVonBis () {
+		String von = getMietbeginnAufbereitet ()
+		String bis = mietende?mietende.getDateString():""
+		
+		return "${von}-${bis}"
+	}
+	
 	String toString() {
-		return "${this.mietsache} ${this.zusatzMietsache?'+'+this.zusatzMietsache.mietsacheKurz:''}"
+		String pName = this.mieter.partner
+		return "${this.mietsache} ${this.zusatzMietsache?'+'+this.zusatzMietsache.mietsacheKurz:''} ${pName} ${getVonBis()}"
 	}
 	
 	String getZahlweiseKlar() {
