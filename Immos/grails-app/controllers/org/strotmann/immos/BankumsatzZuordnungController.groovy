@@ -20,10 +20,7 @@ class BankumsatzZuordnungController {
 				def reRechnungsgegenstand = re.rechnungsgegenstand?:'_'				
 				if (bUms.verwendungszweck.contains(reRechnungsnummer))
 					{
-					def Zahlung zahlung = new Zahlung()
-					zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-					zahlung.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
-					zahlung.bankumsatz = bUms
+					def Zahlung zahlung = zahlung(bUms)
 					zahlung.rechnung = re
 					zahlung.save()
 					anzZahlung++
@@ -43,10 +40,8 @@ class BankumsatzZuordnungController {
 			List <Mietvertrag> mList = Mietvertrag.findAll ("from Mietvertrag as mv where mv.mietende is null OR mv.mietende >= current_date()")
 			mList.each {mv ->
 				if (checkBankumsatz (bUms, mv.mieter.partner) && !bUms.verwendungszweck.toUpperCase().contains('HAUSMEISTER'))
-					{def Zahlung zahlung = new Zahlung()
-					zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-					zahlung.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
-					zahlung.bankumsatz = bUms
+					{
+					def Zahlung zahlung = zahlung(bUms)
 					zahlung.mietvertrag = mv
 					zListe << zahlung
 					}
@@ -111,10 +106,7 @@ class BankumsatzZuordnungController {
 				 || bUms.kundenreferenz.contains(dvReferenz)
 				 	)
 					{
-					def Zahlung zahlung = new Zahlung()
-					zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-					zahlung.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
-					zahlung.bankumsatz = bUms
+					def Zahlung zahlung = zahlung(bUms)
 					zahlung.dienstleistungsvertrag = dv
 					zahlung.save()
 					anzZahlung++
@@ -137,10 +129,7 @@ class BankumsatzZuordnungController {
 				def String vnr = tTeil[1]
 				Kredit kr = Kredit.findByVertragsnummer(vnr)
 				def String btr = tTeil[2].substring(0,tTeil[2].length()-2)
-				def Zahlung zahlung = new Zahlung()
-				zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-				zahlung.betrag = new BigDecimal(btr.replace(',', '.')) * (-1)
-				zahlung.bankumsatz = bUms
+				def Zahlung zahlung = zahlung(bUms)
 				zahlung.kredit = kr
 				zahlung.save()
 				anzZahlung++
@@ -157,10 +146,7 @@ class BankumsatzZuordnungController {
 					if (bUms.verwendungszweck.contains(krVertragsnummer)
 							||bUms.kontonummerIBAN.contains(krVertragsnummer))
 					{
-						def Zahlung zahlung = new Zahlung()
-						zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-						zahlung.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
-						zahlung.bankumsatz = bUms
+						def Zahlung zahlung = zahlung(bUms)
 						zahlung.kredit = kr
 						zahlung.save()
 						anzZahlung++
@@ -183,10 +169,7 @@ class BankumsatzZuordnungController {
 		dList.each {dv ->
 			List <Dienstleistungsvertragsstand> dvsList = Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand as dvs where dvs.dienstleistungsvertrag = ${dv.id}")
 			Dienstleistungsvertragsstand dvs = dvsList.last()
-			def Zahlung zahlung = new Zahlung()
-			zahlung.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
-			zahlung.betrag = dvs.pauschale * (-1)
-			zahlung.bankumsatz = bUms
+			def Zahlung zahlung = zahlung(bUms)
 			zahlung.dienstleistungsvertrag = dv
 			zahlung.save()
 			anzZahlung++
@@ -249,4 +232,16 @@ class BankumsatzZuordnungController {
 		}
 		vList
 	}
+	
+	Zahlung zahlung (Bankumsatz bUms) {
+		def Zahlung z = new Zahlung()
+		z.datum = new java.text.SimpleDateFormat("dd.MM.yy").parse(bUms.valutadatum)
+		z.betrag = new BigDecimal(bUms.betrag.replace(',', '.'))
+		z.bankumsatz = bUms
+		Calendar calendar = Calendar.getInstance()
+		calendar.setTime(new Date())
+		z.buchungsjahr = calendar.get(Calendar.YEAR)
+		z
+	}
+	
 }
