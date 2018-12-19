@@ -134,7 +134,14 @@
 						<li class="controller"><g:link controller="bankumsatz" action="listOffen">offene Bankumsätze anzeigen</g:link></li>
 						<li class="controller"><g:link controller="druck" action="printOffeneUmsaetze">offene Bankumsätze drucken</g:link></li>
 						<li class="controller"><g:link controller="bankumsatz" action="listZugeordnet">zugeordnete Bankumsätze anzeigen</g:link></li>
-						<li class="controller"><g:link controller="druck" action="printZuordnungen">Zuordnung der Zahlungen drucken</g:link>
+<%--						<li class="controller"><g:link controller="druck" action="printZuordnungen">Zuordnung der Zahlungen drucken</g:link>--%>
+<%--						</li>--%>
+						<li><g:message code="bankumsatz.zuordnung.code" default="Zuordnung der Zahlungen drucken"/>
+							<g:form controller="druck">
+						    	<g:actionSubmit action="printZuordnungen" value="printZuordnungen" />
+						    	<label for="year">Jahr:</label>
+						    	<input type="text" id="year" name="jahr" />
+							</g:form>
 						</li>
 						<li class="controller"><g:link controller="immoabrechnung" action="list">Immobilienabrechnung(Betriebskosten=Heiz- und Nebenkosten)</g:link></li>
 						<g:if test="${flash.messageN}">
