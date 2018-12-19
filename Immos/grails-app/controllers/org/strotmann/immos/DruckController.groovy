@@ -29,7 +29,6 @@ class DruckController {
 	}
 	
 	def printZuordnungen () {
-		println params
 		def int jahr 
 		if (params.jahr)
 			jahr = params.jahr.toString().toInteger()

@@ -134,8 +134,6 @@
 						<li class="controller"><g:link controller="bankumsatz" action="listOffen">offene Bankumsätze anzeigen</g:link></li>
 						<li class="controller"><g:link controller="druck" action="printOffeneUmsaetze">offene Bankumsätze drucken</g:link></li>
 						<li class="controller"><g:link controller="bankumsatz" action="listZugeordnet">zugeordnete Bankumsätze anzeigen</g:link></li>
-<%--						<li class="controller"><g:link controller="druck" action="printZuordnungen">Zuordnung der Zahlungen drucken</g:link>--%>
-<%--						</li>--%>
 						<li><g:message code="bankumsatz.zuordnung.code" default="Zuordnung der Zahlungen drucken"/>
 							<g:form controller="druck">
 						    	<g:actionSubmit action="printZuordnungen" value="printZuordnungen" />
