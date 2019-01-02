@@ -202,7 +202,10 @@ class Zahlung implements Comparable{
 			if (b) {
 				verw = StringUtils.rightPad(StringUtils.substring(StringUtils.trim(b.verwendungszweck),0,60),60,' ')
 				beZa = StringUtils.rightPad(StringUtils.substring(b.beguenstigterZahlungspflichtiger,0,30),30,' ')
-				valuta = b.valutadatum.replace('.18', '.2018').replace('.16', '.2016').replace('.17', '.2017')
+				if (b.valutadatum.length() == 10)
+					valuta = b.valutadatum
+				else 
+					valuta = b.valutadatum.substring(0,6)+'20'+b.valutadatum.substring(6,8)
 			}
 			String zBtr = StringUtils.leftPad(zBetrag.toString(),10,' ').replace('.',',')
 			zOut.println(' '+valuta+' '+verw+' '+beZa+' '+zBtr)
@@ -214,6 +217,6 @@ class Zahlung implements Comparable{
 		zOut.newLine()
 		zOut.println(StringUtils.leftPad('Summe '+aktOb+' '+immoSum.toString().replace('.',','),114,' '))
 		zOut.write('\f')
-		zOut.println(StringUtils.leftPad('GesamtSumme '+gesSum.toString().replace('.',','),113,' '))
+		zOut.println(StringUtils.leftPad('GesamtSumme '+gesSum.toString().replace('.',','),114,' '))
 	}
 }
