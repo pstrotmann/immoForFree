@@ -128,9 +128,10 @@ class BankumsatzZuordnungController {
 				def String[] tTeil = t.split(' ')
 				def String vnr = tTeil[1]
 				Kredit kr = Kredit.findByVertragsnummer(vnr)
-				def String btr = tTeil[2].substring(0,tTeil[2].length()-2)
+				def String btr = '-'+tTeil[2].substring(0,tTeil[2].length()-2)
 				def Zahlung zahlung = zahlung(bUms)
 				zahlung.kredit = kr
+				zahlung.betrag = new BigDecimal(btr.replace(',', '.'))
 				zahlung.save()
 				anzZahlung++
 			}
