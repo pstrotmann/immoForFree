@@ -131,12 +131,30 @@
 							<div class="message">${flash.message3}</div>
 							<div class="message">${flash.message4}</div>
 						</g:if>
-						<li class="controller"><g:link controller="bankumsatz" action="listOffen">offene Bankumsätze anzeigen</g:link></li>
-						<li class="controller"><g:link controller="druck" action="printOffeneUmsaetze">offene Bankumsätze drucken</g:link></li>
-						<li class="controller"><g:link controller="bankumsatz" action="listZugeordnet">zugeordnete Bankumsätze anzeigen</g:link></li>
+						<li><g:message code="bankumsatz.offen.code" default="offene Bankumsätze anzeigen"/>
+							<g:form controller="bankumsatz">
+						    	<g:actionSubmit action="listOffen" value="Anzeige für" />
+						    	<label for="year">Jahr:</label>
+						    	<input type="text" id="year" name="jahr" />
+							</g:form>
+						</li>
+						<li><g:message code="bankumsatz.zugeordnet.code" default="zugeordnete Bankumsätze anzeigen"/>
+							<g:form controller="bankumsatz">
+						    	<g:actionSubmit action="listZugeordnet" value="Anzeige für" />
+						    	<label for="year">Jahr:</label>
+						    	<input type="text" id="year" name="jahr" />
+							</g:form>
+						</li>
+						<li><g:message code="bankumsatz.offen.code" default="offene Bankumsätze drucken"/>
+							<g:form controller="druck">
+						    	<g:actionSubmit action="printOffeneUmsaetze" value="Drucken für" />
+						    	<label for="year">Jahr:</label>
+						    	<input type="text" id="year" name="jahr" />
+							</g:form>
+						</li>
 						<li><g:message code="bankumsatz.zuordnung.code" default="Zuordnung der Zahlungen drucken"/>
 							<g:form controller="druck">
-						    	<g:actionSubmit action="printZuordnungen" value="printZuordnungen" />
+						    	<g:actionSubmit action="printZuordnungen" value="Drucken für" />
 						    	<label for="year">Jahr:</label>
 						    	<input type="text" id="year" name="jahr" />
 							</g:form>

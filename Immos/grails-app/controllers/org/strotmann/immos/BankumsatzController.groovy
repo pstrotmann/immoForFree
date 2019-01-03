@@ -12,12 +12,28 @@ class BankumsatzController {
 	}
 	
 	def listOffen(Integer max) {
+		def int jahr 
+		if (params.jahr)
+			jahr = params.jahr.toString().toInteger()
+		else {
+			Calendar calendar = Calendar.getInstance()
+			calendar.setTime(new Date())
+			jahr = calendar.get(Calendar.YEAR)
+		}
 		params.max = Math.min(max ?: 10, 100)
-		render (view:"list", model:[bankumsatzInstanceList: Bankumsatz.getOffeneUmsaetze()])
+		render (view:"list", model:[bankumsatzInstanceList: Bankumsatz.getOffeneUmsaetze(jahr)])
 	}
 	
 	def listZugeordnet(Integer max) {
+		def int jahr
+		if (params.jahr)
+			jahr = params.jahr.toString().toInteger()
+		else {
+			Calendar calendar = Calendar.getInstance()
+			calendar.setTime(new Date())
+			jahr = calendar.get(Calendar.YEAR)
+		}
 		params.max = Math.min(max ?: 10, 100)
-		render (view:"list", model:[bankumsatzInstanceList: Bankumsatz.getZugeordneteUmsaetze()])
+		render (view:"list", model:[bankumsatzInstanceList: Bankumsatz.getZugeordneteUmsaetze(jahr)])
 	}
 }

@@ -22,8 +22,16 @@ class DruckController {
 	}
 	
 	def printOffeneUmsaetze () {
+		def int jahr
+		if (params.jahr)
+			jahr = params.jahr.toString().toInteger()
+		else {
+			Calendar calendar = Calendar.getInstance()
+			calendar.setTime(new Date())
+			jahr = calendar.get(Calendar.YEAR)
+		}
 		def uOut = printFile ("offeneUmsaetze")
-		Bankumsatz.printOffeneUmsaetze(uOut);
+		Bankumsatz.printOffeneUmsaetze(uOut, jahr);
 		uOut.close()
 		downloadFile("offeneUmsaetze.txt")
 	}

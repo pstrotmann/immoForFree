@@ -57,14 +57,11 @@ class Bankumsatz {
 		Bankumsatz.findAll("from Bankumsatz as b order by b.beguenstigterZahlungspflichtiger, b.buchungstag")
 	}
 	
-	static List getOffeneUmsaetze () {
-		def zeit = new Date()
-		def jahr = "${1900+zeit.year}"
+	static List getOffeneUmsaetze (int jahr) {
 		List <Bankumsatz> bu = []
 		String s = "from Bankumsatz as b where not exists (from Zahlung as z where z.bankumsatz = b.id) order by trim(leading 2 from substring(b.valutadatum,7,4)),substring(b.valutadatum,4,2), substring(b.valutadatum,1,2)"
 		Bankumsatz.findAll(s).each {
-			if (it.valutadatum.size() == 8 && it.valutadatum.substring(6,8)== jahr.substring(2,4)) 
-//			if (it.valutadatum.size() == 8 && it.valutadatum.substring(6,8)== "18")
+			if (it.valutadatum.size() == 8 && it.valutadatum.substring(6,8)== jahr.toString().substring(2,4)) 
 				bu << it
 		}
 		bu
@@ -89,12 +86,19 @@ class Bankumsatz {
 		bu
 	}
 	
-	static List getZugeordneteUmsaetze () {
-		Bankumsatz.findAll("from Bankumsatz as b where exists (from Zahlung as z where z.bankumsatz = b.id) order by b.beguenstigterZahlungspflichtiger")
+	static List getZugeordneteUmsaetze (int jahr) {
+		List <Bankumsatz> bu = []
+		String s = "from Bankumsatz as b where exists (from Zahlung as z where z.bankumsatz = b.id) order by b.beguenstigterZahlungspflichtiger"
+		Bankumsatz.findAll(s).each {
+			if (it.valutadatum.size() == 8 && it.valutadatum.substring(6,8)== jahr.toString().substring(2,4))
+				bu << it
+		}
+		bu
 	}
 	
-	static void printOffeneUmsaetze (PrintWriter uOut) {
-		List <Bankumsatz> bList = getOffeneUmsaetze ()
+	static void printOffeneUmsaetze (PrintWriter uOut, int jahr) {
+		List <Bankumsatz> bList = getOffeneUmsaetze (jahr)
+		uOut.println("-------------- Offene Umsätze für ${jahr} --------------------")
 		bList.each {b ->
 			String verw = StringUtils.rightPad(StringUtils.leftPad(StringUtils.substring(b.verwendungszweck+' '+b.buchungstext,0,50),50,' '),50,' ')
 			String beZa = StringUtils.rightPad(StringUtils.substring(b.beguenstigterZahlungspflichtiger,0,27),27,' ')
