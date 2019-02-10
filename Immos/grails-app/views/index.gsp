@@ -110,7 +110,18 @@
 						<li class="controller"><g:link controller="dienstleistungsvertrag" action="list">Dienstleistungsvertrag</g:link></li>
 						<li class="controller"><g:link controller="rechnung" action="list">Rechnung</g:link></li>
 					</ul>
-					<h3>Aktionen:</h3>
+					<h3>
+					Aktionen:
+					<g:form controller="druck">
+				    	<g:actionSubmit action="setAuswJahr" value="für Jahr" />
+				    	<g:if test="${session.jahr == null}">
+				    		<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
+				    	</g:if>
+				    	<g:if test="${session.jahr}">
+				    		<input type="number" id="year" name="jahr" value="${session.jahr}"/>
+				    	</g:if>
+				    </g:form>
+					</h3>
 					<ul>
 						<li><g:message code="bankumsatz.import.code" default="Bankumsätze importieren"/>
 						<g:uploadForm controller='bankumsatzImport'>
@@ -132,26 +143,12 @@
 							<div class="message">${flash.message3}</div>
 							<div class="message">${flash.message4}</div>
 						</g:if>
-						<li><g:form controller="bankumsatz">
-						    	<g:actionSubmit action="listOffen" value="offene Bankumsätze anzeigen für Jahr:" />
-						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
-							</g:form>
-						</li>
-						<li><g:form controller="bankumsatz">
-						    	<g:actionSubmit action="listZugeordnet" value="zugeordnete Bankumsätze anzeigen für Jahr:" />
-						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
-							</g:form>
-						</li>
-						<li><g:form controller="druck">
-						    	<g:actionSubmit action="printOffeneUmsaetze" value="offene Bankumsätze drucken für Jahr:" />
-						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
-							</g:form>
-						</li>
-						<li><g:form controller="druck">
-						    	<g:actionSubmit action="printZuordnungen" value="Zuordnung der Zahlungen drucken für Jahr:" />
-						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
-							</g:form>
-						</li>
+						<li class="controller"><g:link controller="bankumsatz" action="listOffen">offene Bankumsätze anzeigen</g:link></li>
+						<li class="controller"><g:link controller="bankumsatz" action="listZugeordnet">zugeordnete Bankumsätze anzeigen</g:link></li>
+						
+						<li class="controller"><g:link controller="druck" action="printOffeneUmsaetze">offene Bankumsätze drucken</g:link></li>
+						<li class="controller"><g:link controller="druck" action="printZuordnungen">Zuordnung der Zahlungen drucken</g:link></li>
+						
 						<li class="controller"><g:link controller="immoabrechnung" action="list">Immobilienabrechnung(Betriebskosten=Heiz- und Nebenkosten)</g:link></li>
 						<g:if test="${flash.messageN}">
 							<div class="message">${flash.messageN}</div>

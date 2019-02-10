@@ -11,6 +11,7 @@ import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.CellStyle
 import org.apache.poi.ss.usermodel.Font
 import org.apache.poi.ss.usermodel.IndexedColors
+import org.strotmann.util.*
 
 class DruckController {
 	
@@ -23,13 +24,10 @@ class DruckController {
 	
 	def printOffeneUmsaetze () {
 		def int jahr
-		if (params.jahr)
-			jahr = params.jahr.toString().toInteger()
-		else {
-			Calendar calendar = Calendar.getInstance()
-			calendar.setTime(new Date())
-			jahr = calendar.get(Calendar.YEAR)
-		}
+		if (session.jahr)
+			jahr = session.jahr
+		else
+			jahr = Datum.aktJahr
 		def uOut = printFile ("offeneUmsaetze")
 		Bankumsatz.printOffeneUmsaetze(uOut, jahr);
 		uOut.close()
@@ -38,13 +36,10 @@ class DruckController {
 	
 	def printZuordnungen () {
 		def int jahr 
-		if (params.jahr)
-			jahr = params.jahr.toString().toInteger()
-		else {
-			Calendar calendar = Calendar.getInstance()
-			calendar.setTime(new Date())
-			jahr = calendar.get(Calendar.YEAR)
-		}
+		if (session.jahr)
+			jahr = session.jahr
+		else
+			jahr = Datum.aktJahr
 		def zOut = printFile ("zahlungsZuordnung")
 		Zahlung.printZuordnungen(zOut, jahr);
 		zOut.close()
@@ -130,6 +125,14 @@ class DruckController {
 		workBook.write(fileOutputStream)
 		fileOutputStream.close()
 		downloadFile("nebenkostenabrechung.xlsx")
+	}
+	
+	def setAuswJahr () {
+		if (params.jahr)
+			session.jahr = params.jahr.toString().toInteger()
+		else 
+			session.jahr = Datum.aktJahr
+		redirect(uri: "/")
 	}
 	
 	private PrintWriter printFile (String objName) {
