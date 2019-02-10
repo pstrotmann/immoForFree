@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@ page import="org.strotmann.util.*" %>
 <html>
 	<head>
 		<meta name="layout" content="main"/>
@@ -131,32 +132,24 @@
 							<div class="message">${flash.message3}</div>
 							<div class="message">${flash.message4}</div>
 						</g:if>
-						<li><g:message code="bankumsatz.offen.code" default="offene Bankumsätze anzeigen"/>
-							<g:form controller="bankumsatz">
-						    	<g:actionSubmit action="listOffen" value="Anzeige für" />
-						    	<label for="year">Jahr:</label>
-						    	<input type="text" id="year" name="jahr" />
+						<li><g:form controller="bankumsatz">
+						    	<g:actionSubmit action="listOffen" value="offene Bankumsätze anzeigen für Jahr:" />
+						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
 							</g:form>
 						</li>
-						<li><g:message code="bankumsatz.zugeordnet.code" default="zugeordnete Bankumsätze anzeigen"/>
-							<g:form controller="bankumsatz">
-						    	<g:actionSubmit action="listZugeordnet" value="Anzeige für" />
-						    	<label for="year">Jahr:</label>
-						    	<input type="text" id="year" name="jahr" />
+						<li><g:form controller="bankumsatz">
+						    	<g:actionSubmit action="listZugeordnet" value="zugeordnete Bankumsätze anzeigen für Jahr:" />
+						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
 							</g:form>
 						</li>
-						<li><g:message code="bankumsatz.offen.code" default="offene Bankumsätze drucken"/>
-							<g:form controller="druck">
-						    	<g:actionSubmit action="printOffeneUmsaetze" value="Drucken für" />
-						    	<label for="year">Jahr:</label>
-						    	<input type="text" id="year" name="jahr" />
+						<li><g:form controller="druck">
+						    	<g:actionSubmit action="printOffeneUmsaetze" value="offene Bankumsätze drucken für Jahr:" />
+						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
 							</g:form>
 						</li>
-						<li><g:message code="bankumsatz.zuordnung.code" default="Zuordnung der Zahlungen drucken"/>
-							<g:form controller="druck">
-						    	<g:actionSubmit action="printZuordnungen" value="Drucken für" />
-						    	<label for="year">Jahr:</label>
-						    	<input type="text" id="year" name="jahr" />
+						<li><g:form controller="druck">
+						    	<g:actionSubmit action="printZuordnungen" value="Zuordnung der Zahlungen drucken für Jahr:" />
+						    	<input type="number" id="year" name="jahr" value="${Datum.aktJahr}"/>
 							</g:form>
 						</li>
 						<li class="controller"><g:link controller="immoabrechnung" action="list">Immobilienabrechnung(Betriebskosten=Heiz- und Nebenkosten)</g:link></li>
