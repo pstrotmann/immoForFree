@@ -105,7 +105,6 @@
 						<li class="controller"><g:link controller="immobilie" action="list">Immobilie</g:link></li>
 						<li class="controller"><g:link controller="grundschuld" action="list">Grundschuld</g:link></li>
 						<li class="controller"><g:link controller="mietvertrag" action="list">Mietvertrag</g:link></li>
-						<li class="controller"><g:link controller="druck" action="printMietjournal">Mietjournal drucken</g:link></li>
 						<li class="controller"><g:link controller="kredit" action="list">Kredit</g:link></li>
 						<li class="controller"><g:link controller="dienstleistungsvertrag" action="list">Dienstleistungsvertrag</g:link></li>
 						<li class="controller"><g:link controller="rechnung" action="list">Rechnung</g:link></li>
@@ -145,10 +144,9 @@
 						</g:if>
 						<li class="controller"><g:link controller="bankumsatz" action="listOffen">offene Bankumsätze anzeigen</g:link></li>
 						<li class="controller"><g:link controller="bankumsatz" action="listZugeordnet">zugeordnete Bankumsätze anzeigen</g:link></li>
-						
 						<li class="controller"><g:link controller="druck" action="printOffeneUmsaetze">offene Bankumsätze drucken</g:link></li>
 						<li class="controller"><g:link controller="druck" action="printZuordnungen">Zuordnung der Zahlungen drucken</g:link></li>
-						
+						<li class="controller"><g:link controller="druck" action="printMietjournal">Mietjournal drucken</g:link></li>
 						<li class="controller"><g:link controller="immoabrechnung" action="list">Immobilienabrechnung(Betriebskosten=Heiz- und Nebenkosten)</g:link></li>
 						<g:if test="${flash.messageN}">
 							<div class="message">${flash.messageN}</div>
@@ -156,8 +154,10 @@
 					</ul>
 					<h3>Services:</h3>
 					<ul>
-						<li class="controller"><g:link controller="bank" >Banken</g:link></li>
+						<li class="controller"><g:link controller="termin" >Termine</g:link></li>
 						<li class="controller"><g:link controller="notiz" >Notizen</g:link></li>
+						<li class="controller"><g:link controller="bank" >Banken</g:link></li>
+						
 					</ul>
 				</ul>
 			</div>
