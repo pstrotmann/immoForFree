@@ -147,7 +147,7 @@
 						<li class="controller"><g:link controller="druck" action="printOffeneUmsaetze">offene Bankumsätze drucken</g:link></li>
 						<li class="controller"><g:link controller="druck" action="printZuordnungen">Zuordnung der Zahlungen drucken</g:link></li>
 						<li class="controller"><g:link controller="druck" action="printMietjournal">Mietjournal drucken</g:link></li>
-						<li class="controller"><g:link controller="immoabrechnung" action="list">Immobilienabrechnung(Betriebskosten=Heiz- und Nebenkosten)</g:link></li>
+						<li class="controller"><g:link controller="immoabrechnung" action="list">Heiz- und Nebenkostenabrechnung</g:link></li>
 						<g:if test="${flash.messageN}">
 							<div class="message">${flash.messageN}</div>
 						</g:if>

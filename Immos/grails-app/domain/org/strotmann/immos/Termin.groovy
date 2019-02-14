@@ -31,4 +31,15 @@ class Termin {
 	String toString() {
 		return 	"${this.vorlage},${this.grund},${this.erledigung}"
 	}
+	
+	String getReferenz() {
+		String s = " "
+		if(dienstleistungsvertrag) s=s+"Vertrag:${dienstleistungsvertrag},"
+		if(immobilie) s=s+"Objekt:${immobilie},"
+		if(mietvertrag) s=s+"Vertrag:${mietvertrag},"
+		if(person) s=s+"Person:${person},"
+		if(organisation) s=s+"Organisation:${organisation},"
+		
+		s.substring(0, s.length() - 1).trim()
+	}
 }

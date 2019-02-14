@@ -27,6 +27,8 @@
 						<g:sortableColumn property="vorlage" title="${message(code: 'termin.vorlage.label', default: 'Vorlage')}" />
 					
 						<th><g:message code="termin.grund.label" default="Grund" /></th>
+						
+						<th><g:message code="termin.referenz.label" default="Referenz" /></th>
 					
 						<th><g:message code="termin.erledigung.label" default="Erledigung" /></th>
 					
@@ -39,6 +41,8 @@
 						<td><g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy" /></g:link></td>
 					
 						<td>${fieldValue(bean: terminInstance, field: "grund")}</td>
+						
+						<td>${fieldValue(bean: terminInstance, field: "referenz")}</td>
 					
 						<td><g:formatDate date="${terminInstance.erledigung}" format="dd.MM.yyyy" /></td>
 					

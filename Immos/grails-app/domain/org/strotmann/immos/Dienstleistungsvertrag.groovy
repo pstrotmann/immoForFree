@@ -51,7 +51,7 @@ class Dienstleistungsvertrag implements Comparable{
 	}
 	
 	String toString() {
-		return "${this.immobilie},${this.dienstleister.partner.name},${this.dienstleistungsart}"
+		return "${this.dienstleister.partner.name},${this.dienstleistungsart},${this.immobilie}"
 	}
 	
 	String getDvKurz() {
