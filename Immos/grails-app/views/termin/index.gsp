@@ -38,9 +38,18 @@
 				<g:each in="${Termin.termine}" status="i" var="terminInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy" /></g:link></td>
+						<td>
+							<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy" /></g:link>
+						</td>
 					
-						<td>${fieldValue(bean: terminInstance, field: "grund")}</td>
+						<td>
+							<g:if test="${terminInstance.vorlage <= new Date()}">
+									<span style="color:red;">${fieldValue(bean: terminInstance, field: "grund")}</span>
+							</g:if>
+							<g:if test="${terminInstance.vorlage > new Date()}">
+									${fieldValue(bean: terminInstance, field: "grund")}
+							</g:if>
+						</td>
 						
 						<td>${fieldValue(bean: terminInstance, field: "referenz")}</td>
 					

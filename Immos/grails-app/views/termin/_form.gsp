@@ -90,7 +90,7 @@
 		<g:message code="termin.kredit.label" default="Kredit" />
 		
 	</label>
-	<g:select id="kredit" name="kredit.id" from="${org.strotmann.immos.Kredit.kredite}" optionKey="id" value="${terminInstance?.kredit?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="kredit" name="kredit.id" from="${org.strotmann.immos.Kredit.aktiveKredite}" optionKey="id" value="${terminInstance?.kredit?.id}" class="many-to-one" noSelection="['null': '']"/>
 
 </div>
 
