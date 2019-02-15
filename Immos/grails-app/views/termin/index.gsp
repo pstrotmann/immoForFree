@@ -58,10 +58,16 @@
 					</tr>
 				</g:each>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td>${message(code: 'termin.Count.label', default: 'Anzahl Termine:')}</td>
+						<td><g:formatNumber number="${Termin.count()}" type="number"  format="#,##0"/></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tfoot>
 			</table>
-			<div class="pagination">
-				<g:paginate total="${terminInstanceCount ?: 0}" />
-			</div>
+
 		</div>
 	</body>
 </html>

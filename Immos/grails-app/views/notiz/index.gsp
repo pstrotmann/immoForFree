@@ -60,10 +60,16 @@
 					</tr>
 				</g:each>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td>${message(code: 'notiz.Count.label', default: 'Anzahl Notizen:')}</td>
+						<td><g:formatNumber number="${Notiz.count()}" type="number"  format="#,##0"/></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tfoot>
 			</table>
-			<div class="pagination">
-				<g:paginate total="${notizInstanceCount ?: 0}" />
-			</div>
+			
 		</div>
 	</body>
 </html>
