@@ -25,7 +25,7 @@
 		<g:message code="termin.erledigung.label" default="Erledigung" />
 		
 	</label>
-	<g:datePicker name="erledigung" precision="day" years="${new Date().getYear()+1900..new Date().getYear() + 1905}" value="${terminInstance?.erledigung}" default="none" noSelection="['': '']" />
+	<g:datePicker name="erledigung" precision="day" years="${new Date().getYear()+1900..new Date().getYear() + 1910}" value="${terminInstance?.erledigung}" default="none" noSelection="['': '']" />
 
 </div>
 
