@@ -24,8 +24,8 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="vorlage" title="${message(code: 'termin.vorlage.label', default: 'Vorlage')}" />
-					
+						<th><g:message code="termin.vorlage.label" default="Vorlage" /></th>
+						
 						<th><g:message code="termin.grund.label" default="Grund" /></th>
 						
 						<th><g:message code="termin.referenz.label" default="Referenz" /></th>
@@ -35,7 +35,7 @@
 					</tr>
 				</thead>
 				<tbody>
-				<g:each in="${terminInstanceList}" status="i" var="terminInstance">
+				<g:each in="${Termin.termine}" status="i" var="terminInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy" /></g:link></td>

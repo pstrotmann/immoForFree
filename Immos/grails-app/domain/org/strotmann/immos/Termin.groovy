@@ -37,9 +37,14 @@ class Termin {
 		if(dienstleistungsvertrag) s=s+"Vertrag:${dienstleistungsvertrag},"
 		if(immobilie) s=s+"Objekt:${immobilie},"
 		if(mietvertrag) s=s+"Vertrag:${mietvertrag},"
+		if(kredit) s=s+"Kredit:${kredit},"
 		if(person) s=s+"Person:${person},"
 		if(organisation) s=s+"Organisation:${organisation},"
 		
 		s.substring(0, s.length() - 1).trim()
+	}
+	
+	static List getTermine() {
+		Termin.findAll("from Termin order by vorlage")
 	}
 }
