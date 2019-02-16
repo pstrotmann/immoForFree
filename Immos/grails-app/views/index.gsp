@@ -89,6 +89,12 @@
 	</head>
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+		<div class="nav" role="navigation">
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 		<div id="page-body" role="main">
 			<h1>Immobilienverwaltung</h1>
 			<div id="controller-list" role="navigation">
