@@ -27,7 +27,14 @@
 				<li class="fieldcontain">
 					<span id="vorlage-label" class="property-label"><g:message code="termin.vorlage.label" default="Vorlage" /></span>
 					
-						<span class="property-value" aria-labelledby="vorlage-label"><g:formatDate date="${terminInstance?.vorlage}" format="dd.MM.yyyy"/></span>
+						<span class="property-value" aria-labelledby="vorlage-label">
+							<g:if test="${terminInstance.vorlage.hours == 0}">
+								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/></g:link>
+							</g:if>
+							<g:if test="${terminInstance.vorlage.hours != 0}">
+								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" /></g:link>
+							</g:if>
+						</span>
 					
 				</li>
 				</g:if>
