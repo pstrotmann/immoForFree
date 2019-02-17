@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Termin" %>
+<%@ page import="org.strotmann.util.Datum" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,21 +40,21 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td>
-							<g:if test="${terminInstance.vorlage.hours == 0}">
+							<g:if test="${Datum.stunde(terminInstance.vorlage) == 0}">
 								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/></g:link>
 							</g:if>
-							<g:if test="${terminInstance.vorlage.hours != 0}">
+							<g:else test="${Datum.stunde(terminInstance.vorlage) == 0}">
 								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" /></g:link>
-							</g:if>
+							</g:else>
 						</td>
 					
 						<td>
-							<g:if test="${terminInstance.vorlage <= new Date()}">
+							<g:if test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
 									<span style="color:red;">${fieldValue(bean: terminInstance, field: "grund")}</span>
 							</g:if>
-							<g:if test="${terminInstance.vorlage > new Date()}">
+							<g:else test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
 									${fieldValue(bean: terminInstance, field: "grund")}
-							</g:if>
+							</g:else>
 						</td>
 						
 						<td>${fieldValue(bean: terminInstance, field: "referenz")}</td>

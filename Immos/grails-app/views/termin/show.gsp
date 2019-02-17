@@ -1,5 +1,6 @@
 
 <%@ page import="org.strotmann.immos.Termin" %>
+<%@ page import="org.strotmann.util.Datum" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -29,10 +30,10 @@
 					
 						<span class="property-value" aria-labelledby="vorlage-label">
 							<g:if test="${terminInstance.vorlage.hours == 0}">
-								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/></g:link>
+								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/>
 							</g:if>
 							<g:if test="${terminInstance.vorlage.hours != 0}">
-								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" /></g:link>
+								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" />
 							</g:if>
 						</span>
 					
@@ -42,8 +43,12 @@
 				<g:if test="${terminInstance?.grund}">
 				<li class="fieldcontain">
 					<span id="grund-label" class="property-label"><g:message code="termin.grund.label" default="Grund" /></span>
-					
-						<span class="property-value" aria-labelledby="grund-label"><g:fieldValue bean="${terminInstance}" field="grund"/></span>
+						<g:if test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
+							<span style="color:red;" class="property-value" aria-labelledby="grund-label"><g:fieldValue bean="${terminInstance}" field="grund"/></span>
+						</g:if>
+						<g:else test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
+							<span class="property-value" aria-labelledby="grund-label"><g:fieldValue bean="${terminInstance}" field="grund"/></span>
+						</g:else>
 					
 				</li>
 				</g:if>
