@@ -43,18 +43,18 @@
 							<g:if test="${Datum.stunde(terminInstance.vorlage) == 0}">
 								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/></g:link>
 							</g:if>
-							<g:else test="${Datum.stunde(terminInstance.vorlage) == 0}">
-								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" /></g:link>
-							</g:else>
+							<g:elseif test="true">
+								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" /></g:link>								
+							</g:elseif>
 						</td>
 					
 						<td>
-							<g:if test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
+							<g:if test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1) && !terminInstance.erledigung}">
 									<span style="color:red;">${fieldValue(bean: terminInstance, field: "grund")}</span>
 							</g:if>
-							<g:else test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
+							<g:elseif test="true">
 									${fieldValue(bean: terminInstance, field: "grund")}
-							</g:else>
+							</g:elseif>
 						</td>
 						
 						<td>${fieldValue(bean: terminInstance, field: "referenz")}</td>

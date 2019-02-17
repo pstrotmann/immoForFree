@@ -32,9 +32,9 @@
 							<g:if test="${terminInstance.vorlage.hours == 0}">
 								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/>
 							</g:if>
-							<g:if test="${terminInstance.vorlage.hours != 0}">
+							<g:elseif test="true">
 								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" />
-							</g:if>
+							</g:elseif>
 						</span>
 					
 				</li>
@@ -43,12 +43,12 @@
 				<g:if test="${terminInstance?.grund}">
 				<li class="fieldcontain">
 					<span id="grund-label" class="property-label"><g:message code="termin.grund.label" default="Grund" /></span>
-						<g:if test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
+						<g:if test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1) && !terminInstance.erledigung}">
 							<span style="color:red;" class="property-value" aria-labelledby="grund-label"><g:fieldValue bean="${terminInstance}" field="grund"/></span>
 						</g:if>
-						<g:else test="${terminInstance.vorlage <= Datum.plusTage (new Date(), 1)}">
+						<g:elseif test="true">
 							<span class="property-value" aria-labelledby="grund-label"><g:fieldValue bean="${terminInstance}" field="grund"/></span>
-						</g:else>
+						</g:elseif>
 					
 				</li>
 				</g:if>
