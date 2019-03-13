@@ -33,7 +33,7 @@
 								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/>
 							</g:if>
 							<g:elseif test="true">
-								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" />
+								<g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy HH:mm" />
 							</g:elseif>
 						</span>
 					

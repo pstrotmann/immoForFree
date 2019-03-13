@@ -44,7 +44,7 @@
 								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy"/></g:link>
 							</g:if>
 							<g:elseif test="true">
-								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy hh:mm" /></g:link>								
+								<g:link action="show" id="${terminInstance.id}"><g:formatDate date="${terminInstance.vorlage}" format="dd.MM.yyyy HH:mm" /></g:link>								
 							</g:elseif>
 						</td>
 					
