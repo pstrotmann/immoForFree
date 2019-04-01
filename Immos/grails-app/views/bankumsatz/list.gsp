@@ -37,7 +37,14 @@
 				<g:each in="${bankumsatzInstanceList}" status="i" var="bankumsatzInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${bankumsatzInstance.id}">${fieldValue(bean: bankumsatzInstance, field: "beguenstigterZahlungspflichtiger")}</g:link></td>
+						<td>
+						<g:if test="${bankumsatzInstance.beguenstigterZahlungspflichtiger == ''}" >
+							<g:link action="show" id="${bankumsatzInstance.id}">n.n.</g:link>
+						</g:if>
+						<g:else>
+							<g:link action="show" id="${bankumsatzInstance.id}">${fieldValue(bean: bankumsatzInstance, field: "beguenstigterZahlungspflichtiger")}</g:link>
+						</g:else>
+						</td>
 					
 						<td>${fieldValue(bean: bankumsatzInstance, field: "valutadatum")}</td>
 					
