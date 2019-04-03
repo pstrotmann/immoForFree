@@ -81,7 +81,7 @@ class BankumsatzZuordnungController {
 		bUmsSpez(maxId,"%01009000295902000%","Stadt Bergkamen").each {bUms->
 			anzBankums++
 			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("01009000295902000")
-			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
+			anzZahlung = genZahlungenBk(dList, bUms, anzZahlung)
 		}
 		//der Rest
 		loe =[]
@@ -168,9 +168,20 @@ class BankumsatzZuordnungController {
 	
 	private int genZahlungen(List dList, Bankumsatz bUms, int anzZahlung) {
 		dList.each {dv ->
+			def Zahlung zahlung = zahlung(bUms)
+			zahlung.dienstleistungsvertrag = dv
+			zahlung.save()
+			anzZahlung++
+		}
+		return anzZahlung
+	}
+	
+	private int genZahlungenBk(List dList, Bankumsatz bUms, int anzZahlung) {
+		dList.each {dv ->
 			List <Dienstleistungsvertragsstand> dvsList = Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand as dvs where dvs.dienstleistungsvertrag = ${dv.id}")
 			Dienstleistungsvertragsstand dvs = dvsList.last()
 			def Zahlung zahlung = zahlung(bUms)
+			zahlung.betrag = dvs.pauschale * (-1)
 			zahlung.dienstleistungsvertrag = dv
 			zahlung.save()
 			anzZahlung++
