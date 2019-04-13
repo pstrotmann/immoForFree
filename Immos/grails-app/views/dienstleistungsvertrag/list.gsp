@@ -34,6 +34,8 @@
 						<th><g:message code="dienstleistungsvertrag.zahlweise.label" default="Zahlweise" /></th>
 						
 						<th><div align = right><g:message code="dienstleistungsvertrag.pauschale.label" default="Pauschale" /></th>
+						
+						<th><g:message code="dienstleistungsvertrag.gueAb.label" default="gültig ab" /></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -51,6 +53,8 @@
 						<td>${fieldValue(bean: dienstleistungsvertragInstance, field: "zahlweiseKlar")}</td>
 
 						<td><div align = right><g:formatNumber number="${dienstleistungsvertragInstance.pauschale}" type="number" minFractionDigits="2" format="#,###.##"/></div></td>
+						
+						<td><g:formatDate date="${dienstleistungsvertragInstance.vstand}" format="dd.MM.yyyy"/></td>
 					</tr>
 				</g:each>
 				</tbody>
