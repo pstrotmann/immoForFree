@@ -117,14 +117,14 @@ class Betriebskostenabrechnung implements Comparable{
 		
 		def BigDecimal nebSaldo = n?n.saldo:0
 		brief.nebenkosten = n.betrag
-		brief.nebenkostenvorauszahlung = n.gezahlteNebenkosten
+		brief.nebenkostenvorauszahlung = this.mietvertrag.nebkoVj
 		
 		if (heizkostenabrechnung) {
 			Heizkostenabrechnung h = heizkostenabrechnung
 			brief.heizkosten = h.betrag
 			brief.heizVon = h.von.getDateString()
 			brief.heizBis = h.bis.getDateString()
-			brief.heizkostenvorauszahlung = h.gezahlteHeizkosten
+			brief.heizkostenvorauszahlung = this.mietvertrag.heikoVj
 		}
 		else {
 			brief.heizkosten = 0
