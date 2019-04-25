@@ -100,12 +100,17 @@
 					<td>    </td><td>2% Umlageausfallwagnis(-)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.umlageausfallwagnis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
 				</tr>
 			</g:if>
+			<g:if test="${form?.mietsaldo < 0}">
+				<tr>
+					<td>    </td><td>Mietrückstand(-)</td><td></td><td><div align = "right"><g:formatNumber number="${form?.mietsaldo.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
+				</tr>
+			</g:if>
 			<tr>
-				<td>    </td><td>Saldo</td><td></td><td><div align = "right"><b><g:formatNumber number="${form?.saldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</b></div></td>
+				<td>    </td><td>Saldo</td><td></td><td><div align = "right"><b><g:formatNumber number="${form?.saldo + form?.mietsaldo}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</b></div></td>
 			</tr>
 		</table>
 		
-		<g:if test="${form?.saldo > 0}">
+		<g:if test="${form?.erstattung > 0}">
 			<p>
 				<g:if test="${form?.mitKonto == 'ja'}">
 	     			<p>Ihre Erstatung von <g:formatNumber number= "${form?.saldo.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € überweisen wir an:</p>
@@ -122,12 +127,12 @@
 	     			</table>
 				</g:if>
 				<g:else>
-	     			<p>Damit wir Ihnen Ihre Erstattung von <g:formatNumber number= "${form?.saldo.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € überweisen können, teilen Sie uns bitte Ihre Bankverbindung mit.</p>
+	     			<p>Damit wir Ihnen Ihre Erstattung von <g:formatNumber number= "${form?.erstattung.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € überweisen können, teilen Sie uns bitte Ihre Bankverbindung mit.</p>
 				</g:else>
 			</p>
 		</g:if>	
 		<g:else>
-			<p>Bitte überweisen Sie <g:formatNumber number= "${form?.saldo.abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € bis zum <g:formatDate format="dd.MM.yyyy" date="${form?.zahlungsziel}"/> an:</p>
+			<p>Bitte überweisen Sie <g:formatNumber number= "${(form?.saldo + form?.mietsaldo).abs()}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> € bis zum <g:formatDate format="dd.MM.yyyy" date="${form?.zahlungsziel}"/> an:</p>
 			<table>
      			<tr>
      				<td>Kontoinhaber</td><td>Gabriele und Peter Strotmann</td> 
@@ -139,35 +144,35 @@
      				<td>IBAN</td><td>DE03 4405 0199 0492 0379 07</td> 
      			</tr>
 	     	</table>
-	     	<g:if test="${form?.bruttomietErhoehung}">
-	     		<p>
-	     		Auf Grund der gestiegenen Betriebskosten erhöht sich ab <g:formatDate format="dd.MM.yyyy" date="${form?.naechsterErster}"/> Ihre monatliche Vorauszahlung.
-	     		<g:if test="${form?.hkErhoehung > 0}">
-	     			Ihre Heizkostenvorauszahlung erhöht sich um <g:formatNumber number= "${form?.hkErhoehung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €.
-	     		</g:if>
-	     		<g:if test="${form?.nkErhoehung > 0}">
-	     			Ihre Nebenkostenvorauszahlung erhöht sich um <g:formatNumber number= "${form?.nkErhoehung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €.
-	     		</g:if>
-	     		Ihre Bruttomiete setzt sich nun wie folgt zusammen:
-	     		</p>
-	     		<table>
-	     			<tr>
-						<td>    </td><td>Grundmiete</td><td></td><td><div align = "right"><g:formatNumber number="${form?.grundmiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
-					</tr>
-					<g:if test="${form?.heizkosten > 0}">
-						<tr>
-							<td>    </td><td>Heizkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
-						</tr>
-					</g:if>
-					<tr>
-						<td>    </td><td>Nebenkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>
-					</tr>
-					<tr>
-						<td>    </td><td>Bruttomiete</td><td></td><td><div align = "right"><b><g:formatNumber number="${form?.bruttomieteNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</b></div></td>
-					</tr>
-	     		</table>
-	     		<p>Bitte passen Sie Ihren Dauerauftrag zum <g:formatDate format="dd.MM.yyyy" date="${form?.naechsterErster}"/> entsprechend an.</p>
-	     	</g:if>
+<%--	     	<g:if test="${form?.bruttomietErhoehung}">--%>
+<%--	     		<p>--%>
+<%--	     		Auf Grund der gestiegenen Betriebskosten erhöht sich ab <g:formatDate format="dd.MM.yyyy" date="${form?.naechsterErster}"/> Ihre monatliche Vorauszahlung.--%>
+<%--	     		<g:if test="${form?.hkErhoehung > 0}">--%>
+<%--	     			Ihre Heizkostenvorauszahlung erhöht sich um <g:formatNumber number= "${form?.hkErhoehung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €.--%>
+<%--	     		</g:if>--%>
+<%--	     		<g:if test="${form?.nkErhoehung > 0}">--%>
+<%--	     			Ihre Nebenkostenvorauszahlung erhöht sich um <g:formatNumber number= "${form?.nkErhoehung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €.--%>
+<%--	     		</g:if>--%>
+<%--	     		Ihre Bruttomiete setzt sich nun wie folgt zusammen:--%>
+<%--	     		</p>--%>
+<%--	     		<table>--%>
+<%--	     			<tr>--%>
+<%--						<td>    </td><td>Grundmiete</td><td></td><td><div align = "right"><g:formatNumber number="${form?.grundmiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>--%>
+<%--					</tr>--%>
+<%--					<g:if test="${form?.heizkosten > 0}">--%>
+<%--						<tr>--%>
+<%--							<td>    </td><td>Heizkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.heizkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>--%>
+<%--						</tr>--%>
+<%--					</g:if>--%>
+<%--					<tr>--%>
+<%--						<td>    </td><td>Nebenkostenvorauszahlung</td><td></td><td><div align = "right"><g:formatNumber number="${form?.nebenkostenNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</div></td>--%>
+<%--					</tr>--%>
+<%--					<tr>--%>
+<%--						<td>    </td><td>Bruttomiete</td><td></td><td><div align = "right"><b><g:formatNumber number="${form?.bruttomieteNeu}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> €</b></div></td>--%>
+<%--					</tr>--%>
+<%--	     		</table>--%>
+<%--	     		<p>Bitte passen Sie Ihren Dauerauftrag zum <g:formatDate format="dd.MM.yyyy" date="${form?.naechsterErster}"/> entsprechend an.</p>--%>
+<%--	     	</g:if>--%>
 		</g:else>
 		<p>Mit freundlichen Grüßen</p>	
 	</div>

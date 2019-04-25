@@ -1,15 +1,15 @@
-Nebenkostenabrechnung ;2015;Monat:01-12
-Heinrichstraße  46 , 59077  Hamm,Reihenmittelhaus,
-Mieter:;Partu
+Nebenkostenabrechnung ;2018;Monat:01-12
+Lorenzstrasse  5 , 44536  Lünen,Wohnung,EG-li
+Mieter:;Heyer
 Kostenart;UmlSchl;Ges €;x (Anteil;/ MengeGes) =;€
-Entwässerung;Haushalt ;84,00;1;1;84,00
-Grundsteuer;Haushalt ;301,50;1;1;301,50
-Müllabfuhr;Haushalt ;147,62;1;1;147,62
-Gebäudeversicherung;Haushalt ;231,95;1;1;231,95
-Haftpflichtversicherung;Haushalt ;46,10;1;1;46,10
-Heizungswartung;Haushalt ;163,60;1;1;163,60
-Kabelfernsehen;Haushalt ;146,28;1;1;146,28
-Rauchmelder;Haushalt ;111,45;1;1;111,45
-Schornsteinfeger;Haushalt ;64,55;1;1;64,55
-;;;;Summe;1.297,05
+Entwässerung Fläche;qm ;370,92;73,96;441,31;62,16
+Grundsteuer;qm ;1.274,37;73,96;441,31;213,57
+Müllabfuhr;Personen ;890,51;3;15;178,10
+Gebäudeversicherung;qm ;1.155,18;73,96;441,31;193,60
+Haftpflichtversicherung;qm ;140,28;73,96;441,31;23,51
+Hauswart;qm ;1.592,37;73,96;441,31;266,87
+Kabelfernsehen;Haushalt ;1.240,56;1;6;206,76
+Strom allgemein;qm ;93,58;73,96;441,31;15,68
+Trinkwasseruntersuchung;qm ;417,10;73,96;441,31;69,90
+;;;;Summe;1.230,15
 ;;;;;

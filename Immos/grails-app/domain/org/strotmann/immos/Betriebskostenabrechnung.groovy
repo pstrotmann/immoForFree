@@ -1,4 +1,5 @@
 package org.strotmann.immos
+import org.strotmann.util.IBAN
 
 class Betriebskostenabrechnung implements Comparable{
 	//als nächstes zu realisieren, nach Prüfung, was bereits läuft
@@ -88,16 +89,8 @@ class Betriebskostenabrechnung implements Comparable{
 		def String adresse = "${adressAnrede};${adressName};${strHnr};${plzOrt}"
 		def String anrede = "${briefAnrede1};${anredeName};${briefAnrede2}"
 		def String bankdaten
-		def Bankverbindung bank
-		if (p.einzelverbindung)
-			if (!mietvertrag.zahlerList.empty) {
-				def Partner mietzahler = mietvertrag.zahlerList[0]
-				bank = null
-			}
-			else
-				bank = p.einzelverbindung
-		else
-			bank = null
+		def Bankverbindung bank = bankverbindung
+
 		if (bank)
 			bankdaten = "${bank.ktoNr};${bank.blz};${bank.nameUndAdresse};${p};ja"
 		else
@@ -133,7 +126,21 @@ class Betriebskostenabrechnung implements Comparable{
 			brief.heizkostenvorauszahlung = 0
 		}
 		brief.umlageausfallwagnis = this.umlageausfallwagnis
-		brief.saldo = - brief.nebenkosten + brief.nebenkostenvorauszahlung - brief.heizkosten + brief.heizkostenvorauszahlung - brief.umlageausfallwagnis
+		brief.saldo = brief.nebenkostenvorauszahlung + brief.heizkostenvorauszahlung - brief.nebenkosten - brief.heizkosten - brief.umlageausfallwagnis
+		brief.mietsaldo = mietvertrag.mietsaldo
+		
+		if (brief.saldo > 0) 
+			if (mietvertrag.mietsaldo < 0) 
+				if (mietvertrag.mietsaldo + brief.saldo < 0){ 
+					brief.erstattung = 0
+					//brief.saldo = brief.mietsaldo + brief.saldo
+				}
+				else
+					brief.erstattung = brief.mietsaldo + brief.saldo
+			else
+				brief.erstattung = brief.saldo		
+		else
+			brief.erstattung = 0
 		
 		if (bank) {
 			brief.iban = bank.iban
@@ -159,5 +166,30 @@ class Betriebskostenabrechnung implements Comparable{
 		}
 			
 		"${new Date().getDateString()};${adresse};${anrede};${jahr};${nebSaldo.toString().replace('.',',')};${bankdaten}"
+	}
+	
+	Bankverbindung getBankverbindung () {
+		Bankverbindung b = null
+		def Bankumsatz bUms = null
+		def List zList = []
+		mietvertrag.zahlungen.each {Zahlung z ->
+			zList << z			
+		}
+		zList.reverse().each {Zahlung z ->
+			if (z.bankumsatz && !bUms)
+				if (z.betrag > 0) {
+					bUms = z.bankumsatz
+				}
+		}
+		if (bUms) {
+			b = new Bankverbindung()
+			b.iban = IBAN.ibanForm(bUms.kontonummerIBAN)
+			b.bic = bUms.bic
+			b.partner = mietvertrag.mieter.partner
+		}
+		else
+			b = mietvertrag.mieter.partner.einzelverbindung
+			
+		b	
 	}
 }

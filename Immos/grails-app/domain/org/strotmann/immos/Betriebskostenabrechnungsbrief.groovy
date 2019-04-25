@@ -22,6 +22,8 @@ class Betriebskostenabrechnungsbrief {
 	BigDecimal nebenkostenvorauszahlung
 	BigDecimal heizkostenvorauszahlung
 	BigDecimal saldo
+	BigDecimal mietsaldo
+	BigDecimal erstattung
 	
 	String iban
 	String kto
@@ -50,6 +52,8 @@ class Betriebskostenabrechnungsbrief {
 		 nebenkostenvorauszahlung()
 		 heizkostenvorauszahlung()
 		 saldo()
+		 mietsaldo(nullable:true)
+		 erstattung(nullable:true)
 		 iban()
 		 kto()
 		 blz()

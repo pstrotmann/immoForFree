@@ -123,6 +123,24 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.mietsaldo}">
+				<li class="fieldcontain">
+					<span id="mietsaldo-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.mietsaldo.label" default="Mietsaldo" /></span>
+					
+						<span class="property-value" aria-labelledby="mietsaldo-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="mietsaldo"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${betriebskostenabrechnungsbriefInstance?.erstattung}">
+				<li class="fieldcontain">
+					<span id="erstattung-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.erstattung.label" default="Erstattung" /></span>
+					
+						<span class="property-value" aria-labelledby="erstattung-label"><g:fieldValue bean="${betriebskostenabrechnungsbriefInstance}" field="erstattung"/></span>
+					
+				</li>
+				</g:if>
+				
 				<g:if test="${betriebskostenabrechnungsbriefInstance?.nebenkostenvorauszahlung}">
 				<li class="fieldcontain">
 					<span id="nebenkostenvorauszahlung-label" class="property-label"><g:message code="betriebskostenabrechnungsbrief.nebenkostenvorauszahlung.label" default="Nebenkostenvorauszahlung" /></span>

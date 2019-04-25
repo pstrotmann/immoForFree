@@ -75,6 +75,7 @@ class DruckController {
 		
 		def sOut = csvFile ("serienbriefe")
 		def Immoabrechnung immoabrechnung = Immoabrechnung.get(params.id)
+		immoabrechnung.loescheOp()
 		immoabrechnung.erzeugeCsv(sOut)
 		immoabrechnung.erzeugeOp()
 		sOut.close()

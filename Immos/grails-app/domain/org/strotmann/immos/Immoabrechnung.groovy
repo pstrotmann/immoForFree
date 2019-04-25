@@ -189,6 +189,24 @@ class Immoabrechnung implements Comparable {
 		}
 	}
 	
+	void loescheOp() {
+		betriebskostenabrechnungen.each {Betriebskostenabrechnung b ->
+			def OffenerPosten offenerPosten
+			b.mietvertrag.mietforderungen.each {OffenerPosten op ->
+				if (op.grund.contains("Betriebskostenabrechnung ${jahr.toString()}")) {
+					offenerPosten = op
+					offenerPosten.betrag = 0
+				}
+			}
+			if (offenerPosten)
+				if (!offenerPosten.save(flush: true)) {
+					b.errors.each {
+						println it
+					}
+				}
+		}
+	}
+	
 	void erzeugeUmlagen() {
 		String s = "from Umlage as u where u.immoabrechnung.id = ${id}"
 		Umlage.deleteAll(Umlage.findAll(s))

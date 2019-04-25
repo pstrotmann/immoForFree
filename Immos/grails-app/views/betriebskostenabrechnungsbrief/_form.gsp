@@ -128,6 +128,15 @@
 
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'erstattung', 'error')} required">
+	<label for="erstattung">
+		<g:message code="betriebskostenabrechnungsbrief.erstattung.label" default="Erstattung" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="erstattung" required="" value="${betriebskostenabrechnungsbriefInstance?.erstattung}"/>
+
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: betriebskostenabrechnungsbriefInstance, field: 'jahr', 'error')} required">
 	<label for="jahr">
 		<g:message code="betriebskostenabrechnungsbrief.jahr.label" default="Jahr" />
