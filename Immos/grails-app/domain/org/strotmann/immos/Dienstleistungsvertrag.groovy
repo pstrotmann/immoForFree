@@ -70,10 +70,14 @@ class Dienstleistungsvertrag implements Comparable{
 		Holders.config.zahlweise[zahlweise]
 	}
 	
-	Double getPauschale () {
+	BigDecimal getPauschale () {
 		def List dvsList = Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand as dvs where dvs.dienstleistungsvertrag = ${id} order by dvs.id")
 		def Dienstleistungsvertragsstand dvs = dvsList.empty ? null : dvsList.last()
 		dvs ? dvs.pauschale : 0
+	}
+	
+	BigDecimal getPauschaleMtl () {
+		pauschale * zahlweise / 12
 	}
 	
 	Date getVstand () {
@@ -95,6 +99,14 @@ class Dienstleistungsvertrag implements Comparable{
 			l = Umlageinfo.findAll (s)
 		}
 		l
+	}
+	
+	static BigDecimal getPauschaleMtlSum () {
+		BigDecimal sum = 0
+		dienstleistungsvertraege.each {Dienstleistungsvertrag d ->
+			sum += d.pauschaleMtl
+		}
+		sum
 	}
 	
 	static List getDienstleistungsvertraege () {

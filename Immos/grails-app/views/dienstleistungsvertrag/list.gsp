@@ -33,7 +33,9 @@
 						
 						<th><g:message code="dienstleistungsvertrag.zahlweise.label" default="Zahlweise" /></th>
 						
-						<th><div align = right><g:message code="dienstleistungsvertrag.pauschale.label" default="Pauschale" /></th>
+						<th><div align = right><g:message code="dienstleistungsvertrag.pauschale.label" default="pauschal" /></th>
+						
+						<th><div align = right><g:message code="dienstleistungsvertrag.pauschale.label" default="je Monat" /></th>
 						
 						<th><g:message code="dienstleistungsvertrag.gueAb.label" default="gültig ab" /></th>
 					</tr>
@@ -54,10 +56,32 @@
 
 						<td><div align = right><g:formatNumber number="${dienstleistungsvertragInstance.pauschale}" type="number" minFractionDigits="2" format="#,###.##"/></div></td>
 						
+						<td><div align = right><g:formatNumber number="${dienstleistungsvertragInstance.pauschaleMtl}" type="number" maxFractionDigits="2" minFractionDigits="2" format="#,###.##"/></div></td>
+						
 						<td><g:formatDate date="${dienstleistungsvertragInstance.vstand}" format="dd.MM.yyyy"/></td>
 					</tr>
 				</g:each>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+					
+						<td></td>
+					
+						<td></td>
+						
+						<td></td>
+					
+						<td></td>
+						
+						<td><div align = right>Summe:</div></td>
+						
+						<td><div align = right><g:formatNumber number="${Dienstleistungsvertrag.pauschaleMtlSum}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td></td>
+						
+					</tr>
+				</tfoot>
 			</table>
 			<div class="pagination">
 				<g:paginate total="${dienstleistungsvertragInstanceTotal}" />
