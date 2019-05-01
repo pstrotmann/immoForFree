@@ -12,6 +12,7 @@ class Bankumsatz {
 	String valutadatum
 	String buchungstext
 	String verwendungszweck
+	String verwLong
 	String glaeubigerId
 	String mandatsreferenz
 	String kundenreferenz
@@ -29,6 +30,7 @@ class Bankumsatz {
 	
 	static mapping = {
 		valutadatum column: 'Valutadatum', index: 'Valutadatum_Idx'
+		verwLong column: 'verwLong', sqlType: "varchar(1024)"
 	}
 
     static constraints = {
@@ -37,6 +39,7 @@ class Bankumsatz {
 		 valutadatum()
 		 buchungstext()
 		 verwendungszweck()
+		 verwLong(nullable: true)
 		 glaeubigerId()
 		 mandatsreferenz()
 		 kundenreferenz()

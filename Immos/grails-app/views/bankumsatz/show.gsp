@@ -68,6 +68,15 @@
 					
 				</li>
 				</g:if>
+				
+				<g:if test="${bankumsatzInstance?.verwLong}">
+				<li class="fieldcontain">
+					<span id="verwLong-label" class="property-label"><g:message code="bankumsatz.verwLong.label" default="Verwendungszweck lang" /></span>
+					
+						<span class="property-value" aria-labelledby="verwLong-label"><g:fieldValue bean="${bankumsatzInstance}" field="verwLong"/></span>
+					
+				</li>
+				</g:if>
 			
 				<g:if test="${bankumsatzInstance?.glaeubigerId}">
 				<li class="fieldcontain">

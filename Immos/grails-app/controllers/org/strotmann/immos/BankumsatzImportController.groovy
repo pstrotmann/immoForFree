@@ -34,9 +34,11 @@ class BankumsatzImportController {
 				 def int j = 0
 				 lineArray.each
 				  	{it->
-						def String itPur 
-						if(it.length() > 255)
+						def String itPur, itLong
+						if(it.length() > 255) { 
 						   itPur = it.substring(1,255) 
+						   itLong = it
+						}
 						else
 						   itPur = it.substring(1,it.length()-1)
 						 
@@ -46,6 +48,7 @@ class BankumsatzImportController {
 						  case 2: bankumsatz.valutadatum = itPur
 						  case 3: bankumsatz.buchungstext = itPur
 						  case 4: bankumsatz.verwendungszweck = itPur
+						          bankumsatz.verwLong = itLong
 						  case 5: bankumsatz.glaeubigerId = itPur
 						  case 6: bankumsatz.mandatsreferenz = itPur
 						  case 7: bankumsatz.kundenreferenz = itPur
