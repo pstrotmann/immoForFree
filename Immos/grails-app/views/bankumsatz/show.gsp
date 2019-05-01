@@ -60,23 +60,23 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${bankumsatzInstance?.verwendungszweck}">
+				<g:if test="${bankumsatzInstance?.verwLong}">
+				<li class="fieldcontain">
+					<span id="verwendungszweck-label" class="property-label"><g:message code="bankumsatz.verwendungszweck.label" default="Verwendungszweck" /></span>
+					
+						<span class="property-value" aria-labelledby="verwendungszweck-label"><g:fieldValue bean="${bankumsatzInstance}" field="verwLong"/></span>
+					
+				</li>
+				</g:if>
+				<g:elseif test="${bankumsatzInstance?.verwendungszweck}">
 				<li class="fieldcontain">
 					<span id="verwendungszweck-label" class="property-label"><g:message code="bankumsatz.verwendungszweck.label" default="Verwendungszweck" /></span>
 					
 						<span class="property-value" aria-labelledby="verwendungszweck-label"><g:fieldValue bean="${bankumsatzInstance}" field="verwendungszweck"/></span>
 					
 				</li>
-				</g:if>
+				</g:elseif>
 				
-				<g:if test="${bankumsatzInstance?.verwLong}">
-				<li class="fieldcontain">
-					<span id="verwLong-label" class="property-label"><g:message code="bankumsatz.verwLong.label" default="Verwendungszweck lang" /></span>
-					
-						<span class="property-value" aria-labelledby="verwLong-label"><g:fieldValue bean="${bankumsatzInstance}" field="verwLong"/></span>
-					
-				</li>
-				</g:if>
 			
 				<g:if test="${bankumsatzInstance?.glaeubigerId}">
 				<li class="fieldcontain">
