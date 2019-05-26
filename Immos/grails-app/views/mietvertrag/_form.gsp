@@ -115,7 +115,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragInstance, field: 'mietforderungen', 'error')} ">
 	<label for="mietforderungen">
-		<g:message code="mietvertrag.mietforderungen.label" default="Mietforderungen" />
+		<g:message code="mietvertrag.mietforderungen.label" default="außerordentliche Fälligkeiten" />
 		
 	</label>
 	
