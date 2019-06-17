@@ -8,6 +8,6 @@ class DienstleistungsvertragsstandController {
 	
 	def list(Integer max) {
 		params.max = Math.min(max ?: 100, 1000)
-		[dienstleistungsvertragsstandInstanceList: Dienstleistungsvertragsstand.list(), dienstleistungsvertragsstandInstanceTotal: Dienstleistungsvertragsstand.count()]
+		[dienstleistungsvertragsstandInstanceList: Dienstleistungsvertragsstand.staende, dienstleistungsvertragsstandInstanceTotal: Dienstleistungsvertragsstand.count()]
 	}
 }

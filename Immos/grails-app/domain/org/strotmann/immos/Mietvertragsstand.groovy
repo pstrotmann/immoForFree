@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import java.util.List;
+
 class Mietvertragsstand implements Comparable{
 	
 	Date gueltigAb
@@ -77,4 +79,8 @@ class Mietvertragsstand implements Comparable{
 	}
 	
 	String toString() {"${this.mietvertrag},Stand ${this.vstandKurz}"}
+	
+	static List getStaende () {
+		Mietvertragsstand.findAll("from Mietvertragsstand order by mietvertrag.mietsache.immobilie.id, mietvertrag.id, id ")
+	}
 }

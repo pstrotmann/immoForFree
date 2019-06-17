@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import java.util.List;
+
 class Kreditstand implements Comparable {
 	
 	Date laufzeitAb
@@ -53,5 +55,9 @@ class Kreditstand implements Comparable {
 		if(tilgungsbetrag) betrag += tilgungsbetrag
 		if(verwKostenbetrag) betrag += verwKostenbetrag
 		betrag
+	}
+	
+	static List getStaende () {
+		Kreditstand.findAll("from Kreditstand order by kredit.id, id ")
 	}
 }

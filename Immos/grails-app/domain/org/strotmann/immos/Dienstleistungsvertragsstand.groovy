@@ -1,6 +1,7 @@
 package org.strotmann.immos
 
 import java.util.Date;
+import java.util.List;
 
 class Dienstleistungsvertragsstand implements Comparable {
 	
@@ -29,5 +30,9 @@ class Dienstleistungsvertragsstand implements Comparable {
    
    String getVstandKurz () {
 	   this.gueltigAb.getDateString()+" Pauschale: "+this.pauschaleAufbereitet
+   }
+   
+   static List getStaende () {
+	   Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand order by dienstleistungsvertrag.id, id ")
    }
 }
