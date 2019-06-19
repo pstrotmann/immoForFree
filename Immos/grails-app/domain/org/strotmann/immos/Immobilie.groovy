@@ -152,6 +152,14 @@ class Immobilie {
 		mvList
 	}
 	
+	List <Grundschuld> getGrundschuldenAktiv () {
+		List <Grundschuld> gsList = []
+		grundschulden.each {Grundschuld gs ->
+			if (gs.loeschungAm == null)
+				gsList << gs}
+		gsList
+	}
+	
 	List <Zwischenzaehler> getZwischenzaehlers () {
 		List <Zwischenzaehler> zzList = []
 		Zwischenzaehler.findAll ("from Zwischenzaehler as zz where zz.zaehler.immobilie = ${id}").each {zzList << it}

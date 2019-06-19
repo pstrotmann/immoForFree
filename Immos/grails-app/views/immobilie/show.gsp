@@ -260,11 +260,11 @@
 				</li>
 				</g:if>
 				
-				<g:if test="${immobilieInstance?.grundschulden}">
+				<g:if test="${immobilieInstance?.grundschuldenAktiv}">
 				<li class="fieldcontain">
 					<span id="grundschulden-label" class="property-label"><g:message code="immobilie.grundschulden.label" default="Grundschulden" /></span>
 					
-						<g:each in="${immobilieInstance.grundschulden}" var="e">
+						<g:each in="${immobilieInstance.grundschuldenAktiv}" var="e">
 						<span class="property-value" aria-labelledby="grundschulden-label"><g:link controller="grundschuld" action="show" id="${e.id}">${e?.encodeAsHTML()}</g:link></span>
 						</g:each>
 					
