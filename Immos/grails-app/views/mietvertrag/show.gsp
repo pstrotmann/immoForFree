@@ -205,7 +205,7 @@
 				</li>
 			
 			</ol>
-			<g:form>
+			<g:form url="[resource:mietvertragInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">
 					<g:hiddenField name="id" value="${mietvertragInstance?.id}" />
 					<g:link class="edit" action="edit" id="${mietvertragInstance?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
