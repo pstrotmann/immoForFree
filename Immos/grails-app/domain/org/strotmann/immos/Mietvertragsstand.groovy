@@ -58,20 +58,32 @@ class Mietvertragsstand implements Comparable{
 	Date getGueltigBis () {
 		Date gueBis
 		
-		if (this.mietvertrag.vertragsstaende.headSet(this).empty) 
-		use (groovy.time.TimeCategory) {
-			if (this.mietvertrag.mietende)
-				gueBis = this.mietvertrag.mietende
-			else
-				gueBis = new Date() + 1000.years
-		}
-		else {
-			Mietvertragsstand nachfolger = (Mietvertragsstand)((this.mietvertrag.vertragsstaende.headSet(this)).last())
+		if (this.nachfolger)
 			use (groovy.time.TimeCategory) {
 				gueBis = nachfolger.gueltigAb - 1.day
 			}
-		}
+		else
+			use (groovy.time.TimeCategory) {
+				if (this.mietvertrag.mietende)
+					gueBis = this.mietvertrag.mietende
+				else
+					gueBis = new Date() + 1000.years
+			}
+		
 		gueBis
+	}
+	
+	Mietvertragsstand getNachfolger() {
+		Mietvertragsstand nf
+		int i = 0
+		
+		this.mietvertrag.vertragsstaende.tailSet(this).each {Mietvertragsstand mvs ->
+			i++
+			if (i == 2)
+				nf = mvs
+		}
+		
+		nf
 	}
 	
 	String getVstandKurz () {

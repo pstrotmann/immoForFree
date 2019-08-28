@@ -79,6 +79,13 @@
 				</li>
 				</g:if>
 				
+				<li class="fieldcontain">
+					<span id="vorjahresnettomiete-label" class="property-label"><g:message code="mietsache.vorjahresnettomiete.label" default="Vorjahresnettomiete" /></span>
+					
+						<span class="property-value" aria-labelledby="vorjahresnettomiete-label"><g:formatNumber number="${mietsacheInstance?.vorjahresnettomiete}" type="number" minFractionDigits="2" maxFractionDigits="2" format="##,##0.00"/></span>
+					
+				</li>
+				
 				<g:if test="${mietsacheInstance?.zwischenzaehlers}">
 				<li class="fieldcontain">
 					<span id="zwischenzaehlers-label" class="property-label"><g:message code="mietsache.zwischenzaehlers.label" default="Zwischenzähler" /></span>

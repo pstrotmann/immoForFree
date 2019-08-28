@@ -48,7 +48,12 @@
 					
 						<td>${fieldValue(bean: bankumsatzInstance, field: "valutadatum")}</td>
 					
-						<td>${fieldValue(bean: bankumsatzInstance, field: "verwendungszweck")}</td>
+						<g:if test="${bankumsatzInstance.verwendungszweck == ''}" >
+							<td>${fieldValue(bean: bankumsatzInstance, field: "buchungstext")}</td>
+						</g:if>
+						<g:else test="${bankumsatzInstance.verwendungszweck == ''}" >
+							<td>${fieldValue(bean: bankumsatzInstance, field: "verwendungszweck")}</td>
+						</g:else>
 					
 						<td><div align = right>${fieldValue(bean: bankumsatzInstance, field: "betrag")}</div></td>
 					

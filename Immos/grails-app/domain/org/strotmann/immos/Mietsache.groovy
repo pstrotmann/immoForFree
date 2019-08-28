@@ -89,6 +89,61 @@ class Mietsache implements Comparable{
 		anz
 	}
 	
+	BigDecimal getVorjahresnettomiete() {
+		def BigDecimal netto = 0
+		List <Mietvertragsstand> mvsGue = []
+		Date gueBis, gueAb
+		
+		def Calendar cal = Calendar.getInstance();
+		cal.setTime(new Date())
+		int vorjahr = cal.get(Calendar.YEAR) - 1
+		cal.set(vorjahr,Calendar.JANUARY,1)
+		Date vorjahrBeginn = cal.getTime()
+		cal.set(vorjahr,Calendar.DECEMBER,31)
+		Date vorjahrEnde = cal.getTime()
+		
+		vertragsstaende.each {Mietvertragsstand mvs ->
+			
+			if (mvs.gueltigBis.compareTo(vorjahrEnde) > 0)
+				gueBis = vorjahrEnde
+			else
+				gueBis = mvs.gueltigBis
+				
+			if (mvs.gueltigAb > vorjahrEnde || gueBis < vorjahrBeginn)
+			 	{/*do nothing, Vertragsstand liegt außerhalb des Vorjahres*/}
+			else
+				mvsGue << mvs
+		}
+		
+		mvsGue.each {Mietvertragsstand mvs ->
+			
+			if (mvs.gueltigAb.compareTo(vorjahrBeginn) < 0)
+				gueAb = vorjahrBeginn
+			else
+				gueAb = mvs.gueltigAb
+			
+			if (mvs.gueltigBis.compareTo(vorjahrEnde) > 0)
+				gueBis = vorjahrEnde
+			else
+				gueBis = mvs.gueltigBis
+				
+			def int monate = gueBis.minus(gueAb) / 30 + 0.5
+			
+			if (this.art in ['Garage','Stellplatz'])
+				netto += (mvs.zusatzmiete) * monate
+			else
+				netto += (mvs.grundmiete) * monate
+			
+		}
+		
+		netto
+	}
+	
+	BigDecimal getVorjahresumlage() {
+		def BigDecimal uml = 0
+		uml
+	}
+	
 	int jahr (Date d) {
 		def Calendar c = Calendar.getInstance();
 		c.setTime(d)

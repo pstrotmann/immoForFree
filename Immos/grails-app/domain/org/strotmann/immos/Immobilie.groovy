@@ -192,20 +192,20 @@ class Immobilie {
 			ms.vertragsstaende.each {Mietvertragsstand mvs ->
 				def Date ab, bis
 				def int mo = 0
-				if (mvs.gueltigAb.clearTime().compareTo(vorjahrEnde.clearTime()) > 0) 
+				if (mvs.gueltigAb.compareTo(vorjahrEnde) > 0) 
 					ab = null
 				else
-					if (mvs.gueltigAb.clearTime().compareTo(vorjahrBeginn.clearTime()) < 0)
+					if (mvs.gueltigAb.compareTo(vorjahrBeginn) < 0)
 						ab = vorjahrBeginn.clearTime()
 					else
 						ab = mvs.gueltigAb.clearTime()
-				if (mvs.gueltigBis.clearTime().compareTo(vorjahrBeginn.clearTime()) < 0) 
+				if (mvs.gueltigBis.compareTo(vorjahrBeginn) < 0) 
 					bis = null
 				else
-					if (mvs.gueltigBis.clearTime().compareTo(vorjahrEnde.clearTime()) > 0)
-						bis = vorjahrEnde.clearTime()
+					if (mvs.gueltigBis.compareTo(vorjahrEnde) > 0)
+						bis = vorjahrEnde
 					else
-						bis = mvs.gueltigBis.clearTime()
+						bis = mvs.gueltigBis
 						
 				if (ab && bis)
 					mo = bis.minus(ab) / 30 + 0.5
