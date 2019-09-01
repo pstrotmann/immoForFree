@@ -9,4 +9,9 @@ import grails.transaction.Transactional
 class MietsacheController {
 
     def scaffold = true
+	
+	def list(Integer max) {
+		params.max = Math.min(max ?: 100, 1000)
+		[mietsacheInstanceList: Mietsache.mietsachen, mietsacheInstanceTotal: Mietsache.count()]
+	}
 }

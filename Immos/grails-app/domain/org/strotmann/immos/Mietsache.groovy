@@ -154,4 +154,8 @@ class Mietsache implements Comparable{
 		String suchString = "from Mietsache as ms where ms.immobilie.id = ${immoId} "
 		Mietsache.findAll(suchString)
 	}
+	
+	static List getMietsachen () {
+		Mietsache.findAll("from Mietsache as ms where immobilie.eigentumBis = null order by immobilie.id, id")
+	}
 }

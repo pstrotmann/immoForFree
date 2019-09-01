@@ -24,6 +24,8 @@
 				<thead>
 					<tr>
 					
+						<th><g:message code="mietsache.immobilie.label" default="Immobilie" /></th>
+					
 						<g:sortableColumn property="lage" title="${message(code: 'mietsache.lage.label', default: 'Lage')}" />
 					
 						<g:sortableColumn property="art" title="${message(code: 'mietsache.art.label', default: 'Art')}" />
@@ -32,14 +34,14 @@
 					
 						<g:sortableColumn property="aufteilung" title="${message(code: 'mietsache.aufteilung.label', default: 'Aufteilung')}" />
 					
-						<th><g:message code="mietsache.immobilie.label" default="Immobilie" /></th>
-					
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${mietsacheInstanceList}" status="i" var="mietsacheInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
+						<td>${fieldValue(bean: mietsacheInstance, field: "immobilie")}</td>
+						
 						<td><g:link action="show" id="${mietsacheInstance.id}">${fieldValue(bean: mietsacheInstance, field: "lage")}</g:link></td>
 					
 						<td>${fieldValue(bean: mietsacheInstance, field: "art")}</td>
@@ -48,7 +50,7 @@
 					
 						<td>${fieldValue(bean: mietsacheInstance, field: "aufteilung")}</td>
 					
-						<td>${fieldValue(bean: mietsacheInstance, field: "immobilie")}</td>
+						
 					
 					</tr>
 				</g:each>
