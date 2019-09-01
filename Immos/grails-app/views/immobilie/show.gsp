@@ -148,6 +148,14 @@
 						<span class="property-value" aria-labelledby="teilsummen-label"><g:message message="${t}" /></span>
 						</g:each>
 				</li>
+				
+				<li class="fieldcontain">
+					<span id="mietflaeche-label" class="property-label"><g:message code="immobilie.mietflaeche.label" default="Mietfläche" /></span>
+					
+						<span class="property-value" aria-labelledby="mietflaeche-label"><g:fieldValue bean="${immobilieInstance}" field="wohnflaeche"/></span>
+					
+				</li>
+				
 				<li class="fieldcontain">
 					<span id="jahresnettomiete-label" class="property-label"><g:message code="immobilie.jahresnettomiete.label" default="Jahresnettomiete" /></span>
 					
