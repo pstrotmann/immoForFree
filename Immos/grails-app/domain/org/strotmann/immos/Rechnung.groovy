@@ -60,7 +60,7 @@ class Rechnung implements Comparable{
 	
 	String getReLang() {
 		def nbsp = "\u2007"
-		toString()+nbsp+rechnungssteller.partner.name+','+nbsp+rechnungsgegenstand
+		toString()+','+nbsp+rechnungssteller.partner.name
 	}
 	
 	String toString() {
