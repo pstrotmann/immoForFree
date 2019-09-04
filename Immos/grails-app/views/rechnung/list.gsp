@@ -6,7 +6,7 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'rechnung.label', default: 'Rechnung')}" />
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
-	</head>
+		</head>
 	<body>
 		<a href="#list-rechnung" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
@@ -17,6 +17,17 @@
 		</div>
 		<div id="list-rechnung" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
+				
+			<g:form class="list" controller="rechnung">
+		    	<g:actionSubmit action="setImmobilie" value="Selektieren für" />
+		    	<g:if test="${session.immobilie == null}">
+		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="${session.immobilie}" class="many-to-one" noSelection="['null': '']"/>
+		   		</g:if>
+		   		<g:else>
+		    		${session.immobilie}
+		   		</g:else>
+		    </g:form>
+				
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>

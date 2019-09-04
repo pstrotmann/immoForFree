@@ -9,8 +9,15 @@ class RechnungController {
     def scaffold = true
 	
 	def list(Integer max) {
-		params.max = Math.min(max ?: 100, 1000)
-		[rechnungInstanceList: Rechnung.getRechnungen(), rechnungInstanceTotal: Rechnung.count()]
+		params.max = Math.min(max ?: 1000, 10000)
+		def List <Rechnung> rechnungen
+		if (session.immobilie)
+			rechnungen = Rechnung.getRechnungen(session.immobilie)
+		session.immobilie = null
+		if (rechnungen)
+			[rechnungInstanceList: rechnungen, rechnungInstanceTotal: rechnungen.size()]			
+		else
+			[rechnungInstanceList: Rechnung.getRechnungen(), rechnungInstanceTotal: Rechnung.count()]
 	}
     
     def create() {
@@ -21,7 +28,7 @@ class RechnungController {
     }
 
     def save() {
-        def rechnungInstance = new Rechnung(params)
+		def rechnungInstance = new Rechnung(params)
 		if (flash.partner1)
 		rechnungInstance.rechnungssteller = new Partnerrolle(rolle:flash.rolle1, partner:flash.partner1).save(flush: true)
 		if (params.partner) {
@@ -95,6 +102,14 @@ class RechnungController {
 			}
 			'*'{ render status: NO_CONTENT }
 		}
+	}
+	
+	def setImmobilie () {
+		if (params.immobilie)
+			session.immobilie = Immobilie.get(params.immobilie.id)
+		else
+			session.immobilie = null
+		redirect(uri: "/rechnung/list")
 	}
 	
 }

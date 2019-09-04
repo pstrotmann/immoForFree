@@ -85,6 +85,10 @@ class Rechnung implements Comparable{
 		Rechnung.findAll("from Rechnung order by rechnungssteller.partner.name")
 	}
 	
+	static List getRechnungen (Immobilie i) {
+		Rechnung.findAll("from Rechnung as r where r.immobilie.id = ${i.id} order by r.rechnungsdatum")
+	}
+	
 	static List getRechnungsstellerList () {
 		Organisation.findAll("from Organisation as o where o.rechtsform = null or not o.rechtsform = 'Personengemeinschaft' order by o.name")
 	}
