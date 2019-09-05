@@ -41,7 +41,12 @@
 					
 						<th><g:message code="rechnung.rechnungssteller.label" default="Rechnungssteller" /></th>
 					
-						<th><g:message code="rechnung.immobilie.label" default="Immobilie" /></th>
+						<g:if test="${session.immobilie == null}">
+							<th><g:message code="rechnung.immobilie.label" default="Immobilie" /></th>
+						</g:if>
+						<g:else>
+							<th><g:message code="rechnung.rechnungsgegenstand.label" default="Rechnungsgegenstand" /></th>
+						</g:else>
 					
 						<g:sortableColumn property="rechnungsdatum" title="${message(code: 'rechnung.rechnungsdatum.label', default: 'Rechnungsdatum')}" />
 					
@@ -57,7 +62,12 @@
 					
 						<td><g:link action="show" id="${rechnungInstance.id}">${fieldValue(bean: rechnungInstance, field: "rechnungssteller.partner.name")}</g:link></td>
 					
-						<td>${fieldValue(bean: rechnungInstance, field: "immobilie")}</td>
+						<g:if test="${session.immobilie == null}">
+							<td>${fieldValue(bean: rechnungInstance, field: "immobilie")}</td>
+						</g:if>
+						<g:else>
+							<td>${fieldValue(bean: rechnungInstance, field: "rechnungsgegenstand")}</td>
+						</g:else>
 					
 						<td><g:formatDate date="${rechnungInstance.rechnungsdatum}" format="dd.MM.yyyy"/></td>
 					
