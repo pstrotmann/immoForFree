@@ -19,13 +19,17 @@
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
 				
 			<g:form class="list" controller="rechnung">
-		    	<g:actionSubmit action="setImmobilie" value="Selektieren für" />
+		    	<g:actionSubmit action="setSelKrit" value="Selektieren für" />
 		    	<g:if test="${session.immobilie == null}">
-		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="${session.immobilie}" class="many-to-one" noSelection="['null': '']"/>
+		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': '']"/>
 		   		</g:if>
 		   		<g:else>
-		    		${session.immobilie}
+		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="${session.immobilie.id}" class="many-to-one" noSelection="['null': '']"/>
 		   		</g:else>
+		   		
+		   		<g:select id="umlage" name="umlage" from="${['ja', 'nein']}" value="umlage" noSelection="['null': 'umlagefähig?']"/>
+		   		<g:select id="reJahr" name="reJahr" from="${2013..2025}" value="${reJahr}" noSelection="['null': 'Rechnungsjahr?']"/>
+		   		
 		    </g:form>
 				
 			<g:if test="${flash.message}">
@@ -42,6 +46,8 @@
 						<g:sortableColumn property="rechnungsdatum" title="${message(code: 'rechnung.rechnungsdatum.label', default: 'Rechnungsdatum')}" />
 					
 						<th><div align = right><g:message code="rechnung.betrag.label" default="Betrag" /></div></th>
+						
+						<th><div align = right><g:message code="rechnung.umlage.label" default="Umlage" /></div></th>
 					
 					</tr>
 				</thead>
@@ -56,10 +62,21 @@
 						<td><g:formatDate date="${rechnungInstance.rechnungsdatum}" format="dd.MM.yyyy"/></td>
 					
 						<td><div align = right><g:formatNumber number="${rechnungInstance.betrag}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatBoolean boolean="${rechnungInstance.umlagefaehig}" true="Ja" false="Nein" /></div></td>
 					
 					</tr>
 				</g:each>
 				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td></td>
+						<td><div align = right>Summe:</div></td>
+						<td><div align = right><g:formatNumber number="${Rechnung.getReSumme(rechnungInstanceList)}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td></td>
+					</tr>
+				</tfoot>
 			</table>
 			<div class="pagination">
 				<g:paginate total="${rechnungInstanceTotal}" />

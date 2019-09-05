@@ -7,6 +7,12 @@ class Datum {
 		cal.get(Calendar.YEAR)
 	}
 	
+	static int getJahr(Date d){
+		Calendar cal = Calendar.getInstance()
+		cal.setTime(d)
+		cal.get(Calendar.YEAR)
+	}
+	
 	static Calendar calDatum(Date d){
 		Calendar cal = Calendar.getInstance()
 		cal.setTime(d)

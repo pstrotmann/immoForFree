@@ -3,6 +3,7 @@ package org.strotmann.immos
 import java.util.List;
 import java.util.SortedSet;
 import org.apache.commons.lang.*
+import org.strotmann.util.*
 
 class Rechnung implements Comparable{
 	
@@ -85,8 +86,27 @@ class Rechnung implements Comparable{
 		Rechnung.findAll("from Rechnung order by rechnungssteller.partner.name")
 	}
 	
-	static List getRechnungen (Immobilie i) {
-		Rechnung.findAll("from Rechnung as r where r.immobilie.id = ${i.id} order by r.rechnungsdatum")
+	static List getRechnungen (Immobilie i, String umlage, String reJahr) {
+		List <Rechnung> rechnungen = []
+		boolean uml
+		if (umlage == 'ja')
+			uml = true
+		else
+			uml = false
+		
+		Rechnung.findAll("from Rechnung as r where r.immobilie.id = ${i.id} order by r.rechnungsdatum").each {Rechnung r ->
+			if ((umlage == 'null' || r.umlagefaehig == uml) && (reJahr == 'null' || reJahr.toInteger() == Datum.getJahr(r.rechnungsdatum)))
+				rechnungen << r
+		}
+		rechnungen
+	}
+	
+	static BigDecimal getReSumme (List <Rechnung> rechnungen) {
+		BigDecimal reSum = 0
+		rechnungen.each{Rechnung r ->
+			reSum += r.betrag
+		}	
+		reSum	
 	}
 	
 	static List getRechnungsstellerList () {
