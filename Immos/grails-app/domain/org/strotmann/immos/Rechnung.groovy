@@ -88,14 +88,22 @@ class Rechnung implements Comparable{
 	
 	static List getRechnungen (Immobilie i, String umlage, String reJahr) {
 		List <Rechnung> rechnungen = []
-		boolean uml
-		if (umlage == 'ja')
-			uml = true
-		else
-			uml = false
+		List <Rechnung> re
 		
-		Rechnung.findAll("from Rechnung as r where r.immobilie.id = ${i.id} order by r.rechnungsdatum").each {Rechnung r ->
-			if ((umlage == 'null' || r.umlagefaehig == uml) && (reJahr == 'null' || reJahr.toInteger() == Datum.getJahr(r.rechnungsdatum)))
+		boolean uml
+		if (umlage)
+			if (umlage == 'ja')
+				uml = true
+			else
+				uml = false
+		
+		if (i) 
+			re = Rechnung.findAll("from Rechnung as r where r.immobilie.id = ${i.id} order by r.rechnungsdatum")
+		else
+			re = Rechnung.findAll("from Rechnung as r order by r.rechnungsdatum")
+			
+		re.each {Rechnung r ->
+			if ((!umlage || r.umlagefaehig == uml) && (!reJahr || reJahr.toInteger() == Datum.getJahr(r.rechnungsdatum)))
 				rechnungen << r
 		}
 		rechnungen

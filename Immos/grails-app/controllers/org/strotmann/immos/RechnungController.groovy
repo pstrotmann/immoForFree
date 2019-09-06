@@ -11,10 +11,10 @@ class RechnungController {
 	def list(Integer max) {
 		params.max = Math.min(max ?: 1000, 10000)
 		def List <Rechnung> rechnungen
-		if (session.immobilie)
+		if (session.immobilie || session.umlage || session.reJahr) {
 			rechnungen = Rechnung.getRechnungen(session.immobilie, session.umlage, session.reJahr)
-		if (rechnungen)
-			[rechnungInstanceList: rechnungen, rechnungInstanceTotal: rechnungen.size()]			
+			[rechnungInstanceList: rechnungen, rechnungInstanceTotal: rechnungen.size()]	
+		}		
 		else
 			[rechnungInstanceList: Rechnung.getRechnungen(), rechnungInstanceTotal: Rechnung.count()]
 	}
@@ -109,8 +109,8 @@ class RechnungController {
 		else
 			session.immobilie = null
 			
-		session.umlage = params.umlage
-		session.reJahr = params.reJahr
+		session.umlage = params.umlage == 'null'?null:params.umlage
+		session.reJahr = params.reJahr == 'null'?null:params.reJahr
 		
 		def dummy = null
 		redirect(uri: "/rechnung/list")

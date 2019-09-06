@@ -21,10 +21,10 @@
 			<g:form class="list" controller="rechnung">
 		    	<g:actionSubmit action="setSelKrit" value="Selektieren für" />
 		    	<g:if test="${session.immobilie == null}">
-		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': '']"/>
+		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': 'Immobilie?']"/>
 		   		</g:if>
 		   		<g:else>
-		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="${session.immobilie.id}" class="many-to-one" noSelection="['null': '']"/>
+		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="${session.immobilie.id}" class="many-to-one" noSelection="['null': 'Immobilie?']"/>
 		   		</g:else>
 		   		
 		   		<g:select id="umlage" name="umlage" from="${['ja', 'nein']}" value="umlage" noSelection="['null': 'umlagefähig?']"/>
