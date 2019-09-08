@@ -19,7 +19,7 @@
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
 				
 			<g:form class="list" controller="rechnung">
-		    	<g:actionSubmit action="setSelKrit" value="Selektieren für" />
+				&nbsp;&nbsp;&nbsp;&nbsp;
 		    	<g:if test="${session.immobilie == null}">
 		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': 'Immobilie?']"/>
 		   		</g:if>
@@ -41,7 +41,7 @@
 		   			<g:select id="jahrSel" name="jahrSel.id" from="${session.jahrSelektors}" optionKey="id" required="" value="${session.reJahr.id}" class="many-to-one" noSelection="['null': 'Rechnungsjahr?']"/>
 		   		</g:else>
 		   		
-<%--		   		<g:select id="reJahr" name="reJahr" from="${2013..2025}" value="${reJahr}" noSelection="['null': 'Rechnungsjahr?']"/>--%>
+		   		<g:actionSubmitImage action="setSelKrit" value="Auswahl" src="${resource(dir: 'images/skin', file: 'database_table.png')}"/>
 		   		
 		    </g:form>
 				
