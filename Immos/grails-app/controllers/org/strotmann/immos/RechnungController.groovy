@@ -11,7 +11,9 @@ class RechnungController {
 	
 	def list(Integer max) {
 		session.umlSelektors = [new UmlageSel(1,'ja'), new UmlageSel(2,'nein')]
-		session.jahrSelektors = [new JahrSel(1,2020), new JahrSel(2,2019), new JahrSel(3,2018), new JahrSel(4,2017), new JahrSel(5,2016), new JahrSel(6,2015), new JahrSel(7,2014), new JahrSel(8,2013)]
+		session.jahrSelektors = []
+		for(i in 0..10)
+		session.jahrSelektors << new JahrSel(i,Datum.aktJahr+1-i)
 		params.max = Math.min(max ?: 1000, 10000)
 		def List <Rechnung> rechnungen
 		if (session.immobilie || session.umlage || session.reJahr) {
