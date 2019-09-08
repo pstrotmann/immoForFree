@@ -28,13 +28,20 @@
 		   		</g:else>
 		   		
 		   		<g:if test="${session.umlage == null}">
-		   			<g:select id="umlageSel" name="umlageSel.id" from="${session.selektors}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': 'umlagefähig?']"/>
+		   			<g:select id="umlageSel" name="umlageSel.id" from="${session.umlSelektors}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': 'umlagefähig?']"/>
 		   		</g:if>
 		   		<g:else>
-		   			<g:select id="umlageSel" name="umlageSel.id" from="${session.selektors}" optionKey="id" required="" value="${session.umlage.id}" class="many-to-one" noSelection="['null': 'umlagefähig?']"/>
+		   			<g:select id="umlageSel" name="umlageSel.id" from="${session.umlSelektors}" optionKey="id" required="" value="${session.umlage.id}" class="many-to-one" noSelection="['null': 'umlagefähig?']"/>
 		   		</g:else>
 		   		
-		   		<g:select id="reJahr" name="reJahr" from="${2013..2025}" value="${reJahr}" noSelection="['null': 'Rechnungsjahr?']"/>
+		   		<g:if test="${session.reJahr == null}">
+		   			<g:select id="jahrSel" name="jahrSel.id" from="${session.jahrSelektors}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': 'Rechnungsjahr?']"/>
+		   		</g:if>
+		   		<g:else>
+		   			<g:select id="jahrSel" name="jahrSel.id" from="${session.jahrSelektors}" optionKey="id" required="" value="${session.reJahr.id}" class="many-to-one" noSelection="['null': 'Rechnungsjahr?']"/>
+		   		</g:else>
+		   		
+<%--		   		<g:select id="reJahr" name="reJahr" from="${2013..2025}" value="${reJahr}" noSelection="['null': 'Rechnungsjahr?']"/>--%>
 		   		
 		    </g:form>
 				

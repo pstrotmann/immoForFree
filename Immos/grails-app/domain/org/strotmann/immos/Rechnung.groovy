@@ -86,7 +86,7 @@ class Rechnung implements Comparable{
 		Rechnung.findAll("from Rechnung as r order by r.rechnungsdatum DESC")
 	}
 	
-	static List getRechnungen (Immobilie i, UmlageSel umlage, String reJahr) {
+	static List getRechnungen (Immobilie i, UmlageSel umlage, JahrSel reJahr) {
 		List <Rechnung> rechnungen = []
 		List <Rechnung> re
 		
@@ -103,7 +103,7 @@ class Rechnung implements Comparable{
 			re = Rechnung.findAll("from Rechnung as r order by r.rechnungsdatum")
 			
 		re.each {Rechnung r ->
-			if ((umlage == null || r.umlagefaehig == uml) && (!reJahr || reJahr.toInteger() == Datum.getJahr(r.rechnungsdatum)))
+			if ((umlage == null || r.umlagefaehig == uml) && (reJahr == null || reJahr.selektor == Datum.getJahr(r.rechnungsdatum)))
 				rechnungen << r
 		}
 		rechnungen

@@ -10,7 +10,8 @@ class RechnungController {
     def scaffold = true
 	
 	def list(Integer max) {
-		session.selektors = [new UmlageSel(1,'ja'), new UmlageSel(2,'nein')]
+		session.umlSelektors = [new UmlageSel(1,'ja'), new UmlageSel(2,'nein')]
+		session.jahrSelektors = [new JahrSel(1,2020), new JahrSel(2,2019), new JahrSel(3,2018), new JahrSel(4,2017), new JahrSel(5,2016), new JahrSel(6,2015), new JahrSel(7,2014), new JahrSel(8,2013)]
 		params.max = Math.min(max ?: 1000, 10000)
 		def List <Rechnung> rechnungen
 		if (session.immobilie || session.umlage || session.reJahr) {
@@ -106,10 +107,9 @@ class RechnungController {
 	}
 	
 	def setSelKrit () {
-			
 		session.immobilie = params.immobilie.id == 'null'?null:Immobilie.get(params.immobilie.id)
-		session.umlage = params.umlageSel.id == 'null'?null:UmlageSel.getUmlage(session.selektors, params.umlageSel.id)
-		session.reJahr = params.reJahr == 'null'?null:params.reJahr
+		session.umlage = params.umlageSel.id == 'null'?null:UmlageSel.getUmlage(session.umlSelektors, params.umlageSel.id)
+		session.reJahr = params.jahrSel.id == 'null'?null:JahrSel.getJahr(session.jahrSelektors, params.jahrSel.id)
 		
 		def dummy = null
 		redirect(uri: "/rechnung/list")
