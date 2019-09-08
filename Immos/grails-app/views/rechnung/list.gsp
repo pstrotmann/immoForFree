@@ -27,7 +27,13 @@
 		    		<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" required="" value="${session.immobilie.id}" class="many-to-one" noSelection="['null': 'Immobilie?']"/>
 		   		</g:else>
 		   		
-		   		<g:select id="umlage" name="umlage" from="${['ja', 'nein']}" value="umlage" noSelection="['null': 'umlagefähig?']"/>
+		   		<g:if test="${session.umlage == null}">
+		   			<g:select id="umlageSel" name="umlageSel.id" from="${session.selektors}" optionKey="id" required="" value="null" class="many-to-one" noSelection="['null': 'umlagefähig?']"/>
+		   		</g:if>
+		   		<g:else>
+		   			<g:select id="umlageSel" name="umlageSel.id" from="${session.selektors}" optionKey="id" required="" value="${session.umlage.id}" class="many-to-one" noSelection="['null': 'umlagefähig?']"/>
+		   		</g:else>
+		   		
 		   		<g:select id="reJahr" name="reJahr" from="${2013..2025}" value="${reJahr}" noSelection="['null': 'Rechnungsjahr?']"/>
 		   		
 		    </g:form>

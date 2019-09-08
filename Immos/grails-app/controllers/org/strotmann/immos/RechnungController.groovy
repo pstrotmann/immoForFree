@@ -1,6 +1,7 @@
 package org.strotmann.immos
 
 import grails.transaction.Transactional;
+import org.strotmann.util.*
 
 import org.springframework.dao.DataIntegrityViolationException
 
@@ -9,6 +10,7 @@ class RechnungController {
     def scaffold = true
 	
 	def list(Integer max) {
+		session.selektors = [new UmlageSel(1,'ja'), new UmlageSel(2,'nein')]
 		params.max = Math.min(max ?: 1000, 10000)
 		def List <Rechnung> rechnungen
 		if (session.immobilie || session.umlage || session.reJahr) {
@@ -104,12 +106,9 @@ class RechnungController {
 	}
 	
 	def setSelKrit () {
-		if (params.immobilie.id != 'null')
-			session.immobilie = Immobilie.get(params.immobilie.id)
-		else
-			session.immobilie = null
 			
-		session.umlage = params.umlage == 'null'?null:params.umlage
+		session.immobilie = params.immobilie.id == 'null'?null:Immobilie.get(params.immobilie.id)
+		session.umlage = params.umlageSel.id == 'null'?null:UmlageSel.getUmlage(session.selektors, params.umlageSel.id)
 		session.reJahr = params.reJahr == 'null'?null:params.reJahr
 		
 		def dummy = null
