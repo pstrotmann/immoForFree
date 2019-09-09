@@ -64,7 +64,7 @@
 		<g:message code="termin.immobilie.label" default="Immobilie" />
 		
 	</label>
-	<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.list()}" optionKey="id" value="${terminInstance?.immobilie?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.immobilien}" optionKey="id" value="${terminInstance?.immobilie?.id}" class="many-to-one" noSelection="['null': '']"/>
 
 </div>
 
