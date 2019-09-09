@@ -47,6 +47,7 @@ class TerminController {
     }
 
     def edit(Termin terminInstance) {
+		terminInstance.erledigung = new Date()
 		respond terminInstance
     }
 
