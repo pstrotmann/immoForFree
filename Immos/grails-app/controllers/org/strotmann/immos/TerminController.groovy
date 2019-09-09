@@ -47,7 +47,7 @@ class TerminController {
     }
 
     def edit(Termin terminInstance) {
-        respond terminInstance
+		respond terminInstance
     }
 
     @Transactional

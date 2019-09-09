@@ -17,7 +17,6 @@
 		</div>
 		<div id="list-rechnung" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
-				
 			<g:form class="list" controller="rechnung">
 				&nbsp;&nbsp;&nbsp;&nbsp;
 		    	<g:if test="${session.immobilie == null}">
@@ -40,11 +39,9 @@
 		   		<g:else>
 		   			<g:select id="jahrSel" name="jahrSel.id" from="${session.jahrSelektors}" optionKey="id" required="" value="${session.reJahr.id}" class="many-to-one" noSelection="['null': 'Rechnungsjahr?']"/>
 		   		</g:else>
-		   		
+		   		&nbsp;&nbsp;&nbsp;&nbsp;
 		   		<g:actionSubmitImage action="setSelKrit" value="Auswahl" src="${resource(dir: 'images/skin', file: 'database_table.png')}"/>
-		   		
-		    </g:form>
-				
+		   	</g:form>
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>

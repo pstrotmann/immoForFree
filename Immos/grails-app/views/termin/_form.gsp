@@ -1,4 +1,5 @@
 <%@ page import="org.strotmann.immos.Termin" %>
+<%@ page import="org.strotmann.util.Datum" %>
 
 <h3>Termindaten</h3>
 
@@ -7,8 +8,7 @@
 		<g:message code="termin.vorlage.label" default="Vorlage" />
 		<span class="required-indicator">*</span>
 	</label>
-<%--	<g:datePicker name="vorlage" precision="day"  years="${new Date().getYear()+1900..new Date().getYear() + 1910}" value="${terminInstance?.vorlage}"  />--%>
-	<g:datePicker name="vorlage" years="${new Date().getYear()+1900..new Date().getYear() + 1910}" value="${terminInstance?.vorlage}"  />
+	<g:datePicker name="vorlage" years="${Datum.aktJahr..Datum.aktJahr + 10}" value="${terminInstance?.vorlage}"  />
 
 </div>
 
@@ -26,7 +26,7 @@
 		<g:message code="termin.erledigung.label" default="Erledigung" />
 		
 	</label>
-	<g:datePicker name="erledigung" precision="day" years="${new Date().getYear()+1900..new Date().getYear() + 1910}" value="${terminInstance?.erledigung}" default="none" noSelection="['': '']" />
+	<g:datePicker name="erledigung" precision="day" years="${Datum.aktJahr..Datum.aktJahr + 10}" value="${terminInstance?.erledigung}" default="none" noSelection="['': '']" />
 
 </div>
 
