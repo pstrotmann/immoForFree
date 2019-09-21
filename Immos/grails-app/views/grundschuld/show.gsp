@@ -76,15 +76,15 @@
 					
 				</li>
 				</g:if>
-			
-				<g:if test="${grundschuldInstance?.kredite}">
+				
+				<g:if test="${grundschuldInstance?.besicherungen}">
 				<li class="fieldcontain">
-					<span id="kredite-label" class="property-label"><g:message code="grundschuld.kredite.label" default="Kredite" /></span>
+					<span id="besicherungen-label" class="property-label"><g:message code="grundschuld.besicherungen.label" default="Besicherungen" /></span>
 					
-						<g:each in="${grundschuldInstance.kredite}" var="k">
-						<g:if test="${k.kreditsaldo > 0}">
-							<span class="property-value" aria-labelledby="kredite-label"><g:link controller="kredit" action="show" id="${k.id}">${k?.encodeAsHTML()}</g:link></span>
-						</g:if>
+						<g:each in="${grundschuldInstance.besicherungen}" var="b">
+						
+							<span class="property-value" aria-labelledby="besicherungen-label"><g:link controller="besicherung" action="show" id="${b.id}">${b?.btrString.encodeAsHTML()}</g:link></span>
+						
 						</g:each>
 					
 				</li>

@@ -3,26 +3,32 @@ package org.strotmann.immos
 import java.math.MathContext
 import java.util.List;
 import java.util.SortedSet;
+
 import grails.util.Holders
 
 class Kredit implements Comparable{
 	
 	Partnerrolle kreditgeber
-	Immobilie verwendung
-	Grundschuld grundschuld
+	Immobilie verwendung //nicht mehr gepflegt, ersetzt durch verwendungen
+	Grundschuld grundschuld //nicht mehr gepflegt, ersetzt durch besicherungen
 	String vertragsnummer
 	int zahlweise
+	BigDecimal betrag 
 	
-	SortedSet zahlungen, kreditstaende
-	static hasMany = [zahlungen:Zahlung, kreditstaende:Kreditstand]
+	SortedSet zahlungen, kreditstaende, verwendungen, besicherungen
+	static hasMany = [zahlungen:Zahlung,
+		 				kreditstaende:Kreditstand,
+						 verwendungen:Verwendung,
+						 besicherungen:Besicherung]
 
     static constraints = {
 		
 		kreditgeber(unique:['vertragsnummer'])
-		verwendung()
+		verwendung(nullable:true)
 		vertragsnummer()
 		zahlweise(inList:Zahlung.zahlweiseNum)
 		grundschuld(nullable:true)
+		betrag(nullable:true)
     }
 	
 	int compareTo(obj) {

@@ -1,6 +1,7 @@
 package org.strotmann.immos
 
 import java.util.List;
+import org.strotmann.util.*
 
 class Grundschuld implements Comparable {
 	
@@ -13,7 +14,8 @@ class Grundschuld implements Comparable {
 	
 	static belongsTo = [immobilie:Immobilie]
 	
-	static hasMany = [kredite:Kredit]
+	static hasMany = [kredite:Kredit, //nicht mehr gepflegt
+		 besicherungen:Besicherung]
 
     static constraints = {
 		eintragAm()
@@ -35,7 +37,7 @@ class Grundschuld implements Comparable {
 	}
 	
 	String toString() {
-		"${glaeubiger.name},${betrag}"
+		"${immobilie},${glaeubiger.name},${BigDec.nk0(betrag)}"
 	}
 	
 	BigDecimal getSaldo() {

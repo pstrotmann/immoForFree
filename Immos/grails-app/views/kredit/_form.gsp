@@ -18,30 +18,19 @@
 	</g:if>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: kreditInstance, field: 'verwendung', 'error')} required">
-	<label for="verwendung">
-		<g:message code="kredit.verwendung.label" default="Verwendung" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:select id="verwendung" name="verwendung.id" from="${org.strotmann.immos.Immobilie.list()}" optionKey="id" required="" value="${kreditInstance?.verwendung?.id}" class="many-to-one"/>
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: kreditInstance, field: 'grundschuld', 'error')} required">
-	<label for="grundschuld">
-		<g:message code="kredit.grundschuld.label" default="Grundschuld" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:select id="grundschuld" name="grundschuld.id" from="${org.strotmann.immos.Grundschuld.list()}" optionKey="id" required="" value="${kreditInstance?.grundschuld?.id}" class="many-to-one"/>
-</div>
-
-
-
 <div class="fieldcontain ${hasErrors(bean: kreditInstance, field: 'vertragsnummer', 'error')} ">
 	<label for="vertragsnummer">
 		<g:message code="kredit.vertragsnummer.label" default="Vertragsnummer" />
 		
 	</label>
 	<g:textField name="vertragsnummer" value="${kreditInstance?.vertragsnummer}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: kreditInstance, field: 'betrag', 'error')} ">
+	<label for="bewilligt">
+		<g:message code="kredit.betrag.label" default="bewilligtes Darlehen" />
+	</label>
+	<g:field name="betrag" value="${fieldValue(bean: kreditInstance, field: 'betrag')}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: kreditInstance, field: 'zahlweise', 'error')} required">

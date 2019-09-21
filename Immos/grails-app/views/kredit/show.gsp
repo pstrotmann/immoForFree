@@ -31,30 +31,43 @@
 					
 				</li>
 				</g:if>
-			
-				<g:if test="${kreditInstance?.verwendung}">
+		
+				<g:if test="${kreditInstance?.verwendungen}">
 				<li class="fieldcontain">
-					<span id="verwendung-label" class="property-label"><g:message code="kredit.verwendung.label" default="Verwendung" /></span>
+					<span id="verwendungen-label" class="property-label"><g:message code="kredit.verwendungen.label" default="Verwendungen" /></span>
 					
-						<span class="property-value" aria-labelledby="verwendung-label"><g:link controller="immobilie" action="show" id="${kreditInstance?.verwendung?.id}">${kreditInstance?.verwendung?.encodeAsHTML()}</g:link></span>
+						<g:each in="${kreditInstance.verwendungen}" var="v">
+						<span class="property-value" aria-labelledby="verwendungen-label"><g:link controller="verwendung" action="show" id="${v.id}">${v?.immoString.encodeAsHTML()}</g:link></span>
+						</g:each>
 					
 				</li>
 				</g:if>
 				
-				<g:if test="${kreditInstance?.grundschuld}">
+				<g:if test="${kreditInstance?.besicherungen}">
 				<li class="fieldcontain">
-					<span id="grundschuld-label" class="property-label"><g:message code="kredit.grundschuld.label" default="Grundschuld" /></span>
+					<span id="besicherungen-label" class="property-label"><g:message code="kredit.besicherungen.label" default="Besicherungen" /></span>
 					
-						<span class="property-value" aria-labelledby="grundschuld-label"><g:link controller="grundschuld" action="show" id="${kreditInstance?.grundschuld?.id}">${kreditInstance?.grundschuld?.encodeAsHTML()}</g:link></span>
+						<g:each in="${kreditInstance.besicherungen}" var="b">
+						<span class="property-value" aria-labelledby="besicherungen-label"><g:link controller="besicherung" action="show" id="${b.id}">${b?.grString.encodeAsHTML()}</g:link></span>
+						</g:each>
 					
 				</li>
 				</g:if>
-			
+				
 				<g:if test="${kreditInstance?.vertragsnummer}">
 				<li class="fieldcontain">
 					<span id="vertragsnummer-label" class="property-label"><g:message code="kredit.vertragsnummer.label" default="Vertragsnummer" /></span>
 					
 						<span class="property-value" aria-labelledby="vertragsnummer-label"><g:fieldValue bean="${kreditInstance}" field="vertragsnummer"/></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${kreditInstance?.betrag}">
+				<li class="fieldcontain">
+					<span id="betrag-label" class="property-label"><g:message code="kredit.betrag.label" default="bewilligtes Darlehen" /></span>
+					
+						<span class="property-value" aria-labelledby="betrag-label"><g:fieldValue bean="${kreditInstance}" field="betrag"/></span>
 					
 				</li>
 				</g:if>

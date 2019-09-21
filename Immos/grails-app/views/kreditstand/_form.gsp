@@ -26,13 +26,6 @@
 	<g:field name="kreditsumme" value="${fieldValue(bean: kreditstandInstance, field: 'kreditsumme')}" required=""/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: kreditstandInstance, field: 'bewilligt', 'error')} ">
-	<label for="bewilligt">
-		<g:message code="kreditstand.bewilligt.label" default="bewilligtes Darlehen" />
-	</label>
-	<g:field name="bewilligt" value="${fieldValue(bean: kreditstandInstance, field: 'bewilligt')}" />
-</div>
-
 <div class="fieldcontain ${hasErrors(bean: kreditstandInstance, field: 'zinssatz', 'error')} ">
 	<label for="zinssatz">
 		<g:message code="kreditstand.zinssatz.label" default="Zinssatz" />

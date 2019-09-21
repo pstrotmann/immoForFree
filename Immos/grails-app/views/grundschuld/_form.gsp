@@ -50,20 +50,5 @@
 	<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.list()}" optionKey="id" required="" value="${grundschuldInstance?.immobilie?.id}" class="many-to-one"/>
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: grundschuldInstance, field: 'kredite', 'error')} ">
-	<label for="kredite">
-		<g:message code="grundschuld.kredite.label" default="Kredite" />
-		
-	</label>
-	
-<ul class="one-to-many">
-<g:each in="${grundschuldInstance?.kredite?}" var="k">
-    <li><g:link controller="kredit" action="show" id="${k.id}">${k?.encodeAsHTML()}</g:link></li>
-</g:each>
-<li class="add">
-<g:link controller="kredit" action="create" params="['grundschuld.id': grundschuldInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'kredit.label', default: 'Kredit')])}</g:link>
-</li>
-</ul>
 
-</div>
 

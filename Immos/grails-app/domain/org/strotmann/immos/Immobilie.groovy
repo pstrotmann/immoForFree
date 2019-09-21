@@ -26,7 +26,8 @@ class Immobilie {
 					  einheitswerte:Einheitswert,
 					  grundschulden:Grundschuld,
 					  immoabrechnungen:Immoabrechnung,
-					  zaehlers:Zaehler]
+					  zaehlers:Zaehler,
+					  verwendungen:Verwendung]
 
     static constraints = {
 		hausadresse(unique:true)
