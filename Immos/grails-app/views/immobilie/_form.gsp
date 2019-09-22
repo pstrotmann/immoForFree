@@ -217,23 +217,6 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'grundschulden', 'error')} ">
-	<label for="grundschulden">
-		<g:message code="immobilie.grundschulden.label" default="Grundschulden" />
-		
-	</label>
-	
-<ul class="one-to-many">
-<g:each in="${immobilieInstance?.grundschulden?}" var="g">
-    <li><g:link controller="grundschuld" action="show" id="${g.id}">${g?.encodeAsHTML()}</g:link></li>
-</g:each>
-<li class="add">
-<g:link controller="grundschuld" action="create" params="['immobilie.id': immobilieInstance?.id]">${message(code: 'default.add.label', args: [message(code: 'grundschuld.label', default: 'Grundschuld')])}</g:link>
-</li>
-</ul>
-
-</div>
-
 <div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'notizen', 'error')} ">
 	<label for="notizen">
 		<g:message code="immobilie.notizen.label" default="Notizen" />

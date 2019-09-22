@@ -33,11 +33,15 @@ class Grundschuld implements Comparable {
 		String hnr = immobilie.hausadresse.hausnummer
 		String ohnr = obj.immobilie.hausadresse.hausnummer
 		
-		(plz+str+hnr+rang).compareTo(oplz+ostr+ohnr+obj.rang)
+		(plz+str+hnr+rang+id).compareTo(oplz+ostr+ohnr+obj.rang+obj.id)
 	}
 	
 	String toString() {
 		"${immobilie},${glaeubiger.name},${BigDec.nk0(betrag)}"
+	}
+	
+	String getNoImmo() {
+		"${glaeubiger.name},${BigDec.nk0(betrag)}"
 	}
 	
 	BigDecimal getSaldo() {

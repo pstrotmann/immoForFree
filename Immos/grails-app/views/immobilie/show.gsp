@@ -40,6 +40,15 @@
 					
 				</li>
 				</g:if>
+				
+				<g:if test="${immobilieInstance?.grundschulden}">
+				<li class="fieldcontain">
+					<span id="grundschulden-label" class="property-label"><g:message code="immobilie.grundschulden.label" default="Grundschulden" /></span>
+					<g:each in="${immobilieInstance?.grundschuldenAktiv?}" var="g">
+	    				<span class="property-value" aria-labelledby="grundschulden-label"><g:link controller="grundschuld" action="show" id="${g.id}">${g?.noImmo}</g:link></span>
+					</g:each>
+				</li>
+				</g:if>
 			
 				<g:if test="${immobilieInstance?.baujahr}">
 				<li class="fieldcontain">
