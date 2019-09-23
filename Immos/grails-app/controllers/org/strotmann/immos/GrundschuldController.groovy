@@ -8,6 +8,6 @@ class GrundschuldController {
 	
 	def list(Integer max) {
 		params.max = Math.min(max ?: 10, 100)
-		[grundschuldInstanceList: Grundschuld.getGrundschuldList (), grundschuldInstanceTotal: Grundschuld.getGrundschuldList ().count({})]
+		[grundschuldInstanceList: Grundschuld.grundschuldList, grundschuldInstanceTotal: Grundschuld.getGrundschuldList ().count({})]
 	}
 }

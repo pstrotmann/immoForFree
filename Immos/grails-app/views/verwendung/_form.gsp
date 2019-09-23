@@ -1,5 +1,6 @@
 <%@ page import="org.strotmann.immos.Verwendung" %>
-
+<%@ page import="org.strotmann.immos.Kredit" %>
+<%@ page import="org.strotmann.immos.Immobilie" %>
 
 
 <div class="fieldcontain ${hasErrors(bean: verwendungInstance, field: 'kredit', 'error')} required">
@@ -7,7 +8,7 @@
 		<g:message code="verwendung.kredit.label" default="Kredit" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="kredit" name="kredit.id" from="${org.strotmann.immos.Kredit.list()}" optionKey="id" required="" value="${verwendungInstance?.kredit?.id}" class="many-to-one"/>
+	<g:select id="kredit" name="kredit.id" from="${Kredit.aktiveKredite}" optionKey="id" required="" value="${verwendungInstance?.kredit?.id}" class="many-to-one"/>
 
 </div>
 
@@ -16,7 +17,7 @@
 		<g:message code="verwendung.immobilie.label" default="Immobilie" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="immobilie" name="immobilie.id" from="${org.strotmann.immos.Immobilie.list()}" optionKey="id" required="" value="${verwendungInstance?.immobilie?.id}" class="many-to-one"/>
+	<g:select id="immobilie" name="immobilie.id" from="${Immobilie.aktImmos}" optionKey="id" required="" value="${verwendungInstance?.immobilie?.id}" class="many-to-one"/>
 
 </div>
 
