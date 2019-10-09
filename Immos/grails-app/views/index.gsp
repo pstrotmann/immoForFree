@@ -98,7 +98,7 @@
 		<div id="page-body" role="main">
 			<h1>Immobilienverwaltung</h1>
 			<div id="controller-list" role="navigation">
-				<h2></h2>
+				<h2>User: ${session.user} <g:link controller="user" action="logout">Logout</g:link></h2>
 				<ul>
 					<h3>Stammdaten:</h3>
 					<ul>

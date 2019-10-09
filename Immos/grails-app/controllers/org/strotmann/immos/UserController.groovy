@@ -27,4 +27,9 @@ class UserController {
 			render(view: "login")
 		}
 	}
+	
+	def logout() {
+		session.user = null
+		render(view: "login")
+	}
 }

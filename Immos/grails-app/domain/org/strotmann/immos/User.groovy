@@ -9,4 +9,8 @@ class User {
 		name(unique:true)
 		passwort()
     }
+	
+	String toString() {
+		name
+	}
 }
