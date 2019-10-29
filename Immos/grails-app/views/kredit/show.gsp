@@ -119,7 +119,7 @@
 				</li>
 				
 			</ol>
-			<g:form>
+			<g:form url="[resource:partnerrolleInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">
 					<g:hiddenField name="id" value="${kreditInstance?.id}" />
 					<g:link class="edit" action="edit" id="${kreditInstance?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
