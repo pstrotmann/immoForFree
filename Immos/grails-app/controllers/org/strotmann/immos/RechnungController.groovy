@@ -33,11 +33,18 @@ class RechnungController {
 
     def save() {
 		def rechnungInstance = new Rechnung(params)
+		def Partnerrolle recycle = Partnerrolle.nullRolle
 		if (flash.partner1)
-		rechnungInstance.rechnungssteller = new Partnerrolle(rolle:flash.rolle1, partner:flash.partner1).save(flush: true)
+			rechnungInstance.rechnungssteller = new Partnerrolle(rolle:flash.rolle1, partner:flash.partner1).save(flush: true)
 		if (params.partner) {
 			def partnerInstance = Partner.get(params.partner.id)
-			rechnungInstance.rechnungssteller = new Partnerrolle(rolle:"Rechnungssteller", partner:partnerInstance).save(flush: true)
+			if (recycle) {
+				recycle.rolle = "Rechnungssteller"
+				recycle.partner = partnerInstance
+				rechnungInstance.rechnungssteller = recycle.save(flush: true)
+			}
+			else
+				rechnungInstance.rechnungssteller = new Partnerrolle(rolle:"Rechnungssteller", partner:partnerInstance).save(flush: true)
 		}
 		
         if (!rechnungInstance.save(flush: true)) {

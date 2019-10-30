@@ -87,5 +87,16 @@ class Partnerrolle implements Comparable {
 		
 		return Holders.config.rolle[r]	
 	}
+	
+	static Partnerrolle getNullRolle () {
+		Partnerrolle p
+		String s = "from Partnerrolle as p where p.mietvertrag = null and p.rechnung = null and p.dienstleistungsvertrag = null and p.organisation = null and p.kredit = null)"
+		List <Partnerrolle> paroList = Partnerrolle.findAll(s)
+		if (paroList.empty)
+			p = null
+		else
+			p = paroList.first()
+		p			
+	}
 	 
 }
