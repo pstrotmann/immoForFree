@@ -28,9 +28,11 @@
 				<fieldset class="form">
 					<g:render template="form"/>
 				</fieldset>
+				
 				<fieldset class="buttons">
-					<g:actionSubmit class="save" action="login" value="${message(code: 'default.button.login.label', default: 'Login')}" />
+					<g:actionSubmit class="login" action="login" value="${message(code: 'default.button.login.label', default: 'Login')}" />
 				</fieldset>
+				
 			</g:form>
 		</div>
 	</body>

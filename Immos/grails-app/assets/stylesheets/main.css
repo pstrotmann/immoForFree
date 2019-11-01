@@ -575,7 +575,7 @@ th:hover, tr:hover {
 	text-decoration: underline;
 }
 
-.buttons .delete, .buttons .edit, .buttons .save, .buttons .print {
+.buttons .delete, .buttons .edit, .buttons .save, .buttons .print, .buttons .login {
 	background-position: 0.7em center;
 	background-repeat: no-repeat;
 	text-indent: 25px;
@@ -600,6 +600,10 @@ th:hover, tr:hover {
 
 .buttons .print {
 	background-image: url(../images/skin/printer.png);
+}
+
+.buttons .login {
+	background-image: url(../images/skin/house.png);
 }
 
 a.skip {
