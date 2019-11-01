@@ -91,14 +91,13 @@
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
-				<li></li>
-				<li></li>
+				<li><g:link class="logout" controller="user" action="logout">Logout User: ${session.user}</g:link></li>
 			</ul>
 		</div>
 		<div id="page-body" role="main">
 			<h1>Immobilienverwaltung</h1>
 			<div id="controller-list" role="navigation">
-				<h2>User: ${session.user} <g:link controller="user" action="logout">Logout</g:link></h2>
+					
 				<ul>
 					<h3>Stammdaten:</h3>
 					<ul>
