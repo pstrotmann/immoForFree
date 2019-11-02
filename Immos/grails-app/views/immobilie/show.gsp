@@ -208,13 +208,13 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${immobilieInstance?.kredite}">
+				<g:if test="${immobilieInstance?.verwendungen}">
 				<li class="fieldcontain">
 					<span id="kredite-label" class="property-label"><g:message code="immobilie.kredite.label" default="Kredite" /></span>
 					
-						<g:each in="${immobilieInstance.verwKredite}" var="k">
-						<g:if test="${k.kreditsaldo > 0}">
-							<span class="property-value" aria-labelledby="kredite-label"><g:link controller="kredit" action="show" id="${k.id}">${k?.encodeAsHTML()}</g:link></span>
+						<g:each in="${immobilieInstance.verwendungen}" var="v">
+						<g:if test="${v.kredit.kreditsaldo > 0}">
+							<span class="property-value" aria-labelledby="kredite-label"><g:link controller="kredit" action="show" id="${v.kredit.id}"><g:formatNumber number="${v.verwSaldo}" type="number" maxFractionDigits="2" /> aus ${v.kredit?.encodeAsHTML()}</g:link></span>
 						</g:if>
 						</g:each>
 					

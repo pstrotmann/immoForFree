@@ -25,4 +25,8 @@ class Verwendung implements Comparable {
 	int compareTo(obj) {
 		immoString.compareTo(obj.immoString)
 	}
+	
+	BigDecimal getVerwSaldo() {
+		kredit.kreditsaldo * (this.betrag / kredit.betrag)
+	}
 }
