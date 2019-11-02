@@ -252,9 +252,11 @@ class Immobilie {
 	
 	BigDecimal getAnnuitaet() {
 		def BigDecimal betrag = 0
-		Kredit.findAll ("from Kredit as kr where kr.verwendung = ${id}").each {Kredit kr ->
-			if (kr.aktKreditstand) 
-				betrag += kr.aktKreditstand.mtlAnnuitaet * kr.zahlweise
+		Verwendung.findAll("from Verwendung as v where v.immobilie = ${id}").each {Verwendung v ->
+			Kredit kr = v.kredit
+			BigDecimal kSaldo = kr.kreditsaldo
+			if (kSaldo > 0 && kr.aktKreditstand)
+				betrag += kr.aktKreditstand.mtlAnnuitaet * kr.zahlweise * (v.betrag/kr.betrag)
 		}
 		betrag
 	}
