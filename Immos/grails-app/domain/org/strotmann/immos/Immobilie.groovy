@@ -78,9 +78,10 @@ class Immobilie {
 	 
 	BigDecimal getRestschuld () {
 		BigDecimal rS = 0
-		this.kredite.each {kredit ->
-			Kredit k = (Kredit)kredit
-			rS = rS + k.kreditsaldo
+		Verwendung.findAll("from Verwendung as v where v.immobilie = ${id}").each {Verwendung v ->
+			BigDecimal kSaldo = v.kredit.kreditsaldo
+			if (kSaldo > 0)
+				rS = rS + kSaldo * (v.betrag/v.kredit.betrag)
 		}
 		return rS
 	}
