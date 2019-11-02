@@ -83,7 +83,15 @@ class Immobilie {
 			if (kSaldo > 0)
 				rS = rS + kSaldo * (v.betrag/v.kredit.betrag)
 		}
-		return rS
+		rS
+	}
+	
+	List <Kredit> getVerwKredite() {
+		List <Kredit> l = []
+		Verwendung.findAll("from Verwendung as v where v.immobilie = ${id}").each {Verwendung v ->
+			l << v.kredit
+		}
+		l
 	}
 	
 	BigDecimal getWohnflaeche () {
