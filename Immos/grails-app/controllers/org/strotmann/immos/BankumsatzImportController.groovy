@@ -26,7 +26,7 @@ class BankumsatzImportController {
 			if (bOk) {
 				def int i = 0
 				def int k = 0
-				b.eachLine
+				b.eachLine("ISO-8859-15")
 				 {line ->
 				 if (line.startsWith('"Auftragskonto"')) {return}
 				 def bankumsatz = new Bankumsatz()
