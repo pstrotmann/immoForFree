@@ -148,7 +148,7 @@ class Zahlung implements Comparable{
 			}
 			def Calendar cal = Calendar.getInstance();
 			cal.setTime(z.datum)
-			String ob1 = immobilie.hausadresse.postleitzahl+immobilie.hausadresse.strasse+immobilie.hausadresse.hausnummer
+			String ob1 = ' '+immobilie.hausadresse.postleitzahl+' '+immobilie.hausadresse.strasse+' '+immobilie.hausadresse.hausnummer
 			String ob2BegZpfl = z.bankumsatz.beguenstigterZahlungspflichtiger
 			String ob2 = kategorie+ob2BegZpfl+cal.get(Calendar.YEAR)+StringUtils.leftPad(cal.get(Calendar.MONTH).toString(),2,'0')+StringUtils.leftPad(cal.get(Calendar.DAY_OF_MONTH).toString(),2,'0')
 			String ob = ob1 + ob2

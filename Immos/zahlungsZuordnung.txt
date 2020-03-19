@@ -1,983 +1,161 @@
-==============================Am Gulloh  49 , 44339  Dortmund ==== 05.01.20 =====================================
+==============================Am Gulloh  49 , 44339  Dortmund ==== 19.03.20 =====================================
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
- 26.07.2019 1399149 1588951 Nachzahlung 1.9.18-1.2.19 DATUM 26.07.2019,  Axel Bierbach/BEV                 -151,90
- 02.01.2019 Ihre Gaszahlung Januar / 2019 Kunden-Nr. 1588951 / 1399149   BEV Bayerische Energieversorgu    -131,00
- 08.01.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      23,22
- 28.01.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 11.02.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      23,22
- 28.02.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 11.03.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      23,22
- 29.03.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 10.04.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      23,22
- 30.04.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 13.05.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      23,22
- 24.05.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 11.06.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      23,22
- 24.06.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 18.07.2019 B14735 ./. WESTHOFF,HEIKO Eheleute Westhoff                  CRIF BUERGEL DORTMUND GMBH & C      11,36
- 22.07.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 30.08.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 17.09.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      46,44
- 25.10.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 29.11.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 30.12.2019 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 11.02.2019 019/20087108 ReNr 00084440 DATUM 24.01.2019 DATUM 10.02.2019 Crif Buergel                      -119,00
- 29.05.2019 ReNr 2019-0071, v. 29.5.2019 Glasreinigung 21.2.2019 u. 29.5 Crystal Clear                     -380,00
- 29.05.2019 ReNr 2019-0070, v. 29.5.2019 Glasreinigung 2018 25.1., 18.4. Crystal Clear                     -630,00
- 17.09.2019 ReNr 2019-0159, v. 17.9.2019 Glasreinigung 17.9.2019 DATUM 1 Crystal Clear                     -190,00
- 02.12.2019 ReNr 2019-0190, v. 2.12.2019 Glasreinigung 2.12.2019 DATUM 0 Crystal Clear                     -190,00
- 05.04.2019 2070796784, 316487904 Gaslieferung Grundversorgung 2.2.19-25 DEW21                             -126,54
- 20.02.2019 VK 310461773DO, AM GULLOH 49                                 Dortmunder Energie- und Wasser      20,89
- 01.04.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 30.04.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 31.05.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 01.07.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 30.07.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 30.08.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 30.09.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 30.10.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 02.12.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 30.12.2019 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46200252 Dortmunder Energie- und Wasser    -189,00
- 14.01.2019 VK 602502009DO, AM GULLOH 49, Rechnung 4000670071, Faelligke Dortmunder Netz GmbH               662,30
- 25.01.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 28.01.2019 VK 602502068 , DO, AM GULLOH 49 , Rechnung 4000670072 , Fael Dortmunder Netz GmbH               -13,71
- 27.02.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 27.03.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 25.04.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 27.05.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 26.06.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 25.07.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 27.08.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 25.09.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 25.10.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 27.11.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 20.12.2019 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30600198393, Dortmunder Netz GmbH               183,00
- 09.01.2019 RE 002-2019, V. 8.1.2019 Alarmanlage/PV-Anlage Steuerung �be HACHENEUER ELEKTROTECHNIK         -117,81
- 22.03.2019 RE 056-2019, V. 20.3.19 Am Gulloh 49, Ersatzakkus Alarmanlag HACHENEUER ELEKTROTECHNIK          -62,71
- 30.07.2019 RE 150-2019, V. 26.7.19 Am Gulloh 49 Netzwerkanschlu� DATUM  HACHENEUER ELEKTROTECHNIK         -394,49
- 03.09.2019 R19.326 Rolladeneinstellung, Buntbartschloss DATUM 03.09.201 Ideen Center Dortmund             -248,12
- 12.03.2019 544/19/850 DATUM 12.03.2019, 10.00 UHR1.TAN 871531           Lange Schornsteinfeger             -30,70
- 02.04.2019 544/19/344 Am Gulloh DATUM 02.04.2019, 09.03 UHR1.TAN 441512 Lange Schornsteinfeger             -65,58
- 26.11.2019 544/19/2937 v.21.11.2019 DATUM 26.11.2019, 17.52 UHR1.TAN 38 Lange Schornsteinfeger             -30,70
- 25.02.2019 ReNr 2473, v.22.2.19 DATUM 25.02.2019, 10.22 UHR1.TAN 041629 Mlynek, Bad u. Heizung            -327,85
- 19.03.2019 ReNr 2495 v. 15.3.19 AmGulloh 49, Solarthermik Dichtigkeit,  Mlynek, Bad und Heitzung          -188,08
- 19.02.2019 Austausch Waschtisch-Unterschrank, Reparatur Armatur DATUM 1 Mlynek, Bad und Heizung           -730,07
- 15.02.2019 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -778,93
- 15.05.2019 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -778,93
- 15.08.2019 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -778,93
- 15.11.2019 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -778,93
- 04.04.2019 S/836606894258/604605875811 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 06.05.2019 S/836606894258/601205991869 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 04.06.2019 S/836606894258/603506038867 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 04.07.2019 S/836606894258/603806110408 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 05.08.2019 S/836606894258/604406225266 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 04.09.2019 S/836606894258/604106240438 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 04.10.2019 S/836606894258/604706295512 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 04.11.2019 S/836606894258/602906429371 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 06.12.2019 S/836606894258/604806555412 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
- 29.04.2019 S/836606894258/611400422584 Am Gulloh 49 Gas Gutschrift Sofo VATTENFALL EUROPE SALES             65,00
- 04.03.2019 SACH VSNR S051490875 SCHADEN 1900879980 Hausratschaden       Westfaelische Provinzial           467,67
- 04.03.2019 SACH VSNR S050760187 SCHADEN 1900880314 Gebaeudeschaden Fa.  Westfaelische Provinzial           262,40
- 01.04.2019 Sachversicherung S51216759 01.04.2019                        Westfaelische Provinzial          -144,44
- 01.07.2019 Hausratversicherung S51490875 Am Gulloh 49 44339 Dortmund 01 Westfaelische Provinzial          -444,20
- 01.07.2019 Gebaeudeversicherung S50760187 Am Gulloh 49 44339 Dortmund 0 Westfaelische Provinzial         -1521,10
-                                                                                  Summe nicht umlagefähig -8736,92
+ 28.01.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 27.01.2020 019/20087108 ReNr 00085818 DATUM 24.01.2019 DATUM 25.01.2020 Crif Buergel                      -119,00
+ 06.01.2020 VK 602502009DO, AM GULLOH 49, Rechnung 9000872339, Faelligke Dortmunder Netz GmbH                19,85
+ 21.01.2020 VK 602502068 , DO, AM GULLOH 49 , Rechnung 9000872340 , Fael Dortmunder Netz GmbH               -13,71
+ 27.01.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 08.01.2020 S/836606894258/603406562669 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
+                                                                                   Summe nicht umlagefähig -103,64
 
-                                                                                   Summe 44339Am Gulloh49 -8736,92
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 05.01.20 ========================
+                                                                                 Summe  44339 Am Gulloh 49 -103,64
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 19.03.20 ========================
 ------------------------------Kredit------------------------------------------------------------------------------
- 01.07.2019 per 01.07.19 Antrag 6402896952 Objekt 44339 Dortmund, Linden NRW.BANK                         -3862,83
- 31.10.2019 ERSTATTUNG �BERZAHLUNG VON NRW.BANK                          PETER STROTMANN UND GABRIELE S      16,80
- 01.11.2019 Darl.-Leistung 795472665 F�r 29.10.2019 - 30.10.2019 Saldo 2 SPARKASSE DORTMUND                  -3,19
- 01.12.2019 Darl.-Leistung 795472665 Für 01.11.2019 - 30.11.2019 Saldo 2 SPARKASSE DORTMUND                 -95,57
- 01.01.2020 Darl.-Leistung 795472665 Für 01.12.2019 - 30.12.2019 Saldo 2 SPARKASSE DORTMUND                 -95,57
- 01.02.2019 01/19 2076596886 01/19 2073032698 385,4001/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
- 01.03.2019 02/19 2076596886 02/19 2073032698 385,4002/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
- 01.04.2019 03/19 2076596886 03/19 2071008242 194,2303/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
- 02.05.2019 04/19 2076596886 04/19 2073032698 385,4004/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
- 03.06.2019 05/19 2076596886 05/19 2071008242 194,2305/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
- 01.07.2019 06/19 2076596886 06/19 2071008242 194,2306/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
- 01.08.2019 07/19 2076596886 07/19 2073032698 385,4007/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
- 02.09.2019 08/19 2076596886 08/19 2071008242 194,2308/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
- 01.10.2019 09/19 2076596886 09/19 2073032698 385,4009/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
- 04.11.2019 10/19 2076596886 10/19 2071008242 194,2310/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
- 02.12.2019 11/19 2076596886 11/19 2071008242 194,2311/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
- 02.01.2020 12/19 2076596886 12/19 2071008242 194,2312/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
-                                                                                             Summe Kredit -6369,97
+ 01.02.2020 Darl.-Leistung 795472665 Für 01.01.2020 - 30.01.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+                                                                                               Summe Kredit -95,57
 ------------------------------Miete-------------------------------------------------------------------------------
- 03.06.2019 ERSTATTUNG HK,NK 2018 DATUM 03.06.2019, 09.28 UHR1.TAN 42614 AKSAKAL, OEZTEKIN                 -182,60
- 23.12.2019 Uberwiesen mit Deutsche Bank Mobile                          Ahmet Coruk                        750,00
- 03.06.2019 ERSTATTUNG HK/NK 2018 DATUM 02.06.2019, 09.29 UHR1.TAN 54583 CZERNY, HALINA                    -192,38
- 04.01.2019 R�ckerstattung Januarmiete 2019 DATUM 04.01.2019, 13.46 UHR1 CZERNY,HALINA                     -466,00
- 03.01.2019 MIETE-JANUAR 2019,                                           EUGENIUSZ KRZEMIEN                 463,39
- 04.02.2019 MIETE FEBRUAR 2019.                                          EUGENIUSZ KRZEMIEN                 463,39
- 04.03.2019 MIETE                                                        EUGENIUSZ KRZEMIEN                 463,39
- 02.04.2019 MIETE MAERZ 2019.                                            EUGENIUSZ KRZEMIEN                 463,39
- 03.05.2019 MIETE MAI 2019                                               EUGENIUSZ KRZEMIEN                 463,39
- 03.06.2019 MIETE JUNI                                                   EUGENIUSZ KRZEMIEN                 463,39
- 05.07.2019 MIETE JULI 2019                                              EUGENIUSZ KRZEMIEN                 463,39
- 02.08.2019 MIETE AUGUST 2019                                            EUGENIUSZ KRZEMIEN                 463,39
- 03.09.2019 MIETE SEPTEMBER 2019                                         EUGENIUSZ KRZEMIEN                 463,39
- 04.10.2019 MIETE OKTOBER 2019                                           EUGENIUSZ KRZEMIEN                 463,39
- 04.11.2019 MIETE NOVEMBER 2019                                          EUGENIUSZ KRZEMIEN                 463,39
- 03.12.2019 MIETE DEZEMBER 2019                                          EUGENIUSZ KRZEMIEN                 463,39
- 03.06.2019 Erstattung HK/NK 2018 DATUM 03.06.2019, 09.36 UHR1.TAN 31243 Goeksu                            -726,89
- 02.01.2019 MIETE                                                        Halina Czerny                      466,00
- 17.01.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 18.02.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 18.03.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.04.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.05.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.06.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.07.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 19.08.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.09.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.10.2019 Miete G�ksu Lindenhorster Stra�e 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 18.11.2019 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 17.12.2019 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
- 02.01.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 04.02.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 04.03.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.04.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.05.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 04.06.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.07.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.08.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.09.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.10.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 04.11.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 02.12.2019 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
- 03.06.2019 Erstattung HK/NK 2018 DATUM 03.06.2019, 09.30 UHR1.TAN 22041 Krzemien                          -339,85
- 03.06.2019 Erstattung HK/NK 2018 DATUM 03.06.2019, 09.38 UHR1.TAN 01961 Kuzay                             -441,15
- 02.12.2019 Miete 01.12.2019                                             Mert Celik                         387,00
- 08.01.2019 Miete lindenhorsterstr 236.jan.2019 .Aksakal Miete           OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 06.02.2019 Miete lindenhorsterstr 236. 01.2019 .Aksakal Miete           OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 08.03.2019 Miete lindenhorsterstr 236. Maerz 2019 .Aksakal Miete        OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 09.04.2019 Miete lindenhorsterstr 236. April 2019.Aksakal Miete         OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 07.05.2019 Miete lindenhorsterstr 236. Mai 2019 .Aksakal Miete          OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 14.06.2019 Miete lindenhorsterstr 236. Juni 2019 Aksakal Miete          OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 09.07.2019 Miete lindenhorsterstr 236. Juli 2019 Aksakal Miete          OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 08.08.2019 Miete lindenhorsterstr 236. August 2019 .Aksakal Miete       OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 10.09.2019 Miete lindenhorsterstr 236. September.2019 .Aksakal Miete    OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 08.10.2019 Miete lindenhorsterstr 236. Oktober 2019 .Aksakal Miete      OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 12.11.2019 Miete lindenhorsterstr 236. November 2019 .Aksakal Miete     OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 10.12.2019 Miete lindenhorsterstr 236.Dezamber 2019.Aksakal Miete       OEZTEKIN AKSAKAL UND NURTEN AK     694,52
- 08.01.2019 Kaution Lindenhorsterstr. 236 Familie Koc                    Orhan Koc Reyhan Koc               500,00
- 04.02.2019 Gesamtmiete Februar 2019 Lindenhorsterstr.236 Familie Koc    Orhan Koc Reyhan Koc               520,00
- 01.03.2019 Miete M�rtz 2019 Lindenhorsterstr.236/44339 Do. Familie Koc  Orhan Koc Reyhan Koc               520,00
- 03.04.2019 Miete April 2019 Lindenhorsterstr.236/44339 Do. Familie Koc  Orhan Koc Reyhan Koc               520,00
- 02.05.2019 Miete Mai 2019 Lindenhorsterstr.236 /44339 Do. Familie Koc   Orhan Koc Reyhan Koc               520,00
- 04.06.2019 Miete Juni 2019 Lindenhorsterstr. 236 Familie Koc            Orhan Koc Reyhan Koc               520,00
- 02.07.2019 Miete juli 2019 Lindenhorster.236 44339 Do. Familie Koc      Orhan Koc Reyhan Koc               520,00
- 12.08.2019 Miete August 2019 Lindenhorster.236 /44339 Do. Familie Koc   Orhan Koc Reyhan Koc               520,00
- 03.09.2019 Miete September 2019 Lindenhorsterstr.236 /44339 Do. Familie Orhan Koc Reyhan Koc               520,00
- 04.10.2019 Miete Oktober 2019 Lindenhorsterstr.236 44339 Do. Familie Ko Orhan Koc Reyhan Koc               520,00
- 05.11.2019 Miete Nowember 2019 Lindenhorsterstr.236 /44339 Do. Familie  Orhan Koc Reyhan Koc               520,00
- 05.12.2019 Miete Dezember 2019 Lindenhorsterstr.236 /44339 Do. Familie  Orhan Koc Reyhan Koc               520,00
- 28.12.2018 L01.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 01.02.2019 L02.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 01.03.2019 L03.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 01.04.2019 L04.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 30.04.2019 L05.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 31.05.2019 L06.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 01.07.2019 L07.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 01.08.2019 L08.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 30.08.2019 L09.19/3-000-0-35-31-0004-6 Miete Faizullah Habibi fur: Habi Stadt Dortmund                     400,00
- 03.06.2019 Erstattung HK/NK 2018 DATUM 03.06.2019, 09.32 UHR1.TAN 39120 Suemer                             -55,54
- 16.01.2019 MIETE                                                        Sunay Sumer                        720,00
- 18.02.2019 MIETE                                                        Sunay Sumer                        720,00
- 18.03.2019 MIETE                                                        Sunay Sumer                        720,00
- 16.04.2019 MIETE                                                        Sunay Sumer                        720,00
- 16.05.2019 MIETE                                                        Sunay Sumer                        720,00
- 18.06.2019 MIETE                                                        Sunay Sumer                        720,00
- 16.07.2019 MIETE                                                        Sunay Sumer                        720,00
- 16.08.2019 MIETE                                                        Sunay Sumer                        720,00
- 17.09.2019 MIETE                                                        Sunay Sumer                        720,00
- 16.10.2019 MIETE                                                        Sunay Sumer                        720,00
- 18.11.2019 MIETE                                                        Sunay Sumer                        720,00
- 17.12.2019 MIETE                                                        Sunay Sumer                        720,00
-                                                                                              Summe Miete 43892,75
+ 03.01.2020 MIETE JAN. 2020                                              EUGENIUSZ KRZEMIEN                 463,39
+ 17.01.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 02.01.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.01.2020 Miete mert celik                                             Mert Celik                         387,00
+ 08.01.2020 Miete lindenhorsterstr 236. Januar 2020 .Aksakal Miete       OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 02.01.2020 Miete Januar 2020 Lindenhorsterstr.236 Familie Koc           Orhan Koc Reyhan Koc               520,00
+ 16.01.2020 MIETE                                                        Sunay Sumer                        720,00
+                                                                                               Summe Miete 3813,18
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
- 11.02.2019 KtoNr 316416284 Lindenhorster 236 Leerstand EG LiDATUM 09.02 DEW 21                             -10,98
- 08.10.2019 350105087 Stromabschlag Lindenhorster 236, 44339 DO, DG li,  DEW21                              -39,00
- 07.10.2019 ReNr.:1902192, 4 Grundschuldbestellungen DATUM 05.10.2019, 2 Doering und Grosser Notariat      -673,54
- 16.12.2019 ReNr.:1902768, UR.-Nrn 1380/2019-1384/2019 DATUM 14.12.2019, Doering und Grosser Notariat      -192,19
- 28.11.2019 VK 350105087DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser       7,29
- 16.09.2019 RECHNUNG 22685 V.12.9.19 AUFTRAG HW-22810 Lindenhorster 236, GREBE, ANDREAS, FLIESEN          -1500,00
- 16.09.2019 RECHNUNG 22685 V.12.9.19 AUFTRAG 22810 Lindenhorster 236, dg GREBE, ANDREAS, FLIESEN          -2500,00
- 09.12.2019 RECHNUNG 22692 V.7.12.19 AUFTRAG 22810 Lindenhorster 236, dg GREBE, ANDREAS, FLIESEN          -2500,00
- 10.12.2019 RECHNUNG 22692 V.7.12.19 AUFTRAG 22810 Lindenhorster 236, dg GREBE, ANDREAS, FLIESEN          -1038,64
- 10.12.2019 AUFTRAG 22810 Lindenhorster 236, dg li, 2. Tranche RECHNUNG  GREBE, ANDREAS, FLIESEN          -2500,00
- 08.05.2019 Erstattung Herdsteckdose G�ksu DATUM 07.05.2019, 21.04 UHR1. Goeksu                             -20,00
- 22.03.2019 RE 057-2019, V. 20.3.19 Lindenhorster 236, �nderung Stromkre HACHENEUER ELEKTROTECHNIK         -144,29
- 15.02.2019 ReNr 021-2019 v. 13.2.2017 Lindenhorster 236, Treppenlichtta Hacheneuer                        -244,43
- 01.11.2019 Ihre Kundennr. 12809097 RG 1910467221, 69,9 EUR              Immobilien Scout Gmb               -69,90
- 15.11.2019 Ihre Kundennr. 12809097 RG 1911422981, 55,92 EUR             Immobilien Scout Gmb               -55,92
- 18.02.2019 Rasenroboter Lindenhorster 236,44339 Dortmund Re:190215651 v Krukenmeier                       -829,30
- 18.02.2019 Rasenroboter Lindenhorster 236,44339 Dortmund Re:190215651 v Krukenmeier                      -2500,00
- 03.04.2019 ReNr 2511, v.1.4.19, Durchlauferhitzer �berpr�ft Lindenhorst Mlynek, Bad u. Heizung             -98,18
- 12.07.2019 ReNr 2567, v.8.7.19 Lindenhorst DG re, Durchlauferhitzer DAT Mlynek, Bad u. Heizung            -645,99
- 10.09.2019 ReNr 2608, v.5.9.19, Badinstallation Lindenhorster 236, DG l Mlynek, Bad u. Heizung           -2214,65
- 15.03.2019 ReNr 2488 v. 13.3.19 Lindenhorster 236, eg li. Reinigung Abw Mlynek, Bad und Heitzung          -547,46
- 15.03.2019 ReNr 2487 v. 13.3.19 Lindenhorster 236, eg li. Rohrbruchsuch Mlynek, Bad und Heitzung          -327,25
- 19.03.2019 ReNr 2494 v. 15.3.19 Lindenhorster 236, eg li. Reinigung Bod Mlynek, Bad und Heitzung          -196,35
- 21.05.2019 ReNr 2532 v. 8.5.19 Lindenhorster Str.236, 2.og li, G�ks�, R Mlynek, Bad und Heitzung          -160,00
- 31.05.2019 ReNr 2542 v. 24.5.19 LIndenhorster 236, eg li, Koc, Erneueru Mlynek, Bad und Heitzung          -215,93
- 14.10.2019 ReNr 2632 v. 11.10.19 Lindenhorster 236, 44339 DO, dg li Bad Mlynek, Bad und Heitzung         -1850,63
- 25.10.2019 LindenhorsterStr 236 OgLi, T�ren DATUM 25.10.2019, 18.17 UHR Tuerenprofi                      -1300,00
- 18.10.2019 X708439463721X, Eintragung Sparkasse 238000 Lindenhorst DATU Zentrale Zahlstelle Justiz        -545,00
-                                                                                 Summe nicht umlagefähig -22912,34
+ 20.01.2020 ReNr 2697 v. 16.01.20 Lindenhorster 236, Do, eg re Sümer, Du Mlynek, Bad und Heitzung          -514,68
+ 09.01.2020 X708624673721X Lö Abt.III NRW.Bank DATUM 09.01.2020, 11.29 U Zentrale Zahlstelle Justiz        -417,50
+                                                                                   Summe nicht umlagefähig -932,18
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 26.02.2019 RE.NR. 009574713 v. 21.2.19 Lindenhorster 236,KdNrNr 3433703 BRUNATA Metrona                   -144,88
- 22.05.2019 RE.NR. 750023544 v. 7.5.2019 Lindenhorster 236,KdNrNr 343370 BRUNATA Metrona                   -399,26
- 11.02.2019 LIEGNR 5300769 V RENRn 407644655-407644659 V.20.1.2019 LINDE BRUNATA, HUERTH                   -316,11
- 28.02.2019 LIEGNR 5300769 V RENRn 407644655-407644659 V.20.1.2019 LINDE BRUNATA, HUERTH                    -40,00
- 31.05.2019 Lindenhorster 236,Dortmund, ReNR 900282682 V.28.5.2019 Heizk BRUNATA, HUERTH                    -64,85
- 08.03.2019 VK 304488933DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser       3,84
- 02.01.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -137,00
- 02.01.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -25,00
- 30.01.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -137,00
- 30.01.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -25,00
- 28.02.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -137,00
- 28.02.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -25,00
- 22.03.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Rechnung 6001946 Dortmunder Energie- und Wasser    -163,03
- 01.04.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 01.04.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.04.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.04.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 31.05.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 31.05.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 01.07.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 01.07.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.07.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 30.07.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.08.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 30.08.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.09.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 30.09.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.10.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 30.10.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 02.12.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 02.12.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 30.12.2019 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
- 30.12.2019 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
- 15.01.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.02.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.03.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.04.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.05.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 17.06.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.07.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.08.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 16.09.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.10.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 15.11.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 16.12.2019 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
- 18.10.2019 296.001/19/01130-296.001 v.16.10.19 Kehr- und �berpr�fung 20 Kahlert                            -63,09
- 03.06.2019 498.089.778-1 ABS. 05/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 01.07.2019 498.089.778-1 ABS. 06/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 01.08.2019 498.089.778-1 ABS. 07/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 02.09.2019 498.089.778-1 ABS. 08/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 01.10.2019 498.089.778-1 ABS. 09/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 01.11.2019 498.089.778-1 ABS. 10/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 02.12.2019 498.089.778-1 ABS. 11/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 03.01.2020 498.089.778-1 ABS. 12/19 Lindenhorster Str. 236, Dortmund    MAINGAU ENERGIE GMBH              -279,00
- 28.05.2019 B8620739254VKNR:20274146216/faellig 27.05.2019 Netto 1.058US Mainova AG                        1259,26
- 04.01.2019 KNR:20274146216/faellig 04.01.2019 Netto 275,63USt. 52,37 Br Mainova AG                        -328,00
- 04.02.2019 KNR:20274146216/faellig 04.02.2019 Netto 275,63USt. 52,37 Br Mainova AG                        -328,00
- 05.03.2019 KNR:20274146216/faellig 05.03.2019 Netto 275,63USt. 52,37 Br Mainova AG                        -328,00
- 05.04.2019 KNR:20274146216/faellig 04.04.2019 Netto 275,63USt. 52,37 Br Mainova AG                        -328,00
- 03.07.2019 KNR:20274146216/faellig 03.07.2019 Netto 0,00USt. 0,00 Brutt Mainova AG                         -41,00
- 15.02.2019 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1546,63
- 15.05.2019 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1546,61
- 24.06.2019 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                     -14,02
- 15.08.2019 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1560,64
- 15.11.2019 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1560,64
- 17.06.2019 Kassenzeichen 077 032 640 D Sonderleerung Lindenhorster 236  Stadtkasse Dortmund               -135,63
- 17.04.2019 SACH VSNR S900456420 SCHADEN 1901115535 Rechnung Fa. Mlynak  Westfaelische Provinzial           380,45
- 02.12.2019 Gebaeudeversicherung S900456420 Lindenhorster Str. 236 44339 Westfaelische Provinzial         -1469,20
- 02.12.2019 Haus- und Grundbesitzer-Haftpflicht H33245694 44339 Dortmund Westfaelische Provinzial          -159,66
-                                                                                       Summe umlagefähig -14911,70
+ 20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035930 V.16.1.2020 DATU BRUNATA, HUERTH                    -26,06
+ 20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035929 V.16.1.2020 DATU BRUNATA, HUERTH                    -13,03
+ 20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035928 V.16.1.2020 DATU BRUNATA, HUERTH                   -102,64
+ 20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035927 V.16.1.2020 DATU BRUNATA, HUERTH                   -167,79
+ 20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035926 V.14.7.2006 DATU BRUNATA, HUERTH                    -46,59
+ 31.01.2020 LIEGNR 5300769, lindenhorster 236 RENR 002018001 v.30.1.20 D BRUNATA, HUERTH                   -150,24
+ 30.01.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
+ 30.01.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
+ 15.01.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+                                                                                         Summe umlagefähig -811,35
 
-                                                                       Summe 44339Lindenhorster Strasse236 -301,26
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 05.01.20 =====================================
+                                                                    Summe  44339 Lindenhorster Strasse 236 1974,08
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 19.03.20 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
- 01.07.2019 per 01.07.19 Antrag 6403042481 Objekt 44536 Luenen, Lorenzst NRW.BANK                         -3163,25
- 29.10.2019 R�ckzahlung Peter und Gabriele Strotmann                     NRW.BANK                          -658,01
- 31.10.2019 6812423017 Erstattung 6403042481 Objekt 44536 Luenen, Lorenz NRW.BANK                            12,98
- 01.02.2019 Darl.-Leistung 855391880 F�r 01.01.2019 - 30.01.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.03.2019 Darl.-Leistung 855391880 F�r 01.02.2019 - 28.02.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.04.2019 Darl.-Leistung 855391880 F�r 01.03.2019 - 30.03.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.05.2019 Darl.-Leistung 855391880 F�r 01.04.2019 - 30.04.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.06.2019 Darl.-Leistung 855391880 F�r 01.05.2019 - 30.05.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.07.2019 Darl.-Leistung 855391880 F�r 01.06.2019 - 30.06.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.08.2019 Darl.-Leistung 855391880 F�r 01.07.2019 - 30.07.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.09.2019 Darl.-Leistung 855391880 F�r 01.08.2019 - 30.08.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.10.2019 Darl.-Leistung 855391880 F�r 01.09.2019 - 30.09.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.11.2019 Darl.-Leistung 795472673 F�r 29.10.2019 - 30.10.2019 Saldo 3 SPARKASSE DORTMUND                  -3,73
- 01.11.2019 Darl.-Leistung 855391880 F�r 01.10.2019 - 30.10.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.12.2019 Darl.-Leistung 855391880 Für 01.11.2019 - 30.11.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 01.12.2019 Darl.-Leistung 795472673 Für 01.11.2019 - 30.11.2019 Saldo 3 SPARKASSE DORTMUND                -912,00
- 01.01.2020 Darl.-Leistung 795472673 Für 01.12.2019 - 30.12.2019 Saldo 3 SPARKASSE DORTMUND                -912,00
- 01.01.2020 Darl.-Leistung 855391880 Für 01.12.2019 - 30.12.2019 Saldo 5 SPARKASSE DORTMUND                -224,78
- 03.01.2019 Sondertilgung DATUM 03.01.2019, 11.48 UHR1.TAN 666181        Strotmann                        -1000,00
- 04.01.2019 Sondertilgung 2. Tranche, Lorenzstra�e 5 DATUM 04.01.2019, 1 Strotmann                        -2297,37
-                                                                                            Summe Kredit -11630,74
+ 01.02.2020 Darl.-Leistung 795472673 Für 01.01.2020 - 30.01.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.02.2020 Darl.-Leistung 855391880 Für 01.01.2020 - 30.01.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
+                                                                                             Summe Kredit -1136,78
 ------------------------------Miete-------------------------------------------------------------------------------
- 02.01.2019 Miete Hanke                                                  BERND SCHMIED                      585,00
- 08.08.2019 Miete Hanke                                                  BERND SCHMIED                      300,00
- 03.09.2019 Miete Hanke                                                  BERND SCHMIED                      300,00
- 17.01.2019 Miete Hanke                                                  CHRISTIANE HANKE                   100,00
- 02.02.2019 Miete Hanke                                                  CHRISTIANE HANKE                   625,00
- 28.02.2019 Miete Hanke                                                  CHRISTIANE HANKE                   700,00
- 01.04.2019 Miete Hanke                                                  CHRISTIANE HANKE                   625,00
- 07.05.2019 Miete Hanke                                                  CHRISTIANE HANKE                   500,00
- 14.05.2019 Miete Hanke                                                  CHRISTIANE HANKE                   125,00
- 02.06.2019 Miete Hanke                                                  CHRISTIANE HANKE                   625,00
- 02.07.2019 Miete Hanke                                                  CHRISTIANE HANKE                   675,00
- 03.09.2019 Miete Hanke                                                  CHRISTIANE HANKE                   400,00
- 11.10.2019 Miete Hanke                                                  CHRISTIANE HANKE                   700,00
- 14.11.2019 Miete Hanke                                                  CHRISTIANE HANKE                   700,00
- 13.12.2019 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
- 30.07.2019 Nachzahlung f�r 2018                                         FRANZ JOSEF BALBIERZ               112,99
- 02.01.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.02.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.03.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.04.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 02.05.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 03.06.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.07.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.08.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 02.09.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.10.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 01.11.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 02.12.2019 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
- 02.01.2019 Miete                                                        Grofe, Renate                      471,50
- 01.02.2019 Miete                                                        Grofe, Renate                      471,50
- 01.03.2019 Miete                                                        Grofe, Renate                      471,50
- 01.04.2019 Miete                                                        Grofe, Renate                      471,50
- 02.05.2019 Miete                                                        Grofe, Renate                      471,50
- 03.06.2019 Miete                                                        Grofe, Renate                      471,50
- 23.05.2019 Betriebskostenabrechnung 2018 DATUM 23.05.2019, 10.23 UHR1.T Grofe                              -39,99
- 23.05.2019 Betriebskostenabrechnung 2018 DATUM 23.05.2019, 10.29 UHR1.T Heyer                             -313,87
- 01.07.2019 Miete                                                        Renate Grofe                       471,50
- 01.08.2019 Miete                                                        Renate Grofe                       471,50
- 02.09.2019 Miete                                                        Renate Grofe                       471,50
- 01.10.2019 Miete                                                        Renate Grofe                       471,50
- 04.11.2019 Miete                                                        Renate Grofe                       471,50
- 02.12.2019 Miete                                                        Renate Grofe                       471,50
- 02.01.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.02.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.03.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.04.2019 MIETE                                                        Semra Sezgin                       609,00
- 02.05.2019 MIETE                                                        Semra Sezgin                       609,00
- 03.06.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.07.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.08.2019 MIETE                                                        Semra Sezgin                       609,00
- 02.09.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.10.2019 MIETE                                                        Semra Sezgin                       609,00
- 01.11.2019 MIETE                                                        Semra Sezgin                       609,00
- 02.12.2019 MIETE                                                        Semra Sezgin                       609,00
- 23.05.2019 Betriebskostenabrechnung 2018 DATUM 23.05.2019, 10.26 UHR1.T Sezgin                            -126,87
- 02.01.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.02.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.03.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.04.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 02.05.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 03.06.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.07.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.08.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 02.09.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.10.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 01.11.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 02.12.2019 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
- 02.01.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 01.02.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 01.03.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 01.04.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 02.05.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 03.06.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 07.06.2019 SCHIER STEFANIE ABRECHNUNG 2018 LORENZ-STR.5                 Stefanie Schier                    153,60
- 01.07.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 01.08.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 02.09.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 01.10.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 04.11.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
- 02.12.2019 Miete Lorenzstr.5                                            Stefanie Schier                    496,00
-                                                                                              Summe Miete 42037,86
+ 13.01.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 02.01.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 02.01.2020 Miete                                                        Renate Grofe                       471,50
+ 02.01.2020 MIETE                                                        Semra Sezgin                       609,00
+ 02.01.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 02.01.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+                                                                                               Summe Miete 3532,50
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
- 06.12.2019 IHRE RE V. 21.11.2019 Profilzylinder D6X NP 28/34 176343 DAT BALBIERZ, JOHANNA UND FRANZ        -28,99
- 07.10.2019 ReNr.:1902192, 4 Grundschuldbestellungen DATUM 05.10.2019, 2 Doering und Grosser Notariat      -393,89
- 11.03.2019 REnR 20190367 v.26.2.2019 eg re Grofe, Austausch Ista-Kaltwa Faulstich                         -134,85
- 26.11.2019 REnR 20191827 v.13.11.2019 Heizungsanlage, Elektroden gerein Faulstich                         -327,58
- 05.12.2019 REnR 20192011 v.3.12.2019 Heizungsanlageüberprüft und repari Faulstich                        -1327,27
- 22.05.2019 35093318840913 3550051 09.05.2019 931884091 Hanke/2.og re, n ISTA DEUTSCHLAND GMBH Essen        -71,28
- 18.10.2019 093.000.431100 L�schungsbewilligung Strotmann DATUM 18.10.20 WZL Wirtschaftsfoerderungszent     -20,00
- 18.10.2019 X701660573762X, Eintragung Sparkasse 118000 Brambauer DATUM  Zentrale Zahlstelle Justiz        -310,00
- 25.10.2019 X701666713763X L� BelegRecht L�nen Abt.II DATUM 25.10.2019,  Zentrale Zahlstelle Justiz         -25,00
-                                                                                  Summe nicht umlagefähig -2638,86
+ 15.01.2020 X701695593766X Lö Abt.III NRW.Bank DATUM 15.01.2020, 10.03 U Zentrale Zahlstelle Justiz        -392,50
+                                                                                   Summe nicht umlagefähig -392,50
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 11.04.2019 VK 232046376481 Lorenzstr 5 Luenen ABRECHNUNG 10.04.19 21142 E.ON Energie Deutschland           230,13
- 07.01.2019 VK 232046376481 Lorenzstr 5 Luenen ABSCHLAG 01 Gas WIR SAGEN E.ON Energie Deutschland          -170,00
- 07.02.2019 VK 232046376481 Lorenzstr 5 Luenen ABSCHLAG 02 Gas WIR SAGEN E.ON Energie Deutschland          -170,00
- 07.03.2019 VK 232046376481 Lorenzstr 5 Luenen ABSCHLAG 03 Gas WIR SAGEN E.ON Energie Deutschland          -170,00
- 05.12.2019 REnR 20192013 v.03.12.2019 Heizungswartung DATUM 05.12.2019, Faulstich                         -249,00
- 08.04.2019 1599.000/17/01199 lORENZSTRASSE 5, RE 2019, Kehrarbeiten DAT God, Bjoern                        -30,42
- 23.05.2019 3500665078960 066507896 69-467-1049/9 03550051 v.7.5.19 Lore ISTA                              -162,11
- 05.12.2019 3500434618523 043461852 69-467-1049/9 03550051 v.3.12.2019 L ISTA                              -558,92
- 15.01.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.02.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.03.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.04.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.05.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 17.06.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.07.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.08.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 16.09.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.10.2019 HAUSMEISTERVERG�TUNG                                         JOHANA BALBIERZ                    -98,00
- 15.11.2019 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
- 16.12.2019 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
- 29.01.2019 5338498191 OB-33448242 EUR 30,57 BEITRAG 0119 - 0119         Knappschaft-Bahn-See               -30,57
- 26.02.2019 2504473696 OB-33448242 EUR 30,57 BEITRAG 0219 - 0219         Knappschaft-Bahn-See               -30,57
- 27.03.2019 9379412465 OB-33448242 EUR 30,57 BEITRAG 0319 - 0319         Knappschaft-Bahn-See               -30,57
- 26.04.2019 4006332131 OB-33448242 EUR 30,57 BEITRAG 0419 - 0419         Knappschaft-Bahn-See               -30,57
- 28.05.2019 3338553109 OB-33448242 EUR 30,57 BEITRAG 0519 - 0519         Knappschaft-Bahn-See               -30,57
- 26.06.2019 3006308399 OB-33448242 EUR 30,52 BEITRAG 0619 - 0619         Knappschaft-Bahn-See               -30,52
- 29.07.2019 7172279344 OB-33448242 EUR 30,52 BEITRAG 0719 - 0719         Knappschaft-Bahn-See               -30,52
- 28.08.2019 8379769629 OB-33448242 EUR 30,52 BEITRAG 0819 - 0819         Knappschaft-Bahn-See               -30,52
- 26.09.2019 3006399858 OB-33448242 EUR 30,52 BEITRAG 0919 - 0919         Knappschaft-Bahn-See               -30,52
- 29.10.2019 7338739154 OB-33448242 EUR 30,52 BEITRAG 1019 - 1019         Knappschaft-Bahn-See               -30,52
- 27.11.2019 3338728673 OB-33448242 EUR 30,52 BEITRAG 1119 - 1119         Knappschaft-Bahn-See               -30,52
- 23.12.2019 7671064622 OB-33448242 EUR 30,52 BEITRAG 1219 - 1219         Knappschaft-Bahn-See               -30,52
- 02.05.2019 779.339.295-2 ABS. 04/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 03.06.2019 779.339.295-2 ABS. 05/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 01.07.2019 779.339.295-2 ABS. 06/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 01.08.2019 779.339.295-2 ABS. 07/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 02.09.2019 779.339.295-2 ABS. 08/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 01.10.2019 779.339.295-2 ABS. 09/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 01.11.2019 779.339.295-2 ABS. 10/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 02.12.2019 779.339.295-2 ABS. 11/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 03.01.2020 779.339.295-2 ABS. 12/19 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
- 15.02.2019 600122004608 ABFALLBESEITIGUNG 222,62/ GRUNDSTEUER B 318,60/ Stadt Luenen Stadtkasse           -541,22
- 15.05.2019 600122004608 ABFALLBESEITIGUNG 222,62/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -541,21
- 15.08.2019 600122004608 ABFALLBESEITIGUNG 222,62/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -541,21
- 15.11.2019 600122004608 ABFALLBESEITIGUNG 222,65/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -541,24
- 01.04.2019 ENTWAESSERUNG BESCHEIDNUMMER 11905004 /60913 359,00          Stadtbetrieb Abwasserbeseitigu    -359,00
- 28.06.2019 ENTWAESSERUNG BESCHEIDNUMMER 11905004 /60913 359,00          Stadtbetrieb Abwasserbeseitigu    -359,00
- 30.09.2019 ENTWAESSERUNG BESCHEIDNUMMER 11905004 /60913 359,00          Stadtbetrieb Abwasserbeseitigu    -359,00
- 30.12.2019 ENTWAESSERUNG BESCHEIDNUMMER 11905004 /60913 359,00          Stadtbetrieb Abwasserbeseitigu    -359,00
- 01.02.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Rechnu Stadtwerke Luenen GmbH            -156,46
- 15.02.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 15.03.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 16.04.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 15.05.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 17.06.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 15.07.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 15.08.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 16.09.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 15.10.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 15.11.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 16.12.2019 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -117,00
- 31.01.2019 Rechnung Januar 2019 KDNR06008091786 VERTR NR6000776051      Unitymedia NRW GmbH              -1268,64
- 24.04.2019 Verwendungszweck 20191620057 DATUM 24.04.2019, 13.46 UHR1.TA VBG                                -49,51
- 02.12.2019 Gebaeudeversicherung S900456429 Lorenzstr. 5 44536 Luenen 01 Westfaelische Provinzial         -1199,12
- 02.12.2019 Haus- und Grundbesitzer-Haftpflicht H33245702 44536 Luenen,  Westfaelische Provinzial          -140,28
- 04.01.2019 3500517815050 051781505 69-467-1049/9 03550051 LORENZSTR 5,5 ista Deutschland GmbH             -970,29
-                                                                                       Summe umlagefähig -13231,99
+ 06.01.2020 350053805595 052380859 69-467-1049/9 03550051 v.3.1.2020 Lor ISTA                              -910,66
+ 15.01.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 29.01.2020 8629160810 OB-33448242 EUR 30,52 BEITRAG 0120 - 0120         Knappschaft-Bahn-See               -30,52
+ 31.01.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Rechnu Stadtwerke Luenen GmbH            -171,24
+ 31.01.2020 Rechnung Januar 2020 KDNR06008091786 VERTR NR6000776051      Unitymedia NRW GmbH              -1300,32
+                                                                                        Summe umlagefähig -2510,74
 
-                                                                                Summe 44536Lorenzstrasse5 14536,27
-==============================Heinrichstraße  44 , 59077  Hamm ==== 05.01.20 ====================================
+                                                                              Summe  44536 Lorenzstrasse 5 -507,52
+==============================Heinrichstraße  44 , 59077  Hamm ==== 19.03.20 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
- 01.07.2019 per 01.07.19 Antrag 6403029926 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
- 29.10.2019 R�ckzahlung Peter und Gabriele Strotmann                     NRW.BANK                        -27676,19
- 31.10.2019 6810994019 Erstattung 6403029926 Objekt 59077 Hamm, Heinrich NRW.BANK                             3,43
- 01.02.2019 Darl.-Leistung 855369559 F�r 01.01.2019 - 30.01.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.03.2019 Darl.-Leistung 855369559 F�r 01.02.2019 - 28.02.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.04.2019 Darl.-Leistung 855369559 F�r 01.03.2019 - 30.03.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.05.2019 Darl.-Leistung 855369559 F�r 01.04.2019 - 30.04.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.06.2019 Darl.-Leistung 855369559 F�r 01.05.2019 - 30.05.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.07.2019 Darl.-Leistung 855369559 F�r 01.06.2019 - 30.06.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.08.2019 Darl.-Leistung 855369559 F�r 01.07.2019 - 30.07.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.09.2019 Darl.-Leistung 855369559 F�r 01.08.2019 - 30.08.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.10.2019 Darl.-Leistung 855369559 F�r 01.09.2019 - 30.09.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.11.2019 Darl.-Leistung 795472681 F�r 29.10.2019 - 30.10.2019 Saldo 2 SPARKASSE DORTMUND                  -2,33
- 01.11.2019 Darl.-Leistung 855369559 F�r 01.10.2019 - 30.10.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.12.2019 Darl.-Leistung 795472681 Für 01.11.2019 - 30.11.2019 Saldo 1 SPARKASSE DORTMUND                -570,00
- 01.12.2019 Darl.-Leistung 855369559 Für 01.11.2019 - 30.11.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.01.2020 Darl.-Leistung 855369559 Für 01.12.2019 - 30.12.2019 Saldo 4 SPARKASSE DORTMUND                -250,00
- 01.01.2020 Darl.-Leistung 795472681 Für 01.12.2019 - 30.12.2019 Saldo 1 SPARKASSE DORTMUND                -570,00
- 04.01.2019 Sondertilgung Hamm Heinrichstr. 44 1.Tranche DATUM 04.01.201 Strotmann                         -500,00
- 07.01.2019 Sondertilgung, Hamm Heinrichstr. 2.Tranche DATUM 05.01.2019, Strotmann                        -2500,00
-                                                                                            Summe Kredit -35607,21
+ 01.02.2020 Darl.-Leistung 795472681 Für 01.01.2020 - 30.01.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.02.2020 Darl.-Leistung 855369559 Für 01.01.2020 - 30.01.2020 Saldo 3 SPARKASSE DORTMUND                -250,00
+ 02.01.2020 Sondertilgung DATUM 01.01.2020, 17.20 UHR1.TAN 744104        Strotmann                         -500,00
+ 02.01.2020 Sondertilgung DATUM 01.01.2020, 17.16 UHR1.TAN 651337        strotmann                        -2500,00
+                                                                                             Summe Kredit -3820,00
 ------------------------------Miete-------------------------------------------------------------------------------
- 19.09.2019 El-gourari Drifa, Kalla Boujamaa Heinnrich strasse 44 59077  Boujamaa Kalla und Drifa El Go    1500,00
- 01.10.2019 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
- 01.11.2019 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
- 02.12.2019 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
- 23.09.2019 Miete Szlefarski                                             Jessica Kim Szlefarski             200,00
- 18.02.2019 Betriebskostenerstattung 2018 DATUM 16.02.2019, 11.48 UHR1.T Szlefarski                          -4,19
- 07.10.2019 Kautionserstattung Abschlag, Endabrechnung erfolgt mit Neben Szlefarski                        -900,00
- 08.01.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 11.02.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 10.03.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 05.04.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 09.05.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 05.06.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 08.07.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 08.08.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  700,00
- 12.09.2019 Miete Szlefarski                                             TOMASZ SZLEFARSKI                  500,00
-                                                                                               Summe Miete 9085,81
-------------------------------nicht umlagefähig-------------------------------------------------------------------
- 17.10.2019 00-030-869810-0177/24-07-19 RECHNUNGSNUMMER 191366           ALTE LEIPZIGER VERSICHERUNG        319,10
- 10.10.2019 RENR 191366 V.30.9.2019 KDNR 22487 HEINRICHSTR.44 HAMM, Szle BAHNE, HEIZUNG                    -329,10
- 14.10.2019 RENR 191364 V.30.9.2019 KDNR 22487 Heinrichstr.44, Szlefarsk BAHNE, HEIZUNG                    -100,20
- 14.10.2019 RENR 191365 V.30.9.2019 KDNR 22487 Heinrichstr.44, Szlefarsk BAHNE, HEIZUNG                    -301,42
- 28.11.2019 RENR 191844 V.26.11.2019 KDNR 22487 HEINRICHSTR.44 HAMM, El  BAHNE, HEIZUNG                    -151,27
- 09.09.2019 ReNr.190775,3.9.19,Heinrichstr.44 ,Hamm, Terrassent�r DATUM  Dettmann                          -105,61
- 23.10.2019 ReNr.190950,17.10.19.19,Heinrichstr.44 ,Hamm, neue Terrassen Dettmann                         -1207,40
- 07.10.2019 ReNr.:1902192, 4 Grundschuldbestellungen DATUM 05.10.2019, 2 Doering und Grosser Notariat      -361,76
- 24.10.2019 key01 Reparatur Schloss, Erstattung Barzahlung an Maxi Schl� El-gourari Drifa, Kalla Boujam    -190,00
- 07.10.2019 3509324956968 3550051 03.10.2019 932495696 Heinrichstr.44, H ISTA                               -52,16
- 25.07.2019 Ihre Kundennr. 12809097 RG 1907455086, 52,43 EUR             Immobilien Scout GmbH              -52,43
- 18.10.2019 X702512533743X, Eintragung Sparkasse 100000 Hamm DATUM 18.10 Zentrale Zahlstelle Justiz        -283,00
- 30.12.2019 X702550183741X Lö Abt.III NRW.Bank DATUM 29.12.2019, 16.12 U Zentrale Zahlstelle Justiz        -217,50
-                                                                                  Summe nicht umlagefähig -3032,75
+ 02.01.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 29.01.2020 Betriebskostenabrechnung 2019 DATUM 29.01.2020, 13.39 UHR1.T El-gourari Drifa u Kalla Bouja     -57,07
+ 30.01.2020 Restkaution nach Abzug BK Abrechnung 2019, Tel. mit Frau Szl Frau Szlefarski                   -134,19
+                                                                                                Summe Miete 538,74
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 14.10.2019 RENR 191354 V.30.9.2019 KDNR 22487 Heinrichstr.44, Szlefarsk BAHNE, HEIZUNG                    -158,87
- 20.08.2019 1530/19/1215-1530.000 HEINRICHSTR. 44 Schornsteinfegerarbeit BAUCH, SCHORNSTEINFEGER            -72,11
- 11.02.2019 Heinrichstr 44,46 ReNr 163629448 DATUM 09.02.2019, 17.18 UHR Habre Immobilen Verwaltung        -308,88
- 04.01.2019 3500517826832 51782683 69-470-1140/3 03550051 Heinrichstr. 4 ISTA DEUTSCHLAND GMBH Essen        -30,37
- 05.12.2019 3500434625444 043462544 69-470-1140/3 03550051 v.3.1.2018 He ISTA                               -84,91
- 15.02.2019 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -120,68
- 15.05.2019 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -120,68
- 15.08.2019 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -120,68
- 15.11.2019 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -120,74
- 01.07.2019 Gebaeudeversicherung S900515813 Heinrichstr. 44 59077 Hamm 0 Westfaelische Provinzial          -257,02
- 02.12.2019 Haus- und Grundbesitzer-Haftpflicht H33245587 59077 Hamm, He Westfaelische Provinzial           -48,41
-                                                                                        Summe umlagefähig -1443,35
+ 06.01.2020 3500523820990 052382099 69-470-1140/3 03550051 v.3.1.2020 He ISTA                               -30,37
+                                                                                          Summe umlagefähig -30,37
 
-                                                                             Summe 59077Heinrichstraße44 -30997,50
-==============================Heinrichstraße  46 , 59077  Hamm ==== 05.01.20 ====================================
+                                                                           Summe  59077 Heinrichstraße 44 -3311,63
+==============================Heinrichstraße  46 , 59077  Hamm ==== 19.03.20 ====================================
+------------------------------Miete-------------------------------------------------------------------------------
+ 29.01.2020 Betriebskostenerstattung 2019 DATUM 29.01.2020, 13.35 UHR1.T Aschmoneit-Clemente                -55,82
+ 27.12.2019 Miete 01/20 Heinrichstr.46 59077 Hamm                        Sascha Romano Aschmoneit           720,00
+ 31.01.2020 Miete 02/20 Heinrichstr.46 59077 Hamm                        Sascha Romano Aschmoneit           720,00
+                                                                                               Summe Miete 1384,18
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 06.01.2020 3500523821007 052382100 69-470-1142/0 03550051 v.3.1.2020 He ISTA                               -34,16
+                                                                                          Summe umlagefähig -34,16
+
+                                                                            Summe  59077 Heinrichstraße 46 1350,02
+==============================Haferkamp  1 , 59192  Bergkamen ==== 19.03.20 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
- 01.07.2019 per 01.07.19 Antrag 6403029934 Objekt 59077 Hamm, Heinrichst NRW.BANK                          -792,12
-                                                                                              Summe Kredit -792,12
+ 01.02.2020 Darl.-Leistung 855276038 Für 01.01.2020 - 30.01.2020 Saldo 2 SPARKASSE DORTMUND                -504,00
+                                                                                              Summe Kredit -504,00
 ------------------------------Miete-------------------------------------------------------------------------------
- 18.02.2019 Betriebskostenerstattung 2018 DATUM 16.02.2019, 11.50 UHR1.T Aschmoneit-Clemente               -135,79
- 09.01.2019 Miete 01/19 Heinrichstr.46 59077 Hamm                        Sascha Romano Aschmoneit           720,00
- 04.02.2019 Miete 02/19 Heinrichstr.46 59077 Hamm                        Sascha Romano Aschmoneit           720,00
- 07.03.2019 Heinrichstrasse 46 59077 Hamm Miete 03/19                    Sascha Romano Aschmoneit           720,00
- 02.04.2019 Miete 04/19 Heinrichstrasse 46 59077 Hamm                    Sascha Romano Aschmoneit           720,00
- 29.04.2019 Miete 05/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
- 03.06.2019 Miete 06/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
- 03.07.2019 Miete 07/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
- 01.08.2019 Miete 08/19 Heinrichstrasse 46 59077 Hamm                    Sascha Romano Aschmoneit           720,00
- 03.09.2019 Miete 09/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
- 01.10.2019 Miete 10/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
- 04.11.2019 Miete 11/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
- 02.12.2019 Miete 12/19 Heinrichstr. 46 59077 Hamm                       Sascha Romano Aschmoneit           720,00
-                                                                                               Summe Miete 8504,21
+ 23.01.2020 Betriebskostenerstattung 2019 DATUM 23.01.2020, 11.38 UHR1.T DIENER, DIMITRI U SVETLANA         -38,88
+ 02.01.2020 Miete                                                        Dimitri und Svetlana Diener        900,00
+                                                                                                Summe Miete 861,12
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
- 07.10.2019 ReNr.:1902192, 4 Grundschuldbestellungen DATUM 05.10.2019, 2 Doering und Grosser Notariat      -361,76
- 21.10.2019 X702513503744X, Eintragung Sparkasse 100000 Hamm DATUM 19.10 Zentrale Zahlstelle Justiz        -283,00
-                                                                                   Summe nicht umlagefähig -644,76
+ 06.01.2020 ReNr 20200538, Fliesen und Verbrauchsmaterial für Küche DATU DienerD                           -650,23
+ 06.01.2020 ReNr 20200537, Fliesenreparatur, nach Wasserschaden DATUM 06 DienerD                           -527,10
+ 08.01.2020 X701108663758X Lö Abt.III NRW.Bank DATUM 08.01.2020, 11.26 U Zentrale Zahlstelle Justiz        -246,00
+                                                                                  Summe nicht umlagefähig -1423,33
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 27.11.2019 RENR 191742 V.18.11.2019 KDNR 22487 Heinrichstr.46, Aschmone BAHNE, HEIZUNG                    -169,93
- 20.08.2019 1529/19/1214-1529.000 HEINRICHSTR. 46 Schornsteinfegerarbeit BAUCH, SCHORNSTEINFEGER            -72,11
- 04.01.2019 3500517826849 051782684 69-470-1142/0 03550051 Heinrichstr.  ISTA DEUTSCHLAND GMBH Essen        -34,16
- 05.12.2019 3500434625452 043462545 69-470-1142/0 03550051 v.3.12.2019 H ISTA                               -92,03
- 15.02.2019 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -132,02
- 15.05.2019 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -132,02
- 15.08.2019 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -132,02
- 15.11.2019 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -132,06
- 01.07.2019 Gebaeudeversicherung S900515810 Heinrichstr. 46 59077 Hamm 0 Westfaelische Provinzial          -257,02
- 02.12.2019 Haus- und Grundbesitzer-Haftpflicht H33245561 59077 Hamm, He Westfaelische Provinzial           -48,41
-                                                                                        Summe umlagefähig -1201,78
+ 06.01.2020 3500523820981 052382098 69-470-1139/0 03550051 V.3.1.2020 Ha ISTA                               -30,37
+ 14.01.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rechnung Fa. Diener  Westfaelische Provinzial           527,10
+ 22.01.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rechnung Fa. Mlynek  Westfaelische Provinzial           453,63
+                                                                                          Summe umlagefähig 950,36
 
-                                                                               Summe 59077Heinrichstraße46 5865,55
-==============================Haferkamp  1 , 59192  Bergkamen ==== 05.01.20 =====================================
+                                                                                  Summe  59192 Haferkamp 1 -115,85
+==============================Haferkamp  3 , 59192  Bergkamen ==== 19.03.20 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
- 01.02.2019 Darl.-Leistung 855276038 F�r 01.01.2019 - 30.01.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.03.2019 Darl.-Leistung 855276038 F�r 01.02.2019 - 28.02.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.04.2019 Darl.-Leistung 855276038 F�r 01.03.2019 - 30.03.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.05.2019 Darl.-Leistung 855276038 F�r 01.04.2019 - 30.04.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.06.2019 Darl.-Leistung 855276038 F�r 01.05.2019 - 30.05.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.07.2019 Darl.-Leistung 855276038 F�r 01.06.2019 - 30.06.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.08.2019 Darl.-Leistung 855276038 F�r 01.07.2019 - 30.07.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.09.2019 Darl.-Leistung 855276038 F�r 01.08.2019 - 30.08.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.10.2019 Darl.-Leistung 855276038 F�r 01.09.2019 - 30.09.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.11.2019 Darl.-Leistung 855276038 F�r 01.10.2019 - 30.10.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.12.2019 Darl.-Leistung 855276038 Für 01.11.2019 - 30.11.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 01.01.2020 Darl.-Leistung 855276038 Für 01.12.2019 - 30.12.2019 Saldo 2 SPARKASSE DORTMUND                -504,00
- 02.01.2019 Sondertilgung DATUM 02.01.2019, 16.24 UHR1.TAN 090818        Strotmann                        -2500,00
- 03.01.2019 Sondertilgung DATUM 03.01.2019, 11.18 UHR1.TAN 017459        Strotmann                        -1306,05
-                                                                                             Summe Kredit -9854,05
+ 01.02.2020 Darl.-Leistung 855276046 Für 01.01.2020 - 30.01.2020 Saldo 2 SPARKASSE DORTMUND                -538,90
+                                                                                              Summe Kredit -538,90
 ------------------------------Miete-------------------------------------------------------------------------------
- 18.02.2019 Betriebskostenerstattung 2018 DATUM 16.02.2019, 12.30 UHR1.T DIENER, DIMITRI U SVETLANA        -185,77
- 02.01.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.02.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.03.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.04.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 02.05.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 03.06.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.07.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.08.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 02.09.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.10.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 01.11.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
- 02.12.2019 Miete                                                        Dimitri und Svetlana Diener        900,00
-                                                                                              Summe Miete 10614,23
-------------------------------nicht umlagefähig-------------------------------------------------------------------
- 11.02.2019 ReNr 20190347, Rolladenreparatur DATUM 09.02.2019, 18.26 UHR DienerD                            -61,88
- 24.04.2019 ReNr 20190379, v. 23.4.19 Gartenzaun DATUM 24.04.2019, 18.25 DienerD                          -1150,00
- 11.12.2019 ReNr 2677 v. 5.12.19 Haferkamp 1, Bergkamen, Absperrventil,  Mlynek, Bad und Heitzung          -253,59
- 11.12.2019 ReNr 2676 v. 5.12.19 Haferkamp 1, Bergkamen, Undichtigkeit b Mlynek, Bad und Heitzung          -973,13
- 19.12.2019 ReNr 2687 v. 16.12.19 Haferkamp 1, Bergkamen, Reparatur Zirk Mlynek, Bad und Heitzung           -47,36
- 19.12.2019 ReNr 2686 v. 16.12.19 Haferkamp 1, Bergkamen, Abbau/Aufbau W Mlynek, Bad und Heitzung          -453,63
- 04.04.2019 SCHECK-NR. 8116355964520                                     SCHECKAUSSTELLER                   875,00
- 07.10.2019 01-0006237660 08000 / 862 DATUM 05.10.2019, 20.52 UHR1.TAN 9 Stadt Bergkamen                    -26,50
- 18.10.2019 X701086103752X, L�schungen Belegungsrecht Haferkamp 1u3 DATU Zentrale Zahlstelle Justiz         -50,00
-                                                                                  Summe nicht umlagefähig -2141,09
+ 23.01.2020 Betriebskostenabrechnung 2019 DATUM 23.01.2020, 11.40 UHR1.T Brzoza                             -56,32
+ 28.01.2020 Betriebskostenabrechnung 2019, Nachberechnung DATUM 28.01.20 Brzoza                            -120,78
+ 30.12.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
+ 28.01.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+                                                                                               Summe Miete 1392,90
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 18.10.2019 RENR 191474 V.15.10.2019 KDNR 22487 Haferkamp 1, Heizungswar BAHNE, HEIZUNG                    -118,41
- 02.12.2019 RENR. 3401/19/392 DATUM 28.11.2019 HAFERKAMP 1 59192 BERGKAM BORN, SCHORNSTEINFEGER             -82,72
- 04.01.2019 350051786824 05178682 69-470-1139/0 03550051 Haferkamp 1, Be ISTA bergkamen                     -30,37
- 05.12.2019 3500434625436 043462543 69-470-1139/0 03550051 V.3.12.2018 H ISTA                               -84,91
- 15.02.2019 01009000295902000 JHV GBA 2019 Entwaess 15.02.19 185,27 Entw Stadt Bergkamen                   -336,38
- 15.05.2019 01009000295902000 JHV GBA 2019 Entwaess 15.05.19 185,27 Entw Stadt Bergkamen                   -336,38
- 15.08.2019 01009000295902000 JHV GBA 2019 Entwaess 15.08.19 185,27 Entw Stadt Bergkamen                   -336,38
- 15.11.2019 01009000295902000 JHV GBA 2019 Entwaess 15.11.19 185,27 Entw Stadt Bergkamen                   -336,38
- 02.12.2019 Gebaeudeversicherung S900456396 Haferkamp 1 59192 Bergkamen  Westfaelische Provinzial          -315,77
- 02.12.2019 Haus- und Grundbesitzer-Haftpflicht H33245645 59192 Bergkame Westfaelische Provinzial           -48,41
- 17.12.2019 SACH VSNR S900456396 SCHADEN 1905001896 Rechnung Fa. Mlynek  Westfaelische Provinzial           979,13
-                                                                                        Summe umlagefähig -1046,98
+ 06.01.2020 3500523820973 052382097 69-470-1138/1 03550051 V.3.1.2020 Ha ISTA                               -30,37
+                                                                                          Summe umlagefähig -30,37
 
-                                                                                    Summe 59192Haferkamp1 -2427,89
-==============================Haferkamp  3 , 59192  Bergkamen ==== 05.01.20 =====================================
-------------------------------Kredit------------------------------------------------------------------------------
- 01.07.2019 per 01.07.19 Antrag 6403372516 Objekt 59192 Bergkamen, Hafer NRW.BANK                          -694,84
- 02.01.2019 Sondertilgung 5%, Haferkamp 3, 1.Tranche DATUM 02.01.2019, 1 Peter Strotmann                  -2500,00
- 03.01.2019 Sondertilgung 5%, Haferkamp 3 DATUM 03.01.2019, 11.21 UHR1.T Peter Strotmann                  -1764,77
- 01.02.2019 Darl.-Leistung 855276046 F�r 01.01.2019 - 30.01.2019 Saldo 3 SPARKASSE DORTMUND                -538,90
- 01.03.2019 Darl.-Leistung 855276046 F�r 01.02.2019 - 28.02.2019 Saldo 3 SPARKASSE DORTMUND                -538,90
- 01.04.2019 Darl.-Leistung 855276046 F�r 01.03.2019 - 30.03.2019 Saldo 3 SPARKASSE DORTMUND                -538,90
- 01.05.2019 Darl.-Leistung 855276046 F�r 01.04.2019 - 30.04.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.06.2019 Darl.-Leistung 855276046 F�r 01.05.2019 - 30.05.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.07.2019 Darl.-Leistung 855276046 F�r 01.06.2019 - 30.06.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.08.2019 Darl.-Leistung 855276046 F�r 01.07.2019 - 30.07.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.09.2019 Darl.-Leistung 855276046 F�r 01.08.2019 - 30.08.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.10.2019 Darl.-Leistung 855276046 F�r 01.09.2019 - 30.09.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.11.2019 Darl.-Leistung 855276046 F�r 01.10.2019 - 30.10.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.12.2019 Darl.-Leistung 855276046 Für 01.11.2019 - 30.11.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
- 01.01.2020 Darl.-Leistung 855276046 Für 01.12.2019 - 30.12.2019 Saldo 2 SPARKASSE DORTMUND                -538,90
-                                                                                            Summe Kredit -11426,41
+                                                                                   Summe  59192 Haferkamp 3 823,63
+==============================Am Westendorp  12 , 59399  Olfen ==== 19.03.20 ====================================
 ------------------------------Miete-------------------------------------------------------------------------------
- 18.02.2019 Betriebskokostenerstattung 2018 DATUM 16.02.2019, 12.24 UHR1 Brzoza                            -218,32
- 28.12.2018 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.01.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.02.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.03.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 29.04.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.05.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.06.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 29.07.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.08.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 30.09.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.10.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
- 28.11.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
-                                                                                               Summe Miete 9141,68
-------------------------------nicht umlagefähig-------------------------------------------------------------------
- 10.04.2019 Globus-2019-03-19, Tiefsp�lWC + Zubeh�r DATUM 10.04.2019, 12 Brzoza                            -208,88
- 07.10.2019 01-0006237661 08000 / 862 DATUM 05.10.2019, 20.50 UHR1.TAN 2 Stadt Bergkamen                    -26,50
-                                                                                   Summe nicht umlagefähig -235,38
+ 02.01.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 02.01.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 03.01.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+                                                                                               Summe Miete 2152,00
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 02.12.2019 RENR. 3402/19/393 DATUM 28.11.2019 HAFERKAMP 3 59192 BERGKAM BORN, SCHORNSTEINFEGER             -44,42
- 04.01.2019 3500517826816 051782681 69-470-1138/1 03550051 Haferkamp 3,  ISTA bergkamen                     -30,37
- 05.12.2019 3500434625428 043462542 69-470-1138/1 03550051 V.3.12.2019 H ISTA                               -84,91
- 15.02.2019 01009000295902000 JHV GBA 2019 Entwaess 15.02.19 185,27 Entw Stadt Bergkamen                   -415,21
- 15.05.2019 01009000295902000 JHV GBA 2019 Entwaess 15.05.19 185,27 Entw Stadt Bergkamen                   -415,21
- 15.08.2019 01009000295902000 JHV GBA 2019 Entwaess 15.08.19 185,27 Entw Stadt Bergkamen                   -415,21
- 15.11.2019 01009000295902000 JHV GBA 2019 Entwaess 15.11.19 185,27 Entw Stadt Bergkamen                   -415,21
- 02.12.2019 Gebaeudeversicherung S900456404 Haferkamp 3 59192 Bergkamen  Westfaelische Provinzial          -315,77
- 02.12.2019 Haus- und Grundbesitzer-Haftpflicht H33245660 59192 Bergkame Westfaelische Provinzial           -48,41
-                                                                                        Summe umlagefähig -2184,72
+ 13.01.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
+ 30.01.2020 VK 21207539 Schlussrechn. v. 08.01.2020                      GELSENWASSER AG                   -401,82
+ 14.01.2020 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE      -65,00
+ 06.01.2020 3500524175976 052417597 76-471-0211/0 03550051 v.3.1.2020 Am ISTA                              -157,18
+ 24.01.2020 B13422443873Vertragskonto 1365004814                         Stadtwerke Luenen GmbH             167,15
+                                                                                         Summe umlagefähig -546,85
 
-                                                                                    Summe 59192Haferkamp3 -4704,83
-==============================Am Westendorp  12 , 59399  Olfen ==== 05.01.20 ====================================
-------------------------------Kredit------------------------------------------------------------------------------
- 01.02.2019 01/19 2076596886 01/19 2073032698 385,4001/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
- 01.03.2019 02/19 2076596886 02/19 2073032698 385,4002/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
- 01.04.2019 03/19 2076596886 03/19 2071008242 194,2303/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
- 02.05.2019 04/19 2076596886 04/19 2073032698 385,4004/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
- 03.06.2019 05/19 2076596886 05/19 2071008242 194,2305/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
- 01.07.2019 06/19 2076596886 06/19 2071008242 194,2306/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
- 01.08.2019 07/19 2076596886 07/19 2073032698 385,4007/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
- 02.09.2019 08/19 2076596886 08/19 2071008242 194,2308/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
- 01.10.2019 09/19 2076596886 09/19 2073032698 385,4009/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
- 04.11.2019 10/19 2076596886 10/19 2071008242 194,2310/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
- 02.12.2019 11/19 2076596886 11/19 2071008242 194,2311/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
- 02.01.2020 12/19 2076596886 12/19 2071008242 194,2312/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
-                                                                                             Summe Kredit -4622,00
+                                                                             Summe  59399 Am Westendorp 12 1605,15
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 19.03.20 =============================
 ------------------------------Miete-------------------------------------------------------------------------------
- 06.11.2019 Miete November                                               CORNELIA ROSENTHAL                 744,00
- 04.12.2019 MieteDezember                                                CORNELIA ROSENTHAL                 744,00
- 02.01.2019 Miete                                                        Helga Prigge                       714,00
- 01.02.2019 Miete                                                        Helga Prigge                       714,00
- 01.03.2019 Miete                                                        Helga Prigge                       714,00
- 13.03.2019                                                              Helga Prigge                       306,19
- 01.04.2019 Miete                                                        Helga Prigge                       714,00
- 02.05.2019 Miete                                                        Helga Prigge                       714,00
- 03.06.2019 Miete                                                        Helga Prigge                       714,00
- 01.07.2019 Miete                                                        Helga Prigge                       714,00
- 01.08.2019 Miete                                                        Helga Prigge                       714,00
- 02.09.2019 Miete                                                        Helga Prigge                       714,00
- 01.10.2019 Miete                                                        Helga Prigge                       714,00
- 01.11.2019 Miete                                                        Helga Prigge                       714,00
- 02.12.2019 Miete                                                        Helga Prigge                       714,00
- 02.01.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 01.02.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 01.03.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 01.04.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 02.05.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 03.06.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 01.07.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 01.08.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 02.09.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 01.10.2019 Miete                                                        Klaus-Dieter Rosenthal             744,00
- 05.03.2019 BETRIEBSKOSTEN 2018                                          LUDWIG, THOMAS                     327,21
- 13.11.2019 Mietkaution Familie Muensterberg                             Nina Muensterberg                 1500,00
- 26.02.2019 R�CKERSTATTUNG HK/NK 2018 DATUM 26.02.2019, 13.49 UHR1.TAN 1 ROSENTHAL                         -475,10
- 03.01.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 04.02.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 04.03.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 02.04.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 03.05.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 04.06.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 02.07.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 02.08.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 03.09.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 02.10.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 04.11.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
- 03.12.2019 MIETE UND NK                                                 Thomas Ludwig                      580,00
-                                                                                              Summe Miete 26114,30
-------------------------------nicht umlagefähig-------------------------------------------------------------------
- 16.01.2019 KDNR.10486,Proj.Nr 4895 Ang.v.3.12.18 Vorschuss,4.Tranche Ne BUDDE, HEIZUNG                   -2500,00
- 11.03.2019 KDNR.10486,RENR.190254 Projekt 4895, V.6.3.19 OLFEN, Neue He BUDDE, HEIZUNG                    -327,93
- 16.01.2019 Rechnung 04/19 V.15.1.2019 eNTSORGUNG Batterietanks 6x1500l, Buest Tankschutz                 -1190,00
- 04.01.2019 RE Nr 4020044693, Netzanschlusskosten Gas + Messeinrichtung, GWN Gelsenwasser                   -50,00
- 18.10.2019 Ihre Kundennr. 12809097 RG 1910429715, 55,92 EUR             Immobilien Scout Gmb               -55,92
- 22.02.2019 RE-201902/6390 Schlie�en alte �leinf�llung, Abmauern altes T Middelmann                        -321,21
-                                                                                  Summe nicht umlagefähig -4445,06
+ 02.01.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 17.12.2019 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.01.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 30.12.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.01.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 03.01.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.01.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+                                                                                               Summe Miete 4818,00
 ------------------------------umlagefähig-------------------------------------------------------------------------
- 11.01.2019 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -89,00
- 08.02.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 12.02.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 14.03.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 14.03.2019 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -89,00
- 11.04.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 20.05.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 20.05.2019 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -89,00
- 12.06.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 15.07.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 15.07.2019 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -89,00
- 14.08.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 11.09.2019 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -89,00
- 11.09.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -70,00
- 02.10.2019 VK 20217523 Sonstige Gutschrift 59399-Am Westendorp 12       GELSENWASSER AG                     13,15
- 17.10.2019 VK 21207539 Rechnung v. 25.09.2019 59399-Am Westendorp 12    GELSENWASSER AG                  -1085,84
- 12.11.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -273,00
- 12.11.2019 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
- 12.12.2019 VK 21207539 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -273,00
- 14.01.2019 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE      -42,00
- 04.01.2019 3500518172192 051817219 76-471-0211/0 03550051 Am Westendorp ISTA DEUTSCHLAND GMBH Essen       -157,18
- 26.02.2019 066374466, v.21.2.2019 76-471-0211/0 03550051 Am Westendorp  ISTA DEUTSCHLAND GMBH Essen        -52,92
- 05.12.2019 3500434731334 043473133, v.3.12.2019 76-471-0211/0 03550051  ISTA DEUTSCHLAND GMBH Essen       -530,32
- 15.10.2019 3509325271785 03550051 11.10.2019 932527178 Am Westendorp 12 ISTA                              -344,27
- 02.12.2019 Wohngebaeude VS 95088031 ZEITRAUM 10.11.2019-10.11.2020      LVM Landw.Versicherungsverein     -785,07
- 01.03.2019 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -365,26
- 15.05.2019 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -353,91
- 15.08.2019 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -353,91
- 15.11.2019 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -353,89
- 01.02.2019 Vertragskonto 1365004814 ,Rechnung                           Stadtwerke Luenen GmbH              -6,58
- 15.02.2019 Vertragskonto 1365004814 ,Abschlag - 02.2019                 Stadtwerke Luenen GmbH             -31,00
- 15.03.2019 Vertragskonto 1365004814 ,Abschlag - 03.2019                 Stadtwerke Luenen GmbH             -31,00
- 16.04.2019 Vertragskonto 1365004814 ,Abschlag - 04.2019                 Stadtwerke Luenen GmbH             -31,00
- 15.05.2019 Vertragskonto 1365004814 ,Abschlag - 05.2019                 Stadtwerke Luenen GmbH             -31,00
- 17.06.2019 Vertragskonto 1365004814 ,Abschlag - 06.2019                 Stadtwerke Luenen GmbH             -31,00
- 15.07.2019 Vertragskonto 1365004814 ,Abschlag - 07.2019                 Stadtwerke Luenen GmbH             -31,00
- 15.08.2019 Vertragskonto 1365004814 ,Abschlag - 08.2019                 Stadtwerke Luenen GmbH             -31,00
- 16.09.2019 Vertragskonto 1365004814 ,Abschlag - 09.2019                 Stadtwerke Luenen GmbH             -31,00
- 15.10.2019 Vertragskonto 1365004814 ,Abschlag - 10.2019                 Stadtwerke Luenen GmbH             -31,00
- 15.11.2019 Vertragskonto 1365004814 ,Abschlag - 11.2019                 Stadtwerke Luenen GmbH             -31,00
- 16.12.2019 Vertragskonto 1365004814 ,Abschlag - 12.2019                 Stadtwerke Luenen GmbH             -31,00
-                                                                                        Summe umlagefähig -6470,00
+ 28.01.2020 327503710592 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -62,96
+ 31.01.2020 Rechnung Januar 2020 KDNR06008098240 VERTR NR6000776327      Unitymedia NRW GmbH                -95,45
+                                                                                         Summe umlagefähig -158,41
 
-                                                                               Summe 59399Am Westendorp12 10577,24
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 05.01.20 =============================
-------------------------------Kredit------------------------------------------------------------------------------
- 01.02.2019 01/19 2076596886 01/19 2073032698 385,4001/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
- 01.03.2019 02/19 2076596886 02/19 2073032698 385,4002/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
- 01.04.2019 03/19 2076596886 03/19 2071008242 194,2303/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
- 02.05.2019 04/19 2076596886 04/19 2073032698 385,4004/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
- 03.06.2019 05/19 2076596886 05/19 2071008242 194,2305/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
- 01.07.2019 06/19 2076596886 06/19 2071008242 194,2306/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
- 01.08.2019 07/19 2076596886 07/19 2073032698 385,4007/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
- 02.09.2019 08/19 2076596886 08/19 2071008242 194,2308/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
- 01.10.2019 09/19 2076596886 09/19 2073032698 385,4009/19 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
- 04.11.2019 10/19 2076596886 10/19 2071008242 194,2310/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
- 02.12.2019 11/19 2076596886 11/19 2071008242 194,2311/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
- 02.01.2020 12/19 2076596886 12/19 2071008242 194,2312/19 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
-                                                                                             Summe Kredit -5108,88
-------------------------------Miete-------------------------------------------------------------------------------
- 02.01.2019 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
- 04.02.2019 MIETE SAARBRUECKERWEG 24                                     Benjamin Maida und Ann-Kathrin     740,00
- 02.01.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 01.02.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 01.03.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 01.04.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 02.05.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 03.06.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 01.07.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 01.08.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 02.09.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 01.10.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 04.11.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 02.12.2019 Miete                                                        Christine Kramer-Kersting          480,00
- 15.07.2019 ERSTATTUNG HK/NK 2019 DATUM 14.07.2019, 11.05 UHR1.TAN 28791 HESSEL, WERNER                    -265,84
- 17.12.2018 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
- 17.01.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
- 18.02.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
- 18.03.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
- 17.04.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
- 17.05.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          850,00
- 17.06.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          950,00
- 17.07.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          950,00
- 19.08.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          950,00
- 17.09.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          950,00
- 17.10.2019 MIETE VO� SAARBR�CKERWEG24                                   Jens Voss                          950,00
- 18.11.2019 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
- 15.07.2019 Erstattung HK/NK 2019 DATUM 14.07.2019, 11.03 UHR1.TAN 82286 Kraemer-Kersting                  -301,13
- 11.02.2019 R�ck�berweisung Miete 02/19 DATUM 09.02.2019, 19.39 UHR1.TAN Maida                             -740,00
- 15.07.2019 Erstattung HK/NK 2019 DATUM 14.07.2019, 11.01 UHR1.TAN 69122 Maida                             -141,11
- 28.12.2018 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 30.01.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 28.02.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 01.04.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 30.04.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 31.05.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 01.07.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 30.07.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 30.08.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 30.09.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 30.10.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 02.12.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
- 15.07.2019 HK/NK ERstattung 2019 DATUM 14.07.2019, 10.59 UHR1.TAN 19581 Mischke                           -311,97
- 04.02.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 04.03.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 02.04.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 03.05.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 04.06.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 02.07.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 02.08.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 03.09.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 02.10.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 04.11.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 03.12.2019 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
- 15.07.2019 Erstattung HK 2019 DATUM 14.07.2019, 10.57 UHR1.TAN 151690   Reitzig                            -27,35
- 15.07.2019 HK/NK Erstattung 2019 DATUM 14.07.2019, 10.55 UHR1.TAN 80496 Voss                                -6,52
- 02.01.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 01.02.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 01.03.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 01.04.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 02.05.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 03.06.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 01.07.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 01.08.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 02.09.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 01.10.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 04.11.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
- 02.12.2019 Miete + Nebenkosten                                          Werner Hessel                      500,00
-                                                                                              Summe Miete 38174,08
-------------------------------nicht umlagefähig-------------------------------------------------------------------
- 01.02.2019 Entgeltabrechnung siehe Anlage                                                                  -30,15
- 28.02.2019 Entgeltabrechnung siehe Anlage Abrechnung 28.02.2019 Informa                                    -28,90
- 30.03.2019 Entgeltabrechnung siehe Anlage Abrechnung 29.03.2019 Informa                                    -22,65
- 30.03.2019 Abrechnung 29.03.2019 siehe Anlage Abrechnung 29.03.2019 Inf                                      0,00
- 01.05.2019 Entgeltabrechnung siehe Anlage Abrechnung 30.04.2019 Informa                                    -24,40
- 01.06.2019 Entgeltabrechnung siehe Anlage Abrechnung 31.05.2019 Informa                                    -24,75
- 29.06.2019 Entgeltabrechnung siehe Anlage Abrechnung 28.06.2019 Informa                                    -21,35
- 01.08.2019 Entgeltabrechnung siehe Anlage Abrechnung 31.07.2019 Informa                                    -26,85
- 01.09.2019 Entgeltabrechnung siehe Anlage Abrechnung 30.08.2019 Informa                                    -21,45
- 01.10.2019 Entgeltabrechnung siehe Anlage Abrechnung 30.09.2019 Informa                                    -21,75
- 01.11.2019 Entgeltabrechnung siehe Anlage Abrechnung 31.10.2019 Informa                                    -27,35
- 30.11.2019 Entgeltabrechnung siehe Anlage Abrechnung 29.11.2019 Informa                                    -22,05
- 28.12.2019 Entgeltabrechnung siehe Anlage Abrechnung 27.12.2019 Informa                                    -25,35
- 13.03.2019 KdNr:11831, ReNr:190091, Saarbr�ckerweg 24, DG Reitzig, Fens Freyth Fenster                    -179,10
- 27.11.2019 KdNr:11831, ReNr:190541, Saarbrückerweg 24, DG Reitzig, Roll Freyth Fenster                    -127,09
- 24.01.2019 RECHNUNG 22655 V.23.1.19 AUFTRAG HW-22773 Saarbr�ckerweg 24, GREBE, ANDREAS, FLIESEN          -1592,09
- 11.03.2019 STROTMANN ./. Vo� AKTZ.2331/19MG59 nt Re.:1900321 V. 6.3.201 HAUS UND GRUND                     -63,07
- 08.02.2019 M-Nr:168240 Strotmann,Peter                                  Haus + Grund - Haus-,Wohn- u.     -116,00
- 27.11.2019 RE1911-06497 KDNR 52 V.15.11.19 SaarbrückerWeg 24, OG li, He PAGA BAUTECHNIK                    -86,75
- 03.12.2019 Re 2019518, Reparatur Abwasserrohr Garage MischkeDATUM 03.12 Rumpel GmbH                       -207,98
- 14.02.2019 ReNr:220766, Durchlauferhitzer, Saarbr�cker Weg 24, DG, Miet Schmitz, Norbert Heizungstechn    -520,89
- 10.09.2019 ReNr:221447, Heizung repariert,Pumpenschacht u Ausgussbecken Schmitz, Norbert Heizungstechn    -480,40
- 30.12.2019 ReNr:221971, Grohe Armatur repariert, Saarbrücker Weg 24, eg Schmitz, Norbert Heizungstechn    -166,84
-                                                                                  Summe nicht umlagefähig -3837,21
-------------------------------umlagefähig-------------------------------------------------------------------------
- 12.07.2019 RE.NR.900292053 v.26.6.2019 Saarbr�cker Weg 24, Heizkostenab BRUNATA WaeRMEMESSER GESELL.      -483,62
- 04.06.2019 LIEGNR 3360369 V RENR 407759147 V.1.6.19 SAARBR�CKERWEG, HOL BRUNATA, HUERTH                    -96,39
- 04.06.2019 LIEGNR 3360369 V RENR 407759149 V.1.6.19 SAARBR�CKERWEG, HOL BRUNATA, HUERTH                    -71,34
- 04.06.2019 LIEGNR 3360369 V RENR 407759148 V.1.6.19 SAARBR�CKERWEG, HOL BRUNATA, HUERTH                   -177,25
- 08.04.2019 VK 232046390485 Saarbruecker Weg 24 Holzwickede ABRECHNUNG 0 E.ON Energie Deutschland           790,90
- 07.01.2019 VK 232046390485 Saarbruecker Weg 24 Holzwickede ABSCHLAG 01  E.ON Energie Deutschland          -245,00
- 07.02.2019 VK 232046390485 Saarbruecker Weg 24 Holzwickede ABSCHLAG 02  E.ON Energie Deutschland          -245,00
- 07.03.2019 VK 232046390485 Saarbruecker Weg 24 Holzwickede ABSCHLAG 03  E.ON Energie Deutschland          -245,00
- 06.08.2019 RE-J-19-02512/02.08.19 SAARBR�CKERWEG 24 59439 HOLZWICKEDE D FLEISCHAUER,SCHORNSTEINFEGE        -54,75
- 04.02.2019 2945 Restford. Wassergeld 223.24/2945, Saarbruecker Weg      Gemeinde Holzwickede               -23,24
- 22.02.2019 63720/70/1, GRUNDBESITZABGABEN 15.02.19, SAARBRUECKER WEG 24 Gemeinde Holzwickede              -827,03
- 01.03.2019 2945 Wasserabschlag 01.03.2197.00/2945, Saarbruecker We      Gemeinde Holzwickede              -197,00
- 15.05.2019 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -827,03
- 04.06.2019 2945 Wasserabschlag 01.06.2197.00/2945, Saarbruecker We      Gemeinde Holzwickede              -197,00
- 15.08.2019 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -827,03
- 02.09.2019 2945 Wasserabschlag 01.09.2197.00/2945, Saarbruecker We      Gemeinde Holzwickede              -197,00
- 15.11.2019 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -827,02
- 02.12.2019 2945 Wasserabschlag 01.12.2197.00/2945, Saarbruecker We      Gemeinde Holzwickede              -197,00
- 02.05.2019 779.339.295-3 ABS. 04/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 03.06.2019 779.339.295-3 ABS. 05/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 01.07.2019 779.339.295-3 ABS. 06/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 01.08.2019 779.339.295-3 ABS. 07/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 02.09.2019 779.339.295-3 ABS. 08/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 01.10.2019 779.339.295-3 ABS. 09/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 01.11.2019 779.339.295-3 ABS. 10/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 02.12.2019 779.339.295-3 ABS. 11/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 03.01.2020 779.339.295-3 ABS. 12/19 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
- 04.09.2019 ReNr:221407, Heizkessel Reinigung und Wartung, Saarbr�cker W Schmitz, Norbert Heizungstechn    -165,17
- 30.12.2019 320008504191 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm Gesellschaft m     -18,00
- 28.01.2019 320008137805 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -36,68
- 28.03.2019 320008197228 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 29.04.2019 322503310703 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 28.05.2019 325003118732 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 28.08.2019 325003184100 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 28.11.2019 320008468417 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 28.02.2019 327503417861 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 28.06.2019 320008268775 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 29.07.2019 327503528707 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 30.09.2019 327503618374 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 28.10.2019 322503468258 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -18,00
- 31.01.2019 Rechnung Januar 2019 KDNR06008098240 VERTR NR6000776327      Unitymedia NRW GmbH                -93,15
- 28.02.2019 Rechnung Februar 2019 KDNR06008098240 VERTR NR6000776327     Unitymedia NRW GmbH                -93,15
- 29.03.2019 Rechnung Maerz 2019 KDNR06008098240 VERTR NR6000776327       Unitymedia NRW GmbH                -93,15
- 30.04.2019 Rechnung April 2019 KDNR06008098240 VERTR NR6000776327       Unitymedia NRW GmbH                -93,15
- 31.05.2019 Rechnung Mai 2019 KDNR06008098240 VERTR NR6000776327         Unitymedia NRW GmbH                -93,15
- 28.06.2019 Rechnung Juni 2019 KDNR06008098240 VERTR NR6000776327        Unitymedia NRW GmbH                -93,15
- 31.07.2019 Rechnung Juli 2019 KDNR06008098240 VERTR NR6000776327        Unitymedia NRW GmbH                -93,15
- 30.08.2019 Rechnung August 2019 KDNR06008098240 VERTR NR6000776327      Unitymedia NRW GmbH                -93,15
- 30.09.2019 Rechnung September 2019 KDNR06008098240 VERTR NR6000776327   Unitymedia NRW GmbH                -93,15
- 31.10.2019 Rechnung Oktober 2019 KDNR06008098240 VERTR NR6000776327     Unitymedia NRW GmbH                -93,15
- 29.11.2019 Rechnung November 2019 KDNR06008098240 VERTR NR6000776327    Unitymedia NRW GmbH                -93,15
- 30.12.2019 Rechnung Dezember 2019 KDNR06008098240 VERTR NR6000776327    Unitymedia NRW GmbH                -93,15
- 01.03.2019 Haus- und Grundbesitzer-Haftpflicht H900710399 Saarbruecker  Westfaelische Provinzial          -113,65
- 01.07.2019 Gebaeudeversicherung S900515819 Saarbruecker Weg 24 59439 Ho Westfaelische Provinzial          -849,25
-                                                                                        Summe umlagefähig -9227,35
-
-                                                                              Summe 59439Saarbrückerweg24 20000,64
-                                                                                               GesamtSumme 3811,30
+                                                                            Summe  59439 Saarbrückerweg 24 4659,59
+                                                                                               GesamtSumme 6373,83
