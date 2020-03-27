@@ -225,7 +225,7 @@
 				<li class="fieldcontain">
 					<span id="dienstleistungsvertraege-label" class="property-label"><g:message code="immobilie.dienstleistungsvertraege.label" default="Dienstleistungsvertraege" /></span>
 					
-						<g:each in="${immobilieInstance.dienstleistungsvertraege}" var="d">
+						<g:each in="${immobilieInstance.aktDienstleistungsvertraege}" var="d">
 						<span class="property-value" aria-labelledby="dienstleistungsvertraege-label"><g:link controller="dienstleistungsvertrag" action="show" id="${d.id}">${d?.dvKurz}</g:link></span>
 						</g:each>
 					

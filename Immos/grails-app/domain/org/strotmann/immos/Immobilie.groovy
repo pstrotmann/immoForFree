@@ -279,6 +279,18 @@ class Immobilie {
 		betrag
 	}
 	
+	List <Dienstleistungsvertrag> getAktDienstleistungsvertraege() {
+		List <Dienstleistungsvertrag> dv = []
+		def Calendar heute = Calendar.getInstance()
+		use (groovy.time.TimeCategory) {
+			heute.setTime(new Date())}
+		this.dienstleistungsvertraege.each {Dienstleistungsvertrag d ->
+			if (d.vertragsende == null || heute.getTime() < d.vertragsende)
+				dv << d
+		}
+		dv
+	}
+	
 	static BigDecimal getAnnuitaetensumme () {
 		def BigDecimal summe = 0
 		getImmobilien().each {Immobilie immo ->
