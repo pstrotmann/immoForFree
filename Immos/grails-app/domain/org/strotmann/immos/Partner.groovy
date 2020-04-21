@@ -49,4 +49,17 @@ class Partner implements Comparable {
 		}
 		bv
 	}
+	
+	List <Partnerrolle> getParoAktive () {
+		List <Partnerrolle> aktive = []
+		partnerrolle.each {Partnerrolle paro ->
+			if (paro.dienstleistungsvertrag) {
+				if (!paro.dienstleistungsvertrag.vertragsende)
+					aktive << paro
+			}
+			else 
+				aktive << paro
+		} 
+		aktive
+	}
 }

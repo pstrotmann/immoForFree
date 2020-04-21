@@ -1,5 +1,5 @@
+<%@ page import="org.strotmann.immos.Person" %>
 <%@ page import="org.strotmann.immos.Organisation" %>
-
 
 
 <div class="fieldcontain ${hasErrors(bean: organisationInstance, field: 'name', 'error')} required">
@@ -15,7 +15,12 @@
 	<span id="partnerrolle-label" class="property-label"><g:message code="organisation.partnerrolle.label" default="Ansprechpartner" /></span>
 					
 	<g:each in="${organisationInstance.getAspaList()}" var="p">
-	<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="person" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+		<g:if test="${p instanceof Person }">
+			<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="person" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+		</g:if>
+		<g:if test="${p instanceof Organisation }">
+			<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="organisation" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+		</g:if>
 	</g:each>
 	</g:if>				
 </div>

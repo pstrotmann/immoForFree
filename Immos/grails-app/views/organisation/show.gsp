@@ -1,4 +1,5 @@
 
+<%@ page import="org.strotmann.immos.Person" %>
 <%@ page import="org.strotmann.immos.Organisation" %>
 <!DOCTYPE html>
 <html>
@@ -54,7 +55,12 @@
 					<span id="partnerrolle-label" class="property-label"><g:message code="organisation.partnerrolle.label" default="Ansprechpartner" /></span>
 					
 						<g:each in="${organisationInstance.getAspaList()}" var="p">
-						<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="person" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+							<g:if test="${p instanceof Person }">
+								<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="person" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+							</g:if>
+							<g:else>
+								<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="organisation" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+							</g:else>
 						</g:each>
 					
 				</li>
@@ -95,8 +101,8 @@
 				<li class="fieldcontain">
 					<span id="partnerrolle-label" class="property-label"><g:message code="organisation.partnerrolle.label" default="Partnerrolle" /></span>
 					
-						<g:each in="${organisationInstance.partnerrolle}" var="p">
-						<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="partnerrolle" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+						<g:each in="${organisationInstance.paroAktive}" var="p">
+							<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="partnerrolle" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
 						</g:each>
 					
 				</li>

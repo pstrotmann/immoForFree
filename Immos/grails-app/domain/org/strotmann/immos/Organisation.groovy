@@ -35,7 +35,7 @@ class Organisation extends Partner {
 		def List paroList = Partnerrolle.findAll("from Partnerrolle as paro where paro.organisation = ${id} and paro.rolle = 'Ansprechpartner'")
 		def pList = []
 		paroList.each {def Partnerrolle paro = it
-			pList << Person.get(paro.partner.id)}
+			pList << Partner.get(paro.partner.id)}
 		return(pList)
 	}
 	
