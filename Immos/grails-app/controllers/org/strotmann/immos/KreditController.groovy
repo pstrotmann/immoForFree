@@ -40,4 +40,20 @@ class KreditController {
         flash.message = message(code: 'default.created.message', args: [message(code: 'kredit.label', default: 'Kredit'), kreditInstance.id])
         redirect(action: "show", id: kreditInstance.id)
     }
+	
+	def krSum() {
+		render sum(0)
+	}
+	
+	def spkSum() {
+		render sum(2)
+	}
+	
+	def wueSum() {
+		render sum(3)
+	}
+	
+	String sum (int i) {
+		Kredit.krediteUndSummen.summen[i].toString().replace('.', ',')
+	}
 }
