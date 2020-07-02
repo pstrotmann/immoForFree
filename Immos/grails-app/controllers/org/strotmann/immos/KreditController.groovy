@@ -41,19 +41,21 @@ class KreditController {
         redirect(action: "show", id: kreditInstance.id)
     }
 	
-	def krSum() {
-		render sum(0)
-	}
+	def krSum() {render sum(0)}
 	
-	def spkSum() {
-		render sum(2)
-	}
+	def spkSum() {render sum(2)}
 	
-	def wueSum() {
-		render sum(3)
-	}
+	def wueSum() {render sum(3)}
+	
+	def spkZins() {render zins("spk")}
+	
+	def wueZins() {render zins("wue")}
 	
 	String sum (int i) {
 		Kredit.krediteUndSummen.summen[i].toString().replace('.', ',')
+	}
+	
+	String zins (String bank) {
+		Kredit.durchschnittProz(bank).toString().replace('.', ',')
 	}
 }
