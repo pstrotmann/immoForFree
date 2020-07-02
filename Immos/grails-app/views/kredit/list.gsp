@@ -86,7 +86,7 @@
 						
 						<td><div align = right>%</div></td>
 						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${Kredit.durchschnittProz("all")}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						
@@ -108,7 +108,7 @@
 						
 						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumProz[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${Kredit.durchschnittProz("wfa")}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						
@@ -130,7 +130,7 @@
 						
 						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumProz[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${Kredit.durchschnittProz("spk")}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						
@@ -151,7 +151,7 @@
 						
 						<td><div align = right><g:formatNumber number="${kreditInstanceList.sumProz[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td></td>
+						<td><div align = right><g:formatNumber number="${Kredit.durchschnittProz("wue")}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td></td>
 						

@@ -105,7 +105,19 @@ class Kredit implements Comparable{
 		krSum
 	}
 	
-
+	static BigDecimal durchschnittProz(String bank) {
+		BigDecimal p = 0
+		Map s = krediteUndSummen
+		if (bank == 'all')
+			p = s.summen[0] > 0 ? ((s.sumZins[0] * 12) / s.summen[0]) * 100 : 0
+		if (bank == 'wfa')
+			p = s.summen[1] > 0 ? ((s.sumZins[1] * 12) / s.summen[1]) * 100 : 0
+		if (bank == 'spk')
+			p = s.summen[2] > 0 ? ((s.sumZins[2] * 12) / s.summen[2]) * 100 : 0
+		if (bank == 'wue')
+			p = s.summen[3] > 0 ? ((s.sumZins[3] * 12) / s.summen[3]) * 100 : 0
+		p	
+	} 
 	
 	Kreditstand getAktKreditstand() {
 		def List <Kreditstand> ksList = Kreditstand.findAll("from Kreditstand as ks where ks.kredit = ${id} and current_date between ks.laufzeitAb and ks.laufzeitBis")
