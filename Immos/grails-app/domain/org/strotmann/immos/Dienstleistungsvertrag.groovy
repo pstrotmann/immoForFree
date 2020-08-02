@@ -63,7 +63,7 @@ class Dienstleistungsvertrag implements Comparable{
 	}
 	
 	static List getDienstleisterList () {
-		Organisation.findAll("from Organisation as o where not o.rechtsform = 'Personengemeinschaft'").sort()
+		Organisation.findAll("from Organisation as o").sort()
 	}
 	
 	String getZahlweiseKlar() {
