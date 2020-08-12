@@ -300,7 +300,7 @@ class Immobilie {
 	}
 	
 	static Map getImmobilienUndSummen() {
-		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0,'sumEinheitswert':0,'sumWohnflaeche':0]
+		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0,'sumEinheitswert':0,'sumWohnflaeche':0,'sumSchenkwert':0]
 		getAktImmos().each {Immobilie immo -> 
 			
 			def iJahresnetto = immo.jahresnettomiete
@@ -309,14 +309,15 @@ class Immobilie {
 			def iRestschuld = immo.restschuld
 			def iEinheitswert = immo.einheitswert
 			def iWohnflaeche = immo.wohnflaeche
-			iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert, iWohnflaeche]
+			def iSchenkwert = iAnschaffung - (15 * iJahresnetto)
+			iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert, iWohnflaeche, iSchenkwert]
 			iSum.sumJahresnetto += iJahresnetto
 			iSum.sumAnnuitaet += iAnnuitaet
 			iSum.sumAnschaffung += iAnschaffung
 			iSum.sumRestschuld += iRestschuld
 			iSum.sumEinheitswert += iEinheitswert
 			iSum.sumWohnflaeche += iWohnflaeche
-			
+			iSum.sumSchenkwert += iSchenkwert			
 		}
 		iSum
 	}
