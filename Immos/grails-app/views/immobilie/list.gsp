@@ -39,8 +39,12 @@
 						
 						<th><div align = right><g:message code="immobilie.schenkwert.label" default="-Niesbrauch" /></div></th>
 						
-						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>
-						
+						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>						
+					</tr>
+					<tr>
+						<th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+						<th><div align = right><g:message code="immobilie.schenkwert.label" default="-Restschuld" /></div></th>
+						<th></th>
 					</tr>
 				</thead>
 				<tbody>

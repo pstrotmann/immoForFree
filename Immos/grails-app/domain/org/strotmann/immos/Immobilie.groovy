@@ -309,7 +309,7 @@ class Immobilie {
 			def iRestschuld = immo.restschuld
 			def iEinheitswert = immo.einheitswert
 			def iWohnflaeche = immo.wohnflaeche
-			def iSchenkwert = iAnschaffung - (10 * iJahresnetto)
+			def iSchenkwert = iAnschaffung - (10 * iJahresnetto) - iRestschuld
 			iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert, iWohnflaeche, iSchenkwert]
 			iSum.sumJahresnetto += iJahresnetto
 			iSum.sumAnnuitaet += iAnnuitaet
