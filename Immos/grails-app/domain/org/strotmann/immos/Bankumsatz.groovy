@@ -61,13 +61,8 @@ class Bankumsatz {
 	}
 	
 	static List getOffeneUmsaetze (int jahr) {
-		List <Bankumsatz> bu = []
-		String s = "from Bankumsatz as b where not exists (from Zahlung as z where z.bankumsatz = b.id) order by trim(leading 2 from substring(b.valutadatum,7,4)),substring(b.valutadatum,4,2), substring(b.valutadatum,1,2)"
-		Bankumsatz.findAll(s).each {
-			if (it.valutadatum.size() == 8 && it.valutadatum.substring(6,8)== jahr.toString().substring(2,4)) 
-				bu << it
-		}
-		bu
+		String s = "from Bankumsatz as b where length(b.valutadatum) = 8 and substring(b.valutadatum,7,2) = ? and not exists (from Zahlung as z where z.bankumsatz = b.id) order by substring(b.valutadatum,4,2), substring(b.valutadatum,1,2)"
+		Bankumsatz.findAll(s, [jahr.toString().substring(2,4)])
 	}
 	
 	static List getZeitraumUms (long maxId) {
