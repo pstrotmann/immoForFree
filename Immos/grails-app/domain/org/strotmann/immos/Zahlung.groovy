@@ -13,9 +13,9 @@ class Zahlung implements Comparable{
 	Dienstleistungsvertrag dienstleistungsvertrag
 	Kredit kredit
 	
-	Bankumsatz bankumsatz
+	Bankumsatz bankumsatz 
 	int buchungsjahr 
-
+	
 	static constraints = {
 		datum(validator: {w, o ->
 			int i = 0
