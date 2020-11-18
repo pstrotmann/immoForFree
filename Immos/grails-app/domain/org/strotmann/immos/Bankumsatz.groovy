@@ -62,17 +62,9 @@ class Bankumsatz {
 	
 	static List getOffeneUmsaetze (int jahr) {
 		
-		List umsOffen = []
+		String s = "from Bankumsatz as b where length(b.valutadatum) = 8 and substring(b.valutadatum,7,2) = ? and id not in (select b.id from Bankumsatz as b, Zahlung as z where b.id = z.bankumsatz))"
 		
-		String s = "from Bankumsatz as b where length(b.valutadatum) = 8 and substring(b.valutadatum,7,2) = ? order by substring(b.valutadatum,4,2), substring(b.valutadatum,1,2)"
-		List umsJahr = Bankumsatz.findAll(s, [jahr.toString().substring(2,4)])
-		
-		umsJahr.each {Bankumsatz b ->
-			List zahlungZuB = Zahlung.findAll("from Zahlung as z where z.bankumsatz = ${b.id}")
-			if (zahlungZuB.empty)
-				umsOffen << b			
-		}
-		
+		List umsOffen = Bankumsatz.findAll(s, [jahr.toString().substring(2,4)])
 		umsOffen
 	}
 	
