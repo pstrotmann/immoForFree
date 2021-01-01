@@ -150,7 +150,12 @@ class Zahlung implements Comparable{
 			cal.setTime(z.datum)
 			String ob1 = ' '+immobilie.hausadresse.postleitzahl+' '+immobilie.hausadresse.strasse+' '+immobilie.hausadresse.hausnummer
 			String ob2BegZpfl = z.bankumsatz.beguenstigterZahlungspflichtiger
-			String ob2 = kategorie+ob2BegZpfl+cal.get(Calendar.YEAR)+StringUtils.leftPad(cal.get(Calendar.MONTH).toString(),2,'0')+StringUtils.leftPad(cal.get(Calendar.DAY_OF_MONTH).toString(),2,'0')
+			String ob2 = null
+			String sortDat = cal.get(Calendar.YEAR)+StringUtils.leftPad(cal.get(Calendar.MONTH).toString(),2,'0')+StringUtils.leftPad(cal.get(Calendar.DAY_OF_MONTH).toString(),2,'0')
+			if (kategorie == 'nicht umlagefähig')
+			 	ob2 = kategorie+sortDat+ob2BegZpfl
+			else
+			 	ob2 = kategorie+ob2BegZpfl+sortDat
 			String ob = ob1 + ob2
 			List zPlus = [ob,z,immobilie,kategorie,ob1]
 			zListPlus << zPlus

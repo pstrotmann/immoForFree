@@ -1,31 +1,269 @@
-==============================Am Gulloh  49 , 44339  Dortmund ==== 19.03.20 =====================================
+==============================Am Gulloh  49 , 44339  Dortmund ==== 01.01.21 =====================================
+------------------------------Miete-------------------------------------------------------------------------------
+ 18.12.2020 Rückzahlung erste Tranche Jaguar                             JULIAN STROTMANN                  7500,00
+ 23.12.2020 Rückzahlung zweite Tranche Jaguar                            JULIAN STROTMANN                  7500,00
+ 12.10.2020 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 10.11.2020 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 10.12.2020 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 17.11.2020 2. Tranche Kurzfristige Überbrückung DATUM 17.11.2020, 16.57 STROTMANN, JULIAN                -7500,00
+ 17.11.2020 Kurzfristige Überbrückung DATUM 17.11.2020, 16.15 UHR1.TAN 4 STROTMANN, JULIAN                -7500,00
+                                                                                               Summe Miete 1350,00
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
- 28.01.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
- 27.01.2020 019/20087108 ReNr 00085818 DATUM 24.01.2019 DATUM 25.01.2020 Crif Buergel                      -119,00
  06.01.2020 VK 602502009DO, AM GULLOH 49, Rechnung 9000872339, Faelligke Dortmunder Netz GmbH                19,85
- 21.01.2020 VK 602502068 , DO, AM GULLOH 49 , Rechnung 9000872340 , Fael Dortmunder Netz GmbH               -13,71
+ 27.01.2020 019/20087108 ReNr 00085818 DATUM 24.01.2019 DATUM 25.01.2020 Crif Buergel                      -119,00
  27.01.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 28.01.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 26.02.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 27.02.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 13.03.2020 Stnr 317/5195/0273 Mandatsreferenz NWA30949262261 Betrag wir STEUERVERWALTUNG NRW             -2704,00
+ 24.03.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 27.03.2020 Stnr 317/5195/3566 Mandatsreferenz NW981890030550 Umsatzsteu STEUERVERWALTUNG NRW              -320,55
+ 30.03.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 01.04.2020 R20.090 Rolladenreparatur Büro Gaby, neuer Motor DATUM 01.04 Ideen Center Dortmund             -423,05
+ 03.04.2020 ReNr 2736 v. 31.3.20 Am Gulloh 49, Duscharmatur Wartung DATU Mlynek, Bad und Heitzung           -74,38
+ 27.04.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 28.04.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 28.04.2020 ReNr 2749 v. 27.4.20 Gulloh 49, Reparatur Duscharmatur DATUM Mlynek, Bad und Heitzung          -127,39
+ 25.05.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 27.05.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 27.05.2020 StNr 317/5195/0273 Einkommenst. 19 151,00 Solid.Zuschl. 19 6 STEUERVERWALTUNG NRW               171,13
+ 16.06.2020 Stnr 317/5195/0273 Einkommensteuer 2.Vj.20 2.363,00 Solid.Zu STEUERVERWALTUNG NRW             -2704,00
+ 24.06.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 25.06.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 16.07.2020 B15185 ./. PARTU,BIRGIT Heinrichstrase 46, Hamm              CRIF BUERGEL DORTMUND GMBH & C      95,60
+ 27.07.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 28.07.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,89
+ 11.08.2020 ReNr 77234, DATUM 10.8.20, Titelüberwachung Karakaya, B17280 Crif Buergel                       -29,00
+ 17.08.2020 B15185 ./. PARTU,BIRGIT Heinrichstrase 46, Hamm              CRIF BUERGEL DORTMUND GMBH & C      95,60
+ 26.08.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 31.08.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,90
+ 15.09.2020 Stnr 317/5195/0273 Einkommensteuer 3.Vj.20 2.363,00 Solid.Zu STEUERVERWALTUNG NRW             -2704,00
+ 17.09.2020 B15185 ./. PARTU,BIRGIT Heinrichstrase 46, Hamm              CRIF BUERGEL DORTMUND GMBH & C      95,60
+ 24.09.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,90
+ 25.09.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 15.10.2020 B15185 ./. PARTU,BIRGIT Heinrichstrase 46, Hamm              CRIF BUERGEL DORTMUND GMBH & C      95,60
+ 23.10.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,90
+ 27.10.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 13.11.2020 ReNr R20.103 v. 10.11.2020, 2 Nachschlüssel Gulloh DATUM 13. Markus Werner Tischlerei          -104,06
+ 19.11.2020 B15185 ./. PARTU,BIRGIT Heinrichstrase 46, Hamm              CRIF BUERGEL DORTMUND GMBH & C      95,60
+ 25.11.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+ 26.11.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,90
+ 15.12.2020 Stnr 317/5195/0273 Einkommensteuer 4.Vj.20 2.363,00 Solid.Zu STEUERVERWALTUNG NRW             -2704,00
+ 16.12.2020 B15185 ./. PARTU,BIRGIT Heinrichstrase 46, Hamm              CRIF BUERGEL DORTMUND GMBH & C      95,60
+ 16.12.2020 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,90
+ 23.12.2020 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30500190993, Dortmunder Netz GmbH               166,00
+                                                                                  Summe nicht umlagefähig -8974,14
+------------------------------umlagefähig-------------------------------------------------------------------------
+ 01.04.2020 Abrechnung 31.03.2020 siehe Anlage Abrechnung 31.03.2020 Inf                                      0,00
+ 01.07.2020 Abrechnung 30.06.2020 siehe Anlage Abrechnung 30.06.2020 Inf                                      0,00
+ 01.10.2020 Abrechnung 30.09.2020 siehe Anlage Abrechnung 30.09.2020 Inf                                      0,00
+ 30.12.2020 Abrechnung 29.12.2020 siehe Anlage Abrechnung 29.12.2020 Inf                                      0,00
+ 30.11.2020 ReNr 2020-0097, v. 27.11.2020 Glasreinigung 24.2.,25.5.,5.8. Crystal Clear                     -760,00
+ 28.02.2020 VK 310461773 , DO, AM GULLOH 49 , Rechnung 4000174842 , Fael Dortmunder Energie- und Wasser     -79,40
+ 02.03.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.03.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.04.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 02.06.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.06.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.07.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 31.08.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.09.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.10.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.11.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 30.12.2020 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46400312 Dortmunder Energie- und Wasser    -185,00
+ 21.01.2020 VK 602502068 , DO, AM GULLOH 49 , Rechnung 9000872340 , Fael Dortmunder Netz GmbH               -13,71
+ 28.02.2020 544/20/632 v.27.2.20 DATUM 28.02.2020, 16.08 UHR1.TAN 291404 Lange Schornsteinfeger             -31,82
+ 25.03.2020 544/20/989 v.24.3.20, Gulloh DATUM 25.03.2020, 16.55 UHR1.TA Lange Schornsteinfeger             -69,60
+ 10.11.2020 544/20/3025 v.24.3.20, Gulloh Kd.Nr. 15-49 DATUM 10.11.2020, Lange Schornsteinfeger             -31,02
+ 01.04.2020 498.089.778-3 ABS. 03/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 04.05.2020 498.089.778-3 ABS. 04/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 01.06.2020 498.089.778-3 ABS. 05/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 01.07.2020 498.089.778-3 ABS. 06/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 03.08.2020 498.089.778-3 ABS. 07/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 01.09.2020 498.089.778-3 ABS. 08/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 01.10.2020 498.089.778-3 ABS. 09/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 02.11.2020 498.089.778-3 ABS. 10/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 01.12.2020 498.089.778-3 ABS. 11/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 05.01.2021 498.089.778-3 ABS. 12/20 Am Gulloh 49, Dortmund              MAINGAU Energie GmbH              -112,00
+ 17.02.2020 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -793,01
+ 15.05.2020 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -793,00
+ 17.08.2020 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -793,00
+ 16.11.2020 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -793,00
+ 27.10.2020 Festnetz Vertragskonto 4768411536 RG 7571062652/16.10.2020   Telekom Deutschland GmbH           -55,75
+ 26.11.2020 Festnetz Vertragskonto 4768411536 RG 7588146313/17.11.2020   Telekom Deutschland GmbH           -46,90
+ 28.12.2020 Festnetz Vertragskonto 4768411536 RG 7605090187/15.12.2020   Telekom Deutschland GmbH           -40,54
+ 25.09.2020 Festnetz Vertragskonto 4768411536 RG 7553843731/16.09.2020   Telekom Deutschland GmbH           -39,68
  08.01.2020 S/836606894258/603406562669 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
-                                                                                   Summe nicht umlagefähig -103,64
+ 04.02.2020 S/836606894258/602306625671 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
+ 04.02.2020 S/836606894258/602306625671 Am Gulloh 49 Gas Abschlag        VATTENFALL EUROPE SALES           -180,00
+ 02.03.2020 S/836606894258/612700483881 Am Gulloh 49 Gas AUSZAHLUNG GUTH VATTENFALL EUROPE SALES            632,65
+ 30.10.2020 VODAFONE NRW GMBH KDNR.1732491031 RGN 00145088792 1 1 02OKTO VODAFONE NRW GMBH                   -9,73
+ 30.11.2020 VODAFONE NRW GMBH KDNR.1732491031 RGN 00147447066 1 1 02NOVE VODAFONE NRW GMBH                   -9,73
+ 30.12.2020 VODAFONE NRW GMBH KDNR.1732491031 RGN 00149828810 1 1 02DEZE VODAFONE NRW GMBH                   -9,73
+ 01.04.2020 Sachversicherung S51216759 01.04.2020                        Westfaelische Provinzial          -144,44
+ 21.04.2020 Gebaeudeversicherung S50760187 Am Gulloh 49 44339 Dortmund 1 Westfaelische Provinzial             5,61
+ 01.07.2020 Hausratversicherung S51490875 Am Gulloh 49 44339 Dortmund 01 Westfaelische Provinzial          -444,31
+ 01.07.2020 Gebaeudeversicherung S50760187 Am Gulloh 49 44339 Dortmund 0 Westfaelische Provinzial         -1494,19
+                                                                                        Summe umlagefähig -9509,30
 
-                                                                                 Summe  44339 Am Gulloh 49 -103,64
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 19.03.20 ========================
+                                                                               Summe  44339 Am Gulloh 49 -17133,44
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 01.01.21 ========================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2020 Darl.-Leistung 795472665 Für 01.01.2020 - 30.01.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
-                                                                                               Summe Kredit -95,57
+ 01.03.2020 Darl.-Leistung 795472665 Für 01.02.2020 - 29.02.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+ 01.04.2020 Darl.-Leistung 795472665 Für 01.03.2020 - 30.03.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+ 01.05.2020 Darl.-Leistung 795472665 Für 01.04.2020 - 30.04.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+ 01.06.2020 Darl.-Leistung 795472665 Für 01.05.2020 - 30.05.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+ 01.07.2020 Darl.-Leistung 795472665 Für 01.06.2020 - 30.06.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+ 01.08.2020 Darl.-Leistung 795472665 Für 01.07.2020 - 30.07.2020 Saldo 2 SPARKASSE DORTMUND                 -95,57
+ 01.09.2020 Rechnung Darl.-Leistung 795472665 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                 -95,57
+ 01.10.2020 Rechnung Darl.-Leistung 795472665 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                -217,90
+ 01.11.2020 Rechnung Darl.-Leistung 795472665 Für 01.10.2020 - 30.10.202 SPARKASSE DORTMUND                -217,90
+ 01.12.2020 Rechnung Darl.-Leistung 795472665 Für 01.11.2020 - 30.11.202 SPARKASSE DORTMUND                -217,90
+ 01.01.2021 Rechnung Darl.-Leistung 795472665 Für 01.12.2020 - 30.12.202 SPARKASSE DORTMUND                -217,90
+ 03.02.2020 01/20 2076596886 01/20 2071008242 194,2301/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+ 02.03.2020 02/20 2076596886 02/20 2073032698 385,4002/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 01.04.2020 03/20 2076596886 03/20 2071008242 194,2303/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+ 04.05.2020 04/20 2076596886 04/20 2073032698 385,4004/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 02.06.2020 05/20 2076596886 05/20 2073032698 385,4005/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 01.07.2020 06/20 2076596886 06/20 2073032698 385,4006/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 03.08.2020 07/20 2076596886 07/20 2071008242 194,2307/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+ 01.09.2020 08/20 2076596886 08/20 2073032698 385,4008/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 01.10.2020 09/20 2076596886 09/20 2073032698 385,4009/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 02.11.2020 10/20 2076596886 10/20 2073032698 385,4010/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -194,00
+ 01.12.2020 11/20 2076596886 11/20 2071008242 194,2311/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+ 04.01.2021 12/20 2071008242 12/20 2076596886 425,7412/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -194,23
+                                                                                             Summe Kredit -3965,31
 ------------------------------Miete-------------------------------------------------------------------------------
+ 21.05.2020 ERSTATTUNG HK,NK 2019 DATUM 21.05.2020, 13.22 UHR1.TAN 17167 AKSAKAL, OEZTEKIN                  -82,58
+ 11.03.2020 Uberwiesen mit Deutsche Bank Mobile                          Ahmet Coruk                        750,00
+ 14.04.2020 Uberwiesen mit Deutsche Bank Mobile                          Ahmet Coruk                        750,00
+ 12.05.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 15.06.2020 Coruk                                                        Ahmet Coruk                        456,39
+ 24.07.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 26.08.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 29.09.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 26.10.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 26.11.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 23.12.2020 Coruk                                                        Ahmet Coruk                        750,00
+ 06.11.2020 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 840422950 Bundesagentur fur Arbeit-Servi     393,54
+ 30.11.2020 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 960414531 Bundesagentur fur Arbeit-Servi     393,54
+ 03.08.2020 Rücküberweisung Miete August/20 DATUM 03.08.2020, 09.16 UHR1 Celik, Mert                       -387,00
+ 21.05.2020 Erstattung HK/NK 2019 DATUM 21.05.2020, 13.10 UHR1.TAN 49891 Celik                              -60,77
+ 02.09.2020 Teilrückzahlung Kaution DATUM 02.09.2020, 12.31 UHR1.TAN 242 Celik                             -370,00
+ 02.10.2020 SOMER                                                        ESIN SUEMER                        787,88
  03.01.2020 MIETE JAN. 2020                                              EUGENIUSZ KRZEMIEN                 463,39
+ 04.02.2020 MIETE FEBRUAR 2020                                           EUGENIUSZ KRZEMIEN                 463,39
+ 03.03.2020 MIETE MAERZ 2020                                             EUGENIUSZ KRZEMIEN                 463,39
+ 01.04.2020 MIETE 04                                                     EUGENIUSZ KRZEMIEN                 463,39
+ 05.05.2020 MIETE MAI 2020,                                              EUGENIUSZ KRZEMIEN                 463,39
+ 03.06.2020 MIETE JUNI 2020                                              EUGENIUSZ KRZEMIEN                 463,39
+ 03.07.2020 MIETE JULI 2020                                              EUGENIUSZ KRZEMIEN                 463,39
+ 04.08.2020 MIETE AUGUST 2020                                            EUGENIUSZ KRZEMIEN                 463,39
+ 01.09.2020 MIETE-SEPTEMBER ERLED.                                       EUGENIUSZ KRZEMIEN                 463,39
+ 01.10.2020 MIETE OKTOMBER 2020                                          EUGENIUSZ KRZEMIEN                 463,39
+ 03.11.2020 MIETE NOVEMBER 2020                                          EUGENIUSZ KRZEMIEN                 463,39
+ 01.12.2020 MIETE DEZEMBER 2020                                          EUGENIUSZ KRZEMIEN                 463,39
+ 21.05.2020 Erstattung HK/NK 2019 DATUM 21.05.2020, 13.20 UHR1.TAN 46547 Goeksu                            -532,31
  17.01.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.02.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.03.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.04.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 18.05.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.06.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.07.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.08.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.09.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 19.10.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.11.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.12.2020 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
  02.01.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 03.02.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.03.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.04.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 04.05.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.06.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.07.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 03.08.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.09.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.10.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.11.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 02.12.2020 MIETE                                                        KUDRET AHMET KUZAY UND CEMILE      508,27
+ 21.05.2020 Erstattung HK/NK 2019 DATUM 21.05.2020, 13.17 UHR1.TAN 05227 Krzemien                           -83,92
+ 21.05.2020 Erstattung HK/NK 2019 DATUM 21.05.2020, 13.03 UHR1.TAN 85873 Kuzay                             -242,89
+ 26.11.2020 Miete November 2020                                          Mehmet Aksakal                     694,52
+ 05.12.2020 Miete Dezember 2020                                          Mehmet Aksakal                     694,52
  02.01.2020 Miete mert celik                                             Mert Celik                         387,00
+ 03.02.2020 Miete mert celik                                             Mert Celik                         387,00
+ 02.03.2020 Miete mert celik                                             Mert Celik                         387,00
+ 01.04.2020 Miete mert celik                                             Mert Celik                         387,00
+ 04.05.2020 Miete mert celik                                             Mert Celik                         387,00
+ 01.06.2020 Miete mert celik                                             Mert Celik                         387,00
+ 01.07.2020 Miete mert celik                                             Mert Celik                         387,00
+ 03.08.2020 Miete mert celik                                             Mert Celik                         387,00
  08.01.2020 Miete lindenhorsterstr 236. Januar 2020 .Aksakal Miete       OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 05.02.2020 Miete lindenhorsterstr 236. Miete Februar 2020 .Aksakal Miet OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 10.03.2020 Miete lindenhorsterstr 236. Maerz 2020.Aksakal Miete         OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 23.04.2020 Miete lindenhorsterstr 236. April .2020 .Aksakal Miete       OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 14.05.2020 Miete lindenhorsterstr 236.Mai 2020Aksakal Miete             OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 04.06.2020 Miete lindenhorsterstr 236. Juni 2020 .Aksakal Miete         OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 08.07.2020 Miete lindenhorsterstr 236.2020.07 .Aksakal Miete            OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 14.08.2020 Miete lindenhorsterstr 236.august 2020 .Aksakal Miete        OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 10.09.2020 Miete lindenhorsterstr 236. September 2020 .Aksakal Miete    OEZTEKIN AKSAKAL UND NURTEN AK     694,52
+ 07.10.2020 Miete lindenhorsterstr 236. Oktober 2020 .Aksakal Miete      OEZTEKIN AKSAKAL UND NURTEN AK     694,52
  02.01.2020 Miete Januar 2020 Lindenhorsterstr.236 Familie Koc           Orhan Koc Reyhan Koc               520,00
+ 04.02.2020 Miete Februar 2020 Lindenhorster.236 44339 Doertmund Familie Orhan Koc Reyhan Koc               520,00
+ 03.03.2020 Miete März2020 Lindenhorsterstr. 236 44339 Do. Familie Koc   Orhan Koc Reyhan Koc               520,00
+ 03.04.2020 miete april 2020 Lindenhorsterstr.236 /44339 Do. Familie Koc Orhan Koc Reyhan Koc               520,00
+ 04.05.2020 Miete Mai 2020 Lindenhorsterstr.236 44339 Do. Familie Koc    Orhan Koc Reyhan Koc               520,00
+ 02.06.2020 Miete juni 2020 Lindenhorsterstr.236 44339 Do. Familie Koc   Orhan Koc Reyhan Koc               520,00
+ 06.07.2020 Miete Juli 2020 Lindenhorsterstr.236 44339 Do. Familie Koc   Orhan Koc Reyhan Koc               520,00
+ 05.08.2020 Miete august 2020 Lindenhorsterstr.236 44339 Do. Familie Koc Orhan Koc Reyhan Koc               520,00
+ 07.09.2020 Miete September 2020 Lindenhorsterstr.236 44339 Do. Familie  Orhan Koc Reyhan Koc               520,00
+ 02.10.2020 Miete Oktober 2020 Lindenhorsterstr.236 44339 Do. Familie Ko Orhan Koc Reyhan Koc               520,00
+ 09.11.2020 Miete Nowember 2020 Lindenhorsterstr.236 44339 Do. Familie K Orhan Koc Reyhan Koc               520,00
+ 02.12.2020 Miete Dezember 2020 Lindenhorsterstr.236 44339 Do. Familie K Orhan Koc Reyhan Koc               520,00
+ 13.07.2020 Erste Abschlag nachzahlung                                   SUNAY SUMER                         40,00
+ 19.08.2020 Erste Abschlag nachzahlung                                   SUNAY SUMER                         40,00
+ 16.09.2020 Abschlag drei                                                SUNAY SUMER                         40,00
+ 21.10.2020 Abschlag vier                                                SUNAY SUMER                         40,00
+ 17.11.2020 Abschlag funf                                                SUNAY SUMER                         40,00
+ 17.12.2020 Abschlag sechs                                               SUNAY SUMER                         40,00
  16.01.2020 MIETE                                                        Sunay Sumer                        720,00
-                                                                                               Summe Miete 3813,18
+ 18.02.2020 MIETE                                                        Sunay Sumer                        720,00
+ 17.03.2020 MIETE                                                        Sunay Sumer                        720,00
+ 16.04.2020 MIETE                                                        Sunay Sumer                        720,00
+ 18.05.2020 MIETE                                                        Sunay Sumer                        720,00
+ 16.06.2020 MIETE                                                        Sunay Sumer                        720,00
+ 16.07.2020 MIETE                                                        Sunay Sumer                        760,00
+ 18.08.2020 MIETE                                                        Sunay Sumer                        760,00
+ 16.09.2020 MIETE                                                        Sunay Sumer                        760,00
+ 16.10.2020 MIETE                                                        Sunay Sumer                        760,00
+ 17.11.2020 MIETE                                                        Sunay Sumer                        760,00
+ 16.12.2020 MIETE                                                        Sunay Sumer                        760,00
+ 21.05.2020 Erstattung KH/NK 2019 + Trocknungsstrom DATUM 21.05.2020, 13 koc                               -640,99
+                                                                                              Summe Miete 51071,05
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
- 20.01.2020 ReNr 2697 v. 16.01.20 Lindenhorster 236, Do, eg re Sümer, Du Mlynek, Bad und Heitzung          -514,68
  09.01.2020 X708624673721X Lö Abt.III NRW.Bank DATUM 09.01.2020, 11.29 U Zentrale Zahlstelle Justiz        -417,50
-                                                                                   Summe nicht umlagefähig -932,18
+ 20.01.2020 ReNr 2697 v. 16.01.20 Lindenhorster 236, Do, eg re Sümer, Du Mlynek, Bad und Heitzung          -514,68
+ 26.02.2020 RE 035-2020, V. 25.2.20 Lindenhorster 236, Instandsetzung Sp HACHENEUER ELEKTROTECHNIK         -543,83
+ 02.03.2020 20-22389 v. 28.2.20 Rohrreinigung Fallrohre Lindenhorst DATU Gehrmann Rohrreinigung            -364,14
+ 09.03.2020 Re Nr 200231 v.6.3.20 Nasser Keller und Schimmelbefall og li Richter GmbH Sachverstaendigen    -174,34
+ 16.04.2020 KdNr:11831, ReNr:200141, Lindenhorster 236, 1.og li, Krzemie Freyth Fenster                     -95,20
+ 23.04.2020 Re.Nr. 20200135, Kd.Nr. 12737 Projekt 20200147, Lichtenhorst Fa. Heinrich Sander Dachdecker  -13577,08
+ 24.04.2020 R20040042,Kellerinnensanierung 2. Tranche DATUM 24.04.2020,  rifutech GmbH                     -865,69
+ 24.04.2020 R20040042,Kellerinnensanierung 1. Tranche, Split wegen Onlin rifutech GmbH                    -2500,00
+ 28.04.2020 ReNr 2748 v. 27.4.20 lindenhorster 236, dg re, Reinigung Rei Mlynek, Bad und Heitzung          -241,81
+ 08.05.2020 KdNr:11831, ReNr:200185, LIndenhorster 236, 1.og li KRZEMIEN Freyth Fenster                    -307,51
+ 09.06.2020 ReNr 2765 v. 6.6.20 Arbeiten 2.u.5.6.20 Lindenhorster 236 DA Mlynek, Bad und Heitzung          -913,80
+ 03.08.2020 KdNr:11831, ReNr:200309, Lindenhorster 236, eg re Sümer, Fen Freyth Fenster                     -92,80
+ 05.08.2020 RE 119-2020, V. 4.8.20 Lindenhorster 236, Instandsetzung Ste HACHENEUER ELEKTROTECHNIK         -347,54
+ 06.08.2020 AEU-INV-DE-2020-221377182 Rauchmelder DATUM 06.08.2020, 18.0 Suemer                             -25,33
+ 03.09.2020 KdNr:11831, ReNr: 200403, v. 2.9.20 Lindenhorster 236, 2.og  Freyth Fenster                     -58,00
+ 02.10.2020 5,00 Bender Grünschnitt, 5,99 Poco Glübirne DATUM 02.10.2020 Suemer                             -10,99
+ 06.10.2020 Renovierung/Sanierung eg re Sümer reNr. 57248, KdNr 15787, P Doebbel                          -2199,72
+ 19.10.2020 LindenhorsterStr 236 OgRe, Türen, RNr 210923 v. 14.10.2020 D Tuerenprofi                      -2300,00
+                                                                                 Summe nicht umlagefähig -25549,96
 ------------------------------umlagefähig-------------------------------------------------------------------------
  20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035930 V.16.1.2020 DATU BRUNATA, HUERTH                    -26,06
  20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035929 V.16.1.2020 DATU BRUNATA, HUERTH                    -13,03
@@ -33,129 +271,761 @@
  20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035927 V.16.1.2020 DATU BRUNATA, HUERTH                   -167,79
  20.01.2020 LIEGNR 5300769 Kd.Nr 3433703 RENR 408035926 V.14.7.2006 DATU BRUNATA, HUERTH                    -46,59
  31.01.2020 LIEGNR 5300769, lindenhorster 236 RENR 002018001 v.30.1.20 D BRUNATA, HUERTH                   -150,24
+ 18.05.2020 LIEGNR 5300769, lindenhorster 236 RENR 750053354 v.11.5.20 D BRUNATA, HUERTH                   -412,69
+ 19.05.2020 LIEGNR 5300769, lindenhorster 236 RENR 900407242 v.15.5.20 D BRUNATA, HUERTH                    -17,85
+ 11.03.2020 VK 304488984DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser      79,32
  30.01.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
  30.01.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
+ 28.02.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -151,00
+ 28.02.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -29,00
+ 25.03.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Rechnung 9000469 Dortmunder Energie- und Wasser      -8,32
+ 30.03.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.03.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.04.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.04.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 02.06.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 02.06.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.06.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.06.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.07.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.07.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 31.08.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 31.08.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.09.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.09.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.10.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.10.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.11.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.11.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
+ 30.12.2020 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -152,00
+ 30.12.2020 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -35,00
  15.01.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
-                                                                                         Summe umlagefähig -811,35
+ 17.02.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 16.03.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 15.04.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 15.05.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 15.06.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 15.07.2020 VERGUETUNG GARTENPFLEGE 85 EURO HAUSMEISTER 40 EURO          KRZEMIEN,EUGENIUSZ                -125,00
+ 04.02.2020 498.089.778-1 ABS. 01/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -279,00
+ 03.03.2020 498.089.778-1 ABS. 02/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -279,00
+ 01.04.2020 498.089.778-1 ABS. 03/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -279,00
+ 04.05.2020 498.089.778-1 ABS. 04/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -279,00
+ 14.05.2020 498.089.778-1 Jahresabrechnung fuer 2020 RNr. LM2020/0013651 MAINGAU Energie GmbH               233,85
+ 01.06.2020 498.089.778-1 ABS. 05/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 01.07.2020 498.089.778-1 ABS. 06/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 03.08.2020 498.089.778-1 ABS. 07/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 01.09.2020 498.089.778-1 ABS. 08/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 01.10.2020 498.089.778-1 ABS. 09/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 02.11.2020 498.089.778-1 ABS. 10/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 01.12.2020 498.089.778-1 ABS. 11/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 05.01.2021 498.089.778-1 ABS. 12/20 Lindenhorster Str. 236, Dortmund    MAINGAU Energie GmbH              -278,00
+ 20.08.2020 ReNr 2799 v. 18.8.20 Lindenhorster 236, Heizungswartung DATU Mlynek, Bad und Heitzung          -342,32
+ 17.02.2020 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1629,49
+ 15.05.2020 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1350,23
+ 21.07.2020 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                    -279,30
+ 17.08.2020 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1629,53
+ 16.11.2020 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1629,53
+ 08.05.2020 Kassenzeichen 077 061 586 D Sonderleerung Lindenhorster 236  Stadtkasse Dortmund               -279,30
+ 17.08.2020 Hausmeister                                                  Suemer                            -150,00
+ 15.09.2020 Hausmeister                                                  Suemer                            -150,00
+ 15.10.2020 Hausmeister                                                  Suemer                            -150,00
+ 16.11.2020 Hausmeister                                                  Suemer                            -150,00
+ 15.12.2020 Hausmeister                                                  Suemer                            -150,00
+ 27.04.2020 Gebaeudeversicherung S900456420 Lindenhorster Str. 236 44339 Westfaelische Provinzial           -83,95
+ 06.11.2020 SACH VSNR S900456420 SCHADEN 2003594349 ZAHLBELEG 0060273560 Westfaelische Provinzial          1078,44
+ 01.12.2020 Haus- und Grundbesitzer-Haftpflicht H902658940 Lindenhorster Westfaelische Provinzial          -162,05
+ 01.12.2020 Gebaeudeversicherung S900456420 Lindenhorster Str. 236 44339 Westfaelische Provinzial         -1603,51
+                                                                                       Summe umlagefähig -15737,81
 
-                                                                    Summe  44339 Lindenhorster Strasse 236 1974,08
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 19.03.20 =====================================
+                                                                    Summe  44339 Lindenhorster Strasse 236 5817,97
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 01.01.21 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
+ 28.07.2020 855391880 Gesendet von Fidor Smart Banking                   FIDOR Peter Strotmann            -1000,00
+ 28.07.2020 855391880 Gesendet von Fidor Smart Banking                   FIDOR Peter Strotmann             -500,00
+ 28.07.2020 855391880 Gesendet von Fidor Smart Banking                   FIDOR Peter Strotmann             -500,00
+ 28.07.2020 855391880 Gesendet von Fidor Smart Banking                   FIDOR Peter Strotmann             -500,00
+ 28.07.2020 855391880 Gesendet von Fidor Smart Banking                   FIDOR Peter Strotmann             -797,37
  01.02.2020 Darl.-Leistung 795472673 Für 01.01.2020 - 30.01.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
  01.02.2020 Darl.-Leistung 855391880 Für 01.01.2020 - 30.01.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
-                                                                                             Summe Kredit -1136,78
+ 01.03.2020 Darl.-Leistung 795472673 Für 01.02.2020 - 29.02.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.03.2020 Darl.-Leistung 855391880 Für 01.02.2020 - 29.02.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
+ 01.04.2020 Darl.-Leistung 855391880 Für 01.03.2020 - 30.03.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
+ 01.04.2020 Darl.-Leistung 795472673 Für 01.03.2020 - 30.03.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.05.2020 Darl.-Leistung 795472673 Für 01.04.2020 - 30.04.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.05.2020 Darl.-Leistung 855391880 Für 01.04.2020 - 30.04.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
+ 01.06.2020 Darl.-Leistung 855391880 Für 01.05.2020 - 30.05.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
+ 01.06.2020 Darl.-Leistung 795472673 Für 01.05.2020 - 30.05.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.07.2020 Darl.-Leistung 795472673 Für 01.06.2020 - 30.06.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.07.2020 Darl.-Leistung 855391880 Für 01.06.2020 - 30.06.2020 Saldo 5 SPARKASSE DORTMUND                -224,78
+ 01.08.2020 Darl.-Leistung 795472673 Für 01.07.2020 - 30.07.2020 Saldo 3 SPARKASSE DORTMUND                -912,00
+ 01.08.2020 Darl.-Leistung 855391880 Für 01.07.2020 - 30.07.2020 Saldo 4 SPARKASSE DORTMUND                -224,78
+ 01.09.2020 Rechnung Darl.-Leistung 855391880 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                -224,78
+ 01.09.2020 Rechnung Darl.-Leistung 795472673 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                -912,00
+ 01.10.2020 Rechnung Darl.-Leistung 855391880 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                -224,78
+ 01.10.2020 Rechnung Darl.-Leistung 795472673 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                -912,00
+ 01.11.2020 Rechnung Darl.-Leistung 855391880 Für 01.10.2020 - 30.10.202 SPARKASSE DORTMUND                -224,78
+ 01.11.2020 Rechnung Darl.-Leistung 795472673 Für 01.10.2020 - 30.10.202 SPARKASSE DORTMUND                -912,00
+ 01.12.2020 Rechnung Darl.-Leistung 855391880 Für 01.11.2020 - 30.11.202 SPARKASSE DORTMUND                -224,78
+ 01.12.2020 Rechnung Darl.-Leistung 795472673 Für 01.11.2020 - 30.11.202 SPARKASSE DORTMUND                -912,00
+ 01.01.2021 Rechnung Darl.-Leistung 855391880 Für 01.12.2020 - 30.12.202 SPARKASSE DORTMUND                -224,78
+ 01.01.2021 Rechnung Darl.-Leistung 795472673 Für 01.12.2020 - 30.12.202 SPARKASSE DORTMUND                -912,00
+                                                                                            Summe Kredit -16938,73
 ------------------------------Miete-------------------------------------------------------------------------------
  13.01.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 14.02.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 15.03.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 19.04.2020 Miete Hanke                                                  CHRISTIANE HANKE                   500,00
+ 30.04.2020 Miete Hanke                                                  CHRISTIANE HANKE                    50,00
+ 18.05.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 18.06.2020 Miete Hanke                                                  CHRISTIANE HANKE                   350,00
+ 15.07.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 13.08.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 17.09.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 15.10.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 16.11.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 15.12.2020 Miete Hanke                                                  CHRISTIANE HANKE                   630,00
+ 28.08.2020 HK NK Mittenachzehlung                                       FRANZ JOSEF BALBIERZ               169,74
  02.01.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 03.02.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 02.03.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.04.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 04.05.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.06.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.07.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 03.08.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               709,00
+ 01.09.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               720,00
+ 01.10.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               720,00
+ 02.11.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               720,00
+ 01.12.2020 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               720,00
+ 14.07.2020 Erstattung HK/NK 2019 DATUM 14.07.2020, 16.41 UHR1.TAN 98567 Grofe                             -156,50
+ 14.07.2020 Erstattung HK/NK 2019 DATUM 14.07.2020, 16.38 UHR1.TAN 41165 Heyer                             -302,22
  02.01.2020 Miete                                                        Renate Grofe                       471,50
+ 03.02.2020 Miete                                                        Renate Grofe                       471,50
+ 02.03.2020 Miete                                                        Renate Grofe                       471,50
+ 01.04.2020 Miete                                                        Renate Grofe                       471,50
+ 04.05.2020 Miete                                                        Renate Grofe                       471,50
+ 02.06.2020 Miete                                                        Renate Grofe                       471,50
+ 01.07.2020 Miete                                                        Renate Grofe                       471,50
+ 03.08.2020 Miete                                                        Renate Grofe                       456,15
+ 01.09.2020 Miete                                                        Renate Grofe                       456,15
+ 01.10.2020 Miete                                                        Renate Grofe                       456,15
+ 02.11.2020 Miete                                                        Renate Grofe                       456,15
+ 01.12.2020 Miete                                                        Renate Grofe                       456,15
  02.01.2020 MIETE                                                        Semra Sezgin                       609,00
+ 03.02.2020 MIETE                                                        Semra Sezgin                       609,00
+ 02.03.2020 MIETE                                                        Semra Sezgin                       609,00
+ 01.04.2020 MIETE                                                        Semra Sezgin                       609,00
+ 04.05.2020 MIETE                                                        Semra Sezgin                       609,00
+ 01.06.2020 MIETE                                                        Semra Sezgin                       609,00
+ 01.07.2020 MIETE                                                        Semra Sezgin                       609,00
+ 03.08.2020 MIETE                                                        Semra Sezgin                       609,00
+ 01.09.2020 MIETE                                                        Semra Sezgin                       609,00
+ 01.10.2020 MIETE                                                        Semra Sezgin                       609,00
+ 02.11.2020 MIETE                                                        Semra Sezgin                       609,00
+ 01.12.2020 MIETE                                                        Semra Sezgin                       609,00
+ 14.07.2020 ERSTATTUNG HK NK 2019 DATUM 14.07.2020, 16.35 UHR1.TAN 34584 Sezgin, SEMRA                      -50,74
  02.01.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 03.02.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 02.03.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.04.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 04.05.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.06.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.07.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 03.08.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.09.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.10.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 02.11.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
+ 01.12.2020 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
  02.01.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
-                                                                                               Summe Miete 3532,50
+ 03.02.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 02.03.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 01.04.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 04.05.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 02.06.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 01.07.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 03.08.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 03.08.2020                                                              Stefanie Schier                    230,01
+ 01.09.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 01.10.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 02.11.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+ 01.12.2020 Miete Lorenzstr.5                                            Stefanie Schier                    510,00
+                                                                                              Summe Miete 41887,54
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  15.01.2020 X701695593766X Lö Abt.III NRW.Bank DATUM 15.01.2020, 10.03 U Zentrale Zahlstelle Justiz        -392,50
-                                                                                   Summe nicht umlagefähig -392,50
+ 09.04.2020 REnR 20200612 v.7.4.20 Lorenzstr.5 Sicherheitsventil erneuer Faulstich                         -109,98
+ 16.04.2020 REnR 20200628 v.14.4.20 Lorenzstr.5 Überprüfung,Fehler nicht Faulstich                         -125,38
+ 05.06.2020 REnR 20200981 v.5.6.20 Lorenzstr.5 neue Heizung DATUM 05.06. Faulstich                        -8777,79
+ 23.06.2020 1599.000/20/01889 Lorenzstr. 5, RE 2020, Überprüfung neue He God, Bjoern                        -73,72
+ 26.10.2020 Lorenzstr. 5, Wespennest DATUM 24.10.2020, 13.18 UHR1.TAN 60 Angelkort Schaedlingsbekaempun    -104,40
+                                                                                  Summe nicht umlagefähig -9583,77
 ------------------------------umlagefähig-------------------------------------------------------------------------
+ 22.04.2020 1599.000/20/01272 Lorenzstr. 5, RE 2020, Kehrarbeiten DATUM  God, Bjoern                        -53,42
  06.01.2020 350053805595 052380859 69-467-1049/9 03550051 v.3.1.2020 Lor ISTA                              -910,66
+ 14.05.2020 3500525654399 052565439 69-467-1049/9 03550051 v.12.5.2020 L ISTA                              -109,78
+ 10.07.2020 ReNr 067045539 69-467-1049/9 03550051 v.7.7.2020 Lorenzstr 5 ISTA                              -202,00
+ 04.12.2020 3500439118555 043911855 69-467-1049/9 03550051 v.7.7.2020 Lo ISTA                              -560,86
  15.01.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 17.02.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 16.03.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.04.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.05.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.06.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.07.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 17.08.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.09.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.10.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 16.11.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
+ 15.12.2020 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                    -98,00
  29.01.2020 8629160810 OB-33448242 EUR 30,52 BEITRAG 0120 - 0120         Knappschaft-Bahn-See               -30,52
+ 26.02.2020 8629204915 OB-33448242 EUR 30,52 BEITRAG 0220 - 0220         Knappschaft-Bahn-See               -30,52
+ 30.03.2020 0106424272 OB-33448242 EUR 30,52 BEITRAG 0320 - 0320         Knappschaft-Bahn-See               -30,52
+ 28.04.2020 9629069523 OB-33448242 EUR 30,52 BEITRAG 0420 - 0420         Knappschaft-Bahn-See               -30,52
+ 27.05.2020 8379983439 OB-33448242 EUR 30,52 BEITRAG 0520 - 0520         Knappschaft-Bahn-See               -30,52
+ 26.06.2020 0853428023 OB-33448242 EUR 30,52 BEITRAG 0620 - 0620         Knappschaft-Bahn-See               -30,52
+ 29.07.2020 5339002365 OB-33448242 EUR 30,52 BEITRAG 0720 - 0720         Knappschaft-Bahn-See               -30,52
+ 27.08.2020 8380178231 OB-33448242 EUR 30,52 BEITRAG 0820 - 0820         Knappschaft-Bahn-See               -30,52
+ 28.09.2020 2131006145 OB-33448242 EUR 30,52 BEITRAG 0920 - 0920         Knappschaft-Bahn-See               -30,52
+ 28.10.2020 8255748483 OB-33448242 EUR 30,81 BEITRAG 1020 - 1020         Knappschaft-Bahn-See               -30,81
+ 26.11.2020 9255919737 OB-33448242 EUR 30,81 BEITRAG 1120 - 1120         Knappschaft-Bahn-See               -30,81
+ 28.12.2020 6172735327 OB-33448242 EUR 30,81 BEITRAG 1220 - 1220         Knappschaft-Bahn-See               -30,81
+ 04.02.2020 779.339.295-2 ABS. 01/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
+ 03.03.2020 779.339.295-2 ABS. 02/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
+ 01.04.2020 779.339.295-2 ABS. 03/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -193,00
+ 17.04.2020 779.339.295-2 Jahresabrechnung fuer 2020 RNr. LM2020/0011365 MAINGAU ENERGIE GMBH               530,23
+ 04.05.2020 779.339.295-2 ABS. 04/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 01.06.2020 779.339.295-2 ABS. 05/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 01.07.2020 779.339.295-2 ABS. 06/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 03.08.2020 779.339.295-2 ABS. 07/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 01.09.2020 779.339.295-2 ABS. 08/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 01.10.2020 779.339.295-2 ABS. 09/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 02.11.2020 779.339.295-2 ABS. 10/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 01.12.2020 779.339.295-2 ABS. 11/20 Lorenzstr. 5, Luenen                MAINGAU ENERGIE GMBH              -168,00
+ 17.02.2020 600122004608 ABFALLBESEITIGUNG 226,57/ GRUNDSTEUER B 318,60/ Stadt Luenen Stadtkasse           -545,17
+ 15.05.2020 600122004608 ABFALLBESEITIGUNG 223,14/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -541,73
+ 17.08.2020 600122004608 ABFALLBESEITIGUNG 223,14/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -541,73
+ 16.11.2020 600122004608 ABFALLBESEITIGUNG 223,16/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -541,75
+ 30.03.2020 ENTWAESSERUNG BESCHEIDNUMMER 12015347 /60913 407,00 12015347 Stadtbetrieb Abwasserbeseitigu    -563,79
+ 30.06.2020 ENTWAESSERUNG BESCHEIDNUMMER 12015347 /60913 407,00          Stadtbetrieb Abwasserbeseitigu    -407,00
+ 30.09.2020 ENTWAESSERUNG BESCHEIDNUMMER 12015347 /60913 407,00          Stadtbetrieb Abwasserbeseitigu    -407,00
+ 30.12.2020 ENTWAeSSERUNG BESCHEIDNUMMER 12015347 /60913 407,00          Stadtbetrieb Abwasserbeseitigu    -407,00
  31.01.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Rechnu Stadtwerke Luenen GmbH            -171,24
+ 17.02.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 16.03.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 15.04.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 15.05.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 15.06.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 15.07.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 17.08.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 15.09.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 15.10.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 16.11.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
+ 16.12.2020 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -121,00
  31.01.2020 Rechnung Januar 2020 KDNR06008091786 VERTR NR6000776051      Unitymedia NRW GmbH              -1300,32
-                                                                                        Summe umlagefähig -2510,74
+ 14.05.2020 Verwendungszweck 20201353655, kdNr 0320039762 DATUM 14.05.20 VBG                                -49,69
+ 15.09.2020 Erstattung September 2020 KDNR06008091786 VERTR NR6000776051 Vodafone NRW GmbH                   16,39
+ 27.04.2020 Gebaeudeversicherung S900456429 Lorenzstr. 5 44536 Luenen 16 Westfaelische Provinzial           -51,84
+ 01.12.2020 Haus- und Grundbesitzer-Haftpflicht H902658941 Lorenzstr 5 4 Westfaelische Provinzial          -140,18
+ 01.12.2020 Gebaeudeversicherung S900456429 Lorenzstr. 5 44536 Luenen 01 Westfaelische Provinzial         -1282,07
+                                                                                       Summe umlagefähig -13037,72
 
-                                                                              Summe  44536 Lorenzstrasse 5 -507,52
-==============================Heinrichstraße  44 , 59077  Hamm ==== 19.03.20 ====================================
+                                                                              Summe  44536 Lorenzstrasse 5 2327,32
+==============================Heinrichstraße  44 , 59077  Hamm ==== 01.01.21 ====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2020 Darl.-Leistung 795472681 Für 01.01.2020 - 30.01.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
  01.02.2020 Darl.-Leistung 855369559 Für 01.01.2020 - 30.01.2020 Saldo 3 SPARKASSE DORTMUND                -250,00
+ 01.03.2020 Darl.-Leistung 855369559 Für 01.02.2020 - 29.02.2020 Saldo 3 SPARKASSE DORTMUND                -250,00
+ 01.03.2020 Darl.-Leistung 795472681 Für 01.02.2020 - 29.02.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.04.2020 Darl.-Leistung 795472681 Für 01.03.2020 - 30.03.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.04.2020 Darl.-Leistung 855369559 Für 01.03.2020 - 30.03.2020 Saldo 3 SPARKASSE DORTMUND                -250,00
+ 01.05.2020 Darl.-Leistung 795472681 Für 01.04.2020 - 30.04.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.05.2020 Darl.-Leistung 855369559 Für 01.04.2020 - 30.04.2020 Saldo 3 SPARKASSE DORTMUND                -250,00
+ 01.06.2020 Darl.-Leistung 795472681 Für 01.05.2020 - 30.05.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.07.2020 Darl.-Leistung 795472681 Für 01.06.2020 - 30.06.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.08.2020 Darl.-Leistung 795472681 Für 01.07.2020 - 30.07.2020 Saldo 1 SPARKASSE DORTMUND                -570,00
+ 01.09.2020 Rechnung Darl.-Leistung 795472681 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                -570,00
+ 01.10.2020 Rechnung Darl.-Leistung 795472681 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                -570,00
+ 01.11.2020 Rechnung Darl.-Leistung 795472681 Für 01.10.2020 - 30.10.202 SPARKASSE DORTMUND                -570,00
+ 01.12.2020 Rechnung Darl.-Leistung 795472681 Für 01.11.2020 - 30.11.202 SPARKASSE DORTMUND                -570,00
+ 01.01.2021 Rechnung Darl.-Leistung 795472681 Für 01.12.2020 - 30.12.202 SPARKASSE DORTMUND                -570,00
  02.01.2020 Sondertilgung DATUM 01.01.2020, 17.20 UHR1.TAN 744104        Strotmann                         -500,00
  02.01.2020 Sondertilgung DATUM 01.01.2020, 17.16 UHR1.TAN 651337        strotmann                        -2500,00
-                                                                                             Summe Kredit -3820,00
+                                                                                            Summe Kredit -10840,00
 ------------------------------Miete-------------------------------------------------------------------------------
+ 02.07.2020 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 08.07.2020 Rücküberweisung Doppelzahlung Miete 07/20 DATUM 08.07.2020,  BOUJAMAA KALLA ODER DRIFA EL G    -730,00
+ 04.08.2020 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 02.09.2020 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 02.10.2020 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 03.11.2020 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 02.12.2020 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
  02.01.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 03.02.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 02.03.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 01.04.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 04.05.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 01.06.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
+ 01.07.2020 El-gourari Drifa u Kalla Boujamaa Heinrich strasse 44 59077  Boujamaa Kalla und Drifa El Go     730,00
  29.01.2020 Betriebskostenabrechnung 2019 DATUM 29.01.2020, 13.39 UHR1.T El-gourari Drifa u Kalla Bouja     -57,07
  30.01.2020 Restkaution nach Abzug BK Abrechnung 2019, Tel. mit Frau Szl Frau Szlefarski                   -134,19
-                                                                                                Summe Miete 538,74
+                                                                                               Summe Miete 8568,74
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 04.02.2020 KuNr 06008446350, ReNr 165414389 Heinrichstr. 44, Heinrichst Unitymedia NRW GmbH               -313,44
+ 19.02.2020 ReNr.203126,14.02.2020,Heinrichstr.44 ,Hamm, Rolladenreparat Dettmann                          -116,27
+ 04.05.2020 ReNr.203345,29.04.2020,Heinrichstr.44 ,Hamm, Neue Rollade DA Dettmann                          -430,33
+                                                                                   Summe nicht umlagefähig -860,04
 ------------------------------umlagefähig-------------------------------------------------------------------------
+ 03.12.2020 RENR 2022139 V.2.12.20 KDNR 22487 Heinrichstr.44, El Gourari BAHNE, HEIZUNG                    -177,25
  06.01.2020 3500523820990 052382099 69-470-1140/3 03550051 v.3.1.2020 He ISTA                               -30,37
-                                                                                          Summe umlagefähig -30,37
+ 04.12.2020 3500439125482 043912548 69-470-1140/3 03550051 v.3.12.2020 H ISTA                               -86,29
+ 17.02.2020 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -132,35
+ 02.03.2020 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                         -16,47
+ 15.05.2020 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -132,35
+ 17.08.2020 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -132,35
+ 16.11.2020 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -132,41
+ 22.04.2020 Haus- und Grundbesitzer-Haftpflicht H902658936 Heinrichstr.  Westfaelische Provinzial             2,70
+ 27.04.2020 Gebaeudeversicherung S900515813 Heinrichstr. 44 59077 Hamm 1 Westfaelische Provinzial            -6,15
+ 01.07.2020 Gebaeudeversicherung S900515813 Heinrichstr. 44 59077 Hamm 0 Westfaelische Provinzial          -286,52
+ 01.12.2020 Haus- und Grundbesitzer-Haftpflicht H902658936 Heinrichstr.  Westfaelische Provinzial           -44,09
+                                                                                        Summe umlagefähig -1173,90
 
-                                                                           Summe  59077 Heinrichstraße 44 -3311,63
-==============================Heinrichstraße  46 , 59077  Hamm ==== 19.03.20 ====================================
+                                                                           Summe  59077 Heinrichstraße 44 -4305,20
+==============================Heinrichstraße  46 , 59077  Hamm ==== 01.01.21 ====================================
 ------------------------------Miete-------------------------------------------------------------------------------
  29.01.2020 Betriebskostenerstattung 2019 DATUM 29.01.2020, 13.35 UHR1.T Aschmoneit-Clemente                -55,82
+ 02.03.2020 Miete 03/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 01.04.2020 Miete 03/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 02.06.2020 Miete 06/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 06.07.2020 Miete 07/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 30.07.2020 Miete 08/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 02.09.2020 Miete 09/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 29.10.2020 Miete 11/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
+ 27.11.2020 Miete 11/20 Heinrichstr.46 59077 Hamm                        SASCHA ROMANO ASCHMONEIT           720,00
  27.12.2019 Miete 01/20 Heinrichstr.46 59077 Hamm                        Sascha Romano Aschmoneit           720,00
  31.01.2020 Miete 02/20 Heinrichstr.46 59077 Hamm                        Sascha Romano Aschmoneit           720,00
-                                                                                               Summe Miete 1384,18
+ 04.05.2020 Miete 05/20 Heinrichstraße 46 59077 Hamm                     Sascha Romano Aschmoneit           720,00
+ 06.10.2020 Miete 10/20 Heinrichstraße 46 59077 Hamm                     Sascha Romano Aschmoneit           720,00
+                                                                                               Summe Miete 8584,18
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 28.04.2020 RENR 2020583 V.27.4.20 KDNR 22487 Heinrichstr.46, Aschmoneit BAHNE, HEIZUNG                    -913,68
+                                                                                   Summe nicht umlagefähig -913,68
 ------------------------------umlagefähig-------------------------------------------------------------------------
  06.01.2020 3500523821007 052382100 69-470-1142/0 03550051 v.3.1.2020 He ISTA                               -34,16
-                                                                                          Summe umlagefähig -34,16
+ 04.12.2020 3500439125499 043912549 69-470-1142/0 03550051 v.3.12.2020 H ISTA                               -93,60
+ 17.02.2020 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -131,77
+ 15.05.2020 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -131,77
+ 17.08.2020 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -131,77
+ 16.11.2020 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -131,81
+ 22.04.2020 Haus- und Grundbesitzer-Haftpflicht H902658937 Heinrichstr 4 Westfaelische Provinzial             2,70
+ 27.04.2020 Gebaeudeversicherung S900515810 Heinrichstr. 46 59077 Hamm 1 Westfaelische Provinzial            -6,07
+ 01.07.2020 Gebaeudeversicherung S900515810 Heinrichstr. 46 59077 Hamm 0 Westfaelische Provinzial          -286,12
+ 01.12.2020 Haus- und Grundbesitzer-Haftpflicht H902658937 Heinrichstr 4 Westfaelische Provinzial           -44,09
+                                                                                         Summe umlagefähig -988,46
 
-                                                                            Summe  59077 Heinrichstraße 46 1350,02
-==============================Haferkamp  1 , 59192  Bergkamen ==== 19.03.20 =====================================
+                                                                            Summe  59077 Heinrichstraße 46 6682,04
+==============================Haferkamp  1 , 59192  Bergkamen ==== 01.01.21 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
+ 22.10.2020 Ablösung                                                     Peter Johannes Strotmann und     -8085,54
  01.02.2020 Darl.-Leistung 855276038 Für 01.01.2020 - 30.01.2020 Saldo 2 SPARKASSE DORTMUND                -504,00
-                                                                                              Summe Kredit -504,00
+ 01.03.2020 Darl.-Leistung 855276038 Für 01.02.2020 - 29.02.2020 Saldo 1 SPARKASSE DORTMUND                -504,00
+ 01.04.2020 Darl.-Leistung 855276038 Für 01.03.2020 - 30.03.2020 Saldo 1 SPARKASSE DORTMUND                -504,00
+ 01.05.2020 Darl.-Leistung 855276038 Für 01.04.2020 - 30.04.2020 Saldo 1 SPARKASSE DORTMUND                -504,00
+ 01.06.2020 Darl.-Leistung 855276038 Für 01.05.2020 - 30.05.2020 Saldo 1 SPARKASSE DORTMUND                -504,00
+ 01.06.2020 Darl.-Leistung 795491015 Für 26.05.2020 - 30.05.2020 Saldo 3 SPARKASSE DORTMUND                  -3,65
+ 01.07.2020 Darl.-Leistung 855276038 Für 01.06.2020 - 30.06.2020 Saldo 1 SPARKASSE DORTMUND                -504,00
+ 01.07.2020 Darl.-Leistung 795491015 Für 01.06.2020 - 30.06.2020 Saldo 3 SPARKASSE DORTMUND                 -27,37
+ 01.08.2020 Darl.-Leistung 795491015 Für 01.07.2020 - 30.07.2020 Saldo 3 SPARKASSE DORTMUND                 -27,37
+ 01.08.2020 Darl.-Leistung 855276038 Für 01.07.2020 - 30.07.2020 Saldo 1 SPARKASSE DORTMUND                -504,00
+ 01.09.2020 Rechnung Darl.-Leistung 795491015 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                 -27,37
+ 01.09.2020 Rechnung Darl.-Leistung 855276038 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                -504,00
+ 01.10.2020 Rechnung Darl.-Leistung 795491015 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                 -27,37
+ 01.10.2020 Rechnung Darl.-Leistung 855276038 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                -504,00
+ 01.11.2020 Rechnung Darl.-Leistung 795491015 Für 01.10.2020 - 30.10.202 SPARKASSE DORTMUND                 -31,67
+ 01.12.2020 Rechnung Darl.-Leistung 795491015 Für 01.11.2020 - 30.11.202 SPARKASSE DORTMUND                -524,18
+ 01.01.2021 Rechnung Darl.-Leistung 795491015 Für 01.12.2020 - 30.12.202 SPARKASSE DORTMUND                -524,18
+ 16.04.2020 Sondertilgung DATUM 16.04.2020, 13.48 UHR1.TAN 414964        Strotmann                        -2200,00
+ 17.04.2020 Sondertilgung DATUM 17.04.2020, 08.35 UHR1.TAN 816749        Strotmann                        -1606,05
+                                                                                            Summe Kredit -17620,75
 ------------------------------Miete-------------------------------------------------------------------------------
  23.01.2020 Betriebskostenerstattung 2019 DATUM 23.01.2020, 11.38 UHR1.T DIENER, DIMITRI U SVETLANA         -38,88
+ 06.04.2020 Garage April 2020                                            DIMITRI DIENER                      40,00
+ 30.08.2020 Mietausgleich                                                DIMITRI DIENER                     250,00
+ 30.08.2020 Restmiete September 2020                                     DIMITRI DIENER                      34,23
  02.01.2020 Miete                                                        Dimitri und Svetlana Diener        900,00
-                                                                                                Summe Miete 861,12
+ 03.02.2020 Miete                                                        Dimitri und Svetlana Diener        900,00
+ 02.03.2020 Miete                                                        Dimitri und Svetlana Diener        900,00
+ 01.04.2020 NK                                                           Dimitri und Svetlana Diener        175,46
+ 30.04.2020 Miete                                                        Dimitri und Svetlana Diener        442,86
+ 04.05.2020 NK                                                           Dimitri und Svetlana Diener        175,46
+ 01.06.2020 NK                                                           Dimitri und Svetlana Diener        175,46
+ 05.06.2020 Miete Juni rest                                              Dimitri und Svetlana Diener         69,21
+ 01.07.2020 Miet + NK                                                    Dimitri und Svetlana Diener        831,55
+ 03.08.2020 Miet + NK                                                    Dimitri und Svetlana Diener        831,55
+ 01.09.2020 Miet + NK                                                    Dimitri und Svetlana Diener        831,55
+ 01.10.2020 Miet + NK                                                    Dimitri und Svetlana Diener        831,55
+ 22.10.2020 Mietnachzahlung                                              Dimitri und Svetlana Diener         68,46
+ 02.11.2020 Miet + NK                                                    Dimitri und Svetlana Diener        831,55
+ 01.12.2020 Miet + NK                                                    Dimitri und Svetlana Diener        831,55
+                                                                                               Summe Miete 9081,56
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  06.01.2020 ReNr 20200538, Fliesen und Verbrauchsmaterial für Küche DATU DienerD                           -650,23
  06.01.2020 ReNr 20200537, Fliesenreparatur, nach Wasserschaden DATUM 06 DienerD                           -527,10
  08.01.2020 X701108663758X Lö Abt.III NRW.Bank DATUM 08.01.2020, 11.26 U Zentrale Zahlstelle Justiz        -246,00
-                                                                                  Summe nicht umlagefähig -1423,33
+ 17.02.2020 ReNr 2702 v. 11.2.20 Haferkamp 1, Bergkamen, KOntrolle Rohrl Mlynek, Bad und Heitzung          -178,50
+ 10.03.2020 ReNr 2722 v. 6.3.20 Haferkamp 1, Bergkamen, Arbeiten am 27.2 Mlynek, Bad und Heitzung         -2204,29
+ 19.03.2020 ReNr 2730 v. 16.3.20 Haferkamp 1, Bergkamen, Waschtischarmat Mlynek, Bad und Heitzung           -95,14
+ 03.04.2020 ReNr 2733 v. 31.3.20 Haferkamp 1, AußenzapfstelleDATUM 03.04 Mlynek, Bad und Heitzung          -428,20
+ 17.04.2020 ReNr 2732, v.31.3.20, Erneuerung Kalt- und WW Leitung, Hafer Mlynek, Bad u. Heizung            -877,98
+ 22.04.2020 ReNr 2742, v.20.4.2020, Wannenarmatur, haferkamp1, Bergkamen Mlynek, Bad u. Heizung            -106,51
+ 27.04.2020 Trocknungsstrom Schadennr: 19-05001896-83-5542SSADATUM 26.04 DienerD                           -531,86
+ 13.05.2020 ReNr. 2601/8182 v. 11.5.2020 Küchenaufbau Haferkamp 1 am 7.5 Schoelei, Holz- u. Innenausbau    -436,48
+ 18.05.2020 ReNr 2741 v. 20.4.20 Haferkamp 1, Druckprüfung KW-Leitung DA Mlynek, Bad und Heitzung          -371,88
+ 27.05.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rg.2601/8182 11.05.2 Westfaelische Provinzial           436,48
+ 23.06.2020 ReNr 2771 v. 17.6.20 Haferkamp 1, SanitärmaterialDATUM 23.06 Mlynek, Bad und Heitzung           -32,96
+ 23.06.2020 ReNr 2770 v. 17.6.20 Haferkamp 1, Umstellung WW-Speicher für Mlynek, Bad und Heitzung          -534,67
+ 25.06.2020 ReNr 20200618, Verfliesung Flur eg DATUM 25.06.2020, 14.41 U DienerD                           -926,86
+ 01.10.2020 STROTMANN ./. Diener 638/20MG59 Zu V. 29.9.2020 DATUM 01.10. HAUS UND GRUND                     -55,68
+                                                                                  Summe nicht umlagefähig -7767,86
 ------------------------------umlagefähig-------------------------------------------------------------------------
+ 03.12.2020 RENR 2022142 V.2.12.20 KDNR 22487 HHaferkamp 1, Diener, Heiz BAHNE, HEIZUNG                    -115,42
  06.01.2020 3500523820981 052382098 69-470-1139/0 03550051 V.3.1.2020 Ha ISTA                               -30,37
+ 04.12.2020 3500439125474 043912547 69-470-1139/0 03550051 V.3.12.2020 H ISTA                               -86,29
+ 17.02.2020 01009000295902000 JHV GBA 2020 Entwaess 15.02.20 203,22 Entw Stadt Bergkamen                   -356,43
+ 15.05.2020 01009000295902000 JHV GBA 2020 Entwaess 15.05.20 203,22 Entw Stadt Bergkamen                   -356,43
+ 17.08.2020 01009000295902000 JHV GBA 2020 Entwaess 15.08.20 203,22 Entw Stadt Bergkamen                   -356,43
+ 16.11.2020 01009000295902000 JHV GBA 2020 Entwaess 15.11.20 203,22 Entw Stadt Bergkamen                   -356,43
  14.01.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rechnung Fa. Diener  Westfaelische Provinzial           527,10
  22.01.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rechnung Fa. Mlynek  Westfaelische Provinzial           453,63
-                                                                                          Summe umlagefähig 950,36
+ 12.03.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rechnung Fa. Mlynek  Westfaelische Provinzial           178,50
+ 17.04.2020 SACH VSNR S900456396 SCHADEN 1905001896 ZAHLBELEG 0010410554 Westfaelische Provinzial          3076,27
+ 22.04.2020 Haus- und Grundbesitzer-Haftpflicht H902658938 Haferkamp 1 5 Westfaelische Provinzial             2,70
+ 23.04.2020 SACH VSNR S900456396 SCHADEN 1905001896 1834 KWh Stromverbau Westfaelische Provinzial           531,86
+ 27.04.2020 Gebaeudeversicherung S900456396 Haferkamp 1 59192 Bergkamen  Westfaelische Provinzial           -14,50
+ 18.05.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rg. Mynek und Mietau Westfaelische Provinzial          1090,65
+ 17.07.2020 SACH VSNR S900456396 SCHADEN 1905001896 Rg. Mlynek           Westfaelische Provinzial           534,67
+ 19.10.2020 SACH VSNR S900456396 SCHADEN 1905001896 Mietminderung Februa Westfaelische Provinzial           684,54
+ 01.12.2020 Haus- und Grundbesitzer-Haftpflicht H902658938 Haferkamp 1 5 Westfaelische Provinzial           -44,09
+ 01.12.2020 Gebaeudeversicherung S900456396 Haferkamp 1 59192 Bergkamen  Westfaelische Provinzial          -339,03
+                                                                                         Summe umlagefähig 5024,50
 
-                                                                                  Summe  59192 Haferkamp 1 -115,85
-==============================Haferkamp  3 , 59192  Bergkamen ==== 19.03.20 =====================================
+                                                                                Summe  59192 Haferkamp 1 -11282,55
+==============================Haferkamp  3 , 59192  Bergkamen ==== 01.01.21 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
+ 16.04.2020 Sondertilgung von Fidor                                      FIDOR Peter Strotmann            -1000,00
+ 16.04.2020 Sondertilgung 5%, Haferkamp 3 DATUM 16.04.2020, 13.50 UHR1.T Peter Strotmann                  -2500,00
  01.02.2020 Darl.-Leistung 855276046 Für 01.01.2020 - 30.01.2020 Saldo 2 SPARKASSE DORTMUND                -538,90
-                                                                                              Summe Kredit -538,90
+ 01.03.2020 Darl.-Leistung 855276046 Für 01.02.2020 - 29.02.2020 Saldo 2 SPARKASSE DORTMUND                -538,90
+ 01.04.2020 Darl.-Leistung 855276046 Für 01.03.2020 - 30.03.2020 Saldo 2 SPARKASSE DORTMUND                -538,90
+ 01.05.2020 Darl.-Leistung 855276046 Für 01.04.2020 - 30.04.2020 Saldo 1 SPARKASSE DORTMUND                -538,90
+ 01.06.2020 Darl.-Leistung 855276046 Für 01.05.2020 - 30.05.2020 Saldo 1 SPARKASSE DORTMUND                -538,90
+ 01.07.2020 Darl.-Leistung 855276046 Für 01.06.2020 - 30.06.2020 Saldo 1 SPARKASSE DORTMUND                -538,90
+ 01.08.2020 Darl.-Leistung 855276046 Für 01.07.2020 - 30.07.2020 Saldo 1 SPARKASSE DORTMUND                -538,90
+ 01.09.2020 Rechnung Darl.-Leistung 855276046 Für 01.08.2020 - 30.08.202 SPARKASSE DORTMUND                -538,90
+ 01.10.2020 Rechnung Darl.-Leistung 855276046 Für 01.09.2020 - 30.09.202 SPARKASSE DORTMUND                -538,90
+ 17.04.2020 Sondertilgung 5% v.ursprünglicher Kreditsumme 2.Tranche DATU Strotmann                         -764,77
+                                                                                             Summe Kredit -9114,87
 ------------------------------Miete-------------------------------------------------------------------------------
  23.01.2020 Betriebskostenabrechnung 2019 DATUM 23.01.2020, 11.40 UHR1.T Brzoza                             -56,32
  28.01.2020 Betriebskostenabrechnung 2019, Nachberechnung DATUM 28.01.20 Brzoza                            -120,78
  30.12.2019 Miete                                                        Miroslaw Wiktor, Sabina Brzoza     780,00
  28.01.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
-                                                                                               Summe Miete 1392,90
+ 28.02.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 30.03.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.04.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.05.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 29.06.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.07.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.08.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.09.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.10.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 30.11.2020 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+                                                                                               Summe Miete 9292,90
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 18.03.2020 RENR 2020411 V.12.3.2020 KDNR 22487 Haferkamp 3, 59192 Bergk BAHNE, HEIZUNG                   -2500,00
+ 19.03.2020 ReNr 2020411, KdNr 22487 v. 12.3.2020 Haferkamp 3, Neue Heiz Bahne Heizung                    -2262,13
+                                                                                  Summe nicht umlagefähig -4762,13
 ------------------------------umlagefähig-------------------------------------------------------------------------
  06.01.2020 3500523820973 052382097 69-470-1138/1 03550051 V.3.1.2020 Ha ISTA                               -30,37
-                                                                                          Summe umlagefähig -30,37
+ 04.12.2020 3500439125466 043912546 69-470-1138/1 03550051 V.3.12.2020 H ISTA                               -86,29
+ 17.02.2020 01009000295902000 JHV GBA 2020 Entwaess 15.02.20 203,22 Entw Stadt Bergkamen                   -394,55
+ 15.05.2020 01009000295902000 JHV GBA 2020 Entwaess 15.05.20 203,22 Entw Stadt Bergkamen                   -394,55
+ 17.08.2020 01009000295902000 JHV GBA 2020 Entwaess 15.08.20 203,22 Entw Stadt Bergkamen                   -394,55
+ 16.11.2020 01009000295902000 JHV GBA 2020 Entwaess 15.11.20 203,22 Entw Stadt Bergkamen                   -394,55
+ 22.04.2020 Haus- und Grundbesitzer-Haftpflicht H902658939 Haferkamp 3 5 Westfaelische Provinzial             2,70
+ 27.04.2020 Gebaeudeversicherung S900456404 Haferkamp 3 59192 Bergkamen  Westfaelische Provinzial           -14,93
+ 01.12.2020 Haus- und Grundbesitzer-Haftpflicht H902658939 Haferkamp 3 5 Westfaelische Provinzial           -44,09
+ 01.12.2020 Gebaeudeversicherung S900456404 Haferkamp 3 59192 Bergkamen  Westfaelische Provinzial          -339,65
+                                                                                        Summe umlagefähig -2090,83
 
-                                                                                   Summe  59192 Haferkamp 3 823,63
-==============================Am Westendorp  12 , 59399  Olfen ==== 19.03.20 ====================================
+                                                                                 Summe  59192 Haferkamp 3 -6674,93
+==============================Am Westendorp  12 , 59399  Olfen ==== 01.01.21 ====================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 03.02.2020 01/20 2076596886 01/20 2071008242 194,2301/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+ 02.03.2020 02/20 2076596886 02/20 2073032698 385,4002/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.04.2020 03/20 2076596886 03/20 2071008242 194,2303/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+ 04.05.2020 04/20 2076596886 04/20 2073032698 385,4004/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 02.06.2020 05/20 2076596886 05/20 2073032698 385,4005/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.07.2020 06/20 2076596886 06/20 2073032698 385,4006/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 03.08.2020 07/20 2076596886 07/20 2071008242 194,2307/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+ 01.09.2020 08/20 2076596886 08/20 2073032698 385,4008/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.10.2020 09/20 2076596886 09/20 2073032698 385,4009/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 02.11.2020 10/20 2076596886 10/20 2073032698 385,4010/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.12.2020 11/20 2076596886 11/20 2071008242 194,2311/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+ 04.01.2021 12/20 2071008242 12/20 2076596886 425,7412/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -385,00
+                                                                                             Summe Kredit -4622,80
 ------------------------------Miete-------------------------------------------------------------------------------
+ 11.03.2020 Miete März                                                   CORNELIA ROSENTHAL                 744,00
+ 12.03.2020 Nachzahlung für 2019                                         Helga Prigge                       250,65
  02.01.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 03.02.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 01.04.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 04.05.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 01.06.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 01.07.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 03.08.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 01.09.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 01.10.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 02.11.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 01.12.2020 Miete                                                        Klaus-Dieter Rosenthal             744,00
+ 18.02.2020 BETRIEBSKOSTEN 2019 THOMAS LUDWIG                            LUDWIG, THOMAS                      68,59
  02.01.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 03.02.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 02.03.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 01.04.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 04.05.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 01.06.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 01.07.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 03.08.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 01.09.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 01.10.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 02.11.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 01.12.2020 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
+ 10.02.2020 HK/NK Erstattung 2019 DATUM 09.02.2020, 10.07 UHR1.TAN 51322 ROSENTHAL, KLAUS                  -225,89
  03.01.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
-                                                                                               Summe Miete 2152,00
+ 04.02.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 03.03.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 02.04.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 05.05.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 03.06.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 02.07.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 04.08.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 02.09.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 02.10.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 03.11.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+ 02.12.2020 MIETE UND NK                                                 Thomas Ludwig                      580,00
+                                                                                              Summe Miete 25367,35
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 07.02.2020 KD NR 30380571 RE 51560690 Türen Olfen Am Westendorp 12 Tran Bauking                           -586,27
+ 07.02.2020 KD NR 30380571 RE 51560690 Türen Olfen Am Westendorp 12 Tran Bauking                          -2000,00
+ 18.05.2020 KD NR 30380571 RE 51644224 Türen Olfen Am Westendorp 12, 1.O Bauking                            -95,11
+ 18.05.2020 KD NR 30380571 RE 51644224 Türen Olfen Am Westendorp 12, 1.O Bauking                          -2500,00
+ 22.06.2020 KDNR 706424 R2023439 V. 17.6.2020 Am Westendorp 12, Rolladen APPEL, FENSTER                    -127,93
+                                                                                  Summe nicht umlagefähig -5309,31
 ------------------------------umlagefähig-------------------------------------------------------------------------
  13.01.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
  30.01.2020 VK 21207539 Schlussrechn. v. 08.01.2020                      GELSENWASSER AG                   -401,82
+ 12.03.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
+ 11.05.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
+ 14.07.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
+ 10.09.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                    -90,00
+ 22.10.2020 VK 20217523 Rechnung v. 30.09.2020 59399-Am Westendorp 12    GELSENWASSER AG                    -81,83
+ 10.11.2020 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -100,00
  14.01.2020 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE      -65,00
  06.01.2020 3500524175976 052417597 76-471-0211/0 03550051 v.3.1.2020 Am ISTA                              -157,18
+ 04.12.2020 3500439248002 04394800 76-471-0211/0 03550051 V.3.12.2020 AM ISTA                              -557,32
+ 01.12.2020 Wohngebaeude VS 95088031 ZEITRAUM 10.11.2020-10.11.2021      LVM Landw.Versicherungsverein     -818,50
+ 04.02.2020 498.089.778-2 ABS. 01/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 03.03.2020 498.089.778-2 ABS. 02/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 01.04.2020 498.089.778-2 ABS. 03/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 04.05.2020 498.089.778-2 ABS. 04/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 01.06.2020 498.089.778-2 ABS. 05/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 01.07.2020 498.089.778-2 ABS. 06/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 03.08.2020 498.089.778-2 ABS. 07/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 01.09.2020 498.089.778-2 ABS. 08/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 01.10.2020 498.089.778-2 ABS. 09/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 02.11.2020 498.089.778-2 ABS. 10/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 01.12.2020 498.089.778-2 ABS. 11/20 Am Westendorp 12, Olfen             MAINGAU ENERGIE GMBH              -185,00
+ 10.03.2020 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -342,31
+ 15.05.2020 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -351,39
+ 17.08.2020 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -351,39
+ 16.11.2020 0204554 Grundsteuern und Abgaben Am Westendorp 0012          Stadt Olfen                       -351,37
+ 17.02.2020 Vertragskonto 1365004814 ,Abschlag - 02.2020                 Stadtwerke Luenen GmbH             -16,00
+ 16.03.2020 Vertragskonto 1365004814 ,Abschlag - 03.2020                 Stadtwerke Luenen GmbH             -16,00
+ 15.04.2020 Vertragskonto 1365004814 ,Abschlag - 04.2020                 Stadtwerke Luenen GmbH             -16,00
+ 15.05.2020 Vertragskonto 1365004814 ,Abschlag - 05.2020                 Stadtwerke Luenen GmbH             -16,00
+ 15.06.2020 Vertragskonto 1365004814 ,Abschlag - 06.2020                 Stadtwerke Luenen GmbH             -16,00
+ 15.07.2020 Vertragskonto 1365004814 ,Abschlag - 07.2020                 Stadtwerke Luenen GmbH             -16,00
+ 17.08.2020 Vertragskonto 1365004814 ,Abschlag - 08.2020                 Stadtwerke Luenen GmbH             -16,00
+ 15.09.2020 Vertragskonto 1365004814 ,Abschlag - 09.2020                 Stadtwerke Luenen GmbH             -16,00
+ 15.10.2020 Vertragskonto 1365004814 ,Abschlag - 10.2020                 Stadtwerke Luenen GmbH             -16,00
+ 16.11.2020 Vertragskonto 1365004814 ,Abschlag - 11.2020                 Stadtwerke Luenen GmbH             -16,00
+ 16.12.2020 Vertragskonto 1365004814 ,Abschlag - 12.2020                 Stadtwerke Luenen GmbH             -16,00
  24.01.2020 B13422443873Vertragskonto 1365004814                         Stadtwerke Luenen GmbH             167,15
-                                                                                         Summe umlagefähig -546,85
+ 04.02.2020 3500667667274 066766727 76-471-0211/003550051 G. u. P. Strot ista Deutschland GmbH              -65,93
+                                                                                        Summe umlagefähig -6137,89
 
-                                                                             Summe  59399 Am Westendorp 12 1605,15
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 19.03.20 =============================
+                                                                             Summe  59399 Am Westendorp 12 9297,35
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 01.01.21 =============================
+------------------------------Kredit------------------------------------------------------------------------------
+ 03.02.2020 01/20 2076596886 01/20 2071008242 194,2301/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+ 02.03.2020 02/20 2076596886 02/20 2073032698 385,4002/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 01.04.2020 03/20 2076596886 03/20 2071008242 194,2303/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+ 04.05.2020 04/20 2076596886 04/20 2073032698 385,4004/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 02.06.2020 05/20 2076596886 05/20 2073032698 385,4005/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 01.07.2020 06/20 2076596886 06/20 2073032698 385,4006/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 03.08.2020 07/20 2076596886 07/20 2071008242 194,2307/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+ 01.09.2020 08/20 2076596886 08/20 2073032698 385,4008/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 01.10.2020 09/20 2076596886 09/20 2073032698 385,4009/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 02.11.2020 10/20 2076596886 10/20 2073032698 385,4010/20 2071008242 194 WUESTENROT BAUSPARKASSE AG        -425,74
+ 01.12.2020 11/20 2076596886 11/20 2071008242 194,2311/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+ 04.01.2021 12/20 2071008242 12/20 2076596886 425,7412/20 2073032698 385 WUESTENROT BAUSPARKASSE AG        -425,74
+                                                                                             Summe Kredit -5108,88
 ------------------------------Miete-------------------------------------------------------------------------------
  02.01.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 03.02.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 02.03.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 01.04.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 04.05.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 02.06.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 01.07.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 03.08.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 01.09.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 01.10.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 02.11.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 01.12.2020 Miete                                                        Christine Kramer-Kersting          480,00
+ 25.06.2020 HK/NK Erstattung 06/2019-05/2020 DATUM 25.06.2020, 15.31 UHR HESSEL, WERNER                    -226,52
  17.12.2019 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
  17.01.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.02.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.03.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.04.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 18.05.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.06.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.07.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.08.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.09.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 19.10.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 17.11.2020 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
+ 25.06.2020 HK/NK Erstattung 06/2019-05/2020 DATUM 25.06.2020, 15.12 UHR Kraemer-Kersting                  -309,74
+ 25.06.2020 Erstattung NK 01/2019 DATUM 25.06.2020, 15.36 UHR1.TAN 27465 Maida                              -16,15
  30.12.2019 Miete + Nebenkosten                                          Manfred Mischke                    539,00
  30.01.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 02.03.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.03.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.04.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 02.06.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.06.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.07.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 31.08.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.09.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.10.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 30.11.2020 Miete + Nebenkosten                                          Manfred Mischke                    539,00
+ 25.06.2020 HK/NK ERstattung 06/2019-05/2020 DATUM 25.06.2020, 15.04 UHR Mischke                           -348,71
  03.01.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 04.02.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 03.03.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.04.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 05.05.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.06.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.07.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 04.08.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.09.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.10.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 03.11.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 02.12.2020 Miete, Reitzig, Philipp                                      Philipp Reitzig                    860,00
+ 25.06.2020 HK/NK Erstattung 06/2019-05/2020 DATUM 25.06.2020, 15.19 UHR Reitzig                            -51,65
+ 25.06.2020 HK/NK Erstattung 06/2019-05/2020 DATUM 25.06.2020, 15.16 UHR Voss                              -387,02
  02.01.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
-                                                                                               Summe Miete 4818,00
+ 03.02.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 02.03.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 01.04.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 04.05.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 02.06.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 01.07.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 03.08.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 01.09.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 01.10.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 02.11.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+ 01.12.2020 Miete + Nebenkosten                                          Werner Hessel                      500,00
+                                                                                              Summe Miete 38608,21
+------------------------------nicht umlagefähig-------------------------------------------------------------------
+ 01.02.2020 Entgeltabrechnung siehe Anlage Abrechnung 31.01.2020 Informa                                    -33,45
+ 13.02.2020 M-Nr:168240 Strotmann,Peter                                  Haus + Grund - Haus-,Wohn- u.     -116,00
+ 29.02.2020 Entgeltabrechnung siehe Anlage Abrechnung 28.02.2020 Informa                                    -22,95
+ 19.03.2020 ReNr 2729 v. 14.3.20 Saarbrückerweg 24, Holzwickede, egRe Re Mlynek, Bad und Heitzung          -380,56
+ 01.04.2020 Entgeltabrechnung siehe Anlage Abrechnung 31.03.2020 Informa                                    -25,05
+ 28.04.2020 ReNr 2747 v. 27.4.20 Saarbrückerweg 24, dg re, Reinigung Küc Mlynek, Bad und Heitzung          -172,55
+ 01.05.2020 Entgeltabrechnung siehe Anlage Abrechnung 30.04.2020 Informa                                    -31,00
+ 30.05.2020 Entgeltabrechnung siehe Anlage Abrechnung 29.05.2020 Informa                                    -25,95
+ 01.07.2020 Entgeltabrechnung siehe Anlage Abrechnung 30.06.2020 Informa                                    -25,65
+ 31.07.2020 ReNr 2792 v. 30.7.20, Rohrreinigung Saarbrückerweg 24, eg li Mlynek, Bad und Heitzung          -145,00
+ 01.08.2020 Entgeltabrechnung siehe Anlage Abrechnung 31.07.2020 Informa                                    -23,55
+ 01.09.2020 Entgeltabrechnung siehe Anlage Abrechnung 31.08.2020 Informa                                    -24,75
+ 01.10.2020 Entgeltabrechnung siehe Anlage Abrechnung 30.09.2020 Informa                                    -21,15
+ 20.10.2020 ReNr:222942, Durchlauferhitzer neu, Saarbrücker Weg 24, dg r Schmitz, Norbert Heizungstechn    -519,80
+ 20.10.2020 ReNr 200982 v. 18.10.2020, Saarbrückerweg 24, eg re Voß Roll Wuennemann                        -164,48
+ 01.11.2020 Entgeltabrechnung siehe Anlage Abrechnung 30.10.2020 Informa                                    -23,50
+ 02.11.2020 Zaun zwischen Voß/Mischke Material 273,97 gem. Belegen Globu Voss                              -400,00
+ 01.12.2020 Entgeltabrechnung siehe Anlage Abrechnung 30.11.2020 Informa                                    -23,85
+ 03.12.2020 RE 20RE0966768 V.12.11.20 EUR 29,95 ./. SK 0,00              BUHL-DATA-SERVICE GMBH             -29,95
+ 30.12.2020 Entgeltabrechnung siehe Anlage Abrechnung 29.12.2020 Informa                                    -22,65
+                                                                                  Summe nicht umlagefähig -2231,84
 ------------------------------umlagefähig-------------------------------------------------------------------------
+ 04.06.2020 LIEGNR 3360369 V RENR 408144393 V.2.6.20 SAARBRÜCKERWEG, HOL BRUNATA, HUERTH                    -71,34
+ 04.06.2020 LIEGNR 3360369 V RENR 408144392 V.2.6.20 SAARBRÜCKERWEG, HOL BRUNATA, HUERTH                   -177,25
+ 04.06.2020 LIEGNR 3360369 V RENR 408144391 V.2.6.20 SAARBRÜCKERWEG, HOL BRUNATA, HUERTH                    -96,39
+ 25.06.2020 3360369, ReNr 900423375 v. 24.6.2020 DATUM 25.06.2020, 14.46 BRUNATA, HUERTH                   -449,88
+ 20.08.2020 RE-J-20-02560/17.08.20 SAARBRÜCKERWEG 24 59439 HOLZWICKEDE D FLEISCHAUER,SCHORNSTEINFEGE        -64,30
+ 20.08.2020 RE-J-20-02559/17.08.20 SAARBRÜCKERWEG 24 59439 HOLZWICKEDE D FLEISCHAUER,SCHORNSTEINFEGE        -60,83
+ 03.02.2020 2945 Restford. Wassergeld 251.29/2945, Saarbruecker Weg      Gemeinde Holzwickede               -51,29
+ 17.02.2020 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -858,07
+ 03.03.2020 2945 Wasserabschlag 01.03.2210.00/2945, Saarbruecker We      Gemeinde Holzwickede              -210,00
+ 15.05.2020 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -858,07
+ 02.06.2020 2945 Wasserabschlag 01.06.2210.00/2945, Saarbruecker We      Gemeinde Holzwickede              -210,00
+ 17.08.2020 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -858,07
+ 01.09.2020 2945 Wasserabschlag 01.09.2210.00/2945, Saarbruecker We      Gemeinde Holzwickede              -210,00
+ 16.11.2020 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede              -858,03
+ 01.12.2020 2945 Wasserabschlag 01.12.2210.00/2945, Saarbruecker We      Gemeinde Holzwickede              -210,00
+ 04.02.2020 779.339.295-3 ABS. 01/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
+ 03.03.2020 779.339.295-3 ABS. 02/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
+ 01.04.2020 779.339.295-3 ABS. 03/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -200,00
+ 17.04.2020 779.339.295-3 Jahresabrechnung fuer 2020 RNr. LM2020/0011365 MAINGAU ENERGIE GMBH               691,21
+ 04.05.2020 779.339.295-3 ABS. 04/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 01.06.2020 779.339.295-3 ABS. 05/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 01.07.2020 779.339.295-3 ABS. 06/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 03.08.2020 779.339.295-3 ABS. 07/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 01.09.2020 779.339.295-3 ABS. 08/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 01.10.2020 779.339.295-3 ABS. 09/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 02.11.2020 779.339.295-3 ABS. 10/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 01.12.2020 779.339.295-3 ABS. 11/20 Saarbruecker Weg 24, Holzwickede    MAINGAU ENERGIE GMBH              -158,00
+ 19.10.2020 ReNr:222919, Heizungswartung, Saarbrücker Weg 24 DATUM 17.10 Schmitz, Norbert Heizungstechn    -177,48
+ 28.02.2020 322503549413 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 30.03.2020 325003438844 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.04.2020 327503820454 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.05.2020 325003532155 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 29.06.2020 322503651883 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.07.2020 322503664696 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.08.2020 320008696881 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.09.2020 327503965888 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.10.2020 322503745556 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 30.11.2020 320008781229 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
  28.01.2020 327503710592 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -62,96
+ 28.12.2020 325003733254 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -20,00
+ 28.02.2020 Rechnung Februar 2020 KDNR06008098240 VERTR NR6000776327     UNITYMEDIA IST NUN VODAFONE        -95,45
+ 31.03.2020 Rechnung Maerz 2020 KDNR06008098240 VERTR NR6000776327       UNITYMEDIA IST NUN VODAFONE        -95,45
+ 30.04.2020 Rechnung April 2020 KDNR06008098240 VERTR NR6000776327       UNITYMEDIA IST NUN VODAFONE        -95,45
+ 29.05.2020 Rechnung Mai 2020 KDNR06008098240 VERTR NR6000776327         UNITYMEDIA IST NUN VODAFONE        -95,45
+ 30.06.2020 Rechnung Juni 2020 KDNR06008098240 VERTR NR6000776327        UNITYMEDIA IST NUN VODAFONE        -95,45
  31.01.2020 Rechnung Januar 2020 KDNR06008098240 VERTR NR6000776327      Unitymedia NRW GmbH                -95,45
-                                                                                         Summe umlagefähig -158,41
+ 31.07.2020 Rechnung Juli 2020 KDNR06008098240 VERTR NR6000776327        Vodafone NRW GmbH                  -93,05
+ 31.08.2020 Rechnung August 2020 KDNR06008098240 VERTR NR6000776327      Vodafone NRW GmbH                  -93,05
+ 30.09.2020 Rechnung September 2020 KDNR06008098240 VERTR NR6000776327   Vodafone NRW GmbH                  -93,05
+ 30.10.2020 Rechnung Oktober 2020 KDNR06008098240 VERTR NR6000776327     Vodafone NRW GmbH                  -93,05
+ 30.11.2020 Rechnung November 2020 KDNR06008098240 VERTR NR6000776327    Vodafone NRW GmbH                  -93,05
+ 30.12.2020 Rechnung Dezember 2020 KDNR06008098240 VERTR NR6000776327    Vodafone NRW GmbH                  -93,05
+ 02.03.2020 Haus- und Grundbesitzer-Haftpflicht H900710399 Saarbruecker  Westfaelische Provinzial          -113,65
+ 27.04.2020 Gebaeudeversicherung S900515819 Saarbruecker Weg 24 59439 Ho Westfaelische Provinzial           -14,14
+ 01.07.2020 Gebaeudeversicherung S900515819 Saarbruecker Weg 24 59439 Ho Westfaelische Provinzial          -917,18
+                                                                                        Summe umlagefähig -9052,72
 
-                                                                            Summe  59439 Saarbrückerweg 24 4659,59
-                                                                                               GesamtSumme 6373,83
+                                                                           Summe  59439 Saarbrückerweg 24 22214,77
+                                                                                               GesamtSumme 6943,33
