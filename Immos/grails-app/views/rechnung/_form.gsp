@@ -11,7 +11,7 @@
 		<g:select id="partner" name="partner.id" from="${flash.partner}" optionKey="id" required="" value="${rechnungInstance?.rechnungssteller?.id}" class="many-to-one"/>
 	</g:if>
 	<g:if test="${rechnungInstance?.rechnungssteller}">
-		<g:select id="partner" name="partner.id" from="${org.strotmann.immos.Rechnung.getRechnungsstellerList()}" optionKey="id" required="" value="${rechnungInstance?.rechnungssteller?.partner?.id}" class="many-to-one"/>
+		<g:select id="partner" name="partner.id" from="${org.strotmann.immos.Rechnung.rechnungsstellerList}" optionKey="id" required="" value="${rechnungInstance?.rechnungssteller?.partner?.id}" class="many-to-one"/>
 		<%--		<g:fieldValue bean="${rechnungInstance?.rechnungssteller?.partner}" field="name" />--%>
 	</g:if>
 	<g:if test="${!flash.partner && !rechnungInstance?.rechnungssteller}">

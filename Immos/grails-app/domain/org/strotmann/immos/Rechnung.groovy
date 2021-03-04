@@ -118,6 +118,6 @@ class Rechnung implements Comparable{
 	}
 	
 	static List getRechnungsstellerList () {
-		Organisation.findAll("from Organisation as o where o.rechtsform = null or not o.rechtsform = 'Personengemeinschaft' order by o.name")
+		Organisation.findAll("from Organisation as o order by o.name")
 	}
 }
