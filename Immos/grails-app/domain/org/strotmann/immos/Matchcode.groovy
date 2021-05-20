@@ -96,7 +96,7 @@ class Matchcode {
 			Matchcode mc = new Matchcode()
 			mc.id = item.id
 			mc.partnerart = 'o'
-			mc.name = item.name+' '+item.nameZusatz	
+			mc.name = item.name+' '+(item.nameZusatz?:'')
 			mc.vorname = item.rechtsform
 			mc.strasse = item.hausadresse.strasse+" "+item.hausadresse.hausnummer
 			mc.postleitzahl = item.hausadresse.postleitzahl
