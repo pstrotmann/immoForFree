@@ -50,6 +50,14 @@
 	<g:select name="rechtsform" from="${organisationInstance.constraints.rechtsform.inList}" value="${organisationInstance?.rechtsform}" valueMessagePrefix="organisation.rechtsform" noSelection="['': '']"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: organisationInstance, field: 'steuernummer', 'error')} ">
+	<label for="steuernummer">
+		<g:message code="organisation.steuernummer.label" default="Steuernummer" />
+		
+	</label>
+	<g:textField name="steuernummer" maxlength="50" pattern="${organisationInstance.constraints.steuernummer.matches}" value="${organisationInstance?.steuernummer}"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: organisationInstance, field: 'bankverbindung', 'error')} ">
 	<label for="bankverbindung">
 		<g:message code="organisation.bankverbindung.label" default="Bankverbindung" />

@@ -51,6 +51,15 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${organisationInstance?.steuernummer}">
+				<li class="fieldcontain">
+					<span id="nameZusatz-label" class="property-label"><g:message code="organisation.steuernummer.label" default="Steuernummer" /></span>
+					
+						<span class="property-value" aria-labelledby="steuernummer-label"><g:fieldValue bean="${organisationInstance}" field="steuernummer"/></span>
+					
+				</li>
+				</g:if>
+				
 				<li class="fieldcontain">
 					<span id="partnerrolle-label" class="property-label"><g:message code="organisation.partnerrolle.label" default="Ansprechpartner" /></span>
 					

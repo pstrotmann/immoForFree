@@ -7,6 +7,7 @@ class Organisation extends Partner {
 	
 	String nameZusatz = ''
 	String rechtsform = ''
+	String steuernummer = ''
 	
 	static mappedBy = [partnerrolle:'organisation']
 	
@@ -17,6 +18,7 @@ class Organisation extends Partner {
 		nameZusatz (size:1..50,matches:"[a-zäöüßA-ZÄÖÜ0-9\\- .&,()+]+",nullable:true)
 		rechtsform (inList:rechtsformen,nullable:true)
 		hausadresse (nullable:true)
+		steuernummer (nullable:true,matches:"[0-9\\/]+")
     }
 	
 	static List getMiniList () {
