@@ -63,6 +63,11 @@ class Immobilie {
 	def getAnschaffungspreisDM () {
 		return this.anschaffungspreis * 1.95583
 	}
+	
+	def getVerkaufspreis () {
+		return this.jahresnettomiete > 0 ? this.jahresnettomiete *18 : this.anschaffungspreis
+	}
+	
 	def getGrundstueckspreisDM () {
 		return this.grundstueckspreis * 1.95583
 	}
@@ -300,7 +305,7 @@ class Immobilie {
 	}
 	
 	static Map getImmobilienUndSummen() {
-		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0,'sumEinheitswert':0,'sumWohnflaeche':0,'sumSchenkwert':0]
+		Map iSum = ['immobilien':[],'sumJahresnetto':0,'sumAnnuitaet':0,'sumAnschaffung':0,'sumRestschuld':0,'sumEinheitswert':0,'sumWohnflaeche':0,'sumSchenkwert':0,'sumVerkauf':0]
 		getAktImmos().each {Immobilie immo -> 
 			
 			def iJahresnetto = immo.jahresnettomiete
@@ -310,6 +315,7 @@ class Immobilie {
 			def iEinheitswert = immo.einheitswert
 			def iWohnflaeche = immo.wohnflaeche
 			def iSchenkwert = iAnschaffung - (10 * iJahresnetto) - iRestschuld
+			def iVerkauf = immo.verkaufspreis 
 			iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert, iWohnflaeche, iSchenkwert]
 			iSum.sumJahresnetto += iJahresnetto
 			iSum.sumAnnuitaet += iAnnuitaet
@@ -317,7 +323,8 @@ class Immobilie {
 			iSum.sumRestschuld += iRestschuld
 			iSum.sumEinheitswert += iEinheitswert
 			iSum.sumWohnflaeche += iWohnflaeche
-			iSum.sumSchenkwert += iSchenkwert			
+			iSum.sumSchenkwert += iSchenkwert
+			iSum.sumVerkauf += iVerkauf
 		}
 		iSum
 	}

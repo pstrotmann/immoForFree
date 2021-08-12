@@ -31,19 +31,28 @@
 						
 						<th><div align = right><g:message code="immobilie.mietflaeche.label" default="Mietfläche" /></div></th>
 					
-						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="Jahresnettomiete" /></div></th>
+						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="Nettomiete" /></div></th>
 						
-						<th><div align = right><g:message code="immobilie.annuitaet.label" default="Annuität" /></div></th>
-						
+						<th><div align = right><g:message code="immobilie.verkaufspreis.label" default="Wert" /></div></th>
+												
 						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Wert" /></div></th>
 						
-						<th><div align = right><g:message code="immobilie.schenkwert.label" default="-Niesbrauch" /></div></th>
+						<th><div align = right><g:message code="immobilie.schenkwert.label" default="Niesbrauch" /></div></th>
 						
-						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>						
+						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>	
+						
+						<th><div align = right><g:message code="immobilie.annuitaet.label" default="Annuität" /></div></th>					
 					</tr>
 					<tr>
-						<th></th><th></th><th></th><th></th><th></th><th></th><th></th>
-						<th><div align = right><g:message code="immobilie.schenkwert.label" default="-Restschuld" /></div></th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="/Jahr" /></div></th>
+						<th><div align = right><g:message code="immobilie.verkauf.label" default="18 x Netto/J" /></div></th>
+						<th><div align = right><g:message code="immobilie.verkauf.label" default="Einstand" /></div></th>
+						<th><div align = right><g:message code="immobilie.restschuld.label" default="-Restschuld" /></div></th>
+						<th></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -66,13 +75,15 @@
 							<td></td>
 						</g:else>
 						
-						<td><div align = right><g:formatNumber number="${immobilieInstance[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${fieldValue(bean: immobilieInstance[0], field: "verkaufspreis")}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstance[3]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstance[7]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstance[4]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${immobilieInstance[2]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</g:each>
@@ -89,13 +100,15 @@
 					
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumJahresnetto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
-						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumAnnuitaet}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumVerkauf}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumAnschaffung}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumSchenkwert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 												
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumRestschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+						
+						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumAnnuitaet}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
 					</tr>
 				</tfoot>
