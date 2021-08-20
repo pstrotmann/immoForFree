@@ -54,7 +54,7 @@ class ImmobilieController {
 	def immoSum() {render sum()}
 	
 	String sum () {
-		Immobilie.immobilienUndSummen.sumVerkauf.toString().replace('.', ',')
+		String s = Immobilie.immobilienUndSummen.sumVerkauf.toString().replace('.', ',')
 	}
 	
 }
