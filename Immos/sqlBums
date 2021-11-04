@@ -1,0 +1,4 @@
+select * from bankumsatz 
+except SELECT * from bankumsatz where id in
+
+(select b.id from bankumsatz as b inner join zahlung  as z on b.id = z.bankumsatz_id)

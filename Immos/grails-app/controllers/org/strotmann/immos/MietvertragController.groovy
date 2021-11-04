@@ -23,10 +23,10 @@ class MietvertragController {
     def save() {
         def mietvertragInstance = new Mietvertrag(params)
 		if (flash.partner1)
-		mietvertragInstance.mieter = new Partnerrolle(rolle:flash.rolle1, partner:flash.partner1).save()
+		    mietvertragInstance.mieter = new Partnerrolle(rolle:flash.rolle1, partner:flash.partner1, mietvertrag:mietvertragInstance).save()
 		if (params.partner) {
 			def partnerInstance = Partner.get(params.partner.id)
-			mietvertragInstance.mieter = new Partnerrolle(rolle:"Mieter", partner:partnerInstance).save()
+			mietvertragInstance.mieter = new Partnerrolle(rolle:"Mieter", partner:partnerInstance, mietvertrag:mietvertragInstance).save()
 		}
 		
         if (!mietvertragInstance.save(flush: true)) {

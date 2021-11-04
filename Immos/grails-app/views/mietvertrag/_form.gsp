@@ -23,7 +23,7 @@
 		<g:message code="mietvertrag.mietsache.label" default="Mietsache" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select id="mietsache" name="mietsache.id" from="${org.strotmann.immos.Mietsache.list()}" optionKey="id" required="" value="${mietvertragInstance?.mietsache?.id}" class="many-to-one"/>
+	<g:select id="mietsache" name="mietsache.id" from="${org.strotmann.immos.Mietsache.mietsachen}" optionKey="id" required="" value="${mietvertragInstance?.mietsache?.id}" class="many-to-one"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragInstance, field: 'zusatzMietsache', 'error')} ">
