@@ -71,7 +71,7 @@ class Dienstleistungsvertrag implements Comparable{
 	}
 	
 	BigDecimal getPauschale () {
-		def List dvsList = Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand as dvs where dvs.dienstleistungsvertrag = ${id} order by dvs.id")
+		def List dvsList = Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand as dvs where dvs.dienstleistungsvertrag = ${id} order by dvs.gueltigAb")
 		def Dienstleistungsvertragsstand dvs = dvsList.empty ? null : dvsList.last()
 		dvs ? dvs.pauschale : 0
 	}
