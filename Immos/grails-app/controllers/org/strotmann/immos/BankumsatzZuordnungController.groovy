@@ -120,26 +120,26 @@ class BankumsatzZuordnungController {
 		anzZahlung = 0
 		anzBankums = 0
 		//Sonderbehandlung Wüstenrot hart codiert
-		bUmsSpez(maxId,"%2076596886%","WUESTENROT BAUSPARKASSE AG").each {bUms->
-			anzBankums++
-			def String s = bUms.verwendungszweck+bUms.kundenreferenz+'00'
-			def String[] sTeil = s.split('/')
-			sTeil[2..sTeil.length - 1].each {t ->
-				def String[] tTeil = t.split(' ')
-				def String vnr = tTeil[1]
-				Kredit kr = Kredit.findByVertragsnummer(vnr)
-				def String btr = '-'+tTeil[2].substring(0,tTeil[2].length()-2)
-				def Zahlung zahlung = zahlung(bUms)
-				zahlung.kredit = kr
-				zahlung.betrag = new BigDecimal(btr.replace(',', '.'))
-				zahlung.save()
-				anzZahlung++
-			}
-		}
+//		bUmsSpez(maxId,"%2076596886%","WUESTENROT BAUSPARKASSE AG").each {bUms->
+//			anzBankums++
+//			def String s = bUms.verwendungszweck+bUms.kundenreferenz+'00'
+//			def String[] sTeil = s.split('/')
+//			sTeil[2..sTeil.length - 1].each {t ->
+//				def String[] tTeil = t.split(' ')
+//				def String vnr = tTeil[1]
+//				Kredit kr = Kredit.findByVertragsnummer(vnr)
+//				def String btr = '-'+tTeil[2].substring(0,tTeil[2].length()-2)
+//				def Zahlung zahlung = zahlung(bUms)
+//				zahlung.kredit = kr
+//				zahlung.betrag = new BigDecimal(btr.replace(',', '.'))
+//				zahlung.save()
+//				anzZahlung++
+//			}
+//		}
 		//Behandlung Wfa und Sparkasse Do
 		loe =[]
 		umsaetze.each {Bankumsatz bUms ->
-			if (bUms.beguenstigterZahlungspflichtiger != "WUESTENROT BAUSPARKASSE AG") {
+//			if (bUms.beguenstigterZahlungspflichtiger != "WUESTENROT BAUSPARKASSE AG") {
 				anzBankums++
 				List <Kredit> kList = Kredit.findAll ("from Kredit")
 				kList.each {kr ->
@@ -154,7 +154,7 @@ class BankumsatzZuordnungController {
 						loe << bUms
 					}
 				}
-			}
+//			}
 		}
 		umsaetze = umsaetze - loe
 		flash.message4 = "Zuordnung auf Kredite: ${anzBankums} Bankumsätze gelesen, ${anzZahlung} Zahlungen geschrieben"
