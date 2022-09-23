@@ -39,6 +39,16 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${mietvertragInstance?.mieter}">
+				<li class="fieldcontain">
+					<span id="dokument-label" class="property-label"><g:message code="mietvertrag.dokument.label" default="Dokument" /></span>
+					
+						<span class="property-value" aria-labelledby="dokument-label"><g:link controller="mietvertrag" action="dokument">Mietvertrag</g:link></span>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${mietvertragInstance?.getZahlerList() != []}">
 				<li class="fieldcontain">
 					<span id="partnerrolle-label" class="property-label"><g:message code="organisation.mieter.label" default="Mietzahler" /></span>
 					
@@ -47,6 +57,7 @@
 						</g:each>
 					
 				</li>
+				</g:if>
 			
 				<g:if test="${mietvertragInstance?.mietsache}">
 				<li class="fieldcontain">

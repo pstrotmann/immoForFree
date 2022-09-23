@@ -40,5 +40,5 @@ class MietvertragController {
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'mietvertrag.label', default: 'Mietvertrag'), mietvertragInstance.id])
         redirect(action: "show", id: mietvertragInstance.id)
-    }
+    }	
 }
