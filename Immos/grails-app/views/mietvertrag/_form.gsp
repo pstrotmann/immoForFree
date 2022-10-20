@@ -31,7 +31,7 @@
 		<g:message code="mietvertrag.zusatzMietsache.label" default="Zusatz" />
 		
 	</label>
-	<g:select id="zusatzMietsache" name="zusatzMietsache.id" from="${org.strotmann.immos.Mietsache.list()}" optionKey="id" value="${mietvertragInstance?.zusatzMietsache?.id}" class="many-to-one" noSelection="['null': '']"/>
+	<g:select id="zusatzMietsache" name="zusatzMietsache.id" from="${org.strotmann.immos.Mietsache.mietsachen}" optionKey="id" value="${mietvertragInstance?.zusatzMietsache?.id}" class="many-to-one" noSelection="['null': '']"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: mietvertragInstance, field: 'mietbeginn', 'error')} required">
