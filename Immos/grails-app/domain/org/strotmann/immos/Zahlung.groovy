@@ -252,6 +252,7 @@ class Zahlung implements Comparable{
 			b.verwendungszweck = z.rechnung.rechnungsgegenstand
 			b.beguenstigterZahlungspflichtiger = z.rechnung.rechnungssteller.partner
 		}
+		b.beguenstigterZahlungspflichtiger = b.beguenstigterZahlungspflichtiger + " --manuell--"
 		DateFormat df = new SimpleDateFormat("dd.MM.yyyy");
 		b.valutadatum = df.format(z.datum)
 		b

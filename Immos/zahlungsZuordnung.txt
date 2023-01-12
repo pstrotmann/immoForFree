@@ -1,17 +1,17 @@
 ==============================Am Gulloh  49 , 44339  Dortmund ==== 1/12/23 ======================================
 ------------------------------Kredit------------------------------------------------------------------------------
- 31.01.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 28.02.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 30.03.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 29.04.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 30.05.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 13.06.2022 855323524                                                    Sparkasse Dortmund               -7500,00
- 30.06.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 29.07.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 30.08.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 30.09.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 31.10.2022 855323524                                                    Sparkasse Dortmund                -850,00
- 30.11.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 31.01.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 28.02.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 30.03.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 29.04.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 30.05.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 13.06.2022 855323524                                                    Sparkasse Dortmund--manuell--    -7500,00
+ 30.06.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 29.07.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 30.08.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 30.09.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 31.10.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
+ 30.11.2022 855323524                                                    Sparkasse Dortmund--manuell--     -850,00
                                                                                             Summe Kredit -16850,00
 ------------------------------Miete-------------------------------------------------------------------------------
  10.01.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
@@ -133,11 +133,11 @@
  30.09.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 180486861 Bundesagentur fur Arbeit-Servi     393,94
  28.10.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 360517319 Bundesagentur fur Arbeit-Servi     393,94
  12.12.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 420511147 Bundesagentur fur Arbeit-Servi     393,94
- 29.01.2022 Wohnung,2.OG-re                                              Coruk                              780,00
- 01.03.2022 Wohnung,2.OG-re                                              Coruk                              830,00
- 08.05.2022 Wohnung,2.OG-re                                              Coruk                             1200,00
- 11.07.2022 Wohnung,2.OG-re                                              Coruk                             1700,00
- 03.12.2022 Wohnung,2.OG-re                                              Coruk                              900,00
+ 29.01.2022 Wohnung,2.OG-re                                              Coruk--manuell--                   780,00
+ 01.03.2022 Wohnung,2.OG-re                                              Coruk--manuell--                   830,00
+ 08.05.2022 Wohnung,2.OG-re                                              Coruk--manuell--                  1200,00
+ 11.07.2022 Wohnung,2.OG-re                                              Coruk--manuell--                  1700,00
+ 03.12.2022 Wohnung,2.OG-re                                              Coruk--manuell--                   900,00
  04.01.2022 MIETE JAN 2022                                               EUGENIUSZ KRZEMIEN                 493,39
  01.02.2022 MIETE FEBRUAR 2022                                           EUGENIUSZ KRZEMIEN                 523,39
  01.03.2022 MIETE MAERZ 2022                                             EUGENIUSZ KRZEMIEN                 523,39
