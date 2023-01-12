@@ -1,4 +1,6 @@
 package org.strotmann.immos
+import java.text.DateFormat
+import java.text.SimpleDateFormat
 import java.util.List;
 import org.apache.commons.lang.*
 import grails.util.Holders
@@ -119,9 +121,11 @@ class Zahlung implements Comparable{
 	
 	static void printZuordnungen (PrintWriter zOut, Integer jahr) {
 		List zListPlus = []
-		String s = "from Zahlung as z where (z.buchungsjahr = ${jahr}) and z.bankumsatz is not null"
-		List <Zahlung> zList = Zahlung.findAll(s)
-		zList.each {z ->
+		String s = "from Zahlung as z where (z.buchungsjahr = ${jahr})"
+		List <Zahlung> zList = Zahlung.findAll(s)		
+		zList.each {Zahlung z ->
+			if (z.bankumsatz == null)
+				z.bankumsatz = virtBums(z)
 			def Immobilie immobilie
 			def String kategorie
 			if (z.mietvertrag) {
@@ -228,5 +232,28 @@ class Zahlung implements Comparable{
 		zOut.println(StringUtils.leftPad('Summe '+aktOb+' '+immoSum.toString().replace('.',','),114,' '))
 		zOut.write('\f')
 		zOut.println(StringUtils.leftPad('GesamtSumme '+gesSum.toString().replace('.',','),114,' '))
+	}
+	
+	static Bankumsatz virtBums (Zahlung z) {
+		Bankumsatz b = new Bankumsatz()
+		if (z.mietvertrag) {
+			b.verwendungszweck = z.mietvertrag.mietsache.mietsacheKurz
+			b.beguenstigterZahlungspflichtiger = z.mietvertrag.mieter.partner
+		}
+		if (z.kredit) {
+			b.verwendungszweck = z.kredit.vertragsnummer
+			b.beguenstigterZahlungspflichtiger = z.kredit.kreditgeber.partner
+		}
+		if (z.dienstleistungsvertrag) {
+			b.verwendungszweck = z.dienstleistungsvertrag.dienstleistungsart
+			b.beguenstigterZahlungspflichtiger = z.dienstleistungsvertrag.dienstleister.partner
+		}
+		if (z.rechnung) {
+			b.verwendungszweck = z.rechnung.rechnungsgegenstand
+			b.beguenstigterZahlungspflichtiger = z.rechnung.rechnungssteller.partner
+		}
+		DateFormat df = new SimpleDateFormat("dd.MM.yyyy");
+		b.valutadatum = df.format(z.datum)
+		b
 	}
 }

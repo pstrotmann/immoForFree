@@ -1,4 +1,18 @@
-==============================Am Gulloh  49 , 44339  Dortmund ==== 18.07.22 =====================================
+==============================Am Gulloh  49 , 44339  Dortmund ==== 1/12/23 ======================================
+------------------------------Kredit------------------------------------------------------------------------------
+ 31.01.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 28.02.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 30.03.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 29.04.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 30.05.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 13.06.2022 855323524                                                    Sparkasse Dortmund               -7500,00
+ 30.06.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 29.07.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 30.08.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 30.09.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 31.10.2022 855323524                                                    Sparkasse Dortmund                -850,00
+ 30.11.2022 855323524                                                    Sparkasse Dortmund                -850,00
+                                                                                            Summe Kredit -16850,00
 ------------------------------Miete-------------------------------------------------------------------------------
  10.01.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
  10.02.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
@@ -7,7 +21,12 @@
  10.05.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
  10.06.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
  11.07.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
-                                                                                               Summe Miete 3150,00
+ 10.08.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 12.09.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 10.10.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 10.11.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+ 12.12.2022 Nebenkosten Julian Strotmann                                 Julian Strotmann                   450,00
+                                                                                               Summe Miete 5400,00
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  21.01.2022 Re 16064 v. 19.1.22 Fehlersuche WW-Bereitung Lösung: Entlüft fraroe Haustechnik gmbh           -575,12
  26.01.2022 ReNr 00088316 DATUM 24.01.2022, Jahresgebühr DATUM 26.01.202 Crif Buergel                      -119,00
@@ -27,13 +46,34 @@
  27.06.2022 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
  27.06.2022 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30001594830, Dortmunder Netz GmbH               168,00
  08.07.2022 Re 16582 v. 6.7.22 Spükasten Parterre Wasser Durchlaufen bes fraroe Haustechnik gmbh           -224,20
-                                                                                  Summe nicht umlagefähig -4877,13
+ 25.07.2022 Re 16605 v. 20.7.22 Undichtigkeit Küchenspüle beseitigt DATU fraroe Haustechnik gmbh           -114,86
+ 26.07.2022 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 27.07.2022 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30001594830, Dortmunder Netz GmbH               168,00
+ 17.08.2022 RE 22RE0600457 V.08.08.22 EUR 29,95 ./. SK 0,00 RE 22RE06004 BUHL-DATA-SERVICE GMBH             -89,85
+ 25.08.2022 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30001594830, Dortmunder Netz GmbH               168,00
+ 25.08.2022 StNr 317/5195/0273 Einkommenst. 21 8.489,00 Solid.Zuschl. 21 STEUERVERWALTUNG NRW              9259,06
+ 29.08.2022 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 07.09.2022 StNr 317/5195/0273 Einkommenst. 20 104,00 Solid.Zuschl. 20 5 STEUERVERWALTUNG NRW               119,08
+ 15.09.2022 Stnr 317/5195/0273 Einkommensteuer 3.Vj.22 1.855,00 Kirchens STEUERVERWALTUNG NRW             -2048,00
+ 26.09.2022 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 27.09.2022 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30001594830, Dortmunder Netz GmbH               168,00
+ 29.09.2022 Stnr 317/5195/0273 Einkommensteuer 2019 190,00 Solid.Zuschl. STEUERVERWALTUNG NRW              -227,12
+ 25.10.2022 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 26.10.2022 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30001594830, Dortmunder Netz GmbH               168,00
+ 24.11.2022 B14999 ./. IMHOLTE,HOLGER Am Westendorp 12, Olfen            CRIF BUERGEL DORTMUND GMBH & C      23,22
+ 25.11.2022 VK 602502009DO, AM GULLOH 49, Abschlagsrechnung 30001594830, Dortmunder Netz GmbH               168,00
+                                                                                   Summe nicht umlagefähig 2977,28
 ------------------------------umlagefähig-------------------------------------------------------------------------
  31.01.2022 VODAFONE NRW GMBH KDNR.1732491031 RGN 00180811285 1 1 02JANU VODAFONE NRW GMBH                 -244,33
  30.03.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -295,99
  02.05.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -242,00
  30.05.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -242,00
  30.06.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -242,00
+ 01.08.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -242,00
+ 30.08.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -242,00
+ 30.09.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -272,00
+ 31.10.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -272,00
+ 30.11.2022 VK 310461773 , DO, AM GULLOH 49 , Abschlagsrechnung 46700382 Dortmunder Energie- und Wasser    -272,00
  17.01.2022 VK 602502068 , DO, AM GULLOH 49 , Rechnung 9001338254 , Fael Dortmunder Netz GmbH               -13,71
  17.01.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
  15.02.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
@@ -42,17 +82,25 @@
  16.05.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
  15.06.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
  15.07.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
+ 16.08.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
+ 15.09.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
+ 17.10.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
+ 15.11.2022 Vertragskonto 200556754190Geschaeftspartner 1500515457       Stadtwerke Flensburg GmbH         -236,00
  01.04.2022 Sachversicherung S51216759 SIEHE DOKUMENT 01.04.2022         Provinzial Vers. AG               -148,29
  01.07.2022 Hausratversicherung S51490875 Am Gulloh 49 44339 Dortmund 01 Provinzial Vers. AG               -433,76
  01.07.2022 Gebaeudeversicherung S50760187 Am Gulloh 49 44339 Dortmund 0 Provinzial Vers. AG              -1700,00
  15.02.2022 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -830,70
  16.05.2022 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -830,72
+ 15.08.2022 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -830,72
+ 15.11.2022 GrundbesitzabgabenAM GULLOH 049Brechten Fl 07 Nr.184         Stadt Dortmund                    -830,72
  22.02.2022 544/22/489 v.22.02.22, Gulloh, Schornsteinfegerarbeiten DATU Lange Schornsteinfeger             -34,58
+ 24.10.2022 544/22/2821 v.20.10.22, Gulloh, Schornsteinfegerarbeiten DAT Lange Schornsteinfeger             -34,58
  01.02.2022 VODAFONE NRW GMBH KDNR.1732491031 ERSTATTUNG 1 1 02GUTHABEN  VODAFONE NRW GMBH                    5,65
-                                                                                        Summe umlagefähig -6904,43
+ 25.07.2022 Re 16615 v. 21.7.22 Wartung Brötje Heizung DATUM 25.07.2022, fraroe Haustechnik gmbh           -307,26
+                                                                                       Summe umlagefähig -11151,71
 
-                                                                                Summe  44339 Am Gulloh 49 -8631,56
-==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 18.07.22 ========================
+                                                                               Summe  44339 Am Gulloh 49 -19624,43
+==============================Lindenhorster Strasse  236 , 44339  Dortmund ==== 1/12/23 =========================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2022 Rechnung Darl.-Leistung 795472665 Für 01.01.2022 - 30.01.202 SPARKASSE DORTMUND                -917,70
  01.03.2022 Rechnung Darl.-Leistung 795472665 Für 01.02.2022 - 28.02.202 SPARKASSE DORTMUND                -917,70
@@ -60,10 +108,19 @@
  01.05.2022 Rechnung Darl.-Leistung 795472665 Für 01.04.2022 - 30.04.202 SPARKASSE DORTMUND                -917,70
  01.06.2022 Rechnung Darl.-Leistung 795472665 Für 01.05.2022 - 30.05.202 SPARKASSE DORTMUND                -917,70
  01.07.2022 Rechnung Darl.-Leistung 795472665 Für 01.06.2022 - 30.06.202 SPARKASSE DORTMUND                -917,70
-                                                                                             Summe Kredit -5506,20
+ 01.08.2022 Rechnung Darl.-Leistung 795472665 Für 01.07.2022 - 30.07.202 SPARKASSE DORTMUND                -917,70
+ 01.09.2022 Rechnung Darl.-Leistung 795472665 Für 01.08.2022 - 30.08.202 SPARKASSE DORTMUND                -917,70
+ 01.10.2022 Rechnung Darl.-Leistung 795472665 Für 01.09.2022 - 30.09.202 SPARKASSE DORTMUND                -917,70
+ 01.11.2022 Rechnung Darl.-Leistung 795472665 Für 01.10.2022 - 30.10.202 SPARKASSE DORTMUND                -917,70
+ 01.12.2022 Rechnung Darl.-Leistung 795472665 Für 01.11.2022 - 30.11.202 SPARKASSE DORTMUND                -917,70
+ 14.09.2022 sondertilgung DATUM 14.09.2022, 17.04 UHR                    Strotmann                       -10000,00
+                                                                                            Summe Kredit -20094,70
 ------------------------------Miete-------------------------------------------------------------------------------
+ 05.12.2022 Miete Dezember.2022                                          AMAR TERMOS                        609,26
  11.04.2022 Coruk                                                        Ahmet Coruk                        850,00
  10.06.2022 Coruk                                                        Ahmet Coruk                        850,00
+ 24.08.2022 Coruk                                                        Ahmet Coruk                        850,00
+ 25.10.2022 Coruk                                                        Ahmet Coruk                        710,00
  30.12.2021 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 140452175 Bundesagentur fur Arbeit-Servi     393,54
  31.01.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 820472226 Bundesagentur fur Arbeit-Servi     393,54
  28.02.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 980456378 Bundesagentur fur Arbeit-Servi     393,54
@@ -71,6 +128,16 @@
  11.05.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 600484792 Bundesagentur fur Arbeit-Servi     393,94
  31.05.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 460483965 Bundesagentur fur Arbeit-Servi      75,92
  30.06.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 160475658 Bundesagentur fur Arbeit-Servi     393,94
+ 29.07.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 020488020 Bundesagentur fur Arbeit-Servi     393,94
+ 31.08.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 860512039 Bundesagentur fur Arbeit-Servi     393,94
+ 30.09.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 180486861 Bundesagentur fur Arbeit-Servi     393,94
+ 28.10.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 360517319 Bundesagentur fur Arbeit-Servi     393,94
+ 12.12.2022 Suemer, Miete 33302//0091964 / 33302 Suemer, Orcun 420511147 Bundesagentur fur Arbeit-Servi     393,94
+ 29.01.2022 Wohnung,2.OG-re                                              Coruk                              780,00
+ 01.03.2022 Wohnung,2.OG-re                                              Coruk                              830,00
+ 08.05.2022 Wohnung,2.OG-re                                              Coruk                             1200,00
+ 11.07.2022 Wohnung,2.OG-re                                              Coruk                             1700,00
+ 03.12.2022 Wohnung,2.OG-re                                              Coruk                              900,00
  04.01.2022 MIETE JAN 2022                                               EUGENIUSZ KRZEMIEN                 493,39
  01.02.2022 MIETE FEBRUAR 2022                                           EUGENIUSZ KRZEMIEN                 523,39
  01.03.2022 MIETE MAERZ 2022                                             EUGENIUSZ KRZEMIEN                 523,39
@@ -79,13 +146,23 @@
  03.05.2022 MIETE MAI 2022                                               EUGENIUSZ KRZEMIEN                 523,39
  02.06.2022 MIETE                                                        EUGENIUSZ KRZEMIEN                 523,39
  04.07.2022 MIETE JULI 2022                                              EUGENIUSZ KRZEMIEN                 603,39
+ 02.08.2022 MIETE AUGUST 2022                                            EUGENIUSZ KRZEMIEN                 603,39
+ 31.08.2022 MIETE SEPTEMBER.+JUL                                         EUGENIUSZ KRZEMIEN                 603,39
+ 05.10.2022 MIETE OKTOBER                                                EUGENIUSZ KRZEMIEN                 603,39
+ 03.11.2022 MIETE NOV. 2022                                              EUGENIUSZ KRZEMIEN                 603,39
+ 02.12.2022 MIETE 12/22                                                  EUGENIUSZ KRZEMIEN                 603,39
  30.12.2021 Miete Januar.2022                                            HUSSEIN KAROUT                     579,26
  01.02.2022 Miete Februar.2022                                           HUSSEIN KAROUT                     579,26
  31.03.2022 Miete April und Nachzahlung                                  HUSSEIN KAROUT                     637,95
  29.04.2022 Miete Mai.2022                                               HUSSEIN KAROUT                     609,26
  02.06.2022 Miete Juni.2022                                              HUSSEIN KAROUT                     609,26
  30.06.2022 Miete Juli.2022                                              HUSSEIN KAROUT                     609,26
+ 02.08.2022 Miete August.2022                                            HUSSEIN KAROUT                     609,26
+ 01.09.2022 Miete September.2022                                         HUSSEIN KAROUT                     609,26
+ 06.10.2022 Miete Oktober.2022                                           HUSSEIN KAROUT                     609,29
+ 28.10.2022 Miete November.2022                                          HUSSEIN KAROUT                     609,26
  02.03.2022 Miete März.2022                                              Hussein Karout                     579,26
+ 12.08.2022 NACHZAHLUNG MIETE LINDENHORSTER STR 236                      IBRAHIM HALIL GOEKSU LEMAN GOE      70,00
  17.01.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
  17.02.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
  17.03.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
@@ -93,6 +170,11 @@
  17.05.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
  17.06.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
  18.07.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     520,00
+ 17.08.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     590,00
+ 19.09.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     590,00
+ 17.10.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     590,00
+ 17.11.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     590,00
+ 19.12.2022 Miete Göksu Lindenhorster Straße 236                         Ibrahim Halil Goeksu Leman Goe     590,00
  07.04.2022 nachzahlung                                                  KUDRET AHMET KUZAY UND CEMILE      144,03
  06.01.2022 Miete lindenhorsterstr 236.Januar 2022Aksakal Oeztekin Aksak OEZTEKIN AKSAKAL UND NURTEN AK     734,52
  04.02.2022 Miete lindenhorsterstr 236. Februar 2022.Aksakal Oeztekin Ak OEZTEKIN AKSAKAL UND NURTEN AK     774,54
@@ -105,6 +187,11 @@
  03.06.2022 Neben Kosten Lindenhorsterstr 236 Aksakal 1 Rate ,2 Rate .3  OEZTEKIN AKSAKAL UND NURTEN AK     100,00
  03.06.2022 Miete lindenhorsterstr 236. juni 2022Aksakal Oeztekin Aksaka OEZTEKIN AKSAKAL UND NURTEN AK     774,54
  06.07.2022 Miete lindenhorsterstr Juli 2022Aksakal Oeztekin Aksakal Nur OEZTEKIN AKSAKAL UND NURTEN AK     814,52
+ 08.08.2022 Miete lindenhorsterstr August 2022Aksakal Oeztekin Aksakal N OEZTEKIN AKSAKAL UND NURTEN AK     814,52
+ 07.09.2022 Miete lindenhorsterstr 236. September 2022Aksakal Oeztekin A OEZTEKIN AKSAKAL UND NURTEN AK     814,52
+ 10.10.2022 Miete lindenhorsterstr 236 Oktober 2022Aksakal Oeztekin Aksa OEZTEKIN AKSAKAL UND NURTEN AK     814,52
+ 07.11.2022 Miete lindenhorsterstr 236 November 2022Aksakal Oeztekin Aks OEZTEKIN AKSAKAL UND NURTEN AK     814,52
+ 06.12.2022 Miete lindenhorsterstr 236 Dezember 2022Aksakal Oeztekin Aks OEZTEKIN AKSAKAL UND NURTEN AK     814,52
  03.01.2022 Miete Januar 2022 Lindenhorsterstr.236 44339 Do. Familie Koc Orhan Koc Reyhan Koc               520,00
  02.02.2022 Miete Februar 2022 Lindenhorsterstr.236 /44339 Do. Familie K Orhan Koc Reyhan Koc               520,00
  02.03.2022 MieteMärz 2022 Lindenhorsterstr.236 44339 Do. Familie Koc    Orhan Koc Reyhan Koc               520,00
@@ -112,6 +199,11 @@
  05.05.2022 Miete Mai 2022 Lindenhorsterstr.236 44339 Do. Familie Koc    Orhan Koc Reyhan Koc               540,00
  03.06.2022 Miete Juni 2022 Lindenhorsterstr 236 /44339 Do. Familie Koc  Orhan Koc Reyhan Koc               540,00
  04.07.2022 Miete juli 2022 lindenhorsterstr.236 44339 Do Familie Koc    Orhan Koc Reyhan Koc               597,00
+ 05.08.2022 Miete August 2022 Lindenhorsterstr.236 44339 Do. Familie Koc Orhan Koc Reyhan Koc               597,00
+ 05.09.2022 Miete September 2022 Lindehorsterstr.236 44339 Do. Familie K Orhan Koc Reyhan Koc               597,00
+ 05.10.2022 Miete Oktober 2022 Lindenhorsterstr.236 /44339 Do. Familie K Orhan Koc Reyhan Koc               597,00
+ 03.11.2022 Miete Nowember 2022 Lindenhorsterstr.236/44339 Do. Familie K Orhan Koc Reyhan Koc               597,00
+ 05.12.2022 Miete Dezember 2022 Lindenhorsterstr.236 /44339 Do Familie K Orhan Koc Reyhan Koc               597,00
  06.01.2022 Abschlag 6 Nachzahlung                                       SUNAY SUMER                        100,00
  18.01.2022 MIETE                                                        Sunay Sumer                        800,00
  16.02.2022 MIETE                                                        Sunay Sumer                        800,00
@@ -119,12 +211,23 @@
  20.04.2022 MIETE                                                        Sunay Sumer                        840,00
  17.05.2022 MIETE                                                        Sunay Sumer                        840,00
  16.06.2022 MIETE                                                        Sunay Sumer                        840,00
-                                                                                              Summe Miete 30807,58
+ 18.07.2022 MIETE                                                        Sunay Sumer                        840,00
+ 16.08.2022 MIETE                                                        Sunay Sumer                        840,00
+ 16.09.2022 MIETE                                                        Sunay Sumer                        840,00
+ 18.10.2022 MIETE                                                        Sunay Sumer                        840,00
+ 16.11.2022 MIETE                                                        Sunay Sumer                        840,00
+ 16.12.2022 MIETE                                                        Sunay Sumer                        840,00
+ 29.09.2022 Miete Familie Coruk                                          YUSUF CORUK                        910,00
+                                                                                              Summe Miete 61838,16
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  07.03.2022 RECHNUNG 22871 V.6.3.22AUFTRAG 22871 Lindenhorster 236, EG r GREBE, ANDREAS, FLIESEN           -259,06
  07.03.2022 RECHNUNG 22870 V.6.3.22AUFTRAG 22870 Lindenhorster 236, 1. O GREBE, ANDREAS, FLIESEN           -273,70
  11.05.2022 RE 063-2022, V. 9.5.22 Lindenhorster 236, Aussenbeleuchtung  HACHENEUER ELEKTROTECHNIK         -428,94
-                                                                                   Summe nicht umlagefähig -961,70
+ 17.08.2022 Re.Nr. 20220278, Kd.Nr. 12737 Projekt 20200147, Lindenhorste Fa. Heinrich Sander Dachdecker   -6256,77
+ 09.09.2022 RE 0922010, v.6.9.2022 Lindenhorsterstr.236, 2. OG li,Göksu, Glietz & Nieraad GbR              -223,12
+ 16.09.2022 RE 202209103 v. 14.9.2022, Malerarbeiten Balkonunterseiten D Mondacci                         -2473,68
+ 18.10.2022 Re.Nr. 2022017, Kd.Nr. 12737 Projekt 20210147, Lindenhorster Fa. Heinrich Sander Dachdecker   -5986,45
+                                                                                 Summe nicht umlagefähig -15901,72
 ------------------------------umlagefähig-------------------------------------------------------------------------
  28.01.2022 LIEGNR 5300769 Kd.Nr 3433703 RENR 408800213 V.22.1.2022 DATU BRUNATA, HUERTH                   -167,79
  28.01.2022 LIEGNR 5300769 Kd.Nr 3433703 RENR 408800214 V.22.1.2022 DATU BRUNATA, HUERTH                   -102,64
@@ -143,14 +246,32 @@
  30.05.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
  30.06.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
  30.06.2022 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -38,00
+ 01.08.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
+ 01.08.2022 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -38,00
+ 30.08.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
+ 30.08.2022 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -38,00
+ 30.09.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
+ 30.09.2022 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -38,00
+ 31.10.2022 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -38,00
+ 31.10.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
+ 30.11.2022 VK 304488984 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser    -156,00
+ 30.11.2022 VK 304488933 , DO, LINDENHORSTER STR. 236 , Abschlagsrechnun Dortmunder Energie- und Wasser     -38,00
  17.01.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -593,00
  15.02.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -593,00
  14.04.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH        -1971,73
  16.05.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
  15.06.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
  15.07.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
+ 16.08.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
+ 15.09.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
+ 17.10.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
+ 15.11.2022 Vertragskonto 200556868386Geschaeftspartner 1500525729       Stadtwerke Flensburg GmbH         -821,00
+ 01.12.2022 Haus- und Grundbesitzer-HaftpflichtH902658940 Lindenhorsters Provinzial Vers. AG               -162,05
+ 01.12.2022 Gebaeudeversicherung S900456420 Lindenhorster Str. 236 44339 Provinzial Vers. AG              -1736,83
  15.02.2022 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1661,41
  16.05.2022 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1661,41
+ 15.08.2022 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1661,41
+ 15.11.2022 GrundbesitzabgabenLINDENHORSTER STR 236                      Stadt Dortmund                   -1661,41
  04.03.2022 VK 304488984DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser     238,74
  04.03.2022 VK 304488933DO, LINDENHORSTER STR. 236                       Dortmunder Energie- und Wasser      12,01
  17.01.2022 Hausmeister                                                  Suemer                            -150,00
@@ -160,10 +281,16 @@
  16.05.2022 Hausmeister                                                  Suemer                            -150,00
  15.06.2022 Hausmeister                                                  Suemer                            -150,00
  15.07.2022 Hausmeister                                                  Suemer                            -150,00
-                                                                                       Summe umlagefähig -11984,14
+ 15.08.2022 Hausmeister                                                  Suemer                            -150,00
+ 15.09.2022 Hausmeister                                                  Suemer                            -150,00
+ 17.10.2022 Hausmeister                                                  Suemer                            -150,00
+ 15.11.2022 Hausmeister                                                  Suemer                            -150,00
+ 15.12.2022 Hausmeister                                                  Suemer                            -150,00
+ 12.08.2022 Re 16681 v. 10.8.22 Wartung Heizung Lindenhorster 236, Dortm fraroe Haustechnik gmbh           -489,09
+                                                                                       Summe umlagefähig -22698,93
 
-                                                                   Summe  44339 Lindenhorster Strasse 236 12355,54
-==============================Lorenzstrasse  5 , 44536  Lünen ==== 18.07.22 =====================================
+                                                                    Summe  44339 Lindenhorster Strasse 236 3142,81
+==============================Lorenzstrasse  5 , 44536  Lünen ==== 1/12/23 ======================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2022 Rechnung Darl.-Leistung 855391880 Für 01.01.2022 - 30.01.202 SPARKASSE DORTMUND                -224,78
  01.02.2022 Rechnung Darl.-Leistung 795472673 Für 01.01.2022 - 30.01.202 SPARKASSE DORTMUND                -912,00
@@ -177,9 +304,22 @@
  01.06.2022 Rechnung Darl.-Leistung 795472673 Für 01.05.2022 - 30.05.202 SPARKASSE DORTMUND                -912,00
  01.07.2022 Rechnung Darl.-Leistung 855391880 Für 01.06.2022 - 30.06.202 SPARKASSE DORTMUND                -224,78
  01.07.2022 Rechnung Darl.-Leistung 795472673 Für 01.06.2022 - 30.06.202 SPARKASSE DORTMUND                -912,00
+ 01.08.2022 Rechnung Darl.-Leistung 855391880 Für 01.07.2022 - 30.07.202 SPARKASSE DORTMUND                -224,78
+ 01.08.2022 Rechnung Darl.-Leistung 795472673 Für 01.07.2022 - 30.07.202 SPARKASSE DORTMUND                -912,00
+ 01.09.2022 Rechnung Darl.-Leistung 855391880 Für 01.08.2022 - 30.08.202 SPARKASSE DORTMUND                -224,78
+ 01.09.2022 Rechnung Darl.-Leistung 795472673 Für 01.08.2022 - 30.08.202 SPARKASSE DORTMUND                -912,00
+ 01.10.2022 Rechnung Darl.-Leistung 855391880 Für 01.09.2022 - 30.09.202 SPARKASSE DORTMUND                -224,78
+ 01.10.2022 Rechnung Darl.-Leistung 795472673 Für 01.09.2022 - 30.09.202 SPARKASSE DORTMUND                -912,00
+ 01.11.2022 Rechnung Darl.-Leistung 855391880 Für 01.10.2022 - 30.10.202 SPARKASSE DORTMUND                -224,78
+ 01.11.2022 Rechnung Darl.-Leistung 795472673 Für 01.10.2022 - 30.10.202 SPARKASSE DORTMUND                -912,00
+ 01.12.2022 Rechnung Darl.-Leistung 855391880 Für 01.11.2022 - 30.11.202 SPARKASSE DORTMUND                -224,78
+ 01.12.2022 Rechnung Darl.-Leistung 795472673 Für 01.11.2022 - 30.11.202 SPARKASSE DORTMUND                -912,00
  03.01.2022 Sondertilgung DATUM 03.01.2022, 12.45 UHR                    Strotmann                        -3297,37
-                                                                                            Summe Kredit -10118,05
+ 12.10.2022 Sondertilgung DATUM 12.10.2022, 11.50 UHR                    Strotmann                       -10000,00
+                                                                                            Summe Kredit -25801,95
 ------------------------------Miete-------------------------------------------------------------------------------
+ 23.12.2022 Kaution TeilerstattungDATUM 22.12.2022, 20.20 UHR, Bruggeman Brüggemann                        -250,00
+ 23.12.2022 Kaution, Teilerstattung DATUM 22.12.2022, 20.22 UHR, Bruggem Jarosz                            -250,00
  03.01.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 651,50
  01.02.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 651,50
  01.03.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 651,50
@@ -189,6 +329,11 @@
  02.05.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
  01.06.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
  01.07.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
+ 01.08.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
+ 01.09.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
+ 04.10.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
+ 02.11.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
+ 01.12.2022 Monatsmiete Lorenzstrase 5 / 44536 Lunen Brambauer / Bruggem Claudia Bruggemann                 701,50
  28.03.2022 Nahzahlung für 2021                                          FRANZ JOSEF BALBIERZ               386,53
  03.01.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               720,00
  01.02.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               720,00
@@ -197,7 +342,13 @@
  02.05.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
  01.06.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
  01.07.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
+ 01.08.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
+ 01.09.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
+ 03.10.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
+ 01.11.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
+ 01.12.2022 MIETE DG LINKS LORENZSTR. 5                                  Franz Josef Balbierz               810,00
  23.03.2022 Rücküberweisung wegen Doppelzahlung DATUM 23.03.2022, 10.40  Grofe                             -317,98
+ 22.12.2022 Kaution                                                      Murat Durmus Annika Durmus        1200,00
  03.01.2022 Miete                                                        Renate Grofe                       456,15
  01.02.2022 Miete                                                        Renate Grofe                       456,15
  01.03.2022 Miete                                                        Renate Grofe                       456,15
@@ -207,6 +358,11 @@
  02.05.2022 Miete                                                        Renate Grofe                       521,15
  01.06.2022 Miete                                                        Renate Grofe                       521,15
  01.07.2022 Miete                                                        Renate Grofe                       521,15
+ 01.08.2022 Miete                                                        Renate Grofe                       521,15
+ 01.09.2022 Miete                                                        Renate Grofe                       521,15
+ 04.10.2022 Miete                                                        Renate Grofe                       521,15
+ 02.11.2022 Miete                                                        Renate Grofe                       521,15
+ 01.12.2022 Miete                                                        Renate Grofe                       521,15
  28.03.2022 NACHZAHLUNG BETRIEBSKOSTEN 2021                              SEMRA SEZGIN                       408,99
  21.03.2022 MIETE LORENZSTR 5                                            SILKE HEYER                         60,35
  03.01.2022 MIETE                                                        Semra Sezgin                       609,00
@@ -216,6 +372,11 @@
  02.05.2022 MIETE                                                        Semra Sezgin                       700,00
  01.06.2022 MIETE                                                        Semra Sezgin                       700,00
  01.07.2022 MIETE                                                        Semra Sezgin                       700,00
+ 01.08.2022 MIETE                                                        Semra Sezgin                       700,00
+ 01.09.2022 MIETE                                                        Semra Sezgin                       700,00
+ 03.10.2022 MIETE                                                        Semra Sezgin                       700,00
+ 01.11.2022 MIETE                                                        Semra Sezgin                       700,00
+ 01.12.2022 MIETE                                                        Semra Sezgin                       700,00
  03.01.2022 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
  01.02.2022 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
  01.03.2022 MIETE LORENZSTR 5                                            Silke Heyer                        603,00
@@ -223,6 +384,11 @@
  02.05.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
  01.06.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
  01.07.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
+ 01.08.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
+ 01.09.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
+ 03.10.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
+ 01.11.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
+ 01.12.2022 MIETE LORENZSTR 5                                            Silke Heyer                        648,00
  03.01.2022 Miete Lorenzstr.5                                            Stefanie Schier                    550,00
  01.02.2022 Miete Lorenzstr.5                                            Stefanie Schier                    550,00
  01.03.2022 Miete Lorenzstr.5                                            Stefanie Schier                    550,00
@@ -231,7 +397,12 @@
  02.05.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
  01.06.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
  01.07.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
-                                                                                              Summe Miete 28557,14
+ 01.08.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
+ 01.09.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
+ 04.10.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
+ 02.11.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
+ 01.12.2022 Miete Lorenzstr.5                                            Stefanie Schier                    630,00
+                                                                                              Summe Miete 49310,39
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  10.01.2022 X710182753722X Haftbefehl Hanke DATUM 08.01.2022, 11.25 UHR  Zentrale Zahlstelle Justiz         -22,00
  18.01.2022 ReNr M3107 v. 17.1.22 Erneuerung WW-Bereitung DATUM 18.01.20 Mlynek, Bad und Heizung          -2275,16
@@ -241,12 +412,16 @@
  16.06.2022 Grünschnittentsorgung DATUM 15.06.2022, 21.48 UHR            BALBIERZ, JOHANNA UND FRANZ        -12,50
  17.06.2022 RE 094-2022, V. 16.6.2022 Lorenzstr. 5, Bewegungsmelder DATU HACHENEUER ELEKTROTECHNIK         -222,29
  27.06.2022 033497 Schloss Wohnungstür DATUM 25.06.2022, 12.11 UHR       BALBIERZ, JOHANNA UND FRANZ        -34,90
-                                                                                  Summe nicht umlagefähig -3423,69
+ 19.10.2022 Ihre Kundennr. 12809097 RG 2210414861, 119,9 EUR             Immobilien Scout Gmb              -119,90
+ 09.12.2022 REnR 20222541 v.30.11.22 Lorenzstr.5 Waschküche, Pumpenschac Faulstich                         -720,56
+                                                                                  Summe nicht umlagefähig -4264,15
 ------------------------------umlagefähig-------------------------------------------------------------------------
  27.01.2022 779.339.295-2 Jahresabrechnung fuer 2021 RNr. LM2021/0046932 MAINGAU ENERGIE GMBH              -561,68
  31.01.2022 Rechnung Januar 2022 KDNR06008091786 VERTR NR6000776051      Vodafone NRW GmbH                -1365,74
  15.02.2022 600122004608 ABFALLBESEITIGUNG 251,52/ GRUNDSTEUER B 318,60/ Stadt Luenen Stadtkasse           -570,12
  16.05.2022 600122004608 ABFALLBESEITIGUNG 251,52/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -570,11
+ 15.08.2022 600122004608 ABFALLBESEITIGUNG 251,52/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -570,11
+ 15.11.2022 600122004608 ABFALLBESEITIGUNG 251,52/ GRUNDSTEUER B 318,59/ Stadt Luenen Stadtkasse           -570,11
  17.01.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
  15.02.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
  15.03.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
@@ -254,14 +429,26 @@
  16.05.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
  15.06.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
  15.07.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
+ 16.08.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
+ 15.09.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
+ 17.10.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
+ 15.11.2022 Vertragskonto 200556870254Geschaeftspartner 1500525890       Stadtwerke Flensburg GmbH         -365,00
  30.03.2022 ENTWAeSSERUNG BESCHEIDNUMMER 12200603 /60913 415,00 12200603 Stadtbetrieb Abwasserbeseitigu    -350,82
  30.06.2022 ENTWAeSSERUNG BESCHEIDNUMMER 12200603-3 /60913 415,00        Stadtbetrieb Abwasserbeseitigu    -415,00
+ 30.09.2022 ENTWAeSSERUNG BESCHEIDNUMMER 12200603 /60913 415,00          Stadtbetrieb Abwasserbeseitigu    -415,00
+ 01.12.2022 Haus- und Grundbesitzer-HaftpflichtH902658941 Lorenzstr 5 44 Provinzial Vers. AG               -140,18
+ 01.12.2022 Gebaeudeversicherung S900456429 Lorenzstr. 5 44536 Luenen 01 Provinzial Vers. AG              -1388,71
  27.01.2022 3339348312 OB-33448242 EUR 30,65 BEITRAG 0122 - 0122         Knappschaft-Bahn-See               -30,65
  24.02.2022 3837763308 OB-33448242 EUR 30,65 BEITRAG 0222 - 0222         Knappschaft-Bahn-See               -30,65
  29.03.2022 4007417572 OB-33448242 EUR 30,65 BEITRAG 0322 - 0322         Knappschaft-Bahn-See               -30,65
  27.04.2022 0107083292 OB-33448242 EUR 30,65 BEITRAG 0422 - 0422         Knappschaft-Bahn-See               -30,65
  27.05.2022 6007259315 OB-33448242 EUR 30,65. BEITRAG 0522 - 0522        Knappschaft-Bahn-See               -30,65
  28.06.2022 6505410482 OB-33448242 EUR 30,65. BEITRAG 0622 - 0622        Knappschaft-Bahn-See               -30,65
+ 27.07.2022 2505519641 OB-33448242 EUR 30,65. BEITRAG 0722 - 0722        Knappschaft-Bahn-See               -30,65
+ 29.08.2022 8630006864 OB-33448242 EUR 30,65. BEITRAG 0822 - 0822        Knappschaft-Bahn-See               -30,65
+ 28.09.2022 2380347465 OB-33448242 EUR 30,65. BEITRAG 0922 - 0922        Knappschaft-Bahn-See               -30,65
+ 27.10.2022 2380393876 OB-33448242 EUR 30,65. BEITRAG 1022 - 1022        Knappschaft-Bahn-See               -30,65
+ 28.11.2022 0705092818 OB-33448242 EUR 30,65. BEITRAG 1122 - 1122        Knappschaft-Bahn-See               -30,65
  31.01.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH             -56,17
  15.02.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
  15.03.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
@@ -269,8 +456,14 @@
  16.05.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
  15.06.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
  15.07.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
+ 15.08.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
+ 16.09.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -120,00
+ 17.10.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -168,00
+ 15.11.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -168,00
+ 15.12.2022 Vertragskonto 1361052133 ,Lorenzstr. 5 ,44536 Luenen ,Abschl Stadtwerke Luenen GmbH            -168,00
  04.01.2022 ReNr: 053803614 69-467-1049/9 03550051 v.3.1.22 Lorenzstr 5  ISTA                             -1067,35
  15.03.2022 ReNr: 067757367 69-467-1049/9 03550051 v.9.3.22 Lorenzstr 5  ISTA                              -178,18
+ 05.12.2022 ReNr: 044783560 69-467-1049/9 03550051 v.3.12.22 Lorenzstr 5 ISTA                              -600,76
  17.01.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
  15.02.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
  15.03.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
@@ -278,11 +471,16 @@
  16.05.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
  15.06.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
  15.07.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
+ 15.08.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
+ 15.09.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -110,00
+ 17.10.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -120,00
+ 15.11.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -120,00
+ 15.12.2022 HAUSMEISTERVERGÜTUNG                                         JOHANA BALBIERZ                   -120,00
  03.05.2022 Verwendungszweck 20225150838, kdNr 0320039762 DATUM 03.05.20 VBG                                -49,61
-                                                                                        Summe umlagefähig -9413,68
+                                                                                       Summe umlagefähig -16035,80
 
-                                                                              Summe  44536 Lorenzstrasse 5 5601,72
-==============================Heinrichstraße  44 , 59077  Hamm ==== 18.07.22 ====================================
+                                                                              Summe  44536 Lorenzstrasse 5 3208,49
+==============================Heinrichstraße  44 , 59077  Hamm ==== 1/12/23 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  10.01.2022 sondertilgung DATUM 10.01.2022, 11.09 UHR                    GABRIELE U PETER STROTMANN      -10000,00
  01.02.2022 Rechnung Darl.-Leistung 795472681 Für 01.01.2022 - 30.01.202 SPARKASSE DORTMUND                -570,00
@@ -291,7 +489,12 @@
  01.05.2022 Rechnung Darl.-Leistung 795472681 Für 01.04.2022 - 30.04.202 SPARKASSE DORTMUND                -570,00
  01.06.2022 Rechnung Darl.-Leistung 795472681 Für 01.05.2022 - 30.05.202 SPARKASSE DORTMUND                -570,00
  01.07.2022 Rechnung Darl.-Leistung 795472681 Für 01.06.2022 - 30.06.202 SPARKASSE DORTMUND                -570,00
-                                                                                            Summe Kredit -13420,00
+ 01.08.2022 Rechnung Darl.-Leistung 795472681 Für 01.07.2022 - 30.07.202 SPARKASSE DORTMUND                -570,00
+ 01.09.2022 Rechnung Darl.-Leistung 795472681 Für 01.08.2022 - 30.08.202 SPARKASSE DORTMUND                -570,00
+ 01.10.2022 Rechnung Darl.-Leistung 795472681 Für 01.09.2022 - 30.09.202 SPARKASSE DORTMUND                -570,00
+ 01.11.2022 Rechnung Darl.-Leistung 795472681 Für 01.10.2022 - 30.10.202 SPARKASSE DORTMUND                -570,00
+ 01.12.2022 Rechnung Darl.-Leistung 795472681 Für 01.11.2022 - 30.11.202 SPARKASSE DORTMUND                -570,00
+                                                                                            Summe Kredit -16270,00
 ------------------------------Miete-------------------------------------------------------------------------------
  04.01.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
  02.02.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
@@ -301,22 +504,34 @@
  03.05.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
  02.06.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
  04.07.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
-                                                                                               Summe Miete 4845,52
+ 02.08.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 02.09.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 04.10.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 02.11.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+ 02.12.2022 MIETE FR DRIFA HERR KALLA                                    BOUJAMAA KALLA ODER DRIFA EL G     730,00
+                                                                                               Summe Miete 8495,52
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  22.02.2022 RENR 22-0293 V.14.2.22 KDNR 22487 Heinrichstr.44, Hamm, El G BAHNE, HEIZUNG                    -266,99
  28.03.2022 ReNr.223214,23.3.22,Heinrichstr.44 ,Hamm, Rolladenpanzer DAT Dettmann                          -149,76
-                                                                                   Summe nicht umlagefähig -416,75
+ 07.09.2022 RENR 22-1613 v.5.9.22 KDNR 22487 Heinrichstr.44, Hamm, El Go BAHNE, HEIZUNG                     -56,73
+ 15.09.2022 RENR 22-1658 V.12.9.22 KDNR 22487 Heinrichstr.44, Hamm, El G BAHNE, HEIZUNG                    -250,45
+                                                                                   Summe nicht umlagefähig -723,93
 ------------------------------umlagefähig-------------------------------------------------------------------------
+ 07.06.2022 RENR 22-1008 V.24.5.22 KDNR 22487 Heinrichstr.44, Hamm, El G BAHNE, HEIZUNG                    -161,25
  15.02.2022 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -134,72
  16.05.2022 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -134,72
+ 15.08.2022 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -134,72
+ 15.11.2022 107630186327 Grundbesitzabgaben Heinrichstrasse 44           Stadt Hamm                        -134,79
  01.07.2022 Gebaeudeversicherung S900515813 Heinrichstr. 44 59077 Hamm 0 Provinzial Vers. AG               -310,32
+ 01.12.2022 Haus- und Grundbesitzer-HaftpflichtH902658936 Heinrichstr. 4 Provinzial Vers. AG                -44,09
+ 05.12.2022 044784307 69-470-1140/3 03550051 Heinrichstr. 44, 59077 Hamm ISTA DEUTSCHLAND GMBH Essen        -96,99
  04.01.2022 053804922 69-470-1140/3 03550051 v.3.1.2022 HeinrichSTR.44 5 ISTA                               -30,37
  18.05.2022 06008886100 01.01.22-31.12.22 DATUM 18.05.2022, 18.44 UHR    Vodafone West GmbH                -317,87
  18.05.2022 06008886100 01.01.21-31.12.21 DATUM 18.05.2022, 18.42 UHR    Vodafone West GmbH                -317,87
-                                                                                        Summe umlagefähig -1245,87
+                                                                                        Summe umlagefähig -1817,71
 
-                                                                          Summe  59077 Heinrichstraße 44 -10237,10
-==============================Heinrichstraße  46 , 59077  Hamm ==== 18.07.22 ====================================
+                                                                          Summe  59077 Heinrichstraße 44 -10316,12
+==============================Heinrichstraße  46 , 59077  Hamm ==== 1/12/23 =====================================
 ------------------------------Miete-------------------------------------------------------------------------------
  12.07.2022 Betriebskosten 20/21                                         Jacqueline Clemente                 38,05
  30.12.2021 MIETE                                                        SASCHA ASCHMONEIT                  720,00
@@ -326,16 +541,25 @@
  06.05.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
  20.06.2022 MIETE 0622                                                   SASCHA ASCHMONEIT                  720,00
  13.07.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
-                                                                                               Summe Miete 5078,05
+ 03.08.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
+ 02.09.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
+ 11.10.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
+ 01.11.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
+ 05.12.2022 MIETE                                                        SASCHA ASCHMONEIT                  720,00
+                                                                                               Summe Miete 8678,05
 ------------------------------umlagefähig-------------------------------------------------------------------------
  15.02.2022 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -134,18
  16.05.2022 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -134,18
+ 15.08.2022 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -134,18
+ 15.11.2022 107630186520 Grundbesitzabgaben Heinrichstrasse 46           Stadt Hamm                        -134,22
  01.07.2022 Gebaeudeversicherung S900515810 Heinrichstr. 46 59077 Hamm 0 Provinzial Vers. AG               -309,91
+ 01.12.2022 Haus- und Grundbesitzer-HaftpflichtH902658937 Heinrichstr 46 Provinzial Vers. AG                -44,09
+ 05.12.2022 044784308 69-470-1142/0 03550051 Heinrichstr. 46, 59077 Hamm ISTA DEUTSCHLAND GMBH Essen       -105,36
  04.01.2022 053804923 69-470-1142/0 03550051 v.3.1.2022 HeinrichSTR.46 5 ISTA                               -34,16
-                                                                                         Summe umlagefähig -612,43
+                                                                                        Summe umlagefähig -1030,28
 
-                                                                            Summe  59077 Heinrichstraße 46 4465,62
-==============================Haferkamp  1 , 59192  Bergkamen ==== 18.07.22 =====================================
+                                                                            Summe  59077 Heinrichstraße 46 7647,77
+==============================Haferkamp  1 , 59192  Bergkamen ==== 1/12/23 ======================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2022 Rechnung Darl.-Leistung 795491015 Für 01.01.2022 - 30.01.202 SPARKASSE DORTMUND                -524,18
  01.03.2022 Rechnung Darl.-Leistung 795491015 Für 01.02.2022 - 28.02.202 SPARKASSE DORTMUND                -524,18
@@ -343,8 +567,13 @@
  01.05.2022 Rechnung Darl.-Leistung 795491015 Für 01.04.2022 - 30.04.202 SPARKASSE DORTMUND                -524,18
  01.06.2022 Rechnung Darl.-Leistung 795491015 Für 01.05.2022 - 30.05.202 SPARKASSE DORTMUND                -524,18
  01.07.2022 Rechnung Darl.-Leistung 795491015 Für 01.06.2022 - 30.06.202 SPARKASSE DORTMUND                -524,18
+ 01.08.2022 Rechnung Darl.-Leistung 795491015 Für 01.07.2022 - 30.07.202 SPARKASSE DORTMUND                -524,18
+ 01.09.2022 Rechnung Darl.-Leistung 795491015 Für 01.08.2022 - 30.08.202 SPARKASSE DORTMUND                -524,18
+ 01.10.2022 Rechnung Darl.-Leistung 795491015 Für 01.09.2022 - 30.09.202 SPARKASSE DORTMUND                -524,18
+ 01.11.2022 Rechnung Darl.-Leistung 795491015 Für 01.10.2022 - 30.10.202 SPARKASSE DORTMUND                -524,18
+ 01.12.2022 Rechnung Darl.-Leistung 795491015 Für 01.11.2022 - 30.11.202 SPARKASSE DORTMUND                -524,18
  10.01.2022 795491015 Sondertilgung DATUM 09.01.2022, 16.53 UHR          Strotman                         -3000,00
-                                                                                             Summe Kredit -6145,08
+                                                                                             Summe Kredit -8765,98
 ------------------------------Miete-------------------------------------------------------------------------------
  20.01.2022 Betriebskostenerstattung 2021 DATUM 20.01.2022, 15.48 UHR    DIENER, DIMITRI U SVETLANA        -164,75
  03.01.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
@@ -354,7 +583,12 @@
  02.05.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
  01.06.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
  01.07.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
-                                                                                               Summe Miete 5895,71
+ 01.08.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
+ 01.09.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
+ 03.10.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
+ 01.11.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
+ 01.12.2022 Miet + NK                                                    Dimitri und Svetlana Diener        865,78
+                                                                                              Summe Miete 10224,61
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  10.01.2022 neue Duschkabine, Haferkamp 1 DATUM 10.01.2022, 10.00 UHR    DienerD                          -1002,98
                                                                                   Summe nicht umlagefähig -1002,98
@@ -362,11 +596,16 @@
  11.05.2022 RENR 22-0852 V.9.5.22 KDNR 22487 Haferkamp 1, 59152 Bergkame BAHNE, HEIZUNG                    -108,89
  15.02.2022 01009000295902000 JHV GBA 2022 Entwaess 15.02.22 193,47 Entw Stadt Bergkamen                   -356,06
  16.05.2022 01009000295902000 JHV GBA 2022 Entwaess 15.05.22 193,47 Entw Stadt Bergkamen                   -356,06
+ 15.08.2022 01009000295902000 JHV GBA 2022 Entwaess 15.08.22 193,47 Entw Stadt Bergkamen                   -356,06
+ 15.11.2022 01009000295902000 JHV GBA 2022 Entwaess 15.11.22 193,49 Entw Stadt Bergkamen                   -356,06
+ 01.12.2022 Gebaeudeversicherung S900456396 Haferkamp 1 59192 Bergkamen  Provinzial Vers. AG               -367,24
+ 01.12.2022 Haus- und Grundbesitzer-HaftpflichtH902658938 Haferkamp 1 59 Provinzial Vers. AG                -44,09
+ 05.12.2022 044784306 69-470-1139/0 03550051 Haferkamp 1, Bergkamen Miet ISTA bergkamen                     -96,99
  04.01.2022 053804921 69-470-1139/0 03550051 V.3.1.2022 Haferkamp 3 5919 ISTA                               -30,37
-                                                                                         Summe umlagefähig -851,38
+                                                                                        Summe umlagefähig -2071,82
 
-                                                                                 Summe  59192 Haferkamp 1 -2103,73
-==============================Haferkamp  3 , 59192  Bergkamen ==== 18.07.22 =====================================
+                                                                                 Summe  59192 Haferkamp 1 -1616,17
+==============================Haferkamp  3 , 59192  Bergkamen ==== 1/12/23 ======================================
 ------------------------------Miete-------------------------------------------------------------------------------
  20.01.2022 Betriebskostenabrechnung 2021 DATUM 20.01.2022, 15.46 UHR    Brzoza                            -267,24
  28.01.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
@@ -375,21 +614,30 @@
  28.04.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
  30.05.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
  28.06.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.07.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 29.08.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.09.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.10.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
+ 28.11.2022 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
  28.12.2021 Miete                                                        Miroslaw Wiktor, Sabina Krysty     790,00
-                                                                                               Summe Miete 5262,76
+                                                                                               Summe Miete 9212,76
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  07.06.2022 RENR 22-0863 V.10.5.22 KDNR 22487 Haferkamp 3, 59192 Bergkam BAHNE, HEIZUNG                    -116,98
                                                                                    Summe nicht umlagefähig -116,98
 ------------------------------umlagefähig-------------------------------------------------------------------------
  07.06.2022 RENR 22-0931 V.16.5.22 KDNR 22487 Haferkamp 3, 59192 Bergkam BAHNE, HEIZUNG                    -106,51
- 07.06.2022 RENR 22-1008 V.24.5.22 KDNR 22487 Heinrichstr.44, Hamm, El G BAHNE, HEIZUNG                    -161,25
  15.02.2022 01009000295902000 JHV GBA 2022 Entwaess 15.02.22 193,47 Entw Stadt Bergkamen                   -410,49
  16.05.2022 01009000295902000 JHV GBA 2022 Entwaess 15.05.22 193,47 Entw Stadt Bergkamen                   -410,49
+ 15.08.2022 01009000295902000 JHV GBA 2022 Entwaess 15.08.22 193,47 Entw Stadt Bergkamen                   -410,49
+ 15.11.2022 01009000295902000 JHV GBA 2022 Entwaess 15.11.22 193,49 Entw Stadt Bergkamen                   -410,49
+ 01.12.2022 Haus- und Grundbesitzer-HaftpflichtH902658939 Haferkamp 3 59 Provinzial Vers. AG                -44,09
+ 01.12.2022 Gebaeudeversicherung S900456404 Haferkamp 3 59192 Bergkamen  Provinzial Vers. AG               -367,91
+ 05.12.2022 044784305 69-470-1138/1 03550051 Haferkamp 3, Bergkamen Miet ISTA bergkamen                     -96,99
  04.01.2022 053804920 69-470-1138/1 03550051 V.3.1.2022 Haferkamp 3 5919 ISTA                               -30,37
-                                                                                        Summe umlagefähig -1119,11
+                                                                                        Summe umlagefähig -2287,83
 
-                                                                                  Summe  59192 Haferkamp 3 4026,67
-==============================Am Westendorp  12 , 59399  Olfen ==== 18.07.22 ====================================
+                                                                                  Summe  59192 Haferkamp 3 6807,95
+==============================Am Westendorp  12 , 59399  Olfen ==== 1/12/23 =====================================
 ------------------------------Kredit------------------------------------------------------------------------------
  01.02.2022 01/22 2073032698                                             WUESTENROT BAUSPARKASSE AG        -385,40
  01.03.2022 02/22 2073032698                                             WUESTENROT BAUSPARKASSE AG        -385,40
@@ -397,7 +645,12 @@
  02.05.2022 04/22 2073032698                                             WUESTENROT BAUSPARKASSE AG        -385,40
  01.06.2022 05/22 2073032698                                             WUESTENROT BAUSPARKASSE AG        -385,40
  01.07.2022 06/22 2073032698                                             WUESTENROT BAUSPARKASSE AG        -385,40
-                                                                                             Summe Kredit -2312,40
+ 02.08.2022 2073032698 385.40                                            WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.09.2022 2073032698 385.40                                            WUESTENROT BAUSPARKASSE AG        -385,40
+ 04.10.2022 2073032698 385.40                                            WUESTENROT BAUSPARKASSE AG        -385,40
+ 02.11.2022 2073032698 385.40                                            WUESTENROT BAUSPARKASSE AG        -385,40
+ 01.12.2022 2073032698 385.40                                            WUESTENROT BAUSPARKASSE AG        -385,40
+                                                                                             Summe Kredit -4239,40
 ------------------------------Miete-------------------------------------------------------------------------------
  03.01.2022 Miete                                                        Klaus-Dieter Rosenthal             744,00
  01.02.2022 Miete                                                        Klaus-Dieter Rosenthal             744,00
@@ -406,6 +659,11 @@
  02.05.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
  01.06.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
  01.07.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
+ 01.08.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
+ 01.09.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
+ 03.10.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
+ 01.11.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
+ 01.12.2022 Miete                                                        Klaus-Dieter Rosenthal             784,00
  21.02.2022 NACHZAHLUNG NEBENKOSTEN 2021 THOMAS LUDWIG                   LUDWIG, THOMAS                     692,66
  03.01.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
  01.02.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  778,00
@@ -416,6 +674,11 @@
  02.05.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
  01.06.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
  01.07.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 01.08.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 01.09.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 03.10.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 01.11.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
+ 01.12.2022 Miete Familie Muensterberg                                   Nina Muensterberg                  828,00
  04.01.2022 MIETE UND NK                                                 Thomas Ludwig                      580,00
  02.02.2022 MIETE UND NK                                                 Thomas Ludwig                      580,00
  02.03.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
@@ -423,19 +686,32 @@
  03.05.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
  02.06.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
  04.07.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
-                                                                                              Summe Miete 16489,00
+ 02.08.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
+ 02.09.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
+ 05.10.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
+ 02.11.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
+ 02.12.2022 MIETE UND NK                                                 Thomas Ludwig                      650,00
+                                                                                              Summe Miete 27799,00
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  05.05.2022 ReNr 86504, DATUM 4.5.22, Forderungsanmeldung Sierocinska, B Crif Buergel                       -29,75
-                                                                                    Summe nicht umlagefähig -29,75
+ 17.08.2022 Re.Nr. 20220274, Kd.Nr. 12737 Projekt 20210069, Am Westendor Fa. Heinrich Sander Dachdecker    -432,52
+                                                                                   Summe nicht umlagefähig -462,27
 ------------------------------umlagefähig-------------------------------------------------------------------------
+ 28.10.2022 KDNR.10486,RENR.221047 ProjNR.112885, V.26.10.22 OLFEN,Wartu BUDDE, HEIZUNG                    -124,95
  10.02.2022 498.089.778-2 Jahresabrechnung fuer 2021 RNr. LM2021/0049933 MAINGAU ENERGIE GMBH             -1019,64
  12.01.2022 HUK-COBURG-Allgemeine, ALLG. HAFTPFLICHT-VERS. 735/006365-L- HUK-COBURG UNTERNEHMENSGRUPPE      -71,50
+ 01.08.2022 Wohngebaeude VS 95088031 ZEITRAUM 12.07.2022-10.11.2022      LVM Landw.Versicherungsverein       -8,00
+ 01.12.2022 Wohngebaeude VS 95088031 ZEITRAUM 10.11.2022-10.11.2023      LVM Landw.Versicherungsverein    -1018,64
  10.01.2022 VK 20217523 Abschlag 59399-Am Westendorp 12 - Erenja, NGW, W GELSENWASSER AG                   -112,00
  14.03.2022 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -112,00
  13.05.2022 VK 20217523 Abschlag 59399-Am Westendorp 12                  GELSENWASSER AG                   -112,00
  11.07.2022 VK 20217523 Abschlag 59399-Am Westendorp 12 - Infos zum neue GELSENWASSER AG                   -112,00
+ 12.09.2022 VK 20217523 Abschlag 59399-Am Westendorp 12 - Infos zum neue GELSENWASSER AG                   -112,00
+ 10.11.2022 VK 20217523 Abschlag 59399-Am Westendorp 12 - Infos zum neue GELSENWASSER AG                   -116,00
  17.03.2022 106294-1000-001, ABWASSERGEBUEHRE, AM WESTENDORP 0012 106294 STADT OLFEN                       -425,61
  17.05.2022 GRUNDBESITZABGABEN                                           STADT OLFEN                       -391,53
+ 15.08.2022 106294-1000-001, ABWASSERGEBUEHRE, AM WESTENDORP 0012 106294 STADT OLFEN                       -391,53
+ 15.11.2022 106294-1000-001, ABWASSERGEBUEHRE, AM WESTENDORP 0012 106294 STADT OLFEN                       -391,54
  17.01.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
  15.02.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
  15.03.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
@@ -443,6 +719,9 @@
  16.05.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
  15.06.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
  15.07.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
+ 16.08.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -394,00
+ 17.10.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -392,00
+ 15.11.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH         -392,00
  31.01.2022 Vertragskonto 1365004814 ,Rechnung                           Stadtwerke Luenen GmbH              -4,31
  15.02.2022 Vertragskonto 1365004814 ,Abschlag - 02.2022                 Stadtwerke Luenen GmbH             -18,00
  15.03.2022 Vertragskonto 1365004814 ,Abschlag - 03.2022                 Stadtwerke Luenen GmbH             -18,00
@@ -450,13 +729,21 @@
  16.05.2022 Vertragskonto 1365004814 ,Abschlag - 05.2022                 Stadtwerke Luenen GmbH             -18,00
  15.06.2022 Vertragskonto 1365004814 ,Abschlag - 06.2022                 Stadtwerke Luenen GmbH             -18,00
  15.07.2022 Vertragskonto 1365004814 ,Abschlag - 07.2022                 Stadtwerke Luenen GmbH             -18,00
+ 15.08.2022 Vertragskonto 1365004814 ,Abschlag - 08.2022                 Stadtwerke Luenen GmbH             -18,00
+ 16.09.2022 Vertragskonto 1365004814 ,Abschlag - 09.2022                 Stadtwerke Luenen GmbH             -18,00
+ 17.10.2022 Vertragskonto 1365004814 ,Abschlag - 10.2022                 Stadtwerke Luenen GmbH             -25,00
+ 15.11.2022 Vertragskonto 1365004814 ,Abschlag - 11.2022                 Stadtwerke Luenen GmbH             -25,00
+ 15.12.2022 Vertragskonto 1365004814 ,Abschlag - 12.2022                 Stadtwerke Luenen GmbH             -25,00
+ 06.10.2022 VK 20217523 Sonstige Gutschrift 59399-Am Westendorp 12       GELSENWASSER AG                      7,09
+ 05.12.2022 044797365, v.3.12.2022 76-471-0211/0 03550051 Am Westendorp  ISTA DEUTSCHLAND GMBH Essen       -623,06
  04.01.2022 053841787 76-471-0211/0 03550051 V.3.1.2022 AM WESTENDORP 12 ISTA                              -157,18
  10.02.2022 067693522 76-471-0211/0 03550051 V.3.2.2022 AM WESTENDORP 12 ISTA                               -98,88
  21.06.2022 03550051 20.06.2022 938489048 76-471-0211/0 Am Westendorp 12 ISTA                              -294,03
-                                                                                        Summe umlagefähig -5776,68
+ 06.09.2022 Vertragskonto 200556870375Geschaeftspartner 1500525898       Stadtwerke Flensburg GmbH          136,94
+                                                                                        Summe umlagefähig -9707,37
 
-                                                                             Summe  59399 Am Westendorp 12 8370,17
-==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 18.07.22 =============================
+                                                                            Summe  59399 Am Westendorp 12 13389,96
+==============================Saarbrückerweg  24 , 59439  Holzwickede ==== 1/12/23 ==============================
 ------------------------------Kredit------------------------------------------------------------------------------
  03.02.2022 2076596886, KOsten Löschungsbewilligung DATUM 03.02.2022, 12 Wuestenrot Bausparkasse AG         -65,81
                                                                                                Summe Kredit -65,81
@@ -469,6 +756,11 @@
  02.05.2022 Miete                                                        Christine Kramer-Kersting          500,00
  01.06.2022 Miete                                                        Christine Kramer-Kersting          500,00
  01.07.2022 Miete                                                        Christine Kramer-Kersting          500,00
+ 01.08.2022 Miete                                                        Christine Kramer-Kersting          500,00
+ 01.09.2022 Miete                                                        Christine Kramer-Kersting          500,00
+ 04.10.2022 Miete                                                        Christine Kramer-Kersting          500,00
+ 02.11.2022 Miete                                                        Christine Kramer-Kersting          500,00
+ 01.12.2022 Miete                                                        Christine Kramer-Kersting          500,00
  17.12.2021 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
  17.01.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                          950,00
  31.01.2022 Nachzahlung Nebenkosten Voss Holzwickede                     Jens Voss                          573,32
@@ -478,6 +770,10 @@
  17.05.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
  17.06.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
  18.07.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
+ 17.08.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
+ 19.09.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
+ 17.10.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
+ 17.11.2022 MIETE VOß SAARBRÜCKERWEG24                                   Jens Voss                         1000,00
  03.01.2022 Miete Baric/Bartnik                                          Jule Baric                         860,00
  26.01.2022 Nachzahlung Baric/Bartnik                                    Jule Baric                          64,35
  01.02.2022 Miete Baric/Bartnik                                          Jule Baric                         860,00
@@ -487,6 +783,11 @@
  02.05.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     860,00
  01.06.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     860,00
  01.07.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     860,00
+ 01.08.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     940,00
+ 01.09.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     940,00
+ 03.10.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     940,00
+ 01.11.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     940,00
+ 01.12.2022 Miete Baric/Bartnik                                          Maikel Bartnik                     940,00
  30.12.2021 Miete + Nebenkosten                                          Manfred Mischke                    539,00
  31.01.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
  31.01.2022 RE 20012022                                                  Manfred Mischke                    127,95
@@ -496,6 +797,12 @@
  30.05.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
  30.06.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
  11.07.2022 NEBENKOSTENABRECHNUNG                                        Manfred Mischke                     58,81
+ 01.08.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
+ 30.08.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
+ 30.09.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
+ 31.10.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
+ 30.11.2022 Miete + Nebenkosten                                          Manfred Mischke                    589,00
+ 25.07.2022 Nachzahlung Bourgoutzani, Christoforidis                     PANAGIOTA STYLIANOS BOURGOUTZA    1089,50
  03.01.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
  31.01.2022 Nachzahlung                                                  PETROS CHRISTOFORIDIS                7,95
  01.02.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
@@ -504,9 +811,14 @@
  02.05.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
  01.06.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
  01.07.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
+ 01.08.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
+ 01.09.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              590,00
+ 04.10.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              690,00
+ 01.11.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              690,00
+ 01.12.2022 MIETE UND NEBENKOSTEN                                        PETROS CHRISTOFORIDIS              690,00
  01.03.2022 NK Nachzahlung Reitzig                                       Philipp Reitzig                     35,03
  18.02.2022 1 NM-ABRECHNUNG 1-5/2021                                     Werner Hessel                        5,15
-                                                                                              Summe Miete 26878,73
+                                                                                              Summe Miete 45363,23
 ------------------------------nicht umlagefähig-------------------------------------------------------------------
  01.02.2022 Entgeltabrechnung siehe Anlage Abrechnung 31.01.2022 Informa                                    -32,05
  08.02.2022 X701917233771X Grundbuchauszug Holzwickede DATUM 08.02.2022, Zentrale Zahlstelle Justiz         -10,00
@@ -527,7 +839,19 @@
  29.06.2022 RE-2022-00026, Entfernung Wespennest, Saarbrücker 24, eg li, DTK Schaedlingsbekaempfung        -178,50
  01.07.2022 Abrechnung 30.06.2022 siehe Anlage Abrechnung 30.06.2022 Inf                                      0,00
  01.07.2022 Entgeltabrechnung siehe Anlage Abrechnung 30.06.2022 Informa                                    -25,35
-                                                                                  Summe nicht umlagefähig -3283,52
+ 30.07.2022 Entgeltabrechnung siehe Anlage Abrechnung 29.07.2022 Informa                                    -22,05
+ 01.09.2022 Entgeltabrechnung siehe Anlage Abrechnung 31.08.2022 Informa                                    -25,45
+ 01.10.2022 Abrechnung 30.09.2022 siehe Anlage Abrechnung 30.09.2022 Inf                                      0,00
+ 01.10.2022 Entgeltabrechnung siehe Anlage Abrechnung 30.09.2022 Informa                                    -22,65
+ 10.10.2022 20221568 Haustür Material exclusiv Montage, Saarbrücker Weg  Haustueren Lagerverkauf          -2548,00
+ 10.10.2022 20221569 Briefkastenanlage Material exclusiv Montage DATUM 1 Haustueren Lagerverkauf           -492,50
+ 11.10.2022 20221569 Briefkastenanlage Montage, Saarbrücker Weg 24 Holzw Haustueren Lagerverkauf           -337,50
+ 11.10.2022 20221568 Haustür Montage, Saarbrücker Weg 24 Holzwickede DAT Haustueren Lagerverkauf           -952,00
+ 24.10.2022 Re 8449, v. 22.10.22 DG, Wohnungseingangstür gerichtet, Bad  Vogt Holzmontagen                  -88,66
+ 01.11.2022 Entgeltabrechnung siehe Anlage Abrechnung 31.10.2022 Informa                                    -23,05
+ 10.11.2022 Re 16974 v. 8.11.22 Badewannenbatterie Saarbrücker weg 24, d fraroe Haustechnik gmbh           -401,60
+ 01.12.2022 Entgeltabrechnung siehe Anlage Abrechnung 30.11.2022 Informa                                    -20,65
+                                                                                  Summe nicht umlagefähig -8217,63
 ------------------------------umlagefähig-------------------------------------------------------------------------
  03.02.2022 LIEGNR 3360369 V Kd 2014512 RENR 408820969 V.26.1.22 SAARBRÜ BRUNATA, HUERTH                   -116,74
  14.04.2022 LIEGNR 3360369 V RENR 4088877605 V.7.4.22 SAARBRÜCKERWEG, HO BRUNATA, HUERTH                    -83,12
@@ -539,6 +863,11 @@
  29.04.2022 Rechnung April 2022 KDNR06008098240 VERTR NR6000776327       Vodafone West GmbH                 -97,79
  31.05.2022 Rechnung Mai 2022 KDNR06008098240 VERTR NR6000776327         Vodafone West GmbH                 -97,79
  30.06.2022 Rechnung Juni 2022 KDNR06008098240 VERTR NR6000776327        Vodafone West GmbH                 -97,79
+ 29.07.2022 Rechnung Juli 2022 KDNR06008098240 VERTR NR6000776327        Vodafone West GmbH                 -97,79
+ 31.08.2022 Rechnung August 2022 KDNR06008098240 VERTR NR6000776327      Vodafone West GmbH                 -97,79
+ 30.09.2022 Rechnung September 2022 KDNR06008098240 VERTR NR6000776327   Vodafone West GmbH                 -97,79
+ 31.10.2022 Rechnung Oktober 2022 KDNR06008098240 VERTR NR6000776327     Vodafone West GmbH                 -97,79
+ 30.11.2022 Rechnung November 2022 KDNR06008098240 VERTR NR6000776327    Vodafone West GmbH                 -97,79
  31.01.2022 Rechnung Januar 2022 KDNR06008098240 VERTR NR6000776327      Vodafone NRW GmbH                  -97,79
  28.02.2022 Rechnung Februar 2022 KDNR06008098240 VERTR NR6000776327     Vodafone NRW GmbH                  -97,79
  17.01.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -432,00
@@ -548,21 +877,36 @@
  16.05.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -432,00
  09.06.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH        -1078,68
  15.07.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -493,00
+ 16.08.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -493,00
+ 15.09.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -493,00
+ 17.10.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -493,00
+ 15.11.2022 Vertragskonto 200556874474Geschaeftspartner 1500526247       Stadtwerke Flensburg GmbH         -493,00
  01.03.2022 Haus- und Grundbesitzer-Haftpflicht H900710399 Saarbruecker  Provinzial Vers. AG               -114,98
  01.07.2022 Gebaeudeversicherung S900515819 Saarbruecker Weg 24 59439 Ho Provinzial Vers. AG               -993,46
  16.02.2022 63720/70/1, GRUNDBESITZABGABEN, SAARBRUECKER WEG 24          Gemeinde Holzwickede             -1017,35
  01.03.2022 2945 Wasserabschlag 01.03.2227.00/2945, Saarbruecker We      Gemeinde Holzwickede              -227,00
  17.05.2022 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede             -1017,35
  02.06.2022 2945 Wasserabschlag 01.06.2227.00/2945, Saarbruecker We      Gemeinde Holzwickede              -227,00
+ 15.08.2022 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede             -1017,35
+ 01.09.2022 2945 Wasserabschlag 01.09.2227.00/2945, Saarbruecker We      Gemeinde Holzwickede              -227,00
+ 15.11.2022 63720/70/1 GRUNDBESITZABGABEN SAARBRUECKER WEG 24            Gemeinde Holzwickede             -1017,31
+ 01.12.2022 2945 Wasserabschlag 01.12.2227.00/2945, Saarbruecker We      Gemeinde Holzwickede              -227,00
  31.01.2022 327504393850 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -48,41
  28.02.2022 322504255687 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
  28.03.2022 320009297486 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
  28.04.2022 320009401593 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
  30.05.2022 327504482644 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
  28.06.2022 320009463290 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
+ 28.07.2022 322504427360 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
+ 29.08.2022 320009527437 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
+ 28.09.2022 325004347006 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
+ 28.10.2022 325004396348 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
+ 28.11.2022 327504684749 Vkto IR30018380-Saarbruecker Weg 024-Rechnung/A Stadtwerke Hamm GmbH               -22,00
  02.02.2022 2945 Guthaben Wassergeld 20-249.95/2945, Saarbruecker W      Gemeinde Holzwickede               249,95
  19.01.2022 779.339.295-3 Jahresabrechnung fuer 2021 RNr. LM2021/0046932 MAINGAU ENERGIE GMBH               199,57
-                                                                                        Summe umlagefähig -8727,64
+ 27.07.2022 ReNr: J-22-02183, 1928-000, Saarbrücker 24, Schornsteifegera Normann Koenig                     -72,14
+ 12.08.2022 Re 16680 v. 10.8.22 Wartung Heizung Saarbrücker 24, Holzwick fraroe Haustechnik gmbh           -184,45
+                                                                                       Summe umlagefähig -14043,84
 
-                                                                           Summe  59439 Saarbrückerweg 24 14801,76
-                                                                                              GesamtSumme 28649,09
+                                                                           Summe  59439 Saarbrückerweg 24 23035,95
+                                                                                              GesamtSumme 25676,21
