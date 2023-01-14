@@ -1,5 +1,7 @@
 package org.strotmann.immos
 
+import org.strotmann.util.IBAN
+
 class BankumsatzImportController {
 
     def index() {
@@ -65,8 +67,9 @@ class BankumsatzImportController {
 					  j++
 					}
 				 i++
-				 if (!inDB(bankumsatz) && !bankumsatz.info.contains("vorgemerkt"))	{  
-				 	bankumsatz.save()
+				 if (!inDB(bankumsatz) && !bankumsatz.info.contains("vorgemerkt"))	{
+					 bankumsatz.kontonummerIBAN = IBAN.generateAccountNumber(bankumsatz.bic, bankumsatz.kontonummerIBAN)
+				 	 bankumsatz.save()
 					 k++
 				 }	
 				}
