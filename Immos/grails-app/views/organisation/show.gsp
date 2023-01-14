@@ -104,14 +104,47 @@
 						</g:each>
 					
 				</li>
-				</g:if>
-			
-				<g:if test="${organisationInstance?.partnerrolle}">
+				</g:if>			
+				
+				<g:if test="${organisationInstance?.dienstleistungsvertraege}">
 				<li class="fieldcontain">
-					<span id="partnerrolle-label" class="property-label"><g:message code="organisation.partnerrolle.label" default="Partnerrolle" /></span>
+					<span id="dienstleistungsvertraege-label" class="property-label"><g:message code="organisation.dienstleistungsvertraege.label" default="Dienstleistungsverträge" /></span>
 					
-						<g:each in="${organisationInstance.paroAktive}" var="p">
-							<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="partnerrolle" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+						<g:each in="${organisationInstance.dienstleistungsvertraege}" var="d">
+						<span class="property-value" aria-labelledby="dienstleistungsvertraege-label"><g:link controller="dienstleistungsvertrag" action="show" id="${d.id}">${d}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${organisationInstance?.kredite}">
+				<li class="fieldcontain">
+					<span id="kredit-label" class="property-label"><g:message code="organisation.kredit.label" default="Kredite" /></span>
+					
+						<g:each in="${organisationInstance.kredite}" var="k">
+						<span class="property-value" aria-labelledby="kredit-label"><g:link controller="kredit" action="show" id="${k.id}">${k?.kreditKurz}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${organisationInstance?.mietvertraege}">
+				<li class="fieldcontain">
+					<span id="mietvertraege-label" class="property-label"><g:message code="organisation.mietvertrag.label" default="Mietvertrag" /></span>
+					
+						<g:each in="${organisationInstance.mietvertraege}" var="m">
+						<span class="property-value" aria-labelledby="mietvertraege-label"><g:link controller="mietvertrag" action="show" id="${m.id}">${m?.mietvertragKlar}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${organisationInstance?.rechnungen}">
+				<li class="fieldcontain">
+					<span id="rechnungen-label" class="property-label"><g:message code="organisation.rechnungen.label" default="Rechnungen" /></span>
+					
+						<g:each in="${organisationInstance.rechnungen}" var="r">
+						<span class="property-value" aria-labelledby="rechnungen-label"><g:link controller="rechnung" action="show" id="${r.id}">${r?.reLang}</g:link></span>
 						</g:each>
 					
 				</li>

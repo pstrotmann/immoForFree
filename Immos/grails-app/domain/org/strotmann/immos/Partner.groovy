@@ -62,4 +62,53 @@ class Partner implements Comparable {
 		} 
 		aktive
 	}
+	
+	List <Rechnung> getRechnungen () {
+		List <Rechnung> rechnungen = []
+		partnerrolle.each {Partnerrolle paro ->
+			if (paro.rechnung)
+				rechnungen << paro.rechnung
+		}
+		rechnungen
+	}
+	
+	List <Kredit> getKredite () {
+		List <Kredit> kredite = []
+		partnerrolle.each {Partnerrolle paro ->
+			if (paro.kredit)
+				kredite << paro.kredit
+		}
+		kredite
+	}
+	
+	List <Dienstleistungsvertrag> getDienstleistungsvertraege () {
+		List <Dienstleistungsvertrag> dienstleistungsvertraege = []
+		def Calendar heute = Calendar.getInstance()
+		use (groovy.time.TimeCategory) {
+			heute.setTime(new Date())}
+		partnerrolle.each {Partnerrolle paro ->
+			if (paro.dienstleistungsvertrag)
+				if (paro.dienstleistungsvertrag.vertragsende == null || heute.getTime() < paro.dienstleistungsvertrag.vertragsende)
+					dienstleistungsvertraege << paro.dienstleistungsvertrag
+		}
+		dienstleistungsvertraege
+	}
+	
+	List <Mietvertrag> getMietvertraege () {
+		List <Mietvertrag> mietvertraege = []
+		partnerrolle.each {Partnerrolle paro ->
+			if (paro.mietvertrag)
+				mietvertraege << paro.mietvertrag
+		}
+		mietvertraege
+	}
+	
+	List <Organisation> getAnsprechpartner () {
+		List <Organisation> ansprechpartner = []
+		partnerrolle.each {Partnerrolle paro ->
+			if (paro.organisation)
+				ansprechpartner << paro.organisation
+		}
+		ansprechpartner
+	}
 }

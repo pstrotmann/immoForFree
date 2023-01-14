@@ -39,6 +39,10 @@ class Kredit implements Comparable{
 		"${kreditgeber.partner.name},${vertragsnummer},${verwendung.hausadresse.ort}, Saldo: ${((Double)kreditsaldo).round(2)}"
 	}
 	
+	String getKreditKurz() {
+		"${vertragsnummer},${verwendung.hausadresse.ort}, Saldo: ${((Double)kreditsaldo).round(2)}"
+	}
+	
 	static List getKreditgeberList () {
 		Organisation.findAll("from Organisation as o where not o.rechtsform = 'Personengemeinschaft'").sort()
 	}

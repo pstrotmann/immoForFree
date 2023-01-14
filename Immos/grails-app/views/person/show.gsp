@@ -107,14 +107,25 @@
 						</g:each>
 					
 				</li>
-				</g:if>
-			
-				<g:if test="${personInstance?.partnerrolle}">
+				</g:if>			
+
+				<g:if test="${personInstance?.mietvertraege}">
 				<li class="fieldcontain">
-					<span id="partnerrolle-label" class="property-label"><g:message code="person.partnerrolle.label" default="Partnerrolle" /></span>
+					<span id="mietvertraege-label" class="property-label"><g:message code="person.mietvertrag.label" default="Mietvertrag" /></span>
 					
-						<g:each in="${personInstance.partnerrolle}" var="p">
-						<span class="property-value" aria-labelledby="partnerrolle-label"><g:link controller="partnerrolle" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
+						<g:each in="${personInstance.mietvertraege}" var="m">
+						<span class="property-value" aria-labelledby="mietvertraege-label"><g:link controller="mietvertrag" action="show" id="${m.id}">${m?.mietvertragKlar}</g:link></span>
+						</g:each>
+					
+				</li>
+				</g:if>
+				
+				<g:if test="${personInstance?.ansprechpartner}">
+				<li class="fieldcontain">
+					<span id="ansprechpartner-label" class="property-label"><g:message code="person.ansprechpartner.label" default="Ansprechpartner" /></span>
+					
+						<g:each in="${personInstance.ansprechpartner}" var="a">
+						<span class="property-value" aria-labelledby="ansprechpartner-label"><g:link controller="organisation" action="show" id="${a.id}">${a}</g:link></span>
 						</g:each>
 					
 				</li>
