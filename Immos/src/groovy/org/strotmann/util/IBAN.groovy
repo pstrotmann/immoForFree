@@ -1,5 +1,7 @@
 package org.strotmann.util
 
+import org.apache.commons.lang3.StringUtils
+
 class IBAN {
 	
 	static String ibanForm(String i) {
@@ -19,16 +21,8 @@ class IBAN {
 		String gerRecognitionNumber = "131400"
 		String bban
 		
-		String accountNumber
-		
-		int j = ktoNr.length()
-		switch (j) {
-			case 10: accountNumber = ktoNr; break 
-			case  9: accountNumber = "0" + ktoNr; break
-			case  8: accountNumber = "00" + ktoNr; break
-			case  7: accountNumber = "000" + ktoNr; break
-		}		
-		
+		String accountNumber = StringUtils.leftPad(ktoNr, 10, '0')		
+
 		bban = blz + accountNumber
 
 		String checkSumString = bban + gerRecognitionNumber
