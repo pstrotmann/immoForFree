@@ -33,7 +33,7 @@
 					
 						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="Nettomiete" /></div></th>
 						
-						<th><div align = right><g:message code="immobilie.verkaufspreis.label" default="Wert" /></div></th>
+						<th><div align = right><g:message code="immobilie.verkaufspreis.label" default="Verkaufs-" /></div></th>
 												
 						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Wert" /></div></th>
 						
@@ -49,8 +49,8 @@
 						<th></th>
 						<th></th>
 						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="/Jahr" /></div></th>
-						<th><div align = right><g:message code="immobilie.verkauf.label" default="18 x Netto/J" /></div></th>
-						<th><div align = right><g:message code="immobilie.verkauf.label" default="Einstand" /></div></th>
+						<th><div align = right><g:message code="immobilie.verkauf.label" default="preis" /></th>
+						<th><div align = right><g:message code="immobilie.einstand.label" default="Einstand" /></div></th>
 						<th><div align = right><g:message code="immobilie.restschuld.label" default="-Restschuld" /></div></th>
 						<th></th>
 						<th></th>

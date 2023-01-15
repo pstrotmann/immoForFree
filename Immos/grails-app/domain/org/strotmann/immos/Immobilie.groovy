@@ -1,6 +1,8 @@
 package org.strotmann.immos
 
-import java.util.List;
+import java.util.List
+import org.strotmann.immos.Notiz
+import org.apache.commons.lang3.StringUtils
 
 class Immobilie {
 	
@@ -64,8 +66,17 @@ class Immobilie {
 		return this.anschaffungspreis * 1.95583
 	}
 	
+	def int getBewertungszahl () {
+		int z =18
+		Notiz.getNotizen('Immobilie',this.id).each {Notiz n ->
+			if (StringUtils.contains(n.notiztext,"Jahresmieten:"))
+				z = new Integer(StringUtils.split(n.notiztext,':')[1])
+		}
+		z
+	}
+	
 	def getVerkaufspreis () {
-		return this.jahresnettomiete > 0 ? this.jahresnettomiete *18 : this.anschaffungspreis
+		return this.jahresnettomiete > 0 ? this.jahresnettomiete * bewertungszahl : this.anschaffungspreis
 	}
 	
 	def getGrundstueckspreisDM () {

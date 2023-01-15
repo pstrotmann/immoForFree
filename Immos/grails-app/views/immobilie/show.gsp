@@ -88,12 +88,21 @@
 				
 				<g:if test="${immobilieInstance?.verkaufspreis}">
 				<li class="fieldcontain">
-					<span id="verkaufspreis-label" class="property-label"><g:message code="immobilie.verkaufspreis.label" default="Verkaufspreis" /></span>
+					<span id="verkaufspreis-label" class="property-label"><g:message code="immobilie.verkaufspreis.label" default="Verkaufspreis"/></span>
 					
-						<span class="property-value" aria-labelledby="verkaufspreis-label"><g:formatNumber number="${immobilieInstance.verkaufspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>
+						<span class="property-value" aria-labelledby="verkaufspreis-label"><g:formatNumber number="${immobilieInstance.verkaufspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = ${immobilieInstance.bewertungszahl}xJahresnettomiete</span>
 					
 				</li>
 				</g:if>
+				
+<%--				<g:if test="${immobilieInstance?.verkaufspreis}">--%>
+<%--				<li class="fieldcontain">--%>
+<%--					<span id="verkaufspreis-label" class="property-label"><g:message code="immobilie.verkaufspreis.label" default="${immobilieInstance.bewertungszahl}xJahresnetto=Verkaufspreis"/></span>--%>
+<%--					--%>
+<%--						<span class="property-value" aria-labelledby="verkaufspreis-label"><g:formatNumber number="${immobilieInstance.verkaufspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>--%>
+<%--					--%>
+<%--				</li>--%>
+<%--				</g:if>--%>
 				
 				<li class="fieldcontain">
 					<span id="restschuld-label" class="property-label"><g:message code="immobilie.restschuld.label" default="Restschuld" /></span>
