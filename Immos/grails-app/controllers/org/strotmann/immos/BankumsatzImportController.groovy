@@ -68,8 +68,8 @@ class BankumsatzImportController {
 					}
 				 i++
 				 if (!inDB(bankumsatz) && !bankumsatz.info.contains("vorgemerkt"))	{
-					 bankumsatz.kontonummerIBAN = IBAN.generateAccountNumber(bankumsatz.bic, bankumsatz.kontonummerIBAN)
-					 bankumsatz.bic = IBAN.generateBIC(bankumsatz.kontonummerIBAN)
+//					 bankumsatz.kontonummerIBAN = IBAN.generateAccountNumber(bankumsatz.bic, bankumsatz.kontonummerIBAN)
+//					 bankumsatz.bic = IBAN.generateBIC(bankumsatz.kontonummerIBAN)
 				 	 bankumsatz.save()
 					 k++
 				 }	
