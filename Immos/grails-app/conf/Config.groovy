@@ -124,7 +124,7 @@ kommunikationsart=['Festnetz','Handy','Fax','eMail','Homepage']
 mietsachenart=['Wohnung','Reihenendhaus','Reihenmittelhaus','Doppelhaushälfte','Garage','Stellplatz',
 			   'Ladenlokal','Büro','Lager','Gaststätte','Eisdiele','Werbefläche']
 rechtsform=['Personengemeinschaft','Eigentümergemeinschaft','Körperschaft des öffentlichen Rechts',
-			'AG','e.V.','mbH','GmbH','GmbH & Co.','GmbH & Co KG','AöR', 'UG haftungsbeschränkt', 'e.K.', 'a.G.', 'eG']
+			'AG','e.V.','mbH','GmbH','GmbH & Co.','GmbH & Co KG','AöR', 'UG haftungsbeschränkt', 'e.K.', 'a.G.', 'eG', 'S.à.r.l']
 rolle=[Mieter:'mietvertrag',Mietzahler:'partnerrolle',Kreditgeber:'kredit',Dienstleister:'dienstleistungsvertrag',
 	   Ansprechpartner:'partnerrolle',Rechnungssteller:'rechnung']
 umlageschluessel=['qm','Personen','Haushalt','gesetzliche Umlage','stck','Zaehler']
