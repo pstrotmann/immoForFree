@@ -66,7 +66,7 @@
     							<span style="color:red;"><g:formatNumber number="${mietvertragInstance[3]}" type="number" minFractionDigits="2" format="#,##0.00"/></span>
 							</g:if>
 							<g:if test="${mietvertragInstance[3] > 0}">
-    							<g:formatNumber number="${mietvertragInstance[3]}" type="number" minFractionDigits="2" format="#,##0.00"/>
+    							<span style="color:green;"><g:formatNumber number="${mietvertragInstance[3]}" type="number" minFractionDigits="2" format="#,##0.00"/></span>
 							</g:if>
 						</div></td>
 						
