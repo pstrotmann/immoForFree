@@ -78,12 +78,15 @@ class BankumsatzZuordnungController {
 			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
 		}
 		//Sammelinkasso Stadt Bergkamen ist hart codiert
+		loe =[]
 		bUmsSpez(maxId,"%01009000295902000%","Stadt Bergkamen").each {bUms->
 			anzBankums++
 			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("01009000295902000")
 			anzZahlung = genZahlungenBk(dList, bUms, anzZahlung)
+			loe << bUms
 		}
 		//der Rest
+		umsaetze = umsaetze - loe
 		loe =[]
 		umsaetze.each {Bankumsatz bUms ->
 			anzBankums++
