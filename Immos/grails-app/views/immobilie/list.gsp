@@ -37,7 +37,7 @@
 												
 						<th><div align = right><g:message code="immobilie.anschaffungspreis.label" default="Wert" /></div></th>
 						
-						<th><div align = right><g:message code="immobilie.schenkwert.label" default="Niesbrauch" /></div></th>
+						<th><div align = right><g:message code="immobilie.schenkwert.label" default="Schenkwert" /></div></th>
 						
 						<th><div align = right><g:message code="immobilie.restschuld.label" default="Restschuld" /></div></th>	
 						
@@ -51,7 +51,8 @@
 						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="/Jahr" /></div></th>
 						<th><div align = right><g:message code="immobilie.verkauf.label" default="preis" /></th>
 						<th><div align = right><g:message code="immobilie.einstand.label" default="Einstand" /></div></th>
-						<th><div align = right><g:message code="immobilie.restschuld.label" default="-Restschuld" /></div></th>
+<%--						<th><div align = right><g:message code="immobilie.restschuld.label" default="-Restschuld" /></div></th>--%>
+						<th></th>
 						<th></th>
 						<th></th>
 					</tr>
