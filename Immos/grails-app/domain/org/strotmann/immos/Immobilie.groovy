@@ -340,6 +340,14 @@ class Immobilie {
 		iSum
 	}
 	
+	BigDecimal getNiesbrauch() {
+		10 * jahresnettomiete - annuitaet
+	}
+	
+	BigDecimal getSchenkwert() {
+		anschaffungspreis - niesbrauch -restschuld
+	}
+	
 	static List <Immobilie> getAktImmos() {
 		List <Immobilie> immos = []
 		def Calendar ago = Calendar.getInstance()

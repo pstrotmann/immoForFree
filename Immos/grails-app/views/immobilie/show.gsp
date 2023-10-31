@@ -93,21 +93,27 @@
 						<span class="property-value" aria-labelledby="verkaufspreis-label"><g:formatNumber number="${immobilieInstance.verkaufspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = ${immobilieInstance.bewertungszahl}xJahresnettomiete</span>
 					
 				</li>
-				</g:if>
-				
-<%--				<g:if test="${immobilieInstance?.verkaufspreis}">--%>
-<%--				<li class="fieldcontain">--%>
-<%--					<span id="verkaufspreis-label" class="property-label"><g:message code="immobilie.verkaufspreis.label" default="${immobilieInstance.bewertungszahl}xJahresnetto=Verkaufspreis"/></span>--%>
-<%--					--%>
-<%--						<span class="property-value" aria-labelledby="verkaufspreis-label"><g:formatNumber number="${immobilieInstance.verkaufspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>--%>
-<%--					--%>
-<%--				</li>--%>
-<%--				</g:if>--%>
+				</g:if>			
+
 				
 				<li class="fieldcontain">
 					<span id="restschuld-label" class="property-label"><g:message code="immobilie.restschuld.label" default="Restschuld" /></span>
 					
 						<span class="property-value" aria-labelledby="restschuld-label"><g:formatNumber number="${immobilieInstance.restschuld}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>
+					
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="niesbrauch-label" class="property-label"><g:message code="immobilie.niesbrauch.label" default="Niesbrauch" /></span>
+					
+						<span class="property-value" aria-labelledby="niesbrauch-label"><g:formatNumber number="${immobilieInstance.niesbrauch}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = 10xJahresnettomiete - Annuität </span>
+					
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="schenkwert-label" class="property-label"><g:message code="immobilie.schenkwert.label" default="Schenkwert" /></span>
+					
+						<span class="property-value" aria-labelledby="schenkwert-label"><g:formatNumber number="${immobilieInstance.schenkwert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = Anschaffungspreis - Niesbrauch - Restschuld</span>
 					
 				</li>
 			
