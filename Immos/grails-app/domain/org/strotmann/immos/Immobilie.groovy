@@ -325,7 +325,7 @@ class Immobilie {
 			def iRestschuld = immo.restschuld
 			def iEinheitswert = immo.einheitswert
 			def iWohnflaeche = immo.wohnflaeche
-			def iSchenkwert = iAnschaffung - (10 * iJahresnetto - iAnnuitaet) - iRestschuld
+			def iSchenkwert = iAnschaffung - (10 * (iJahresnetto - iAnnuitaet)) - iRestschuld
 			def iVerkauf = immo.verkaufspreis 
 			iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert, iWohnflaeche, iSchenkwert]
 			iSum.sumJahresnetto += iJahresnetto
@@ -341,7 +341,7 @@ class Immobilie {
 	}
 	
 	BigDecimal getNiesbrauch() {
-		10 * jahresnettomiete - annuitaet
+		10 * (jahresnettomiete - annuitaet)
 	}
 	
 	BigDecimal getSchenkwert() {

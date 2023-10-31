@@ -106,7 +106,7 @@
 				<li class="fieldcontain">
 					<span id="niesbrauch-label" class="property-label"><g:message code="immobilie.niesbrauch.label" default="Niesbrauch" /></span>
 					
-						<span class="property-value" aria-labelledby="niesbrauch-label"><g:formatNumber number="${immobilieInstance.niesbrauch}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = 10xJahresnettomiete - Annuität </span>
+						<span class="property-value" aria-labelledby="niesbrauch-label"><g:formatNumber number="${immobilieInstance.niesbrauch}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = 10 x (Jahresnettomiete - Annuität) </span>
 					
 				</li>
 				
