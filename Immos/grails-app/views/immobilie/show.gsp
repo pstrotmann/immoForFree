@@ -86,6 +86,15 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${immobilieInstance?.grundbesitzwert}">
+				<li class="fieldcontain">
+					<span id="grundbesitzwert-label" class="property-label"><g:message code="immobilie.grundbesitzwert.label" default="Grundbesitzwert"/></span>
+					
+						<span class="property-value" aria-labelledby="grundbesitzwert-label"><g:formatNumber number="${immobilieInstance.grundbesitzwert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></span>
+					
+				</li>
+				</g:if>	
+				
 				<g:if test="${immobilieInstance?.verkaufspreis}">
 				<li class="fieldcontain">
 					<span id="verkaufspreis-label" class="property-label"><g:message code="immobilie.verkaufspreis.label" default="Verkaufspreis"/></span>
@@ -93,7 +102,7 @@
 						<span class="property-value" aria-labelledby="verkaufspreis-label"><g:formatNumber number="${immobilieInstance.verkaufspreis}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = ${immobilieInstance.bewertungszahl}xJahresnettomiete</span>
 					
 				</li>
-				</g:if>			
+				</g:if>		
 
 				
 				<li class="fieldcontain">
@@ -106,14 +115,14 @@
 				<li class="fieldcontain">
 					<span id="niesbrauch-label" class="property-label"><g:message code="immobilie.niesbrauch.label" default="Niesbrauch" /></span>
 					
-						<span class="property-value" aria-labelledby="niesbrauch-label"><g:formatNumber number="${immobilieInstance.niesbrauch}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = 10 x (Jahresnettomiete - Annuität) </span>
+						<span class="property-value" aria-labelledby="niesbrauch-label"><g:formatNumber number="${immobilieInstance.niesbrauch}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = 10 x Jahresnettomiete </span>
 					
 				</li>
 				
 				<li class="fieldcontain">
 					<span id="schenkwert-label" class="property-label"><g:message code="immobilie.schenkwert.label" default="Schenkwert" /></span>
 					
-						<span class="property-value" aria-labelledby="schenkwert-label"><g:formatNumber number="${immobilieInstance.schenkwert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = Anschaffungspreis - Niesbrauch - Restschuld</span>
+						<span class="property-value" aria-labelledby="schenkwert-label"><g:formatNumber number="${immobilieInstance.schenkwert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = Grundbesitzwert - Niesbrauch</span>
 					
 				</li>
 			

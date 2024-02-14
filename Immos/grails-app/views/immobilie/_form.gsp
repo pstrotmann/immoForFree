@@ -58,6 +58,14 @@
 	<g:field name="verkaufspreis" value="${fieldValue(bean: immobilieInstance, field: 'verkaufspreis')}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'grundbesitzwert', 'error')} ">
+	<label for="grundbesitzwert">
+		<g:message code="immobilie.grundbesitzwert.label" default="Grundbesitzwert" />
+		
+	</label>
+	<g:field name="grundbesitzwert" value="${fieldValue(bean: immobilieInstance, field: 'grundbesitzwert')}"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'grundstueckspreis', 'error')} ">
 	<label for="grundstueckspreis">
 		<g:message code="immobilie.grundstueckspreis.label" default="Grundstueckspreis" />

@@ -13,6 +13,7 @@ class Immobilie {
 	BigDecimal verkaufspreis
 	BigDecimal grundstueckspreis
 	BigDecimal grundstuecksgroesse
+	BigDecimal grundbesitzwert
 	boolean erhoehteAbschreibung	
 	boolean sozialerWohnungsbau
 	String grundbuch
@@ -41,6 +42,7 @@ class Immobilie {
 		verkaufspreis(nullable:true)
 		grundstueckspreis(nullable:true)
 		grundstuecksgroesse(nullable:true)
+		grundbesitzwert(nullable:true)
 		erhoehteAbschreibung()
 		sozialerWohnungsbau()
 		mietsachen()
@@ -75,8 +77,13 @@ class Immobilie {
 		z
 	}
 	
-	def getVerkaufspreis () {
-		return this.jahresnettomiete > 0 ? this.jahresnettomiete * bewertungszahl : this.anschaffungspreis
+	def BigDecimal getVerkaufspreis () {
+		BigDecimal vk
+		if (this.jahresnettomiete > 0)		
+			vk = this.jahresnettomiete * bewertungszahl
+		else		
+			vk = this.anschaffungspreis
+		return vk
 	}
 	
 	def getGrundstueckspreisDM () {
@@ -325,8 +332,9 @@ class Immobilie {
 			def iRestschuld = immo.restschuld
 			def iEinheitswert = immo.einheitswert
 			def iWohnflaeche = immo.wohnflaeche
-			def iSchenkwert = iAnschaffung - (10 * (iJahresnetto - iAnnuitaet)) - iRestschuld
-			def iVerkauf = immo.verkaufspreis 
+			def iVerkauf = immo.verkaufspreis
+			def iSchenkwert = iVerkauf - 10 * iJahresnetto
+			 
 			iSum.immobilien << [immo, iJahresnetto, iAnnuitaet, iAnschaffung, iRestschuld, iEinheitswert, iWohnflaeche, iSchenkwert]
 			iSum.sumJahresnetto += iJahresnetto
 			iSum.sumAnnuitaet += iAnnuitaet
@@ -341,11 +349,11 @@ class Immobilie {
 	}
 	
 	BigDecimal getNiesbrauch() {
-		10 * (jahresnettomiete - annuitaet)
+		10 * jahresnettomiete 
 	}
 	
 	BigDecimal getSchenkwert() {
-		anschaffungspreis - niesbrauch -restschuld
+		grundbesitzwert - niesbrauch 
 	}
 	
 	static List <Immobilie> getAktImmos() {
