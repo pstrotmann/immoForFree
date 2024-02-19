@@ -120,9 +120,16 @@
 				</li>
 				
 				<li class="fieldcontain">
-					<span id="schenkwert-label" class="property-label"><g:message code="immobilie.schenkwert.label" default="Schenkwert" /></span>
+					<span id="schenkwert-label" class="property-label"><g:message code="immobilie.schenkwert.label" default="Schenkwert1" /></span>
 					
 						<span class="property-value" aria-labelledby="schenkwert-label"><g:formatNumber number="${immobilieInstance.schenkwert}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = Grundbesitzwert - Niesbrauch</span>
+					
+				</li>
+				
+				<li class="fieldcontain">
+					<span id="schenkwert-label" class="property-label"><g:message code="immobilie.schenkwert.label" default="Schenkwert2" /></span>
+					
+						<span class="property-value" aria-labelledby="schenkwert-label"><g:formatNumber number="${immobilieInstance.verkaufspreis - immobilieInstance.niesbrauch}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/> = Verkaufspreis - Niesbrauch</span>
 					
 				</li>
 			
