@@ -146,14 +146,14 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${rechnungInstance?.kundennummer}">
-				<li class="fieldcontain">
-					<span id="kundennummer-label" class="property-label"><g:message code="rechnung.kundennummer.label" default="Kundennummer" /></span>
-					
-						<span class="property-value" aria-labelledby="kundennummer-label"><g:fieldValue bean="${rechnungInstance}" field="kundennummer"/></span>
-					
-				</li>
-				</g:if>
+<%--				<g:if test="${rechnungInstance?.kundennummer}">--%>
+<%--				<li class="fieldcontain">--%>
+<%--					<span id="kundennummer-label" class="property-label"><g:message code="rechnung.kundennummer.label" default="Kundennummer" /></span>--%>
+<%--					--%>
+<%--						<span class="property-value" aria-labelledby="kundennummer-label"><g:fieldValue bean="${rechnungInstance}" field="kundennummer"/></span>--%>
+<%--					--%>
+<%--				</li>--%>
+<%--				</g:if>--%>
 										
 				<li class="fieldcontain">
 					<span id="umlagefaehig-label" class="property-label"><g:message code="rechnung.umlagefaehig.label" default="Umlagefähig" /></span>

@@ -8,6 +8,7 @@ class Organisation extends Partner {
 	String nameZusatz = ''
 	String rechtsform = ''
 	String steuernummer = ''
+	String kundennummer // unsere Kundennummer beim Rechnungssteller
 	
 	static mappedBy = [partnerrolle:'organisation']
 	
@@ -19,6 +20,7 @@ class Organisation extends Partner {
 		rechtsform (inList:rechtsformen,nullable:true)
 		hausadresse (nullable:true)
 		steuernummer (nullable:true,matches:"[0-9\\/]+")
+		kundennummer (nullable:true)
     }
 	
 	static List getMiniList () {
@@ -45,4 +47,15 @@ class Organisation extends Partner {
 		grails.util.Holders.config.rechtsform
 	}
 	
+	String getKundennummer() {
+		String kdNr
+		if (kundennummer)
+			kdNr = kundennummer
+		else 			
+			rechnungen.each {Rechnung r ->
+				if (r.kundennummer)
+					kdNr = r.kundennummer
+			}					
+		return kdNr
+	}	
 }

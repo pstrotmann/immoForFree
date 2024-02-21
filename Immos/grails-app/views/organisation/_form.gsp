@@ -58,6 +58,14 @@
 	<g:textField name="steuernummer" maxlength="50" pattern="${organisationInstance.constraints.steuernummer.matches}" value="${organisationInstance?.steuernummer}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: organisationInstance, field: 'kundennummer', 'error')} ">
+	<label for="kundennummer">
+		<g:message code="organisation.kundennummer.label" default="(Unsere)Kundennummer" />
+		
+	</label>
+	<g:textField name="kundennummer" maxlength="50" pattern="${organisationInstance.constraints.kundennummer.matches}" value="${organisationInstance?.kundennummer}"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: organisationInstance, field: 'bankverbindung', 'error')} ">
 	<label for="bankverbindung">
 		<g:message code="organisation.bankverbindung.label" default="Bankverbindung" />

@@ -60,6 +60,15 @@
 				</li>
 				</g:if>
 				
+				<g:if test="${organisationInstance?.kundennummer}">
+				<li class="fieldcontain">
+					<span id="nameZusatz-label" class="property-label"><g:message code="organisation.kundennummer.label" default="(unsere)Kundennummer" /></span>
+					
+						<span class="property-value" aria-labelledby="kundennummer-label"><g:fieldValue bean="${organisationInstance}" field="kundennummer"/></span>
+					
+				</li>
+				</g:if>
+				
 				<li class="fieldcontain">
 					<span id="partnerrolle-label" class="property-label"><g:message code="organisation.partnerrolle.label" default="Ansprechpartner" /></span>
 					
