@@ -7,6 +7,7 @@ import org.apache.commons.lang3.StringUtils
 class Immobilie {
 	
 	int baujahr
+	Partner eigentuemer
 	Date eigentumAb
 	Date eigentumBis
 	BigDecimal anschaffungspreis
@@ -31,12 +32,12 @@ class Immobilie {
 					  immoabrechnungen:Immoabrechnung,
 					  zaehlers:Zaehler,
 					  verwendungen:Verwendung]
-	static belongsTo = [eigentuemer : Partner]
 
     static constraints = {
 		hausadresse(unique:true)
 		grundbuch(nullable:true)
 		baujahr()
+		eigentuemer(nullable:true)
 		eigentumAb(nullable:true)
 		eigentumBis(nullable:true)
 		anschaffungspreis(nullable:true)
