@@ -31,6 +31,7 @@ class Immobilie {
 					  immoabrechnungen:Immoabrechnung,
 					  zaehlers:Zaehler,
 					  verwendungen:Verwendung]
+	static belongsTo = [eigentuemer : Partner]
 
     static constraints = {
 		hausadresse(unique:true)

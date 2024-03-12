@@ -27,9 +27,9 @@
 						
 						<g:sortableColumn property="baujahr" title="${message(code: 'immobilie.baujahr.label', default: 'Baujahr')}" />
 					
-						<g:sortableColumn property="eigentumAb" title="${message(code: 'immobilie.eigentumAb.label', default: 'Besitz Ab')}" />
+						<g:sortableColumn property="eigentumAb" title="${message(code: 'immobilie.eigentumAb.label', default: 'Familien-')}" />
 						
-						<th><div align = right><g:message code="immobilie.mietflaeche.label" default="Mietfläche" /></div></th>
+						<th><div align = right><g:message code="immobilie.eigentuemer.label" default="Eigentümer" /></div></th>
 					
 						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="Nettomiete" /></div></th>
 						
@@ -46,7 +46,7 @@
 					<tr>
 						<th></th>
 						<th></th>
-						<th></th>
+						<th><div align = right><g:message code="immobilie.besitzAb.label" default="Besitz Seit" /></div></th>
 						<th></th>
 						<th><div align = right><g:message code="immobilie.jahresnettomiete.label" default="/Jahr" /></div></th>
 						<th><div align = right><g:message code="immobilie.verkauf.label" default="preis" /></th>
@@ -67,8 +67,10 @@
 					
 						<td><g:formatDate date="${immobilieInstance[0].eigentumAb}" format="dd.MM.yyyy"/></td>
 						
+						<td><g:link action="show" id="${immobilieInstance[0].id}">${fieldValue(bean: immobilieInstance[0], field: "eigentuemer")}</g:link></td>
+						
 						<g:if test="${immobilieInstance[6] > 0}">
-							<td><div align = right><g:formatNumber number="${immobilieInstance[6]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
+<%--							<td><div align = right><g:formatNumber number="${immobilieInstance[6]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>--%>
 							<td><div align = right><g:formatNumber number="${immobilieInstance[1]}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						</g:if>
 						<g:else>

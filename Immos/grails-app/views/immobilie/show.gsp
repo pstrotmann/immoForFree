@@ -58,6 +58,16 @@
 					
 				</li>
 				</g:if>
+				
+				<g:if test="${immobilieInstance?.eigentuemer}">
+				<li class="fieldcontain">
+					<span id="eigentuemer-label" class="property-label"><g:message code="immobilie.eigentuemer.label" default="E
+					igentümer" /></span>
+					
+						<span class="property-value" aria-labelledby="eigentuemer-label"><g:fieldValue bean="${immobilieInstance}" field="eigentuemer"/></span>
+					
+				</li>
+				</g:if>
 			
 				<g:if test="${immobilieInstance?.eigentumAb}">
 				<li class="fieldcontain">

@@ -111,4 +111,16 @@ class Partner implements Comparable {
 		}
 		ansprechpartner
 	}
+	
+	static List <Partner> getStrotmann () {
+		List strotmanns
+//		String s = "from Person as p where p.name = 'Strotmann' "
+//		strotmanns = Person.findAll(s)
+//		s = "from Organisation as p where p.name like 'Strotmann%' "
+//		strotmanns = strotmanns + Organisation.findAll(s)
+		String s = "from Partner as p where p.name like 'Strotmann%' "
+		strotmanns = Partner.findAll(s)
+		strotmanns
+	}
+	
 }

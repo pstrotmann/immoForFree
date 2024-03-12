@@ -26,6 +26,15 @@
 	<g:field name="baujahr" type="number" value="${immobilieInstance.baujahr}" required=""/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'eigentuemer', 'error')} required">
+	<label for="eigentuemer">
+		<g:message code="immobilie.eigentuemer.label" default="Eigentümer" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="eigentuemer" name="eigentuemer.id" from="${org.strotmann.immos.Partner.strotmann}" 
+	 optionKey="id" required="" value="${immobilieInstance?.eigentuemer?.id}" class="many-to-one"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: immobilieInstance, field: 'eigentumAb', 'error')} ">
 	<label for="eigentumAb">
 		<g:message code="immobilie.eigentumAb.label" default="Eigentum Ab" />
