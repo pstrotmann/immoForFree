@@ -11,7 +11,6 @@ class Immobilie {
 	Date eigentumAb
 	Date eigentumBis
 	BigDecimal anschaffungspreis
-	BigDecimal verkaufspreis
 	BigDecimal grundstueckspreis
 	BigDecimal grundstuecksgroesse
 	BigDecimal grundbesitzwert
@@ -41,7 +40,6 @@ class Immobilie {
 		eigentumAb(nullable:true)
 		eigentumBis(nullable:true)
 		anschaffungspreis(nullable:true)
-		verkaufspreis(nullable:true)
 		grundstueckspreis(nullable:true)
 		grundstuecksgroesse(nullable:true)
 		grundbesitzwert(nullable:true)
