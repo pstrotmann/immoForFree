@@ -96,10 +96,10 @@
 						<td></td>
 					
 						<td></td>
+						
+						<td></td>
 					
 						<td><div align = right><g:message code="immobilie.summe.label" default="Summen" /></div></td>
-						
-						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumWohnflaeche}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 					
 						<td><div align = right><g:formatNumber number="${immobilieInstanceList.sumJahresnetto}" type="number" minFractionDigits="2" maxFractionDigits="2" format="#,##0.00"/></div></td>
 						
