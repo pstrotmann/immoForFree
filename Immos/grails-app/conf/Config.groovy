@@ -123,7 +123,7 @@ domname=[' ','Dienstleistungsvertrag','Immobilie','Kredit','Mietsache','Mietvert
 kommunikationsart=['Festnetz','Handy','Fax','eMail','Homepage']
 mietsachenart=['Wohnung','Reihenendhaus','Reihenmittelhaus','Doppelhaushälfte','Garage','Stellplatz',
 			   'Ladenlokal','Büro','Lager','Gaststätte','Eisdiele','Werbefläche']
-rechtsform=['Personengemeinschaft','Eigentümergemeinschaft','Körperschaft des öffentlichen Rechts',
+rechtsform=['Personengemeinschaft','Eigentümergemeinschaft','Körperschaft des öffentlichen Rechts','GbR',
 			'AG','e.V.','mbH','GmbH','GmbH & Co.','GmbH & Co KG','AöR', 'UG haftungsbeschränkt', 'e.K.', 'a.G.', 'eG', 'S.à.r.l']
 rolle=[Mieter:'mietvertrag',Mietzahler:'partnerrolle',Kreditgeber:'kredit',Dienstleister:'dienstleistungsvertrag',
 	   Ansprechpartner:'partnerrolle',Rechnungssteller:'rechnung']
