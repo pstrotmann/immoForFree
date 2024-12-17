@@ -132,4 +132,5 @@ zaehlereinheit=['cbm','kwh','Stück','qm']
 zaehlertyp = ['Gas','Strom','Wasser']
 zahlweise = [12:'monatlich',6:'zweimonatlich',4:'vierteljährlich',2:'halbjährlich',1:'jährlich']
 //IP-Adressen von Webservices
-bicService='http://185.82.21.97:8080/Bic-0.1'
+//bicService='http://185.82.21.97:8080/Bic-0.1'
+bicService='http://185.87.21.138:8080/Bic-0.1'
