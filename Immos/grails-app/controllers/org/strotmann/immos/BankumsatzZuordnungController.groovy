@@ -71,20 +71,20 @@ class BankumsatzZuordnungController {
 		
 		anzZahlung = 0
 		anzBankums = 0
-		//Sammelinkasso Westfälische Provinzial ist hart codiert
-		bUmsSpez(maxId,"%ZAHLUNGSAUFSTELLUNG%","WESTFAELISCHE PROVINZIAL").each {bUms->
-			anzBankums++
-			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("ZAHLUNGSAUFSTELLUNG WESTFAELISCHE PROVINZIAL")
-			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
-		}
+//		//Sammelinkasso Westfälische Provinzial ist hart codiert
+//		bUmsSpez(maxId,"%ZAHLUNGSAUFSTELLUNG%","WESTFAELISCHE PROVINZIAL").each {bUms->
+//			anzBankums++
+//			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("ZAHLUNGSAUFSTELLUNG WESTFAELISCHE PROVINZIAL")
+//			anzZahlung = genZahlungen(dList, bUms, anzZahlung)
+//		}
 		//Sammelinkasso Stadt Bergkamen ist hart codiert
 		loe =[]
-		bUmsSpez(maxId,"%01009000295902000%","Stadt Bergkamen").each {bUms->
-			anzBankums++
-			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("01009000295902000")
-			anzZahlung = genZahlungenBk(dList, bUms, anzZahlung)
-			loe << bUms
-		}
+//		bUmsSpez(maxId,"%01009000295902000%","Stadt Bergkamen").each {bUms->
+//			anzBankums++
+//			List <Dienstleistungsvertrag> dList = Dienstleistungsvertrag.findAllByReferenz ("01009000295902000")
+//			anzZahlung = genZahlungenBk(dList, bUms, anzZahlung)
+//			loe << bUms
+//		}
 		//der Rest
 		umsaetze = umsaetze - loe
 		loe =[]
@@ -148,9 +148,9 @@ class BankumsatzZuordnungController {
 		redirect(uri: "/")
 	}
 
-	private List<Bankumsatz> bUmsSpez (Long maxId, String verwZweck, String beguenst) {
-		Bankumsatz.findAll("from Bankumsatz as b where b.id > ? and not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like ? and b.beguenstigterZahlungspflichtiger = ?",[maxId,verwZweck,beguenst])
-	}
+//	private List<Bankumsatz> bUmsSpez (Long maxId, String verwZweck, String beguenst) {
+//		Bankumsatz.findAll("from Bankumsatz as b where b.id > ? and not exists (from Zahlung as z where z.bankumsatz = b.id) and b.verwendungszweck like ? and b.beguenstigterZahlungspflichtiger = ?",[maxId,verwZweck,beguenst])
+//	}
 	
 	private int genZahlungen(List dList, Bankumsatz bUms, int anzZahlung) {
 		dList.each {dv ->
