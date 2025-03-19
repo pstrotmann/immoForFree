@@ -112,6 +112,29 @@ class Partner implements Comparable {
 		ansprechpartner
 	}
 	
+	BigDecimal getSumZahlg() {
+		BigDecimal s = 0
+		partnerrolle.each {Partnerrolle p ->
+			if(p.dienstleistungsvertrag)	
+				p.dienstleistungsvertrag.zahlungen.each{Zahlung z ->
+					s += z.betrag
+				}
+			if(p.kredit)
+			p.kredit.zahlungen.each{Zahlung z ->
+				s += z.betrag
+			}
+			if(p.mietvertrag)
+			p.mietvertrag.zahlungen.each{Zahlung z ->
+				s += z.betrag
+			}
+			if(p.rechnung)
+			p.rechnung.zahlungen.each{Zahlung z ->
+				s += z.betrag
+			}
+		} 
+		s
+	}
+	
 	static List <Partner> getStrotmann () {
 		List strotmanns
 //		String s = "from Person as p where p.name = 'Strotmann' "

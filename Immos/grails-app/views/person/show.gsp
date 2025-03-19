@@ -97,6 +97,13 @@
 					
 				</li>
 				</g:if>
+				
+				<li class="fieldcontain">
+					<span id="sumZahlg-label" class="property-label"><g:message code="person.sumZahlg.label" default="Summe Zahlungen" /></span>
+					<span class="property-value" aria-labelledby="sumZahlg-label">
+						<g:formatNumber number="${personInstance.sumZahlg}" type="number" minFractionDigits="2" format="#,##0.00"/>
+					</span>
+				</li>
 			
 				<g:if test="${personInstance?.kommunikation}">
 				<li class="fieldcontain">
