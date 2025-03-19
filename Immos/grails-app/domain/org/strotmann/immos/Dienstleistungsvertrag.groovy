@@ -80,6 +80,14 @@ class Dienstleistungsvertrag implements Comparable{
 		pauschale * zahlweise / 12
 	}
 	
+	BigDecimal getSumZahlg () {
+		BigDecimal s = 0
+		zahlungen.each{Zahlung z ->
+			s += z.betrag			
+		} 
+		s
+	}
+	
 	Date getVstand () {
 		def List dvsList = Dienstleistungsvertragsstand.findAll("from Dienstleistungsvertragsstand as dvs where dvs.dienstleistungsvertrag = ${id} order by dvs.id")
 		dvsList.empty ? this.vertragsbeginn : dvsList.last().gueltigAb

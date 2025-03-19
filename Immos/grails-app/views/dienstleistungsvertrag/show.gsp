@@ -170,6 +170,13 @@
 					</span>
 				</li>
 				
+				<li class="fieldcontain">
+					<span id="sumZahlg-label" class="property-label"><g:message code="dienstleistungsvertrag.sumZahlg.label" default="Summe Zahlungen" /></span>
+					<span class="property-value" aria-labelledby="sumZahlg-label">
+						<g:formatNumber number="${dienstleistungsvertragInstance.sumZahlg}" type="number" minFractionDigits="2" format="#,##0.00"/>
+					</span>
+				</li>
+				
 				<g:if test="${dienstleistungsvertragInstance?.zahlungen}">
 				<li class="fieldcontain">
 					<span id="zahlungen-label" class="property-label"><g:message code="dienstleistungsvertrag.zahlungen.label" default="Zahlungen" /></span>
