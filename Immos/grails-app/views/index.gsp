@@ -175,7 +175,7 @@
 						</li>
 						<li class="controller">
 							<span id="summen-label" class="property-label"><g:message code="partner.summen.label" default="Summen/Jahr" /></span>
-							<ol>
+							<ul>
 							<g:each in="${Partner.sumZahlgYearP}" var="k">
 								<li>
 									<g:formatNumber number="${k.key}" />
@@ -183,7 +183,7 @@
 									<g:formatNumber number="${k.value}" type="number" minFractionDigits="2"format="#.##0,00"/>
 								</li>
 							</g:each>
-							</ol>
+							</ul>
 						</li>
 					</ul>
 				</ul>

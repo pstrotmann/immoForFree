@@ -171,6 +171,7 @@ class Partner implements Comparable {
 				m[it.key]+=it.value
 			}
 		}
+		m = m.sort{it.key}
 		m
 	}
 	
