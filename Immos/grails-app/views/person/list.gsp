@@ -34,6 +34,7 @@
 						
 						<g:sortableColumn property="hausadresse" title="${message(code: 'person.hausadresse.label', default: 'Hausadresse')}" />
 						
+						<th><div align = right><g:message code="person.sum.label" default="Summe" /></div></th>						
 					
 					</tr>
 				</thead>
@@ -50,7 +51,8 @@
 						<td><g:formatDate date="${personInstance.geburtsdatum}" format="dd.MM.yyyy"/></td>
 						
 						<td>${fieldValue(bean: personInstance, field: "hausadresse")}</td>
-					
+						
+						<td><div align = right><g:formatNumber number="${personInstance.sumZahlgGes}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>					
 					
 					</tr>
 				</g:each>

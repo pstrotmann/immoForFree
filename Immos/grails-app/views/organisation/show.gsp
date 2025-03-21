@@ -107,8 +107,19 @@
 				<li class="fieldcontain">
 					<span id="sumZahlg-label" class="property-label"><g:message code="organisation.sumZahlg.label" default="Summe Zahlungen" /></span>
 					<span class="property-value" aria-labelledby="sumZahlg-label">
-						<g:formatNumber number="${organisationInstance.sumZahlg}" type="number" minFractionDigits="2" format="#,##0.00"/>
+						<g:formatNumber number="${organisationInstance.sumZahlgGes}" type="number" minFractionDigits="2" format="#,##0.00"/>
 					</span>
+				</li>
+				
+				<li class="fieldcontain">
+				<span id="summen-label" class="property-label"><g:message code="organisation.summen.label" default="Summen/Jahr" /></span>
+				<g:each in="${organisationInstance.sumZahlgYear}" var="k">
+					<span class="property-value" aria-labelledby="sumZahlg-label">
+						<g:formatNumber number="${k.key}" />
+						<g:message message=":" />
+						<g:formatNumber number="${k.value}" type="number" minFractionDigits="2"format="#,##0.00"/>
+					</span>
+				</g:each>
 				</li>
 			
 				<g:if test="${organisationInstance?.kommunikation}">

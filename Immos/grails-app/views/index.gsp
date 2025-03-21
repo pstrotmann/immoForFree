@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <%@ page import="org.strotmann.util.*" %>
+<%@ page import="org.strotmann.immos.*" %>
 <html>
 	<head>
 		<meta name="layout" content="main"/>
@@ -163,6 +164,27 @@
 						<li class="controller"><g:link controller="notiz" >Notizen</g:link></li>
 						<li class="controller"><g:link controller="bank" >Banken</g:link></li>
 						
+					</ul>
+					<h3>Summen:</h3>
+					<ul>
+						<li class="controller">
+							<span id="sumZahlg-label" class="property-label"><g:message code="partner.sumZahlg.label" default="Summe Zahlungen" /></span>
+							<span class="property-value" aria-labelledby="sumZahlg-label">
+								<g:formatNumber number="${Partner.sumZahlgGesP}" type="number" minFractionDigits="2" format="#.##0,00"/>
+							</span>
+						</li>
+						<li class="controller">
+							<span id="summen-label" class="property-label"><g:message code="partner.summen.label" default="Summen/Jahr" /></span>
+							<ol>
+							<g:each in="${Partner.sumZahlgYearP}" var="k">
+								<li>
+									<g:formatNumber number="${k.key}" />
+									<g:message message=":" />
+									<g:formatNumber number="${k.value}" type="number" minFractionDigits="2"format="#.##0,00"/>
+								</li>
+							</g:each>
+							</ol>
+						</li>
 					</ul>
 				</ul>
 			</div>

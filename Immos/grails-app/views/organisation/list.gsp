@@ -29,8 +29,10 @@
 					
 						<g:sortableColumn property="rechtsform" title="${message(code: 'organisation.rechtsform.label', default: 'Rechtsform')}" />
 					
-						<th><g:message code="organisation.hausadresse.label" default="Hausadresse" /></th>
-					
+						<th><g:message code="organisation.hausadresse.label" default="Hausadresse" /></th>	
+						
+						<th><div align = right><g:message code="organisation.sum.label" default="Summe" /></div></th>
+										
 					</tr>
 				</thead>
 				<tbody>
@@ -44,8 +46,8 @@
 						<td>${fieldValue(bean: organisationInstance, field: "rechtsform")}</td>
 						
 						<td>${fieldValue(bean: organisationInstance, field: "hausadresse")}</td>
-					
-					
+						
+						<td><div align = right><g:formatNumber number="${organisationInstance.sumZahlgGes}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>
 					</tr>
 				</g:each>
 				</tbody>

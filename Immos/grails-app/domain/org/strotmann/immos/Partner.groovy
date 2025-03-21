@@ -112,35 +112,70 @@ class Partner implements Comparable {
 		ansprechpartner
 	}
 	
-	BigDecimal getSumZahlg() {
+	Map <Integer,BigDecimal> getSumZahlg() {
+		Map m = [:]
 		BigDecimal s = 0
 		partnerrolle.each {Partnerrolle p ->
 			if(p.dienstleistungsvertrag)	
 				p.dienstleistungsvertrag.zahlungen.each{Zahlung z ->
 					s += z.betrag
+					m[z.buchungsjahr]=m[z.buchungsjahr]?:0
+					m[z.buchungsjahr]+=z.betrag
 				}
 			if(p.kredit)
-			p.kredit.zahlungen.each{Zahlung z ->
-				s += z.betrag
-			}
+				p.kredit.zahlungen.each{Zahlung z ->
+					s += z.betrag
+					m[z.buchungsjahr]=m[z.buchungsjahr]?:0
+					m[z.buchungsjahr]+=z.betrag
+				}
 			if(p.mietvertrag)
-			p.mietvertrag.zahlungen.each{Zahlung z ->
-				s += z.betrag
-			}
+				p.mietvertrag.zahlungen.each{Zahlung z ->
+					s += z.betrag
+					m[z.buchungsjahr]=m[z.buchungsjahr]?:0
+					m[z.buchungsjahr]+=z.betrag
+				}
 			if(p.rechnung)
-			p.rechnung.zahlungen.each{Zahlung z ->
-				s += z.betrag
-			}
-		} 
+				p.rechnung.zahlungen.each{Zahlung z ->
+					s += z.betrag
+					m[z.buchungsjahr]=m[z.buchungsjahr]?:0
+					m[z.buchungsjahr]+=z.betrag
+				}
+		}
+		m[0] = s
+		m
+	}
+	
+	BigDecimal getSumZahlgGes() {
+		sumZahlg[0]
+	}
+	
+	Map <Integer,BigDecimal> getSumZahlgYear() {
+		Map m = sumZahlg
+		m.remove(0)
+		m
+	}
+	
+	static BigDecimal getSumZahlgGesP() {
+		BigDecimal s = 0
+		Partner.findAll("from Partner").each {Partner p ->
+			s += p.sumZahlgGes			
+		}
 		s
+	}
+	
+	static Map <Integer,BigDecimal> getSumZahlgYearP() {
+		Map m = [:]
+		Partner.findAll("from Partner").each {Partner p ->
+			p.sumZahlgYear.each {it ->
+				m[it.key]=m[it.key]?:0
+				m[it.key]+=it.value
+			}
+		}
+		m
 	}
 	
 	static List <Partner> getStrotmann () {
 		List strotmanns
-//		String s = "from Person as p where p.name = 'Strotmann' "
-//		strotmanns = Person.findAll(s)
-//		s = "from Organisation as p where p.name like 'Strotmann%' "
-//		strotmanns = strotmanns + Organisation.findAll(s)
 		String s = "from Partner as p where p.name like 'Strotmann%' "
 		strotmanns = Partner.findAll(s)
 		strotmanns
