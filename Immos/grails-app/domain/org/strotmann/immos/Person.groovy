@@ -18,7 +18,7 @@ class Person extends Partner {
 		geburtsdatum (nullable:true)
 		persoenlicheAnrede(nullable:true)
 		hausadresse (nullable:true)
-    }
+    }	
 	
 	String toString() {"${geschlecht == 'm'?'Herr':'Frau'} ${titel?titel:''} ${vorname?vorname:''} ${this.name} "}
 	
