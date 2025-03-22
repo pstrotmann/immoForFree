@@ -1,8 +1,12 @@
 package org.strotmann.immos
+import java.math.BigDecimal;
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.List;
+import java.util.Map;
+
 import org.apache.commons.lang.*
+
 import grails.util.Holders
 
 class Zahlung implements Comparable{
@@ -256,5 +260,22 @@ class Zahlung implements Comparable{
 		DateFormat df = new SimpleDateFormat("dd.MM.yyyy");
 		b.valutadatum = df.format(z.datum)
 		b
+	}
+	
+	static BigDecimal getSumZahlgGes() {
+		BigDecimal s = 0
+		Zahlung.findAll ("from Zahlung").each{Zahlung z ->
+			s += z.betrag
+		}
+		s
+	}
+	
+	static Map <Integer,BigDecimal> getSumZahlgYear() {
+		Map <Integer,BigDecimal> m = [:]
+		Zahlung.findAll ("from Zahlung").each{Zahlung z ->
+			m[z.buchungsjahr]=m[z.buchungsjahr]?:0
+			m[z.buchungsjahr]+=z.betrag
+		}
+		m
 	}
 }

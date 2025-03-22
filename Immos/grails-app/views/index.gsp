@@ -168,15 +168,15 @@
 					<h3>Summen:</h3>
 					<ul>
 						<li class="controller">
-							<span id="sumZahlg-label" class="property-label"><g:message code="partner.sumZahlg.label" default="Summe Zahlungen" /></span>
+							<span id="sumZahlg-label" class="property-label"><g:message code="zahlung.sumZahlg.label" default="Summe Zahlungen" /></span>
 							<span class="property-value" aria-labelledby="sumZahlg-label">
-								<g:formatNumber number="${Partner.sumZahlgGesP}" type="number" minFractionDigits="2" format="#.##0,00"/>
+								<g:formatNumber number="${Zahlung.sumZahlgGes}" type="number" minFractionDigits="2" format="#.##0,00"/>
 							</span>
 						</li>
 						<li class="controller">
-							<span id="summen-label" class="property-label"><g:message code="partner.summen.label" default="Summen/Jahr" /></span>
+							<span id="summen-label" class="property-label"><g:message code="zahlung.summen.label" default="Summen/Jahr" /></span>
 							<ul>
-							<g:each in="${Partner.sumZahlgYearP}" var="k">
+							<g:each in="${Zahlung.sumZahlgYear}" var="k">
 								<li>
 									<g:formatNumber number="${k.key}" />
 									<g:message message=":" />

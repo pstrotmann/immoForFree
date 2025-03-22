@@ -145,35 +145,15 @@ class Partner implements Comparable {
 		m
 	}
 	
-	BigDecimal getSumZahlgGes() {
+	BigDecimal getSumZahlgGesP() {
 		sumZahlg[0]
 	}
 	
-	Map <Integer,BigDecimal> getSumZahlgYear() {
+	Map <Integer,BigDecimal> getSumZahlgYearP() {
 		Map m = sumZahlg
 		m.remove(0)
 		m
-	}
-	
-	static BigDecimal getSumZahlgGesP() {
-		BigDecimal s = 0
-		Partner.findAll("from Partner").each {Partner p ->
-			s += p.sumZahlgGes			
-		}
-		s
-	}
-	
-	static Map <Integer,BigDecimal> getSumZahlgYearP() {
-		Map m = [:]
-		Partner.findAll("from Partner").each {Partner p ->
-			p.sumZahlgYear.each {it ->
-				m[it.key]=m[it.key]?:0
-				m[it.key]+=it.value
-			}
-		}
-		m = m.sort{it.key}
-		m
-	}
+	}	
 	
 	static List <Partner> getStrotmann () {
 		List strotmanns

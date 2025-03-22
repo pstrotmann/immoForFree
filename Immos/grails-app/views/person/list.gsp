@@ -52,7 +52,7 @@
 						
 						<td>${fieldValue(bean: personInstance, field: "hausadresse")}</td>
 						
-						<td><div align = right><g:formatNumber number="${personInstance.sumZahlgGes}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>					
+						<td><div align = right><g:formatNumber number="${personInstance.sumZahlgGesP}" type="number" minFractionDigits="2" format="#,##0.00"/></div></td>					
 					
 					</tr>
 				</g:each>
