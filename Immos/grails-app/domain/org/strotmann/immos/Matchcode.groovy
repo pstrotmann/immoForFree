@@ -40,8 +40,6 @@ class Matchcode {
 			 {name =~ "${params['name']}" &&
 			 vorname =~ "${params['vorname']}" &&
 			 hausadresse != null &&
-			 name =~ "${params['name']}" &&
-			 vorname =~ "${params['vorname']}" &&
 			 hausadresse.strasse =~ "${params['strasse']}" &&
 			 (hausadresse.postleitzahl >= plzLo && hausadresse.postleitzahl < plzHi) &&
 			 hausadresse.ort =~ "${params['ort']}"
@@ -58,12 +56,22 @@ class Matchcode {
 		
 		if (params.strasse.equals("%") && params.ort.equals("%") && params.postleitzahl.equals('0'))
 		pList0 = query.findAll();
+		
 		query = Organisation.where
 		{name =~ "${params['name']}"  &&
 		hausadresse.strasse =~ "${params['strasse']}" &&
 		(hausadresse.postleitzahl >= plzLo && hausadresse.postleitzahl < plzHi) &&
 		hausadresse.ort =~ "${params['ort']}"}
 		List <Organisation> oList = query.findAll()
+		
+		query = Organisation.where
+		{name =~ "${params['name']}" &&
+			hausadresse == null}
+		
+		List <Organisation> pList1 = []
+		
+		if (params.strasse.equals("%") && params.ort.equals("%") && params.postleitzahl.equals('0'))
+		pList1 = query.findAll();
 		
 		List <Matchcode> mcList = []
 		
@@ -103,7 +111,17 @@ class Matchcode {
 			mc.ort = item.hausadresse.ort
 			mcList << mc
 			}
-		}		
+		}
+		pList1.each {item ->
+			Matchcode mc = new Matchcode()
+			mc.id = item.id
+			mc.partnerart = 'o'
+			mc.name = item.name
+			mc.strasse = ''
+			mc.postleitzahl = 0
+			mc.ort = ''
+			mcList << mc
+			}
 		return mcList.sort{it.name}		
 	}	
 }
