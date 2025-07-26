@@ -141,11 +141,11 @@ class Kredit implements Comparable{
 			 saldo += (ks.zinsbetrag?:0) + (ks.verwKostenbetrag?:0)
 		 }
 		
-		if (!ksList.empty && (this.zahlweise == 12 || this.zahlweise == 4 )) {
+		if (!ksList.empty) {
 			Kreditstand ks = ksList[0]
 			def List <Zahlung> zList = Zahlung.findAll("from Zahlung as z where z.kredit = ${id} ")
 			zList.each {Zahlung z ->
-				 if (!(z.datum < ks.laufzeitAb))
+				 if (z.datum > ks.laufzeitAb)
 				 	saldo += z.betrag}
 		}
 		
